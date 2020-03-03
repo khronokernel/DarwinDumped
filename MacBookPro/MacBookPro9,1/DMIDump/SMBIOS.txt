@@ -1,0 +1,1355 @@
+# dmidecode 2.11b
+Handle 0x0000, DMI type 4, 35 bytes
+0000: 04 23 00 00 03 03 01 02 a9 06 03 00 ff fb eb bf 
+0010: 01 89 19 00 fc 08 fc 08 41 04 02 00 03 00 04 00 
+0020: 00 04 00 
+
+Processor Information
+	Socket Designation: U2E1
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel(R) Corporation
+	ID: A9 06 03 00 FF FB EB BF
+	Version: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Voltage: 0.9 V
+	External Clock: 25 MHz
+	Max Speed: 2300 MHz
+	Current Speed: 2300 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0002
+	L2 Cache Handle: 0x0003
+	L3 Cache Handle: 0x0004
+	Serial Number: Not Specified
+	Asset Tag: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Part Number: Not Specified
+
+Handle 0x0001, DMI type 7, 19 bytes
+0000: 07 13 01 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0002, DMI type 7, 19 bytes
+0000: 07 13 02 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 16-way Set-associative
+
+Handle 0x0003, DMI type 7, 19 bytes
+0000: 07 13 03 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0004, DMI type 7, 19 bytes
+0000: 07 13 04 00 01 82 01 06 00 06 00 40 00 40 00 00 
+0010: 05 03 0c 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 6 kB
+	Maximum Size: 6 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 48-way Set-associative
+
+Handle 0x0005, DMI type 4, 35 bytes
+0000: 04 23 05 00 03 03 01 02 a9 06 03 00 ff fb eb bf 
+0010: 01 89 19 00 fc 08 fc 08 41 04 07 00 08 00 09 00 
+0020: 00 04 00 
+
+Processor Information
+	Socket Designation: U2E1
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel(R) Corporation
+	ID: A9 06 03 00 FF FB EB BF
+	Version: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Voltage: 0.9 V
+	External Clock: 25 MHz
+	Max Speed: 2300 MHz
+	Current Speed: 2300 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0007
+	L2 Cache Handle: 0x0008
+	L3 Cache Handle: 0x0009
+	Serial Number: Not Specified
+	Asset Tag: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Part Number: Not Specified
+
+Handle 0x0006, DMI type 7, 19 bytes
+0000: 07 13 06 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0007, DMI type 7, 19 bytes
+0000: 07 13 07 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 16-way Set-associative
+
+Handle 0x0008, DMI type 7, 19 bytes
+0000: 07 13 08 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0009, DMI type 7, 19 bytes
+0000: 07 13 09 00 01 82 01 06 00 06 00 40 00 40 00 00 
+0010: 05 03 0c 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 6 kB
+	Maximum Size: 6 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 48-way Set-associative
+
+Handle 0x000A, DMI type 4, 35 bytes
+0000: 04 23 0a 00 03 03 01 02 a9 06 03 00 ff fb eb bf 
+0010: 01 89 19 00 fc 08 fc 08 41 04 0c 00 0d 00 0e 00 
+0020: 00 04 00 
+
+Processor Information
+	Socket Designation: U2E1
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel(R) Corporation
+	ID: A9 06 03 00 FF FB EB BF
+	Version: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Voltage: 0.9 V
+	External Clock: 25 MHz
+	Max Speed: 2300 MHz
+	Current Speed: 2300 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x000C
+	L2 Cache Handle: 0x000D
+	L3 Cache Handle: 0x000E
+	Serial Number: Not Specified
+	Asset Tag: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Part Number: Not Specified
+
+Handle 0x000B, DMI type 7, 19 bytes
+0000: 07 13 0b 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x000C, DMI type 7, 19 bytes
+0000: 07 13 0c 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 16-way Set-associative
+
+Handle 0x000D, DMI type 7, 19 bytes
+0000: 07 13 0d 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x000E, DMI type 7, 19 bytes
+0000: 07 13 0e 00 01 82 01 06 00 06 00 40 00 40 00 00 
+0010: 05 03 0c 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 6 kB
+	Maximum Size: 6 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 48-way Set-associative
+
+Handle 0x000F, DMI type 4, 35 bytes
+0000: 04 23 0f 00 03 03 01 02 a9 06 03 00 ff fb eb bf 
+0010: 01 89 19 00 fc 08 fc 08 41 04 11 00 12 00 13 00 
+0020: 00 04 00 
+
+Processor Information
+	Socket Designation: U2E1
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel(R) Corporation
+	ID: A9 06 03 00 FF FB EB BF
+	Version: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Voltage: 0.9 V
+	External Clock: 25 MHz
+	Max Speed: 2300 MHz
+	Current Speed: 2300 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0011
+	L2 Cache Handle: 0x0012
+	L3 Cache Handle: 0x0013
+	Serial Number: Not Specified
+	Asset Tag: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Part Number: Not Specified
+
+Handle 0x0010, DMI type 7, 19 bytes
+0000: 07 13 10 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0011, DMI type 7, 19 bytes
+0000: 07 13 11 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 16-way Set-associative
+
+Handle 0x0012, DMI type 7, 19 bytes
+0000: 07 13 12 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0013, DMI type 7, 19 bytes
+0000: 07 13 13 00 01 82 01 06 00 06 00 40 00 40 00 00 
+0010: 05 03 0c 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 6 kB
+	Maximum Size: 6 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 48-way Set-associative
+
+Handle 0x0014, DMI type 4, 35 bytes
+0000: 04 23 14 00 03 03 01 02 a9 06 03 00 ff fb eb bf 
+0010: 01 89 19 00 fc 08 fc 08 41 04 16 00 17 00 18 00 
+0020: 00 04 00 
+
+Processor Information
+	Socket Designation: U2E1
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel(R) Corporation
+	ID: A9 06 03 00 FF FB EB BF
+	Version: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Voltage: 0.9 V
+	External Clock: 25 MHz
+	Max Speed: 2300 MHz
+	Current Speed: 2300 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0016
+	L2 Cache Handle: 0x0017
+	L3 Cache Handle: 0x0018
+	Serial Number: Not Specified
+	Asset Tag: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Part Number: Not Specified
+
+Handle 0x0015, DMI type 7, 19 bytes
+0000: 07 13 15 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0016, DMI type 7, 19 bytes
+0000: 07 13 16 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 16-way Set-associative
+
+Handle 0x0017, DMI type 7, 19 bytes
+0000: 07 13 17 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0018, DMI type 7, 19 bytes
+0000: 07 13 18 00 01 82 01 06 00 06 00 40 00 40 00 00 
+0010: 05 03 0c 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 6 kB
+	Maximum Size: 6 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 48-way Set-associative
+
+Handle 0x0019, DMI type 4, 35 bytes
+0000: 04 23 19 00 03 03 01 02 a9 06 03 00 ff fb eb bf 
+0010: 01 89 19 00 fc 08 fc 08 41 04 1b 00 1c 00 1d 00 
+0020: 00 04 00 
+
+Processor Information
+	Socket Designation: U2E1
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel(R) Corporation
+	ID: A9 06 03 00 FF FB EB BF
+	Version: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Voltage: 0.9 V
+	External Clock: 25 MHz
+	Max Speed: 2300 MHz
+	Current Speed: 2300 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x001B
+	L2 Cache Handle: 0x001C
+	L3 Cache Handle: 0x001D
+	Serial Number: Not Specified
+	Asset Tag: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Part Number: Not Specified
+
+Handle 0x001A, DMI type 7, 19 bytes
+0000: 07 13 1a 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x001B, DMI type 7, 19 bytes
+0000: 07 13 1b 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 16-way Set-associative
+
+Handle 0x001C, DMI type 7, 19 bytes
+0000: 07 13 1c 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x001D, DMI type 7, 19 bytes
+0000: 07 13 1d 00 01 82 01 06 00 06 00 40 00 40 00 00 
+0010: 05 03 0c 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 6 kB
+	Maximum Size: 6 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 48-way Set-associative
+
+Handle 0x001E, DMI type 4, 35 bytes
+0000: 04 23 1e 00 03 03 01 02 a9 06 03 00 ff fb eb bf 
+0010: 01 89 19 00 fc 08 fc 08 41 04 20 00 21 00 22 00 
+0020: 00 04 00 
+
+Processor Information
+	Socket Designation: U2E1
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel(R) Corporation
+	ID: A9 06 03 00 FF FB EB BF
+	Version: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Voltage: 0.9 V
+	External Clock: 25 MHz
+	Max Speed: 2300 MHz
+	Current Speed: 2300 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0020
+	L2 Cache Handle: 0x0021
+	L3 Cache Handle: 0x0022
+	Serial Number: Not Specified
+	Asset Tag: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Part Number: Not Specified
+
+Handle 0x001F, DMI type 7, 19 bytes
+0000: 07 13 1f 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0020, DMI type 7, 19 bytes
+0000: 07 13 20 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 16-way Set-associative
+
+Handle 0x0021, DMI type 7, 19 bytes
+0000: 07 13 21 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0022, DMI type 7, 19 bytes
+0000: 07 13 22 00 01 82 01 06 00 06 00 40 00 40 00 00 
+0010: 05 03 0c 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 6 kB
+	Maximum Size: 6 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 48-way Set-associative
+
+Handle 0x0023, DMI type 4, 35 bytes
+0000: 04 23 23 00 03 03 01 02 a9 06 03 00 ff fb eb bf 
+0010: 01 89 19 00 fc 08 fc 08 41 04 25 00 26 00 27 00 
+0020: 00 04 00 
+
+Processor Information
+	Socket Designation: U2E1
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel(R) Corporation
+	ID: A9 06 03 00 FF FB EB BF
+	Version: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Voltage: 0.9 V
+	External Clock: 25 MHz
+	Max Speed: 2300 MHz
+	Current Speed: 2300 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0025
+	L2 Cache Handle: 0x0026
+	L3 Cache Handle: 0x0027
+	Serial Number: Not Specified
+	Asset Tag: Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+	Part Number: Not Specified
+
+Handle 0x0024, DMI type 7, 19 bytes
+0000: 07 13 24 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0025, DMI type 7, 19 bytes
+0000: 07 13 25 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 16-way Set-associative
+
+Handle 0x0026, DMI type 7, 19 bytes
+0000: 07 13 26 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0027, DMI type 7, 19 bytes
+0000: 07 13 27 00 01 82 01 06 00 06 00 40 00 40 00 00 
+0010: 05 03 0c 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 6 kB
+	Maximum Size: 6 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 48-way Set-associative
+
+Handle 0x0028, DMI type 16, 15 bytes
+0000: 10 0f 28 00 03 03 03 00 00 80 00 fe ff 02 00 
+
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 8 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 2
+
+Handle 0x0029, DMI type 130, 186 bytes
+0000: 82 ba 29 00 2a 00 00 00 b0 00 92 11 0b 03 04 21 
+0010: 00 09 03 11 01 08 0c 00 2c 00 69 78 69 30 69 11 
+0020: 20 81 20 08 3c 3c 00 f0 83 81 00 00 00 00 00 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 0f 22 65 00 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 
+0080: 9e 01 00 00 00 00 00 00 8c 9e 43 4d 53 4f 38 47 
+0090: 58 33 4d 31 41 31 33 33 33 43 39 20 00 00 00 00 
+00a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00b0: 00 00 00 00 00 00 00 00 00 00 
+
+Apple specific SPD
+	000082ba29002a000000b00092110b030421
+	00100009031101080c002c00697869306911
+	0020208120083c3c00f08381000000000000
+	003000000000000000000000000000000000
+	00400000000000000f226500000000000000
+	005000000000000000000000000000000000
+	006000000000000000000000000000000000
+	007000000000000000000000000000000002
+	00809e010000000000008c9e434d534f3847
+	009058334d31413133333343392000000000
+	00a000000000000000000000000000000000
+	00b0000000000000000000000000111b2a00
+	00c02800ffff0000000000200d0001021880
+	00d00035050304050644494d4d300042414e
+	00e04b203000307830323945003078303030
+	00f0303030303000556e6b6e6f776e003078
+
+Handle 0x002A, DMI type 17, 27 bytes
+0000: 11 1b 2a 00 28 00 ff ff 00 00 00 00 00 20 0d 00 
+0010: 01 02 18 80 00 35 05 03 04 05 06 
+
+Memory Device
+	Array Handle: 0x0028
+	Error Information Handle: No Error
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: 8192 MB
+	Form Factor: SODIMM
+	Set: None
+	Locator: DIMM0
+	Bank Locator: BANK 0
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1333 MHz (0.8 ns)
+	Manufacturer: 0x029E
+	Serial Number: 0x00000000
+	Asset Tag: Unknown
+	Part Number: 0x434D534F384758334D314131333333433920
+
+Handle 0x002B, DMI type 130, 186 bytes
+0000: 82 ba 2b 00 2c 00 00 00 b0 00 92 11 0b 03 04 21 
+0010: 00 09 03 11 01 08 0c 00 2c 00 69 78 69 30 69 11 
+0020: 20 81 20 08 3c 3c 00 f0 83 81 00 00 00 00 00 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 0f 22 65 00 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 
+0080: 9e 01 00 00 00 00 00 00 8c 9e 43 4d 53 4f 38 47 
+0090: 58 33 4d 31 41 31 33 33 33 43 39 20 00 00 00 00 
+00a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00b0: 00 00 00 00 00 00 00 00 00 00 
+
+Apple specific SPD
+	000082ba2b002c000000b00092110b030421
+	00100009031101080c002c00697869306911
+	0020208120083c3c00f08381000000000000
+	003000000000000000000000000000000000
+	00400000000000000f226500000000000000
+	005000000000000000000000000000000000
+	006000000000000000000000000000000000
+	007000000000000000000000000000000002
+	00809e010000000000008c9e434d534f3847
+	009058334d31413133333343392000000000
+	00a000000000000000000000000000000000
+	00b0000000000000000000000000111b2c00
+	00c02800ffff0000000000200d0001021880
+	00d00035050304050644494d4d300042414e
+	00e04b203100307830323945003078303030
+	00f0303030303000556e6b6e6f776e003078
+
+Handle 0x002C, DMI type 17, 27 bytes
+0000: 11 1b 2c 00 28 00 ff ff 00 00 00 00 00 20 0d 00 
+0010: 01 02 18 80 00 35 05 03 04 05 06 
+
+Memory Device
+	Array Handle: 0x0028
+	Error Information Handle: No Error
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: 8192 MB
+	Form Factor: SODIMM
+	Set: None
+	Locator: DIMM0
+	Bank Locator: BANK 1
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1333 MHz (0.8 ns)
+	Manufacturer: 0x029E
+	Serial Number: 0x00000000
+	Asset Tag: Unknown
+	Part Number: 0x434D534F384758334D314131333333433920
+
+Handle 0x002D, DMI type 19, 15 bytes
+0000: 13 0f 2d 00 00 00 00 00 ff ff ff 00 28 00 00 
+
+Memory Array Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
+	Physical Array Handle: 0x0028
+	Partition Width: 0
+
+Handle 0x002E, DMI type 0, 24 bytes
+0000: 00 18 2e 00 01 02 00 00 03 7f 80 98 01 00 00 00 
+0010: 00 00 c1 02 00 01 ff ff 
+
+BIOS Information
+	Vendor: Apple Inc.
+	Version: MBP91.88Z.00D3.B08.1208081132
+	Release Date: 08/08/2012
+	ROM Size: 8192 kB
+	Characteristics:
+		PCI is supported
+		BIOS is upgradeable
+		BIOS shadowing is allowed
+		Boot from CD is supported
+		Selectable boot is supported
+		ACPI is supported
+		IEEE 1394 boot is supported
+		Smart battery is supported
+		Function key-initiated network boot is supported
+	BIOS Revision: 0.1
+
+Handle 0x002F, DMI type 1, 27 bytes
+0000: 01 1b 2f 00 01 02 03 04 c5 01 48 dd 2e d8 16 57 
+0010: b5 ab e2 25 01 ee 6d 1d 06 05 06 
+
+System Information
+	Manufacturer: Apple Inc.
+	Product Name: MacBookPro9,1
+	Version: 1.0
+	Serial Number: C02JN0A0DV33
+	UUID: C50148DD-2ED8-1657-B5AB-E22501EE6D1D
+	Wake-up Type: Power Switch
+	SKU Number: System SKU#
+	Family: MacBook Pro
+
+Handle 0x0030, DMI type 2, 16 bytes
+0000: 02 10 30 00 01 02 03 04 05 09 06 31 00 0a 00 00 
+0010: 
+
+Base Board Information
+	Manufacturer: Apple Inc.
+	Product Name: Mac-4B7AC7E43945597E
+	Version: MacBookPro9,1
+	Serial Number: C02242700J0F3JGAZ.
+	Asset Tag: Base Board Asset Tag#
+	Features:
+		Board is a hosting board
+		Board is replaceable
+	Location In Chassis: Part Component
+	Chassis Handle: 0x0031
+	Type: Motherboard
+	Contained Object Handles: 0
+
+Handle 0x0031, DMI type 3, 21 bytes
+0000: 03 15 31 00 01 0a 02 03 00 03 03 01 01 00 00 00 
+0010: 00 00 00 00 00 
+
+Chassis Information
+	Manufacturer: Apple Inc.
+	Type: Notebook
+	Lock: Not Present
+	Version: Mac-4B7AC7E43945597E
+	Serial Number: C02JN0A0DV33
+	Asset Tag: Not Specified
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Other
+	Security Status: Other
+	OEM Information: 0x00000000
+	Height: Unspecified
+	Number Of Power Cords: Unspecified
+	Contained Elements: 0
+
+Handle 0x0032, DMI type 8, 9 bytes
+0000: 08 09 32 00 01 00 02 21 11 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: FireWire 800
+	External Connector Type: IEEE 1394
+	Port Type: Firewire (IEEE P1394)
+
+Handle 0x0033, DMI type 8, 9 bytes
+0000: 08 09 33 00 01 00 02 0b 1f 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: Ethernet
+	External Connector Type: RJ-45
+	Port Type: Network Port
+
+Handle 0x0034, DMI type 8, 9 bytes
+0000: 08 09 34 00 01 00 02 12 10 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: USB0
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x0035, DMI type 8, 9 bytes
+0000: 08 09 35 00 01 00 02 12 10 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: USB1
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x0036, DMI type 8, 9 bytes
+0000: 08 09 36 00 01 00 02 12 10 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: USB2
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x0037, DMI type 8, 9 bytes
+0000: 08 09 37 00 01 00 02 12 10 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: SD Card Reader
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x0038, DMI type 8, 9 bytes
+0000: 08 09 38 00 01 ff 02 00 ff 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: Other
+	External Reference Designator: Mini DisplayPort
+	External Connector Type: None
+	Port Type: Other
+
+Handle 0x0039, DMI type 8, 9 bytes
+0000: 08 09 39 00 01 ff 02 00 ff 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: Other
+	External Reference Designator: Microphone
+	External Connector Type: None
+	Port Type: Other
+
+Handle 0x003A, DMI type 8, 9 bytes
+0000: 08 09 3a 00 01 ff 02 00 ff 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: Other
+	External Reference Designator: Speaker
+	External Connector Type: None
+	Port Type: Other
+
+Handle 0x003B, DMI type 8, 9 bytes
+0000: 08 09 3b 00 01 00 02 1f 1d 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: Audio Line In
+	External Connector Type: Mini Jack (headphones)
+	Port Type: Audio Port
+
+Handle 0x003C, DMI type 8, 9 bytes
+0000: 08 09 3c 00 01 00 02 1f 1d 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: Audio Line Out
+	External Connector Type: Mini Jack (headphones)
+	Port Type: Audio Port
+
+Handle 0x003D, DMI type 8, 9 bytes
+0000: 08 09 3d 00 01 00 02 ff ff 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: MagSafe DC Power
+	External Connector Type: Other
+	Port Type: Other
+
+Handle 0x003E, DMI type 8, 9 bytes
+0000: 08 09 3e 00 01 16 02 00 ff 
+
+Port Connector Information
+	Internal Reference Designator: SATA Port A
+	Internal Connector Type: On Board IDE
+	External Reference Designator: None
+	External Connector Type: None
+	Port Type: Other
+
+Handle 0x003F, DMI type 8, 9 bytes
+0000: 08 09 3f 00 01 16 02 00 ff 
+
+Port Connector Information
+	Internal Reference Designator: SATA Port B
+	Internal Connector Type: On Board IDE
+	External Reference Designator: None
+	External Connector Type: None
+	Port Type: Other
+
+Handle 0x0040, DMI type 8, 9 bytes
+0000: 08 09 40 00 01 00 02 ff ff 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: PCI-Express Mini Card
+	External Connector Type: Other
+	Port Type: Other
+
+Handle 0x0041, DMI type 9, 13 bytes
+0000: 09 0d 41 00 01 a5 08 03 03 00 00 04 06 
+
+System Slot Information
+	Designation: AirPort
+	Type: x1 PCI Express
+	Current Usage: Available
+	Length: Short
+	ID: 0
+	Characteristics:
+		3.3 V is provided
+		Hot-plug devices are supported
+		SMBus signal is supported
+
+Handle 0x0042, DMI type 9, 13 bytes
+0000: 09 0d 42 00 01 a5 08 03 03 01 00 04 06 
+
+System Slot Information
+	Designation: ExpressCard
+	Type: x1 PCI Express
+	Current Usage: Available
+	Length: Short
+	ID: 1
+	Characteristics:
+		3.3 V is provided
+		Hot-plug devices are supported
+		SMBus signal is supported
+
+Handle 0x0043, DMI type 9, 13 bytes
+0000: 09 0d 43 00 01 06 05 03 04 02 00 04 07 
+
+System Slot Information
+	Designation: Thunderbolt Slot 1
+	Type: 32-bit PCI
+	Current Usage: Available
+	Length: Long
+	ID: 2
+	Characteristics:
+		3.3 V is provided
+		PME signal is supported
+		Hot-plug devices are supported
+		SMBus signal is supported
+
+Handle 0x0044, DMI type 9, 13 bytes
+0000: 09 0d 44 00 01 06 05 03 04 03 00 04 07 
+
+System Slot Information
+	Designation: Thunderbolt Slot 2
+	Type: 32-bit PCI
+	Current Usage: Available
+	Length: Long
+	ID: 3
+	Characteristics:
+		3.3 V is provided
+		PME signal is supported
+		Hot-plug devices are supported
+		SMBus signal is supported
+
+Handle 0x0045, DMI type 9, 13 bytes
+0000: 09 0d 45 00 01 06 05 03 04 04 00 04 07 
+
+System Slot Information
+	Designation: Thunderbolt Slot 3
+	Type: 32-bit PCI
+	Current Usage: Available
+	Length: Long
+	ID: 4
+	Characteristics:
+		3.3 V is provided
+		PME signal is supported
+		Hot-plug devices are supported
+		SMBus signal is supported
+
+Handle 0x0046, DMI type 9, 13 bytes
+0000: 09 0d 46 00 01 06 05 03 04 05 00 04 07 
+
+System Slot Information
+	Designation: Thunderbolt Slot 4
+	Type: 32-bit PCI
+	Current Usage: Available
+	Length: Long
+	ID: 5
+	Characteristics:
+		3.3 V is provided
+		PME signal is supported
+		Hot-plug devices are supported
+		SMBus signal is supported
+
+Handle 0x0047, DMI type 10, 6 bytes
+0000: 0a 06 47 00 83 01 
+
+On Board Device Information
+	Type: Video
+	Status: Enabled
+	Description: nVidia Video Adapter
+
+Handle 0x0048, DMI type 10, 6 bytes
+0000: 0a 06 48 00 87 01 
+
+On Board Device Information
+	Type: Sound
+	Status: Enabled
+	Description: Azalia Audio Codec
+
+Handle 0x0049, DMI type 10, 6 bytes
+0000: 0a 06 49 00 85 01 
+
+On Board Device Information
+	Type: Ethernet
+	Status: Enabled
+	Description: Broadcom Ethernet Controller
+
+Handle 0x004A, DMI type 10, 6 bytes
+0000: 0a 06 4a 00 81 01 
+
+On Board Device Information
+	Type: Other
+	Status: Enabled
+	Description: SATA
+
+Handle 0x004B, DMI type 11, 5 bytes
+0000: 0b 05 4b 00 03 
+
+OEM Strings
+	String 1: Apple ROM Version.  BIOS ID:      MBP91.  Built by:     root@sa
+	String 2: umon.  Date:         Wed Aug  8 11:32:13 PDT 2012.  Revision:  
+	String 3:    svn 27462 (B&I).  Buildcave ID: 1105.  ROM Version:  00D3_B0
+
+Handle 0x004C, DMI type 12, 5 bytes
+0000: 0c 05 4c 00 00 
+
+System Configuration Options
+
+Handle 0x004D, DMI type 13, 22 bytes
+0000: 0d 16 4d 00 01 00 00 00 00 00 00 00 00 00 00 00 
+0010: 00 00 00 00 00 00 
+
+BIOS Language Information
+	Installable Languages: 1
+		<BAD INDEX>
+	Currently Installed Language: Not Specified
+
+Handle 0x004E, DMI type 22, 32 bytes
+0000: 16 20 4e 00 01 02 03 04 05 02 00 00 00 00 06 ff 
+0010: 00 00 00 00 07 01 00 00 00 00 00 00 00 00 00 00 
+0020: 
+
+Portable Battery
+	Location: Unknown
+	Manufacturer: Unknown
+	Manufacture Date: Unknown
+	Serial Number: Unknown
+	Name: Unknown
+	Design Capacity: Unknown
+	Design Voltage: Unknown
+	SBDS Version: Unknown
+	Maximum Error: Unknown
+	SBDS Chemistry: Unknown
+	OEM-specific Information: 0x00000000
+
+Handle 0x004F, DMI type 32, 20 bytes
+0000: 20 14 4f 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0010: 00 00 00 00 
+
+System Boot Information
+	Status: No errors detected
+
+Handle 0x0050, DMI type 131, 6 bytes
+0000: 83 06 50 00 04 07 
+
+Apple specific Processor Type
+	 cpu=0704
+
+Handle 0x0051, DMI type 128, 88 bytes
+0000: 80 58 51 00 04 00 00 00 37 f5 01 c0 37 ff 03 c0 
+0010: 02 00 00 03 00 00 00 00 00 00 99 ff ff ff b2 ff 
+0020: 00 00 b3 ff ff ff b5 ff 00 00 b6 ff ff ff df ff 
+0030: 00 00 e7 ff ff ff e9 ff 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 
+
+Apple specific FirmwareVolume
+	FirmwareFeatures: c001f537
+	FirmwareFeaturesMask: c003ff37
+	Region Type:02 Start:ff990000 End:ffb2ffff
+	Region Type:00 Start:ffb30000 End:ffb5ffff
+	Region Type:00 Start:ffb60000 End:ffdfffff
+	Region Type:03 Start:ffe70000 End:ffe9ffff
+
+Handle 0xFFFD, DMI type 127, 4 bytes
+0000: 7f 04 fd ff 
+
+End Of Table
+

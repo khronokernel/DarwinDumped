@@ -1,0 +1,15 @@
+[
+{"data":{"title":"IOTTYSuffix"},"attr":{"id":"15013","ColType":"String","ColValue":""}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"15015","ColType":"String","ColValue":"com.apple.driver.AppleIntelLpssUARTv1"}},
+{"data":{"title":"IOClass"},"attr":{"id":"15017","ColType":"String","ColValue":"AppleIntelLpssUARTv1"}},
+{"data":{"title":"IOTTYBaseName"},"attr":{"id":"15019","ColType":"String","ColValue":"BLTH"}},
+{"data":{"title":"LpssUartUseSclkRange"},"attr":{"id":"15021","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOKitDebug"},"attr":{"id":"15023","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"15025","ColType":"Number","ColValue":"1600"}},
+{"data":{"title":"Master Clock"},"attr":{"id":"15027","ColType":"Number","ColValue":"48000000"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"15029","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"compatible"},"attr":{"id":"15031","ColType":"Data","ColValue":"&lt;\"apple-uart-blth\"&gt;"}},
+{"data":{"title":"IOPCIMatch"},"attr":{"id":"15033","ColType":"String","ColValue":"0xa2a78086 0xa2a88086 0xa2e68086"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"15035","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"15037","ColType":"Number","ColValue":"1"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"15039","ColType":"Number","ColValue":"1"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"15041","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"15043","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"15045","ColType":"String","ColValue":"IOPCIDevice"}}
+]

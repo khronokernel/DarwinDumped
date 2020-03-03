@@ -1,0 +1,132 @@
+PMAP: PCID enabled
+Darwin Kernel Version 12.3.0: Sun Jan  6 22:37:10 PST 2013; root:xnu-2050.22.13~1/RELEASE_X86_64
+vm_page_bootstrap: 4905522 free pages and 304590 wired pages
+kext submap [0xffffff7f80735000 - 0xffffff8000000000], kernel text [0xffffff8000200000 - 0xffffff8000735000]
+zone leak detection enabled
+standard timeslicing quantum is 10000 us
+standard background quantum is 2500 us
+mig_table_max_displ = 74
+corecrypto kext started!
+Running kernel space in FIPS MODE
+Plist hmac value is    735d392b68241ef173d81097b1c8ce9ba283521626d1c973ac376838c466757d
+Computed hmac value is 735d392b68241ef173d81097b1c8ce9ba283521626d1c973ac376838c466757d
+corecrypto.kext FIPS integrity POST test passed!
+corecrypto.kext FIPS AES CBC POST test passed!
+corecrypto.kext FIPS TDES CBC POST test passed!
+corecrypto.kext FIPS AES ECB AESNI POST test passed!
+corecrypto.kext FIPS AES XTS AESNI POST test passed!
+corecrypto.kext FIPS SHA POST test passed!
+corecrypto.kext FIPS HMAC POST test passed!
+corecrypto.kext FIPS ECDSA POST test passed!
+corecrypto.kext FIPS DRBG POST test passed!
+corecrypto.kext FIPS POST passed!
+AppleACPICPU: ProcessorId=0 LocalApicId=0 Enabled
+AppleACPICPU: ProcessorId=1 LocalApicId=32 Enabled
+AppleACPICPU: ProcessorId=2 LocalApicId=2 Enabled
+AppleACPICPU: ProcessorId=3 LocalApicId=34 Enabled
+AppleACPICPU: ProcessorId=4 LocalApicId=4 Enabled
+AppleACPICPU: ProcessorId=5 LocalApicId=36 Enabled
+AppleACPICPU: ProcessorId=6 LocalApicId=16 Enabled
+AppleACPICPU: ProcessorId=7 LocalApicId=48 Enabled
+AppleACPICPU: ProcessorId=8 LocalApicId=18 Enabled
+AppleACPICPU: ProcessorId=9 LocalApicId=50 Enabled
+AppleACPICPU: ProcessorId=10 LocalApicId=20 Enabled
+AppleACPICPU: ProcessorId=11 LocalApicId=52 Enabled
+AppleACPICPU: ProcessorId=12 LocalApicId=1 Enabled
+AppleACPICPU: ProcessorId=13 LocalApicId=33 Enabled
+AppleACPICPU: ProcessorId=14 LocalApicId=3 Enabled
+AppleACPICPU: ProcessorId=15 LocalApicId=35 Enabled
+AppleACPICPU: ProcessorId=16 LocalApicId=5 Enabled
+AppleACPICPU: ProcessorId=17 LocalApicId=37 Enabled
+AppleACPICPU: ProcessorId=18 LocalApicId=17 Enabled
+AppleACPICPU: ProcessorId=19 LocalApicId=49 Enabled
+AppleACPICPU: ProcessorId=20 LocalApicId=19 Enabled
+AppleACPICPU: ProcessorId=21 LocalApicId=51 Enabled
+AppleACPICPU: ProcessorId=22 LocalApicId=21 Enabled
+AppleACPICPU: ProcessorId=23 LocalApicId=53 Enabled
+calling mpo_policy_init for TMSafetyNet
+Security policy loaded: Safety net for Time Machine (TMSafetyNet)
+calling mpo_policy_init for Sandbox
+Security policy loaded: Seatbelt sandbox policy (Sandbox)
+calling mpo_policy_init for Quarantine
+Security policy loaded: Quarantine policy (Quarantine)
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+	The Regents of the University of California. All rights reserved.
+
+MAC Framework successfully initialized
+using 16384 buffer headers and 10240 cluster IO buffer headers
+IOAPIC: Version 0x20 Vectors 64:87
+ACPI: System State [S0 S3 S4 S5]
+PFM64 (40 cpu) 0xff80000000, 0x80000000
+[ PCI configuration begin ]
+AppleIntelCPUPowerManagement: Turbo Ratios 222233
+AppleIntelCPUPowerManagement: (built 00:59:42 Aug 25 2012) initialization complete
+console relocated to 0xff80010000
+PCI configuration changed (bridge=7 device=2 cardbus=0)
+[ PCI configuration end, bridges 15 devices 51 ]
+mbinit: done [128 MB total pool size, (85/42) split]
+Pthread support ABORTS when sync kernel primitives misused
+ETH0 cannot assert wake from D3cold
+ETH1 cannot assert wake from D3cold
+rooting via boot-uuid from /chosen: 506B7091-1D83-3BDA-A072-53F43960C1E4
+Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOResources</string><key>IOResourceMatch</key><string ID="2">boot-uuid-media</string></dict>
+com.apple.AppleFSCompressionTypeZlib kmod start
+com.apple.AppleFSCompressionTypeDataless kmod start
+com.apple.AppleFSCompressionTypeZlib load succeeded
+com.apple.AppleFSCompressionTypeDataless load succeeded
+AppleIntelCPUPowerManagementClient: ready
+Intel82574L::start - Built Jan  6 2013 22:39:33 -- running on device at b9 d0 f0
+Intel82574L::start - Built Jan  6 2013 22:39:33 -- running on device at b10 d0 f0
+Got boot device = IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/SATA@1F,2/AppleAHCI/PRT1@1/IOAHCIDevice@0/AppleAHCIDiskDriver/IOAHCIBlockStorageDevice/IOBlockStorageDriver/M4-CT512M4SSD2 Media/IOGUIDPartitionScheme/Lion@3
+BSD root: disk0s3, major 1, minor 2
+BTCOEXIST off 
+BRCM tunables:
+  pullmode[1] txringsize[  256] txsendqsize[1024] reapmin[   32] reapcount[  128]
+Kernel is LP64
+FireWire (OHCI) TI ID 823f built-in now active, GUID 70cd60fffe932a16; max speed s800.
+Intel82574L: Ethernet address 3c:07:54:7d:44:a2
+Intel82574L: Ethernet address 3c:07:54:7d:57:31
+AirPort_Brcm4331: Ethernet address 28:37:37:0a:8b:e7
+IO80211Controller::dataLinkLayerAttachComplete():  adding AppleEFINVRAM notification
+createVirtIf(): ifRole = 1
+in func createVirtualInterface ifRole = 1
+AirPort_Brcm4331_P2PInterface::init name <p2p0> role 1 this 0xffffff8057f6e400
+AirPort_Brcm4331_P2PInterface::init() <p2p> role 1
+Created virtif 0xffffff8057f6e400 p2p0
+jnl: disk0s2: replay_journal: from: 1893888 to: 7847424 (joffset 0x2ec000)
+Intel82574L::setLinkStatus - not active  1face000, 0
+Previous Shutdown Cause: 3
+IOBluetoothUSBDFU::probe
+IOBluetoothUSBDFU::probe ProductID - 0x8215 FirmwareVersion - 0x0201
+[BroadcomBluetoothHCIControllerUSBTransport][start] -- completed
+[IOBluetoothHCIController][staticBluetoothHCIControllerTransportShowsUp] -- Received Bluetooth Controller register service notification 
+[IOBluetoothHCIController][start] -- completed
+AirPort: Link Down on en2. Reason 8 (Disassociated because station leaving).
+en2::IO80211Interface::postMessage bssid changed
+AMDJuniperGraphicsAccelerator: ** Device in slot: SLOT-1 **
+[IOBluetoothHCIController::setConfigState] calling registerService
+Waiting for DSMOS...
+[AGPM Controller] unknownPlatform
+AppleTyMCEDriver::start coreVIDPID = 0x2c708086 Number of packages = 1 Number of cpus = 24 memory monitor trough PCI
+jnl: disk0s2: journal replay done.
+hfs: Removed 1 orphaned / unlinked files and 0 directories 
+Intel82574L::setLinkStatus - not active  1face000, 0
+Intel82574L::setLinkStatus - not active  1face001, 0
+DSMOS has arrived
+Intel82574L::setLinkStatus - not active  1face001, 0
+Intel82574L::setLinkStatus - not active  1face000, 0
+macx_swapon SUCCESS
+Ethernet [Intel82574L]: Link up on en0, 1-Gigabit, Full-duplex, Symmetric flow-control, Debug [796d,af08,0de1,0200,c5e1,3800]
+Intel82574L::setLinkStatus - active  1face000, b
+Intel82574L::timeoutHandler - no link - reset the chipset once  1face001, 0
+Intel82574L::setLinkStatus - not active  1face001, 0
+Intel82574L::setLinkStatus - not active  1face001, 0
+Intel82574L::setLinkStatus - not active  1face001, 0
+considerRebuildOfPrelinkedKernel com.apple.driver.AppleUSBCDC triggered rebuild
+USBMSC Identifier (non-unique): 2584811B7191714A 0x781 0x5530 0x200
+Kext com.apple.driver.AppleMobileDevice not found for unload request.
+Kext com.apple.driver.AppleUSBEthernetHost not found for unload request.
+Resetting IOCatalogue.
+Resetting IOCatalogue.
+[0xffffff8056923e00](1)/(5) Device not responding
+USBMSC Identifier (non-unique): 2584811B7191714A 0x781 0x5530 0x200

@@ -1,0 +1,163 @@
+Longterm timer threshold: 1000 ms
+PMAP: PCID enabled
+PMAP: Supervisor Mode Execute Protection enabled
+Darwin Kernel Version 13.2.0: Thu Apr 17 23:03:13 PDT 2014; root:xnu-2422.100.13~1/RELEASE_X86_64
+vm_page_bootstrap: 1983731 free pages and 97037 wired pages
+kext submap [0xffffff7f807a9000 - 0xffffff8000000000], kernel text [0xffffff8000200000 - 0xffffff80007a9000]
+zone leak detection enabled
+"vm_compressor_mode" is 4
+standard timeslicing quantum is 10000 us
+standard background quantum is 2500 us
+mig_table_max_displ = 74
+TSC Deadline Timer supported and enabled
+AppleACPICPU: ProcessorId=1 LocalApicId=0 Enabled
+AppleACPICPU: ProcessorId=2 LocalApicId=2 Enabled
+AppleACPICPU: ProcessorId=3 LocalApicId=4 Enabled
+AppleACPICPU: ProcessorId=4 LocalApicId=6 Enabled
+AppleACPICPU: ProcessorId=5 LocalApicId=255 Disabled
+AppleACPICPU: ProcessorId=6 LocalApicId=255 Disabled
+AppleACPICPU: ProcessorId=7 LocalApicId=255 Disabled
+AppleACPICPU: ProcessorId=8 LocalApicId=255 Disabled
+calling mpo_policy_init for TMSafetyNet
+Security policy loaded: Safety net for Time Machine (TMSafetyNet)
+calling mpo_policy_init for Sandbox
+Security policy loaded: Seatbelt sandbox policy (Sandbox)
+calling mpo_policy_init for Quarantine
+Security policy loaded: Quarantine policy (Quarantine)
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+	The Regents of the University of California. All rights reserved.
+
+MAC Framework successfully initialized
+using 16384 buffer headers and 10240 cluster IO buffer headers
+AppleKeyStore starting (BUILT: Apr 17 2014 23:36:27)
+IOAPIC: Version 0x20 Vectors 64:87
+ACPI: sleep states S3 S4 S5
+pci (build 23:24:05 Apr 17 2014), flags 0x63008, pfm64 (39 cpu) 0x7f80000000, 0x80000000
+[ PCI configuration begin ]
+console relocated to 0x7f80020000
+[ PCI configuration end, bridges 12, devices 14 ]
+AppleThunderboltNHIType2::setupPowerSavings - GPE based runtime power management
+mcache: 4 CPU(s), 64 bytes CPU cache line size
+mbinit: done [96 MB total pool size, (64/32) split]
+Pthread support ABORTS when sync kernel primitives misused
+rooting via boot-uuid from /chosen: 0A72ACE6-3CA9-3689-92AB-46C63CC23C2E
+Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOResources</string><key>IOResourceMatch</key><string ID="2">boot-uuid-media</string></dict>
+com.apple.AppleFSCompressionTypeZlib kmod start
+com.apple.AppleFSCompressionTypeDataless kmod start
+com.apple.AppleFSCompressionTypeZlib load succeeded
+com.apple.AppleFSCompressionTypeDataless load succeeded
+srom rev:11
+ARPT: 0.464445: ChangeVCO => vco:960, xtalF:40, frac: 98, ndivMode: 3, ndivint: 24
+ARPT: 0.464454: Data written into the PLL_CNTRL_ADDR2: 00000c31
+ARPT: 0.464473: Data written into the PLL_CNTRL_ADDR3 (Fractional): 0000100e
+ARPT: 0.470550: BTCOEXIST off 
+ARPT: 0.470684: BRCM tunables:
+ARPT: 0.470688:   pullmode[1] txringsize[  256] txsendqsize[1024] reapmin[   32] reapcount[  128]
+ARPT: 0.471225: wl0: Broadcom BCM43a0, vendorID[0x14e4] BAR0[0xb1a00004]
+6.30.223.154 (r420397)
+Got boot device = IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/SATA@1F,2/AppleIntelPchSeriesAHCI/PRT0@0/IOAHCIDevice@0/AppleAHCIDiskDriver/IOAHCIBlockStorageDevice/IOBlockStorageDriver/APPLE HDD ST1000DM003 Media/IOGUIDPartitionScheme/Customer@2
+BSD root: disk0s2, major 1, minor 2
+Thunderbolt Self-Reset Count = 0xedefbe00
+hfs: mounted Macintosh HD on device root_device
+IOThunderboltSwitch<0xffffff801b1c5a00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+IOThunderboltSwitch<0xffffff801b1c5a00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+XCPM: registered
+USBMSC Identifier (non-unique): 57584B314536334444534A4D 0x1058 0x812 0x1049, 3
+com_sony_driver_dsccamDeviceInfo00 >> probe()
+com_sony_driver_dsccamDeviceInfo00 : VENDOR_ID: WD
+com_sony_driver_dsccamDeviceInfo00 << probe()
+com_sony_driver_dsccamDeviceInfo00::probe fails
+IO80211Controller::dataLinkLayerAttachComplete():  adding AppleEFINVRAM notification
+IO80211Interface::efiNVRAMPublished():  
+flow_divert_kctl_disconnect (0): disconnecting group 1
+NVDAStartup: Official
+NVDAGK100HAL loaded and registered
+SMC::smcReadKeyAction ERROR: smcReadData8 failed for key LsNM (kSMCKeyNotFound)
+SMC::smcReadKeyAction ERROR LsNM kSMCKeyNotFound(0x84) fKeyHashTable=0x0
+SMC::smcGetLightshowVers ERROR: smcReadKey LsNM failed (kSMCKeyNotFound)
+SMC::smcPublishLightshowVersion ERROR: smcGetLightshowVers failed (kSMCKeyNotFound)
+SMC::smcInitHelper ERROR: smcPublishLightshowVersion failed (kSMCKeyNotFound)
+Previous Shutdown Cause: 0
+IOBluetoothUSBDFU::probe
+IOBluetoothUSBDFU::probe ProductID - 0x828D FirmwareVersion - 0x0079
+**** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = TRUE -- 0x0400 ****
+**** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed -- 0x0400 ****
+init
+probe
+start
+[IOBluetoothHCIController][staticBluetoothHCIControllerTransportShowsUp] -- Received Bluetooth Controller register service notification -- 0x0400 
+[IOBluetoothHCIController][start] -- completed
+[IOBluetoothHCIController::setConfigState] calling registerService
+**** [IOBluetoothHCIController][protectedBluetoothHCIControllerTransportShowsUp] -- Connected to the transport successfully -- 0xd9c0 -- 0xe800 -- 0x0400 ****
+
+DSMOS has arrived
+IOPPF - IODeviceTree:/efi/platform/StartupPowerEvents: 0x0
+IOPPF - Found another boot volume.[AGPM Controller] build GPUDict by Vendor10deDevice119d
+IOPPF: XCPM mode
+hmm.. mismatch sizes: 3100 vs 20
+Ethernet [AppleBCM5701Ethernet]: Link up on en0, 100-Megabit, Full-duplex, Symmetric flow-control, Debug [796d,0301,0de1,0300,45e1,0000]
+         0 [Level 5] [com.apple.message.domain com.apple.commssw.ethernet.broadcom.link] [com.apple.message.signature 100-Megabit] [com.apple.message.signature2 Full-duplex] [com.apple.message.signature3 Symmetric flow-control] [com.apple.message.signature4 EEE disabled]
+         0 [Level 5] [com.apple.message.domain com.apple.commssw.ethernet.broadcom.load] [com.apple.message.signature 0x14E4] [com.apple.message.signature2 0x1686] [com.apple.message.signature3 {Asymmetric-Pause=0}{Pause=1}{100baseTX-full-duplex=1}{100baseTX-half-duplex=1}{10baseT-full-duplex=1}{10baseT-half-duplex=1}{1000baseT-full-duplex=0}{100baseTX-EEE=0}{1000baseT-EEE=0}] [com.apple.message.signature4 1]
+AirPort: Link Down on en1. Reason 8 (Disassociated because station leaving).
+VM Swap Subsystem is ON
+AirPort_Brcm4360_P2PInterface::init name <p2p0> role 1
+AirPort_Brcm4360_P2PInterface::init() <p2p> role 1
+_configureInterests - nElements <= 0!_configureInterests - nElements <= 0!en1: 802.11d country code set to 'GB'.
+en1: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161 165
+hfs: mounted Recovery HD on device disk0s3
+[BNBMouseDevice::init][80.14] init is complete
+[BNBMouseDevice::handleStart][80.14] returning 1
+[AppleMultitouchHIDEventDriver::start] entered
+[AppleMultitouchDevice::start] entered
+hfs: unmount initiated on Recovery HD on device disk0s3
+AppleKeyStore:Sending lock change 0
+pci pause: SDXC
+         0 [Level 5] [Facility messagetracer] [com.apple.message.domain com.apple.kernel.cs.mismatch] [com.apple.message.signature 1000] [com.apple.message.signature2 3345639bd98273913ff25086fe0151f45fea0fa3] [com.apple.message.signature3 38872323d4adae2cb310de88ceeeae695630ffd7] [com.apple.message.summarize YES] 
+         0 [Level 5] [Facility messagetracer] [com.apple.message.domain com.apple.kernel.cs.invalidate] [com.apple.message.signature invalidate] [com.apple.message.signature4 525] [com.apple.message.signature3 ksadmin] [com.apple.message.summarize YES] 
+CODE SIGNING: cs_invalid_page(0x1000): p=525[ksadmin] final status 0x0, allowing (remove VALID) page
+         0 [Level 5] [Facility messagetracer] [com.apple.message.domain com.apple.kernel.cs.invalidate] [com.apple.message.signature invalidate] [com.apple.message.signature4 540] [com.apple.message.signature3 ksadmin] [com.apple.message.summarize YES] 
+CODE SIGNING: cs_invalid_page(0x1000): p=540[ksadmin] final status 0x0, allowing (remove VALID) page
+hfs: mounted OS X Snow Leopard Install Disk - 10.6.8 on device disk1s2
+hfs: mounted OS X Lion Install Disk - 10.7.5 on device disk1s3
+hfs: mounted OS X Mountain Lion Install Disk - 10.8.5 on device disk1s4
+hfs: mounted OS X 10.9 Install Disk - 10.9.3 on device disk1s5
+hfs: mounted OS X Install Disk - 10.10 on device disk1s6
+hfs: mounted BootTest on device disk1s7
+hfs: mounted SoftDisk on device disk1s8
+hfs: mounted DataDisk on device disk1s9
+         0 [Level 5] [Facility messagetracer] [com.apple.message.domain com.apple.kernel.cs.mismatch] [com.apple.message.signature 1000] [com.apple.message.signature2 53a18aae61685cc356b171ce37cc504048ed45a1] [com.apple.message.signature3 b928c695e1e1a867d5fc392eb8f09e460f3139af] [com.apple.message.summarize YES] 
+         0 [Level 5] [Facility messagetracer] [com.apple.message.domain com.apple.kernel.cs.invalidate] [com.apple.message.signature invalidate] [com.apple.message.signature4 1092] [com.apple.message.signature3 GoogleSoftwareUp] [com.apple.message.summarize YES] 
+CODE SIGNING: cs_invalid_page(0x1000): p=1092[GoogleSoftwareUp] final status 0x0, allowing (remove VALID) page
+TUFS: starting (version 2013.3.14, x86_64 (10.6+), built Mar 14 2013, 14:13:23)
+hfs: mounted Tuxera NTFS on device disk2s1
+hfs: unmount initiated on Tuxera NTFS on device disk2s1
+considerRebuildOfPrelinkedKernel com.tuxera.filesystems.tufsfs.fusefs_txantfs triggered rebuild
+RadeonPCI::start
+Range[0]        100800000:          400000
+Range[1]        108000000:         8000000
+Range[2]             2000:              40
+Range@0x10        100800000:          400000
+Range@0x10 (       100800000) mapped to kernel virtual address ffffff8115158000
+ATI ROM start at           9d0000 mapped to kernel virtual address ffffff812b021000
+ROM signature is read as: 0000ffff
+Config register@0x4 = 00900407
+RadeonPCIUserClient::initWithTask(type 23)
+RadeonPCIUserClient::start
+RadeonPCIUserClient::clientMemoryForType(100)
+RadeonPCIUserClient::stop
+RadeonPCI::start
+Range[0]        101000000:         1000000
+RadeonPCI::stop
+RadeonPCI::stop
+Can't unload kext com.dong.driver.RadeonPCI; classes have instances:
+    Kext com.dong.driver.RadeonPCI class RadeonPCI has 1 instance.
+Range[1]        110000000:        10000000
+Range[2]        102000000:         2000000
+Range[3]             1000:              80
+Range[4]        104000000:           80000
+Range@0x10        101000000:         1000000
+Range@0x10 (       101000000) mapped to kernel virtual address ffffff8116715000
+ATI ROM start at          11f0000 mapped to kernel virtual address ffffff812b021000
+ROM signature is read as: 0000ffff
+Config register@0x4 = 00100406
+RadeonPCI: not registry member at registerService()

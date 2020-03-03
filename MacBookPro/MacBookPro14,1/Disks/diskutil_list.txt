@@ -1,0 +1,15 @@
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         121.3 GB   disk0
+   1:                        EFI EFI                     314.6 MB   disk0s1
+   2:                 Apple_APFS Container disk1         121.0 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +121.0 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume Macintosh HD            99.8 GB    disk1s1
+   2:                APFS Volume Preboot                 20.4 MB    disk1s2
+   3:                APFS Volume Recovery                519.9 MB   disk1s3
+   4:                APFS Volume VM                      3.2 GB     disk1s4
+

@@ -1,0 +1,29 @@
+/dev/disk2 
+JetFlash Transcend 32GB Media 
+Physical Block (sector) size: Unknown bytes 
+Using Block (sector) size: 512 bytes 
+Total Number of Blocks: 61741056 
+Total Disk Size: 31.6 GB 
+  
+MBR Partition Entry 1: 00feffffeefeffff01000000ff17ae03 
+MBR Partition Entry 2: 00000000000000000000000000000000 
+MBR Partition Entry 3: 00000000000000000000000000000000 
+MBR Partition Entry 4: 00000000000000000000000000000000 
+  
+Partition Map: GUID Partition Table 
+Disk GUID:756ef48f-663d-4a4a-a48d-c64c18ad7a30 
+Partition GUID: e065b32f-4256-430d-be74-0855363e81cc | Name: EFI System Partition 
+Partition GUID: f1898b53-a3dd-49b8-b6bf-ae5096dc4237 | Name: 32 
+
+=========  =========             ========              ==========  ========= 
+LBA Start  Type                  GPT Name              LoaderCode  Size LBA 
+=========  =========             ========              ==========  ========= 
+0          MBR                                                     1 
+1          Primary GPT Header                                      1 
+2          Primary GPT Table                                       32 
+34         Space                                                   6 
+40         EFI System Partition  EFI System Partition  Apple EFI   409600 
+409640     HFS+                  32                                61069232 
+61478872   Space                                                   262151 
+61741023   Backup GPT Table                                        32 
+61741055   Backup GPT Header                                       1 

@@ -1,0 +1,259 @@
+rUSBTransport][start] -- Completed (matched on Device) -- 0x3000 ****
+[IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- 0x3000 
+[IOBluetoothHostController][start] -- completed
+**** [BroadcomBluetoothHostController][SetupController] -- Delay HCI Reset by 300ms  ****
+IO80211VirtualInterface::createIOReporters p2p0 provider 0
+IO80211InterfaceMonitor::initWithServiceAndName(): Unable to get fProvider
+ Unable to create IO80211InterfaceMonitor
+AirPort_Brcm4360_P2PInterface::init name <p2p0> role 1
+IO80211VirtualInterface::init _controller is 0xac60c58f7892ae79, provider is 0xac60c58eb93a5179
+IO80211VirtualInterface::createIOReporters p2p0 provider 0xac60c58f7892ae79
+AirPort_Brcm4360_P2PInterface::init <p2p> role 1
+IO80211VirtualInterface::createIOReporters awdl0 provider 0
+IO80211InterfaceMonitor::initWithServiceAndName(): Unable to get fProvider
+ Unable to create IO80211InterfaceMonitor
+AirPort_Brcm4360_P2PInterface::init name <awdl0> role 4
+AirPort_Brcm4360_P2PInterface::attachToBpf name <awdl0> role 4 successful attach to bpf type 147
+IO80211VirtualInterface::init _controller is 0xac60c58f7892ae79, provider is 0xac60c58eb93a5179
+IO80211VirtualInterface::createIOReporters awdl0 provider 0xac60c58f7892ae79
+AirPort_Brcm4360_P2PInterface::init <awdl> role 4
+IO80211Peer::createIOReporters() generated statsID 255 valid 1 FF:FF:FF:FF:FF:FF
+Invalid _manager->_provider
+No manager provider 0 or no _statsIDValid 1
+ARPT: 88.936183: AirPort_Brcm43xx::syncPowerState: WWEN[disabled]
+AirPort: Link Down on en1. Reason 8 (Disassociated because station leaving).
+Got incomplete channel sequence length 0, should be 16
+Got incomplete channel sequence length 0, should be 16
+en1::IO80211Interface::postMessage bssid changed
+en2: promiscuous mode enable succeeded
+en3: promiscuous mode enable succeeded
+[IOBluetoothHostController::setConfigState] calling registerService
+**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- calling IOBluetoothFamily's registerService() -- 0x5ee0 -- 0x2400 -- 0x3000 ****
+
+**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- Connected to the transport successfully -- 0x5ee0 -- 0x2400 -- 0x3000 ****
+
+awdl0: promiscuous mode enable succeeded
+awdl0: promiscuous mode disable succeeded
+awdl0: promiscuous mode enable succeeded
+
+IOBluetoothDevice::setProperties() -- calling mHCIController->CallCreateDeviceReporter() -- this = 0x4400 
+
+
+ IOBluetoothHostController::CallCreateDeviceReporter -- calling enqueueAction() -- device = 0x4400 
+
+
+ IOBluetoothHostController::CreateDeviceReporterAction -- device = = 0x4400 
+
+
+ IOBluetoothHostController::CreateDeviceReporterAction -- calling CreateDeviceReporter() device = = 0x4400 
+
+
+ IOBluetoothHostController::CreateDeviceReporter -- device = = 0x4400 
+
+ARPT: 91.473012: ChangeVCO => vco:960, xtalF:40, frac: 98, ndivMode: 3, ndivint: 24
+ARPT: 91.473018: Data written into the PLL_CNTRL_ADDR2: 00000c31
+ARPT: 91.473101: Data written into the PLL_CNTRL_ADDR3 (Fractional): 0000100e
+bpfAttach len 94 dlt 163
+bpfAttach len 30 dlt 105
+bpfAttach len 52 dlt 127
+bpfAttach len 38 dlt 192
+en1: channel changed to 1
+AirPort: Link Up on awdl0
+IO80211AWDLPeerManager::configure Dynamic country code not supported on this device
+IO80211AWDLPeerManager::setChannelSequenceUnconditional : Couldn't set channel sequence! coded length 16 length 64 step 3 fill ff (Discovery):
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Setting BTCoex Profile: band:8
+Profile[0]: mode:0; desense:0; desense_level:0; chain_power_offset:0,0,0,0,
+Profile[1]: mode:0; desense:0; desense_level:0; chain_power_offset:0,0,0,0,
+Profile[2]: mode:0; desense:0; desense_level:0; chain_power_offset:0,0,0,0,
+Setting BTCoex Profile: band:2
+Profile[0]: mode:0; desense:0; desense_level:0; chain_power_offset:0,0,0,0,
+Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+
+IOBluetoothDevice::setProperties() -- calling mHCIController->CallCreateDeviceReporter() -- this = 0x9400 
+
+
+ IOBluetoothHostController::CallCreateDeviceReporter -- calling enqueueAction() -- device = 0x9400 
+
+Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+en1: channel changed to 1
+en1: channel changed to 1
+
+ IOBluetoothHostController::CreateDeviceReporter -- device = = 0x4400 
+
+[HID] [ATC] AppleHSBluetoothDevice::handleStart Transport Switch string MOTransportSwitch
+[HID] [ATC] AppleHSBluetoothDevice::handleStart Low Power Disconnect string MOLowBatteryPowerDisconnected
+[HID] [ATC] AppleHSBluetoothDevice::handleStart Transport Switch string KBTransportSwitch
+[HID] [ATC] AppleHSBluetoothDevice::handleStart Low Power Disconnect string KBLowBatteryPowerDisconnected
+[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Button (0x03)
+[HID] [ATC] AppleHSBluetoothInterface::matchPropertyTable Interface score is 0 
+[HID] [ATC] AppleDeviceManagementHIDEventService::messageClientsWithBSString Sending message USBConnected
+[HID] [ATC] AppleHSBluetoothInterface::matchPropertyTable Interface score is 0 
+
+ IOBluetoothHostController::CreateDeviceReporterAction -- device = = 0x9400 
+
+
+ IOBluetoothHostController::CreateDeviceReporterAction -- calling CreateDeviceReporter() device = = 0x9400 
+
+
+ IOBluetoothHostController::CreateDeviceReporter -- device = = 0x9400 
+
+[HID] [MT] AppleMultitouchDevice::start entered
+
+ IOBluetoothHostController::CreateDeviceReporter -- device = = 0x4400 
+
+[HID] [ATC] AppleDeviceManagementHIDEventService::handleInterruptReport Ignoring interrupt report id = 0x000000c6, length = 4
+Sandbox: apsd(185) deny(1) system-fsctl 682f
+[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Keyboard (0x02)
+[HID] [ATC] AppleHSBluetoothInterface::matchPropertyTable Interface score is 0 
+[HID] [ATC] AppleDeviceManagementHIDEventService::messageClientsWithBSString Sending message USBConnected
+[HID] [ATC] AppleHSBluetoothInterface::matchPropertyTable Interface score is 0 
+Unrecognized reportID 0x12
+         0 [Level 5] [Facility messagetracer] [com.apple.message.domain com.apple.hidsw_gen2_battery_v2.atc] [com.apple.message.pid 617] [com.apple.message.percent 83] [com.apple.message.flags 0x0] [com.apple.message.time 0] [com.apple.message.result NO] 
+         0 [Level 5] [Facility messagetracer] [com.apple.message.domain com.apple.hidsw_gen2_battery_v2.atc] [com.apple.message.pid 615] [com.apple.message.percent 73] [com.apple.message.flags 0x0] [com.apple.message.time 0] [com.apple.message.result NO] 
+hfs: mounted untitled on device disk2
+AppleKeyStore:Sending lock change 0 for handle 1
+AppleKeyStore:Sending lock change 0 for handle -248
+Sandbox: secinitd(280) deny(1) ipc-posix-shm-read-data /tmp/com.apple.csseed.82
+en1: channel changed to 1
+en1: 802.11d country code set to 'TW'.
+en1: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+[AppleHSBluetoothDevice][getExtendedReport] Could not retrieve information for BatteryPercent feature
+[AppleHSBluetoothDevice][updateBatteryLevel] Couldn't get battery percentage from device
+[AppleHSBluetoothDevice][getExtendedReport] Could not retrieve information for BatteryPercent feature
+[AppleHSBluetoothDevice][updateBatteryLevel] Couldn't get battery percentage from device
+en1: channel changed to 1
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+AirPort: Link Up on en1
+en1: BSSID changed to 1c:af:f7:19:bb:a2
+en1: channel changed to 2
+en1::IO80211Interface::postMessage bssid changed
+AirPort: RSN handshake complete on en1
+en1: 802.11d country code set to 'GB'.
+en1: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161
+Unexpected payload found for message 9, dataLen 0
+Setting BTCoex Config: enable_2G:1, profile_2g:1, enable_5G:1, profile_5G:0
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+hfs: mounted Recovery HD on device disk0s3
+hfs: unmount initiated on Recovery HD on device disk0s3
+AppleKeyStore:Sending lock change 0 for handle 1
+AppleKeyStore:Sending lock change 0 for handle -501
+Sandbox: secinitd(389) deny(1) ipc-posix-shm-read-data /tmp/com.apple.csseed.82
+IOAccelDisplayPipe performTransaction error e00002c7IOAccelDisplayPipe performTransaction error e00002c7hfs: unmount initiated on untitled on device disk2
+Sandbox: storeaccountd(492) deny(1) file-write-create /Users/evdakimov/Library/Caches/com.apple.spotlight
+Sandbox: storeaccountd(492) deny(1) file-write-create /Users/evdakimov/Library/Caches/com.apple.spotlight
+Sandbox: storeaccountd(492) deny(1) file-write-create /Users/evdakimov/Library/Caches/com.apple.spotlight
+Sandbox: storeaccountd(492) deny(1) file-write-create /Users/evdakimov/Library/Caches/com.apple.spotlight
+USBMSC Identifier (non-unique): 0x00000000 0x8564 0x1000 0xa00, 3
+hfs: mounted OS X Base System on device disk2s2
+Sandbox: mdworker(530) deny(1) file-write-create /private/var/setup
+Sandbox: mdworker(530) deny(1) file-write-create /private/var/setup
+Resetting IOCatalogue.
+AppleKeyStore:Sending lock change 0 for handle -501
+ARPT: 420.337983: AWDL Sync Enabled 1, data path state[1]
+ IOCTL not recognized: 234 out of 235
+IO80211AWDLPeerManager::monitorAWDLState Disabling AWDL due to no services and no active sockets
+ARPT: 430.815526: AWDL Sync Enabled 0, data path state[1]
+Sandbox: secinitd(610) deny(1) ipc-posix-shm-read-data /tmp/com.apple.csseed.82
+considerRebuildOfPrelinkedKernel prebuild rebuild has expired
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Sandbox: iBooks(619) deny(1) file-write-unlink /Users/Shared/SC Info/SC Info.sidb
+Sandbox: iBooks(619) deny(1) file-write-unlink /Users/Shared/SC Info/SC Info.sidb
+Sandbox: iBooks(619) deny(1) file-issue-extension /Users/evdakimov/Library/Caches/com.apple.WebKit.WebContent
+Sandbox: iBooks(619) deny(1) file-issue-extension /Users/evdakimov/Library/Preferences/com.apple.bookstoreagent.plist
+Sandbox: iBooks(619) deny(1) file-issue-extension /Library/Preferences/com.apple.storeagent.plist
+Sandbox: iBooks(619) deny(1) file-issue-extension /Applications
+Sandbox: iBooks(619) deny(1) file-issue-extension /Library/Updates
+Sandbox: iBooks(619) deny(1) file-issue-extension /Library/Preferences/com.apple.SoftwareUpdate.plist
+Sandbox: iBooks(619) deny(1) file-issue-extension /private/var/run/SoftwareUpdatesAvailable
+Sandbox: iBooks(619) deny(1) mach-issue-extension com.apple.suhelperd
+Sandbox: iBooks(619) deny(1) mach-issue-extension com.apple.installd
+Sandbox: iBooks(619) deny(1) mach-issue-extension com.apple.softwareupdated
+Sandbox: iBooks(619) deny(1) mach-issue-extension com.apple.coreservices.launchservicesd
+Sandbox: iBooks(619) deny(1) mach-issue-extension com.apple.cfnetwork.AuthBrokerAgent
+Sandbox: com.apple.WebKit(631) deny(1) mach-lookup com.apple.softwareupdated
+hfs: mounted Recovery HD on device disk0s3
+hfs: unmount initiated on Recovery HD on device disk0s3
+Sandbox: softwareupdated(320) deny(1) system-fsctl 682f
+Sandbox: softwareupdated(320) deny(1) system-fsctl 682f
+Sandbox: softwareupdated(320) deny(1) system-fsctl 682f
+Sandbox: storeaccountd(492) deny(1) file-write-create /Users/evdakimov/Library/Caches/com.apple.Safari/ProductionBag
+Sandbox: storeaccountd(492) deny(1) file-write-create /Users/evdakimov/Library/Caches/com.apple.Safari/ProductionBag
+Sandbox: com.apple.Safari(662) deny(1) mach-lookup com.apple.CoreServices.coreservicesd
+Sandbox: com.apple.Safari(662) deny(1) file-read-metadata /usr
+hfs: mounted Adobe Flash Player Installer on device disk3s1
+hfs: summary table not allowed on FS with block size of 2048
+hfs: could not initialize summary table for Flash Player
+hfs: mounted Flash Player on device disk4s2
+hfs: unmount initiated on Flash Player on device disk4s2
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+hfs: mounted Adobe Flash Player Installer on device disk4s1
+hfs: summary table not allowed on FS with block size of 2048
+hfs: could not initialize summary table for Flash Player
+hfs: mounted Flash Player on device disk5s2
+hfs: unmount initiated on Flash Player on device disk5s2
+Sandbox: storeaccountd(492) deny(1) file-write-create /Users/evdakimov/Library/Caches/com.apple.Safari/ProductionBag
+hfs: mounted Java for OS X 2015-001 on device disk5s3
+hfs: mounted Java 8 Update 91 on device disk6s1
+hfs: summary table not allowed on FS with block size of 2048
+hfs: could not initialize summary table for Google Chrome
+hfs: mounted Google Chrome on device disk7s2
+hfs: mounted XQuartz-2.7.9 on device disk8s1
+process WindowServer[137] caught causing excessive wakeups. Observed wakeups rate (per sec): 176; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 113059
+hfs: mounted Recovery HD on device disk0s3
+hfs: unmount initiated on Recovery HD on device disk0s3
+hfs: mounted Tuxera NTFS 2015 RC (030740) [sn] on device disk9s2
+hfs: summary table not allowed on FS with block size of 2048
+hfs: could not initialize summary table for Microsoft Office 2011
+hfs: mounted Microsoft Office 2011 on device disk10s2
+hfs: mounted Hackintosh Vietnam Tool 1.9.6 on device disk11s2
+IGAccelDevice: IOUserClient outputCount count mismatch
+IGAccelDevice: IOUserClient outputCount count mismatch
+hfs: mounted Microsoft Office 2011 14.6.5 Update on device disk12s2
+hfs: unmount initiated on Microsoft Office 2011 14.6.5 Update on device disk12s2
+AppleKeyStore:Sending lock change 0 for handle -501

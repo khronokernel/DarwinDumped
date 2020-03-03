@@ -1,0 +1,24 @@
+2020-01-14 13:23:32 +0100 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   InternalPreventDisplaySleep    1
+   PreventUserIdleSystemSleep     0
+   NetworkClientActive            0
+Listed by owning process:
+   pid 312(UserEventAgent): [0x0000001f000b8177] 00:02:03 BackgroundTask named: "com.apple.coreduet.sync.update-source-device-identifiers"  
+	Created for PID: 314. 
+   pid 148(hidd): [0x0000000e0009808f] 00:01:04 UserIsActive named: "com.apple.iohideventsystem.queue.tickle serviceID:100000838 name:AppleHIDKeyboardEve product:Magic Keyboard with eventType:3"  
+	Timeout will fire in 535 secs Action=TimeoutActionRelease
+   pid 107(powerd): [0x0000000200108001] 00:01:29 InternalPreventDisplaySleep named: "com.apple.powermanagement.delayDisplayOff"  
+	Timeout will fire in 211 secs Action=TimeoutActionTurnOff
+Kernel Assertions: 0x108=BT-HID,MAGICWAKE
+   id=504  level=255 0x100=MAGICWAKE mod=01.01.70, 01:00 description=en2 owner=en2
+   id=505  level=255 0x100=MAGICWAKE mod=14.01.20, 13:22 description=llw0 owner=IOSkywalkNetworkBSDClient
+   id=506  level=255 0x8=BT-HID mod=01.01.70, 01:00 description=com.apple.driver.IOBluetoothHIDDriver owner=AppleHSBluetoothDevice
+   id=507  level=255 0x8=BT-HID mod=01.01.70, 01:00 description=com.apple.driver.IOBluetoothHIDDriver owner=AppleHSBluetoothDevice
+Idle sleep preventers: IODisplayWrangler

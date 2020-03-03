@@ -1,0 +1,12 @@
+/dev/disk0
+ACTV        DEVICE   TYPE                   NAME       SIZE    MBR (Stage0)     PBR (Stage1)      BootFile (Stage 2)           UEFI BootFile
+                     GUID_partition_scheme             512 GB  None
+            disk0s1  EFI                               209 MB                   Apple EFI
+            disk0s2  Apple_HFS              Snow       100 GB                    
+            disk0s3  Apple_HFS              Lion       411 GB                    
+/dev/disk1
+ACTV        DEVICE   TYPE                   NAME       SIZE    MBR (Stage0)     PBR (Stage1)      BootFile (Stage 2)           UEFI BootFile
+                     GUID_partition_scheme             8 GB    Chameleon boot0
+            disk1s1  EFI                               209 MB                   Apple EFI
+            disk1s2  Apple_HFS              USB10.8.2  7 GB                     Chameleon boot1h
+                                                                                                  boot(Chimera v1.11.1 r1394)

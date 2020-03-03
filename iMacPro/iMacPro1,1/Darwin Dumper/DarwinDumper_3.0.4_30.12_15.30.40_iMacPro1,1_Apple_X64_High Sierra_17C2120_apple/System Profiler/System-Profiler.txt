@@ -1,0 +1,768 @@
+Audio:
+
+    Devices:
+
+        iMac Pro Microphone:
+
+          Default Input Device: Yes
+          Input Channels: 1
+          Manufacturer: Apple Inc.
+          Current SampleRate: 44100
+          Transport: Built-in
+          Input Source: iMac Pro Microphone
+
+        iMac Pro Speakers:
+
+          Default Output Device: Yes
+          Default System Output Device: Yes
+          Manufacturer: Apple Inc.
+          Output Channels: 2
+          Current SampleRate: 44100
+          Transport: Built-in
+          Output Source: iMac Pro Speakers
+
+Bluetooth:
+
+      Apple Bluetooth Software Version: 6.0.3f4
+      Hardware, Features, and Settings:
+          Bluetooth Low Energy Supported: Yes
+          Handoff Supported: Yes
+          Instant Hot Spot Supported: Yes
+          Manufacturer: Broadcom
+          Transport: UART
+          Chipset: 4364
+          Firmware Version: v26 c4279
+          Connectable: Yes
+          Auto Seek Pointing: On
+          Remote wake: On
+          Vendor ID: 0x05AC
+          Product ID: 0x007B
+          Auto Seek Keyboard: On
+      Devices (Paired, Configured, etc.):
+          Device 0:
+              Major Type: Peripheral
+              Minor Type: Keyboard
+              Services: Magic Keyboard with Numeric Keypad
+              Manufacturer: Broadcom (0x5, 0x240C)
+              Battery Level: 88%
+              Firmware Version: 0x0084
+              Vendor ID: 0x004C
+              Product ID: 0x026C
+              Host Connectable: Yes
+              EDR Supported: Yes
+              eSCO Supported: No
+              SSP Supported: Yes
+          Device 1:
+              Major Type: Peripheral
+              Minor Type: Mouse
+              Services: Magic Mouse 2
+              Manufacturer: Broadcom (0x5, 0x240C)
+              Battery Level: 91%
+              Firmware Version: 0x0070
+              Vendor ID: 0x004C
+              Product ID: 0x0269
+              Host Connectable: Yes
+              EDR Supported: Yes
+              eSCO Supported: No
+              SSP Supported: Yes
+          Device 2:
+              Major Type: Miscellaneous
+              Minor Type: Unknown
+              Services: 
+              Vendor ID: 0x004C
+              Product ID: 0x2006
+          Device 3:
+              Major Type: Miscellaneous
+              Minor Type: Unknown
+              Services: 
+
+Camera:
+
+    FaceTime HD Camera:
+
+      Model ID: UVC Camera VendorID_1452 ProductID_34068
+      Unique ID: 0x8020000005ac8514
+
+Card Reader:
+
+    Built in SD Card Reader:
+
+      Vendor ID: 0x05ac
+      Product ID: 0x8408
+      Revision: 5.00
+      Serial Number: 6
+
+Diagnostics:
+
+    Power On Self-Test:
+
+      Last Run: 30/12/17, 7:00 am
+      Result: Passed
+
+Ethernet Cards:
+
+    Apple AQC107-AFW:
+
+      Name: ethernet
+      Type: Ethernet Controller
+      Bus: PCI
+      Vendor ID: 0x1d6a
+      Device ID: 0x07b1
+      Subsystem Vendor ID: 0x106b
+      Subsystem ID: 0x0187
+      Revision ID: 0x0002
+      Link Width: x4
+      BSD name: en0
+      Kext name: AppleEthernetAquantiaAqtion.kext
+      Location: /System/Library/Extensions/IONetworkingFamily.kext/Contents/PlugIns/AppleEthernetAquantiaAqtion.kext
+      Version: 1.3.43
+
+    iBridge:
+
+      Type: USB
+      BSD name: en6
+      Kext name: AppleUSBNCM.kext
+      Location: /System/Library/Extensions/AppleUSBNCM.kext
+      Version: 5.0.0
+      MAC Address: ac:de:48:00:11:22
+      Product ID: 33331
+      Vendor ID: 1452
+
+Graphics/Displays:
+
+    Radeon Pro Vega 56:
+
+      Chipset Model: Radeon Pro Vega 56
+      Type: GPU
+      Bus: PCIe
+      PCIe Lane Width: x16
+      VRAM (Total): 8 GB
+      Vendor: AMD (0x1002)
+      Device ID: 0x6867
+      Revision ID: 0x0000
+      ROM Revision: 113-D0500D-981
+      VBIOS Version: 113-D05001A1XL-017
+      EFI Driver Version: 01.00.981
+      Metal: Supported, feature set macOS GPUFamily1 v3
+      Displays:
+        iMac:
+          Display Type: Built-In Retina LCD
+          Resolution: 5120 x 2880 Retina
+          Framebuffer Depth: 30-Bit Color (ARGB2101010)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Automatically Adjust Brightness: No
+
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: iMac Pro
+      Model Identifier: iMacPro1,1
+      Processor Name: Intel Xeon W
+      Processor Speed: 3.2 GHz
+      Number of Processors: 1
+      Total Number of Cores: 8
+      L2 Cache (per Core): 1 MB
+      L3 Cache: 11 MB
+      Memory: 32 GB
+
+Memory:
+
+    Memory Slots:
+
+      ECC: Enabled
+      Upgradeable Memory: Yes
+
+        NODE 1/CPU1_DIMM_A0:
+
+          Size: 8 GB
+          Type: DDR4
+          Speed: 2666 MHz
+          Status: OK
+          Manufacturer: Hynix
+          Part Number: HMA81GR7AFR8N-VK HMA81GR7AFR8N-VK HMA81GR7AFR8N-VK HMA81GR7AFR8N-VK 
+
+        NODE 1/CPU1_DIMM_B0:
+
+          Size: 8 GB
+          Type: DDR4
+          Speed: 2666 MHz
+          Status: OK
+          Manufacturer: Hynix
+          Part Number: HMA81GR7AFR8N-VK HMA81GR7AFR8N-VK HMA81GR7AFR8N-VK HMA81GR7AFR8N-VK 
+
+        NODE 1/CPU1_DIMM_C0:
+
+          Size: 8 GB
+          Type: DDR4
+          Speed: 2666 MHz
+          Status: OK
+          Manufacturer: Hynix
+          Part Number: HMA81GR7AFR8N-VK HMA81GR7AFR8N-VK HMA81GR7AFR8N-VK HMA81GR7AFR8N-VK 
+
+        NODE 1/CPU1_DIMM_D0:
+
+          Size: 8 GB
+          Type: DDR4
+          Speed: 2666 MHz
+          Status: OK
+          Manufacturer: Hynix
+          Part Number: HMA81GR7AFR8N-VK HMA81GR7AFR8N-VK HMA81GR7AFR8N-VK HMA81GR7AFR8N-VK 
+
+NVMExpress:
+
+    Apple SSD Controller:
+
+        APPLE SSD AP1024M:
+
+          Capacity: 1 TB (1,000,555,581,440 bytes)
+          TRIM Support: Yes
+          Model: APPLE SSD AP1024M
+          Revision: 114.37.2
+          Link Width: x4
+          Link Speed: 8.0 GT/s
+          Detachable Drive: No
+          BSD Name: disk0
+          Partition Map Type: GPT (GUID Partition Table)
+          Removable Media: No
+
+Network:
+
+    Ethernet:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en0
+      Service Order: 0
+
+    Wi-Fi:
+
+      Type: AirPort
+      Hardware: AirPort
+      BSD Device Name: en1
+      Service Order: 1
+
+    Bluetooth PAN:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en7
+      Service Order: 2
+
+    Thunderbolt Bridge:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: bridge0
+      Service Order: 3
+
+Printer Software:
+
+    PPDs:
+
+      PPDs:
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON FAX A3.gz
+          Version: 1.71
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON FAX.gz
+          Version: 1.71
+
+    Printers:
+
+      Printers:
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_jgdir.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_rotate.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4811.plugin/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_sfusb.plugin/Contents/Info.plist
+          Version: 1.4.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_farec.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_hsl.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_caps.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_qare.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq2415.plugin/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_smac.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_dscrn.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_tdg.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ddoct.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ago8.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4809.plugin/Contents/Info.plist
+          Version: 1.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_bjnp.plugin/Contents/Info.plist
+          Version: 2.10.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldo9.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_racs2.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_lld09.plugin/Contents/Info.plist
+          Version: 3.9.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq2413.plugin/Contents/Info.plist
+          Version: 2.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4807.plugin/Contents/Info.plist
+          Version: 2.3.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mcrp3.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldv0.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_lld.plugin/Contents/Info.plist
+          Version: 4.4.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_zoom.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldo0.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mcrpp.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_fare.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_cubs.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_sfusb2.plugin/Contents/Info.plist
+          Version: 1.5.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq2414.plugin/Contents/Info.plist
+          Version: 1.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ag.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ausm.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_gercc.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ijfsh.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_gercg.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4808.plugin/Contents/Info.plist
+          Version: 2.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_iom.plugin/Contents/Info.plist
+          Version: 1.9.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mcrp2.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq9601.plugin/Contents/Info.plist
+          Version: 2.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldo8.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_tonec.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDM.framework/Versions/A/Resources/Info.plist
+          Version: 2.1.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDA.framework/Versions/A/Resources/Info.plist
+          Version: 3.1.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDV.framework/Versions/A/Resources/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDE.framework/Versions/A/Resources/Info.plist
+          Version: 1.4.0
+          Path: /Library/Printers/EPSON/Fax/Libraries/FaxRecipientLib2.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Libraries/FICLib.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Libraries/rastertotiff.framework/Versions/A/Resources/TIFFInfo.plist
+          Version: 1.73
+          Path: /Library/Printers/EPSON/Fax/Libraries/rastertotiff.framework/Versions/A/Resources/Info.plist
+          Version: 1.73
+          Path: /Library/Printers/EPSON/Fax/FaxIOSupport/FaxReceiveLib.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/FaxIOSupport/epsonfax.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/FaxIOSupport/FaxIOService.framework/Versions/A/Resources/Info.plist
+          Version: 1.72
+          Path: /Library/Printers/EPSON/Fax/PDEs/PDECPlugin.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Icons/EpsonFax.icons/Contents/Info.plist
+          Version: 1.00
+          Path: /Library/Printers/EPSON/Fax/Filter/commandFilter.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Filter/rastertoepfax.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/AutoSetupTool/EPFaxAutoSetupTool.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Help/Epson_IJFax_C.help/Contents/Info.plist
+          Version: 1.41
+          Path: /Library/Printers/EPSON/Fax/SupportPrinters/FaxSupportInfo.bundle/Contents/Info.plist
+          Version: 1.10
+          Path: /Library/Printers/EPSON/Fax/Utility/FAX Utility.app/Contents/Info.plist
+          Version: 1.73
+          Path: /Library/Printers/EPSON/Fax/Utility/Fax Receive Monitor.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxTransmissionRecord.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxPrinterSpeedDial.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxSettings.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxCheckConnection.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxReceive.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxSyncContacts.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Help/Epson_IJFaxUTY.help/Contents/Info.plist
+          Version: 1.41
+
+    Image Capture Devices:
+
+      Image Capture Devices:
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter A1.bundle/Contents/Info.plist
+          Version: 1.0.9
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 54.bundle/Contents/Info.plist
+          Version: 1.0.11
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/FIT.bundle/Contents/Info.plist
+          Version: 3.7.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter DD.bundle/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 10C.bundle/Contents/Info.plist
+          Version: 1.6.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 66.bundle/Contents/Info.plist
+          Version: 1.0.12
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter C3.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 95.bundle/Contents/Info.plist
+          Version: 1.2.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter EB.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter CA.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 111.bundle/Contents/Info.plist
+          Version: 1.0.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 68.bundle/Contents/Info.plist
+          Version: 1.1.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 23.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 52.bundle/Contents/Info.plist
+          Version: 1.1.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 8B.bundle/Contents/Info.plist
+          Version: 1.0.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7A.bundle/Contents/Info.plist
+          Version: 1.0.8
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7C.bundle/Contents/Info.plist
+          Version: 1.0.11
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Image Filter2.bundle/Contents/Info.plist
+          Version: 4.4.01
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 1D.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 6E.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 94.bundle/Contents/Info.plist
+          Version: 1.2.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter FE.bundle/Contents/Info.plist
+          Version: 1.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 86.bundle/Contents/Info.plist
+          Version: 1.1.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter AD.bundle/Contents/Info.plist
+          Version: 1.2.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 32.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 43.bundle/Contents/Info.plist
+          Version: 1.1.6
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter C2.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/DDC.bundle/Contents/Info.plist
+          Version: 1.1.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 41.bundle/Contents/Info.plist
+          Version: 1.1.3
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 30.bundle/Contents/Info.plist
+          Version: 1.0.6
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/ImageFilter.bundle/Contents/Info.plist
+          Version: 3.2.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7E.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 5A.bundle/Contents/Info.plist
+          Version: 1.0.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ModelInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/DeviceInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ResolutionInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ProfileInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/RegionCodeInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/HardwareInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Info.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/Canon IJScanner4.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner4.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner4.app/Contents/Info.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner6.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner6.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner6.app/Contents/Info.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Info.plist
+          Version: 4.0.0
+
+    Image Capture Support:
+
+      Image Capture Support:
+          Path: /Library/Image Capture/Support/LegacyDeviceDiscoveryHelpers/AirScanLegacyDiscovery.app/Contents/Info.plist
+          Version: 13
+
+    System Library Extensions:
+
+      System Library Extensions:
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/AppleXserveRAID.kext
+          Version: 439.37.1
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/FireWireStorageDeviceSpecifics.kext
+          Version: 439.37.1
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/USBStorageDeviceSpecifics.kext
+          Version: 439.37.1
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/AppleATAPIStorage.kext
+          Version: 439.37.1
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/SCSIDeviceSpecifics.kext
+          Version: 439.37.1
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/SonyXDCAMDriver.kext
+          Version: 439.37.1
+          Path: /System/Library/Extensions/IOStreamFamily.kext/Contents/PlugIns/IOStreamUserClient.kext
+          Version: 1.1.0
+          Path: /System/Library/Extensions/AppleTopCase.kext
+          Version: 127.1
+          Path: /System/Library/Extensions/AppleTopCase.kext/Contents/PlugIns/AppleTopCaseActuatorHIDDriver.kext
+          Version: 127.1
+          Path: /System/Library/Extensions/IOVideoFamily.kext/Contents/PlugIns/IOVideoDeviceUserClient.kext
+          Version: 1.2.0
+          Path: /System/Library/Extensions/AppleMobileDevice.kext
+          Version: 3.5.0
+          Path: /System/Library/Extensions/AppleUSBTopCase.kext
+          Version: 254
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDEventDriver.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDUserClient.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDEventDriverSafeBoot.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/IOUSBHIDDriverSafeBoot.kext
+          Version: 900.4.1
+          Path: /System/Library/Extensions/CellPhoneHelper.kext
+          Version: 1.4.0
+          Path: /System/Library/Extensions/IOUSBHostFamily.kext/Contents/PlugIns/IOUSBHostHIDDeviceSafeBoot.kext
+          Version: 1.2
+
+    Library Extensions:
+
+      Library Extensions: 
+
+Printers:
+
+      Status: The printers list is empty. To add printers, choose Apple menu > System Preferences…, click Printers & Scanners, and then click Add (+).
+      CUPS Version: 2.2.5 (cups-462)
+
+Software:
+
+    System Software Overview:
+
+      System Version: macOS 10.13.2 (17C2120)
+      Kernel Version: Darwin 17.3.0
+      Time since boot: 8:30
+
+Thunderbolt:
+
+    Thunderbolt Bus 1:
+
+      Vendor Name: Apple Inc.
+      Device Name: iMac Pro
+      UID: 0x0001213ED549C501
+      Route String: 0
+      Firmware Version: 25.4
+      Domain UUID: 937622AE-6882-B953-98AA-13417513C10C
+      Port:
+          Status: No device connected
+          Link Status: 0x101
+          Speed: Up to 40 Gb/s x1
+          Current Link Width: 0x1
+          Receptacle: 4
+          Link Controller Firmware Version: 0.30.0
+      Port:
+          Status: No device connected
+          Link Status: 0x101
+          Speed: Up to 40 Gb/s x1
+          Current Link Width: 0x1
+          Receptacle: 3
+          Link Controller Firmware Version: 0.30.0
+
+    Thunderbolt Bus 0:
+
+      Vendor Name: Apple Inc.
+      Device Name: iMac Pro
+      UID: 0x0001213ED549C500
+      Route String: 0
+      Firmware Version: 25.4
+      Domain UUID: E8D5B54A-0D20-0951-B260-86B324BC44F9
+      Port:
+          Status: No device connected
+          Link Status: 0x101
+          Speed: Up to 40 Gb/s x1
+          Current Link Width: 0x1
+          Receptacle: 2
+          Link Controller Firmware Version: 0.30.0
+      Port:
+          Status: No device connected
+          Link Status: 0x101
+          Speed: Up to 40 Gb/s x1
+          Current Link Width: 0x1
+          Receptacle: 1
+          Link Controller Firmware Version: 0.30.0
+
+USB:
+
+    USB 3.0 Bus:
+
+      Host Controller Driver: AppleUSBXHCISPT
+      PCI Device ID: 0xa2af 
+      PCI Revision ID: 0x0000 
+      PCI Vendor ID: 0x8086 
+
+        Ultra Fit:
+
+          Product ID: 0x5583
+          Vendor ID: 0x0781  (SanDisk Corporation)
+          Version: 1.00
+          Serial Number: 4C531001520302122321
+          Speed: Up to 5 Gb/sec
+          Manufacturer: SanDisk
+          Location ID: 0x14c00000 / 2
+          Current Available (mA): 900
+          Current Required (mA): 896
+          Extra Operating Current (mA): 0
+          Media:
+            Ultra Fit:
+              Capacity: 15.55 GB (15,552,479,232 bytes)
+              Removable Media: Yes
+              BSD Name: disk2
+              Logical Unit: 0
+              Partition Map Type: GPT (GUID Partition Table)
+              USB Interface: 0
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleUSBXHCIAR
+      PCI Device ID: 0x15d4 
+      PCI Revision ID: 0x0002 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0x00 
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleUSBXHCIAR
+      PCI Device ID: 0x15d4 
+      PCI Revision ID: 0x0002 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0x01 
+
+    AppleUSBVHCIBCE:
+
+      Host Controller Driver: AppleUSBVHCIBCE
+
+        Headset:
+
+          Product ID: 0x5043
+          Vendor ID: 0x05ac (Apple Inc.)
+          Version: 0.01
+          Serial Number: 000000000000
+          Speed: Up to 480 Mb/sec
+          Manufacturer: Apple
+          Location ID: 0x80400000 / 4
+          Current Available (mA): 500
+          Current Required (mA): 500
+          Extra Operating Current (mA): 0
+          Built-In: Yes
+
+        iBridge ALS:
+
+          Product ID: 0x8262
+          Vendor ID: 0x05ac (Apple Inc.)
+          Version: 2.01
+          Serial Number: 000000000000
+          Speed: Up to 480 Mb/sec
+          Manufacturer: Apple Inc.
+          Location ID: 0x80300000 / 3
+          Current Available (mA): 500
+          Current Required (mA): 500
+          Extra Operating Current (mA): 0
+          Built-In: Yes
+
+        iBridge FaceTime HD Camera (Built-in):
+
+          Product ID: 0x8514
+          Vendor ID: 0x05ac (Apple Inc.)
+          Version: 2.01
+          Serial Number: 00000000000000000
+          Speed: Up to 480 Mb/sec
+          Manufacturer: Apple Inc.
+          Location ID: 0x80200000 / 2
+          Current Available (mA): 500
+          Current Required (mA): 500
+          Extra Operating Current (mA): 0
+          Built-In: Yes
+
+        iBridge:
+
+          Product ID: 0x8233
+          Vendor ID: 0x05ac (Apple Inc.)
+          Version: 2.01
+          Serial Number: 0000000000000000
+          Speed: Up to 480 Mb/sec
+          Manufacturer: Apple Inc.
+          Location ID: 0x80100000 / 1
+          Current Available (mA): 500
+          Current Required (mA): 500
+          Extra Operating Current (mA): 0
+          Built-In: Yes
+
+Wi-Fi:
+
+      Software Versions:
+          CoreWLAN: 13.0 (1342)
+          CoreWLANKit: 13.0 (1342)
+          Menu Extra: 13.0 (1349)
+          System Information: 12.0 (1300.1)
+          IO80211 Family: 12.0 (1200.12.2)
+          Diagnostics: 1.0 (805)
+          AirPort Utility: 6.3.8 (638.5)
+      Interfaces:
+        en1:
+          Card Type: AirPort Extreme  (0x14E4, 0x7BF)
+          Firmware Version: wl0: Nov  9 2017 09:46:34 version 9.100.30.0.32.1.18 FWID 01-57236d12
+          MAC Address: 8c:85:90:87:f4:ba
+          Locale: ETSI
+          Country Code: AU
+          Supported PHY Modes: 802.11 a/b/g/n/ac
+          Supported Channels: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 132, 136, 140, 144, 149, 153, 157, 161, 165
+          Wake On Wireless: Supported
+          AirDrop: Supported
+          AirDrop Channel: 149
+          Auto Unlock: Supported
+          Status: Connected
+
+iBridge:
+
+    iBridge Information:
+
+      Model Name: iBridge
+      Build Version: 15P2064
+      Model Identifier: iBridge2,1
+      Serial Number: C02VV5RFHX87
+      Session UUID: 08B7D1DF-0CBA-477E-B74C-AC066B3340B7
+

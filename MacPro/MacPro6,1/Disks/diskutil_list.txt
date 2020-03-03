@@ -1,0 +1,26 @@
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS Aleams S                999.7 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+/dev/disk1 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *4.0 TB     disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                 Apple_RAID                         4.0 TB     disk1s2
+   3:                 Apple_Boot Boot OS X               134.2 MB   disk1s3
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *4.0 TB     disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                 Apple_RAID                         4.0 TB     disk2s2
+   3:                 Apple_Boot Boot OS X               134.2 MB   disk2s3
+/dev/disk3 (external, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                  Apple_HFS AleamsBoberRAID        +8.0 TB     disk3
+/dev/disk4 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *2.0 TB     disk4
+   1:                        EFI EFI                     209.7 MB   disk4s1
+   2:                  Apple_HFS Silver Nox              2.0 TB     disk4s2

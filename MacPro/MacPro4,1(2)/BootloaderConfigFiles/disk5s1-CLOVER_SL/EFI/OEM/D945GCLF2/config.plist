@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SystemParameters</key>
+	<dict>
+		<key>boot-args</key>
+		<string>-v</string>
+		<key>prev-lang:kbd</key>
+		<string>ru:0</string>
+		<key>DefaultBootVolume</key>
+		<string></string>
+		<key>CustomUUID</key>
+		<string>255032B0-6211-4C2A-9C72-8EF620ED8602</string>
+		<key>InjectSystemID</key>
+		<string>No</string>
+		<key>iCloudFix</key>
+		<string>No</string>
+	</dict>
+	<key>ACPI</key>
+	<dict>
+		<string>0x0080</string>
+		<key>PatchNMI</key>
+		<string>No</string>
+	</dict>
+	</dict>
+</plist>

@@ -1,0 +1,24 @@
+ATOM BIOS Rom: 
+	SubsystemVendorID: 0x106b SubsystemID: 0x019e
+	IOBaseAddress: 0x0000
+	Filename: D0008A14GL.0
+	BIOS Bootup Message: 
+ELLESMERE LEA A1 GDDR5 256Mx32 8GB 300e/300m                                
+
+PCI ID: 1002:67df
+Connector at index 0
+	Type [@offset 22692]: eDP (14)
+	Encoder [@offset 22696]: INTERNAL_UNIPHY1 (0x20)
+	i2cid [@offset 22784]: 0x93, OSX senseid: 0x4
+Connector at index 1
+	Type [@offset 22702]: DisplayPort (10)
+	Encoder [@offset 22706]: INTERNAL_UNIPHY1 (0x20)
+	i2cid [@offset 22811]: 0x92, OSX senseid: 0x3
+Connector at index 2
+	Type [@offset 22712]: DisplayPort (10)
+	Encoder [@offset 22716]: INTERNAL_UNIPHY (0x1e)
+	i2cid [@offset 22838]: 0x90, OSX senseid: 0x1
+Connector at index 3
+	Type [@offset 22722]: DisplayPort (10)
+	Encoder [@offset 22726]: INTERNAL_UNIPHY2 (0x21)
+	i2cid [@offset 22865]: 0x91, OSX senseid: 0x2

@@ -1,0 +1,31 @@
+/dev/disk0 
+APPLE SSD SM0256F Media 
+Physical Block (sector) size: 4096 bytes 
+Using Block (sector) size: 512 bytes 
+Total Number of Blocks: 490234752 
+Total Disk Size: 251.0 GB 
+  
+MBR Partition Entry 1: 00feffffeefeffff010000007f63381d 
+MBR Partition Entry 2: 00000000000000000000000000000000 
+MBR Partition Entry 3: 00000000000000000000000000000000 
+MBR Partition Entry 4: 00000000000000000000000000000000 
+  
+Partition Map: GUID Partition Table 
+Disk GUID:c4adbe34-20f6-4ab0-bb76-64b7654b3e02 
+Partition GUID: 1e4a5e0c-716d-4b7d-b3db-96687bbaf41f | Name: EFI System Partition 
+Partition GUID: 6c9bc392-2572-4c19-aa31-b5b1637a23b1 | Name: Customer 
+Partition GUID: 31bee16d-1d6f-49cf-a082-3567c03b9c8b | Name: Recovery HD 
+
+=========  =========             ========              ==========  ========= 
+LBA Start  Type                  GPT Name              LoaderCode  Size LBA 
+=========  =========             ========              ==========  ========= 
+0          MBR                                                     1 
+1          Primary GPT Header                                      1 
+2          Primary GPT Table                                       32 
+34         Space                                                   6 
+40         EFI System Partition  EFI System Partition  Apple EFI   409600 
+409640     HFS+                  Customer                          488555536 
+488965176  OSX Boot              Recovery HD                       1269536 
+490234712  Space                                                   7 
+490234719  Backup GPT Table                                        32 
+490234751  Backup GPT Header                                       1 

@@ -1,0 +1,9 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"120548","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"120550","ColType":"Number","ColValue":"4"}},{"data":{"title":"DevicePowerState"},"attr":{"id":"120552","ColType":"Number","ColValue":"0"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"120554","ColType":"Number","ColValue":"4"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"120556","ColType":"Number","ColValue":"4"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"120558","ColType":"Number","ColValue":"4"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"120560","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"120562","ColType":"String","ColValue":"AppleUSBHostResources"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"120564","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"120566","ColType":"Number","ColValue":"100"}},
+{"data":{"title":"HIDVirtualDevice"},"attr":{"id":"120568","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"120570","ColType":"String","ColValue":"com.apple.iokit.IOUSBFamily"}},
+{"data":{"title":"IOClass"},"attr":{"id":"120572","ColType":"String","ColValue":"AppleUSBLegacyRoot"}}
+]

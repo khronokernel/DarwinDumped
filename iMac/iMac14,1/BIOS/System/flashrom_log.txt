@@ -1,0 +1,8 @@
+flashrom v0.9.7-unknown on Darwin 15.4.0 (x86_64)
+flashrom was built with libpci 3.1.9, GCC 4.2.1 (Apple Inc. build 5666) (dot 3), little endian
+Command line (6 args): /Applications/DarwinDumper.app/Contents/Resources/Tools/flashrom -p internal -r /Applications/DarwinDumperReports/000_2016-04-02_19-35-41_iMac14,1/DarwinDumper_2.9.9.2_Apple_X64_Cap_family1232009/BIOS/System/biosbackup.rom -o /Applications/DarwinDumperReports/000_2016-04-02_19-35-41_iMac14,1/DarwinDumper_2.9.9.2_Apple_X64_Cap_family1232009/BIOS/System/flashrom_log.txt
+Calibrating delay loop... OS timer resolution is 1 usecs, 3118M loops per second, 10 myus = 10 us, 100 myus = 152 us, 1000 myus = 976 us, 10000 myus = 9924 us, 4 myus = 4 us, OK.
+Initializing internal programmer
+ERROR: Could not get I/O privileges (Function not implemented).
+You need to be root.
+Error: Programmer initialization failed.

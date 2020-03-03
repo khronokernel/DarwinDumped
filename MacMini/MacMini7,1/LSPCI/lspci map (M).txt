@@ -1,0 +1,31 @@
+00:00.0 Host bridge: Intel Corporation Haswell-ULT DRAM Controller (rev 09)
+00:02.0 Docking station [0a26]: Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 86)
+00:03.0 Audio device: Intel Corporation Haswell-ULT HD Audio Controller (rev 09)
+00:14.0 USB controller: Intel Corporation 8 Series USB xHCI HC (rev 04)
+00:16.0 Communication controller: Intel Corporation 8 Series HECI #0 (rev 04)
+00:1b.0 Audio device: Intel Corporation 8 Series HD Audio Controller (rev 04)
+00:1c.0 PCI bridge: Intel Corporation 8 Series PCI Express Root Port 1 (rev e4)
+## 00.1c:0 is a bridge from 00 to 01-01
+00:1c.2 PCI bridge: Intel Corporation 8 Series PCI Express Root Port 3 (rev e4)
+## 00.1c:2 is a bridge from 40 to 00-00
+!!! Bridge points to invalid primary bus.
+00:1c.3 PCI bridge: Intel Corporation 8 Series PCI Express Root Port 4 (rev e4)
+## 00.1c:3 is a bridge from 00 to ff-fe
+!!! Bridge points to invalid bus range.
+00:1c.4 PCI bridge: Intel Corporation 8 Series PCI Express Root Port 5 (rev e4)
+## 00.1c:4 is a bridge from 00 to 04-ff
+00:1f.0 ISA bridge: Intel Corporation 8 Series LPC Controller (rev 04)
+00:1f.2 SATA controller: Intel Corporation 8 Series SATA Controller 1 [AHCI mode] (rev 04)
+00:1f.3 SMBus: Intel Corporation 8 Series SMBus Controller (rev 04)
+02:00.0 Network controller: Broadcom Corporation BCM4360 802.11ac Wireless Network Adapter (rev 03)
+09:00.0 Unassigned class [ffff]: Illegal Vendor ID Device ffff (rev ff)
+
+Summary of buses:
+
+00: Primary host bus
+	1c.4 Bridge to 04-ff
+	1c.3 Bridge to ff-ff
+	1c.2 Bridge to 00-00 <overlap bug>
+	1c.0 Bridge to 01-01
+02: Secondary host bus (?)
+09: Secondary host bus (?)

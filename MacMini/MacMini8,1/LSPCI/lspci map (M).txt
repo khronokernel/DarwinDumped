@@ -1,0 +1,61 @@
+00:00.0 Host bridge: Intel Corporation 8th Gen Core Processor Host Bridge/DRAM Registers (rev 07)
+00:01.0 PCI bridge: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16) (rev 07)
+## 00.01:0 is a bridge from 00 to 01-01
+00:01.1 PCI bridge: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x8) (rev 07)
+## 00.01:1 is a bridge from 00 to 83-ff
+00:01.2 PCI bridge: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x4) (rev 07)
+## 00.01:2 is a bridge from 00 to 05-82
+00:02.0 VGA compatible controller: Intel Corporation UHD Graphics 630 (Mobile)
+00:12.0 Signal processing controller: Intel Corporation Cannon Lake PCH Thermal Controller (rev 10)
+00:14.0 USB controller: Intel Corporation Cannon Lake PCH USB 3.1 xHCI Host Controller (rev 10)
+00:14.2 RAM memory: Intel Corporation Cannon Lake PCH Shared SRAM (rev 10)
+00:16.0 Communication controller: Intel Corporation Cannon Lake PCH HECI Controller (rev 10)
+00:1b.0 PCI bridge: Intel Corporation Cannon Lake PCH PCI Express Root Port #17 (rev f0)
+## 00.1b:0 is a bridge from 00 to 02-02
+00:1c.0 PCI bridge: Intel Corporation Cannon Lake PCH PCI Express Root Port #1 (rev f0)
+## 00.1c:0 is a bridge from 00 to 03-03
+00:1c.1 PCI bridge: Intel Corporation Cannon Lake PCH PCI Express Root Port #2 (rev f0)
+## 00.1c:1 is a bridge from 00 to 04-04
+00:1e.0 Communication controller: Intel Corporation Device a328 (rev 10)
+00:1f.0 ISA bridge: Intel Corporation Device a30e (rev 10)
+00:1f.3 Audio device: Intel Corporation Cannon Lake PCH cAVS (rev 10)
+00:1f.4 SMBus: Intel Corporation Cannon Lake PCH SMBus Controller (rev 10)
+00:1f.5 Serial bus controller [0c80]: Intel Corporation Cannon Lake PCH SPI Controller (rev 10)
+02:00.0 Mass storage controller: Apple Inc. ANS2 NVMe Controller (rev 01)
+02:00.1 Non-VGA unclassified device: Apple Inc. T2 Bridge Controller (rev 01)
+02:00.2 Non-VGA unclassified device: Apple Inc. T2 Secure Enclave Processor (rev 01)
+02:00.3 Multimedia audio controller: Apple Inc. Apple Audio Device (rev 01)
+03:00.0 Network controller: Broadcom Inc. and subsidiaries Device 4464 (rev 03)
+04:00.0 Ethernet controller: Broadcom Inc. and subsidiaries NetXtreme BCM57766 Gigabit Ethernet PCIe (rev 01)
+05:00.0 PCI bridge: Intel Corporation DSL6540 Thunderbolt 3 Bridge [Alpine Ridge 4C 2015] (rev 06)
+## 05.00:0 is a bridge from 05 to 06-82
+06:00.0 PCI bridge: Intel Corporation JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018] (rev 06)
+## 06.00:0 is a bridge from 06 to 08-08
+06:01.0 PCI bridge: Intel Corporation JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018] (rev 06)
+## 06.01:0 is a bridge from 06 to 46-46
+06:02.0 PCI bridge: Intel Corporation JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018] (rev 06)
+## 06.02:0 is a bridge from 06 to 07-07
+06:04.0 PCI bridge: Intel Corporation JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018] (rev 06)
+## 06.04:0 is a bridge from 06 to 09-09
+07:00.0 USB controller: Intel Corporation JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 4C 2018] (rev 06)
+
+Summary of buses:
+
+00: Primary host bus
+	1c.1 Bridge to 04-04
+	1c.0 Bridge to 03-03
+	1b.0 Bridge to 02-02
+	01.2 Bridge to 05-82
+	01.1 Bridge to 83-ff
+	01.0 Bridge to 01-01
+02: Entered via 00:1b.0
+03: Entered via 00:1c.0
+04: Entered via 00:1c.1
+05: Entered via 00:01.2
+	00.0 Bridge to 06-82
+06: Entered via 05:00.0
+	04.0 Bridge to 09-09
+	02.0 Bridge to 07-07
+	01.0 Bridge to 46-46
+	00.0 Bridge to 08-08
+07: Entered via 06:02.0

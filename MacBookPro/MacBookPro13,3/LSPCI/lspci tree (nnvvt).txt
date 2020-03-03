@@ -1,0 +1,19 @@
+-[0000:00]-+-00.0  Intel Corporation Skylake Host Bridge/DRAM Registers [8086:1910]
+           +-01.0-[01]--
+           +-01.1-[82-ff]--
+           +-01.2-[04-81]--
+           +-02.0  Intel Corporation HD Graphics 530 [8086:191b]
+           +-14.0  Intel Corporation Sunrise Point-H USB 3.0 xHCI Controller [8086:a12f]
+           +-15.0  Intel Corporation Sunrise Point-H Serial IO I2C Controller #0 [8086:a160]
+           +-16.0  Intel Corporation Sunrise Point-H CSME HECI #1 [8086:a13a]
+           +-19.0  Intel Corporation Sunrise Point-H Serial IO UART Controller #2 [8086:a166]
+           +-1b.0-[02]----00.0  Samsung Electronics Co Ltd Device [144d:a804]
+           +-1c.0-[03]----00.0  Broadcom Limited BCM43602 802.11ac Wireless LAN SoC [14e4:43ba]
+           +-1e.0  Intel Corporation Sunrise Point-H Serial IO UART #0 [8086:a127]
+           +-1e.1  Intel Corporation Sunrise Point-H Serial IO UART #1 [8086:a128]
+           +-1e.2  Intel Corporation Sunrise Point-H Serial IO SPI #0 [8086:a129]
+           +-1e.3  Intel Corporation Sunrise Point-H Serial IO SPI #1 [8086:a12a]
+           +-1f.0  Intel Corporation Sunrise Point-H LPC Controller [8086:a151]
+           +-1f.2  Intel Corporation Sunrise Point-H PMC [8086:a121]
+           +-1f.3  Intel Corporation Sunrise Point-H HD Audio [8086:a170]
+           \-1f.4  Intel Corporation Sunrise Point-H SMBus [8086:a123]

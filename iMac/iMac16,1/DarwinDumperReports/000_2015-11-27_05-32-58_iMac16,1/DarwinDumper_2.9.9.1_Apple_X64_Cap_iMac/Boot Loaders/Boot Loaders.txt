@@ -1,0 +1,25 @@
+                                                                                                                     
+                                                                                                                     
+disk0 APPLE HDD ST1000LM024 (4096 byte physical block size)
+=================================================================================================================================
+ACT  DEVICE   TYPE                    NAME         SIZE    MBR (Stage0)  PBR (Stage1)           BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme                1 TB    None
+     disk0s1  EFI                     EFI          209 MB                Apple EFI
+     disk0s2  Apple_CoreStorage                    999 GB                 
+     disk0s3  Apple_Boot              Recovery HD  650 MB                 
+                                                                                                                     
+                                                                                                                     
+disk1 Macintosh HD (512 byte physical block size)
+=================================================================================================================================
+ACT  DEVICE   TYPE                    NAME         SIZE    MBR (Stage0)  PBR (Stage1)           BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              Apple_HFS                            998 GB   
+                                                                                                                     
+                                                                                                                     
+disk2 JetFlash Transcend 64GB (512 byte physical block size)
+=================================================================================================================================
+ACT  DEVICE   TYPE                    NAME         SIZE    MBR (Stage0)  PBR (Stage1)           BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              FDisk_partition_scheme               64 GB   None
+     disk2s1  DOS_FAT_32              64           64 GB                 FAT32 Non System disk

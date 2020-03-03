@@ -1,0 +1,380 @@
+0:100  0:100  MemLog inited, TSC freq: 3200181440
+0:100  0:000  LegacyRegion2: Chipset/proc: 0x34058086
+0:100  0:000   Core i7 processors (PAM 0x40-0x47)
+0:100  0:000   Test PAM1=(0x41=11, 0x5a=00, 0x81=0C, 0x91=4A) at chipset 34058086
+0:100  0:000  , Install = Success
+0:113  0:013  BiosVideoDriverEntryPoint!
+0:122  0:008  BiosVideoDriverBindingStart!
+0:122  0:000  BiosVideoCheckForVbe
+0:162  0:040   Edid1+
+0:162  0:000   found Detail Timing 1920x1200
+0:202  0:040   Edid0+
+0:202  0:000   found Detail Timing 1920x1200
+0:202  0:000  ... already present
+0:221  0:018     0 1152x864 attr=BB - ok, edid-
+0:223  0:001     1 1280x960 attr=BB - ok, edid-
+0:223  0:000     2 640x480 attr=BB - ok, edid-, 640x480, working, highest, pref=2
+0:224  0:000     3 800x600 attr=BB - ok, edid-, 800x600, working, highest, pref=3
+0:225  0:000     4 1024x768 attr=BB - ok, edid-, 1024x768, working, highest, pref=4
+0:225  0:000     5 1280x1024 attr=BB - ok, edid-
+0:227  0:001     6 1400x1050 attr=BB - ok, edid-
+0:229  0:001     7 1600x1200 attr=BB - ok, edid-
+0:231  0:001     8 1792x1344 attr=BA - ok, edid-
+0:233  0:001     9 1856x1392 attr=BA - ok, edid-
+0:235  0:001    10 1920x1440 attr=BA - ok, edid-
+0:235  0:000  BV new mode: 4 1024x768
+1:204  0:969   SetMode pref 4 (4) = Success
+1:204  0:000  BiosVideoDriverBindingStart - END: Success!
+8:097  6:892  
+8:097  0:000  Starting rEFIt rev 1140 on CLOVER EFI
+8:097  0:000  SelfDevicePath=PcieRoot(0x0)/Pci(0x1A,0x7)/USB(0x0,0x0)/USB(0x1,0x0)/HD(1,MBR,0x00000000,0x2,0x1DCD68) @CDD67118
+8:145  0:048  Theme: black_green Path: EFI\BOOT\themes\black_green
+8:194  0:048  Total Memory Slots Count = 6
+8:194  0:000  Type 17 Index = 0
+8:194  0:000  SmbiosTable.Type17->Speed = 1419
+8:194  0:000  SmbiosTable.Type17->Size = 4096
+8:194  0:000  mTotalSystemMemory = 4096
+8:194  0:000  Type 17 Index = 1
+8:194  0:000  SmbiosTable.Type17->Speed = 1419
+8:194  0:000  SmbiosTable.Type17->Size = 2048
+8:194  0:000  mTotalSystemMemory = 6144
+8:194  0:000  Type 17 Index = 2
+8:194  0:000  SmbiosTable.Type17->Speed = 1419
+8:194  0:000  SmbiosTable.Type17->Size = 4096
+8:194  0:000  mTotalSystemMemory = 10240
+8:194  0:000  Type 17 Index = 3
+8:194  0:000  SmbiosTable.Type17->Speed = 1419
+8:194  0:000  SmbiosTable.Type17->Size = 2048
+8:194  0:000  mTotalSystemMemory = 12288
+8:194  0:000  Type 17 Index = 4
+8:194  0:000  SmbiosTable.Type17->Speed = 1419
+8:194  0:000  SmbiosTable.Type17->Size = 4096
+8:194  0:000  mTotalSystemMemory = 16384
+8:194  0:000  Type 17 Index = 5
+8:194  0:000  SmbiosTable.Type17->Speed = 1419
+8:194  0:000  SmbiosTable.Type17->Size = 2048
+8:194  0:000  mTotalSystemMemory = 18432
+8:194  0:000  Boot status=0
+8:194  0:000  Clover revision: 1140  running on  
+8:194  0:000  ... with board DX58SO2
+8:243  0:048  ConfigPlistPath: EFI\config.plist
+8:267  0:024  Using OEM config.plist at path: EFI\OEM\DX58SO2\config.plist
+8:268  0:000  Loading early settings
+8:268  0:000  LoadDrivers() start
+8:292  0:024  Starting FSInject-64.efi
+8:316  0:024  Using load options 'FSInject-64.efi  '
+8:316  0:000  Starting UsbMouseDxe-64.efi
+8:341  0:024  Using load options 'UsbMouseDxe-64.efi  '
+8:341  0:000   - driver needs connecting
+8:341  0:000  Starting VBoxExt2-64.efi
+8:365  0:024  Using load options 'VBoxExt2-64.efi  '
+8:365  0:000   - driver needs connecting
+8:365  0:000  Starting XhciDxe-64.efi
+8:390  0:024  Using load options 'XhciDxe-64.efi  '
+8:390  0:000   - driver needs connecting
+8:390  0:000  3 drivers needs connecting ...
+8:390  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+8:665  0:275  LoadDrivers() end
+8:665  0:000  reinit: self device path=PcieRoot(0x0)/Pci(0x1A,0x7)/USB(0x0,0x0)/USB(0x1,0x0)/HD(1,MBR,0x00000000,0x2,0x1DCD68)
+8:665  0:000  new SelfHandle=CDD67118
+8:665  0:000  CPU Vendor = 756E6547 Model=106A5
+8:665  0:000  The CPU supported turbo
+8:665  0:000  BrandString = Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+8:665  0:000  non-usable FLEX_RATIO = 11800
+8:665  0:000  FSBFrequency=133MHz
+8:665  0:000  Corrected FSBFrequency=133MHz
+8:665  0:000  Found QCLK_RATIO at bus 0x3F dev=3 funs=4
+8:665  0:000  qpi read from PCI F000E739
+8:665  0:000  qpimult 25
+8:665  0:000  qpibusspeed 6666500kHz
+8:665  0:000  Vendor/Model/Stepping: 0x756E6547/0x1A/0x5
+8:665  0:000  Family/ExtFamily: 0x6/0x0
+8:665  0:000  MaxDiv/MinDiv: 24.0/12
+8:665  0:000  Turbo: 25/25/25/26
+8:665  0:000  Features: 0xBFEBFBFF
+8:665  0:000  Threads: 8
+8:665  0:000  Cores: 4
+8:665  0:000  FSB: 133 MHz
+8:665  0:000  CPU: 3202 MHz
+8:665  0:000  TSC: 3202 MHz
+8:665  0:000  PIS: 6666 MHz
+8:665  0:000  PCI (00|00:00.00) : 8086 3405 class=060000
+8:665  0:000  PCI (00|00:03.00) : 8086 340A class=060400
+8:665  0:000  PCI (00|02:00.00) : 1002 6738 class=030000
+8:665  0:000  PCI (00|02:00.01) : 1002 AA88 class=040300
+8:666  0:000  PCI (00|00:07.00) : 8086 340E class=060400
+8:666  0:000  PCI (00|00:10.00) : 8086 3425 class=080000
+8:666  0:000  PCI (00|00:10.01) : 8086 3426 class=080000
+8:666  0:000  PCI (00|00:14.00) : 8086 342E class=080000
+8:666  0:000  PCI (00|00:14.01) : 8086 3422 class=080000
+8:666  0:000  PCI (00|00:14.02) : 8086 3423 class=080000
+8:666  0:000  PCI (00|00:14.03) : 8086 3438 class=080000
+8:666  0:000  PCI (00|00:19.00) : 8086 10CD class=020000
+8:666  0:000  PCI (00|00:1A.00) : 8086 3A37 class=0C0300
+8:666  0:000  PCI (00|00:1A.01) : 8086 3A38 class=0C0300
+8:666  0:000  PCI (00|00:1A.02) : 8086 3A39 class=0C0300
+8:666  0:000  PCI (00|00:1A.07) : 8086 3A3C class=0C0320
+8:666  0:000  PCI (00|00:1B.00) : 8086 3A3E class=040300
+8:666  0:000  PCI (00|00:1C.00) : 8086 3A40 class=060400
+8:666  0:000  PCI (00|00:1C.01) : 8086 3A42 class=060400
+8:666  0:000  PCI (00|00:1C.02) : 8086 3A44 class=060400
+8:666  0:000  PCI (00|06:00.00) : 8086 10D3 class=020000
+8:666  0:000  PCI (00|00:1D.00) : 8086 3A34 class=0C0300
+8:666  0:000  PCI (00|00:1D.01) : 8086 3A35 class=0C0300
+8:666  0:000  PCI (00|00:1D.02) : 8086 3A36 class=0C0300
+8:666  0:000  PCI (00|00:1D.07) : 8086 3A3A class=0C0320
+8:666  0:000  PCI (00|00:1E.00) : 8086 244E class=060401
+8:666  0:000  PCI (00|07:03.00) : 11C1 5811 class=0C0010
+8:666  0:000  PCI (00|00:1F.00) : 8086 3A16 class=060100
+8:666  0:000  PCI (00|00:1F.02) : 8086 3A22 class=010601
+8:666  0:000  PCI (00|00:1F.03) : 8086 3A30 class=0C0500
+8:666  0:000  PCI (00|3F:00.00) : 8086 2C41 class=060000
+8:666  0:000  PCI (00|3F:00.01) : 8086 2C01 class=060000
+8:666  0:000  PCI (00|3F:02.00) : 8086 2C10 class=060000
+8:666  0:000  PCI (00|3F:02.01) : 8086 2C11 class=060000
+8:666  0:000  PCI (00|3F:03.00) : 8086 2C18 class=060000
+8:666  0:000  PCI (00|3F:03.01) : 8086 2C19 class=060000
+8:666  0:000  PCI (00|3F:03.04) : 8086 2C1C class=060000
+8:666  0:000  PCI (00|3F:04.00) : 8086 2C20 class=060000
+8:666  0:000  PCI (00|3F:04.01) : 8086 2C21 class=060000
+8:666  0:000  PCI (00|3F:04.02) : 8086 2C22 class=060000
+8:666  0:000  PCI (00|3F:04.03) : 8086 2C23 class=060000
+8:666  0:000  PCI (00|3F:05.00) : 8086 2C28 class=060000
+8:666  0:000  PCI (00|3F:05.01) : 8086 2C29 class=060000
+8:666  0:000  PCI (00|3F:05.02) : 8086 2C2A class=060000
+8:666  0:000  PCI (00|3F:05.03) : 8086 2C2B class=060000
+8:666  0:000  PCI (00|3F:06.00) : 8086 2C30 class=060000
+8:666  0:000  PCI (00|3F:06.01) : 8086 2C31 class=060000
+8:666  0:000  PCI (00|3F:06.02) : 8086 2C32 class=060000
+8:666  0:000  PCI (00|3F:06.03) : 8086 2C33 class=060000
+8:666  0:000  ScanSPD() start
+8:667  0:000  SMBus CmdReg: 0x3
+8:667  0:000  Scanning SMBus [8086:3A30], mmio: 0xF0004004, ioport: 0x3000, hostc: 0x1
+8:667  0:000  SPD[0] (size): 0x92 @0x50 
+8:686  0:018  DDR speed 1333MHz 
+8:686  0:000  Slot: 0 Type 24 4096MB (DDR3 SDRAM) 1419MHz Vendor=Kingston PartNo=9905471-006.A01LF SerialNo=2418ABB9 
+8:686  0:000  SPD[0] (size): 0x92 @0x51 
+8:705  0:018  DDR speed 1333MHz 
+8:705  0:000  Slot: 1 Type 24 2048MB (DDR3 SDRAM) 1419MHz Vendor=Samsung PartNo=M378B5773CH0-CH9 SerialNo=65154385 
+8:705  0:000  SPD[0] (size): 0x92 @0x52 
+8:724  0:018  DDR speed 1333MHz 
+8:724  0:000  Slot: 2 Type 24 4096MB (DDR3 SDRAM) 1419MHz Vendor=Kingston PartNo=9905471-006.A01LF SerialNo=2618A6B9 
+8:724  0:000  SPD[0] (size): 0x92 @0x53 
+8:743  0:018  DDR speed 1333MHz 
+8:743  0:000  Slot: 3 Type 24 2048MB (DDR3 SDRAM) 1419MHz Vendor=Samsung PartNo=M378B5673FH0-CH9 SerialNo=85FCB30D 
+8:743  0:000  SPD[0] (size): 0x92 @0x54 
+8:762  0:018  DDR speed 1333MHz 
+8:762  0:000  Slot: 4 Type 24 4096MB (DDR3 SDRAM) 1419MHz Vendor=Kingston PartNo=9905471-006.A01LF SerialNo=2018B2B9 
+8:763  0:000  SPD[0] (size): 0x92 @0x55 
+8:781  0:018  DDR speed 1333MHz 
+8:781  0:000  Slot: 5 Type 24 2048MB (DDR3 SDRAM) 1419MHz Vendor=Samsung PartNo=M378B5673FH0-CH9 SerialNo=85FCB337 
+8:841  0:060  ScanSPD() end
+8:841  0:000  Calibrated TSC frequency =3200181440 =3200MHz
+8:841  0:000  Loading main settings
+8:841  0:000   C2 enabled
+8:841  0:000  Finally: Bus=133MHz CPU=3200MHz
+8:841  0:000  load font image
+8:876  0:034  font loaded from themedir
+8:876  0:000  Font loaded: ImageWidth=176 ImageHeight=288 Ptr=CBAE2018
+8:876  0:000  Font prepared WxH=11x18 CharWidth=10
+8:876  0:000  found 24 volumes with blockIO
+8:876  0:000  * PcieRoot(0x0)/Pci(0x1A,0x7)/USB(0x0,0x0)/USB(0x1,0x0)
+8:972  0:095    USB volume
+8:972  0:000    USB volume
+9:045  0:073     0. Volume 'Whole Disc Boot', OS 'MacOSX', GUID = <null guid>
+9:045  0:000  * PcieRoot(0x0)/Pci(0x1A,0x7)/USB(0x0,0x0)/USB(0x1,0x0)/HD(1,MBR,0x00000000,0x2,0x1DCD68)
+9:068  0:022    USB volume
+9:068  0:000    USB volume
+9:068  0:000     1. Volume '', OS 'MacOSX', GUID = <null guid>
+9:068  0:000    This is SelfVolume !!
+9:068  0:000  * PcieRoot(0x0)/Pci(0x1A,0x7)/USB(0x0,0x0)/USB(0x1,0x0)/HD(2,MBR,0x00000000,0x1DCD6B,0x1B04795)
+9:091  0:022    USB volume
+9:091  0:000    USB volume
+9:094  0:003     2. Volume '14_Gb', OS '', GUID = <null guid>
+9:094  0:000  * PcieRoot(0x0)/Pci(0x1D,0x7)/USB(0x2,0x0)
+9:094  0:000    found optical drive
+9:121  0:027  Detected name APPLE COMPUTER, INC., TYPE: 00
+9:121  0:000  Found AppleDVD
+9:195  0:073     3. Volume 'APPLE COMPUTER, INC., TYPE: 00', OS '', GUID = <null guid>
+9:195  0:000  * PcieRoot(0x0)/Pci(0x1D,0x7)/USB(0x2,0x0)/CDROM(0x0,0x0,0x8)
+9:220  0:024    USB volume
+9:220  0:000     4. Volume 'Whole Disc Boot', OS '', GUID = <null guid>
+9:220  0:000  * PcieRoot(0x0)/Pci(0x1D,0x7)/USB(0x2,0x0)/CDROM(0x0,0x9D,0x3E04)
+9:247  0:027    USB volume
+9:248  0:000     5. Volume 'Beeline', OS '', GUID = <null guid>
+9:248  0:000  * PcieRoot(0x0)/Pci(0x1D,0x7)/USB(0x2,0x0)/CDROM(0x0,0x0,0x8)/CDROM(0x0,0x1,0x23)
+9:301  0:052    USB volume
+9:301  0:000     6. Volume 'Whole Disc Boot', OS '', GUID = <null guid>
+9:302  0:000  * PcieRoot(0x0)/Pci(0x1D,0x7)/USB(0x2,0x0)/CDROM(0x0,0x0,0x8)/CDROM(0x0,0x274,0xF810)
+9:302  0:000    USB volume
+9:302  0:000     7. Volume 'Whole Disc Boot', OS '', GUID = <null guid>
+9:302  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x1,0x0,0x0)
+9:330  0:028     8. Volume 'Whole Disc Boot', OS '', GUID = <null guid>
+9:330  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x2,0x0,0x0)
+9:333  0:003     9. Volume 'Whole Disc Boot', OS '', GUID = <null guid>
+9:334  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x3,0x0,0x0)
+9:337  0:003    10. Volume 'Whole Disc Boot', OS '', GUID = <null guid>
+9:337  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x4,0x0,0x0)
+9:340  0:003    11. Volume 'Whole Disc Boot', OS '', GUID = <null guid>
+9:340  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x5,0x0,0x0)
+9:343  0:003    12. Volume 'Whole Disc Boot', OS '', GUID = <null guid>
+9:343  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x0,0x0,0x0)
+9:343  0:000    found optical drive
+9:343  0:000    13. Volume 'Whole Disc Boot', OS '', GUID = <null guid>
+9:343  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x1,0x0,0x0)/HD(1,GPT,61D77050-0D93-4E95-A0DC-4D0D812B26AF,0x28,0x64000)
+9:353  0:009    14. Volume '', OS 'Legacy', GUID = 61D77050-0D93-4E95-A0DC-4D0D812B26AF
+9:353  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x1,0x0,0x0)/HD(2,GPT,0654EFD9-0690-4D51-A3A7-81F827BF1996,0x64028,0xDEF0B88)
+9:378  0:024    Booting OS 10.6.8
+9:426  0:048    15. Volume 'Intel', OS 'Legacy', GUID = 0654EFD9-0690-4D51-A3A7-81F827BF1996
+9:426  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x2,0x0,0x0)/HD(1,GPT,3E98D2BC-9FF6-4EDB-8AA7-26F135BAA038,0x28,0x64000)
+9:446  0:019    16. Volume '', OS 'Legacy', GUID = 3E98D2BC-9FF6-4EDB-8AA7-26F135BAA038
+9:446  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x2,0x0,0x0)/HD(2,GPT,65DC5DE8-6413-42DF-81DE-EA9AE52DA236,0x64028,0xAE9E3AE0)
+9:459  0:012    17. Volume 'ARHIVE_1', OS '', GUID = 65DC5DE8-6413-42DF-81DE-EA9AE52DA236
+9:459  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x3,0x0,0x0)/HD(1,GPT,B1FC1155-4ADD-4B1D-AE1F-7AAD4A8B0CDE,0x28,0x64000)
+9:476  0:016    18. Volume '', OS 'Legacy', GUID = B1FC1155-4ADD-4B1D-AE1F-7AAD4A8B0CDE
+9:476  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x3,0x0,0x0)/HD(2,GPT,8E802B79-73FB-404F-AB6C-3BC08BAB0586,0x64028,0x74622D88)
+9:502  0:025    19. Volume 'ARHIVE_2', OS '', GUID = 8E802B79-73FB-404F-AB6C-3BC08BAB0586
+9:502  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x4,0x0,0x0)/HD(1,GPT,CEA1E321-74F1-45E4-BE69-E900BE36DEEF,0x28,0x64000)
+9:525  0:022    20. Volume '', OS 'Legacy', GUID = CEA1E321-74F1-45E4-BE69-E900BE36DEEF
+9:525  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x4,0x0,0x0)/HD(2,GPT,0E8FB62B-461A-46F4-A7D6-8D701F5A9146,0x64028,0x74662D60)
+9:532  0:007    21. Volume 'TM', OS '', GUID = 0E8FB62B-461A-46F4-A7D6-8D701F5A9146
+9:532  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x5,0x0,0x0)/HD(1,GPT,4DDEB902-C67C-43F6-9536-20B68313338D,0x28,0x64000)
+9:544  0:012    22. Volume '', OS 'Legacy', GUID = 4DDEB902-C67C-43F6-9536-20B68313338D
+9:544  0:000  * PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x5,0x0,0x0)/HD(2,GPT,6A471903-3498-4034-AA71-38AD284E4B13,0x64028,0x74662D60)
+9:556  0:011    23. Volume 'WORK', OS '', GUID = 6A471903-3498-4034-AA71-38AD284E4B13
+9:645  0:088  Searching volumes for latest nvram.plist ...
+9:645  0:000    1. Volume '', GUID = <null guid> - not GPT - no nvram.plist - skipping!
+9:645  0:000    2. Volume '14_Gb', GUID = <null guid> - not GPT - no nvram.plist - skipping!
+9:645  0:000    5. Volume 'Beeline', GUID = <null guid> - not GPT - no nvram.plist - skipping!
+9:645  0:000   14. Volume '', GUID = 61D77050-0D93-4E95-A0DC-4D0D812B26AF - no nvram.plist - skipping!
+9:645  0:000   15. Volume 'Intel', GUID = 0654EFD9-0690-4D51-A3A7-81F827BF1996 Modified = 2013-3-3 13:41:16 (3640254076000 ms) - newer - will use this one
+9:651  0:006   16. Volume '', GUID = 3E98D2BC-9FF6-4EDB-8AA7-26F135BAA038 - no nvram.plist - skipping!
+9:651  0:000   17. Volume 'ARHIVE_1', GUID = 65DC5DE8-6413-42DF-81DE-EA9AE52DA236 - no nvram.plist - skipping!
+9:651  0:000   18. Volume '', GUID = B1FC1155-4ADD-4B1D-AE1F-7AAD4A8B0CDE - no nvram.plist - skipping!
+9:651  0:000   19. Volume 'ARHIVE_2', GUID = 8E802B79-73FB-404F-AB6C-3BC08BAB0586 - no nvram.plist - skipping!
+9:651  0:000   20. Volume '', GUID = CEA1E321-74F1-45E4-BE69-E900BE36DEEF - no nvram.plist - skipping!
+9:651  0:000   21. Volume 'TM', GUID = 0E8FB62B-461A-46F4-A7D6-8D701F5A9146 - no nvram.plist - skipping!
+9:651  0:000   22. Volume '', GUID = 4DDEB902-C67C-43F6-9536-20B68313338D - no nvram.plist - skipping!
+9:651  0:000   23. Volume 'WORK', GUID = 6A471903-3498-4034-AA71-38AD284E4B13 - no nvram.plist - skipping!
+9:652  0:000  Loading nvram.plist from Vol 'Intel' - loaded, size=811
+9:655  0:003  PutNvramPlistToRtVars ...
+9:655  0:000   Adding Key: platform-uuid: Data: Size = 16: Success
+9:655  0:000   Adding Key: efi-boot-device-data: Data: Size = 74: Success
+9:655  0:000   Adding Key: efi-boot-device: Data: Size = 217: Success
+9:655  0:000   Adding Key: SystemAudioVolume: Data: Size = 1: Success
+9:655  0:000  Volume 0 has no root
+9:657  0:002  Volume 3 has no root
+9:657  0:000  Volume 4 has no root
+9:659  0:001  Volume 6 has no root
+9:659  0:000  Volume 7 has no root
+9:659  0:000  Volume 8 has no root
+9:659  0:000  Volume 9 has no root
+9:659  0:000  Volume 10 has no root
+9:659  0:000  Volume 11 has no root
+9:659  0:000  Volume 12 has no root
+9:659  0:000  Volume 13 has no root
+9:687  0:027    Icon 15 (icons\vol_internal_hfs.icns) not found
+9:739  0:052  hide volume 0
+9:739  0:000  added legacy entry 4 OSType=0 Name=Whole Disc Boot Icon=<null string>
+9:739  0:000  added legacy entry 6 OSType=0 Name=Whole Disc Boot Icon=<null string>
+9:739  0:000  ScanLegacy()
+9:840  0:100  found tools\Shell64.efi
+9:840  0:000  ScanTool()
+9:915  0:074  FindDefaultEntry ...
+9:915  0:000  FindStartupDiskVolume ...
+9:915  0:000  GetEfiBootDeviceFromNvram:
+9:915  0:000   efi-boot-device-data: PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x1,0x0,0x0)/HD(2,GPT,0654EFD9-0690-4D51-A3A7-81F827BF1996,0x64028,0xDEF0B88)
+9:915  0:000   Volume: 'PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x1,0x0,0x0)/HD(2,GPT,0654EFD9-0690-4D51-A3A7-81F827BF1996,0x64028,0xDEF0B88)'
+9:915  0:000   LoaderPath: '<null string>'
+9:915  0:000   Guid = 0654EFD9-0690-4D51-A3A7-81F827BF1996
+9:915  0:000  FindStartupDiskVolume searching ...
+9:915  0:000   volume: partition = PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x1,0x0,0x0)/HD(2,GPT,0654EFD9-0690-4D51-A3A7-81F827BF1996,0x64028,0xDEF0B88)
+9:915  0:000   searching for that partition
+9:915  0:000    found entry 1. 'Boot Mac OS X from Intel', Volume 'Intel'
+9:915  0:000  Boot redirected to Entry 1. 'Boot Mac OS X from Intel'
+9:915  0:000  FindDefaultEntry()
+9:915  0:000  Use anime=Anim_1_Logo_IntroOutro frames=381
+12:056  2:140   found 381 frames of the anime
+12:056  0:000  SetScreenResolution: 1024x768 - already set
+12:326  0:270  MouseBirth: Mouse located at ConIn
+12:326  0:000  Found Mouse device:
+12:326  0:000   - ResolutionX=65536
+12:326  0:000   - ResolutionY=65536
+12:326  0:000   - ResolutionZ=65536
+12:326  0:000   - Left button   present
+12:326  0:000   - Right button   present
+12:326  0:000   - WaitForInput   present
+12:353  0:026  GUI ready
+41:682  29:329  StartLoader() start
+41:811  0:129  Turbo=Y
+41:811  0:000  MSR_IA32_MISC_ENABLE = 850089
+41:811  0:000  Set turbo: MSR_IA32_MISC_ENABLE = 850089
+41:811  0:000  add table 9 #0
+41:811  0:000  add table 9 #1
+41:811  0:000  add table 9 #2
+41:811  0:000  add table 9 #3
+41:812  0:000  add table 9 #4
+41:812  0:000  add table 9 #5
+41:812  0:000  no airport
+41:812  0:000  RSDT 0xCF7FE0AC
+41:812  0:000  FADT from RSDT: 0xCF7FD000
+41:812  0:000  XSDT 0xCF7FE120
+41:812  0:000  FADT from XSDT: 0xCF7FD000
+41:812  0:000  Xsdt reallocation done
+41:812  0:000  old FADT length=F4
+41:910  0:097  DSDT len = 0x40EE new len = 0x490B
+41:910  0:000  Apply DsdtFixMask=0xFFFF
+41:926  0:015  Drop tables from Xsdt, count=10
+41:926  0:000   Found table: FACP  DX58SO2 
+41:926  0:000   Found table: APIC  DX58SO2 
+41:926  0:000   Found table: WDDT  DX58SO2 
+41:926  0:000   Found table: MCFG  DX58SO2 
+41:926  0:000   Found table: ASF!  DX58SO2 
+41:926  0:000   Found table: HPET  DX58SO2 
+41:926  0:000   Found table: SSDT  SSDT  PM
+41:926  0:000   ... dropped
+41:926  0:000   Found table: DMAR  DX58SO2 
+41:926  0:000   Found table: WDTT  DX58SO2 
+41:926  0:000   Found table: ASPT  PerfTune
+41:926  0:000  corrected XSDT length=108
+41:926  0:000   CPUBase=0 and ApicCPUBase=0 ApicCPUNum=16
+41:926  0:000  Maximum control=18
+41:926  0:000  Turbo control=1A
+41:926  0:000  P-States: min 0xC, max 0x1A
+41:926  0:000  SSDT with CPU P-States generated successfully
+41:926  0:000  SSDT with CPU C-States generated successfully
+41:928  0:001    Booting OS 10.6.8
+41:928  0:000  EdidDiscovered size=128
+41:928  0:000  00 | 00 FF FF FF FF FF FF 00 06 10 
+41:928  0:000  10 | 1C 92 97 B6 01 02 23 11 01 03 
+41:928  0:000  20 | 80 31 1F 78 2E FD 45 A3 57 4A 
+41:928  0:000  30 | 9E 25 13 50 54 00 00 00 D1 00 
+41:928  0:000  40 | 01 01 01 01 01 01 01 01 01 01 
+41:928  0:000  50 | 01 01 01 01 28 3C 80 A0 70 B0 
+41:928  0:000  60 | 23 40 30 20 36 00 EF 36 11 00 
+41:928  0:000  70 | 00 1A 00 00 00 FF 00 32 41 37 
+41:928  0:000  80 | 33 35 30 56 50 58 4D 4E 0A 20 
+41:928  0:000  90 | 00 00 00 FC 00 43 69 6E 65 6D 
+41:928  0:000  100 | 61 20 48 44 0A 20 20 20 00 00 
+41:928  0:000  110 | 00 00 00 00 00 00 00 00 00 00 
+41:928  0:000  120 | 00 00 00 00 00 00 01 24 70 74 
+41:928  0:000  Framebuffer @0xE0000000  MMIO @0xD0200000	I/O Port @0x00002000 ROM Addr @0xFFFE0000
+41:928  0:000  ATI card POSTed, 
+41:928  0:000  Set VRAM for Cedar=1024Mb
+41:928  0:000  ATI: get_vram_size returned 0x40000000
+41:928  0:000  ATI Radeon EVERGREEN family
+41:928  0:000  Framebuffer set to device's default: Duckweed
+41:928  0:000   N ports defaults to 4
+41:928  0:000  (AtiPorts) Nr of ports set to: 4
+41:928  0:000  ATI Barts AMD Radeon HD 6870 Series 1024MB (Duckweed) [1002:6738] (subsys [1462:2450]):: PcieRoot(0x0)/Pci(0x3,0x0)/Pci(0x0,0x0)
+41:929  0:000  stringlength = 3124
+41:929  0:000  devprop_generate_string
+41:929  0:000  CurrentMode: Width=1024 Height=768
+41:929  0:000  FSInjection: not requested
+41:954  0:024  Injecting kexts from EFI\OEM\DX58SO2\kexts\10.6
+41:978  0:024  Extra kext: EFI\OEM\DX58SO2\kexts\10.6\FakeSMC.kext
+42:101  0:122  count: 1       
+42:101  0:000  mm_extra_size: 44       
+42:101  0:000  extra_size: 65536       
+42:101  0:000  offset: 69596           
+42:101  0:000  Closing log

@@ -1,0 +1,72 @@
+hw.ncpu: 16
+hw.activecpu: 16
+hw.physicalcpu: 8
+hw.physicalcpu_max: 8
+hw.logicalcpu: 16
+hw.logicalcpu_max: 16
+hw.cputype: 7
+hw.cpusubtype: 8
+hw.cpu64bit_capable: 1
+hw.cpufamily: 939270559
+hw.cpufrequency: 3500000000
+hw.cpufrequency_min: 3500000000
+hw.cpufrequency_max: 3500000000
+hw.cputhreadtype: 1
+machdep.cpu.max_basic: 22
+machdep.cpu.max_ext: 2147483656
+machdep.cpu.vendor: GenuineIntel
+machdep.cpu.brand_string: Intel(R) Xeon(R) W-3223 CPU @ 3.50GHz
+machdep.cpu.family: 6
+machdep.cpu.model: 85
+machdep.cpu.extmodel: 5
+machdep.cpu.extfamily: 0
+machdep.cpu.stepping: 7
+machdep.cpu.feature_bits: 9223086162756500479
+machdep.cpu.leaf7_feature_bits: 3550476267 2056
+machdep.cpu.leaf7_feature_bits_edx: 3154117632
+machdep.cpu.extfeature_bits: 1241984796928
+machdep.cpu.signature: 329303
+machdep.cpu.brand: 0
+machdep.cpu.features: FPU VME DE PSE TSC MSR PAE MCE CX8 APIC SEP MTRR PGE MCA CMOV PAT PSE36 CLFSH DS ACPI MMX FXSR SSE SSE2 SS HTT TM PBE SSE3 PCLMULQDQ DTES64 MON DSCPL VMX SMX EST TM2 SSSE3 FMA CX16 TPR PDCM SSE4.1 SSE4.2 x2APIC MOVBE POPCNT AES PCID XSAVE OSXSAVE SEGLIM64 TSCTMR AVX1.0 RDRAND F16C
+machdep.cpu.leaf7_features: RDWRFSGS TSC_THREAD_OFFSET BMI1 AVX2 FDPEO SMEP BMI2 ERMS INVPCID PQM FPU_CSDS MPX PQE AVX512F AVX512DQ RDSEED ADX SMAP CLFSOPT CLWB IPT AVX512CD AVX512BW AVX512VL PKU AVX512VNNI MDCLEAR IBRS STIBP L1DF ACAPMSR SSBD
+machdep.cpu.extfeatures: SYSCALL XD 1GBPAGE EM64T LAHF LZCNT PREFETCHW RDTSCP TSCI
+machdep.cpu.logical_per_package: 32
+machdep.cpu.cores_per_package: 16
+machdep.cpu.microcode_version: 83886123
+machdep.cpu.processor_flag: 1
+machdep.cpu.mwait.linesize_min: 64
+machdep.cpu.mwait.linesize_max: 64
+machdep.cpu.mwait.extensions: 3
+machdep.cpu.mwait.sub_Cstates: 8224
+machdep.cpu.thermal.sensor: 1
+machdep.cpu.thermal.dynamic_acceleration: 1
+machdep.cpu.thermal.invariant_APIC_timer: 1
+machdep.cpu.thermal.thresholds: 2
+machdep.cpu.thermal.ACNT_MCNT: 1
+machdep.cpu.thermal.core_power_limits: 1
+machdep.cpu.thermal.fine_grain_clock_mod: 1
+machdep.cpu.thermal.package_thermal_intr: 1
+machdep.cpu.thermal.hardware_feedback: 0
+machdep.cpu.thermal.energy_policy: 1
+machdep.cpu.xsave.extended_state: 767 2688 2696 0
+machdep.cpu.xsave.extended_state1: 15 2432 256 0
+machdep.cpu.arch_perf.version: 4
+machdep.cpu.arch_perf.number: 4
+machdep.cpu.arch_perf.width: 48
+machdep.cpu.arch_perf.events_number: 7
+machdep.cpu.arch_perf.events: 0
+machdep.cpu.arch_perf.fixed_number: 3
+machdep.cpu.arch_perf.fixed_width: 48
+machdep.cpu.cache.linesize: 64
+machdep.cpu.cache.L2_associativity: 16
+machdep.cpu.cache.size: 256
+machdep.cpu.tlb.inst.large: 8
+machdep.cpu.tlb.data.small: 64
+machdep.cpu.tlb.data.small_level1: 64
+machdep.cpu.address_bits.physical: 46
+machdep.cpu.address_bits.virtual: 48
+machdep.cpu.core_count: 8
+machdep.cpu.thread_count: 16
+machdep.cpu.tsc_ccc.numerator: 280
+machdep.cpu.tsc_ccc.denominator: 2
+machdep.xcpm.cpu_thermal_level: 0

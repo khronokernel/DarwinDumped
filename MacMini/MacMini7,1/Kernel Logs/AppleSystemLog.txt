@@ -1,0 +1,145 @@
+Jun  5 23:34:46 localhost kernel[0] <Notice>: Darwin Kernel Version 14.4.0: Tue May 12 21:00:42 PDT 2015; root:xnu-2782.30.4~4/RELEASE_X86_64
+Jun  5 23:34:46 localhost kernel[0] <Notice>: vm_page_bootstrap: 935630 free pages and 104754 wired pages
+Jun  5 23:34:46 localhost kernel[0] <Notice>: kext submap [0xffffff7f80a00000 - 0xffffff8000000000], kernel text [0xffffff8000200000 - 0xffffff8000a00000]
+Jun  5 23:34:46 localhost kernel[0] <Notice>: zone leak detection enabled
+Jun  5 23:34:46 localhost kernel[0] <Notice>: "vm_compressor_mode" is 4
+Jun  5 23:34:46 localhost kernel[0] <Notice>: multiq scheduler config: deep-drain 0, urgent first 1, depth limit 4, band limit 127, sanity check 0
+Jun  5 23:34:46 localhost kernel[0] <Notice>: standard timeslicing quantum is 10000 us
+Jun  5 23:34:46 localhost kernel[0] <Notice>: standard background quantum is 2500 us
+Jun  5 23:34:46 localhost kernel[0] <Notice>: mig_table_max_displ = 13
+Jun  5 23:34:46 localhost kernel[0] <Notice>: TSC Deadline Timer supported and enabled
+Jun  5 23:34:46 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=1 LocalApicId=0 Enabled
+Jun  5 23:34:46 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=2 LocalApicId=2 Enabled
+Jun  5 23:34:46 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=3 LocalApicId=1 Enabled
+Jun  5 23:34:46 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=4 LocalApicId=3 Enabled
+Jun  5 23:34:46 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=5 LocalApicId=255 Disabled
+Jun  5 23:34:46 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=6 LocalApicId=255 Disabled
+Jun  5 23:34:46 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=7 LocalApicId=255 Disabled
+Jun  5 23:34:46 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=8 LocalApicId=255 Disabled
+Jun  5 23:34:46 localhost kernel[0] <Notice>: calling mpo_policy_init for TMSafetyNet
+Jun  5 23:34:46 localhost kernel[0] <Notice>: Security policy loaded: Safety net for Time Machine (TMSafetyNet)
+Jun  5 23:34:46 localhost kernel[0] <Notice>: calling mpo_policy_init for AMFI
+Jun  5 23:34:46 localhost kernel[0] <Notice>: Security policy loaded: Apple Mobile File Integrity (AMFI)
+Jun  5 23:34:46 localhost kernel[0] <Notice>: calling mpo_policy_init for Sandbox
+Jun  5 23:34:46 localhost kernel[0] <Notice>: Security policy loaded: Seatbelt sandbox policy (Sandbox)
+Jun  5 23:34:46 localhost kernel[0] <Notice>: calling mpo_policy_init for Quarantine
+Jun  5 23:34:46 localhost kernel[0] <Notice>: Security policy loaded: Quarantine policy (Quarantine)
+Jun  5 23:34:46 localhost kernel[0] <Notice>: Copyright (c) 1982, 1986, 1989, 1991, 1993
+Jun  5 23:34:46 localhost kernel[0] <Notice>: The Regents of the University of California. All rights reserved.
+Jun  5 23:34:46 localhost kernel[0] <Notice>: MAC Framework successfully initialized
+Jun  5 23:34:46 localhost kernel[0] <Notice>: using 16384 buffer headers and 10240 cluster IO buffer headers
+Jun  5 23:34:46 localhost kernel[0] <Notice>: AppleKeyStore starting (BUILT: May 12 2015 20:17:21)
+Jun  5 23:34:46 localhost kernel[0] <Notice>: IOAPIC: Version 0x20 Vectors 64:103
+Jun  5 23:34:46 localhost kernel[0] <Notice>: ACPI: sleep states S3 S4 S5
+Jun  5 23:34:46 localhost kernel[0] <Notice>: pci (build 20:26:00 May 12 2015), flags 0xe3000, pfm64 (39 cpu) 0x7f80000000, 0x80000000
+Jun  5 23:34:46 localhost kernel[0] <Notice>: [ PCI configuration begin ]
+Jun  5 23:34:46 localhost kernel[0] <Notice>: console relocated to 0x7f80000000
+Jun  5 23:34:46 localhost kernel[0] <Notice>: [ PCI configuration end, bridges 11, devices 13 ]
+Jun  5 23:34:46 localhost kernel[0] <Notice>: AppleThunderboltNHIType2::setupPowerSavings - notification based runtime power management
+Jun  5 23:34:46 localhost kernel[0] <Notice>: mcache: 4 CPU(s), 64 bytes CPU cache line size
+Jun  5 23:34:46 localhost kernel[0] <Notice>: mbinit: done [64 MB total pool size, (42/21) split]
+Jun  5 23:34:46 localhost kernel[0] <Notice>: rooting via boot-uuid from /chosen: BEE303B5-C4B9-3AEC-8FC2-6D1F67C2E1E0
+Jun  5 23:34:46 localhost kernel[0] <Notice>: Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOResources</string><key>IOResourceMatch</key><string ID="2">boot-uuid-media</string></dict>
+Jun  5 23:34:46 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib kmod start
+Jun  5 23:34:46 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless kmod start
+Jun  5 23:34:46 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib load succeeded
+Jun  5 23:34:46 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless load succeeded
+Jun  5 23:34:46 localhost kernel[0] <Notice>: ARPT: 1.716162: srom rev:11
+Jun  5 23:34:46 localhost kernel[0] <Notice>: ARPT: 1.726911: BRCM tunables:
+Jun  5 23:34:46 localhost kernel[0] <Notice>: ARPT: 1.726917:   pullmode[1] txringsize[  256] txsendqsize[1024] reapmin[   32] reapcount[  128]
+Jun  5 23:34:46 localhost kernel[0] <Notice>: ARPT: 1.728618: wl0: Broadcom BCM43a0, vendorID[0x14e4] BAR0[0xa0600004]
+Jun  5 23:34:46 localhost kernel[0] <Notice>: 7.15.166.24 (r541488)
+Jun  5 23:34:46 localhost kernel[0] <Notice>: CoreStorage: fsck_cs has finished for group "5CCAB11B-EF26-44DD-9518-32D6055323A9" with status 0x00
+Jun  5 23:34:46 localhost kernel[0] <Notice>: Got boot device = IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/SATA@1F,2/AppleIntelPchSeriesAHCI/PRT0@0/IOAHCIDevice@0/AppleAHCIDiskDriver/IOAHCIBlockStorageDevice/IOBlockStorageDriver/APPLE HDD HTS545050A7E362 Media/IOGUIDPartitionScheme/Customer@2/CoreStoragePhysical/Macintosh HD/Macintosh HD
+Jun  5 23:34:46 localhost kernel[0] <Notice>: BSD root: disk1, major 1, minor 4
+Jun  5 23:34:46 localhost kernel[0] <Notice>: hfs: mounted Macintosh HD on device root_device
+Jun  5 23:34:46 localhost kernel[0] <Notice>: XCPM: registered
+Jun  5 23:34:46 localhost kernel[0] <Notice>: VM Swap Subsystem is ON
+Jun  5 23:34:46 localhost kernel[0] <Notice>: pci pause: SDXC
+Jun  5 23:34:48 localhost kernel[0] <Notice>: IO80211Controller::dataLinkLayerAttachComplete():  adding AppleEFINVRAM notification
+Jun  5 23:34:48 localhost kernel[0] <Notice>: IO80211Interface::efiNVRAMPublished():  
+Jun  5 23:34:48 localhost kernel[0] <Notice>: bpfAttach len 64 dlt 12
+Jun  5 23:34:48 localhost kernel[0] <Notice>: IOGraphics flags 0x43
+Jun  5 23:34:48 localhost kernel[0] <Notice>: [IOBluetoothHCIController][start] -- completed
+Jun  5 23:34:48 localhost kernel[0] <Notice>: IOBluetoothUSBDFU::probe
+Jun  5 23:34:48 localhost kernel[0] <Notice>: IOBluetoothUSBDFU::probe ProductID - 0x8289 FirmwareVersion - 0x0103
+Jun  5 23:34:48 localhost kernel[0] <Notice>: IOBluetoothUSBDFU::start
+Jun  5 23:34:48 localhost kernel[0] <Notice>: Previous shutdown cause: 5
+Jun  5 23:34:48 localhost kernel[0] <Notice>: DSMOS has arrived
+Jun  5 23:34:48 localhost kernel[0] <Notice>: IOPPF - IODeviceTree:/efi/platform/StartupPowerEvents: 0x0
+Jun  5 23:34:48 localhost kernel[0] <Notice>: hmm.. mismatch sizes: 3100 vs 20
+Jun  5 23:34:48 localhost kernel[0] <Notice>: PPGTT is enabled
+Jun  5 23:34:54 localhost kernel[0] <Notice>: AirPort: Link Down on en1. Reason 8 (Disassociated because station leaving).
+Jun  5 23:34:54 localhost kernel[0] <Notice>: en1: channel changed to 1
+Jun  5 23:34:54 localhost kernel[0] <Notice>: en1::IO80211Interface::postMessage bssid changed
+Jun  5 23:34:54 localhost kernel[0] <Notice>: bpfAttach len 94 dlt 163
+Jun  5 23:34:54 localhost kernel[0] <Notice>: bpfAttach len 30 dlt 105
+Jun  5 23:34:54 localhost kernel[0] <Notice>: bpfAttach len 52 dlt 127
+Jun  5 23:34:54 localhost kernel[0] <Notice>: bpfAttach len 38 dlt 192
+Jun  5 23:34:55 Mac-Mini kernel[0] <Notice>: IOPPF: XCPM mode
+Jun  5 23:34:55 Mac-Mini kernel[0] <Notice>: X86PlatformShim::sendPStates - Success!
+Jun  5 23:34:55 Mac-Mini kernel[0] <Notice>: en2: promiscuous mode enable succeeded
+Jun  5 23:34:55 Mac-Mini kernel[0] <Notice>: en3: promiscuous mode enable succeeded
+Jun  5 23:34:59 Mac-Mini kernel[0] <Notice>: Sound assertion in AppleHDAWidget at line 1733
+Jun  5 23:34:59 Mac-Mini kernel[0] <Notice>: Sound assertion in AppleHDAWidget_10134208 at line 179
+Jun  5 23:34:59 Mac-Mini kernel[0] <Notice>: Sound assertion in AppleHDAWidget_10134208 at line 823
+Jun  5 23:35:01 Mac-Mini kernel[0] <Notice>: ARPT: 146.437134: createVirtIf(): ifRole = 1
+Jun  5 23:35:01 Mac-Mini kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init name <p2p0> role 1
+Jun  5 23:35:01 Mac-Mini kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init <p2p> role 1
+Jun  5 23:35:01 Mac-Mini kernel[0] <Notice>: setVIRTUAL_IF_CREATE: AWDL interface role (4)
+Jun  5 23:35:01 Mac-Mini kernel[0] <Notice>: ARPT: 146.599384: createVirtIf(): ifRole = 1
+Jun  5 23:35:01 Mac-Mini kernel[0] <Notice>: ARPT: 146.599400: Create AWDL virtif(AWDL): unit = 2, ifRole = 4
+Jun  5 23:35:01 Mac-Mini kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init name <awdl0> role 4
+Jun  5 23:35:01 Mac-Mini kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::attachToBpf name <awdl0> role 4 successful attach to bpf type 147
+Jun  5 23:35:01 Mac-Mini kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init <awdl> role 4
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: AirPort: Link Up on awdl0
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: IO80211AWDLPeerManager::configure Dynamic country code not supported on this device
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: awdl0: promiscuous mode enable succeeded
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: awdl0: promiscuous mode disable succeeded
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: awdl0: promiscuous mode enable succeeded
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: en1: channel changed to 1
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: en1: 802.11d country code set to 'RU'.
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: en1: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: en1: 802.11d country code set to 'X3'.
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: en1: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: ARPT: 147.486262: MacAuthEvent en1   Auth result for: 02:0f:02:5d:b8:28  MAC AUTH succeeded
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: AirPort: Link Up on en1
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: en1: BSSID changed to 02:0f:02:5d:b8:28
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: en1: channel changed to 2
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: en1::IO80211Interface::postMessage bssid changed
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: ARPT: 147.491982: AWDL Sync Enabled 0
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: en1: 802.11d country code set to 'RU'.
+Jun  5 23:35:02 Mac-Mini kernel[0] <Notice>: en1: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+Jun  5 23:35:03 Mac-Mini kernel[0] <Notice>: AirPort: RSN handshake complete on en1
+Jun  5 23:35:04 Mac-Mini kernel[0] <Notice>: en1: BSSID changed to 02:0f:02:5d:b8:28
+Jun  5 23:35:04 Mac-Mini kernel[0] <Notice>: en1: channel changed to 2
+Jun  5 23:35:05 Mac-Mini kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+Jun  5 23:35:05 Mac-Mini kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+Jun  5 23:35:05 Mac-Mini kernel[0] <Notice>: IOBluetoothUSBDFU::probe
+Jun  5 23:35:05 Mac-Mini kernel[0] <Notice>: IOBluetoothUSBDFU::probe ProductID - 0xF007 FirmwareVersion - 0x0103
+Jun  5 23:35:05 Mac-Mini kernel[0] <Notice>: IOBluetoothUSBDFU::start
+Jun  5 23:35:08 Mac-Mini kernel[0] <Notice>: hfs: mounted Recovery HD on device disk0s3
+Jun  5 23:35:09 Mac-Mini kernel[0] <Notice>: IOBluetoothUSBDFU::probe
+Jun  5 23:35:09 Mac-Mini kernel[0] <Notice>: IOBluetoothUSBDFU::probe ProductID - 0x8289 FirmwareVersion - 0x0106
+Jun  5 23:35:09 Mac-Mini kernel[0] <Notice>: **** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = TRUE -- 0x7800 ****
+Jun  5 23:35:09 Mac-Mini kernel[0] <Notice>: **** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0x7800 ****
+Jun  5 23:35:09 Mac-Mini kernel[0] <Notice>: [IOBluetoothHCIController][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- 0x7800 
+Jun  5 23:35:09 Mac-Mini kernel[0] <Notice>: [IOBluetoothHCIController::setConfigState] calling registerService
+Jun  5 23:35:09 Mac-Mini kernel[0] <Notice>: **** [IOBluetoothHCIController][ProcessBluetoothTransportShowsUpActionWL] -- Connected to the transport successfully -- 0xa500 -- 0xe000 -- 0x7800 ****
+Jun  5 23:35:11 Mac-Mini kernel[0] <Notice>: IOBluetoothDevice::setProperties() -- calling hciController->CallCreateDeviceReporter() -- this = 0x8800 
+Jun  5 23:35:11 Mac-Mini kernel[0] <Notice>: IOBluetoothHCIController::CallCreateDeviceReporter -- calling enqueueAction() -- device = 0x8800 
+Jun  5 23:35:11 Mac-Mini kernel[0] <Notice>: IOBluetoothHCIController::CreateDeviceReporterAction -- device = = 0x8800 
+Jun  5 23:35:11 Mac-Mini kernel[0] <Notice>: IOBluetoothHCIController::CreateDeviceReporterAction -- calling CreateDeviceReporter() device = = 0x8800 
+Jun  5 23:35:11 Mac-Mini kernel[0] <Notice>: IOBluetoothHCIController::CreateDeviceReporter -- device = = 0x8800 
+Jun  5 23:35:14 Mac-Mini kernel[0] <Notice>: hfs: unmount initiated on Recovery HD on device disk0s3
+Jun  5 23:35:15 Mac-Mini kernel[0] <Notice>: utun_ctl_connect: creating interface utun0
+Jun  5 23:35:15 Mac-Mini kernel[0] <Notice>: utun_start: ifnet_disable_output returned error 12
+Jun  5 23:35:18 Mac-Mini kernel[0] <Notice>: AppleKeyStore:Sending lock change 0 for handle -502
+Jun  5 23:35:31 Mac-Mini kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlPeerTrafficRegistration Clearing AirPlay peer 00:00:00:00:00:00
+Jun  5 23:35:34 Mac-Mini kernel[0] <Notice>: Process Setup Assistant [259] disabling system-wide I/O Throttling
+Jun  5 23:35:34 Mac-Mini kernel[0] <Notice>: Process Setup Assistant [259] disabling system-wide CPU Throttling
+Jun  5 23:37:54 Mac-Mini kernel[0] <Notice>: Sandbox: secinitd(242) deny ipc-posix-shm-read-data /tmp/com.apple.csseed.106
+Jun  5 23:40:04 Mac-Mini kernel[0] <Notice>: hfs: mounted Recovery HD on device disk0s3
+Jun  5 23:40:08 Mac-Mini kernel[0] <Notice>: hfs: unmount initiated on Recovery HD on device disk0s3

@@ -1,0 +1,21 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"120295","ColType":"Number","ColValue":"620"}},
+{"data":{"title":"Transport"},"attr":{"id":"120297","ColType":"String","ColValue":"Bluetooth"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"120299","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"120301","ColType":"Number","ColValue":"132"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"120303","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"VendorID"},"attr":{"id":"120305","ColType":"Number","ColValue":"76"}},
+{"data":{"title":"VendorIDSource"},"attr":{"id":"120307","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"120309","ColType":"Number","ColValue":"11250"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"120311","ColType":"Number","ColValue":"10"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"120313","ColType":"Number","ColValue":"65"}},
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"120315","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"120317","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"120318","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsage"},"attr":{"id":"120320","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsagePage"},"attr":{"id":"120322","ColType":"Number","ColValue":"0"}}]}]},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"120324","ColType":"Data","ColValue":"&lt;05010906a101850105071500250119e029e775019508810295057501050819012905910295017503910395087501150025010600ff0903810395067508150026ff00050719002aff0081009501750115002501050c09b88102950175010601ff090381029501750681030602ff09558555150026ff0075089540b1a2c00600ff0914a101859005847501950315002501096105850944094681029505810175089501150026ff0009658102c0&gt;"}},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"120326","ColType":"String","ColValue":"Keyboard"}},
+{"data":{"title":"SerialNumber"},"attr":{"id":"120328","ColType":"String","ColValue":"c0-a5-3e-04-9e-44"}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"120330","ColType":"String","ColValue":"Apple"}},
+{"data":{"title":"Product"},"attr":{"id":"120332","ColType":"String","ColValue":"Magic Keyboard with Numeric Keypad"}},
+{"data":{"title":"LocationID"},"attr":{"id":"120334","ColType":"Number","ColValue":"1040490052"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"120336","ColType":"Number","ColValue":"33"}}
+]

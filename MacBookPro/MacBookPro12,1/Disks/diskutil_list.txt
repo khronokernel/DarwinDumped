@@ -1,0 +1,20 @@
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *121.3 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:          Apple_CoreStorage Yosya                   120.5 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+
+/dev/disk1 (internal, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                            Yosya                  +120.1 GB   disk1
+                                 Logical Volume on disk0s2
+                                 97A9510E-9E24-444B-B86D-1EB99DFA6BAB
+                                 Unencrypted
+
+/dev/disk2 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     Apple_partition_scheme                        +19.7 MB    disk2
+   1:        Apple_partition_map                         32.3 KB    disk2s1
+   2:                  Apple_HFS Flash Player            19.7 MB    disk2s2
+

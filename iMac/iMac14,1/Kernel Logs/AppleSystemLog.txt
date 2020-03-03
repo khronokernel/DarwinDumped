@@ -1,0 +1,501 @@
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Darwin Kernel Version 15.4.0: Fri Feb 26 22:08:05 PST 2016; root:xnu-3248.40.184~3/RELEASE_X86_64
+Mar 28 01:18:21 localhost kernel[0] <Notice>: vm_page_bootstrap: 1898978 free pages and 181790 wired pages
+Mar 28 01:18:21 localhost kernel[0] <Notice>: kext submap [0x<ptr> - 0x<ptr>], kernel text [0x<ptr> - 0x<ptr>]
+Mar 28 01:18:21 localhost kernel[0] <Notice>: zone leak detection enabled
+Mar 28 01:18:21 localhost kernel[0] <Notice>: "vm_compressor_mode" is 4
+Mar 28 01:18:21 localhost kernel[0] <Notice>: multiq scheduler config: deep-drain 0, ceiling 47, depth limit 4, band limit 127, sanity check 0
+Mar 28 01:18:21 localhost kernel[0] <Notice>: standard timeslicing quantum is 10000 us
+Mar 28 01:18:21 localhost kernel[0] <Notice>: standard background quantum is 2500 us
+Mar 28 01:18:21 localhost kernel[0] <Notice>: WQ[lt_init]: init linktable with max:262144 elements (8388608 bytes)
+Mar 28 01:18:21 localhost kernel[0] <Notice>: WQ[wqp_init]: init prepost table with max:262144 elements (8388608 bytes)
+Mar 28 01:18:21 localhost kernel[0] <Notice>: mig_table_max_displ = 16
+Mar 28 01:18:21 localhost kernel[0] <Notice>: TSC Deadline Timer supported and enabled
+Mar 28 01:18:21 localhost kernel[0] <Notice>: kdp_core zlib memory 0x7000
+Mar 28 01:18:21 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=1 LocalApicId=0 Enabled
+Mar 28 01:18:21 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=2 LocalApicId=2 Enabled
+Mar 28 01:18:21 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=3 LocalApicId=4 Enabled
+Mar 28 01:18:21 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=4 LocalApicId=6 Enabled
+Mar 28 01:18:21 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=5 LocalApicId=255 Disabled
+Mar 28 01:18:21 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=6 LocalApicId=255 Disabled
+Mar 28 01:18:21 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=7 LocalApicId=255 Disabled
+Mar 28 01:18:21 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=8 LocalApicId=255 Disabled
+Mar 28 01:18:21 localhost kernel[0] <Notice>: calling mpo_policy_init for TMSafetyNet
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Security policy loaded: Safety net for Time Machine (TMSafetyNet)
+Mar 28 01:18:21 localhost kernel[0] <Notice>: calling mpo_policy_init for AMFI
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Security policy loaded: Apple Mobile File Integrity (AMFI)
+Mar 28 01:18:21 localhost kernel[0] <Notice>: calling mpo_policy_init for Sandbox
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Security policy loaded: Seatbelt sandbox policy (Sandbox)
+Mar 28 01:18:21 localhost kernel[0] <Notice>: calling mpo_policy_init for Quarantine
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Security policy loaded: Quarantine policy (Quarantine)
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Copyright (c) 1982, 1986, 1989, 1991, 1993
+Mar 28 01:18:21 localhost kernel[0] <Notice>: The Regents of the University of California. All rights reserved.
+Mar 28 01:18:21 localhost kernel[0] <Notice>: MAC Framework successfully initialized
+Mar 28 01:18:21 localhost kernel[0] <Notice>: using 16384 buffer headers and 10240 cluster IO buffer headers
+Mar 28 01:18:21 localhost kernel[0] <Notice>: AppleCredentialManager::start called
+Mar 28 01:18:21 localhost kernel[0] <Notice>: AssertMacros: tmpData (value: 0x0),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager-83.40.3/AppleCredentialManager/AppleCredentialManager.cpp, line: 785
+Mar 28 01:18:21 localhost kernel[0] <Notice>: AppleKeyStore starting (BUILT: Feb 26 2016 22:34:09)
+Mar 28 01:18:21 localhost kernel[0] <Notice>: IOAPIC: Version 0x20 Vectors 64:87
+Mar 28 01:18:21 localhost kernel[0] <Notice>: ACPI: sleep states S3 S4 S5
+Mar 28 01:18:21 localhost kernel[0] <Notice>: pci (build 22:17:13 Feb 26 2016), flags 0xe3000, pfm64 (39 cpu) 0x7f80000000, 0x80000000
+Mar 28 01:18:21 localhost kernel[0] <Notice>: [ PCI configuration begin ]
+Mar 28 01:18:21 localhost kernel[0] <Notice>: 000000.822414 AppleUSBLegacyRoot@: AppleUSBLegacyRoot::init: enabling legacy matching
+Mar 28 01:18:21 localhost kernel[0] <Notice>: console relocated to 0x7f80000000
+Mar 28 01:18:21 localhost kernel[0] <Notice>: [ PCI configuration end, bridges 11, devices 13 ]
+Mar 28 01:18:21 localhost kernel[0] <Notice>: AirPort_Brcm4360::init AirPortFamily_kexts-1110.28 "AirPortFamily_kexts-1110.28" Feb 26 2016 22:34:59
+Mar 28 01:18:21 localhost kernel[0] <Notice>: AppleThunderboltNHIType2::setupPowerSavings - GPE based runtime power management
+Mar 28 01:18:21 localhost kernel[0] <Notice>: mcache: 4 CPU(s), 64 bytes CPU cache line size
+Mar 28 01:18:21 localhost kernel[0] <Notice>: mbinit: done [96 MB total pool size, (64/32) split]
+Mar 28 01:18:21 localhost kernel[0] <Notice>: rooting via boot-uuid from /chosen: 045ADCA2-A96F-3E6D-8103-35017B02B110
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOResources</string><key>IOResourceMatch</key><string ID="2">boot-uuid-media</string></dict>
+Mar 28 01:18:21 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib kmod start
+Mar 28 01:18:21 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless kmod start
+Mar 28 01:18:21 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib load succeeded
+Mar 28 01:18:21 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless load succeeded
+Mar 28 01:18:21 localhost kernel[0] <Notice>: IO80211Controller::createIOReporters 0xe774c5fc7646d0e1
+Mar 28 01:18:21 localhost kernel[0] <Notice>: CCFlags: 0x0, CCLevel: 5 ConsoleFlags: 0x0, ConsoleLevel: -1
+Mar 28 01:18:21 localhost kernel[0] <Notice>: No Service found 100000257
+Mar 28 01:18:21 localhost kernel[0] <Notice>: configureInterests - nElements <= 0!Failed to addSubscription for group Chip subgroup Bytes Transferred driver 0xe774c5fc7646d0e1 - data underrun
+Mar 28 01:18:21 localhost kernel[0] <Notice>: IO80211ControllerMonitor::configureSubscriptions() failed to add subscriptionIO80211Controller::start _controller is 0xe774c5fc7646d0e1, provider is 0xe774c5fbb73db8e1
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Got boot device = IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/SATA@1F,2/AppleIntelPchSeriesAHCI/PRT0@0/IOAHCIDevice@0/AppleAHCIDiskDriver/IOAHCIBlockStorageDevice/IOBlockStorageDriver/APPLE HDD HTS541010A9E662 Media/IOGUIDPartitionScheme/Macintosh HD@2
+Mar 28 01:18:21 localhost kernel[0] <Notice>: BSD root: disk0s2, major 1, minor 2
+Mar 28 01:18:21 localhost kernel[0] <Notice>: ARPT: 1.206837: srom rev:11
+Mar 28 01:18:21 localhost kernel[0] <Notice>: ARPT: 1.207252: ChangeVCO => vco:960, xtalF:40, frac: 98, ndivMode: 3, ndivint: 24
+Mar 28 01:18:21 localhost kernel[0] <Notice>: ARPT: 1.207264: Data written into the PLL_CNTRL_ADDR2: 00000c31
+Mar 28 01:18:21 localhost kernel[0] <Notice>: ARPT: 1.207317: Data written into the PLL_CNTRL_ADDR3 (Fractional): 0000100e
+Mar 28 01:18:21 localhost kernel[0] <Notice>: init: error getting PHY_MODE;  using MODE_UNKNOWN
+Mar 28 01:18:21 localhost kernel[0] <Notice>: ARPT: 1.219010: BRCM tunables:
+Mar 28 01:18:21 localhost kernel[0] <Notice>: ARPT: 1.219016:   pullmode[1] txringsize[  256] txsendqsize[1024] reapmin[   32] reapcount[  128]
+Mar 28 01:18:21 localhost kernel[0] <Notice>: ARPT: 1.220009: wl0: Broadcom BCM43a0, vendorID[0x14e4] BAR0[0x98600004]
+Mar 28 01:18:21 localhost kernel[0] <Notice>: 7.21.95.175 (r622517)
+Mar 28 01:18:21 localhost kernel[0] <Notice>: IOBluetoothUSBDFU::probe
+Mar 28 01:18:21 localhost kernel[0] <Notice>: IOBluetoothUSBDFU::probe ProductID - 0x828D FirmwareVersion - 0x0118
+Mar 28 01:18:21 localhost kernel[0] <Notice>: hfs: mounted Macintosh HD on device root_device
+Mar 28 01:18:21 localhost kernel[0] <Notice>: XCPM: registered
+Mar 28 01:18:21 localhost kernel[0] <Notice>: VM Swap Subsystem is ON
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Mar 28 01:18:21 localhost kernel[0] <Notice>: Waiting for DSMOS...
+Mar 28 01:18:21 localhost kernel[0] <Notice>: pci pause: SDXC
+Mar 28 01:18:25 localhost kernel[0] <Notice>: IO80211Controller::dataLinkLayerAttachComplete():  adding AppleEFINVRAM notification
+Mar 28 01:18:25 localhost kernel[0] <Notice>: IO80211Interface::efiNVRAMPublished():  
+Mar 28 01:18:25 localhost kernel[0] <Notice>: initting Scan Manager controller 0xe774c5fc7646d0e1 ioservice 0xe774c5fbb73db8e1 interface 0xe774c5fbb75968e1 ioservce 0xe774c5fc7646d0e1
+Mar 28 01:18:25 localhost kernel[0] <Notice>: bpfAttach len 64 dlt 12
+Mar 28 01:18:25 localhost kernel[0] <Notice>: fInterfaceSnapshots is missing
+Mar 28 01:18:28 localhost kernel[0] <Notice>: IOGraphics flags 0x43
+Mar 28 01:18:28 localhost kernel[0] <Notice>: **** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = TRUE -- 0xc800 ****
+Mar 28 01:18:28 localhost kernel[0] <Notice>: **** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0xc800 ****
+Mar 28 01:18:28 localhost kernel[0] <Notice>: [IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- 0xc800 
+Mar 28 01:18:28 localhost kernel[0] <Notice>: [IOBluetoothFamily][start] -- completed
+Mar 28 01:18:28 localhost kernel[0] <Notice>: [IOBluetoothHostController][start] -- completed
+Mar 28 01:18:28 localhost kernel[0] <Notice>: [IOBluetoothHostController::setConfigState] calling registerService
+Mar 28 01:18:28 localhost kernel[0] <Notice>: **** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- calling IOBluetoothFamily's registerService() -- 0xfb80 -- 0x2000 -- 0xc800 ****
+Mar 28 01:18:28 localhost kernel[0] <Notice>: **** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- Connected to the transport successfully -- 0xfb80 -- 0x2000 -- 0xc800 ****
+Mar 28 01:18:28 localhost kernel[0] <Notice>: Previous shutdown cause: 0
+Mar 28 01:18:28 localhost kernel[0] <Notice>: DSMOS has arrived
+Mar 28 01:18:28 localhost kernel[0] <Notice>: IOPPF - IODeviceTree:/efi/platform/StartupPowerEvents: 0x0
+Mar 28 01:18:28 localhost kernel[0] <Notice>: hmm.. mismatch sizes: 3100 vs 20
+Mar 28 01:18:28 localhost kernel[0] <Notice>: PPGTT is enabled
+Mar 28 01:18:30 localhost kernel[0] <Notice>: AirPort: Link Down on en1. Reason 8 (Disassociated because station leaving).
+Mar 28 01:18:30 localhost kernel[0] <Notice>: Got incomplete channel sequence length 0, should be 16
+Mar 28 01:18:30 localhost kernel[0] <Notice>: en1: channel changed to 1
+Mar 28 01:18:30 localhost kernel[0] <Notice>: en1::IO80211Interface::postMessage bssid changed
+Mar 28 01:18:30 localhost kernel[0] <Notice>: bpfAttach len 94 dlt 163
+Mar 28 01:18:30 localhost kernel[0] <Notice>: bpfAttach len 30 dlt 105
+Mar 28 01:18:30 localhost kernel[0] <Notice>: bpfAttach len 52 dlt 127
+Mar 28 01:18:30 localhost kernel[0] <Notice>: bpfAttach len 38 dlt 192
+Mar 28 01:18:32 iMac-Vadim kernel[0] <Notice>: in6_unlink_ifa: IPv6 address 0xb57c09831250bfbf has no prefix
+Mar 28 01:18:34 iMac-Vadim kernel[0] <Notice>: IO80211VirtualInterface::createIOReporters p2p0 provider 0
+Mar 28 01:18:34 iMac-Vadim kernel[0] <Notice>: IO80211InterfaceMonitor::initWithServiceAndName(): Unable to get fProvider
+Mar 28 01:18:34 iMac-Vadim kernel[0] <Notice>: Unable to create IO80211InterfaceMonitor
+Mar 28 01:18:34 iMac-Vadim kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init name <p2p0> role 1
+Mar 28 01:18:34 iMac-Vadim kernel[0] <Notice>: IO80211VirtualInterface::init _controller is 0xe774c5fc7646d0e1, provider is 0xe774c5fbb73db8e1
+Mar 28 01:18:34 iMac-Vadim kernel[0] <Notice>: IO80211VirtualInterface::createIOReporters p2p0 provider 0xe774c5fc7646d0e1
+Mar 28 01:18:34 iMac-Vadim kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init <p2p> role 1
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: IO80211VirtualInterface::createIOReporters awdl0 provider 0
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: IO80211InterfaceMonitor::initWithServiceAndName(): Unable to get fProvider
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: Unable to create IO80211InterfaceMonitor
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init name <awdl0> role 4
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::attachToBpf name <awdl0> role 4 successful attach to bpf type 147
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: IO80211VirtualInterface::init _controller is 0xe774c5fc7646d0e1, provider is 0xe774c5fbb73db8e1
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: IO80211VirtualInterface::createIOReporters awdl0 provider 0xe774c5fc7646d0e1
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init <awdl> role 4
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: IO80211Peer::createIOReporters() generated statsID 255 valid 1 FF:FF:FF:FF:FF:FF
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: Invalid _manager->_provider
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: No manager provider 0 or no _statsIDValid 1
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: Setting BTCoex Profile: band:8
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: Profile[0]: mode:0; desense:0; desense_level:0; chain_power_offset:0,0,0,0,
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: Profile[1]: mode:0; desense:0; desense_level:0; chain_power_offset:0,-7,-7,0,
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: Profile[2]: mode:0; desense:1; desense_level:1; chain_power_offset:0,-7,-7,0,
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: Setting BTCoex Profile: band:2
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: Profile[0]: mode:0; desense:0; desense_level:0; chain_power_offset:0,0,0,0,
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: awdl0: promiscuous mode enable succeeded
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: AirPort: Link Up on awdl0
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: IO80211AWDLPeerManager::configure Dynamic country code not supported on this device
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: IO80211AWDLPeerManager::setChannelSequenceUnconditional : Couldn't set channel sequence! coded length 16 length 64 step 3 fill ff (Discovery):
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: en1: channel changed to 1
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: awdl0: promiscuous mode disable succeeded
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: awdl0: promiscuous mode enable succeeded
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: hfs: mounted Recovery HD on device disk0s3
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: en1: 802.11d country code set to 'RU'.
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: en1: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: en1: 802.11d country code set to 'X3'.
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: en1: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: AirPort: Link Up on en1
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: en1: BSSID changed to c0:4a:00:a5:d0:1e
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: en1: channel changed to 9
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: en1::IO80211Interface::postMessage bssid changed
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: AirPort: RSN handshake complete on en1
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: Unexpected payload found for message 9, dataLen 0
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: AppleLPC::notifyPlatformASPM  ASPM callback registered
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: IOPPF: XCPM mode
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: en2: promiscuous mode enable succeeded
+Mar 28 01:18:35 iMac-Vadim kernel[0] <Notice>: en3: promiscuous mode enable succeeded
+Mar 28 01:18:36 iMac-Vadim kernel[0] <Notice>: IOBluetoothDevice::setProperties() -- calling mHCIController->CallCreateDeviceReporter() -- this = 0x0400 
+Mar 28 01:18:36 iMac-Vadim kernel[0] <Notice>: IOBluetoothHostController::CallCreateDeviceReporter -- calling enqueueAction() -- device = 0x0400 
+Mar 28 01:18:36 iMac-Vadim kernel[0] <Notice>: IOBluetoothHostController::CreateDeviceReporterAction -- device = = 0x0400 
+Mar 28 01:18:36 iMac-Vadim kernel[0] <Notice>: IOBluetoothHostController::CreateDeviceReporterAction -- calling CreateDeviceReporter() device = = 0x0400 
+Mar 28 01:18:36 iMac-Vadim kernel[0] <Notice>: IOBluetoothHostController::CreateDeviceReporter -- device = = 0x0400 
+Mar 28 01:18:36 iMac-Vadim kernel[0] <Notice>: [BNBMouseDevice::init][90.3] init is complete
+Mar 28 01:18:36 iMac-Vadim kernel[0] <Notice>: [BNBMouseDevice::handleStart][90.3] returning 1
+Mar 28 01:18:36 iMac-Vadim kernel[0] <Notice>: [HID] [MT] AppleMultitouchHIDEventDriver::start entered
+Mar 28 01:18:36 iMac-Vadim kernel[0] <Notice>: hfs: unmount initiated on Recovery HD on device disk0s3
+Mar 28 01:18:36 iMac-Vadim kernel[0] <Notice>: [HID] [MT] AppleMultitouchDevice::start entered
+Mar 28 01:18:36 iMac-Vadim kernel[0] <Notice>: Setting BTCoex Config: enable_2G:1, profile_2g:1, enable_5G:1, profile_5G:0
+Mar 28 01:18:37 iMac-Vadim kernel[0] <Notice>: AppleKeyStore::handleUserClientCommandGated: asking for specific bag 501 (eff -501)
+Mar 28 01:18:37 iMac-Vadim kernel[0] <Notice>: AppleKeyStore::handleUserClientCommandGated: set handle 1 as special bag -501
+Mar 28 01:18:37 iMac-Vadim kernel[0] <Notice>: AppleKeyStore:Sending lock change 1 for handle 1
+Mar 28 01:18:37 iMac-Vadim kernel[0] <Notice>: AppleKeyStore:Sending lock change 0 for handle -501
+Mar 28 01:18:37 iMac-Vadim kernel[0] <Notice>: IOBluetoothDevice::setProperties() -- calling mHCIController->CallCreateDeviceReporter() -- this = 0x3800 
+Mar 28 01:18:37 iMac-Vadim kernel[0] <Notice>: IOBluetoothHostController::CallCreateDeviceReporter -- calling enqueueAction() -- device = 0x3800 
+Mar 28 01:18:37 iMac-Vadim kernel[0] <Notice>: IOBluetoothHostController::CreateDeviceReporterAction -- device = = 0x3800 
+Mar 28 01:18:37 iMac-Vadim kernel[0] <Notice>: IOBluetoothHostController::CreateDeviceReporterAction -- calling CreateDeviceReporter() device = = 0x3800 
+Mar 28 01:18:37 iMac-Vadim kernel[0] <Notice>: IOBluetoothHostController::CreateDeviceReporter -- device = = 0x3800 
+Mar 28 01:18:37 iMac-Vadim kernel[0] <Notice>: Setting BTCoex Config: enable_2G:1, profile_2g:1, enable_5G:1, profile_5G:0
+Mar 28 01:18:38 iMac-Vadim kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+Mar 28 01:18:38 iMac-Vadim kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+Mar 28 01:18:42 iMac-Vadim kernel[0] <Notice>: Sandbox: blued(83) deny(1) file-read-metadata /usr
+Mar 28 01:18:42 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /usr/libexec
+Mar 28 01:18:42 iMac-Vadim kernel[0] <Notice>: Sandbox: coreaudiod(138) deny(1) file-read-metadata /usr
+Mar 28 01:18:42 iMac-Vadim kernel[0] <Notice>: Sandbox: netbiosd(274) deny(1) file-read-metadata /usr
+Mar 28 01:18:42 iMac-Vadim kernel[0] <Notice>: Sandbox: airportd(58) deny(1) file-read-metadata /usr
+Mar 28 01:18:43 iMac-Vadim kernel[0] <Notice>: utun_ctl_connect: creating interface utun0
+Mar 28 01:18:43 iMac-Vadim kernel[0] <Notice>: utun_start: ifnet_disable_output returned error 12
+Mar 28 01:18:44 iMac-Vadim kernel[0] <Notice>: Sandbox: storeaccountd(267) deny(1) file-write-create /Users/family1232009/Library/Caches/com.apple.spotlight
+Mar 28 01:18:46 iMac-Vadim kernel[0] <Notice>: Sandbox: Finder(265) System Policy: deny(2) file-write-unlink /Users/family1232009/Library/Saved Application State/com.apple.finder.savedState/restorecount.plist
+Mar 28 01:18:49 iMac-Vadim kernel[0] <Notice>: Sandbox: SocialPushAgent(326) deny(1) file-write-data /Users/family1232009/Library/Preferences/com.apple.socialpushagent.plist
+Mar 28 01:18:55 iMac-Vadim kernel[0] <Notice>: en1: 802.11d country code set to 'RU'.
+Mar 28 01:18:55 iMac-Vadim kernel[0] <Notice>: en1: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+Mar 28 01:19:06 iMac-Vadim kernel[0] <Notice>: Sandbox: storeaccountd(267) deny(1) file-write-create /Users/family1232009/Library/Caches/com.apple.spotlight
+Mar 28 01:19:07 iMac-Vadim kernel[0] <Notice>: Sandbox: storeaccountd(267) deny(1) file-write-create /Users/family1232009/Library/Caches/com.apple.Safari/ProductionBag
+Mar 28 01:19:39 iMac-Vadim kernel[0] <Notice>: hfs: mounted Recovery HD on device disk0s3
+Mar 28 01:19:40 iMac-Vadim kernel[0] <Notice>: hfs: unmount initiated on Recovery HD on device disk0s3
+Mar 28 01:28:38 iMac-Vadim kernel[0] <Notice>: ignored is_io_service_close(0x1000003d2,IOHIDParamUserClient)
+Mar 28 01:29:37 iMac-Vadim kernel[0] <Notice>: PM response took 269 ms (253, SystemUIServer)
+Mar 28 01:29:37 iMac-Vadim kernel[0] <Notice>: PM response took 102 ms (69, coreduetd)
+Mar 28 01:29:53 iMac-Vadim kernel[0] <Notice>: ARPT: 722.849136: wl0: TCPKEEP: locate_keepalive_data_new_uc: No IPV4 addrs, keepalive not started.
+Mar 28 01:29:53 iMac-Vadim kernel[0] <Notice>: ARPT: 722.849166: wl0: MDNS: IPV4 Addr: 192.168.0.108
+Mar 28 01:29:53 iMac-Vadim kernel[0] <Notice>: ARPT: 722.849170: wl0: MDNS: IPV6 Addr: fe80:0:0:0:b618:d1ff:fee5:b0a1
+Mar 28 01:29:53 iMac-Vadim kernel[0] <Notice>: ARPT: 722.849174: wl0: MDNS: 6 SRV Recs, 2 TXT Recs
+Mar 28 01:29:53 iMac-Vadim kernel[0] <Notice>: ARPT: 722.849177: wl0: MDNS: 3 UDP ports:  3283  3283  4500 
+Mar 28 01:29:53 iMac-Vadim kernel[0] <Notice>: ARPT: 722.849182: wl0: MDNS: 10 TCP ports:  22  22  445  5900  548  22  22  445  5900  548 
+Mar 28 01:29:53 iMac-Vadim kernel[0] <Notice>: IOCTL not recognized: 234 out of 236
+Mar 28 01:29:58 iMac-Vadim kernel[0] <Notice>: PM response took 5918 ms (53, powerd)
+Mar 28 01:29:58 iMac-Vadim kernel[0] <Notice>: kern_open_file_for_direct_io(0)
+Mar 28 01:29:58 iMac-Vadim kernel[0] <Notice>: kern_open_file_for_direct_io took 0 ms
+Mar 28 01:29:58 iMac-Vadim kernel[0] <Notice>: Opened file /var/log/SleepWakeStacks.bin, size 172032, extents 1, maxio 2000000 ssd 0
+Mar 28 01:29:58 iMac-Vadim kernel[0] <Notice>: polled file major 1, minor 0, blocksize 4096, pollers 5
+Mar 28 01:29:58 iMac-Vadim kernel[0] <Notice>: ARPT: 728.362967: AirPort_Brcm43xx::powerChange: System Sleep 
+Mar 28 01:29:59 iMac-Vadim kernel[0] <Notice>: ARPT: 728.865061: IOPMPowerSource Information: onSleep,  SleepType: Normal Sleep,  
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 4 us
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: ARPT: 729.306149: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: ARPT: 729.317713: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable]
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: ARPT: 729.318492: AirPort_Brcm43xx::syncPowerState: WWEN[enabled]
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Mar 28 01:30:00 iMac-Vadim kernel[0] <Notice>: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 60000
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: Wake reason: XHC1
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: Previous sleep cause: 5
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 2 us
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: Sandbox: mDNSResponder(90) deny(1) mach-lookup com.apple.distributed_notifications@1v3
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: TBT W (2): 0x0100 [x]
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: en1: BSSID changed to c0:4a:00:a5:d0:1e
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: en1: channel changed to 9
+Mar 28 01:44:45 iMac-Vadim kernel[0] <Notice>: in6_unlink_ifa: IPv6 address 0xb57c09831250be6f has no prefix
+Mar 28 01:44:46 iMac-Vadim kernel[0] <Notice>: [IOBluetoothHCIController][WakeUpDisplay] -- took 1078633 microseconds to call activityTickle()
+Mar 28 01:44:46 iMac-Vadim kernel[0] <Notice>: full wake promotion (reason 1) 1079 ms
+Mar 28 01:44:46 iMac-Vadim kernel[0] <Notice>: AirPort: Link Up on awdl0
+Mar 28 01:44:48 iMac-Vadim kernel[0] <Notice>: ARPT: 734.986268: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Mar 28 01:44:49 iMac-Vadim kernel[0] <Notice>: ARPT: 735.486455: IOPMPowerSource Information: onWake,  SleepType: Normal Sleep,  
+Mar 28 01:44:49 iMac-Vadim kernel[0] <Notice>: ARPT: 735.486525: AirPort_Brcm43xx::platformWoWEnable: WWEN[disable]
+Mar 28 01:45:00 iMac-Vadim kernel[0] <Notice>: ignored is_io_service_close(0x1000003d2,IOHIDParamUserClient)
+Mar 28 01:45:30 iMac-Vadim kernel[0] <Notice>: pci pause: SDXC
+Mar 28 01:45:37 iMac-Vadim kernel[0] <Notice>: ignored is_io_service_close(0x1000003d2,IOHIDParamUserClient)
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/App Store.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Automator.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Calculator.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Calendar.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Chess.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Contacts.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Dashboard.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Dictionary.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/DVD Player.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/FaceTime.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Font Book.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Game Center.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Image Capture.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/iTunes.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Launchpad.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Mail.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Messages.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Mission Control.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Notes.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Photo Booth.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Preview.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Photos.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/QuickTime Player.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Reminders.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Safari.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Stickies.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/System Preferences.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/TextEdit.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Time Machine.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/Activity Monitor.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/AirPort Utility.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/Audio MIDI Setup.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/Bluetooth File Exchange.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/Boot Camp Assistant.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/ColorSync Utility.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/Console.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/Digital Color Meter.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/Disk Utility.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/Grab.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/Grapher.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/Keychain Access.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/Migration Assistant.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/Script Editor.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/System Information.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/Terminal.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /Applications/Utilities/VoiceOver Utility.app
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) file-read-metadata /
+Mar 28 01:46:17 iMac-Vadim kernel[0] <Notice>: Sandbox: coreduetd(69) deny(1) mach-lookup com.apple.lsd.modifydb
+Mar 28 01:47:27 iMac-Vadim kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Mar 28 01:48:09 iMac-Vadim kernel[0] <Notice>: ARPT: 936.248268: wl0: TCPKEEP: locate_keepalive_data_new_uc: No IPV4 addrs, keepalive not started.
+Mar 28 01:48:09 iMac-Vadim kernel[0] <Notice>: ARPT: 936.248298: wl0: MDNS: IPV4 Addr: 192.168.0.108
+Mar 28 01:48:09 iMac-Vadim kernel[0] <Notice>: ARPT: 936.248302: wl0: MDNS: IPV6 Addr: fe80:0:0:0:b618:d1ff:fee5:b0a1
+Mar 28 01:48:09 iMac-Vadim kernel[0] <Notice>: ARPT: 936.248306: wl0: MDNS: 6 SRV Recs, 2 TXT Recs
+Mar 28 01:48:09 iMac-Vadim kernel[0] <Notice>: ARPT: 936.248309: wl0: MDNS: 3 UDP ports:  3283  3283  4500 
+Mar 28 01:48:09 iMac-Vadim kernel[0] <Notice>: ARPT: 936.248314: wl0: MDNS: 10 TCP ports:  22  22  445  5900  548  22  22  445  5900  548 
+Mar 28 01:48:15 iMac-Vadim kernel[0] <Notice>: PM response took 5392 ms (53, powerd)
+Mar 28 01:48:15 iMac-Vadim kernel[0] <Notice>: kern_open_file_for_direct_io(0)
+Mar 28 01:48:15 iMac-Vadim kernel[0] <Notice>: kern_open_file_for_direct_io took 0 ms
+Mar 28 01:48:15 iMac-Vadim kernel[0] <Notice>: Opened file /var/log/SleepWakeStacks.bin, size 172032, extents 1, maxio 2000000 ssd 0
+Mar 28 01:48:15 iMac-Vadim kernel[0] <Notice>: polled file major 1, minor 0, blocksize 4096, pollers 5
+Mar 28 01:48:15 iMac-Vadim kernel[0] <Notice>: ARPT: 941.634823: AirPort_Brcm43xx::powerChange: System Sleep 
+Mar 28 01:48:15 iMac-Vadim kernel[0] <Notice>: ARPT: 942.136922: IOPMPowerSource Information: onSleep,  SleepType: Normal Sleep,  
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 1 us
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: ARPT: 942.579278: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: ARPT: 942.589932: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable]
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: ARPT: 942.590696: AirPort_Brcm43xx::syncPowerState: WWEN[enabled]
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Mar 28 01:48:17 iMac-Vadim kernel[0] <Notice>: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 60000
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: Wake reason: RTC (Alarm)
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: RTC: Maintenance 2016/3/27 21:48:09, sleep 2016/3/27 20:48:19
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: Previous sleep cause: 5
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 2 us
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: TBT W (2): 0x0100 [x]
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: en1: BSSID changed to c0:4a:00:a5:d0:1e
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: en1: channel changed to 9
+Mar 28 02:48:09 iMac-Vadim kernel[0] <Notice>: in6_unlink_ifa: IPv6 address 0xb57c09831250bbcf has no prefix
+Mar 28 02:48:10 iMac-Vadim kernel[0] <Notice>: AirPort: Link Up on awdl0
+Mar 28 02:48:12 iMac-Vadim kernel[0] <Notice>: ARPT: 948.706344: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Mar 28 02:48:13 iMac-Vadim kernel[0] <Notice>: ARPT: 949.208455: IOPMPowerSource Information: onWake,  SleepType: Normal Sleep,  
+Mar 28 02:48:13 iMac-Vadim kernel[0] <Notice>: ARPT: 949.208581: AirPort_Brcm43xx::platformWoWEnable: WWEN[disable]
+Mar 28 02:48:54 iMac-Vadim kernel[0] <Notice>: pci pause: SDXC
+Mar 28 02:49:14 iMac-Vadim kernel[0] <Notice>: ARPT: 1010.194991: wl0: TCPKEEP: locate_keepalive_data_new_uc: No IPV4 addrs, keepalive not started.
+Mar 28 02:49:14 iMac-Vadim kernel[0] <Notice>: ARPT: 1010.195021: wl0: MDNS: IPV4 Addr: 192.168.0.108
+Mar 28 02:49:14 iMac-Vadim kernel[0] <Notice>: ARPT: 1010.195025: wl0: MDNS: IPV6 Addr: fe80:0:0:0:b618:d1ff:fee5:b0a1
+Mar 28 02:49:14 iMac-Vadim kernel[0] <Notice>: ARPT: 1010.195029: wl0: MDNS: 6 SRV Recs, 2 TXT Recs
+Mar 28 02:49:14 iMac-Vadim kernel[0] <Notice>: ARPT: 1010.195032: wl0: MDNS: 3 UDP ports:  3283  3283  4500 
+Mar 28 02:49:14 iMac-Vadim kernel[0] <Notice>: ARPT: 1010.195036: wl0: MDNS: 10 TCP ports:  22  22  445  5900  548  22  22  445  5900  548 
+Mar 28 02:49:19 iMac-Vadim kernel[0] <Notice>: PM response took 5443 ms (53, powerd)
+Mar 28 02:49:19 iMac-Vadim kernel[0] <Notice>: ARPT: 1015.633387: AirPort_Brcm43xx::powerChange: System Sleep 
+Mar 28 02:49:20 iMac-Vadim kernel[0] <Notice>: ARPT: 1016.135484: IOPMPowerSource Information: onSleep,  SleepType: Normal Sleep,  
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 2 us
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: ARPT: 1016.587359: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: ARPT: 1016.598133: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable]
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: ARPT: 1016.598730: AirPort_Brcm43xx::syncPowerState: WWEN[enabled]
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Mar 28 02:49:21 iMac-Vadim kernel[0] <Notice>: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 60000
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: Wake reason: RTC (Alarm)
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: RTC: Maintenance 2016/3/27 22:49:14, sleep 2016/3/27 21:49:23
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: Previous sleep cause: 5
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 2 us
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: TBT W (2): 0x0100 [x]
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: en1: BSSID changed to c0:4a:00:a5:d0:1e
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: en1: channel changed to 9
+Mar 28 03:49:14 iMac-Vadim kernel[0] <Notice>: in6_unlink_ifa: IPv6 address 0xb57c09831250c64f has no prefix
+Mar 28 03:49:15 iMac-Vadim kernel[0] <Notice>: AirPort: Link Up on awdl0
+Mar 28 03:49:17 iMac-Vadim kernel[0] <Notice>: ARPT: 1022.327963: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Mar 28 03:49:18 iMac-Vadim kernel[0] <Notice>: ARPT: 1022.830065: IOPMPowerSource Information: onWake,  SleepType: Normal Sleep,  
+Mar 28 03:49:18 iMac-Vadim kernel[0] <Notice>: ARPT: 1022.830191: AirPort_Brcm43xx::platformWoWEnable: WWEN[disable]
+Mar 28 03:49:59 iMac-Vadim kernel[0] <Notice>: pci pause: SDXC
+Mar 28 03:50:03 iMac-Vadim kernel[0] <Notice>: ARPT: 1067.841094: wl0: TCPKEEP: locate_keepalive_data_new_uc: No IPV4 addrs, keepalive not started.
+Mar 28 03:50:03 iMac-Vadim kernel[0] <Notice>: ARPT: 1067.841125: wl0: MDNS: IPV4 Addr: 192.168.0.108
+Mar 28 03:50:03 iMac-Vadim kernel[0] <Notice>: ARPT: 1067.841129: wl0: MDNS: IPV6 Addr: fe80:0:0:0:b618:d1ff:fee5:b0a1
+Mar 28 03:50:03 iMac-Vadim kernel[0] <Notice>: ARPT: 1067.841133: wl0: MDNS: 6 SRV Recs, 2 TXT Recs
+Mar 28 03:50:03 iMac-Vadim kernel[0] <Notice>: ARPT: 1067.841136: wl0: MDNS: 3 UDP ports:  3283  3283  4500 
+Mar 28 03:50:03 iMac-Vadim kernel[0] <Notice>: ARPT: 1067.841140: wl0: MDNS: 10 TCP ports:  22  22  445  5900  548  22  22  445  5900  548 
+Mar 28 03:50:08 iMac-Vadim kernel[0] <Notice>: PM response took 5516 ms (53, powerd)
+Mar 28 03:50:08 iMac-Vadim kernel[0] <Notice>: ARPT: 1073.351574: AirPort_Brcm43xx::powerChange: System Sleep 
+Mar 28 03:50:09 iMac-Vadim kernel[0] <Notice>: ARPT: 1073.853677: IOPMPowerSource Information: onSleep,  SleepType: Normal Sleep,  
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 2 us
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: ARPT: 1074.296780: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: ARPT: 1074.307512: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable]
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: ARPT: 1074.308285: AirPort_Brcm43xx::syncPowerState: WWEN[enabled]
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Mar 28 03:50:10 iMac-Vadim kernel[0] <Notice>: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 60000
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: Wake reason: RTC (Alarm)
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: RTC: Maintenance 2016/3/27 23:50:03, sleep 2016/3/27 22:50:12
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: Previous sleep cause: 5
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 1 us
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: TBT W (2): 0x0100 [x]
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: en1: BSSID changed to c0:4a:00:a5:d0:1e
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: en1: channel changed to 9
+Mar 28 04:50:03 iMac-Vadim kernel[0] <Notice>: in6_unlink_ifa: IPv6 address 0xb57c09831250bbcf has no prefix
+Mar 28 04:50:04 iMac-Vadim kernel[0] <Notice>: AirPort: Link Up on awdl0
+Mar 28 04:50:05 iMac-Vadim kernel[0] <Notice>: ARPT: 1078.733515: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Mar 28 04:50:05 iMac-Vadim kernel[0] <Notice>: ARPT: 1079.233609: IOPMPowerSource Information: onWake,  SleepType: Normal Sleep,  
+Mar 28 04:50:05 iMac-Vadim kernel[0] <Notice>: ARPT: 1079.233683: AirPort_Brcm43xx::platformWoWEnable: WWEN[disable]
+Mar 28 04:50:48 iMac-Vadim kernel[0] <Notice>: pci pause: SDXC
+Mar 28 04:51:05 iMac-Vadim kernel[0] <Notice>: ARPT: 1139.253022: wl0: TCPKEEP: locate_keepalive_data_new_uc: No IPV4 addrs, keepalive not started.
+Mar 28 04:51:05 iMac-Vadim kernel[0] <Notice>: ARPT: 1139.253052: wl0: MDNS: IPV4 Addr: 192.168.0.108
+Mar 28 04:51:05 iMac-Vadim kernel[0] <Notice>: ARPT: 1139.253056: wl0: MDNS: IPV6 Addr: fe80:0:0:0:b618:d1ff:fee5:b0a1
+Mar 28 04:51:05 iMac-Vadim kernel[0] <Notice>: ARPT: 1139.253060: wl0: MDNS: 6 SRV Recs, 2 TXT Recs
+Mar 28 04:51:05 iMac-Vadim kernel[0] <Notice>: ARPT: 1139.253063: wl0: MDNS: 3 UDP ports:  3283  3283  4500 
+Mar 28 04:51:05 iMac-Vadim kernel[0] <Notice>: ARPT: 1139.253067: wl0: MDNS: 10 TCP ports:  22  22  445  5900  548  22  22  445  5900  548 
+Mar 28 04:51:10 iMac-Vadim kernel[0] <Notice>: PM response took 5222 ms (53, powerd)
+Mar 28 04:51:10 iMac-Vadim kernel[0] <Notice>: ARPT: 1144.468685: AirPort_Brcm43xx::powerChange: System Sleep 
+Mar 28 04:51:11 iMac-Vadim kernel[0] <Notice>: ARPT: 1144.970784: IOPMPowerSource Information: onSleep,  SleepType: Normal Sleep,  
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 1 us
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: ARPT: 1145.413705: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: ARPT: 1145.424597: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable]
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: ARPT: 1145.425311: AirPort_Brcm43xx::syncPowerState: WWEN[enabled]
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Mar 28 04:51:12 iMac-Vadim kernel[0] <Notice>: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 60000
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: Wake reason: RTC (Alarm)
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: RTC: Maintenance 2016/3/28 00:51:05, sleep 2016/3/27 23:51:14
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: Previous sleep cause: 5
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 2 us
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: TBT W (2): 0x0100 [x]
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: en1: BSSID changed to c0:4a:00:a5:d0:1e
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: en1: channel changed to 9
+Mar 28 05:51:05 iMac-Vadim kernel[0] <Notice>: in6_unlink_ifa: IPv6 address 0xb57c09831250c64f has no prefix
+Mar 28 05:51:06 iMac-Vadim kernel[0] <Notice>: AirPort: Link Up on awdl0
+Mar 28 05:51:07 iMac-Vadim kernel[0] <Notice>: ARPT: 1149.940933: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Mar 28 05:51:07 iMac-Vadim kernel[0] <Notice>: ARPT: 1150.443017: IOPMPowerSource Information: onWake,  SleepType: Normal Sleep,  
+Mar 28 05:51:07 iMac-Vadim kernel[0] <Notice>: ARPT: 1150.443122: AirPort_Brcm43xx::platformWoWEnable: WWEN[disable]
+Mar 28 05:51:50 iMac-Vadim kernel[0] <Notice>: pci pause: SDXC
+Mar 28 05:51:52 iMac-Vadim kernel[0] <Notice>: ARPT: 1195.455037: wl0: TCPKEEP: locate_keepalive_data_new_uc: No IPV4 addrs, keepalive not started.
+Mar 28 05:51:52 iMac-Vadim kernel[0] <Notice>: ARPT: 1195.455067: wl0: MDNS: IPV4 Addr: 192.168.0.108
+Mar 28 05:51:52 iMac-Vadim kernel[0] <Notice>: ARPT: 1195.455072: wl0: MDNS: IPV6 Addr: fe80:0:0:0:b618:d1ff:fee5:b0a1

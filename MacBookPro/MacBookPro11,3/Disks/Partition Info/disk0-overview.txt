@@ -1,0 +1,31 @@
+/dev/disk0 
+APPLE SSD SM0512F Media 
+Physical Block (sector) size: 4096 bytes 
+Using Block (sector) size: 512 bytes 
+Total Number of Blocks: 977105060 
+Total Disk Size: 500.3 GB 
+  
+MBR Partition Entry 1: 00feffffeefeffff01000000a3703d3a 
+MBR Partition Entry 2: 00000000000000000000000000000000 
+MBR Partition Entry 3: 00000000000000000000000000000000 
+MBR Partition Entry 4: 00000000000000000000000000000000 
+  
+Partition Map: GUID Partition Table 
+Disk GUID:a440b6bf-066d-4435-85bb-bf5fbc6da207 
+Partition GUID: 939ef72c-ace7-4537-9d64-2e9b0cf97ea4 | Name: EFI System Partition 
+Partition GUID: 5682e764-e7fe-4a5b-9670-6739e1cc6328 | Name: Macintosh HD 
+Partition GUID: de25a8b1-bd7f-48ec-99eb-d2be629372f4 | Name: Recovery HD 
+
+=========  =========             ========              ==========  ========= 
+LBA Start  Type                  GPT Name              LoaderCode  Size LBA 
+=========  =========             ========              ==========  ========= 
+0          MBR                                                     1 
+1          Primary GPT Header                                      1 
+2          Primary GPT Table                                       32 
+34         Space                                                   6 
+40         EFI System Partition  EFI System Partition  Apple EFI   409600 
+409640     Core Storage          Macintosh HD                      975425848 
+975835488  OSX Boot              Recovery HD                       1269536 
+977105024  Space                                                   3 
+977105027  Backup GPT Table                                        32 
+977105059  Backup GPT Header                                       1 

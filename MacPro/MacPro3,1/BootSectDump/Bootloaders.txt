@@ -1,0 +1,16 @@
+/dev/disk0
+ACTV        DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+                     GUID_partition_scheme               2 TB     
+            disk0s1  EFI                                 209 MB                 
+            disk0s2  Apple_HFS              Data         2 TB                   
+/dev/disk1
+ACTV        DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+                     GUID_partition_scheme               320 GB   
+            disk1s1  EFI                                 209 MB                 
+            disk1s2  Apple_HFS              Projects     319 GB                 
+/dev/disk2
+ACTV        DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+                     GUID_partition_scheme               115 GB   
+            disk2s1  EFI                                 209 MB                 
+            disk2s2  Apple_HFS              MLion        114 GB                 
+            disk2s3  Apple_Boot             Recovery HD  650 MB                 

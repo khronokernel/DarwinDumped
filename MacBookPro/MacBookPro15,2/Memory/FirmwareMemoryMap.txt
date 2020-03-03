@@ -1,0 +1,5 @@
+The OS X security settings disallow the memory map dump from running.
+If you wish to run this then you can do one of the following, then reboot:
+1 - Disable security by booting in to the Recovery HD and using the Security Configuration utility.
+2 - Change bootloader csr-active-config settings to enable CSR_ALLOW_UNRESTRICTED_DTRACE bit
+* Don't forget to reverse this change after performing the dump.

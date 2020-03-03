@@ -1,0 +1,14 @@
+-[0000:00]-+-00.0  Intel Corporation Crystal Well DRAM Controller [8086:0d04]
+           +-01.0-[01]--
+           +-01.1-[06-ff]--
+           +-02.0  Intel Corporation Crystal Well Integrated Graphics Controller [8086:0d26]
+           +-03.0  Intel Corporation Crystal Well HD Audio Controller [8086:0d0c]
+           +-14.0  Intel Corporation 8 Series/C220 Series Chipset Family USB xHCI [8086:8c31]
+           +-16.0  Intel Corporation 8 Series/C220 Series Chipset Family MEI Controller #1 [8086:8c3a]
+           +-1b.0  Intel Corporation 8 Series/C220 Series Chipset High Definition Audio Controller [8086:8c20]
+           +-1c.0-[02]--
+           +-1c.2-[03]----00.0  Broadcom Corporation BCM4360 802.11ac Wireless Network Adapter [14e4:43a0]
+           +-1c.3-[00]--
+           +-1c.4-[05]----00.0  Samsung Electronics Co Ltd Apple PCIe SSD [144d:1600]
+           +-1f.0  Intel Corporation HM87 Express LPC Controller [8086:8c4b]
+           \-1f.3  Intel Corporation 8 Series/C220 Series Chipset Family SMBus Controller [8086:8c22]

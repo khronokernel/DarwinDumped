@@ -1,0 +1,50 @@
+                                                                                                           
+                                                                                                           
+disk0 APPLE SSD SM1024F (4096 byte physical block size)
+=================================================================================================================================================
+ACT  DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme               1 TB     
+     disk0s1  EFI                    EFI          209 MB                 
+     disk0s2  Apple_HFS              Aleams S     999 GB                 
+                                                                                      boot(Clover r3193)
+                                                                                                          /EFI/Boot/BootX64.efi(Clover r3193)
+                                                                                                          /EFI/Boot/BootIA32.efi(Clover r3193)
+                                                                                                          /EFI/Clover/CloverX64.efi(Clover r3193)
+     disk0s3  Apple_Boot             Recovery HD  650 MB                 
+                                                                                                           
+                                                                                                           
+disk1 WDC WD4000FYYZ-01UL1B2 (512 byte physical block size)
+=================================================================================================================================================
+ACT  DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme               4 TB     
+     disk1s1  EFI                    EFI          209 MB                 
+     disk1s2  Apple_RAID                          4 TB                   
+     disk1s3  Apple_Boot             Boot OS X    134 MB                 
+                                                                                                           
+                                                                                                           
+disk2 WDC WD4000FYYZ-01UL1B2 (512 byte physical block size)
+=================================================================================================================================================
+ACT  DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme               4 TB     
+     disk2s1  EFI                    EFI          209 MB                 
+     disk2s2  Apple_RAID                          4 TB                   
+     disk2s3  Apple_Boot             Boot OS X    134 MB                 
+                                                                                                           
+                                                                                                           
+disk3 AleamsBoberRAID (512 byte physical block size)
+=================================================================================================================================================
+ACT  DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              Apple_HFS                           8 TB     
+                                                                                                           
+                                                                                                           
+disk4 Seagate Backup+ SL (512 byte physical block size)
+=================================================================================================================================================
+ACT  DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme               2 TB     
+     disk4s1  EFI                    EFI          209 MB                 
+     disk4s2  Apple_HFS              Silver Nox   2 TB                   

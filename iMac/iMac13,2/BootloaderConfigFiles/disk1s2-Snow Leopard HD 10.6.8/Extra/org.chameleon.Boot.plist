@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DSDT</key>
+	<string>/Extra/DSDT.aml</string>
+	<key>ForceWake</key>
+	<string>Yes</string>
+	<key>Graphics Mode</key>
+	<string>1280x1024x32</string>
+	<key>GraphicsEnabler</key>
+	<string>Yes</string>
+	<key>Kernel Flags</key>
+	<string>arch=i386 -f npci=0x2000</string>
+	<key>SMBIOS</key>
+	<string>/Extra/smbios.plist</string>
+	<key>Theme</key>
+	<string>LoginToLion</string>
+	<key>UHCIreset</key>
+	<string>Yes</string>
+
+</dict>
+</plist>

@@ -1,0 +1,232 @@
+AppleIntelInfo.kext v2.9 Copyright © 2012-2017 Pike R. Alpha. All rights reserved.
+
+Settings:
+------------------------------------------
+logMSRs..................................: 1
+logIGPU..................................: 0
+logCStates...............................: 1
+logIPGStyle..............................: 1
+
+Warning: Clover hw.busfrequency error detected : 17d78400
+InitialTSC...............................: 0xe10958367c (27 MHz)
+MWAIT C-States...........................: 8224
+
+Processor Brandstring....................: Intel(R) Xeon(R) W-3223 CPU @ 3.50GHz
+
+Processor Signature..................... : 0x50657
+------------------------------------------
+ - Family............................... : 6
+ - Stepping............................. : 7
+ - Model................................ : 0x55 (85)
+
+Model Specific Registers (MSRs)
+------------------------------------------
+
+MSR_IA32_PLATFORM_ID.............(0x17)  : 0x4000000000000
+------------------------------------------
+ - Processor Flags...................... : 1
+
+MSR_CORE_THREAD_COUNT............(0x35)  : 0x80010
+------------------------------------------
+ - Core Count........................... : 8
+ - Thread Count......................... : 16
+
+MSR_PLATFORM_INFO................(0xCE)  : 0x70C2CF2812300
+------------------------------------------
+ - Maximum Non-Turbo Ratio.............. : 0x23 (3500 MHz)
+ - Ratio Limit for Turbo Mode........... : 1 (programmable)
+ - TDP Limit for Turbo Mode............. : 1 (programmable)
+ - Low Power Mode Support............... : 0 (LMP not supported)
+ - Number of ConfigTDP Levels........... : 2 (additional TDP level(s) available)
+ - Maximum Efficiency Ratio............. : 12
+ - Minimum Operating Ratio.............. : 7
+
+MSR_PMG_CST_CONFIG_CONTROL.......(0xE2)  : 0x7E000003
+------------------------------------------
+ - I/O MWAIT Redirection Enable......... : 0 (not enabled)
+ - CFG Lock............................. : 0 (MSR not locked)
+ - C3 State Auto Demotion............... : 1 (enabled)
+ - C1 State Auto Demotion............... : 1 (enabled)
+ - C3 State Undemotion.................. : 1 (enabled)
+ - C1 State Undemotion.................. : 1 (enabled)
+ - Package C-State Auto Demotion........ : 1 (enabled)
+ - Package C-State Undemotion........... : 1 (enabled)
+
+MSR_PMG_IO_CAPTURE_BASE..........(0xE4)  : 0x1814
+------------------------------------------
+ - LVL_2 Base Address................... : 0x1814
+ - C-state Range........................ : 0 (C-States not included, I/O MWAIT redirection not enabled)
+
+IA32_MPERF.......................(0xE7)  : 0xF13D7E3FD
+IA32_APERF.......................(0xE8)  : 0xF11E6A6DD
+
+MSR_FLEX_RATIO...................(0x194) : 0x0
+------------------------------------------
+
+MSR_IA32_PERF_STATUS.............(0x198) : 0x220000002600
+------------------------------------------
+ - Current Performance State Value...... : 0x2600 (3800 MHz)
+
+MSR_IA32_PERF_CONTROL............(0x199) : 0x2300
+------------------------------------------
+ - Target performance State Value....... : 0x2300 (3500 MHz)
+ - Intel Dynamic Acceleration........... : 0 (IDA engaged)
+
+IA32_CLOCK_MODULATION............(0x19A) : 0x0
+
+IA32_THERM_INTERRUPT.............(0x19B) : 0x0
+
+IA32_THERM_STATUS................(0x19C) : 0x88390800
+------------------------------------------
+ - Thermal Status....................... : 0
+ - Thermal Log.......................... : 0
+ - PROCHOT # or FORCEPR# event.......... : 0
+ - PROCHOT # or FORCEPR# log............ : 0
+ - Critical Temperature Status.......... : 0
+ - Critical Temperature log............. : 0
+ - Thermal Threshold #1 Status.......... : 0
+ - Thermal Threshold #1 log............. : 0
+ - Thermal Threshold #2 Status.......... : 0
+ - Thermal Threshold #2 log............. : 0
+ - Power Limitation Status.............. : 0
+ - Power Limitation log................. : 1
+ - Current Limit Status................. : 0
+ - Current Limit log.................... : 0
+ - Cross Domain Limit Status............ : 0
+ - Cross Domain Limit log............... : 0
+ - Digital Readout...................... : 57
+ - Resolution in Degrees Celsius........ : 1
+ - Reading Valid........................ : 1 (valid)
+
+MSR_THERM2_CTL...................(0x19D) : 0x0
+
+IA32_MISC_ENABLES................(0x1A0) : 0x850089
+------------------------------------------
+ - Fast-Strings......................... : 1 (enabled)
+ - FOPCODE compatibility mode Enable.... : 0
+ - Automatic Thermal Control Circuit.... : 1 (enabled)
+ - Split-lock Disable................... : 0
+ - Performance Monitoring............... : 1 (available)
+ - Bus Lock On Cache Line Splits Disable : 0
+ - Hardware prefetch Disable............ : 0
+ - Processor Event Based Sampling....... : 0 (PEBS supported)
+ - GV1/2 legacy Enable.................. : 0
+ - Enhanced Intel SpeedStep Technology.. : 1 (enabled)
+ - MONITOR FSM.......................... : 1 (MONITOR/MWAIT supported)
+ - Adjacent sector prefetch Disable..... : 0
+ - CFG Lock............................. : 0 (MSR not locked)
+ - xTPR Message Disable................. : 1 (disabled)
+
+MSR_TEMPERATURE_TARGET...........(0x1A2) : 0x610A00
+------------------------------------------
+ - Turbo Attenuation Units.............. : 0 
+ - Temperature Target................... : 97
+ - TCC Activation Offset................ : 0
+
+MSR_MISC_PWR_MGMT................(0x1AA) : 0x401040
+------------------------------------------
+ - EIST Hardware Coordination........... : 0 (hardware coordination enabled)
+ - Energy/Performance Bias support...... : 1
+ - Energy/Performance Bias.............. : 0 (disabled/MSR not visible to software)
+ - Thermal Interrupt Coordination Enable : 1 (thermal interrupt routed to all cores)
+ - SpeedShift Technology Enable......... : 1 (enabled)
+ - SpeedShift Interrupt Coordination.... : 0 (disabled)
+ - SpeedShift Energy Efficient Perf..... : 1 (enabled)
+ - SpeedShift Technology Setup for HWP.. : Yes (setup for HWP)
+
+MSR_TURBO_RATIO_LIMIT............(0x1AD) : 0x2626262626262628
+------------------------------------------
+ - Maximum Ratio Limit for C01.......... : 28 (4000 MHz) 
+ - Maximum Ratio Limit for C02.......... : 26 (3800 MHz) 
+ - Maximum Ratio Limit for C03.......... : 26 (3800 MHz) 
+ - Maximum Ratio Limit for C04.......... : 26 (3800 MHz) 
+ - Maximum Ratio Limit for C05.......... : 26 (3800 MHz) 
+ - Maximum Ratio Limit for C06.......... : 26 (3800 MHz) 
+ - Maximum Ratio Limit for C07.......... : 26 (3800 MHz) 
+ - Maximum Ratio Limit for C08.......... : 26 (3800 MHz) 
+
+IA32_ENERGY_PERF_BIAS............(0x1B0) : 0x1
+------------------------------------------
+ - Power Policy Preference...............: 1 (highest performance)
+
+MSR_POWER_CTL....................(0x1FC) : 0x6124005B
+------------------------------------------
+ - Bi-Directional Processor Hot..........: 1 (enabled)
+ - C1E Enable............................: 1 (enabled)
+
+MSR_RAPL_POWER_UNIT..............(0x606) : 0xA0E03
+------------------------------------------
+ - Power Units.......................... : 3 (1/8 Watt)
+ - Energy Status Units.................. : 14 (61 micro-Joules)
+ - Time Units .......................... : 10 (976.6 micro-Seconds)
+
+MSR_PKG_POWER_LIMIT..............(0x610) : 0x38CB800148CB8
+------------------------------------------
+ - Package Power Limit #1............... : 407 Watt
+ - Enable Power Limit #1................ : 1 (enabled)
+ - Package Clamping Limitation #1....... : 0 (disabled)
+ - Time Window for Power Limit #1....... : 10 (2560 milli-Seconds)
+ - Package Power Limit #2............... : 407 Watt
+ - Enable Power Limit #2................ : 1 (enabled)
+ - Package Clamping Limitation #2....... : 1 (allow going below OS-requested P/T state setting Time Window for Power Limit #2)
+ - Time Window for Power Limit #2....... : 1 (5 milli-Seconds)
+ - Lock................................. : 0 (MSR not locked)
+
+MSR_PKG_ENERGY_STATUS............(0x611) : 0x8980C0D
+------------------------------------------
+ - Total Energy Consumed................ : 8800 Joules (Watt = Joules / seconds)
+
+MSR_CONFIG_TDP_NOMINAL...........(0x648) : 0x23
+MSR_CONFIG_TDP_LEVEL1............(0x649) : 0xD00CB800190500
+MSR_CONFIG_TDP_LEVEL2............(0x64a) : 0xD00CB800190500
+MSR_CONFIG_TDP_CONTROL...........(0x64b) : 0x80000000
+MSR_TURBO_ACTIVATION_RATIO.......(0x64c) : 0x80000000
+MSR_PKGC3_IRTL...................(0x60a) : 0x0
+MSR_PKGC6_IRTL...................(0x60b) : 0x0
+MSR_PKG_C2_RESIDENCY.............(0x60d) : 0x1FD684F03
+MSR_PKG_C3_RESIDENCY.............(0x3f8) : 0x0
+MSR_PKG_C2_RESIDENCY.............(0x60d) : 0x1FD684F03
+MSR_PKG_C3_RESIDENCY.............(0x3f8) : 0x0
+MSR_PKG_C6_RESIDENCY.............(0x3f9) : 0x16FFF89E1B
+
+IA32_TSC_DEADLINE................(0x6E0) : 0xE10D403E70
+
+IA32_PM_ENABLE...................(0x770) : 0x1 (HWP Supported and Enabled)
+
+IA32_HWP_CAPABILITIES............(0x771) : 0x70C2328
+-----------------------------------------
+ - Highest Performance.................. : 40
+ - Guaranteed Performance............... : 35
+ - Most Efficient Performance........... : 12
+ - Lowest Performance................... : 7
+
+IA32_HWP_REQUEST_PKG.............(0x772) : 0x282807
+-----------------------------------------
+ - Minimum Performance.................. : 7
+ - Maximum Performance.................. : 40
+ - Desired Performance.................. : 40
+ - Energy Efficient Performance......... : 0
+ - Activity Window...................... : 0, 0
+
+IA32_HWP_REQUEST................(0x774) : 0x40000282807
+-----------------------------------------
+ - Minimum Performance................. : 7
+ - Maximum Performance................. : 40
+ - Desired Performance................. : 40
+ - Energy Efficient Performance........ : 0
+ - Activity Window..................... : 0, 0
+ - Package Control..................... : 1 (control inputs to be derived from IA32_HWP_REQUEST_PKG)
+
+IA32_HWP_STATUS..................(0x777) : 0x0
+-----------------------------------------
+ - Guaranteed Performance Change....... : 0 (has not occured)
+ - Excursion To Minimum................ : 0 (has not occured)
+
+CPU Ratio Info:
+------------------------------------------
+Base Clock Frequency (BLCK)............. : 100 MHz
+Maximum Efficiency Ratio/Frequency.......: 12 (1200 MHz)
+Maximum non-Turbo Ratio/Frequency........: 35 (3500 MHz)
+Maximum Turbo Ratio/Frequency............: 40 (4000 MHz)
+P-State ratio * 100 = Frequency in MHz
+------------------------------------------

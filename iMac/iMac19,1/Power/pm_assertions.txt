@@ -1,0 +1,20 @@
+2019-05-17 20:38:46 -0400 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   InternalPreventDisplaySleep    1
+   PreventUserIdleSystemSleep     0
+   NetworkClientActive            0
+Listed by owning process:
+   pid 57(powerd): [0x00000076001080af] 00:01:52 InternalPreventDisplaySleep named: "com.apple.powermanagement.delayDisplayOff" 
+	Timeout will fire in 188 secs Action=TimeoutActionTurnOff
+   pid 97(hidd): [0x0000005600098093] 00:00:00 UserIsActive named: "com.apple.iohideventsystem.queue.tickle.4294968623.6" 
+Kernel Assertions: 0x108=BT-HID,MAGICWAKE
+   id=502  level=255 0x8=BT-HID mod=12/31/69, 7:00 PM description=com.apple.driver.IOBluetoothHIDDriver owner=AppleHSBluetoothDevice
+   id=503  level=255 0x100=MAGICWAKE mod=5/17/19, 8:38 PM description=en1 owner=en1
+   id=504  level=255 0x8=BT-HID mod=12/31/69, 7:00 PM description=com.apple.driver.IOBluetoothHIDDriver owner=AppleHSBluetoothDevice
+Idle sleep preventers: IODisplayWrangler

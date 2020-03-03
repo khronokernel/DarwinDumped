@@ -1,0 +1,23 @@
+[
+{"data":{"title":"LocationID"},"attr":{"id":"23887","ColType":"Number","ColValue":"787734928"}},
+{"data":{"title":"Sensor Surface Height"},"attr":{"id":"23889","ColType":"Number","ColValue":"9056"}},
+{"data":{"title":"Sensor Rows"},"attr":{"id":"23891","ColType":"Number","ColValue":"15"}},
+{"data":{"title":"SupportsGestureScrolling"},"attr":{"id":"23893","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"Sensor Region Param"},"attr":{"id":"23895","ColType":"Data","ColValue":"&lt;00000c007d02&gt;"}},
+{"data":{"title":"Max Packet Size"},"attr":{"id":"23897","ColType":"Number","ColValue":"660"}},
+{"data":{"title":"Endianness"},"attr":{"id":"23899","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"Sensor Surface Width"},"attr":{"id":"23901","ColType":"Number","ColValue":"5152"}},
+{"data":{"title":"HIDServiceSupport"},"attr":{"id":"23903","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"bcdVersion"},"attr":{"id":"23905","ColType":"Number","ColValue":"294"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"23907","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"Family ID"},"attr":{"id":"23909","ColType":"Number","ColValue":"112"}},
+{"data":{"title":"parser-type"},"attr":{"id":"23911","ColType":"Number","ColValue":"2000"}},
+{"data":{"title":"Transport"},"attr":{"id":"23913","ColType":"String","ColValue":"Bluetooth"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"23915","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"0516B563-B15B-11DA-96EB-0014519758EF"},"attr":{"id":"23917","ColType":"String","ColValue":"AppleMultitouchDriver.kext/Contents/PlugIns/MultitouchHID.plugin"}}]},
+{"data":{"title":"Multitouch ID"},"attr":{"id":"23919","ColType":"Number","ColValue":"288230376939446672"}},
+{"data":{"title":"Sensor Region Descriptor"},"attr":{"id":"23921","ColType":"Data","ColValue":"&lt;0101000f01000a00&gt;"}},
+{"data":{"title":"MultitouchPreferences"},"attr":{"id":"23923","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MouseHorizontalScroll"},"attr":{"id":"23925","ColType":"Boolean","ColValue":"Yes"}},{"data":{"title":"MouseTwoFingerDoubleTapGesture"},"attr":{"id":"23927","ColType":"Number","ColValue":"3"}},{"data":{"title":"MouseMomentumScroll"},"attr":{"id":"23929","ColType":"Boolean","ColValue":"Yes"}},{"data":{"title":"MouseButtonDivision"},"attr":{"id":"23931","ColType":"Number","ColValue":"55"}},{"data":{"title":"UserPreferences"},"attr":{"id":"23933","ColType":"Boolean","ColValue":"Yes"}},{"data":{"title":"MouseVerticalScroll"},"attr":{"id":"23935","ColType":"Boolean","ColValue":"Yes"}},{"data":{"title":"MouseButtonMode"},"attr":{"id":"23937","ColType":"String","ColValue":"TwoButton"}},{"data":{"title":"MouseTwoFingerHorizSwipeGesture"},"attr":{"id":"23939","ColType":"Number","ColValue":"2"}},{"data":{"title":"MouseOneFingerDoubleTapGesture"},"attr":{"id":"23941","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"Sensor Columns"},"attr":{"id":"23943","ColType":"Number","ColValue":"10"}},
+{"data":{"title":"parser-options"},"attr":{"id":"23945","ColType":"Number","ColValue":"4"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"23947","ColType":"String","ColValue":"AppleMultitouchDeviceUserClient"}}
+]

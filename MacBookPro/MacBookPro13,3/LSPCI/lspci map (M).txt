@@ -1,0 +1,37 @@
+00:00.0 Host bridge: Intel Corporation Skylake Host Bridge/DRAM Registers (rev 07)
+00:01.0 PCI bridge: Intel Corporation Skylake PCIe Controller (x16) (rev 07)
+## 00.01:0 is a bridge from 00 to 01-01
+00:01.1 PCI bridge: Intel Corporation Skylake PCIe Controller (x8) (rev 07)
+## 00.01:1 is a bridge from 00 to 82-ff
+00:01.2 PCI bridge: Intel Corporation Skylake PCIe Controller (x4) (rev 07)
+## 00.01:2 is a bridge from 00 to 04-81
+00:02.0 VGA compatible controller: Intel Corporation HD Graphics 530 (rev 06)
+00:14.0 USB controller: Intel Corporation Sunrise Point-H USB 3.0 xHCI Controller (rev 31)
+00:15.0 Signal processing controller: Intel Corporation Sunrise Point-H Serial IO I2C Controller #0 (rev 31)
+00:16.0 Communication controller: Intel Corporation Sunrise Point-H CSME HECI #1 (rev 31)
+00:19.0 Signal processing controller: Intel Corporation Sunrise Point-H Serial IO UART Controller #2 (rev 31)
+00:1b.0 PCI bridge: Intel Corporation Sunrise Point-H PCI Root Port #17 (rev f1)
+## 00.1b:0 is a bridge from 00 to 02-02
+00:1c.0 PCI bridge: Intel Corporation Sunrise Point-H PCI Express Root Port #1 (rev f1)
+## 00.1c:0 is a bridge from 00 to 03-03
+00:1e.0 Signal processing controller: Intel Corporation Sunrise Point-H Serial IO UART #0 (rev 31)
+00:1e.1 Signal processing controller: Intel Corporation Sunrise Point-H Serial IO UART #1 (rev 31)
+00:1e.2 Signal processing controller: Intel Corporation Sunrise Point-H Serial IO SPI #0 (rev 31)
+00:1e.3 Signal processing controller: Intel Corporation Sunrise Point-H Serial IO SPI #1 (rev 31)
+00:1f.0 ISA bridge: Intel Corporation Sunrise Point-H LPC Controller (rev 31)
+00:1f.2 Memory controller: Intel Corporation Sunrise Point-H PMC (rev 31)
+00:1f.3 Audio device: Intel Corporation Sunrise Point-H HD Audio (rev 31)
+00:1f.4 SMBus: Intel Corporation Sunrise Point-H SMBus (rev 31)
+02:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd Device a804
+03:00.0 Network controller: Broadcom Limited BCM43602 802.11ac Wireless LAN SoC (rev 02)
+
+Summary of buses:
+
+00: Primary host bus
+	1c.0 Bridge to 03-03
+	1b.0 Bridge to 02-02
+	01.2 Bridge to 04-81
+	01.1 Bridge to 82-ff
+	01.0 Bridge to 01-01
+02: Entered via 00:1b.0
+03: Entered via 00:1c.0

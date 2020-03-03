@@ -1,0 +1,31 @@
+00:00.0 Host bridge: Intel Corporation Crystal Well DRAM Controller (rev 08)
+00:01.0 PCI bridge: Intel Corporation Crystal Well PCI Express x16 Controller (rev 08)
+## 00.01:0 is a bridge from 00 to 05-ff
+00:02.0 VGA compatible controller: Intel Corporation Crystal Well Integrated Graphics Controller (rev 08)
+00:03.0 Audio device: Intel Corporation Crystal Well HD Audio Controller (rev 08)
+00:14.0 USB controller: Intel Corporation 8 Series/C220 Series Chipset Family USB xHCI (rev 05)
+00:16.0 Communication controller: Intel Corporation 8 Series/C220 Series Chipset Family MEI Controller #1 (rev 04)
+00:1b.0 Audio device: Intel Corporation 8 Series/C220 Series Chipset High Definition Audio Controller (rev 05)
+00:1c.0 PCI bridge: Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #1 (rev d5)
+## 00.1c:0 is a bridge from 00 to 01-01
+00:1c.2 PCI bridge: Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #3 (rev d5)
+## 00.1c:2 is a bridge from 00 to 02-02
+00:1c.3 PCI bridge: Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #4 (rev d5)
+## 00.1c:3 is a bridge from 00 to 03-03
+00:1c.4 PCI bridge: Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #5 (rev d5)
+## 00.1c:4 is a bridge from 00 to 04-04
+00:1f.0 ISA bridge: Intel Corporation HM87 Express LPC Controller (rev 05)
+00:1f.3 SMBus: Intel Corporation 8 Series/C220 Series Chipset Family SMBus Controller (rev 05)
+02:00.0 Network controller: Broadcom Corporation BCM4360 802.11ac Wireless Network Adapter (rev 03)
+04:00.0 SATA controller: Samsung Electronics Co Ltd Device 1600 (rev 01)
+
+Summary of buses:
+
+00: Primary host bus
+	1c.4 Bridge to 04-04
+	1c.3 Bridge to 03-03
+	1c.2 Bridge to 02-02
+	1c.0 Bridge to 01-01
+	01.0 Bridge to 05-ff
+02: Entered via 00:1c.2
+04: Entered via 00:1c.4

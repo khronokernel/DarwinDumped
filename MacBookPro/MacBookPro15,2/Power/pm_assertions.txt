@@ -1,0 +1,25 @@
+2020-03-02 16:43:30 +0000 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  1
+   InternalPreventDisplaySleep    1
+   PreventUserIdleSystemSleep     0
+   NetworkClientActive            0
+Listed by owning process:
+   pid 133(powerd): [0x0000000500088001] 00:15:15 ExternalMedia named: "com.apple.powermanagement.externalmediamounted"  
+   pid 133(powerd): [0x0000021600108003] 00:00:09 InternalPreventDisplaySleep named: "com.apple.powermanagement.delayDisplayOff"  
+	Timeout will fire in 290 secs Action=TimeoutActionTurnOff
+   pid 179(hidd): [0x00000021000982ce] 00:00:00 UserIsActive named: "com.apple.iohideventsystem.queue.tickle serviceID:100000b8f name:AppleUserHIDEventSe product:Unknown eventType:17"  
+Kernel Assertions: 0x104=USB,MAGICWAKE
+   id=504  level=255 0x4=USB mod=01/01/1970, 01:00 description=com.apple.usb.externaldevice.00100000 owner=4-Port USB 3.0 Hub
+   id=506  level=255 0x4=USB mod=01/01/1970, 01:00 description=com.apple.usb.externaldevice.14100000 owner=4-Port USB 2.0 Hub
+   id=508  level=255 0x4=USB mod=01/01/1970, 01:00 description=com.apple.usb.externaldevice.00110000 owner=USB3.0 Card Reader
+   id=509  level=255 0x4=USB mod=01/01/1970, 01:00 description=com.apple.usb.externaldevice.14130000 owner=USB 2.0 Hub
+   id=511  level=255 0x100=MAGICWAKE mod=02/03/2020, 16:31 description=en0 owner=en0
+   id=512  level=255 0x100=MAGICWAKE mod=02/03/2020, 16:42 description=llw0 owner=IOSkywalkNetworkBSDClient
+   id=522  level=255 0x4=USB mod=01/01/1970, 01:00 description=com.apple.usb.externaldevice.14131000 owner=iPhone
+Idle sleep preventers: IODisplayWrangler

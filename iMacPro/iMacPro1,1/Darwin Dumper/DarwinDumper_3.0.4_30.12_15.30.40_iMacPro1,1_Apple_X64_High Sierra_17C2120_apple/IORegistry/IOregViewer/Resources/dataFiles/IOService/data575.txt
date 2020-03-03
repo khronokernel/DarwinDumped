@@ -1,0 +1,12 @@
+[
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"40610","ColType":"String","ColValue":"AppleGraphicsDeviceControlClient"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"40612","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"40614","ColType":"String","ColValue":"IOFramebuffer"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"40616","ColType":"Number","ColValue":"65050"}},
+{"data":{"title":"IOPCITunnelCompatible"},"attr":{"id":"40618","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"iofb_version"},"attr":{"id":"40620","ColType":"String","ColValue":"1.1.50"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"40622","ColType":"String","ColValue":"com.apple.kext.AMD10000Controller"}},
+{"data":{"title":"NeedsPolicyDriver"},"attr":{"id":"40624","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"IOPCIMatch"},"attr":{"id":"40626","ColType":"String","ColValue":"0x68601002 0x68611002 0x68621002 0x68631002 0x68641002 0x68671002 0x68681002 0x687F1002 0x686C1002"}},
+{"data":{"title":"IOClass"},"attr":{"id":"40628","ColType":"String","ColValue":"AMD10000ControllerWrangler"}}
+]

@@ -1,0 +1,183 @@
+ime 1437049365] [Message AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 14
+Wake reason: EC.LidOpen XHC1 (User)
+AppleCamIn::systemWakeCall - messageType = 0xE0000320
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+Previous sleep cause: 5
+The USB device BRCM20702 Hub (Port 8 of Hub at 0x14000000) may have caused a wake by issuing a remote wakeup (2)
+USB (XHCI Root Hub USB 2.0 Simulation):Port 19 on bus 0xa connected or disconnected: portSC(0xe4202a0)
+AppleThunderboltNHIType2::prePCIWake - power up complete - took 1 us
+The USB device Card Reader (Port 4 of Hub at 0x15000000) may have caused a wake by being disconnected
+AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+The USB device Bluetooth USB Host Controller (Port 3 of Hub at 0x14800000) may have caused a wake by issuing a remote wakeup (3)
+IOThunderboltSwitch<0xffffff8031f1ca00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+TBT W (2): 0x0040 [x]
+IOThunderboltSwitch<0xffffff8031f1ca00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+en0: channel changed to 1
+en0: channel changed to 1
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+AirPort: Link Up on awdl0
+AppleUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+[BNBMouseDevice::init][85.3] init is complete
+[BNBMouseDevice::handleStart][85.3] returning 1
+[AppleMultitouchHIDEventDriver::start] entered
+[AppleMultitouchDevice::start] entered
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+ARPT: 12338.226241: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+AppleCamIn::systemWakeCall - messageType = 0xE0000300
+en0: channel changed to 1
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+en0: channel changed to 1
+en0: channel changed to 1
+AppleCamIn::handleWakeEvent_gated
+AppleCamIn::handleWakeEvent_gated
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+USBMSC Identifier (non-unique): 575837314541335844523834 0x1058 0x822 0x1007, 2
+USBF:    12361.338    AppleUSBHubPort: Port 5 of Hub at 0x14000000 about to terminate a busy device (My Passport 0822) after waiting 10 seconds
+USBMSC Identifier (non-unique): 0x00000000 0x58f 0x6387 0x100, 2
+Google Chrome He (map: 0xffffff80445b90f0) triggered DYLD shared region unnest for map: 0xffffff80445b90f0, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He (map: 0xffffff803dfb2690) triggered DYLD shared region unnest for map: 0xffffff803dfb2690, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He (map: 0xffffff803500c2d0) triggered DYLD shared region unnest for map: 0xffffff803500c2d0, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He (map: 0xffffff803dfb2690) triggered DYLD shared region unnest for map: 0xffffff803dfb2690, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He (map: 0xffffff803500c2d0) triggered DYLD shared region unnest for map: 0xffffff803500c2d0, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+ARPT: 12447.455630: directed SSID scan fail
+ARPT: 12450.374827: directed SSID scan fail
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+ARPT: 12460.577722: directed SSID scan fail
+ARPT: 12463.815728: MacAuthEvent en0   Auth result for: 10:c3:7b:43:1c:56 Auth timed out
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+disk2s4: media is not present.
+disk2s4: media is not present.
+disk2s4: media is not present.
+disk2s4: media is not present.
+disk2s4: media is not present.
+disk2s4: media is not present.
+disk2s4: media is not present.
+disk2s4: media is not present.
+disk2s4: media is not present.
+disk2s4: media is not present.
+disk2s4: media is not present.
+disk2s4: media is not present.
+disk2s4: media is not present.
+disk2s4: media is not present.
+msdosfs_fat_uninit_vol: error 6 from msdosfs_fat_cache_flush
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+ARPT: 12523.719808: MacAuthEvent en0   Auth result for: 90:f6:52:81:89:8a  MAC AUTH succeeded
+AirPort: Link Up on en0
+en0: BSSID changed to 90:f6:52:81:89:8a
+en0: channel changed to 6
+en0::IO80211Interface::postMessage bssid changed
+ARPT: 12523.727253: AWDL Sync Enabled 0
+AirPort: RSN handshake complete on en0
+en0: 802.11d country code set to 'RU'.
+en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+en0: BSSID changed to 90:f6:52:81:89:8a
+en0: channel changed to 6
+Over-release of kernel-internal importance assertions for pid 44 (syslogd), dropping 1 assertion(s) but task only has 0 remaining (0 external).
+USBMSC Identifier (non-unique): 0x00000000 0x58f 0x6387 0x100, 2
+hfs: Initializing the journal (joffset 0x78000 sz 0x800000)...
+hfs: mounted \M-P\M^]\M-P\M->\M-P\M-2\M-Q\M^K\M-P\M-8\M-L\M^F 1 on device disk2s2
+[AppleMultitouchDevice::willTerminate] entered
+[AppleMultitouchDevice::stop] entered
+process CleanMyMac 2[4161] caught causing excessive wakeups. Observed wakeups rate (per sec): 60547; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 45652
+process CleanMyMac 2[4161] caught causing excessive wakeups. Observed wakeups rate (per sec): 23445; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 181309
+Google Chrome He (map: 0xffffff8048d3db40) triggered DYLD shared region unnest for map: 0xffffff8048d3db40, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He (map: 0xffffff803dfb22d0) triggered DYLD shared region unnest for map: 0xffffff803dfb22d0, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He (map: 0xffffff8048d3d3c0) triggered DYLD shared region unnest for map: 0xffffff8048d3d3c0, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+hfs: unmount initiated on \M-P\M^]\M-P\M->\M-P\M-2\M-Q\M^K\M-P\M-8\M-L\M^F 1 on device disk2s2
+hfs: Initializing the journal (joffset 0x78000 sz 0x800000)...
+hfs: mounted untilited on device disk2s2
+hfs: unmount initiated on untilited on device disk2s2
+hfs: unmount initiated on xf-accm14 on device disk3s2
+Google Chrome He (map: 0xffffff803500cb40) triggered DYLD shared region unnest for map: 0xffffff803500cb40, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He (map: 0xffffff803500cb40) triggered DYLD shared region unnest for map: 0xffffff803500cb40, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He (map: 0xffffff8048d3dd20) triggered DYLD shared region unnest for map: 0xffffff8048d3dd20, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+hfs: mounted Creative Cloud Installer on device disk2s2
+Google Chrome He (map: 0xffffff803dfb2a50) triggered DYLD shared region unnest for map: 0xffffff803dfb2a50, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+process Adobe Desktop Se[3137] caught causing excessive wakeups. Observed wakeups rate (per sec): 177; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 54718
+hfs: mounted Adobe Photoshop CC 2015 on device disk3s2
+hfs: unmount initiated on Adobe Photoshop CC 2015 on device disk3s2
+hfs: mounted AdobeCameraRaw-9.1-CC-mul-AdobeUpdate on device disk3s2
+hfs: unmount initiated on AdobeCameraRaw-9.1-CC-mul-AdobeUpdate on device disk3s2
+Google Chrome He (map: 0xffffff80367970f0) triggered DYLD shared region unnest for map: 0xffffff80367970f0, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He (map: 0xffffff803767ba50) triggered DYLD shared region unnest for map: 0xffffff803767ba50, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+hfs: mounted Lightroom 6.0 on device disk4s1
+hfs: unmount initiated on Lightroom 6.0 on device disk4s1
+hfs: mounted Lightroom-6.1.0-Update on device disk4s2
+hfs: unmount initiated on Lightroom-6.1.0-Update on device disk4s2
+hfs: mounted Prem Pro CC 2015 on device disk5s2
+hfs: unmount initiated on Prem Pro CC 2015 on device disk5s2
+Google Chrome He (map: 0xffffff80445b95a0) triggered DYLD shared region unnest for map: 0xffffff80445b95a0, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He (map: 0xffffff8048d3d4b0) triggered DYLD shared region unnest for map: 0xffffff8048d3d4b0, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+hfs: mounted Aftr Efcts CC 2015 on device disk5s2
+hfs: unmount initiated on Aftr Efcts CC 2015 on device disk5s2
+hfs: mounted Adobe Audition CC 2015 on device disk5s2
+hfs: unmount initiated on Adobe Audition CC 2015 on device disk5s2
+hfs: mounted Adobe SpeedGrade CC 2015 on device disk5s2
+hfs: unmount initiated on Adobe SpeedGrade CC 2015 on device disk5s2
+hfs: mounted amtlib.framework 9.0.0.21 "One Stop Solution" CR2 by TNT on device disk5s2
+Over-release of kernel-internal importance assertions for pid 83 (launchservicesd), dropping 1 assertion(s) but task only has 0 remaining (0 external).
+process WindowServer[171] caught causing excessive wakeups. EXC_RESOURCE supressed due to audio playback
+USBMSC Identifier (non-unique): 575837314541335844523834 0x1058 0x822 0x1007, 2
+Limiting closed port RST response from 262 to 250 packets per second
+Limiting closed port RST response from 258 to 250 packets per second
+Limiting closed port RST response from 267 to 250 packets per second
+Limiting closed port RST response from 263 to 250 packets per second
+Limiting closed port RST response from 258 to 250 packets per second
+Limiting closed port RST response from 258 to 250 packets per second
+Limiting closed port RST response from 264 to 250 packets per second
+Limiting closed port RST response from 258 to 250 packets per second
+Limiting closed port RST response from 266 to 250 packets per second
+Limiting closed port RST response from 266 to 250 packets per second
+Limiting closed port RST response from 258 to 250 packets per second
+Limiting closed port RST response from 258 to 250 packets per second
+Limiting closed port RST response from 264 to 250 packets per second
+Limiting closed port RST response from 258 to 250 packets per second
+Google Chrome He (map: 0xffffff8048d3d4b0) triggered DYLD shared region unnest for map: 0xffffff8048d3d4b0, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+hfs: mounted Creative Cloud Installer on device disk7s2
+hfs: mounted Media Encoder CC 2015 on device disk8s2
+Google Chrome He (map: 0xffffff80525d0e10) triggered DYLD shared region unnest for map: 0xffffff80525d0e10, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+hfs: unmount initiated on Media Encoder CC 2015 on device disk8s2
+Google Chrome He (map: 0xffffff8048d3d960) triggered DYLD shared region unnest for map: 0xffffff8048d3d960, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+hfs: mounted Prem Pro CC 2015 on device disk8s2
+Google Chrome He (map: 0xffffff803dfb2960) triggered DYLD shared region unnest for map: 0xffffff803dfb2960, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He (map: 0xffffff803dfb2960) triggered DYLD shared region unnest for map: 0xffffff803dfb2960, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+hfs: unmount initiated on Prem Pro CC 2015 on device disk8s2
+Google Chrome He (map: 0xffffff8048d3d000) triggered DYLD shared region unnest for map: 0xffffff8048d3d000, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He (map: 0xffffff8048d3d960) triggered DYLD shared region unnest for map: 0xffffff8048d3d960, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+hfs: mounted Adobe Photoshop CC 2015 on device disk8s2
+hfs: unmount initiated on Adobe Photoshop CC 2015 on device disk8s2
+hfs: mounted Lightroom 6.0 on device disk8s1
+hfs: unmount initiated on Lightroom 6.0 on device disk8s1
+hfs: mounted Lightroom-6.1.0-Update on device disk8s2
+hfs: unmount initiated on Lightroom-6.1.0-Update on device disk8s2
+Google Chrome He (map: 0xffffff80445b95a0) triggered DYLD shared region unnest for map: 0xffffff80445b95a0, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+hfs: mounted Adobe SpeedGrade CC 2015 on device disk9s2
+hfs: unmount initiated on Adobe SpeedGrade CC 2015 on device disk9s2
+hfs: mounted Recovery HD on device disk0s3
+hfs: unmount initiated on Recovery HD on device disk0s3
+hfs: mounted Adobe Audition CC 2015 on device disk9s2
+hfs: unmount initiated on Adobe Audition CC 2015 on device disk9s2

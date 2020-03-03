@@ -1,0 +1,110 @@
+                                                                                                                                    
+                                                                                                                                    
+disk0 APPLE HDD HTS541010A9E662 (4096 byte physical block size)
+================================================================================================================================================
+ACT   DEVICE    TYPE                    NAME                               SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                GUID_partition_scheme                                      1 TB    None
+      disk0s1   EFI                     EFI                                209 MB                Apple EFI
+      disk0s2   Apple_CoreStorage                                          999 GB                 
+      disk0s3   Apple_Boot              Recovery HD                        650 MB                 
+                                                                                                                                    
+                                                                                                                                    
+disk1 Macintosh HD (512 byte physical block size)
+================================================================================================================================================
+ACT   DEVICE    TYPE                    NAME                               SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                Apple_HFS                                                  998 GB   
+      disk10    Apple_partition_scheme                                     1 GB                   
+      disk10s1  Apple_partition_map                                        322 KB                 
+      disk10s2  Apple_HFS               Microsoft Office 2011              1 GB                   
+      disk11    Apple_partition_scheme                                     63 MB                  
+      disk11s1  Apple_partition_map                                        322 KB                 
+      disk11s2  Apple_HFS               Hackintosh Vietnam Tool 1.9.6      63 MB                  
+                                                                                                                                    
+                                                                                                                                    
+disk2 JetFlash Transcend 32GB (512 byte physical block size)
+================================================================================================================================================
+ACT   DEVICE    TYPE                    NAME                               SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                GUID_partition_scheme                                      31 GB   None
+      disk2s1   EFI                     EFI                                209 MB                Apple EFI
+      disk2s2   Apple_HFS               OS X Base System                   31 GB                  
+                                                                                                                                    
+                                                                                                                                    
+disk3 Apple UDIF, только для чтения, сжатый (zlib) (512 byte physical block size)
+================================================================================================================================================
+ACT   DEVICE    TYPE                    NAME                               SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                GUID_partition_scheme                                      48 MB   None
+      disk3s1   Apple_HFS               Adobe Flash Player Installer       48 MB                  
+                                                                                                                                    
+                                                                                                                                    
+disk4 Apple UDIF, только для чтения, сжатый (zlib) (512 byte physical block size)
+================================================================================================================================================
+ACT   DEVICE    TYPE                    NAME                               SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                GUID_partition_scheme                                      48 MB   None
+      disk4s1   Apple_HFS               Adobe Flash Player Installer       48 MB                  
+                                                                                                                                    
+                                                                                                                                    
+disk5 Apple UDIF, только для чтения, сжатый (zlib) (512 byte physical block size)
+================================================================================================================================================
+ACT   DEVICE    TYPE                    NAME                               SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                Apple_partition_scheme                                     188 MB   
+      disk5s1   Apple_partition_map                                        307 KB                 
+      disk5s2   Apple_Driver_ATAPI                                         20 KB                  
+      disk5s3   Apple_HFS               Java for OS X 2015-001             188 MB                 
+                                                                                                                                    
+                                                                                                                                    
+disk6 Apple UDIF, только для чтения, сжатый (zlib) (512 byte physical block size)
+================================================================================================================================================
+ACT   DEVICE    TYPE                    NAME                               SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                GUID_partition_scheme                                      524 MB  None
+      disk6s1   Apple_HFS               Java 8 Update 91                   524 MB                 
+                                                                                                                                    
+                                                                                                                                    
+disk7 Apple UDIF, только для чтения, сжатый (bzip2) (512 byte physical block size)
+================================================================================================================================================
+ACT   DEVICE    TYPE                    NAME                               SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                Apple_partition_scheme                                     205 MB   
+      disk7s1   Apple_partition_map                                        322 KB                 
+      disk7s2   Apple_HFS               Google Chrome                      205 MB                 
+                                                                                                                                    
+                                                                                                                                    
+disk8 Apple UDIF, только для чтения, сжатый (bzip2) (512 byte physical block size)
+================================================================================================================================================
+ACT   DEVICE    TYPE                    NAME                               SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                GUID_partition_scheme                                      94 MB   None
+      disk8s1   Apple_HFS               XQuartz-2.7.9                      93 MB                  
+                                                                                                                                    
+                                                                                                                                    
+disk0 APPLE HDD HTS541010A9E662 (4096 byte physical block size)0
+================================================================================================================================================
+ACT   DEVICE    TYPE                    NAME                               SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                Apple_partition_scheme                                     20 MB    
+      disk9s1   Apple_partition_map                                        322 KB                 
+      disk9s2   Apple_HFS               Tuxera NTFS 2015 RC (030740) [sn]  20 MB                  
+                                                                                                                                    
+                                                                                                                                    
+disk0 APPLE HDD HTS541010A9E662 (4096 byte physical block size)1
+================================================================================================================================================
+ACT   DEVICE    TYPE                    NAME                               SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                Apple_partition_scheme                                     1 GB     
+      disk10s1  Apple_partition_map                                        322 KB                 
+      disk10s2  Apple_HFS               Microsoft Office 2011              1 GB                   
+                                                                                                                                    
+                                                                                                                                    
+disk0 APPLE HDD HTS541010A9E662 (4096 byte physical block size)2
+================================================================================================================================================
+ACT   DEVICE    TYPE                    NAME                               SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                Apple_partition_scheme                                     63 MB    
+      disk11s1  Apple_partition_map                                        322 KB                 
+      disk11s2  Apple_HFS               Hackintosh Vietnam Tool 1.9.6      63 MB                  

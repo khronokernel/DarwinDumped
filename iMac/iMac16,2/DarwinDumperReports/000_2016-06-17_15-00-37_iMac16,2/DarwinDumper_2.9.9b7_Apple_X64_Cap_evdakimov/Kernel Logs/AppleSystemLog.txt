@@ -1,0 +1,130 @@
+Jun 17 14:33:02 localhost kernel[0] <Notice>: Darwin Kernel Version 15.0.0: Sat Sep 19 15:53:46 PDT 2015; root:xnu-3247.10.11~1/RELEASE_X86_64
+Jun 17 14:33:02 localhost kernel[0] <Notice>: vm_page_bootstrap: 1965725 free pages and 115043 wired pages
+Jun 17 14:33:02 localhost kernel[0] <Notice>: kext submap [0x<ptr> - 0x<ptr>], kernel text [0x<ptr> - 0x<ptr>]
+Jun 17 14:33:02 localhost kernel[0] <Notice>: zone leak detection enabled
+Jun 17 14:33:02 localhost kernel[0] <Notice>: "vm_compressor_mode" is 4
+Jun 17 14:33:02 localhost kernel[0] <Notice>: multiq scheduler config: deep-drain 0, ceiling 47, depth limit 4, band limit 127, sanity check 0
+Jun 17 14:33:02 localhost kernel[0] <Notice>: standard timeslicing quantum is 10000 us
+Jun 17 14:33:02 localhost kernel[0] <Notice>: standard background quantum is 2500 us
+Jun 17 14:33:02 localhost kernel[0] <Notice>: WQ[lt_init]: init linktable with max:262144 elements (8388608 bytes)
+Jun 17 14:33:02 localhost kernel[0] <Notice>: WQ[wqp_init]: init prepost table with max:262144 elements (8388608 bytes)
+Jun 17 14:33:02 localhost kernel[0] <Notice>: mig_table_max_displ = 15
+Jun 17 14:33:02 localhost kernel[0] <Notice>: TSC Deadline Timer supported and enabled
+Jun 17 14:33:02 localhost kernel[0] <Notice>: kdp_core zlib memory 0x7000
+Jun 17 14:33:02 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=1 LocalApicId=0 Enabled
+Jun 17 14:33:02 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=2 LocalApicId=2 Enabled
+Jun 17 14:33:02 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=3 LocalApicId=4 Enabled
+Jun 17 14:33:02 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=4 LocalApicId=6 Enabled
+Jun 17 14:33:02 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=5 LocalApicId=255 Disabled
+Jun 17 14:33:02 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=6 LocalApicId=255 Disabled
+Jun 17 14:33:02 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=7 LocalApicId=255 Disabled
+Jun 17 14:33:02 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=8 LocalApicId=255 Disabled
+Jun 17 14:33:02 localhost kernel[0] <Notice>: calling mpo_policy_init for TMSafetyNet
+Jun 17 14:33:02 localhost kernel[0] <Notice>: Security policy loaded: Safety net for Time Machine (TMSafetyNet)
+Jun 17 14:33:02 localhost kernel[0] <Notice>: calling mpo_policy_init for AMFI
+Jun 17 14:33:02 localhost kernel[0] <Notice>: Security policy loaded: Apple Mobile File Integrity (AMFI)
+Jun 17 14:33:02 localhost kernel[0] <Notice>: calling mpo_policy_init for Sandbox
+Jun 17 14:33:02 localhost kernel[0] <Notice>: Security policy loaded: Seatbelt sandbox policy (Sandbox)
+Jun 17 14:33:02 localhost kernel[0] <Notice>: calling mpo_policy_init for Quarantine
+Jun 17 14:33:02 localhost kernel[0] <Notice>: Security policy loaded: Quarantine policy (Quarantine)
+Jun 17 14:33:02 localhost kernel[0] <Notice>: Copyright (c) 1982, 1986, 1989, 1991, 1993
+Jun 17 14:33:02 localhost kernel[0] <Notice>: The Regents of the University of California. All rights reserved.
+Jun 17 14:33:02 localhost kernel[0] <Notice>: MAC Framework successfully initialized
+Jun 17 14:33:02 localhost kernel[0] <Notice>: using 16384 buffer headers and 10240 cluster IO buffer headers
+Jun 17 14:33:02 localhost kernel[0] <Notice>: AppleCredentialManager::start called
+Jun 17 14:33:02 localhost kernel[0] <Notice>: AssertMacros: tmpData (value: 0x0),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager-82.10.1/AppleCredentialManager/AppleCredentialManager.cpp, line: 765
+Jun 17 14:33:02 localhost kernel[0] <Notice>: AppleKeyStore starting (BUILT: Sep 19 2015 16:32:07)
+Jun 17 14:33:02 localhost kernel[0] <Notice>: IOAPIC: Version 0x20 Vectors 64:87
+Jun 17 14:33:02 localhost kernel[0] <Notice>: ACPI: sleep states S3 S4 S5
+Jun 17 14:33:02 localhost kernel[0] <Notice>: pci (build 16:16:43 Sep 19 2015), flags 0xe3000, pfm64 (39 cpu) 0x7f80000000, 0x80000000
+Jun 17 14:33:02 localhost kernel[0] <Notice>: [ PCI configuration begin ]
+Jun 17 14:33:02 localhost kernel[0] <Notice>: console relocated to 0x7f80000000
+Jun 17 14:33:02 localhost kernel[0] <Notice>: [ PCI configuration end, bridges 12, devices 14 ]
+Jun 17 14:33:02 localhost kernel[0] <Notice>: 000000.794135 AppleUSBLegacyRoot@: AppleUSBLegacyRoot::init: enabling legacy matching
+Jun 17 14:33:02 localhost kernel[0] <Notice>: AppleThunderboltNHIType2::setupPowerSavings - notification based runtime power management
+Jun 17 14:33:02 localhost kernel[0] <Notice>: mcache: 4 CPU(s), 64 bytes CPU cache line size
+Jun 17 14:33:02 localhost kernel[0] <Notice>: mbinit: done [96 MB total pool size, (64/32) split]
+Jun 17 14:33:02 localhost kernel[0] <Notice>: rooting via boot-uuid from /chosen: 53F63E7B-B8AE-3846-89EB-4E5FF9C2869C
+Jun 17 14:33:02 localhost kernel[0] <Notice>: Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOResources</string><key>IOResourceMatch</key><string ID="2">boot-uuid-media</string></dict>
+Jun 17 14:33:02 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib kmod start
+Jun 17 14:33:02 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless kmod start
+Jun 17 14:33:02 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib load succeeded
+Jun 17 14:33:02 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless load succeeded
+Jun 17 14:33:02 localhost kernel[0] <Notice>: CoreStorage: fsck_cs has finished for group "5B142BEA-22BF-4E8E-B087-350FE431BB0A" with status 0x00
+Jun 17 14:33:02 localhost kernel[0] <Notice>: Got boot device = IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/SATA@1F,2/AppleIntelPchSeriesAHCI/PRT0@0/IOAHCIDevice@0/AppleAHCIDiskDriver/IOAHCIBlockStorageDevice/IOBlockStorageDriver/APPLE HDD HTS541010A9E662 Media/IOGUIDPartitionScheme/Macintosh HD@2/CoreStoragePhysical/Macintosh HD/Macintosh HD
+Jun 17 14:33:02 localhost kernel[0] <Notice>: BSD root: disk1, major 1, minor 4
+Jun 17 14:33:02 localhost kernel[0] <Notice>: hfs: mounted Macintosh HD on device root_device
+Jun 17 14:33:02 localhost kernel[0] <Notice>: XCPM: registered
+Jun 17 14:33:02 localhost kernel[0] <Notice>: VM Swap Subsystem is ON
+Jun 17 14:33:02 localhost kernel[0] <Notice>: hfs: Macintosh HD: hfs_recording_init: creating the hotfile btree
+Jun 17 14:33:02 localhost kernel[0] <Notice>: hfs: created HFBT on Macintosh HD
+Jun 17 14:33:02 localhost kernel[0] <Notice>: pci pause: SDXC
+Jun 17 14:33:04 localhost kernel[0] <Notice>: Waiting for DSMOS...
+Jun 17 14:33:24 localhost kernel[0] <Notice>: IOGraphics flags 0x43
+Jun 17 14:31:41 iMac-Evdokimov kernel[0] <Notice>: AppleKeyStore:Sending lock change 0 for handle 1
+Jun 17 14:31:41 iMac-Evdokimov kernel[0] <Notice>: AppleKeyStore:Sending lock change 0 for handle -501
+Jun 17 14:31:48 iMac-Evdokimov kernel[0] <Notice>: Sandbox: secinitd(389) deny(1) ipc-posix-shm-read-data /tmp/com.apple.csseed.82
+Jun 17 14:32:07 iMac-Evdokimov kernel[0] <Notice>: hfs: unmount initiated on untitled on device disk2
+Jun 17 14:32:22 iMac-Evdokimov kernel[0] <Notice>: Sandbox: storeaccountd(492) deny(1) file-write-create /Users/evdakimov/Library/Caches/com.apple.spotlight
+Jun 17 14:32:28 iMac-Evdokimov kernel[0] <Notice>: USBMSC Identifier (non-unique): 0x00000000 0x8564 0x1000 0xa00, 3
+Jun 17 14:32:29 iMac-Evdokimov kernel[0] <Notice>: hfs: mounted OS X Base System on device disk2s2
+Jun 17 14:32:34 iMac-Evdokimov kernel[0] <Notice>: Sandbox: mdworker(530) deny(1) file-write-create /private/var/setup
+Jun 17 14:33:26 iMac-Evdokimov kernel[0] <Notice>: Resetting IOCatalogue.
+Jun 17 14:33:33 iMac-Evdokimov kernel[0] <Notice>: AppleKeyStore:Sending lock change 0 for handle -501
+Jun 17 14:34:10 iMac-Evdokimov kernel[0] <Notice>: ARPT: 420.337983: AWDL Sync Enabled 1, data path state[1]
+Jun 17 14:34:10 iMac-Evdokimov kernel[0] <Notice>: IOCTL not recognized: 234 out of 235
+Jun 17 14:34:21 iMac-Evdokimov kernel[0] <Notice>: IO80211AWDLPeerManager::monitorAWDLState Disabling AWDL due to no services and no active sockets
+Jun 17 14:34:21 iMac-Evdokimov kernel[0] <Notice>: ARPT: 430.815526: AWDL Sync Enabled 0, data path state[1]
+Jun 17 14:35:28 iMac-Evdokimov kernel[0] <Notice>: Sandbox: secinitd(610) deny(1) ipc-posix-shm-read-data /tmp/com.apple.csseed.82
+Jun 17 14:36:28 iMac-Evdokimov kernel[0] <Notice>: considerRebuildOfPrelinkedKernel prebuild rebuild has expired
+Jun 17 14:36:41 iMac-Evdokimov kernel[0] <Notice>: Sandbox: iTunes(613) System Policy: deny(1) forbidden-link-priv
+Jun 17 14:36:47 iMac-Evdokimov kernel[0] <Notice>: Sandbox: iBooks(619) deny(1) file-write-unlink /Users/Shared/SC Info/SC Info.sidb
+Jun 17 14:36:52 iMac-Evdokimov kernel[0] <Notice>: Sandbox: iBooks(619) deny(1) file-issue-extension /Users/evdakimov/Library/Caches/com.apple.WebKit.WebContent
+Jun 17 14:36:52 iMac-Evdokimov kernel[0] <Notice>: Sandbox: iBooks(619) deny(1) file-issue-extension /Users/evdakimov/Library/Preferences/com.apple.bookstoreagent.plist
+Jun 17 14:36:52 iMac-Evdokimov kernel[0] <Notice>: Sandbox: iBooks(619) deny(1) file-issue-extension /Library/Preferences/com.apple.storeagent.plist
+Jun 17 14:36:52 iMac-Evdokimov kernel[0] <Notice>: Sandbox: iBooks(619) deny(1) file-issue-extension /Applications
+Jun 17 14:36:52 iMac-Evdokimov kernel[0] <Notice>: Sandbox: iBooks(619) deny(1) file-issue-extension /Library/Updates
+Jun 17 14:36:52 iMac-Evdokimov kernel[0] <Notice>: Sandbox: iBooks(619) deny(1) file-issue-extension /Library/Preferences/com.apple.SoftwareUpdate.plist
+Jun 17 14:36:52 iMac-Evdokimov kernel[0] <Notice>: Sandbox: iBooks(619) deny(1) file-issue-extension /private/var/run/SoftwareUpdatesAvailable
+Jun 17 14:36:52 iMac-Evdokimov kernel[0] <Notice>: Sandbox: iBooks(619) deny(1) mach-issue-extension com.apple.suhelperd
+Jun 17 14:36:52 iMac-Evdokimov kernel[0] <Notice>: Sandbox: iBooks(619) deny(1) mach-issue-extension com.apple.installd
+Jun 17 14:36:52 iMac-Evdokimov kernel[0] <Notice>: Sandbox: iBooks(619) deny(1) mach-issue-extension com.apple.softwareupdated
+Jun 17 14:36:52 iMac-Evdokimov kernel[0] <Notice>: Sandbox: iBooks(619) deny(1) mach-issue-extension com.apple.coreservices.launchservicesd
+Jun 17 14:36:52 iMac-Evdokimov kernel[0] <Notice>: Sandbox: iBooks(619) deny(1) mach-issue-extension com.apple.cfnetwork.AuthBrokerAgent
+Jun 17 14:36:52 iMac-Evdokimov kernel[0] <Notice>: Sandbox: com.apple.WebKit(631) deny(1) mach-lookup com.apple.softwareupdated
+Jun 17 14:36:59 iMac-Evdokimov kernel[0] <Notice>: hfs: mounted Recovery HD on device disk0s3
+Jun 17 14:36:59 iMac-Evdokimov kernel[0] <Notice>: hfs: unmount initiated on Recovery HD on device disk0s3
+Jun 17 14:37:05 iMac-Evdokimov kernel[0] <Notice>: Sandbox: softwareupdated(320) deny(1) system-fsctl 682f
+Jun 17 14:37:15 iMac-Evdokimov kernel[0] <Notice>: Sandbox: storeaccountd(492) deny(1) file-write-create /Users/evdakimov/Library/Caches/com.apple.Safari/ProductionBag
+Jun 17 14:37:25 iMac-Evdokimov kernel[0] <Notice>: Sandbox: com.apple.Safari(662) deny(1) mach-lookup com.apple.CoreServices.coreservicesd
+Jun 17 14:37:26 iMac-Evdokimov kernel[0] <Notice>: Sandbox: com.apple.Safari(662) deny(1) file-read-metadata /usr
+Jun 17 14:40:46 iMac-Evdokimov kernel[0] <Notice>: hfs: mounted Adobe Flash Player Installer on device disk3s1
+Jun 17 14:41:30 iMac-Evdokimov kernel[0] <Notice>: hfs: summary table not allowed on FS with block size of 2048
+Jun 17 14:41:30 iMac-Evdokimov kernel[0] <Notice>: hfs: could not initialize summary table for Flash Player
+Jun 17 14:41:30 iMac-Evdokimov kernel[0] <Notice>: hfs: mounted Flash Player on device disk4s2
+Jun 17 14:41:40 iMac-Evdokimov kernel[0] <Notice>: hfs: unmount initiated on Flash Player on device disk4s2
+Jun 17 14:41:44 iMac-Evdokimov kernel[0] <Notice>: Sandbox: com.apple.WebKit(760) deny(1) system-fsctl 682f
+Jun 17 14:41:55 iMac-Evdokimov kernel[0] <Notice>: hfs: mounted Adobe Flash Player Installer on device disk4s1
+Jun 17 14:42:10 iMac-Evdokimov kernel[0] <Notice>: hfs: summary table not allowed on FS with block size of 2048
+Jun 17 14:42:10 iMac-Evdokimov kernel[0] <Notice>: hfs: could not initialize summary table for Flash Player
+Jun 17 14:42:10 iMac-Evdokimov kernel[0] <Notice>: hfs: mounted Flash Player on device disk5s2
+Jun 17 14:42:19 iMac-Evdokimov kernel[0] <Notice>: hfs: unmount initiated on Flash Player on device disk5s2
+Jun 17 14:42:24 iMac-Evdokimov kernel[0] <Notice>: Sandbox: storeaccountd(492) deny(1) file-write-create /Users/evdakimov/Library/Caches/com.apple.Safari/ProductionBag
+Jun 17 14:42:30 iMac-Evdokimov kernel[0] <Notice>: hfs: mounted Java for OS X 2015-001 on device disk5s3
+Jun 17 14:43:19 iMac-Evdokimov kernel[0] <Notice>: hfs: mounted Java 8 Update 91 on device disk6s1
+Jun 17 14:43:44 iMac-Evdokimov kernel[0] <Notice>: hfs: summary table not allowed on FS with block size of 2048
+Jun 17 14:43:44 iMac-Evdokimov kernel[0] <Notice>: hfs: could not initialize summary table for Google Chrome
+Jun 17 14:43:44 iMac-Evdokimov kernel[0] <Notice>: hfs: mounted Google Chrome on device disk7s2
+Jun 17 14:46:36 iMac-Evdokimov kernel[0] <Notice>: hfs: mounted XQuartz-2.7.9 on device disk8s1
+Jun 17 14:47:43 iMac-Evdokimov kernel[0] <Notice>: process WindowServer[137] caught causing excessive wakeups. Observed wakeups rate (per sec): 176; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 113059
+Jun 17 14:50:26 iMac-Evdokimov kernel[0] <Notice>: hfs: mounted Recovery HD on device disk0s3
+Jun 17 14:50:27 iMac-Evdokimov kernel[0] <Notice>: hfs: unmount initiated on Recovery HD on device disk0s3
+Jun 17 14:50:36 iMac-Evdokimov kernel[0] <Notice>: hfs: mounted Tuxera NTFS 2015 RC (030740) [sn] on device disk9s2
+Jun 17 14:51:21 iMac-Evdokimov kernel[0] <Notice>: hfs: summary table not allowed on FS with block size of 2048
+Jun 17 14:51:21 iMac-Evdokimov kernel[0] <Notice>: hfs: could not initialize summary table for Microsoft Office 2011
+Jun 17 14:51:21 iMac-Evdokimov kernel[0] <Notice>: hfs: mounted Microsoft Office 2011 on device disk10s2
+Jun 17 14:52:47 iMac-Evdokimov kernel[0] <Notice>: hfs: mounted Hackintosh Vietnam Tool 1.9.6 on device disk11s2
+Jun 17 14:54:50 iMac-Evdokimov kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Jun 17 14:56:37 iMac-Evdokimov kernel[0] <Notice>: hfs: mounted Microsoft Office 2011 14.6.5 Update on device disk12s2
+Jun 17 14:56:41 iMac-Evdokimov kernel[0] <Notice>: hfs: unmount initiated on Microsoft Office 2011 14.6.5 Update on device disk12s2
+Jun 17 14:59:46 iMac-Evdokimov kernel[0] <Notice>: AppleKeyStore:Sending lock change 0 for handle -501

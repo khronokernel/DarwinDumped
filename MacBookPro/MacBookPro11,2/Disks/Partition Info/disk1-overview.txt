@@ -1,0 +1,29 @@
+/dev/disk1 
+Generic Flash Disk Media 
+Physical Block (sector) size: Unknown bytes 
+Using Block (sector) size: 512 bytes 
+Total Number of Blocks: 16498688 
+Total Disk Size: 8.4 GB 
+  
+MBR Partition Entry 1: 00feffffeefeffff01000000ffbffb00 
+MBR Partition Entry 2: 00000000000000000000000000000000 
+MBR Partition Entry 3: 00000000000000000000000000000000 
+MBR Partition Entry 4: 00000000000000000000000000000000 
+  
+Partition Map: GUID Partition Table 
+Disk GUID:9b2d93ab-910c-41ac-be77-12a32c7fd7c2 
+Partition GUID: 9c5d4395-fc8f-4e9d-b316-da4a2a3ae47a | Name: EFI System Partition 
+Partition GUID: 04aa0ba9-0717-4140-be41-1b8a7f07ae30 | Name: >2K9 
+
+=========  =========             ========              ==========               ========= 
+LBA Start  Type                  GPT Name              LoaderCode               Size LBA 
+=========  =========             ========              ==========               ========= 
+0          MBR                                         boot0af (Active First)   1 
+1          Primary GPT Header                                                   1 
+2          Primary GPT Table                                                    32 
+34         Space                                                                6 
+40         EFI System Partition  EFI System Partition  Unknown                  409600 
+409640     HFS+                  >2K9                  Clover boot1h            15826864 
+16236504   Space                                                                262151 
+16498655   Backup GPT Table                                                     32 
+16498687   Backup GPT Header                                                    1 

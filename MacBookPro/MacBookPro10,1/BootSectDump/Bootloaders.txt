@@ -1,0 +1,8 @@
+/dev/disk0
+ACTV        DEVICE   TYPE                   NAME          SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)             UEFI BootFile
+                     GUID_partition_scheme                751 GB   
+            disk0s1  EFI                                  209 MB                 
+            disk0s2  Apple_HFS              Macintosh HD  650 GB                 
+            disk0s3  Apple_Boot             Recovery HD   650 MB                 
+            disk0s4  Microsoft Basic Data   BOOTCAMP      100 GB                 
+                                                                                              bootmgr(Windows Boot Manager)

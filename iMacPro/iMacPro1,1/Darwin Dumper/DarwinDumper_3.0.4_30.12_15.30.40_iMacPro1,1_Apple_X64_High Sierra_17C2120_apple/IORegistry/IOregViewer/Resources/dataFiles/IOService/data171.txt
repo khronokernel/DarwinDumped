@@ -1,0 +1,11 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"5521","ColType":"String","ColValue":"IOACPIPlatformDevice"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"5523","ColType":"String","ColValue":"boot-ec"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"5525","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"5527","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"5528","ColType":"String","ColValue":"PNP0C09"}},{"data":{"title":"1"},"attr":{"id":"5529","ColType":"String","ColValue":"boot-ec"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"5531","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"5533","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"Statistics"},"attr":{"id":"5535","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MissingSCI"},"attr":{"id":"5537","ColType":"Number","ColValue":"0"}},{"data":{"title":"IBFPollTimeout"},"attr":{"id":"5539","ColType":"Number","ColValue":"0"}},{"data":{"title":"SpuriousSCI"},"attr":{"id":"5541","ColType":"Number","ColValue":"12"}},{"data":{"title":"CommandCount"},"attr":{"id":"5543","ColType":"Number","ColValue":"48"}},{"data":{"title":"MaxLatency"},"attr":{"id":"5545","ColType":"Number","ColValue":"670808"}},{"data":{"title":"OBFSciTimeout"},"attr":{"id":"5547","ColType":"Number","ColValue":"0"}},{"data":{"title":"SCIActive"},"attr":{"id":"5549","ColType":"Boolean","ColValue":"Yes"}},{"data":{"title":"OBFPollTimeout"},"attr":{"id":"5551","ColType":"Number","ColValue":"0"}},{"data":{"title":"SpuriousQuery"},"attr":{"id":"5553","ColType":"Number","ColValue":"0"}},{"data":{"title":"CommandRetry"},"attr":{"id":"5555","ColType":"Number","ColValue":"0"}},{"data":{"title":"IBFSciTimeout"},"attr":{"id":"5557","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"5559","ColType":"String","ColValue":"com.apple.driver.AppleACPIEC"}},
+{"data":{"title":"IOClass"},"attr":{"id":"5561","ColType":"String","ColValue":"AppleACPIEC"}}
+]

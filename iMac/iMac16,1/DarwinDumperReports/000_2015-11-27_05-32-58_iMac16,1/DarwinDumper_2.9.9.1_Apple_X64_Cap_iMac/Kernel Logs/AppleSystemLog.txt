@@ -1,0 +1,501 @@
+Nov 27 04:47:41 localhost kernel[0] <Notice>: Darwin Kernel Version 15.0.0: Tue Sep  1 11:00:41 PDT 2015; root:xnu-3247.1.106~9/RELEASE_X86_64
+Nov 27 04:47:41 localhost kernel[0] <Notice>: vm_page_bootstrap: 1956002 free pages and 124766 wired pages
+Nov 27 04:47:41 localhost kernel[0] <Notice>: kext submap [0x<ptr> - 0x<ptr>], kernel text [0x<ptr> - 0x<ptr>]
+Nov 27 04:47:41 localhost kernel[0] <Notice>: zone leak detection enabled
+Nov 27 04:47:41 localhost kernel[0] <Notice>: "vm_compressor_mode" is 4
+Nov 27 04:47:41 localhost kernel[0] <Notice>: multiq scheduler config: deep-drain 0, ceiling 47, depth limit 4, band limit 127, sanity check 0
+Nov 27 04:47:41 localhost kernel[0] <Notice>: standard timeslicing quantum is 10000 us
+Nov 27 04:47:41 localhost kernel[0] <Notice>: standard background quantum is 2500 us
+Nov 27 04:47:41 localhost kernel[0] <Notice>: WQ[lt_init]: init linktable with max:262144 elements (8388608 bytes)
+Nov 27 04:47:41 localhost kernel[0] <Notice>: WQ[wqp_init]: init prepost table with max:262144 elements (8388608 bytes)
+Nov 27 04:47:41 localhost kernel[0] <Notice>: mig_table_max_displ = 15
+Nov 27 04:47:41 localhost kernel[0] <Notice>: TSC Deadline Timer supported and enabled
+Nov 27 04:47:41 localhost kernel[0] <Notice>: kdp_core zlib memory 0x7000
+Nov 27 04:47:41 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=1 LocalApicId=0 Enabled
+Nov 27 04:47:41 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=2 LocalApicId=2 Enabled
+Nov 27 04:47:41 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=3 LocalApicId=1 Enabled
+Nov 27 04:47:41 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=4 LocalApicId=3 Enabled
+Nov 27 04:47:41 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=5 LocalApicId=255 Disabled
+Nov 27 04:47:41 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=6 LocalApicId=255 Disabled
+Nov 27 04:47:41 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=7 LocalApicId=255 Disabled
+Nov 27 04:47:41 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=8 LocalApicId=255 Disabled
+Nov 27 04:47:41 localhost kernel[0] <Notice>: calling mpo_policy_init for TMSafetyNet
+Nov 27 04:47:41 localhost kernel[0] <Notice>: Security policy loaded: Safety net for Time Machine (TMSafetyNet)
+Nov 27 04:47:41 localhost kernel[0] <Notice>: calling mpo_policy_init for AMFI
+Nov 27 04:47:41 localhost kernel[0] <Notice>: Security policy loaded: Apple Mobile File Integrity (AMFI)
+Nov 27 04:47:41 localhost kernel[0] <Notice>: calling mpo_policy_init for Sandbox
+Nov 27 04:47:41 localhost kernel[0] <Notice>: Security policy loaded: Seatbelt sandbox policy (Sandbox)
+Nov 27 04:47:41 localhost kernel[0] <Notice>: calling mpo_policy_init for Quarantine
+Nov 27 04:47:41 localhost kernel[0] <Notice>: Security policy loaded: Quarantine policy (Quarantine)
+Nov 27 04:47:41 localhost kernel[0] <Notice>: Copyright (c) 1982, 1986, 1989, 1991, 1993
+Nov 27 04:47:41 localhost kernel[0] <Notice>: The Regents of the University of California. All rights reserved.
+Nov 27 04:47:41 localhost kernel[0] <Notice>: MAC Framework successfully initialized
+Nov 27 04:47:41 localhost kernel[0] <Notice>: using 16384 buffer headers and 10240 cluster IO buffer headers
+Nov 27 04:47:41 localhost kernel[0] <Notice>: AppleCredentialManager::start called
+Nov 27 04:47:41 localhost kernel[0] <Notice>: AssertMacros: tmpData (value: 0x0),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager-82.1.1/AppleCredentialManager/AppleCredentialManager.cpp, line: 765
+Nov 27 04:47:41 localhost kernel[0] <Notice>: AppleKeyStore starting (BUILT: Sep  1 2015 11:14:27)
+Nov 27 04:47:41 localhost kernel[0] <Notice>: IOAPIC: Version 0x20 Vectors 64:103
+Nov 27 04:47:41 localhost kernel[0] <Notice>: ACPI: sleep states S3 S4 S5
+Nov 27 04:47:41 localhost kernel[0] <Notice>: pci (build 11:08:36 Sep  1 2015), flags 0xe3000, pfm64 (39 cpu) 0x7f80000000, 0x80000000
+Nov 27 04:47:41 localhost kernel[0] <Notice>: [ PCI configuration begin ]
+Nov 27 04:47:41 localhost kernel[0] <Notice>: console relocated to 0x7f80000000
+Nov 27 04:47:41 localhost kernel[0] <Notice>: [ PCI configuration end, bridges 11, devices 14 ]
+Nov 27 04:47:41 localhost kernel[0] <Notice>: 000001.127769 AppleUSBLegacyRoot@: AppleUSBLegacyRoot::init: enabling legacy matching
+Nov 27 04:47:41 localhost kernel[0] <Notice>: mcache: 4 CPU(s), 64 bytes CPU cache line size
+Nov 27 04:47:41 localhost kernel[0] <Notice>: mbinit: done [96 MB total pool size, (64/32) split]
+Nov 27 04:47:41 localhost kernel[0] <Notice>: rooting via boot-uuid from /chosen: 3F37E76F-E847-3F5F-AA31-C18491739338
+Nov 27 04:47:41 localhost kernel[0] <Notice>: Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOResources</string><key>IOResourceMatch</key><string ID="2">boot-uuid-media</string></dict>
+Nov 27 04:47:41 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib kmod start
+Nov 27 04:47:41 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless kmod start
+Nov 27 04:47:41 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib load succeeded
+Nov 27 04:47:41 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless load succeeded
+Nov 27 04:47:41 localhost kernel[0] <Notice>: AppleThunderboltNHIType2::setupPowerSavings - notification based runtime power management
+Nov 27 04:47:41 localhost kernel[0] <Notice>: CoreStorage: fsck_cs has finished for group "18EB25E2-6DD1-4314-8B65-983A53E6A5D2" with status 0x00
+Nov 27 04:47:41 localhost kernel[0] <Notice>: Got boot device = IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/SATA@1F,2/AppleIntelPchSeriesAHCI/PRT0@0/IOAHCIDevice@0/AppleAHCIDiskDriver/IOAHCIBlockStorageDevice/IOBlockStorageDriver/APPLE HDD ST1000LM024 Media/IOGUIDPartitionScheme/Macintosh HD@2/CoreStoragePhysical/Macintosh HD/Macintosh HD
+Nov 27 04:47:41 localhost kernel[0] <Notice>: BSD root: disk1, major 1, minor 4
+Nov 27 04:47:41 localhost kernel[0] <Notice>: hfs: mounted Macintosh HD on device root_device
+Nov 27 04:47:41 localhost kernel[0] <Notice>: XCPM: registered
+Nov 27 04:47:41 localhost kernel[0] <Notice>: VM Swap Subsystem is ON
+Nov 27 04:47:41 localhost kernel[0] <Notice>: hfs: Macintosh HD: hfs_recording_init: creating the hotfile btree
+Nov 27 04:47:41 localhost kernel[0] <Notice>: hfs: created HFBT on Macintosh HD
+Nov 27 04:47:41 localhost kernel[0] <Notice>: pci pause: SDXC
+Nov 27 04:47:45 localhost kernel[0] <Notice>: Waiting for DSMOS...
+Nov 27 05:03:31 iMac-iMac kernel[0] <Notice>: AppleKeyStore:Sending lock change 0 for handle 1
+Nov 27 05:03:31 iMac-iMac kernel[0] <Notice>: AppleKeyStore:Sending lock change 0 for handle -501
+Nov 27 05:03:37 iMac-iMac kernel[0] <Notice>: Sandbox: secinitd(409) deny(1) ipc-posix-shm-read-data /tmp/com.apple.csseed.86
+Nov 27 05:03:57 iMac-iMac kernel[0] <Notice>: hfs: unmount initiated on untitled on device disk2
+Nov 27 05:04:01 iMac-iMac kernel[0] <Notice>: Sandbox: SocialPushAgent(497) deny(1) file-write-data /Users/iMac/Library/Preferences/com.apple.socialpushagent.plist
+Nov 27 05:04:04 iMac-iMac kernel[0] <Notice>: Sandbox: storeaccountd(527) deny(1) file-write-create /Users/iMac/Library/Caches/com.apple.spotlight
+Nov 27 05:04:09 iMac-iMac kernel[0] <Notice>: Sandbox: mdworker(534) deny(1) file-write-create /private/var/setup
+Nov 27 05:04:14 iMac-iMac kernel[0] <Notice>: Sandbox: storeaccountd(527) deny(1) file-write-create /Users/iMac/Library/Caches/com.apple.spotlight
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) ipc-posix-shm-read-data /tmp/com.apple.csseed.86
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-write-create /private/var/empty/Library
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/App Store.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/App Store.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/App Store.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/App Store.app/Contents/MacOS/App Store
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/App Store.app/Contents/MacOS/App Store/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/App Store.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/App Store.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/App Store.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/App Store.app/Contents/MacOS/App Store
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/App Store.app/Contents/PlugIns
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Automator.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Automator.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Automator.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Automator.app/Contents/MacOS/Automator
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Automator.app/Contents/MacOS/Automator/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Automator.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Automator.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Automator.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Automator.app/Contents/MacOS/Automator
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calculator.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calculator.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calculator.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calculator.app/Contents/MacOS/Calculator
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calculator.app/Contents/MacOS/Calculator/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calculator.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calculator.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calculator.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calculator.app/Contents/MacOS/Calculator
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calculator.app/Contents/PlugIns
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calendar.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calendar.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calendar.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calendar.app/Contents/MacOS/Calendar
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calendar.app/Contents/MacOS/Calendar/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calendar.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calendar.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calendar.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calendar.app/Contents/MacOS/Calendar
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Calendar.app/Contents/PlugIns
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Chess.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Chess.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Chess.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Chess.app/Contents/MacOS/Chess
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Chess.app/Contents/MacOS/Chess/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Chess.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Chess.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Chess.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Chess.app/Contents/MacOS/Chess
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Contacts.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Contacts.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Contacts.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Contacts.app/Contents/MacOS/Contacts
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Contacts.app/Contents/MacOS/Contacts/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Contacts.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Contacts.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Contacts.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Contacts.app/Contents/MacOS/Contacts
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dashboard.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dashboard.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dashboard.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dashboard.app/Contents/MacOS/Dashboard
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dashboard.app/Contents/MacOS/Dashboard/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dashboard.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dashboard.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dashboard.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dashboard.app/Contents/MacOS/Dashboard
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dictionary.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dictionary.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dictionary.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dictionary.app/Contents/MacOS/Dictionary
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dictionary.app/Contents/MacOS/Dictionary/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dictionary.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dictionary.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dictionary.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Dictionary.app/Contents/MacOS/Dictionary
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/DVD Player.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/DVD Player.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/DVD Player.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/DVD Player.app/Contents/MacOS/DVD Player
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/DVD Player.app/Contents/MacOS/DVD Player/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/DVD Player.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/DVD Player.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/DVD Player.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/DVD Player.app/Contents/MacOS/DVD Player
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/FaceTime.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/FaceTime.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/FaceTime.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/FaceTime.app/Contents/MacOS/FaceTime
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/FaceTime.app/Contents/MacOS/FaceTime/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/FaceTime.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/FaceTime.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/FaceTime.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/FaceTime.app/Contents/MacOS/FaceTime
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/FaceTime.app/Contents/PlugIns
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Font Book.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Font Book.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Font Book.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Font Book.app/Contents/MacOS/Font Book
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Font Book.app/Contents/MacOS/Font Book/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Font Book.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Font Book.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Font Book.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Font Book.app/Contents/MacOS/Font Book
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Game Center.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Game Center.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Game Center.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Game Center.app/Contents/MacOS/Game Center
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Game Center.app/Contents/MacOS/Game Center/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Game Center.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Game Center.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Game Center.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Game Center.app/Contents/MacOS/Game Center
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Image Capture.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Image Capture.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Image Capture.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Image Capture.app/Contents/MacOS/Image Capture
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Image Capture.app/Contents/MacOS/Image Capture/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Image Capture.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Image Capture.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Image Capture.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Image Capture.app/Contents/MacOS/Image Capture
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/iTunes.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/iTunes.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/iTunes.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/iTunes.app/Contents/MacOS/iTunes
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/iTunes.app/Contents/MacOS/iTunes/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/iTunes.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/iTunes.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/iTunes.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/iTunes.app/Contents/MacOS/iTunes
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/iTunes.app/Contents/PlugIns
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Launchpad.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Launchpad.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Launchpad.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Launchpad.app/Contents/MacOS/Launchpad
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Launchpad.app/Contents/MacOS/Launchpad/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Launchpad.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Launchpad.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Launchpad.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Launchpad.app/Contents/MacOS/Launchpad
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mail.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mail.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mail.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mail.app/Contents/MacOS/Mail
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mail.app/Contents/MacOS/Mail/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mail.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mail.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mail.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mail.app/Contents/MacOS/Mail
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mail.app/Contents/PlugIns
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Messages.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Messages.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Messages.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Messages.app/Contents/MacOS/Messages
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Messages.app/Contents/MacOS/Messages/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Messages.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Messages.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Messages.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Messages.app/Contents/MacOS/Messages
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Messages.app/Contents/PlugIns
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mission Control.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mission Control.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mission Control.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mission Control.app/Contents/MacOS/Mission Control
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mission Control.app/Contents/MacOS/Mission Control/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mission Control.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mission Control.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mission Control.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Mission Control.app/Contents/MacOS/Mission Control
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Notes.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Notes.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Notes.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Notes.app/Contents/MacOS/Notes
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Notes.app/Contents/MacOS/Notes/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Notes.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Notes.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Notes.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Notes.app/Contents/MacOS/Notes
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Notes.app/Contents/PlugIns
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photo Booth.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photo Booth.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photo Booth.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photo Booth.app/Contents/MacOS/Photo Booth
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photo Booth.app/Contents/MacOS/Photo Booth/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photo Booth.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photo Booth.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photo Booth.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photo Booth.app/Contents/MacOS/Photo Booth
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Preview.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Preview.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Preview.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Preview.app/Contents/MacOS/Preview
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Preview.app/Contents/MacOS/Preview/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Preview.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Preview.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Preview.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Preview.app/Contents/MacOS/Preview
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Preview.app/Contents/PlugIns
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photos.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photos.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photos.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photos.app/Contents/MacOS/Photos
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photos.app/Contents/MacOS/Photos/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photos.app/Contents/Library/Automator
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photos.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photos.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photos.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Photos.app/Contents/MacOS/Photos
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/QuickTime Player.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/QuickTime Player.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/QuickTime Player.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/QuickTime Player.app/Contents/MacOS/QuickTime Player
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/QuickTime Player.app/Contents/MacOS/QuickTime Player/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/QuickTime Player.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/QuickTime Player.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/QuickTime Player.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/QuickTime Player.app/Contents/MacOS/QuickTime Player
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/QuickTime Player.app/Contents/PlugIns
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Reminders.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Reminders.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Reminders.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Reminders.app/Contents/MacOS/Reminders
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Reminders.app/Contents/MacOS/Reminders/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Reminders.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Reminders.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Reminders.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Reminders.app/Contents/MacOS/Reminders
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Reminders.app/Contents/PlugIns
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Safari.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Safari.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Safari.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Safari.app/Contents/MacOS/Safari
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Safari.app/Contents/MacOS/Safari/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Safari.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Safari.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Safari.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Safari.app/Contents/MacOS/Safari
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Stickies.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Stickies.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Stickies.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Stickies.app/Contents/MacOS/Stickies
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Stickies.app/Contents/MacOS/Stickies/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Stickies.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Stickies.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Stickies.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Stickies.app/Contents/MacOS/Stickies
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/System Preferences.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/System Preferences.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/System Preferences.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/System Preferences.app/Contents/MacOS/System Preferences
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/System Preferences.app/Contents/MacOS/System Preferences/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/System Preferences.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/System Preferences.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/System Preferences.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/System Preferences.app/Contents/MacOS/System Preferences
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/System Preferences.app/Contents/PlugIns
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/TextEdit.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/TextEdit.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/TextEdit.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/TextEdit.app/Contents/MacOS/TextEdit
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/TextEdit.app/Contents/MacOS/TextEdit/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/TextEdit.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/TextEdit.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/TextEdit.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/TextEdit.app/Contents/MacOS/TextEdit
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Time Machine.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Time Machine.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Time Machine.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Time Machine.app/Contents/MacOS/Time Machine
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Time Machine.app/Contents/MacOS/Time Machine/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Time Machine.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Time Machine.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Time Machine.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Time Machine.app/Contents/MacOS/Time Machine
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Activity Monitor.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Activity Monitor.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Activity Monitor.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Activity Monitor.app/Contents/MacOS/Activity Monitor
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Activity Monitor.app/Contents/MacOS/Activity Monitor/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Activity Monitor.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Activity Monitor.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Activity Monitor.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Activity Monitor.app/Contents/MacOS/Activity Monitor
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/AirPort Utility.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/AirPort Utility.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/AirPort Utility.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/AirPort Utility.app/Contents/MacOS/AirPort Utility
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/AirPort Utility.app/Contents/MacOS/AirPort Utility/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/AirPort Utility.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/AirPort Utility.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/AirPort Utility.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/AirPort Utility.app/Contents/MacOS/AirPort Utility
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Audio MIDI Setup.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Audio MIDI Setup.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Audio MIDI Setup.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Audio MIDI Setup.app/Contents/MacOS/Audio MIDI Setup
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Audio MIDI Setup.app/Contents/MacOS/Audio MIDI Setup/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Audio MIDI Setup.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Audio MIDI Setup.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Audio MIDI Setup.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Audio MIDI Setup.app/Contents/MacOS/Audio MIDI Setup
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Bluetooth File Exchange.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Bluetooth File Exchange.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Bluetooth File Exchange.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Bluetooth File Exchange.app/Contents/MacOS/Bluetooth File Exchange
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Bluetooth File Exchange.app/Contents/MacOS/Bluetooth File Exchange/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Bluetooth File Exchange.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Bluetooth File Exchange.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Bluetooth File Exchange.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Bluetooth File Exchange.app/Contents/MacOS/Bluetooth File Exchange
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Boot Camp Assistant.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Boot Camp Assistant.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Boot Camp Assistant.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Boot Camp Assistant.app/Contents/MacOS/Boot Camp Assistant
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Boot Camp Assistant.app/Contents/MacOS/Boot Camp Assistant/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Boot Camp Assistant.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Boot Camp Assistant.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Boot Camp Assistant.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Boot Camp Assistant.app/Contents/MacOS/Boot Camp Assistant
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/ColorSync Utility.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/ColorSync Utility.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/ColorSync Utility.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/ColorSync Utility.app/Contents/MacOS/ColorSync Utility
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/ColorSync Utility.app/Contents/MacOS/ColorSync Utility/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/ColorSync Utility.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/ColorSync Utility.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/ColorSync Utility.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/ColorSync Utility.app/Contents/MacOS/ColorSync Utility
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Console.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Console.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Console.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Console.app/Contents/MacOS/Console
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Console.app/Contents/MacOS/Console/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Console.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Console.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Console.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Console.app/Contents/MacOS/Console
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Digital Color Meter.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Digital Color Meter.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Digital Color Meter.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Digital Color Meter.app/Contents/MacOS/Digital Color Meter
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Digital Color Meter.app/Contents/MacOS/Digital Color Meter/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Digital Color Meter.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Digital Color Meter.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Digital Color Meter.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Digital Color Meter.app/Contents/MacOS/Digital Color Meter
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Disk Utility.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Disk Utility.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Disk Utility.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Disk Utility.app/Contents/MacOS/Disk Utility
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Disk Utility.app/Contents/MacOS/Disk Utility/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Disk Utility.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Disk Utility.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Disk Utility.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Disk Utility.app/Contents/MacOS/Disk Utility
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grab.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grab.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grab.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grab.app/Contents/MacOS/Grab
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grab.app/Contents/MacOS/Grab/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grab.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grab.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grab.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grab.app/Contents/MacOS/Grab
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grapher.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grapher.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grapher.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grapher.app/Contents/MacOS/Grapher
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grapher.app/Contents/MacOS/Grapher/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grapher.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grapher.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grapher.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Grapher.app/Contents/MacOS/Grapher
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Keychain Access.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Keychain Access.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Keychain Access.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Keychain Access.app/Contents/MacOS/Keychain Access
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Keychain Access.app/Contents/MacOS/Keychain Access/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Keychain Access.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Keychain Access.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Keychain Access.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Keychain Access.app/Contents/MacOS/Keychain Access
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Migration Assistant.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Migration Assistant.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Migration Assistant.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Migration Assistant.app/Contents/MacOS/Migration Assistant
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Migration Assistant.app/Contents/MacOS/Migration Assistant/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Migration Assistant.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Migration Assistant.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Migration Assistant.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Migration Assistant.app/Contents/MacOS/Migration Assistant
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Script Editor.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Script Editor.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Script Editor.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Script Editor.app/Contents/MacOS/Script Editor
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Script Editor.app/Contents/MacOS/Script Editor/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Script Editor.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Script Editor.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Script Editor.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Script Editor.app/Contents/MacOS/Script Editor
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Script Editor.app/Contents/PlugIns
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/System Information.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/System Information.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/System Information.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/System Information.app/Contents/MacOS/System Information
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/System Information.app/Contents/MacOS/System Information/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/System Information.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/System Information.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/System Information.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/System Information.app/Contents/MacOS/System Information
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Terminal.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Terminal.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Terminal.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Terminal.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Terminal.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Terminal.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/VoiceOver Utility.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/VoiceOver Utility.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/VoiceOver Utility.app/Contents/PkgInfo
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/VoiceOver Utility.app/Contents/MacOS/VoiceOver Utility
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/VoiceOver Utility.app/Contents/MacOS/VoiceOver Utility/..namedfork/rsrc
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/VoiceOver Utility.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/VoiceOver Utility.app/Contents
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/VoiceOver Utility.app
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) file-read-data /Applications/Utilities/VoiceOver Utility.app/Contents/MacOS/VoiceOver Utility
+Nov 27 05:05:52 iMac-iMac kernel[0] <Notice>: Sandbox: AssetCacheLocato(582) deny(1) mach-lookup com.apple.lsd.modifydb

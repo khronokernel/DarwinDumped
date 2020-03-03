@@ -1,0 +1,405 @@
+2016-10-30 09:52:08.758513+0200 0x0        Default     0x0                  0      kernel: PMAP: PCID enabled
+2016-10-30 09:52:08.758516+0200 0x0        Default     0x0                  0      kernel: PMAP: Supervisor Mode Execute Protection enabled
+2016-10-30 09:52:08.758518+0200 0x0        Default     0x0                  0      kernel: PMAP: Supervisor Mode Access Protection enabled
+2016-10-30 09:52:08.760568+0200 0x0        Default     0x0                  0      kernel: Darwin Kernel Version 16.1.0: Thu Oct 13 21:26:57 PDT 2016; root:xnu-3789.21.3~60/RELEASE_X86_64
+2016-10-30 09:52:08.816157+0200 0x0        Default     0x0                  0      kernel: vm_page_bootstrap: 1891688 free pages and 189080 wired pages
+2016-10-30 09:52:08.837722+0200 0x0        Default     0x0                  0      kernel: kext submap [0xffffff7f80a00000 - 0xffffff7fe3000000], kernel text [0xffffff8000200000 - 0xffffff8000a00000]
+2016-10-30 09:52:08.837727+0200 0x0        Default     0x0                  0      kernel: zone leak detection enabled
+2016-10-30 09:52:08.837755+0200 0x0        Default     0x0                  0      kernel: "vm_compressor_mode" is 4
+2016-10-30 09:52:08.837814+0200 0x0        Default     0x0                  0      kernel: multiq scheduler config: deep-drain 0, ceiling 47, depth limit 4, band limit 127, sanity check 0
+2016-10-30 09:52:08.837817+0200 0x0        Default     0x0                  0      kernel: standard timeslicing quantum is 10000 us
+2016-10-30 09:52:08.837818+0200 0x0        Default     0x0                  0      kernel: standard background quantum is 2500 us
+2016-10-30 09:52:08.837849+0200 0x0        Default     0x0                  0      kernel: WQ[wql_init]: init linktable with max:262144 elements (8388608 bytes)
+2016-10-30 09:52:08.837871+0200 0x0        Default     0x0                  0      kernel: WQ[wqp_init]: init prepost table with max:262144 elements (8388608 bytes)
+2016-10-30 09:52:08.837893+0200 0x0        Default     0x0                  0      kernel: mig_table_max_displ = 1
+2016-10-30 09:52:08.948274+0200 0x0        Default     0x0                  0      kernel: TSC Deadline Timer supported and enabled
+2016-10-30 09:52:08.948485+0200 0x65       Default     0x0                  0      kernel: kdp_core zlib memory 0x7000
+2016-10-30 09:52:09.713270+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.713270+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.713274+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) RSDP 0x000000008AD8E014 000024 (v02 APPLE )
+2016-10-30 09:52:09.713274+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) RSDP 0x000000008AD8E014 000024 (v02 APPLE )
+2016-10-30 09:52:09.713276+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.713276+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.713295+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.713295+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.713298+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) XSDT 0x000000008AD8E1C0 00009C (v01 APPLE  Apple00  00000000      01000013)
+2016-10-30 09:52:09.713299+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) XSDT 0x000000008AD8E1C0 00009C (v01 APPLE  Apple00  00000000      01000013)
+2016-10-30 09:52:09.713314+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.713315+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.713377+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.713378+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.713380+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) FACP 0x000000008AD8C000 0000F4 (v05 APPLE  Apple00  00000000 Loki 0000005F)
+2016-10-30 09:52:09.713381+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) FACP 0x000000008AD8C000 0000F4 (v05 APPLE  Apple00  00000000 Loki 0000005F)
+2016-10-30 09:52:09.713383+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.713384+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716317+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716317+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716320+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) DSDT 0x000000008AD7E000 0089FE (v03 APPLE  MacBookP 00010000 INTL 20140424)
+2016-10-30 09:52:09.716321+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) DSDT 0x000000008AD7E000 0089FE (v03 APPLE  MacBookP 00010000 INTL 20140424)
+2016-10-30 09:52:09.716323+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716324+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716337+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716338+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716340+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) FACS 0x000000008AD06000 000040
+2016-10-30 09:52:09.716341+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) FACS 0x000000008AD06000 000040
+2016-10-30 09:52:09.716342+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716342+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716376+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716377+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716379+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) HPET 0x000000008AD8B000 000038 (v01 APPLE  Apple00  00000001 Loki 0000005F)
+2016-10-30 09:52:09.716380+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) HPET 0x000000008AD8B000 000038 (v01 APPLE  Apple00  00000001 Loki 0000005F)
+2016-10-30 09:52:09.716382+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716383+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716411+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716411+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716413+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) APIC 0x000000008AD8A000 0000BC (v02 APPLE  Apple00  00000001 Loki 0000005F)
+2016-10-30 09:52:09.716414+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) APIC 0x000000008AD8A000 0000BC (v02 APPLE  Apple00  00000001 Loki 0000005F)
+2016-10-30 09:52:09.716417+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716417+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716436+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716436+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716438+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SBST 0x000000008AD88000 000030 (v01 APPLE  Apple00  00000001 Loki 0000005F)
+2016-10-30 09:52:09.716439+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SBST 0x000000008AD88000 000030 (v01 APPLE  Apple00  00000001 Loki 0000005F)
+2016-10-30 09:52:09.716441+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716442+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716476+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716477+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716479+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ECDT 0x000000008AD87000 000053 (v01 APPLE  Apple00  00000001 Loki 0000005F)
+2016-10-30 09:52:09.716481+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ECDT 0x000000008AD87000 000053 (v01 APPLE  Apple00  00000001 Loki 0000005F)
+2016-10-30 09:52:09.716483+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716484+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716531+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716532+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716534+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD7D000 00010B (v01 APPLE  SataAhci 00001000 INTL 20140424)
+2016-10-30 09:52:09.716535+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD7D000 00010B (v01 APPLE  SataAhci 00001000 INTL 20140424)
+2016-10-30 09:52:09.716537+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716538+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716557+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716557+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716559+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD7C000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20140424)
+2016-10-30 09:52:09.716560+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD7C000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20140424)
+2016-10-30 09:52:09.716563+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716563+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716582+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716583+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.716585+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD7B000 000032 (v01 APPLE  SsdtS3   00001000 INTL 20140424)
+2016-10-30 09:52:09.716586+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD7B000 000032 (v01 APPLE  SsdtS3   00001000 INTL 20140424)
+2016-10-30 09:52:09.716588+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.716589+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.717517+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.717517+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.717520+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD78000 002B50 (v01 APPLE  PcieTbt  00001000 INTL 20140424)
+2016-10-30 09:52:09.717521+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD78000 002B50 (v01 APPLE  PcieTbt  00001000 INTL 20140424)
+2016-10-30 09:52:09.717523+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.717523+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.717565+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.717566+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.717568+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD6B000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20140424)
+2016-10-30 09:52:09.717569+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD6B000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20140424)
+2016-10-30 09:52:09.717571+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.717572+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.717791+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.717804+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.717806+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD6A000 000A64 (v02 APPLE  Xhci     00001000 INTL 20140424)
+2016-10-30 09:52:09.717807+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD6A000 000A64 (v02 APPLE  Xhci     00001000 INTL 20140424)
+2016-10-30 09:52:09.717810+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.717810+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.717957+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.717957+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.717959+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD63000 000618 (v01 PmRef  Cpu0Ist  00003000 INTL 20140424)
+2016-10-30 09:52:09.717960+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD63000 000618 (v01 PmRef  Cpu0Ist  00003000 INTL 20140424)
+2016-10-30 09:52:09.717963+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.717963+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.718225+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.718226+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.718228+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD62000 000C17 (v01 CpuRef CpuSsdt  00003000 INTL 20140424)
+2016-10-30 09:52:09.718229+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) SSDT 0x000000008AD62000 000C17 (v01 CpuRef CpuSsdt  00003000 INTL 20140424)
+2016-10-30 09:52:09.718231+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.718232+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.718265+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.718265+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.718267+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) MCFG 0x000000008AD89000 00003C (v01 APPLE  Apple00  00000001 Loki 0000005F)
+2016-10-30 09:52:09.718268+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) MCFG 0x000000008AD89000 00003C (v01 APPLE  Apple00  00000001 Loki 0000005F)
+2016-10-30 09:52:09.718271+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.718271+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.718311+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.718312+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.718314+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) DMAR 0x000000008AD61000 000088 (v01 APPLE  BDW      00000001 INTL 00000001)
+2016-10-30 09:52:09.718315+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) DMAR 0x000000008AD61000 000088 (v01 APPLE  BDW      00000001 INTL 00000001)
+2016-10-30 09:52:09.718317+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.718318+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.738282+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.738283+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI:
+2016-10-30 09:52:09.738284+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) All ACPI Tables successfully acquired
+2016-10-30 09:52:09.738285+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) All ACPI Tables successfully acquired
+2016-10-30 09:52:09.738286+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.738287+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) 
+2016-10-30 09:52:09.739477+0200 0x72       Default     0x0                  0      kernel: AppleFDEKeyStore::probe(IOResources)
+2016-10-30 09:52:09.739496+0200 0x72       Default     0x0                  0      kernel: AppleKeyStore::probe(IOResources)
+2016-10-30 09:52:09.739500+0200 0x72       Default     0x0                  0      kernel: AppleFDEKeyStore::start(IOResources) <1>
+2016-10-30 09:52:09.739503+0200 0x72       Default     0x0                  0      kernel: IOGetBootKeyStoreData: data at address 0 size 0
+2016-10-30 09:52:09.739729+0200 0x76       Default     0x0                  0      kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=1 LocalApicId=0 Enabled
+2016-10-30 09:52:09.739733+0200 0x76       Default     0x0                  0      kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=2 LocalApicId=2 Enabled
+2016-10-30 09:52:09.739754+0200 0x76       Default     0x0                  0      kernel: cpu_data_alloc(1) 0xffffff811ef25000 desc_table: 0xffffff80fee6d000 ldt: 0xffffff811ef30000 int_stack: 0xffffff811ee8a000-0xffffff811ee8e000
+2016-10-30 09:52:09.739761+0200 0x76       Default     0x0                  0      kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=3 LocalApicId=1 Enabled
+2016-10-30 09:52:09.739782+0200 0x76       Default     0x0                  0      kernel: cpu_data_alloc(2) 0xffffff811ef40000 desc_table: 0xffffff811ee95000 ldt: 0xffffff811ef4f000 int_stack: 0xffffff811ef4b000-0xffffff811ef4f000
+2016-10-30 09:52:09.739787+0200 0x76       Default     0x0                  0      kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=4 LocalApicId=3 Enabled
+2016-10-30 09:52:09.739805+0200 0x76       Default     0x0                  0      kernel: cpu_data_alloc(3) 0xffffff811ef5f000 desc_table: 0xffffff811eea5000 ldt: 0xffffff811ef6e000 int_stack: 0xffffff811ef6a000-0xffffff811ef6e000
+2016-10-30 09:52:09.739809+0200 0x76       Default     0x0                  0      kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=5 LocalApicId=255 Disabled
+2016-10-30 09:52:09.739827+0200 0x76       Default     0x0                  0      kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=6 LocalApicId=255 Disabled
+2016-10-30 09:52:09.739830+0200 0x76       Default     0x0                  0      kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=7 LocalApicId=255 Disabled
+2016-10-30 09:52:09.739834+0200 0x76       Default     0x0                  0      kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=8 LocalApicId=255 Disabled
+2016-10-30 09:52:09.740031+0200 0x65       Default     0x0                  0      kernel: calling mpo_policy_init for TMSafetyNet
+2016-10-30 09:52:09.740036+0200 0x65       Default     0x0                  0      kernel: Security policy loaded: Safety net for Time Machine (TMSafetyNet)
+2016-10-30 09:52:09.740223+0200 0x65       Default     0x0                  0      kernel: calling mpo_policy_init for AMFI
+2016-10-30 09:52:09.740227+0200 0x65       Default     0x0                  0      kernel: Security policy loaded: Apple Mobile File Integrity (AMFI)
+2016-10-30 09:52:09.740230+0200 0x65       Default     0x0                  0      kernel: calling mpo_policy_init for Sandbox
+2016-10-30 09:52:09.740249+0200 0x65       Default     0x0                  0      kernel: Security policy loaded: Seatbelt sandbox policy (Sandbox)
+2016-10-30 09:52:09.740362+0200 0x65       Default     0x0                  0      kernel: calling mpo_policy_init for Quarantine
+2016-10-30 09:52:09.740372+0200 0x65       Default     0x0                  0      kernel: Security policy loaded: Quarantine policy (Quarantine)
+2016-10-30 09:52:09.740697+0200 0x65       Default     0x0                  0      kernel: MAC Framework successfully initialized
+2016-10-30 09:52:09.740706+0200 0x65       Default     0x0                  0      kernel: ulock_initialize>thread_max=10240, ull_hash_buckets=4096
+2016-10-30 09:52:09.743788+0200 0x65       Default     0x0                  0      kernel: using 16384 buffer headers and 10240 cluster IO buffer headers
+2016-10-30 09:52:09.749044+0200 0x72       Default     0x0                  0      kernel: (AppleCredentialManager) AppleCredentialManager::start called
+2016-10-30 09:52:09.749071+0200 0x72       Default     0x0                  0      kernel: AppleKeyStore::start(IOResources) <1>
+2016-10-30 09:52:09.749074+0200 0x72       Default     0x0                  0      kernel: (AppleKeyStore) AppleKeyStore starting (BUILT: Oct 13 2016 22:27:09)
+2016-10-30 09:52:09.749975+0200 0x77       Default     0x0                  0      kernel: Started cpu 2 (lapic id 00000002)
+2016-10-30 09:52:09.750769+0200 0x78       Default     0x0                  0      kernel: Started cpu 1 (lapic id 00000001)
+2016-10-30 09:52:09.751490+0200 0x79       Default     0x0                  0      kernel: Started cpu 3 (lapic id 00000003)
+2016-10-30 09:52:09.752122+0200 0x93       Default     0x0                  0      kernel: (AppleAPIC) IOAPIC: Version 0x20 Vectors 64:103
+2016-10-30 09:52:09.765244+0200 0x70       Default     0x0                  0      kernel: (AppleACPIPlatform) ACPI: sleep states S0 S3 S4 S5
+2016-10-30 09:52:09.780819+0200 0x98       Default     0x0                  0      kernel: (IOPCIFamily) pci (build 23:55:41 Oct 18 2016), flags 0xe3400, pfm64 (39 cpu) 0x7f80000000, 0x80000000
+2016-10-30 09:52:09.780824+0200 0x98       Default     0x0                  0      kernel: (IOPCIFamily) pci (build 23:55:41 Oct 18 2016), flags 0xe3400, pfm64 (39 cpu) 0x7f80000000, 0x80000000
+2016-10-30 09:52:09.782152+0200 0xab       Default     0x0                  0      kernel: (IOHIDFamily) HID: Legacy shim 2
+2016-10-30 09:52:09.782443+0200 0xad       Default     0x0                  0      kernel: (IOHIDFamily) HID: Legacy shim 2
+2016-10-30 09:52:09.784838+0200 0x98       Default     0x0                  0      kernel: (IOPCIFamily) [ PCI configuration begin ]
+2016-10-30 09:52:09.784841+0200 0x98       Default     0x0                  0      kernel: kPEDisableScreen -1
+2016-10-30 09:52:09.792216+0200 0xbb       Default     0x0                  0      kernel: (IOUSBFamily) 000001.033753 AppleUSBLegacyRoot@: AppleUSBLegacyRoot::init: enabling legacy matching
+2016-10-30 09:52:09.792611+0200 0x98       Default     0x0                  0      kernel: initialize_screen: b=7F90000000, w=00000A00, h=00000640, r=00002800, d=00000001
+2016-10-30 09:52:09.792991+0200 0x98       Default     0x0                  0      kernel: kPEEnableScreen 1
+2016-10-30 09:52:09.792994+0200 0x98       Default     0x0                  0      kernel: (IOPCIFamily) console relocated to 0x7f90000000
+2016-10-30 09:52:09.792999+0200 0x98       Default     0x0                  0      kernel: (IOPCIFamily) [ PCI configuration end, bridges 12, devices 15 ]
+2016-10-30 09:52:09.799006+0200 0x81       Default     0x0                  0      kernel: (AppleIntelLpssGspi) AppleIntelLpssGspi1::calcSpiClockParams: fSysClockPeriodPsec 10000, spiClockPeriodNsec 125
+2016-10-30 09:52:09.799514+0200 0xcc       Default     0x0                  0      kernel: (AppleIntelLpssGspi) AppleIntelLpssGspi1::calcSpiClockParams: fSysClockPeriodPsec 10000, spiClockPeriodNsec 125
+2016-10-30 09:52:09.816890+0200 0xd4       Default     0x0                  0      kernel: (IO80211Family) AirPort_Brcm4360::init AirPortFamily_kexts-1200.32 "AirPortFamily_kexts-1200.32" Oct 13 2016 22:26:47
+2016-10-30 09:52:09.816910+0200 0xd4       Default     0x0                  0      kernel: (AirPortBrcm4360) ARPT: 1.058450: AirPort_Brcm43XX:probe:, this[0x656d549ee6fde631]  score[1110]
+2016-10-30 09:52:09.820920+0200 0xcc       Default     0x0                  0      kernel: (AppleHSSPISupport) AppleHSSPIController::start Start Succeeded
+2016-10-30 09:52:09.822626+0200 0x81       Default     0x0                  0      kernel: (AppleIntelLpssGspi) AppleIntelLpssGspi1::calcSpiClockParams: fSysClockPeriodPsec 10000, spiClockPeriodNsec 125
+2016-10-30 09:52:09.822635+0200 0x84       Default     0x0                  0      kernel: (AppleThunderboltNHI) AppleThunderboltNHIType2::setupPowerSavings - notification based runtime power management
+2016-10-30 09:52:09.852861+0200 0xf0       Default     0x0                  0      kernel: (IOHIDFamily) HID: Legacy shim 2
+2016-10-30 09:52:09.855380+0200 0xf0       Default     0x0                  0      kernel: (AppleTopCaseHIDEventDriver) [HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (0x01)
+2016-10-30 09:52:09.862261+0200 0xf3       Default     0x0                  0      kernel: (AppleHIDKeyboard) entry
+2016-10-30 09:52:09.865983+0200 0xf3       Default     0x0                  0      kernel: (IOHIDFamily) HID: Legacy shim 2
+2016-10-30 09:52:09.866005+0200 0xf3       Default     0x0                  0      kernel: (AppleHIDKeyboard) entry
+2016-10-30 09:52:09.872941+0200 0xf6       Default     0x0                  0      kernel: (IOHIDFamily) HID: Legacy shim 2
+2016-10-30 09:52:09.875332+0200 0x84       Default     0x0                  0      kernel: (AppleMultitouchDriver) [HID] [MT] AppleMultitouchDevice::start entered
+2016-10-30 09:52:09.881278+0200 0xfb       Default     0x0                  0      kernel: (AppleMultitouchDriver) [HID] [MT] AppleActuatorHIDEventDriver::start entered
+2016-10-30 09:52:09.881298+0200 0xfc       Default     0x0                  0      kernel: (AppleMultitouchDriver) BuildActDeviceEntry enter
+2016-10-30 09:52:09.881332+0200 0xfc       Default     0x0                  0      kernel: (AppleMultitouchDriver) AppleActuatorDevice::start Entered
+2016-10-30 09:52:09.889815+0200 0x81       Default     0x0                  0      kernel: (AppleHSSPISupport) Apple Internal Keyboard / Trackpad::start Start Succeeded
+2016-10-30 09:52:09.891446+0200 0x11a      Default     0x0                  0      kernel: (IOAHCIFamily) [AHCI][PML][00000000]+IOAHCIPortMultiplierGlobals::IOAHCIPortMultiplierGlobals
+2016-10-30 09:52:09.891451+0200 0x11a      Default     0x0                  0      kernel: (IOAHCIFamily) [AHCI][PML][00000000]-IOAHCIPortMultiplierGlobals::IOAHCIPortMultiplierGlobals
+2016-10-30 09:52:09.892169+0200 0x11a      Default     0x0                  0      kernel: (AppleAHCIPort) [AHCI][HBA][00000000]+AppleAHCIGlobals::AppleAHCIGlobals
+2016-10-30 09:52:09.892187+0200 0x11a      Default     0x0                  0      kernel: (AppleAHCIPort) [AHCI][HBA][00000000]-AppleAHCIGlobals
+2016-10-30 09:52:09.931844+0200 0xfc       Default     0x0                  0      kernel: (AppleSmartBatteryManager) SmartBattery: finished polling type 1
+2016-10-30 09:52:10.001210+0200 0x65       Default     0x0                  0      kernel: mcache: 4 CPU(s), 64 bytes CPU cache line size
+2016-10-30 09:52:10.001952+0200 0x65       Default     0x0                  0      kernel: mbinit: done [96 MB total pool size, (64/32) split]
+2016-10-30 09:52:10.002535+0200 0x65       Default     0x0                  0      kernel: bsd_autoconf: calling kminit
+2016-10-30 09:52:10.029810+0200 0x148      Default     0x0                  0      kernel: (AppleFSCompressionTypeZlib) com.apple.AppleFSCompressionTypeZlib kmod start
+2016-10-30 09:52:10.030159+0200 0x148      Default     0x0                  0      kernel: (AppleFSCompressionTypeDataless) com.apple.AppleFSCompressionTypeDataless kmod start
+2016-10-30 09:52:10.030457+0200 0x148      Default     0x0                  0      kernel: (AppleFSCompressionTypeZlib) com.apple.AppleFSCompressionTypeZlib load succeeded
+2016-10-30 09:52:10.030471+0200 0x148      Default     0x0                  0      kernel: (AppleFSCompressionTypeDataless) com.apple.AppleFSCompressionTypeDataless load succeeded
+2016-10-30 09:52:10.030563+0200 0x65       Default     0x0                  0      kernel: rooting via boot-uuid from /chosen: A13541B4-4113-3A14-852E-7B3FC9C2B0FE
+2016-10-30 09:52:10.030605+0200 0x65       Default     0x0                  0      kernel: Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOResources</string><key>IOResourceMatch</key><string ID="2">boot-uuid-media</string></dict>
+2016-10-30 09:52:10.030661+0200 0xd4       Default     0x0                  0      kernel: (IO80211Family) IO80211Controller::createIOReporters 0x5d684c082aca261f
+2016-10-30 09:52:10.030962+0200 0xd4       Default     0x0                  0      kernel: (IO80211Family)  CCFlags: 0x0, CCLevel: 5 ConsoleFlags: 0x0, ConsoleLevel: -1
+2016-10-30 09:52:10.031794+0200 0xd4       Default     0x0                  0      kernel: (IO80211Family)  CCFlags: 0x0, CCLevel: 5 ConsoleFlags: 0x0, ConsoleLevel: -1
+2016-10-30 09:52:10.031870+0200 0xd4       Default     0x0                  0      kernel: (IO80211Family)  CCFlags: 0x0, CCLevel: 5 ConsoleFlags: 0x0, ConsoleLevel: -1
+2016-10-30 09:52:10.031891+0200 0xd4       Default     0x0                  0      kernel: (IO80211Family) IO80211Controller::start _controller is 0x5d684c082aca261f, provider is 0x5d684c076cd863df
+2016-10-30 09:52:10.043775+0200 0x162      Default     0x0                  0      kernel: (CoreStorage) CoreStorage: fsck_cs has finished for group "1BAB3B95-A2FD-448E-89BA-A7F87C146D47" with status 0x00
+2016-10-30 09:52:10.054626+0200 0x65       Default     0x0                  0      kernel: Got boot device = <private>
+2016-10-30 09:52:10.054686+0200 0x65       Default     0x0                  0      kernel: BSD root: disk1
+2016-10-30 09:52:10.054688+0200 0x65       Default     0x0                  0      kernel: , major 1, minor 4
+2016-10-30 09:52:10.173432+0200 0xd4       Default     0x0                  0      kernel: (AirPortBrcm4360) ARPT: 1.414970: srom rev:12
+2016-10-30 09:52:10.175478+0200 0xd4       Default     0x0                  0      kernel: (AirPortBrcm4360) ARPT: 1.417017: ChangeVCO => vco:960, xtalF:40, frac: 98, ndivMode: 3, ndivint: 24
+2016-10-30 09:52:10.175500+0200 0xd4       Default     0x0                  0      kernel: (AirPortBrcm4360) ARPT: 1.417027: Data written into the PLL_CNTRL_ADDR2: 00000c31
+2016-10-30 09:52:10.175537+0200 0xd4       Default     0x0                  0      kernel: (AirPortBrcm4360) ARPT: 1.417077: Data written into the PLL_CNTRL_ADDR3 (Fractional): 0000100e
+2016-10-30 09:52:10.194675+0200 0xd4       Default     0x0                  0      kernel: (AirPortBrcm4360) Setting property subsystem-id to:133
+2016-10-30 09:52:10.194680+0200 0xd4       Default     0x0                  0      kernel: (AirPortBrcm4360) Setting property subsystem-vendor-id to:106b
+2016-10-30 09:52:10.200980+0200 0xd4       Default     0x0                  0      kernel: (IO80211Family) init: error getting PHY_MODE;  using MODE_UNKNOWN
+2016-10-30 09:52:10.201035+0200 0xd4       Default     0x0                  0      kernel: (AirPortBrcm4360) ARPT: 1.442575: BRCM tunables:
+2016-10-30 09:52:10.201054+0200 0xd4       Default     0x0                  0      kernel: (AirPortBrcm4360) ARPT: 1.442595:   pullmode[1] txringsize[  256] txsendqsize[0] reapmin[   32] reapcount[  128]
+2016-10-30 09:52:10.201087+0200 0xd4       Default     0x0                  0      kernel: (AirPortBrcm4360) wl0: Broadcom BCM43ba 802.11 Wireless Controller
+2016-10-30 09:52:10.202406+0200 0xd4       Default     0x0                  0      kernel: (AirPortBrcm4360) ARPT: 1.443946: wl0: Broadcom BCM43ba, vendorID[0x14e4] BAR0[0xc1400004]
+2016-10-30 09:52:10.214927+0200 0x65       Default     0x0                  0      kernel: (HFS) hfs: mounted Yosya on device b(1, 4)
+2016-10-30 09:52:10.215556+0200 0x65       Default     0x0                  0      kernel: XCPM: registered
+2016-10-30 09:52:10.215556+0200 0x65       Default     0x0                  0      kernel: XCPM: registered
+2016-10-30 09:52:10.227163+0200 0x65       Default     0x0                  0      kernel: VM Swap Subsystem is ON
+2016-10-30 09:52:10.488157+0200 0x18b      Default     0x0                  0      kernel: (HFS) hfs: Removed 3 orphaned / unlinked files and 127 directories
+2016-10-30 09:52:10.555232+0200 0x145      Default     0x0                  0      kernel: (IOUSBFamily) USBMSC Identifier (non-unique): 000000000820 0x5ac 0x8406 0x820, 3
+2016-10-30 09:52:10.632092+0200 0x84       Default     0x0                  0      kernel: (IOBluetoothUSBDFU) IOBluetoothUSBDFU::probe
+2016-10-30 09:52:10.632119+0200 0x84       Default     0x0                  0      kernel: (IOBluetoothUSBDFU) IOBluetoothUSBDFU::probe ProductID - 0x8290 FirmwareVersion - 0x0134
+2016-10-30 09:52:10.644465+0200 0x1a0      Default     0x0                  0      kernel: (IOHIDFamily) HID: Legacy shim 2
+2016-10-30 09:52:26.690722+0200 0x25d      Default     0x0                  0      kernel: Waiting for DSMOS...
+2016-10-30 09:52:26.828293+0200 0x2b8      Default     0x0                  0      kernel: (IO80211Family) IO80211Controller::dataLinkLayerAttachComplete():  adding AppleEFINVRAM notification
+2016-10-30 09:52:26.828308+0200 0x2b8      Default     0x0                  0      kernel: (IO80211Family) IO80211Interface::efiNVRAMPublished():  
+2016-10-30 09:52:26.828436+0200 0x2b8      Default     0x0                  0      kernel: (IO80211Family) initting Scan Manager controller 0x5d684c082aca261f ioservice 0x5d684c076cd863df interface 0x5d684c076d051a1f ioservce 0x5d684c082aca261f
+2016-10-30 09:52:26.828590+0200 0x2b8      Default     0x0                  0      kernel: (IO80211Family) bpfAttach len 64 dlt 12
+2016-10-30 09:52:26.857696+0200 0x23d      Default     0x0                  0      kernel: (AppleSmartBatteryManager) AppleSmartBattery::pollBatteryState already polling (1 <= 2)
+2016-10-30 09:52:26.859669+0200 0x23d      Default     0x0                  0      kernel: (AppleSmartBatteryManager) AppleSmartBattery::pollBatteryState already polling (1 <= 2)
+2016-10-30 09:52:26.974650+0200 0x84       Default     0x0                  0      kernel: (AppleSmartBatteryManager) SmartBattery: finished polling type 1
+2016-10-30 09:52:27.072535+0200 0x2a2      Default     0x0                  0      kernel: (IO80211Family) AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+2016-10-30 09:52:27.072558+0200 0x2a2      Default     0x0                  0      kernel: (IO80211Family) Got incomplete channel sequence length 0, should be 16
+2016-10-30 09:52:27.072624+0200 0x2a2      Default     0x0                  0      kernel: (IO80211Family) Got incomplete channel sequence length 0, should be 16
+2016-10-30 09:52:27.072777+0200 0x2a2      Default     0x0                  0      kernel: (IO80211Family) en0: channel changed to 1
+2016-10-30 09:52:27.072819+0200 0x2a2      Default     0x0                  0      kernel: (IO80211Family) en0::IO80211Interface::postMessage bssid changed
+2016-10-30 09:52:27.072826+0200 0x2a2      Default     0x0                  0      kernel: (IO80211Family) bpfAttach len 94 dlt 163
+2016-10-30 09:52:27.072841+0200 0x2a2      Default     0x0                  0      kernel: (IO80211Family) bpfAttach len 30 dlt 105
+2016-10-30 09:52:27.072849+0200 0x2a2      Default     0x0                  0      kernel: (IO80211Family) bpfAttach len 52 dlt 127
+2016-10-30 09:52:27.072856+0200 0x2a2      Default     0x0                  0      kernel: (IO80211Family) bpfAttach len 38 dlt 192
+2016-10-30 09:52:27.073087+0200 0xfc       Default     0x0                  0      kernel: (IO80211Family) IO80211Interface::updateReport _peerManager is missing
+2016-10-30 09:52:27.073154+0200 0x145      Default     0x0                  0      kernel: (IO80211Family) AirPort_Brcm4360::getSSIDData(): Get failure: APPLE80211_IOC_SSID: 6
+2016-10-30 09:52:27.220768+0200 0x34a      Default     0x0                  0      kernel: (IOGraphicsFamily) IOGraphics flags 0x43
+2016-10-30 09:52:27.246777+0200 0x34b      Default     0x0                  0      kernel: (AppleCameraInterface) AppleCamIn::init
+2016-10-30 09:52:27.246802+0200 0x34b      Default     0x0                  0      kernel: (AppleCameraInterface) AppleCamIn::probe
+2016-10-30 09:52:27.246813+0200 0x34b      Default     0x0                  0      kernel: (AppleCameraInterface) AppleCamIn::start
+2016-10-30 09:52:27.253561+0200 0x34b      Default     0x0                  0      kernel: (AppleCameraInterface) virtual bool AppleCamIn::start(IOService *): about to configure DDR
+2016-10-30 09:52:27.253597+0200 0x34b      Default     0x0                  0      kernel: (AppleCameraInterface) AppleCamIn::start - S2 DDR Frequency set to 450 MHz (default)
+2016-10-30 09:52:27.258752+0200 0x35a      Default     0x0                  0      kernel: (IOBluetoothHostControllerUSBTransport) **** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = TRUE -- 0xd000 ****
+2016-10-30 09:52:27.258774+0200 0x35a      Default     0x0                  0      kernel: (BroadcomBluetoothHostControllerUSBTransport) **** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Interface) -- 0xd000 ****
+2016-10-30 09:52:27.271585+0200 0x349      Default     0x0                  0      kernel: (AppleIntelBDWGraphicsFramebuffer) fUseGPUBusy = 0 fPPPMSupport = 1
+2016-10-30 09:52:27.273371+0200 0x34e      Default     0x0                  0      kernel: (IOBluetoothFamily) [IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- 0xd000
+2016-10-30 09:52:27.273395+0200 0x34e      Default     0x0                  0      kernel: (IOBluetoothFamily) [IOBluetoothFamily][start] -- completed
+2016-10-30 09:52:27.273802+0200 0x73       Default     0x0                  0      kernel: PMRD: prevent idle sleep list: IODisplayWrangler+ (1)
+2016-10-30 09:52:27.273803+0200 0x73       Default     0x0                  0      kernel: prevent idle sleep list: IODisplayWrangler+ (1)
+2016-10-30 09:52:27.342030+0200 0x381      Default     0x0                  0      kernel: (IOHIDFamily) HID: Legacy shim 2
+2016-10-30 09:52:27.393639+0200 0xfc       Default     0x0                  0      kernel: (IOBluetoothUSBDFU) IOBluetoothUSBDFU::probe
+2016-10-30 09:52:27.393664+0200 0xfc       Default     0x0                  0      kernel: (IOBluetoothUSBDFU) IOBluetoothUSBDFU::probe ProductID - 0x8290 FirmwareVersion - 0x0134
+2016-10-30 09:52:27.400843+0200 0x3ba      Default     0x0                  0      kernel: (IOBluetoothHostControllerUSBTransport) **** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = TRUE -- 0x6800 ****
+2016-10-30 09:52:27.400858+0200 0x3ba      Default     0x0                  0      kernel: (BroadcomBluetoothHostControllerUSBTransport) **** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0x6800 ****
+2016-10-30 09:52:27.400973+0200 0x3bc      Default     0x0                  0      kernel: (IOBluetoothFamily) [IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- 0x6800
+2016-10-30 09:52:27.401308+0200 0x3bd      Default     0x0                  0      kernel: (IOBluetoothFamily) [IOBluetoothHostController][start] -- completed
+2016-10-30 09:52:27.407728+0200 0x3bd      Default     0x0                  0      kernel: (IOBluetoothFamily) **** [BroadcomBluetoothHostController][SetupController] -- Delay HCI Reset by 300ms  ****
+2016-10-30 09:52:27.475557+0200 0x357      Default     0x0                  0      kernel: (AppleSMC) Previous shutdown cause: 3
+2016-10-30 09:52:27.477620+0200 0x3d9      Default     0x0                  0      kernel: DSMOS has arrived
+2016-10-30 09:52:27.478910+0200 0x355      Default     0x0                  0      kernel: (IOPlatformPluginFamily) IOPPF - IODeviceTree:/efi/platform/StartupPowerEvents: 0x0
+2016-10-30 09:52:27.478914+0200 0x355      Default     0x0                  0      kernel: (IOPlatformPluginFamily) IOPPF - IODeviceTree:/efi/platform/StartupPowerEvents: 0x0
+2016-10-30 09:52:27.511770+0200 0x349      Default     0x0                  0      kernel: (AppleIntelBDWGraphics) [IGPU] Graphics accelerator is running in ExecutionList mode.
+2016-10-30 09:52:27.511778+0200 0x349      Default     0x0                  0      kernel: (AppleIntelBDWGraphics) [IGPU] Graphics accelerator is using scheduler interface revision 1
+2016-10-30 09:52:27.511783+0200 0x349      Default     0x0                  0      kernel: (AppleIntelBDWGraphics) [IGPU] Scheduler: Single channel index per command streamer
+2016-10-30 09:52:27.511788+0200 0x349      Default     0x0                  0      kernel: (AppleIntelBDWGraphics) [IGPU] Scheduler: Process CSB using HWS.
+2016-10-30 09:52:27.511791+0200 0x349      Default     0x0                  0      kernel: (AppleIntelBDWGraphics) [IGPU] Scheduler: PM notify enabled
+2016-10-30 09:52:27.511794+0200 0x349      Default     0x0                  0      kernel: (AppleIntelBDWGraphics) [IGPU] Graphics Address: PPGTT, Separate Address Space
+2016-10-30 09:52:27.511798+0200 0x349      Default     0x0                  0      kernel: (AppleIntelBDWGraphics) [IGPU] MultiForceWake Enabled: Using 3D Driver
+2016-10-30 09:52:27.513001+0200 0x349      Default     0x0                  0      kernel: (AppleIntelBDWGraphics) [IGPU] Scheduler Throttle Cap = 100ms.
+2016-10-30 09:52:27.562926+0200 0x1f7      Default     0x0                  0      kernel: (AppleMobileFileIntegrity) AMFI: code signature validation failed.
+2016-10-30 09:52:27.568046+0200 0x34b      Default     0x0                  0      kernel: (AppleCameraInterface) save_ddr_phy_regs: saving 127 DDR PHY shmoo-calibrated registers
+2016-10-30 09:52:27.568762+0200 0x34b      Default     0x0                  0      kernel: (AppleCameraInterface) AppleCamIn::start - link control offset in PCI bridge = 0x50
+2016-10-30 09:52:27.568777+0200 0x34b      Default     0x0                  0      kernel: (AppleCameraInterface) AppleCamIn::start - pmcsr offset in PCI bridge = 0xa4
+2016-10-30 09:52:27.568783+0200 0x34b      Default     0x0                  0      kernel: (AppleCameraInterface) AppleCamIn::power_off_hardware
+2016-10-30 09:52:27.586686+0200 0x36f      Default     0x0                  0      kernel: (AppleMultitouchDriver) AppleActuatorDeviceUserClient::start Entered
+2016-10-30 09:52:27.592726+0200 0x265      Default     0x0                  0      kernel: (AppleKeyStore) unexpected session: 100000 uid: -1 requested by: 49
+2016-10-30 09:52:27.592735+0200 0x265      Default     0x0                  0      kernel: (AppleKeyStore) AppleKeyStore: operation failed (pid: 49 sel: 7 ret: e00002c2 '-536870206', -1, 100000)
+2016-10-30 09:52:27.711998+0200 0x43d      Default     0x0                  0      kernel: (AppleLPC) AppleLPC::notifyPlatformASPM  ASPM callback registered
+2016-10-30 09:52:27.715678+0200 0x443      Default     0x0                  0      kernel: (AppleGraphicsPowerManagement) [AGPM Controller] build gpuDict by GPU IGPU.
+2016-10-30 09:52:27.716681+0200 0x43d      Default     0x0                  0      kernel: (IOPlatformPluginFamily) IOPPF: XCPM mode
+2016-10-30 09:52:27.716683+0200 0x43d      Default     0x0                  0      kernel: (IOPlatformPluginFamily) IOPPF: XCPM mode
+2016-10-30 09:52:27.720526+0200 0x3bd      Default     0x0                  0      kernel: (IOBluetoothFamily) [IOBluetoothHostController::setConfigState] calling registerService
+2016-10-30 09:52:27.720681+0200 0x3bd      Default     0x0                  0      kernel: (IOBluetoothFamily) **** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- calling IOBluetoothFamily's registerService() -- 0x8450 -- 0xcc00 -- 0x6800 ****
+2016-10-30 09:52:27.720701+0200 0x3bd      Default     0x0                  0      kernel: (IOBluetoothFamily) **** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- Connected to the transport successfully -- 0x8450 -- 0xcc00 -- 0x6800 ****
+2016-10-30 09:52:27.831774+0200 0x34b      Default     0x0                  0      kernel: (AppleCameraInterface) AppleCamIn::initForPM
+2016-10-30 09:52:27.831916+0200 0x73       Default     0x0                  0      kernel: (AppleCameraInterface) AppleCamIn::systemWakeCall - messageType = 0xE0000340
+2016-10-30 09:52:27.837049+0200 0x2b8      Default     0x0                  0      kernel: en1: promiscuous mode enable succeeded
+2016-10-30 09:52:27.837098+0200 0x2b8      Default     0x0                  0      kernel: en2: promiscuous mode enable succeeded
+2016-10-30 09:52:28.008055+0200 0x46a      Default     0x0                  0      kernel: (IO80211Family) AirPort_Brcm4360_P2PInterface::init name <p2p0> role 1
+2016-10-30 09:52:28.008076+0200 0x46a      Default     0x0                  0      kernel: (IO80211Family) IO80211VirtualInterface::init _controller is 0x5d684c082aca261f, provider is 0x5d684c076cd863df
+2016-10-30 09:52:28.008463+0200 0x46a      Default     0x0                  0      kernel: (corecapture) configureInterests - nElements <= 0!
+2016-10-30 09:52:28.008468+0200 0x46a      Default     0x0                  0      kernel: (corecapture) Failed to configure interests
+2016-10-30 09:52:28.008497+0200 0x46a      Default     0x0                  0      kernel: (IO80211Family) IO80211Controller::addSubscriptionForThisReporterFetchedOnTimer() Failed to addSubscription for group Interface p2p0 subgroup Data Packets driver 0x5d684c082aca261f - data underrun
+2016-10-30 09:52:28.008510+0200 0x46a      Default     0x0                  0      kernel: (IO80211Family) IO80211InterfaceMonitor::configureSubscriptions() failed to add subscription
+2016-10-30 09:52:28.008517+0200 0x46a      Default     0x0                  0      kernel: (IO80211Family) AirPort_Brcm4360_P2PInterface::init <p2p> role 1
+2016-10-30 09:52:28.028323+0200 0x410      Default     0x0                  0      kernel: kPEDisableScreen 1
+2016-10-30 09:52:28.064216+0200 0x410      Fault       0x0                  0      kernel: (IOAcceleratorFamily2) bool IOAccelDisplayPipe2::init_framebuffer_resource(uint32_t, IOAccelResource2 *): getPixelInformation for framebuffer 0 failed
+2016-10-30 09:52:28.072104+0200 0x410      Fault       0x0                  0      kernel: (IOAcceleratorFamily2) bool IOAccelDisplayPipe2::init_framebuffer_resource(uint32_t, IOAccelResource2 *): getCurrentDisplayMode for framebuffer 1 failed
+2016-10-30 09:52:28.080116+0200 0x410      Fault       0x0                  0      kernel: (IOAcceleratorFamily2) bool IOAccelDisplayPipe2::init_framebuffer_resource(uint32_t, IOAccelResource2 *): getCurrentDisplayMode for framebuffer 2 failed
+2016-10-30 09:52:28.182889+0200 0x410      Default     0x0                  0      kernel: kPEDisableScreen 1
+2016-10-30 09:52:28.198900+0200 0x410      Fault       0x0                  0      kernel: (IOAcceleratorFamily2) bool IOAccelDisplayPipe2::init_framebuffer_resource(uint32_t, IOAccelResource2 *): getCurrentDisplayMode for framebuffer 1 failed
+2016-10-30 09:52:28.207401+0200 0x410      Fault       0x0                  0      kernel: (IOAcceleratorFamily2) bool IOAccelDisplayPipe2::init_framebuffer_resource(uint32_t, IOAccelResource2 *): getCurrentDisplayMode for framebuffer 2 failed
+2016-10-30 09:52:28.217342+0200 0x410      Default     0x0                  0      kernel: kPEEnableScreen 1
+2016-10-30 09:52:28.333432+0200 0x46a      Default     0x0                  0      kernel: (IO80211Family) AirPort_Brcm4360_P2PInterface::init name <awdl0> role 4
+2016-10-30 09:52:28.333442+0200 0x46a      Default     0x0                  0      kernel: (IO80211Family) AirPort_Brcm4360_P2PInterface::awdlAttachToBpf name <awdl0> role 4 successful attach to bpf type 147
+2016-10-30 09:52:28.333454+0200 0x46a      Default     0x0                  0      kernel: (IO80211Family) IO80211VirtualInterface::init _controller is 0x5d684c082aca261f, provider is 0x5d684c076cd863df
+2016-10-30 09:52:28.337344+0200 0x46a      Default     0x0                  0      kernel: (IO80211Family)  Creating all peerManager reporters
+2016-10-30 09:52:28.337541+0200 0x46a      Default     0x0                  0      kernel: (IO80211Family) AirPort_Brcm4360_P2PInterface::init <awdl> role 4
+2016-10-30 09:52:28.375406+0200 0x410      Default     0x0                  0      kernel: kPEDisableScreen 1
+2016-10-30 09:52:28.386679+0200 0x481      Default     0x0                  0      kernel: (AirPortBrcm4360) ARPT: 19.628216: wl0: setAWDL_PEER_TRAFFIC_REGISTRATION: active 0, roam_off: 0, err 0 roam_start_set 0 forced_roam_set 0
+2016-10-30 09:52:28.397797+0200 0x410      Fault       0x0                  0      kernel: (IOAcceleratorFamily2) bool IOAccelDisplayPipe2::init_framebuffer_resource(uint32_t, IOAccelResource2 *): getCurrentDisplayMode for framebuffer 1 failed
+2016-10-30 09:52:28.405989+0200 0x410      Fault       0x0                  0      kernel: (IOAcceleratorFamily2) bool IOAccelDisplayPipe2::init_framebuffer_resource(uint32_t, IOAccelResource2 *): getCurrentDisplayMode for framebuffer 2 failed
+2016-10-30 09:52:28.416068+0200 0x410      Default     0x0                  0      kernel: kPEEnableScreen 1
+2016-10-30 09:52:28.566282+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) Setting BTCoex Profile: band:8
+2016-10-30 09:52:28.566286+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) Profile[0]: mode:7; desense:0; desense_level:0; chain_power_offset:
+2016-10-30 09:52:28.566288+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 0,
+2016-10-30 09:52:28.566290+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 0,
+2016-10-30 09:52:28.566292+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 0,
+2016-10-30 09:52:28.566293+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 0,
+2016-10-30 09:52:28.566294+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 
+2016-10-30 09:52:28.566296+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) Profile[1]: mode:7; desense:0; desense_level:0; chain_power_offset:
+2016-10-30 09:52:28.566298+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 0,
+2016-10-30 09:52:28.566299+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 0,
+2016-10-30 09:52:28.566300+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) -7,
+2016-10-30 09:52:28.566301+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 0,
+2016-10-30 09:52:28.566302+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 
+2016-10-30 09:52:28.566305+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) Profile[2]: mode:7; desense:1; desense_level:3; chain_power_offset:
+2016-10-30 09:52:28.566307+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 0,
+2016-10-30 09:52:28.566308+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 0,
+2016-10-30 09:52:28.566309+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) -7,
+2016-10-30 09:52:28.566310+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 0,
+2016-10-30 09:52:28.566311+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 
+2016-10-30 09:52:28.566667+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) Setting BTCoex Profile: band:2
+2016-10-30 09:52:28.566671+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) Profile[0]: mode:0; desense:0; desense_level:0; chain_power_offset:
+2016-10-30 09:52:28.566672+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 0,
+2016-10-30 09:52:28.566673+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 0,
+2016-10-30 09:52:28.566675+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 0,
+2016-10-30 09:52:28.566676+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 0,
+2016-10-30 09:52:28.566678+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) 
+2016-10-30 09:52:28.567549+0200 0x497      Default     0x0                  0      kernel: (IO80211Family) Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+2016-10-30 09:52:28.639065+0200 0x482      Default     0x0                  0      kernel: (IO80211Family) en0: channel changed to 1
+2016-10-30 09:52:28.943021+0200 0x587      Default     0x0                  0      kernel: (IO80211Family) en0: 802.11d country code set to 'UA'.
+2016-10-30 09:52:28.943096+0200 0x587      Default     0x0                  0      kernel: (IO80211Family) en0: Supported channels
+2016-10-30 09:52:28.943098+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  1
+2016-10-30 09:52:28.943099+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  2
+2016-10-30 09:52:28.943100+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  3
+2016-10-30 09:52:28.943101+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  4
+2016-10-30 09:52:28.943101+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  5
+2016-10-30 09:52:28.943102+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  6
+2016-10-30 09:52:28.943103+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  7
+2016-10-30 09:52:28.943104+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  8
+2016-10-30 09:52:28.943105+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  9
+2016-10-30 09:52:28.943106+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  10
+2016-10-30 09:52:28.943107+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  11
+2016-10-30 09:52:28.943108+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  12
+2016-10-30 09:52:28.943109+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  13
+2016-10-30 09:52:28.943110+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  36
+2016-10-30 09:52:28.943116+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  40
+2016-10-30 09:52:28.943119+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  44
+2016-10-30 09:52:28.943120+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  48
+2016-10-30 09:52:28.943121+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  52
+2016-10-30 09:52:28.943122+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  56
+2016-10-30 09:52:28.943123+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  60
+2016-10-30 09:52:28.943124+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  64
+2016-10-30 09:52:28.943125+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  100
+2016-10-30 09:52:28.943126+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  104
+2016-10-30 09:52:28.943127+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  108
+2016-10-30 09:52:28.943128+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  112
+2016-10-30 09:52:28.943129+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  116
+2016-10-30 09:52:28.943131+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  120
+2016-10-30 09:52:28.943132+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  124
+2016-10-30 09:52:28.943133+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  128
+2016-10-30 09:52:28.943134+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  132
+2016-10-30 09:52:28.943135+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  149
+2016-10-30 09:52:28.943136+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  153
+2016-10-30 09:52:28.943139+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  157
+2016-10-30 09:52:28.943140+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  161
+2016-10-30 09:52:28.943141+0200 0x587      Default     0x0                  0      kernel: (IO80211Family)  165
+2016-10-30 09:52:28.943143+0200 0x587      Default     0x0                  0      kernel: (IO80211Family) 
+2016-10-30 09:52:29.016511+0200 0x25d      Default     0x0                  113    loginwindow: (CoreFoundation)     token = 1000003

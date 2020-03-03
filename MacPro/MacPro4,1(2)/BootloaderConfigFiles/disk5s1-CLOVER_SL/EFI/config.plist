@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<dict>
+	    <key>Pointer</key>
+	    <dict>
+	        <key>Speed</key>
+	        <string>8</string>
+	    <dict>
+	<key>ACPI</key>
+	<dict>
+		<key>DropOemSSDT</key>
+		<string>Yes</string>
+		<key>GenerateCStates</key>
+		<string>Yes</string>
+		<key>GeneratePStates</key>
+		<string>Yes</string>
+		<key>FixDsdtMask</key>
+		<string>0xFFFF</string>
+	</dict>
+	<key>Graphics</key>
+	<dict>
+		<key>GraphicsInjector</key>
+		<string>Yes</string>
+	</dict>
+	<key>SMBIOS</key>
+	<dict>
+		<key>BiosVendor</key>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>MP41.0081.B07</string>
+		<key>BiosReleaseDate</key>
+		<string>03/03/09</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ProductName</key>
+		<string>MacPro4,1</string>
+		<key>Version</key>
+		<string>1.0</string>
+		<key>Family</key>
+		<string>MacPro</string>
+		<key>SerialNumber</key>
+		<string>CT93051DK9Y</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02032101R5DC771H</string>
+		<key>Board-ID</key>
+		<string>Mac-F221BEC8</string>
+		<key>BoardVersion</key>
+		<string>Proto1</string>
+		<key>Mobile</key>
+		<string>No</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisAssetTag</key>
+		<string>DX58SO2</string>
+	</dict>
+	<key>SystemParameters</key>
+	<dict>
+		<key>CustomUUID</key>
+		<string>511CE200-1000-4000-9999-010203040506</string>
+		<key>DefaultBootVolume</key>
+		<string>Name of the volume of your HD Mac Boot</string>
+		<key>boot-args</key>
+		<string>-v darkwake=0 npci=0x2000</string>
+		<key>prev-lang:kbd</key>
+		<string>en:0</string>
+	</dict>
+</dict>
+</plist>

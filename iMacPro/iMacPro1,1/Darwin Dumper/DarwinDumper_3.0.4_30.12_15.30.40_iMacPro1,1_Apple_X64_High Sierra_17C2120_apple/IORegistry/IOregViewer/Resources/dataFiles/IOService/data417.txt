@@ -1,0 +1,15 @@
+[
+{"data":{"title":"device-id"},"attr":{"id":"33731","ColType":"Data","ColValue":"&lt;8e200000&gt;"}},
+{"data":{"title":"vendor-id"},"attr":{"id":"33733","ColType":"Data","ColValue":"&lt;86800000&gt;"}},
+{"data":{"title":"IOName"},"attr":{"id":"33735","ColType":"String","ColValue":"pci8086,208e"}},
+{"data":{"title":"subsystem-vendor-id"},"attr":{"id":"33737","ColType":"Data","ColValue":"&lt;86800000&gt;"}},
+{"data":{"title":"pcidebug"},"attr":{"id":"33739","ColType":"String","ColValue":"3:14:2"}},
+{"data":{"title":"revision-id"},"attr":{"id":"33741","ColType":"Data","ColValue":"&lt;04000000&gt;"}},
+{"data":{"title":"reg"},"attr":{"id":"33743","ColType":"Data","ColValue":"&lt;0072030000000000000000000000000000000000&gt;"}},
+{"data":{"title":"IOPCIResourced"},"attr":{"id":"33745","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"class-code"},"attr":{"id":"33747","ColType":"Data","ColValue":"&lt;00800800&gt;"}},
+{"data":{"title":"subsystem-id"},"attr":{"id":"33749","ColType":"Data","ColValue":"&lt;00000000&gt;"}},
+{"data":{"title":"compatible"},"attr":{"id":"33751","ColType":"Data","ColValue":"&lt;\"pci8086,0\",\"pci8086,208e\",\"pciclass,088000\"&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"33753","ColType":"Data","ColValue":"&lt;\"pci8086,208e\"&gt;"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"33755","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"33757","ColType":"Number","ColValue":"2"}},{"data":{"title":"ChildProxyPowerState"},"attr":{"id":"33759","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"33761","ColType":"Number","ColValue":"3"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"33763","ColType":"Number","ColValue":"258"}}]}
+]

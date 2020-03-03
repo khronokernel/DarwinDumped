@@ -1,0 +1,114 @@
+Array Length:16384 bytes
+Array Block Count (512 bytes):32
+
+=====================================================
+
+Partition Type GUID: EFI System Partition
+Partition Unique GUID: 14d3f574-a44e-4dd1-8b5c-5435d901f1d4
+Partition Starting LBA: 40
+Partition Ending LBA: 409639
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: EFI System Partition
+Partition Reserved Byte: OK
+Partition Size: 209.71MB
+Partition Loader: Apple EFI
+
+=====================================================
+
+Partition Type GUID: HFS+
+Partition Unique GUID: 277bcbe8-8f60-48d8-82c8-72f452e937ba
+Partition Starting LBA: 409640
+Partition Ending LBA: 19940895
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: 10.6.8
+Partition Reserved Byte: OK
+Partition Size: 10.00GB
+
+=====================================================
+
+Partition Type GUID: HFS+
+Partition Unique GUID: 981aab51-d316-4ea3-b8f2-0ea2e0ff9808
+Partition Starting LBA: 20203040
+Partition Ending LBA: 39734295
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: 10.7.5
+Partition Reserved Byte: OK
+Partition Size: 10.00GB
+
+=====================================================
+
+Partition Type GUID: HFS+
+Partition Unique GUID: fb7d9490-4d02-4e7e-9265-5b3a9d23922c
+Partition Starting LBA: 39996440
+Partition Ending LBA: 59527695
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: 10.8.5
+Partition Reserved Byte: OK
+Partition Size: 10.00GB
+
+=====================================================
+
+Partition Type GUID: HFS+
+Partition Unique GUID: 87d392ea-85a0-4b85-9279-b1cc2a722229
+Partition Starting LBA: 59789840
+Partition Ending LBA: 79321095
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: 10.9.3
+Partition Reserved Byte: OK
+Partition Size: 10.00GB
+
+=====================================================
+
+Partition Type GUID: HFS+
+Partition Unique GUID: 7e63a465-596b-4928-922a-3902aab6a775
+Partition Starting LBA: 79583240
+Partition Ending LBA: 99114495
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: 10.10
+Partition Reserved Byte: OK
+Partition Size: 10.00GB
+
+=====================================================
+
+Partition Type GUID: HFS+
+Partition Unique GUID: 9a3e6ccb-4702-4558-a1c1-4c62177db15d
+Partition Starting LBA: 99376640
+Partition Ending LBA: 153647527
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: TestBoot
+Partition Reserved Byte: OK
+Partition Size: 27.78GB
+
+=====================================================
+
+Partition Type GUID: HFS+
+Partition Unique GUID: 56ac1afd-5d8a-4591-a969-4b47edf1cdd1
+Partition Starting LBA: 153909672
+Partition Ending LBA: 446878415
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: Soft
+Partition Reserved Byte: OK
+Partition Size: 149.99GB
+
+=====================================================
+
+Partition Type GUID: HFS+
+Partition Unique GUID: e7a5a3d0-be08-4412-9906-9f227f07d61d
+Partition Starting LBA: 447140560
+Partition Ending LBA: 711792975
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: DataDisk
+Partition Reserved Byte: OK
+Partition Size: 135.50GB
+
+=====================================================
+
+Partition Type GUID: Windows Basic Data
+Partition Unique GUID: 4e86257e-01df-4b8a-b212-9adf6670a3ed
+Partition Starting LBA: 712056832
+Partition Ending LBA: 976705535
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: 11111
+Partition Reserved Byte: OK
+Partition Size: 135.50GB
+Partition Loader: Windows NTFS NTLDR

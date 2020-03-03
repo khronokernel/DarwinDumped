@@ -1,0 +1,29 @@
+2017-12-30 15:31:13 +1100 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  1
+   PreventUserIdleSystemSleep     1
+   NetworkClientActive            0
+Listed by owning process:
+   pid 98(hidd): [0x0000184300098218] 00:00:00 UserIsActive named: "com.apple.iohideventsystem.queue.tickle.4294969005.17" 
+   pid 55(powerd): [0x0000776b00088c3d] 00:01:15 ExternalMedia named: "com.apple.powermanagement.externalmediamounted" 
+   pid 1595(rcd): [0x00003e3c00098501] 04:05:13 UserIsActive named: "com.apple.rcdevent" 
+   pid 1595(rcd): [0x00003e3c00098500] 04:05:13 UserIsActive named: "com.apple.rcdevent" 
+   pid 1595(rcd): [0x00003e3c000984ff] 04:05:13 UserIsActive named: "com.apple.rcdevent" 
+   pid 1595(rcd): [0x00003e36000984fe] 04:05:20 UserIsActive named: "com.apple.rcdevent" 
+   pid 1595(rcd): [0x00003e18000984dc] 04:05:50 UserIsActive named: "com.apple.rcdevent" 
+   pid 169(coreaudiod): [0x00006f6c00018b33] 00:35:22 PreventUserIdleSystemSleep named: "com.apple.audio.BuiltInMicrophoneDevice.context.preventuseridlesleep" 
+	Created for PID: 2377. 
+   pid 169(coreaudiod): [0x00005f2e000188e6] 01:44:40 PreventUserIdleSystemSleep named: "com.apple.audio.BuiltInSpeakerDevice.context.preventuseridlesleep" 
+	Created for PID: 2377. 
+Kernel Assertions: 0x18c=USB,BT-HID,STORAGE,MAGICWAKE
+   id=504  level=255 0x100=MAGICWAKE mod=1/1/70, 10:00 am description=en1 owner=en1
+   id=505  level=255 0x8=BT-HID mod=1/1/70, 10:00 am description=com.apple.driver.IOBluetoothHIDDriver owner=AppleHSBluetoothDevice
+   id=507  level=255 0x8=BT-HID mod=1/1/70, 10:00 am description=com.apple.driver.IOBluetoothHIDDriver owner=AppleHSBluetoothDevice
+   id=511  level=255 0x4=USB mod=1/1/70, 10:00 am description=com.apple.usb.externaldevice.14c00000 owner=Ultra Fit
+   id=512  level=255 0x80=STORAGE mod=1/1/70, 10:00 am description=com.apple.iokit.IOStorageFamily owner=AppleAPFSVolumeBSDClient
+Idle sleep preventers: IODisplayWrangler, IOPMrootDomain

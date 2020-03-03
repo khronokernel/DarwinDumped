@@ -1,0 +1,501 @@
+Jul 16 03:44:22 localhost kernel[0] <Notice>: Darwin Kernel Version 14.3.0: Mon Mar 23 11:59:05 PDT 2015; root:xnu-2782.20.48~5/RELEASE_X86_64
+Jul 16 03:44:22 localhost kernel[0] <Notice>: vm_page_bootstrap: 3983831 free pages and 177705 wired pages
+Jul 16 03:44:22 localhost kernel[0] <Notice>: kext submap [0xffffff7f80a00000 - 0xffffff8000000000], kernel text [0xffffff8000200000 - 0xffffff8000a00000]
+Jul 16 03:44:22 localhost kernel[0] <Notice>: zone leak detection enabled
+Jul 16 03:44:22 localhost kernel[0] <Notice>: "vm_compressor_mode" is 4
+Jul 16 03:44:22 localhost kernel[0] <Notice>: multiq scheduler config: deep-drain 0, urgent first 1, depth limit 4, band limit 127, sanity check 0
+Jul 16 03:44:22 localhost kernel[0] <Notice>: standard timeslicing quantum is 10000 us
+Jul 16 03:44:22 localhost kernel[0] <Notice>: standard background quantum is 2500 us
+Jul 16 03:44:22 localhost kernel[0] <Notice>: mig_table_max_displ = 13
+Jul 16 03:44:22 localhost kernel[0] <Notice>: TSC Deadline Timer supported and enabled
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=1 LocalApicId=0 Enabled
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=2 LocalApicId=2 Enabled
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=3 LocalApicId=4 Enabled
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=4 LocalApicId=6 Enabled
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=5 LocalApicId=1 Enabled
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=6 LocalApicId=3 Enabled
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=7 LocalApicId=5 Enabled
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=8 LocalApicId=7 Enabled
+Jul 16 03:44:22 localhost kernel[0] <Notice>: calling mpo_policy_init for TMSafetyNet
+Jul 16 03:44:22 localhost kernel[0] <Notice>: Security policy loaded: Safety net for Time Machine (TMSafetyNet)
+Jul 16 03:44:22 localhost kernel[0] <Notice>: calling mpo_policy_init for AMFI
+Jul 16 03:44:22 localhost kernel[0] <Notice>: Security policy loaded: Apple Mobile File Integrity (AMFI)
+Jul 16 03:44:22 localhost kernel[0] <Notice>: calling mpo_policy_init for Sandbox
+Jul 16 03:44:22 localhost kernel[0] <Notice>: Security policy loaded: Seatbelt sandbox policy (Sandbox)
+Jul 16 03:44:22 localhost kernel[0] <Notice>: calling mpo_policy_init for Quarantine
+Jul 16 03:44:22 localhost kernel[0] <Notice>: Security policy loaded: Quarantine policy (Quarantine)
+Jul 16 03:44:22 localhost kernel[0] <Notice>: Copyright (c) 1982, 1986, 1989, 1991, 1993
+Jul 16 03:44:22 localhost kernel[0] <Notice>: The Regents of the University of California. All rights reserved.
+Jul 16 03:44:22 localhost kernel[0] <Notice>: MAC Framework successfully initialized
+Jul 16 03:44:22 localhost kernel[0] <Notice>: using 16384 buffer headers and 10240 cluster IO buffer headers
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleKeyStore starting (BUILT: Mar 23 2015 11:37:46)
+Jul 16 03:44:22 localhost kernel[0] <Notice>: IOAPIC: Version 0x20 Vectors 64:87
+Jul 16 03:44:22 localhost kernel[0] <Notice>: ACPI: sleep states S3 S4 S5
+Jul 16 03:44:22 localhost kernel[0] <Notice>: pci (build 11:38:56 Mar 23 2015), flags 0xe3000, pfm64 (39 cpu) 0x7f80000000, 0x80000000
+Jul 16 03:44:22 localhost kernel[0] <Notice>: [ PCI configuration begin ]
+Jul 16 03:44:22 localhost kernel[0] <Notice>: console relocated to 0x7f80020000
+Jul 16 03:44:22 localhost kernel[0] <Notice>: [ PCI configuration end, bridges 13, devices 14 ]
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleThunderboltNHIType2::setupPowerSavings - GPE based runtime power management
+Jul 16 03:44:22 localhost kernel[0] <Notice>: SATA WARNING: IDENTIFY DEVICE checksum not implemented.
+Jul 16 03:44:22 localhost kernel[0] <Notice>: mcache: 8 CPU(s), 64 bytes CPU cache line size
+Jul 16 03:44:22 localhost kernel[0] <Notice>: mbinit: done [128 MB total pool size, (85/42) split]
+Jul 16 03:44:22 localhost kernel[0] <Notice>: rooting via boot-uuid from /chosen: E0DAC609-5805-3911-A790-10BFDA5D8684
+Jul 16 03:44:22 localhost kernel[0] <Notice>: Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOResources</string><key>IOResourceMatch</key><string ID="2">boot-uuid-media</string></dict>
+Jul 16 03:44:22 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib kmod start
+Jul 16 03:44:22 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless kmod start
+Jul 16 03:44:22 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib load succeeded
+Jul 16 03:44:22 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless load succeeded
+Jul 16 03:44:22 localhost kernel[0] <Notice>: CoreStorage: fsck_cs has finished for group "800557E6-1148-4A82-B61E-06521BB5E56B" with status 0x00
+Jul 16 03:44:22 localhost kernel[0] <Notice>: Got boot device = IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/RP05@1C,4/IOPP/SSD0@0/AppleAHCI/PRT0@0/IOAHCIDevice@0/AppleAHCIDiskDriver/IOAHCIBlockStorageDevice/IOBlockStorageDriver/APPLE SSD SM0512F Media/IOGUIDPartitionScheme/Macintosh HD@2/CoreStoragePhysical/Macintosh HD/Macintosh HD
+Jul 16 03:44:22 localhost kernel[0] <Notice>: BSD root: disk1, major 1, minor 4
+Jul 16 03:44:22 localhost kernel[0] <Notice>: ARPT: 1.562270: srom rev:11
+Jul 16 03:44:22 localhost kernel[0] <Notice>: ARPT: 1.562692: ChangeVCO => vco:960, xtalF:40, frac: 98, ndivMode: 3, ndivint: 24
+Jul 16 03:44:22 localhost kernel[0] <Notice>: ARPT: 1.562700: Data written into the PLL_CNTRL_ADDR2: 00000c31
+Jul 16 03:44:22 localhost kernel[0] <Notice>: ARPT: 1.562756: Data written into the PLL_CNTRL_ADDR3 (Fractional): 0000100e
+Jul 16 03:44:22 localhost kernel[0] <Notice>: ARPT: 1.572048: BRCM tunables:
+Jul 16 03:44:22 localhost kernel[0] <Notice>: ARPT: 1.572053:   pullmode[1] txringsize[  256] txsendqsize[1024] reapmin[   32] reapcount[  128]
+Jul 16 03:44:22 localhost kernel[0] <Notice>: ARPT: 1.572628: wl0: Broadcom BCM43a0, vendorID[0x14e4] BAR0[0xc1a00004]
+Jul 16 03:44:22 localhost kernel[0] <Notice>: 7.15.166.24 (r541488)
+Jul 16 03:44:22 localhost kernel[0] <Notice>: hfs: mounted Macintosh HD on device root_device
+Jul 16 03:44:22 localhost kernel[0] <Notice>: XCPM: registered
+Jul 16 03:44:22 localhost kernel[0] <Notice>: VM Swap Subsystem is ON
+Jul 16 03:44:22 localhost kernel[0] <Notice>: USBMSC Identifier (non-unique): 575837314541335844523834 0x1058 0x822 0x1007, 2
+Jul 16 03:44:22 localhost kernel[0] <Notice>: USBMSC Identifier (non-unique): 000000000820 0x5ac 0x8406 0x820, 3
+Jul 16 03:44:22 localhost kernel[0] <Notice>: IO80211Controller::dataLinkLayerAttachComplete():  adding AppleEFINVRAM notification
+Jul 16 03:44:22 localhost kernel[0] <Notice>: IO80211Interface::efiNVRAMPublished():  
+Jul 16 03:44:22 localhost kernel[0] <Notice>: bpfAttach len 64 dlt 12
+Jul 16 03:44:22 localhost kernel[0] <Notice>: IOGraphics flags 0x43
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AGC: 3.10.22, HW version=4.0.8 [3.2.8], flags:0, features:20600
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleCamIn::init
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleCamIn::probe
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleCamIn::start
+Jul 16 03:44:22 localhost kernel[0] <Notice>: virtual bool AppleCamIn::start(IOService *): about to configure DDR
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleCamIn::start - S2 DDR Frequency set to 450 MHz (default) 
+Jul 16 03:44:22 localhost kernel[0] <Notice>: IOBluetoothUSBDFU::probe
+Jul 16 03:44:22 localhost kernel[0] <Notice>: IOBluetoothUSBDFU::probe ProductID - 0x8289 FirmwareVersion - 0x0103
+Jul 16 03:44:22 localhost kernel[0] <Notice>: **** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = TRUE -- 0x2800 ****
+Jul 16 03:44:22 localhost kernel[0] <Notice>: **** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0x2800 ****
+Jul 16 03:44:22 localhost kernel[0] <Notice>: NVDAStartup: Official
+Jul 16 03:44:22 localhost kernel[0] <Notice>: [IOBluetoothHCIController][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- 0x2800 
+Jul 16 03:44:22 localhost kernel[0] <Notice>: [IOBluetoothHCIController][start] -- completed
+Jul 16 03:44:22 localhost kernel[0] <Notice>: NVDAGK100HAL loaded and registered
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+Jul 16 03:44:22 localhost kernel[0] <Notice>: [IOBluetoothHCIController::setConfigState] calling registerService
+Jul 16 03:44:22 localhost kernel[0] <Notice>: **** [IOBluetoothHCIController][ProcessBluetoothTransportShowsUpActionWL] -- Connected to the transport successfully -- 0xff80 -- 0xe000 -- 0x2800 ****
+Jul 16 03:44:22 localhost kernel[0] <Notice>: hmm.. mismatch sizes: 3100 vs 20
+Jul 16 03:44:22 localhost kernel[0] <Notice>: PPGTT is enabled
+Jul 16 03:44:22 localhost kernel[0] <Notice>: Previous shutdown cause: 5
+Jul 16 03:44:22 localhost kernel[0] <Notice>: DSMOS has arrived
+Jul 16 03:44:22 localhost kernel[0] <Notice>: IOPPF - IODeviceTree:/efi/platform/StartupPowerEvents: 0x0
+Jul 16 03:44:22 localhost kernel[0] <Notice>: IOPPF: XCPM mode
+Jul 16 03:44:22 localhost kernel[0] <Notice>: X86PlatformShim::sendPStates - Success!
+Jul 16 03:44:22 localhost kernel[0] <Notice>: save_ddr_phy_regs: saving 127 DDR PHY shmoo-calibrated registers 
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleCamIn::start - link control offset in PCI bridge = 0x50
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleCamIn::start - pmcsr offset in PCI bridge = 0xa4
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AppleCamIn::power_off_hardware
+Jul 16 03:44:22 localhost kernel[0] <Notice>: AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+Jul 16 03:44:22 localhost kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 03:44:22 localhost kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Jul 16 03:44:22 localhost kernel[0] <Notice>: bpfAttach len 94 dlt 163
+Jul 16 03:44:22 localhost kernel[0] <Notice>: bpfAttach len 30 dlt 105
+Jul 16 03:44:22 localhost kernel[0] <Notice>: bpfAttach len 52 dlt 127
+Jul 16 03:44:22 localhost kernel[0] <Notice>: bpfAttach len 38 dlt 192
+Jul 16 03:44:23 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::initForPM
+Jul 16 03:44:23 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 03:44:23 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 3.689154: createVirtIf(): ifRole = 1
+Jul 16 03:44:23 MacBook-Pro-Arina kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init name <p2p0> role 1
+Jul 16 03:44:23 MacBook-Pro-Arina kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init <p2p> role 1
+Jul 16 03:44:23 MacBook-Pro-Arina kernel[0] <Notice>: setVIRTUAL_IF_CREATE: AWDL interface role (4)
+Jul 16 03:44:23 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 3.689528: createVirtIf(): ifRole = 1
+Jul 16 03:44:23 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 3.689534: Create AWDL virtif(AWDL): unit = 2, ifRole = 4
+Jul 16 03:44:23 MacBook-Pro-Arina kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init name <awdl0> role 4
+Jul 16 03:44:23 MacBook-Pro-Arina kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::attachToBpf name <awdl0> role 4 successful attach to bpf type 147
+Jul 16 03:44:23 MacBook-Pro-Arina kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init <awdl> role 4
+Jul 16 03:44:23 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 03:44:23 MacBook-Pro-Arina kernel[0] <Notice>: hfs: mounted Recovery HD on device disk0s3
+Jul 16 03:44:24 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::updateLocalRequests Deletion of all services requested (discoveryd crash)
+Jul 16 03:44:24 MacBook-Pro-Arina kernel[0] <Notice>: hfs: unmount initiated on Recovery HD on device disk0s3
+Jul 16 03:44:24 MacBook-Pro-Arina kernel[0] <Notice>: awdl0: promiscuous mode enable succeeded
+Jul 16 03:44:24 MacBook-Pro-Arina kernel[0] <Notice>: awdl0: promiscuous mode disable succeeded
+Jul 16 03:44:24 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Up on awdl0
+Jul 16 03:44:24 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::configure Dynamic country code not supported on this device
+Jul 16 03:44:24 MacBook-Pro-Arina kernel[0] <Notice>: awdl0: promiscuous mode enable succeeded
+Jul 16 03:44:24 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+Jul 16 03:44:24 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+Jul 16 03:44:24 MacBook-Pro-Arina kernel[0] <Notice>: en1: promiscuous mode enable succeeded
+Jul 16 03:44:24 MacBook-Pro-Arina kernel[0] <Notice>: en2: promiscuous mode enable succeeded
+Jul 16 03:44:30 MacBook-Pro-Arina kernel[0] <Notice>: en0: 802.11d country code set to 'RU'.
+Jul 16 03:44:30 MacBook-Pro-Arina kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+Jul 16 03:44:30 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 11.279832: MacAuthEvent en0   Auth result for: 60:a4:4c:a3:6b:a8  MAC AUTH succeeded
+Jul 16 03:44:30 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Up on en0
+Jul 16 03:44:30 MacBook-Pro-Arina kernel[0] <Notice>: en0: BSSID changed to 60:a4:4c:a3:6b:a8
+Jul 16 03:44:30 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 03:44:30 MacBook-Pro-Arina kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Jul 16 03:44:30 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 11.292345: AWDL Sync Enabled 0
+Jul 16 03:44:31 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: RSN handshake complete on en0
+Jul 16 03:44:33 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+Jul 16 03:44:33 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+Jul 16 03:44:33 MacBook-Pro-Arina kernel[0] <Notice>: en0: BSSID changed to 60:a4:4c:a3:6b:a8
+Jul 16 03:44:33 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 03:44:37 MacBook-Pro-Arina kernel[0] <Notice>: AppleKeyStore:Sending lock change 0 for handle 1
+Jul 16 03:44:37 MacBook-Pro-Arina kernel[0] <Notice>: AppleKeyStore:Sending lock change 0 for handle -501
+Jul 16 03:44:42 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlPeerTrafficRegistration Clearing AirPlay peer 00:00:00:00:00:00
+Jul 16 03:44:48 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::ISP_LoadFirmware_gated: fw len=0
+Jul 16 03:44:48 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::power_on_hardware
+Jul 16 03:44:49 MacBook-Pro-Arina kernel[0] <Notice>: save_ddr_phy_regs: saving 127 DDR PHY shmoo-calibrated registers 
+Jul 16 03:44:49 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::ISP_Init - No set-file loaded for camera
+Jul 16 03:44:49 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::ISP_InitialSensorDetection - found sensor on chan 0: 0x9770
+Jul 16 03:44:49 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::ISP_LoadSetfile_gated (camChan=0)
+Jul 16 03:44:49 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::power_off_hardware
+Jul 16 03:44:57 MacBook-Pro-Arina kernel[0] <Notice>: [BNBMouseDevice::init][85.3] init is complete
+Jul 16 03:44:57 MacBook-Pro-Arina kernel[0] <Notice>: [BNBMouseDevice::handleStart][85.3] returning 1
+Jul 16 03:44:58 MacBook-Pro-Arina kernel[0] <Notice>: [AppleMultitouchHIDEventDriver::start] entered
+Jul 16 03:44:58 MacBook-Pro-Arina kernel[0] <Notice>: [AppleMultitouchDevice::start] entered
+Jul 16 03:45:12 MacBook-Pro-Arina kernel[0] <Notice>: Sandbox: secinitd(310) deny ipc-posix-shm-read-data /tmp/com.apple.csseed.140
+Jul 16 03:45:19 MacBook-Pro-Arina kernel[0] <Notice>: /drv/ HypVtd.c:4009   [vtdInit] VTD initialization disabled
+Jul 16 03:45:19 MacBook-Pro-Arina kernel[0] <Notice>: /prl_hid/ Parallels HID Helper started.
+Jul 16 03:45:19 MacBook-Pro-Arina kernel[0] <Notice>: com.parallels.kext.prlnet 9.0.24229.991745 has started.
+Jul 16 03:45:19 MacBook-Pro-Arina kernel[0] <Notice>: com.parallels.kext.vnic 9.0.24229.991745 has started.
+Jul 16 03:45:19 MacBook-Pro-Arina kernel[0] <Notice>: com_parallels_kext_prl_vnic: created vnic0
+Jul 16 03:45:19 MacBook-Pro-Arina kernel[0] <Notice>: com_parallels_kext_prl_vnic: created vnic1
+Jul 16 03:45:19 MacBook-Pro-Arina kernel[0] <Notice>: vnic0: promiscuous mode enable failed
+Jul 16 03:45:19 MacBook-Pro-Arina kernel[0] <Notice>: vnic1: promiscuous mode enable failed
+Jul 16 03:45:21 MacBook-Pro-Arina kernel[0] <Notice>: com_parallels_usb_control(0xffffff80409ed700)::setProperties() PrlUsbLogLevel == 0
+Jul 16 03:45:21 MacBook-Pro-Arina kernel[0] <Notice>: prl_net: ipi on recv is enabled
+Jul 16 03:45:21 MacBook-Pro-Arina kernel[0] <Notice>: com_parallels_usb_control(0xffffff80409ed700)::setProperties() PrlUsbLogLevel == 0
+Jul 16 03:45:21 MacBook-Pro-Arina kernel[0] <Notice>: /drv/ HypHPC.c:220   Hyperswitch[0]. pBuf=0xffffff81fe44e000,piDbgFunc=0xffffff81fe44e0ae
+Jul 16 03:45:21 MacBook-Pro-Arina kernel[0] <Notice>: /drv/ HypIoctls.c:577   Parallels hypervisor inited (cpus=8 hvt=VTX hvt status=Enabled vtd=No phy=PAE lin=x64 mem=16384)
+Jul 16 03:46:30 MacBook-Pro-Arina kernel[0] <Notice>: /drv/ HypPmm.c:586   VM {55b3d32c-9210-4ae5-807c-9db5bac3c55b}: 18670 vmm pages are still used on vm stop
+Jul 16 03:46:30 MacBook-Pro-Arina kernel[0] <Notice>: /drv/ HypVMManager.c:265   Monitor quited successfully
+Jul 16 03:46:34 MacBook-Pro-Arina kernel[0] <Notice>: com.parallels.kext.prlnet 9.0.24229.991745 is unloading.
+Jul 16 03:46:34 MacBook-Pro-Arina kernel[0] <Notice>: free vms_list while it is not empty
+Jul 16 03:46:34 MacBook-Pro-Arina kernel[0] <Notice>: com.parallels.kext.vnic 9.0.24229.991745 is unloading.
+Jul 16 03:46:34 MacBook-Pro-Arina kernel[0] <Notice>: com_parallels_kext_prl_vnic_bus: wait for detach for 0
+Jul 16 03:46:34 MacBook-Pro-Arina kernel[0] <Notice>: com_parallels_kext_prl_vnic_bus::detach_handler for 0
+Jul 16 03:46:34 MacBook-Pro-Arina kernel[0] <Notice>: com_parallels_kext_prl_vnic_bus: detached 0
+Jul 16 03:46:34 MacBook-Pro-Arina kernel[0] <Notice>: com_parallels_kext_prl_vnic: destroyed vnic0
+Jul 16 03:46:34 MacBook-Pro-Arina kernel[0] <Notice>: com_parallels_kext_prl_vnic_bus: wait for detach for 1
+Jul 16 03:46:34 MacBook-Pro-Arina kernel[0] <Notice>: com_parallels_kext_prl_vnic_bus::detach_handler for 1
+Jul 16 03:46:34 MacBook-Pro-Arina kernel[0] <Notice>: com_parallels_kext_prl_vnic_bus: detached 1
+Jul 16 03:46:34 MacBook-Pro-Arina kernel[0] <Notice>: com_parallels_kext_prl_vnic: destroyed vnic1
+Jul 16 03:46:34 MacBook-Pro-Arina kernel[0] <Notice>: /prl_hid/ Parallels HID Helper stopped.
+Jul 16 03:47:48 MacBook-Pro-Arina kernel[0] <Notice>: process AdobeApplication[745] caught causing excessive wakeups. Observed wakeups rate (per sec): 475; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 45014
+Jul 16 03:48:18 MacBook-Pro-Arina kernel[0] <Notice>: hfs: mounted Creative Cloud on device disk3s2
+Jul 16 03:48:53 MacBook-Pro-Arina kernel[0] <Notice>: hfs: unmount initiated on Creative Cloud on device disk3s2
+Jul 16 03:49:37 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome (map: 0xffffff8036ea2b40) triggered DYLD shared region unnest for map: 0xffffff8036ea2b40, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:49:38 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff8035956d20) triggered DYLD shared region unnest for map: 0xffffff8035956d20, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:49:38 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff803d3ebb40) triggered DYLD shared region unnest for map: 0xffffff803d3ebb40, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:49:38 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff8036e0cc30) triggered DYLD shared region unnest for map: 0xffffff8036e0cc30, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:49:38 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff8032bd1c30) triggered DYLD shared region unnest for map: 0xffffff8032bd1c30, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:49:39 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff80445b9d20) triggered DYLD shared region unnest for map: 0xffffff80445b9d20, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:49:39 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff803d3ebc30) triggered DYLD shared region unnest for map: 0xffffff803d3ebc30, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:49:49 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff80445b93c0) triggered DYLD shared region unnest for map: 0xffffff80445b93c0, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:50:01 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff80445b9780) triggered DYLD shared region unnest for map: 0xffffff80445b9780, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:50:05 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff80445b95a0) triggered DYLD shared region unnest for map: 0xffffff80445b95a0, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:50:06 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff80445b9690) triggered DYLD shared region unnest for map: 0xffffff80445b9690, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:50:12 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff80445b95a0) triggered DYLD shared region unnest for map: 0xffffff80445b95a0, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:50:13 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff80445b9690) triggered DYLD shared region unnest for map: 0xffffff80445b9690, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:50:15 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff80445b95a0) triggered DYLD shared region unnest for map: 0xffffff80445b95a0, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:50:20 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+Jul 16 03:50:20 MacBook-Pro-Arina kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Jul 16 03:50:20 MacBook-Pro-Arina kernel[0] <Notice>: en0: 802.11d country code set to 'X0'.
+Jul 16 03:50:20 MacBook-Pro-Arina kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+Jul 16 03:50:20 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [handleSIOCSIFFLAGS]
+Jul 16 03:50:20 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Jul 16 03:50:20 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [setLinkState]
+Jul 16 03:50:20 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 361.001801: AWDL Sync Enabled 0
+Jul 16 03:50:20 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::updateSyncFrameTemplate  Unable to set sync frame template ret 82 0x52 (UNDEFINED)
+Jul 16 03:50:20 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff803d3ebd20) triggered DYLD shared region unnest for map: 0xffffff803d3ebd20, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:50:20 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff80445b9a50) triggered DYLD shared region unnest for map: 0xffffff80445b9a50, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:50:22 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 03:50:22 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Up on awdl0
+Jul 16 03:50:22 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+Jul 16 03:50:22 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+Jul 16 03:50:23 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 363.575369: MacAuthEvent en0   Auth result for: 60:a4:4c:a3:6b:a8  MAC AUTH succeeded
+Jul 16 03:50:23 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Up on en0
+Jul 16 03:50:23 MacBook-Pro-Arina kernel[0] <Notice>: en0: BSSID changed to 60:a4:4c:a3:6b:a8
+Jul 16 03:50:23 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 03:50:23 MacBook-Pro-Arina kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Jul 16 03:50:23 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 363.582617: AWDL Sync Enabled 0
+Jul 16 03:50:23 MacBook-Pro-Arina kernel[0] <Notice>: en0: 802.11d country code set to 'RU'.
+Jul 16 03:50:23 MacBook-Pro-Arina kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+Jul 16 03:50:23 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: RSN handshake complete on en0
+Jul 16 03:50:24 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+Jul 16 03:50:24 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+Jul 16 03:50:24 MacBook-Pro-Arina kernel[0] <Notice>: en0: BSSID changed to 60:a4:4c:a3:6b:a8
+Jul 16 03:50:24 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 03:50:25 MacBook-Pro-Arina kernel[0] <Notice>: en0: DAD complete for fe80:4::3e15:c2ff:fec8:cb8 - duplicate found.
+Jul 16 03:50:25 MacBook-Pro-Arina kernel[0] <Notice>: en0: possible hardware address duplication detected, disabling IPv6 for interface.
+Jul 16 03:50:25 MacBook-Pro-Arina kernel[0] <Notice>: en0: manual intervention required!
+Jul 16 03:50:28 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff80445b9000) triggered DYLD shared region unnest for map: 0xffffff80445b9000, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:50:45 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff803d3eb960) triggered DYLD shared region unnest for map: 0xffffff803d3eb960, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:51:41 MacBook-Pro-Arina kernel[0] <Notice>: process AAMHelper[951] caught causing excessive wakeups. Observed wakeups rate (per sec): 244; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 45789
+Jul 16 03:51:45 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff803d3eb960) triggered DYLD shared region unnest for map: 0xffffff803d3eb960, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:56:38 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff80322453c0) triggered DYLD shared region unnest for map: 0xffffff80322453c0, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 03:58:41 MacBook-Pro-Arina kernel[0] <Notice>: process Adobe Desktop Se[1024] caught causing excessive wakeups. EXC_RESOURCE supressed due to audio playback
+Jul 16 03:59:07 MacBook-Pro-Arina kernel[0] <Notice>: Limiting closed port RST response from 257 to 250 packets per second
+Jul 16 03:59:19 MacBook-Pro-Arina kernel[0] <Notice>: Google Chrome He (map: 0xffffff8035956690) triggered DYLD shared region unnest for map: 0xffffff8035956690, region 0x7fff95a00000->0x7fff95c00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Jul 16 04:01:15 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+Jul 16 04:01:15 MacBook-Pro-Arina kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Jul 16 04:01:15 MacBook-Pro-Arina kernel[0] <Notice>: en0: 802.11d country code set to 'X0'.
+Jul 16 04:01:15 MacBook-Pro-Arina kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+Jul 16 04:01:15 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [handleSIOCSIFFLAGS]
+Jul 16 04:01:15 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Jul 16 04:01:15 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [setLinkState]
+Jul 16 04:01:15 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 1016.389539: AWDL Sync Enabled 0
+Jul 16 04:01:16 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::updateSyncFrameTemplate  Unable to set sync frame template ret 82 0x52 (UNDEFINED)
+Jul 16 04:01:18 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 04:01:18 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Up on awdl0
+Jul 16 04:01:18 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+Jul 16 04:01:18 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+Jul 16 04:01:18 MacBook-Pro-Arina kernel[0] <Notice>: en0: 802.11d country code set to 'RU'.
+Jul 16 04:01:18 MacBook-Pro-Arina kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+Jul 16 04:01:18 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 1018.909982: MacAuthEvent en0   Auth result for: 60:a4:4c:a3:6b:a8  MAC AUTH succeeded
+Jul 16 04:01:18 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Up on en0
+Jul 16 04:01:18 MacBook-Pro-Arina kernel[0] <Notice>: en0: BSSID changed to 60:a4:4c:a3:6b:a8
+Jul 16 04:01:18 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 04:01:18 MacBook-Pro-Arina kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Jul 16 04:01:18 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 1018.919185: AWDL Sync Enabled 0
+Jul 16 04:01:18 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: RSN handshake complete on en0
+Jul 16 04:01:19 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+Jul 16 04:01:19 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+Jul 16 04:01:19 MacBook-Pro-Arina kernel[0] <Notice>: en0: BSSID changed to 60:a4:4c:a3:6b:a8
+Jul 16 04:01:19 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 04:05:50 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+Jul 16 04:05:50 MacBook-Pro-Arina kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Jul 16 04:05:50 MacBook-Pro-Arina kernel[0] <Notice>: en0: 802.11d country code set to 'X0'.
+Jul 16 04:05:50 MacBook-Pro-Arina kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+Jul 16 04:05:50 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [handleSIOCSIFFLAGS]
+Jul 16 04:05:50 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Jul 16 04:05:50 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [setLinkState]
+Jul 16 04:05:50 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 1291.049546: AWDL Sync Enabled 0
+Jul 16 04:05:50 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::updateSyncFrameTemplate  Unable to set sync frame template ret 82 0x52 (UNDEFINED)
+Jul 16 04:05:53 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 04:05:53 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Up on awdl0
+Jul 16 04:05:53 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+Jul 16 04:05:53 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+Jul 16 04:05:53 MacBook-Pro-Arina kernel[0] <Notice>: en0: 802.11d country code set to 'RU'.
+Jul 16 04:05:53 MacBook-Pro-Arina kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+Jul 16 04:05:53 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 1294.470580: MacAuthEvent en0   Auth result for: 60:a4:4c:a3:6b:a8  MAC AUTH succeeded
+Jul 16 04:05:54 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Up on en0
+Jul 16 04:05:54 MacBook-Pro-Arina kernel[0] <Notice>: en0: BSSID changed to 60:a4:4c:a3:6b:a8
+Jul 16 04:05:54 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 04:05:54 MacBook-Pro-Arina kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Jul 16 04:05:54 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 1294.477914: AWDL Sync Enabled 0
+Jul 16 04:05:54 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: RSN handshake complete on en0
+Jul 16 04:05:55 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+Jul 16 04:05:55 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+Jul 16 04:05:55 MacBook-Pro-Arina kernel[0] <Notice>: en0: BSSID changed to 60:a4:4c:a3:6b:a8
+Jul 16 04:05:55 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 04:05:56 MacBook-Pro-Arina kernel[0] <Notice>: Sandbox: icbaccountsd(1225) deny mach-lookup com.apple.CrashReporterSupportHelper
+Jul 16 04:17:23 MacBook-Pro-Arina kernel[0] <Notice>: hfs: mounted Prem Pro CC 2015 on device disk3s2
+Jul 16 04:17:49 MacBook-Pro-Arina kernel[0] <Notice>: hfs: unmount initiated on Prem Pro CC 2015 on device disk3s2
+Jul 16 04:19:33 MacBook-Pro-Arina kernel[0] <Notice>: PM response took 801 ms (1027, Core Sync)
+Jul 16 04:19:33 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 04:19:40 MacBook-Pro-Arina kernel[0] <Notice>: en0: BSSID changed to 60:a4:4c:a3:6b:a8
+Jul 16 04:19:40 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 04:19:46 MacBook-Pro-Arina kernel[0] <Notice>: [AppleMultitouchDevice::willTerminate] entered
+Jul 16 04:19:46 MacBook-Pro-Arina kernel[0] <Notice>: [AppleMultitouchDevice::stop] entered
+Jul 16 04:20:26 MacBook-Pro-Arina kernel[0] <Notice>: PM response took 186 ms (91, blued)
+Jul 16 04:20:26 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 04:20:41 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2181.534279: wl0: TCPKEEP: locate_keepalive_data_new_uc: No IPV4 addrs, keepalive not started.
+Jul 16 04:20:41 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2181.534292: wl0: MDNS: IPV4 Addr: 192.168.1.229
+Jul 16 04:20:41 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2181.534296: wl0: MDNS: IPV6 Addr: fe80:0:0:0:3e15:c2ff:fec8:cb8
+Jul 16 04:20:41 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2181.534299: wl0: MDNS: 0 SRV Recs, 1 TXT Recs
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: PM response took 4993 ms (55, powerd)
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000280
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: [0x53057e2000, 0xa02f000]
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: [0x547df9f000, 0x93b8000]
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: [0x5603649000, 0x5c19000]
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: [0x6764806000, 0x9005000]
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: [0x6a4508e000, 0x8fd8000]
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: [0x6448f68000, 0x7023000]
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: [0x54313bc000, 0x862f000]
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: [0x6d4807f000, 0x59d1000]
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: [0x0, 0x0]
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2186.527419: AirPort_Brcm43xx::powerChange: System Sleep 
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 1 us
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [handleSIOCSIFFLAGS]
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [setLinkState]
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2187.266875: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+Jul 16 04:20:46 MacBook-Pro-Arina kernel[0] <Notice>: IOThunderboltSwitch<0xffffff8031f1ca00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Jul 16 04:20:48 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 04:20:48 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 13
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: Wake reason: RTC (Alarm)
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: RTC: Maintenance 2015/7/16 02:20:41, sleep 2015/7/16 01:20:49
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::wakeEventHandlerThread
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: Previous sleep cause: 5
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 1 us
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: IOThunderboltSwitch<0xffffff8031f1ca00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: IOThunderboltSwitch<0xffffff8031f1ca00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: TBT W (2): 0x0040 [x]
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: en0: 802.11d country code set to 'X0'.
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Up on awdl0
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2189.486575: AWDL Sync Enabled 0
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: AppleUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: en0: 802.11d country code set to 'RU'.
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2189.803907: MacAuthEvent en0   Auth result for: 60:a4:4c:a3:6b:a8  MAC AUTH succeeded
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Up on en0
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: en0: BSSID changed to 60:a4:4c:a3:6b:a8
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2189.811502: AWDL Sync Enabled 0
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: RSN handshake complete on en0
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: en0: BSSID changed to 60:a4:4c:a3:6b:a8
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+Jul 16 05:20:41 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+Jul 16 05:20:46 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::handleWakeEvent_gated
+Jul 16 05:20:46 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2194.752773: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Jul 16 05:20:46 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 05:20:46 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::wakeEventHandlerThread
+Jul 16 05:20:51 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::handleWakeEvent_gated
+Jul 16 05:21:31 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2239.860232: wl0: TCPKEEP: locate_keepalive_data_new_uc: No IPV4 addrs, keepalive not started.
+Jul 16 05:21:31 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2239.860242: wl0: MDNS: IPV4 Addr: 192.168.1.229
+Jul 16 05:21:31 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2239.860246: wl0: MDNS: IPV6 Addr: fe80:0:0:0:3e15:c2ff:fec8:cb8
+Jul 16 05:21:31 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2239.860249: wl0: MDNS: 0 SRV Recs, 1 TXT Recs
+Jul 16 05:21:36 MacBook-Pro-Arina kernel[0] <Notice>: PM response took 4672 ms (55, powerd)
+Jul 16 05:21:36 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2244.531061: AirPort_Brcm43xx::powerChange: System Sleep 
+Jul 16 05:21:36 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 05:21:37 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [handleSIOCSIFFLAGS]
+Jul 16 05:21:37 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 1 us
+Jul 16 05:21:37 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Jul 16 05:21:37 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [setLinkState]
+Jul 16 05:21:37 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+Jul 16 05:21:37 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2245.194096: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+Jul 16 05:21:37 MacBook-Pro-Arina kernel[0] <Notice>: IOThunderboltSwitch<0xffffff8031f1ca00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Jul 16 05:21:38 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 05:21:38 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 4
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: Wake reason: RTC (Alarm)
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: RTC: Maintenance 2015/7/16 03:21:31, sleep 2015/7/16 02:21:39
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::wakeEventHandlerThread
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: Previous sleep cause: 5
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 1 us
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: IOThunderboltSwitch<0xffffff8031f1ca00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: TBT W (2): 0x0040 [x]
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: IOThunderboltSwitch<0xffffff8031f1ca00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: en0: 802.11d country code set to 'X0'.
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Up on awdl0
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2247.246671: AWDL Sync Enabled 0
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: AppleUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2247.561810: MacAuthEvent en0   Auth result for: 60:a4:4c:a3:6b:a8  MAC AUTH succeeded
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Up on en0
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: en0: BSSID changed to 60:a4:4c:a3:6b:a8
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2247.569281: AWDL Sync Enabled 0
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: en0: 802.11d country code set to 'RU'.
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+Jul 16 06:21:31 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: RSN handshake complete on en0
+Jul 16 06:21:32 MacBook-Pro-Arina kernel[0] <Notice>: Sandbox: icbaccountsd(1443) deny mach-lookup com.apple.CrashReporterSupportHelper
+Jul 16 06:21:34 MacBook-Pro-Arina kernel[0] <Notice>: en0: BSSID changed to 60:a4:4c:a3:6b:a8
+Jul 16 06:21:34 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 06:21:34 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+Jul 16 06:21:34 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+Jul 16 06:21:36 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::handleWakeEvent_gated
+Jul 16 06:21:36 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2252.519174: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Jul 16 06:21:36 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 06:21:36 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::wakeEventHandlerThread
+Jul 16 06:21:41 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::handleWakeEvent_gated
+Jul 16 06:22:21 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2297.702677: wl0: TCPKEEP: locate_keepalive_data_new_uc: No IPV4 addrs, keepalive not started.
+Jul 16 06:22:21 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2297.702691: wl0: MDNS: IPV4 Addr: 192.168.1.229
+Jul 16 06:22:21 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2297.702695: wl0: MDNS: IPV6 Addr: fe80:0:0:0:3e15:c2ff:fec8:cb8
+Jul 16 06:22:21 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2297.702698: wl0: MDNS: 0 SRV Recs, 1 TXT Recs
+Jul 16 06:22:26 MacBook-Pro-Arina kernel[0] <Notice>: PM response took 5009 ms (55, powerd)
+Jul 16 06:22:26 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2302.711186: AirPort_Brcm43xx::powerChange: System Sleep 
+Jul 16 06:22:26 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 06:22:27 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [handleSIOCSIFFLAGS]
+Jul 16 06:22:27 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Jul 16 06:22:27 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [setLinkState]
+Jul 16 06:22:27 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 4 us
+Jul 16 06:22:27 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2303.364460: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+Jul 16 06:22:27 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+Jul 16 06:22:27 MacBook-Pro-Arina kernel[0] <Notice>: IOThunderboltSwitch<0xffffff8031f1ca00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Jul 16 06:22:27 MacBook-Pro-Arina kernel[0] <Notice>: IOThunderboltSwitch<0xffffff8031f1ca00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Jul 16 06:22:28 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 06:22:28 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 14
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: Wake reason: RTC (Alarm)
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: RTC: SleepService 2015/7/16 04:22:21, sleep 2015/7/16 03:22:29
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::wakeEventHandlerThread
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: Previous sleep cause: 5
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 1 us
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: IOThunderboltSwitch<0xffffff8031f1ca00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: IOThunderboltSwitch<0xffffff8031f1ca00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: TBT W (2): 0x0040 [x]
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: en0: 802.11d country code set to 'X0'.
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Up on awdl0
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2305.390387: AWDL Sync Enabled 0
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: AppleUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2305.509113: MacAuthEvent en0   Auth result for: 60:a4:4c:a3:6b:a8  MAC AUTH succeeded
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Up on en0
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: en0: BSSID changed to 60:a4:4c:a3:6b:a8
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2305.516975: AWDL Sync Enabled 0
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: en0: 802.11d country code set to 'RU'.
+Jul 16 07:22:21 MacBook-Pro-Arina kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+Jul 16 07:22:22 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: RSN handshake complete on en0
+Jul 16 07:22:24 MacBook-Pro-Arina kernel[0] <Notice>: en0: BSSID changed to 60:a4:4c:a3:6b:a8
+Jul 16 07:22:24 MacBook-Pro-Arina kernel[0] <Notice>: en0: channel changed to 1
+Jul 16 07:22:24 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+Jul 16 07:22:24 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+Jul 16 07:22:26 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::handleWakeEvent_gated
+Jul 16 07:22:26 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2310.642651: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Jul 16 07:22:26 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 07:22:26 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::wakeEventHandlerThread
+Jul 16 07:22:31 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::handleWakeEvent_gated
+Jul 16 07:23:11 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2355.718221: wl0: TCPKEEP: locate_keepalive_data_new_uc: No IPV4 addrs, keepalive not started.
+Jul 16 07:23:11 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2355.718230: wl0: MDNS: IPV4 Addr: 192.168.1.229
+Jul 16 07:23:11 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2355.718233: wl0: MDNS: IPV6 Addr: fe80:0:0:0:3e15:c2ff:fec8:cb8
+Jul 16 07:23:11 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2355.718236: wl0: MDNS: 0 SRV Recs, 1 TXT Recs
+Jul 16 07:23:16 MacBook-Pro-Arina kernel[0] <Notice>: PM response took 4744 ms (55, powerd)
+Jul 16 07:23:16 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2360.461292: AirPort_Brcm43xx::powerChange: System Sleep 
+Jul 16 07:23:16 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 07:23:17 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [handleSIOCSIFFLAGS]
+Jul 16 07:23:17 MacBook-Pro-Arina kernel[0] <Notice>: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Jul 16 07:23:17 MacBook-Pro-Arina kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [setLinkState]
+Jul 16 07:23:17 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 1 us
+Jul 16 07:23:17 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+Jul 16 07:23:17 MacBook-Pro-Arina kernel[0] <Notice>: ARPT: 2361.106845: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+Jul 16 07:23:17 MacBook-Pro-Arina kernel[0] <Notice>: IOThunderboltSwitch<0xffffff8031f1ca00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Jul 16 07:23:18 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 07:23:18 MacBook-Pro-Arina kernel[0] <Notice>: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 9
+Jul 16 09:11:11 MacBook-Pro-Arina kernel[0] <Notice>: Wake reason: RTC (Alarm)
+Jul 16 09:11:11 MacBook-Pro-Arina kernel[0] <Notice>: RTC: Maintenance 2015/7/16 06:11:11, sleep 2015/7/16 04:23:19
+Jul 16 09:11:11 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul 16 09:11:11 MacBook-Pro-Arina kernel[0] <Notice>: AppleCamIn::wakeEventHandlerThread

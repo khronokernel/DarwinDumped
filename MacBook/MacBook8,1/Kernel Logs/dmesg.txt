@@ -1,0 +1,220 @@
+nt mismatch
+IGAccelDevice: IOUserClient outputCount count mismatch
+IGAccelDevice: IOUserClient outputCount count mismatch
+Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+process Final Cut Pro[4283] caught causing excessive wakeups. Observed wakeups rate (per sec): 692; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 1143009
+process Final Cut Pro[4283] caught causing excessive wakeups. Observed wakeups rate (per sec): 1174; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 1258299
+AppleHSSPIHIDDriver::InterruptHandlerEntry Transfer number error. Expected: 210 Received: 211IGAccelDevice: IOUserClient outputCount count mismatch
+process RemoteConverter[4361] caught causing excessive wakeups. Observed wakeups rate (per sec): 1032; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 45002
+AppleHSSPIHIDDriver::InterruptHandlerEntry Transfer number error. Expected: 199 Received: 200disk0s3: alignment error.
+disk0s3: alignment error.
+hfs: mounted Recovery HD on device disk0s3
+hfs: unmount initiated on Recovery HD on device disk0s3
+Sandbox: SoftwareUpdateCo(4438) deny(1) authorization-right-obtain system.install.app-store-software.standard-user
+IGAccelDevice: IOUserClient outputCount count mismatch
+IGAccelDevice: IOUserClient outputCount count mismatch
+IGAccelDevice: IOUserClient outputCount count mismatch
+process Final Cut Pro[4478] caught causing excessive wakeups. Observed wakeups rate (per sec): 1281; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 434887
+process Final Cut Pro[4478] caught causing excessive wakeups. Observed wakeups rate (per sec): 1363; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 615562
+Sandbox: launchctl(4531) System Policy: deny(1) mach-priv-task-port
+Sandbox: launchctl(4532) System Policy: deny(1) mach-priv-task-port
+Sandbox: launchctl(4533) System Policy: deny(1) mach-priv-task-port
+Sandbox: launchctl(4534) System Policy: deny(1) mach-priv-task-port
+Sandbox: launchctl(4535) System Policy: deny(1) mach-priv-task-port
+Sandbox: com.apple.Safari(4536) deny(1) mach-lookup com.apple.CoreServices.coreservicesd
+Sandbox: com.apple.Safari(4536) deny(1) file-read-metadata /usr
+Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.apple.Safari/ProductionBag
+process Final Cut Pro[4478] caught causing excessive wakeups. Observed wakeups rate (per sec): 844; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 1056260
+         0 [Level 5] [com.apple.message.domain com.apple.afpfs.sleepState] [com.apple.message.signature asleep] [com.apple.message.success 1] [com.apple.message.value 1459937376] [Message AFPSleepWakeHandler: going to sleep]
+Setting BTCoex Config: enable_2G:1, profile_2g:3, enable_5G:1, profile_5G:0
+PM response took 106 ms (70, coreduetd)
+PM response took 129 ms (84, locationd)
+PM response took 130 ms (277, accountsd)
+PM response took 130 ms (325, IMDPersistenceAg)
+PM response took 130 ms (309, soagent)
+PM response took 130 ms (329, fmfd)
+PM response took 130 ms (272, fontd)
+PM response took 130 ms (300, cloudpaird)
+PM response took 131 ms (4108, netbiosd)
+PM response took 155 ms (318, mapspushd)
+PM response took 155 ms (305, diagnostics_agen)
+PM response took 156 ms (422, IMRemoteURLConne)
+PM response took 156 ms (991, callservicesd)
+PM response took 180 ms (4514, Safari)
+PM response took 181 ms (309, soagent)
+PM response took 281 ms (4514, Safari)
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+IOPMrootDomain: idle cancel, state 1
+         0 [Level 7] [Facility messagetracer] [com.apple.message.domain com.apple.kernel.tcpstat] [com.apple.message.signature tcpinfo] [com.apple.message.signature2 mDNSResponderHel] [com.apple.message.signature3 launchd] [com.apple.message.summarize YES] 
+ARPT: 86967.988775: wl0: setup_keepalive: interval 900, retry_interval 30, retry_count 10
+ARPT: 86967.988798: wl0: setup_keepalive: Local IP: 192.168.33.50
+ARPT: 86967.988810: wl0: setup_keepalive: Remote IP: 17.172.239.143
+ARPT: 86967.988822: wl0: setup_keepalive: Local port: 62794, Remote port: 5223
+ARPT: 86967.988832: wl0: setup_keepalive: Seq: 3221713652, Ack: 1820267326, Win size: 4096
+ARPT: 86967.988869: wl0: MDNS: IPV4 Addr: 192.168.33.50
+ARPT: 86967.988879: wl0: MDNS: IPV6 Addr: fe80:0:0:0:aa66:7fff:fe03:f17c
+ARPT: 86967.988887: wl0: MDNS: 0 SRV Recs, 0 TXT Recs
+ARPT: 86967.988895: wl0: MDNS: 3 UDP ports:  3283  3283  4500 
+ARPT: 86967.988906: wl0: MDNS: 12 TCP ports:  5900  548  445  22  22  3031  5900  548  445  22  22  3031 
+PM response took 3124 ms (53, powerd)
+kern_open_file_for_direct_io(0)
+kern_open_file_for_direct_io took 0 ms
+Opened file /var/log/SleepWakeStacks.bin, size 172032, extents 1, maxio 40000 ssd 1
+polled file major 1, minor 0, blocksize 4096, pollers 3
+AppleCamIn::systemWakeCall - messageType = 0xE0000280
+ARPT: 86971.083415: AirPort_Brcm43xx::powerChange: System Sleep 
+ARPT: 86971.083463: IOPMPowerSource Information: onSleep,  SleepType: Deep Idle,  'ExternalConnected': No, 'TimeRemaining': 0, 
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+en0: BSSID changed to c4:6e:1f:6e:24:3e
+en0: channel changed to 1
+AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+ARPT: 86971.486809: wl0: wl_update_tcpkeep_seq: Original Seq: 3221713652, Ack: 1820267326, Win size: 4096
+         0 [Level 7] [Facility messagetracer] [com.apple.message.domain com.apple.kernel.tcpstat] [com.apple.message.signature tcpinfo] [com.apple.message.signature2 kernel_task] [com.apple.message.signature3 kernel_task] [com.apple.message.summarize YES] 
+ARPT: 86971.486877: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq 3221714409, Ack 1820267326, Win size 330
+ARPT: 86971.486953: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+ARPT: 86971.521307: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable]
+ARPT: 86971.522248: AirPort_Brcm43xx::syncPowerState: WWEN[enabled]
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+         0 [Time 1459955996] [Message Wake reason: RTC (Alarm)
+RTC: Maintenance 2016/4/6 16:30:40, sleep 2016/4/6 15:19:56
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+Previous sleep cause: 5
+AppleIntelLpssSpiController1::_reset: fDmacService is NULL
+AppleIntel16X50UARTSync0::programUART() FlowControl 0, use kFIFO_01of64
+AppleIntel16X50UARTSync0::programUART() FlowControl 0x24, use kFIFO_62of64
+in6_unlink_ifa: IPv6 address 0x2c511cdfbb12b1bd has no prefix
+AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+en0: channel changed to 1
+en0::IO80211Interface::postMessage bssid changed
+en0: 802.11d country code set to 'X3'.
+en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161
+en0: channel changed to 1
+AirPort: Link Up on awdl0
+in6_unlink_ifa: IPv6 address 0x2c511cdfbb12a73d has no prefix
+Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+ARPT: 86974.151597: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+ARPT: 86974.151634: IOPMPowerSource Information: onWake,  SleepType: Deep Idle,  'ExternalConnected': No, 'TimeRemaining': 7640, 
+ARPT: 86974.151731: AirPort_Brcm43xx::platformWoWEnable: WWEN[disable]
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (0x01)
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+AppleCamIn::handleWakeEvent_gated
+AppleCamIn::handleWakeEvent_gated
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+process Final Cut Pro[4478] caught causing excessive wakeups. Observed wakeups rate (per sec): 1031; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 1477058
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+en0: 802.11d country code set to 'RU'.
+en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+PM response took 28003 ms (53, powerd)
+ARPT: 87022.268016: AirPort_Brcm43xx::powerChange: System Sleep 
+ARPT: 87022.268077: IOPMPowerSource Information: onSleep,  SleepType: Deep Idle,  'ExternalConnected': No, 'TimeRemaining': 7640, 
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+en0: channel changed to 1
+AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+ARPT: 87022.378908: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+ARPT: 87022.402520: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable]
+ARPT: 87022.403408: AirPort_Brcm43xx::syncPowerState: WWEN[enabled]
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+         0 [Time 1459960290] [Message Wake reason: ARPT (Network)
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+Previous sleep cause: 5
+AppleIntelLpssSpiController1::_reset: fDmacService is NULL
+in6_unlink_ifa: IPv6 address 0x2c511cdfbb12b30d has no prefix
+AppleIntel16X50UARTSync0::programUART() FlowControl 0, use kFIFO_01of64
+AppleIntel16X50UARTSync0::programUART() FlowControl 0x24, use kFIFO_62of64
+en0: 802.11d country code set to 'X3'.
+en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161
+en0: channel changed to 1
+ARPT: 87024.030295: ARPT: Wake Reason: Wake on Scan offload
+AirPort: Link Up on awdl0
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+ARPT: 87024.865560: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+ARPT: 87024.865597: IOPMPowerSource Information: onWake,  SleepType: Deep Idle,  'ExternalConnected': No, 'TimeRemaining': 7014, 
+ARPT: 87024.865625: ARPT: Wake Reason: Wake on Scan offload
+ARPT: 87024.865706: AirPort_Brcm43xx::platformWoWEnable: WWEN[disable]
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (0x01)
+AppleCamIn::handleWakeEvent_gated
+AirPort: Link Up on en0
+en0: BSSID changed to 00:19:e3:fb:57:fb
+en0: channel changed to 11
+en0::IO80211Interface::postMessage bssid changed
+AirPort: RSN handshake complete on en0
+en0: 802.11d country code set to 'US'.
+en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+Unexpected payload found for message 9, dataLen 0
+Setting BTCoex Config: enable_2G:1, profile_2g:3, enable_5G:1, profile_5G:0
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+AppleCamIn::handleWakeEvent_gated
+         0 [Level 7] [Facility messagetracer] [com.apple.message.domain com.apple.kernel.tcpstat] [com.apple.message.signature tcpinfo] [com.apple.message.signature2 mDNSResponderHel] [com.apple.message.signature3 launchd] [com.apple.message.summarize YES] 
+ARPT: 87055.017952: wl0: setup_keepalive: interval 900, retry_interval 30, retry_count 10
+ARPT: 87055.017960: wl0: setup_keepalive: Local IP: 10.0.255.8
+ARPT: 87055.017964: wl0: setup_keepalive: Remote IP: 17.172.238.11
+ARPT: 87055.017968: wl0: setup_keepalive: Local port: 63798, Remote port: 5223
+ARPT: 87055.017973: wl0: setup_keepalive: Seq: 101272616, Ack: 1666667360, Win size: 4096
+ARPT: 87055.017993: wl0: MDNS: IPV4 Addr: 10.0.255.8
+ARPT: 87055.017998: wl0: MDNS: IPV6 Addr: fe80:0:0:0:aa66:7fff:fe03:f17c
+ARPT: 87055.018002: wl0: MDNS: 0 SRV Recs, 0 TXT Recs
+ARPT: 87055.018007: wl0: MDNS: 3 UDP ports:  3283  3283  4500 
+ARPT: 87055.018016: wl0: MDNS: 12 TCP ports:  5900  548  445  22  22  3031  5900  548  445  22  22  3031 
+PM response took 5359 ms (53, powerd)
+ARPT: 87060.356632: AirPort_Brcm43xx::powerChange: System Sleep 
+ARPT: 87060.356695: IOPMPowerSource Information: onSleep,  SleepType: Deep Idle,  'ExternalConnected': No, 'TimeRemaining': 7014, 
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+en0: BSSID changed to 00:19:e3:fb:57:fb
+en0: channel changed to 11
+AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+ARPT: 87060.463390: wl0: wl_update_tcpkeep_seq: Original Seq: 101272616, Ack: 1666667360, Win size: 4096
+         0 [Level 7] [Facility messagetracer] [com.apple.message.domain com.apple.kernel.tcpstat] [com.apple.message.signature tcpinfo] [com.apple.message.signature2 kernel_task] [com.apple.message.signature3 kernel_task] [com.apple.message.summarize YES] 
+ARPT: 87060.463432: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq 101272616, Ack 1666667360, Win size 166
+ARPT: 87060.463479: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+ARPT: 87060.495116: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable]
+ARPT: 87060.495891: AirPort_Brcm43xx::syncPowerState: WWEN[enabled]
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+         0 [Time 1459961608] [Message Wake reason: EC.LidOpen (User)
+AppleCamIn::systemWakeCall - messageType = 0xE0000320
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+Previous sleep cause: 5
+AppleIntelLpssSpiController1::_reset: fDmacService is NULL
+in6_unlink_ifa: IPv6 address 0x2c511cdfbb12b1bd has no prefix
+AppleIntel16X50UARTSync0::programUART() FlowControl 0, use kFIFO_01of64
+AppleIntel16X50UARTSync0::programUART() FlowControl 0x24, use kFIFO_62of64
+en0: BSSID changed to 00:19:e3:fb:57:fb
+en0: channel changed to 11
+Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+en0: BSSID changed to 00:19:e3:fb:57:fb
+en0: channel changed to 11
+ARPT: 87062.859624: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+ARPT: 87062.859660: IOPMPowerSource Information: onWake,  SleepType: Deep Idle,  'ExternalConnected': No, 'TimeRemaining': 258, 
+ARPT: 87062.859744: AirPort_Brcm43xx::platformWoWEnable: WWEN[disable]
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (0x01)
+PM response took 139 ms (53, powerd)
+AppleCamIn::systemWakeCall - messageType = 0xE0000300
+         0 [Level 5] [com.apple.message.domain com.apple.afpfs.sleepState] [com.apple.message.signature awake] [com.apple.message.success 1] [com.apple.message.value 1459961614] [Message AFPSleepWakeHandler: waking up]
+AirPort: Link Up on awdl0
+en0: BSSID changed to 00:19:e3:fb:57:fb
+en0: channel changed to 11
+IGAccelDevice: IOUserClient outputCount count mismatch
+AppleCamIn::handleWakeEvent_gated
+AppleCamIn::handleWakeEvent_gated
+IGAccelDevice: IOUserClient outputCount count mismatch
+IGAccelDevice: IOUserClient outputCount count mismatch
+process Final Cut Pro[4478] caught causing excessive wakeups. Observed wakeups rate (per sec): 1419; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 1660133

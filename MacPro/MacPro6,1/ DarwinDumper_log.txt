@@ -1,0 +1,219 @@
+========================================================
+Welcome to DarwinDumper 2.9.9.1
+Thu Nov 19 13:20:26 MSK 2015
+System Version: OS X 10.11.1 (15B42)
+Security Integrity Configuration: Enabled (00) | Internal (00)
+========================================================
+Initialisation info
+--------------------------------------------------------
+*/Users/AleamsPro/Library/Preferences/org.tom.DarwinDumper not found.
+*Save path - Default: Will use /Users/AleamsPro/Downloads/DarwinDumper_v2.9.9.1
+*Symlink check: Symlink has not been created.
+*Save path: User changed to /Volumes/Silver Nox/Yosy backup/DarwinDump MacPro
+*UI: User clicked the run button
+*Save path verify: Path exists.
+*Save path verify: Path is writeable.
+*Save path verify: Path does not end with DarwinDumperReports.
+*Save path: Creating /Volumes/Silver Nox/Yosy backup/DarwinDump MacPro/DarwinDumperReports
+*Save path: Currently owned by user:501 of group:20 with permissions: 755
+*Save path: /Volumes/Silver Nox/Yosy backup/DarwinDump MacPro/DarwinDumperReports is now owned by AleamsPro:staff with permissions 755
+*User Chose: Archive Zip
+*User Chose: Audio Codec
+*User Chose: System BIOS
+*User Chose: Video BIOS
+*User Chose: Boot Loaders and Disk Sectors
+*User Chose: Disk Loader Configs
+*User Chose: Disk Partitions
+*User Chose: Firmware Memory Map
+*User Chose: Kernel dmesg
+*User Chose: Kexts
+*User Chose: LSPCI
+*User Chose: ACPI tables
+*User Chose: Apple System Log
+*User Chose: Firmware (Boot) Log
+*User Chose: CPU Information
+*User Chose: Device Properties
+*User Chose: DMI Tables
+*User Chose: EDID
+*User Chose: IORegistry
+*User Chose: Kernel Info
+*User Chose: NVRAM
+*User Chose: Open CL
+*User Chose: RC Scripts
+*User Chose: RTC
+*User Chose: SIP
+*User Chose: SMC Keys
+*User Chose: System Profiler
+*User Chose: Report
+--------------------------------------------------------
+000s : +Started process DumpFilesKernelLogs: pid 5354
+** Root privileges required to dump kernel dmesg.
+          Attempting to read last ASL boot log...
+000s : +Started process DumpFilesAppleSystemLog: pid 5357
+000s : -Completed DumpFilesKernelLogs
+000s : +Started process DumpFilesSystemProfilerInfo: pid 5361
+000s : +Started process DumpFilesDiskUtilConfigsAndLoaders: pid 5366
+** Root privileges required to dump system bios.
+000s : +Started process DumpFilesBiosROM: pid 5370
+000s : -Completed DumpFilesBiosROM
+** Root privileges required to dump video bios.
+000s : +Started process DumpFilesBiosVideoROM: pid 5375
+000s : -Completed DumpFilesBiosVideoROM
+          Preparing to read disks...
+          Note: There may be a delay if any disks are sleeping
+          System has been booted for 3:18
+          Apple System Log file no longer exists.
+001s : -Completed DumpFilesAppleSystemLog
+          Check: /System Profiler/System-Profiler.spx created.
+          Scanning disk: disk0
+          Reading partition info for: disk0
+          Searching for Bootloader files on disk0s1
+          Searching for Bootloader files on disk0s2
+          Found /Volumes/Aleams S/EFI/CLOVER/config.plist
+          Found /Volumes/Aleams S/EFI/CLOVER/OEM/SystemProductName/config.plist
+          Found /Volumes/Aleams S/EFI/CLOVER/OEM/SystemProductName/UEFI/config.plist
+          Found /Volumes/Aleams S/Library/Preferences/SystemConfiguration/com.apple.Boot.plist
+          Check: /System Profiler/System-Profiler.txt created.
+019s : -Completed DumpFilesSystemProfilerInfo
+          Searching for Bootloader files on disk0s3
+          Scanning disk: disk1
+          Reading partition info for: disk1
+          Searching for Bootloader files on disk1s1
+          Searching for Bootloader files on disk1s3
+          Scanning disk: disk2
+          Reading partition info for: disk2
+          Searching for Bootloader files on disk2s1
+          Searching for Bootloader files on disk2s3
+          Scanning disk: disk3
+          Reading partition info for: disk3
+          Scanning disk: disk4
+          Reading partition info for: disk4
+          Searching for Bootloader files on disk4s1
+          Searching for Bootloader files on disk4s2
+027s : -Completed DumpFilesDiskUtilConfigsAndLoaders
+027s : +Started process DumpFilesAcpiTables: pid 6730
+027s : +Started process DumpFilesAudioCodec: pid 6734
+027s : +Started process DumpFilesFirmwareMemoryMap: pid 6740
+          Dumping Kext lists...
+027s : +Started process DumpFilesKextLists: pid 6748
+027s : +Started process DumpFilesBootLog: pid 6755
+027s : +Started process DumpFilesDeviceProperties: pid 6766
+027s : +Started process DumpFilesOpenCLInfo: pid 6773
+          Boot Log not available.
+027s : +Started process DumpFilesKernelInfo: pid 6783
+027s : -Completed DumpFilesBootLog
+027s : -Completed DumpFilesFirmwareMemoryMap
+027s : +Started process DumpSip: pid 6789
+027s : +Started process DumpFilesSmcKeys: pid 6795
+027s : +Started process DumpFilesRtc: pid 6801
+          Check: /SIP/SIP_status.txt created.
+027s : -Completed DumpSip
+027s : +Started process DumpFilesRcScripts: pid 6808
+          Check: /RC Scripts/rc.clover.lib created.
+          Check: /Kernel Info/sysctl_cpu.txt created.
+          Check: /OpenCL/openCLinfo.txt created.
+027s : -Completed DumpFilesRcScripts
+027s : -Completed DumpFilesOpenCLInfo
+          Check: /Kernel Info/sysctl_hw.txt created.
+          Check: /Kernel Info/sysctl_machdep_xcpm.txt created.
+027s : -Completed DumpFilesKernelInfo
+          Check: /Device Properties/device-properties.hex created.
+          Check: /Device Properties/device-properties.plist created.
+027s : -Completed DumpFilesDeviceProperties
+          Audio: AppleHDA is loaded.
+          Audio: VoodooHDA is not loaded.
+          Audio: Attempting to load VoodooHDA.kext to run the getdump tool.
+          Audio: ** Root privileges are required to load VoodooHDA.kext.
+          Found ACPI table: RSDT
+          Disassembled ACPI table: RSDT
+          Found ACPI table: SSDT-2
+          Check: /Kexts/NonAppleKexts.txt created.
+          Found ACPI table: SSDT-7
+          Audio: Failed to load VoodooHDA.kext.
+          Audio: Running getcodecid
+          Found ACPI table: SSDT-1
+          Audio: pci.ids uncompressed
+          Found ACPI table: SSDT
+          Found ACPI table: SSDT-6
+          Found ACPI table: DMAR
+          Disassembled ACPI table: DMAR
+          Found ACPI table: HPET
+          Disassembled ACPI table: HPET
+          Found ACPI table: VFCT
+          Check: /Kexts/AppleKexts.txt created.
+028s : -Completed DumpFilesKextLists
+          Check: /Audio/AudioCodecID.txt created.
+          Audio: getcodecid completed audio codec ID dump
+028s : -Completed DumpFilesAudioCodec
+          Disassembled ACPI table: VFCT
+          Found ACPI table: APIC
+          Disassembled ACPI table: APIC
+          Found ACPI table: MCFG
+          Disassembled ACPI table: MCFG
+          Found ACPI table: FACP
+          Disassembled ACPI table: FACP
+          Found ACPI table: SSDT-5
+          Found ACPI table: DSDT
+          Found ACPI table: FACS
+          Disassembled ACPI table: FACS
+          Found ACPI table: SSDT-4
+          Check: /SMC/SMC-keys.txt created.
+          Check: /SMC/SMC-fans.txt created.
+          Found ACPI table: SSDT-3
+028s : -Completed DumpFilesSmcKeys
+          Disassembling DSDT and SSDT's (9 files in total) as multiple tables from single namespace...
+          Check: /RTC/RTCDump.txt created.
+028s : -Completed DumpFilesRtc
+          Disassembling was successful.
+028s : -Completed AcpiTables
+** Root privileges required to load DirectHW.kext and run lspci.
+029s : +Started process DumpFilesLspci: pid 7052
+029s : -Completed DumpFilesLspci
+029s : +Started process DumpFilesDmiTables: pid 7055
+029s : +Started process DumpFilesNvram: pid 7059
+029s : +Started process DumpFilesEdid: pid 7063
+          Check: /NVRAM/nvram.plist created.
+029s : +Started process DumpFilesCpuInfo: pid 7069
+          Check: /NVRAM/nvram_hexdump.txt created.
+          Check: /DMI Tables/SMBIOS.bin created.
+          Check: /NVRAM/nvram.plist created.
+029s : -Completed DumpFilesNvram
+          Check: /DMI Tables/SMBIOS.txt created.
+029s : -Completed DumpFilesDmiTables
+          Found 1 EDID in ioreg
+          Check: /EDID/EDID.txt created.
+          Check: /EDID/EDID.bin created.
+029s : -Completed DumpFilesEdid
+          Check: /CPU/cpuinfo.txt created.
+030s : -Completed DumpFilesCpuInfo
+          Running ioregwv...
+030s : +Started process DumpFilesIoreg: pid 7098
+033s : -Completed DumpFilesIoreg
+========================================================
+Dumps complete after: 33 seconds
+--------------------------------------------------------
+Creating HTML report...
+          adding ACPI tables
+          adding VoodooHDAGetdump.txt
+          adding diskutil & loader info
+          adding Bootloader config files
+          adding CPU Information
+          adding device properties
+          adding disk & volume UIDs
+          adding DMI dump
+          adding EDID.txt
+          adding firmware memory map
+          adding IORegistry Viewer
+          adding kernel logs
+          adding kernel info
+          adding kext dumps
+          adding nvram info
+          adding OpenCL dump
+          adding RC Startup and Shutdown scripts
+          adding RTC dump
+          adding SIP dump
+          adding SMC dumps
+          adding System Profiler dump
+========================================================
+DarwinDumper Completed in: 79 seconds
+========================================================

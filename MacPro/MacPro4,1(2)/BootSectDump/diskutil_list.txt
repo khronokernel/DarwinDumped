@@ -1,0 +1,36 @@
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk0
+   1:                        EFI                         209.7 MB   disk0s1
+   2:                  Apple_HFS Intel                   119.7 GB   disk0s2
+/dev/disk1
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk1
+   1:                        EFI                         209.7 MB   disk1s1
+   2:                  Apple_HFS WORK                    999.9 GB   disk1s2
+/dev/disk2
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.5 TB     disk2
+   1:                        EFI                         209.7 MB   disk2s1
+   2:                  Apple_HFS ARHIVE_1                1.5 TB     disk2s2
+/dev/disk3
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk3
+   1:                        EFI                         209.7 MB   disk3s1
+   2:                  Apple_HFS TM                      999.9 GB   disk3s2
+/dev/disk4
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk4
+   1:                        EFI                         209.7 MB   disk4s1
+   2:                  Apple_HFS ARHIVE_2                999.7 GB   disk4s2
+/dev/disk5
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *15.5 GB    disk5
+   1:                 DOS_FAT_32 CLOVER_SL               1.0 GB     disk5s1
+   2:                  Apple_HFS 14_Gb                   14.5 GB    disk5s2
+/dev/disk6
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:        CD_partition_scheme                        *37.7 MB    disk6
+   1:     Apple_partition_scheme                         32.8 MB    disk6s0
+   2:        Apple_partition_map                         17.9 KB    disk6s0s1
+   3:                  Apple_HFS Beeline                 32.5 MB    disk6s0s2

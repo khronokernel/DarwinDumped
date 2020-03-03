@@ -1,0 +1,158 @@
+========================================================
+Welcome to DarwinDumper 2.8.8
+Mon May 26 01:25:55 MSK 2014
+System Version: OS X 10.9.3 (13D65)
+========================================================
+Initialisation info
+--------------------------------------------------------
+*/Users/plievasabina/Library/Preferences/org.tom.DarwinDumper not found.
+*Save path - Default: Will use /Applications/DarwinDumper_v2.8.8
+*Symlink check: Symlink has not been created.
+*Version check: Newer v2.9.2 is available.
+*UI: User clicked the run button
+*Save path verify: Path exists.
+*Save path verify: Path is writeable.
+*Save path verify: Path does not end with DarwinDumperReports.
+*Save path: Creating /Applications/DarwinDumper_v2.8.8/DarwinDumperReports
+*Save path: /Applications/DarwinDumper_v2.8.8/DarwinDumperReports is now owned by plievasabina:staff with permissions 755
+--------------------------------------------------------
+000s : +Started process DumpFilesSystemProfilerInfo: pid 1565
+000s : +Started process DumpFilesDiskUtilConfigsAndLoaders: pid 1570
+000s : +Started process DumpFilesBiosROM: pid 1578
+000s : +Started process DumpFilesBiosVideoROM: pid 1580
+          Preparing to read disks...
+          Note: There may be a delay if any disks are sleeping
+          Loading RadeonPCI.kext
+          Loading DirectHW.kext
+          Running RadeonDump
+          Number of legacy VBIOS ROM's dumped: 0
+          Unloading RadeonPCI.kext
+          Note: System Profiler shows more GPUs than dumped VBIOS ROM's.
+          Number of ATI ROM images found in IORegistry: 0
+001s : -Completed DumpFilesBiosVideoROM
+          Scanning disk: disk0
+          Reading partition info for: disk0
+          Scanning & interpreting partition table for disk0
+          Searching for Bootloader files on disk0s1
+          Searching for Bootloader files on disk0s2
+009s : -Completed DumpFilesBiosROM
+023s : -Completed DumpFilesSystemProfilerInfo
+          Found /Volumes/Macintosh HD/Library/Preferences/SystemConfiguration/com.apple.Boot.plist
+          Scanning disk: disk1
+          Reading partition info for: disk1
+          Scanning & interpreting partition table for disk1
+          Searching for Bootloader files on disk1s1
+          Searching for Bootloader files on disk1s2
+          Searching for Bootloader files on disk1s3
+          Found /Volumes/OS X Lion Install Disk - 10.7.5/Library/Preferences/SystemConfiguration/com.apple.Boot.plist
+          Searching for Bootloader files on disk1s4
+          Found /Volumes/OS X Mountain Lion Install Disk - 10.8.5/Library/Preferences/SystemConfiguration/com.apple.Boot.plist
+          Searching for Bootloader files on disk1s5
+          Found /Volumes/OS X 10.9 Install Disk - 10.9.3/Library/Preferences/SystemConfiguration/com.apple.Boot.plist
+          Searching for Bootloader files on disk1s6
+          Searching for Bootloader files on disk1s7
+          Found /Volumes/BootTest/Library/Preferences/SystemConfiguration/com.apple.Boot.plist
+          Searching for Bootloader files on disk1s8
+          Searching for Bootloader files on disk1s9
+          Searching for Bootloader files on disk1s10
+037s : -Completed DumpFilesDiskUtilConfigsAndLoaders
+037s : +Started process DumpFilesAcpiTables: pid 7050
+037s : +Started process DumpFilesAudioCodec: pid 7053
+037s : +Started process DumpFilesFirmwareMemoryMap: pid 7061
+037s : +Started process DumpFilesKextLists: pid 7068
+          Dumped Apple_X64 Firmware log.
+037s : +Started process DumpFilesFirmwareLog: pid 7073
+037s : +Started process DumpFilesDeviceProperties: pid 7075
+037s : -Completed DumpFilesFirmwareLog
+037s : +Started process DumpFilesOpenCLInfo: pid 7079
+037s : +Started process DumpFilesKernelInfo: pid 7086
+037s : +Started process DumpFilesKernelBootMessages: pid 7090
+037s : +Started process DumpFilesSmcKeys: pid 7095
+          Audio: AppleHDA is loaded.
+037s : +Started process DumpFilesRtc: pid 7099
+          Dumping Apple Kext list...
+038s : +Started process DumpFilesRcScripts: pid 7104
+          Audio: Running getcodecid
+038s : -Completed DumpFilesKernelBootMessages
+          Found ACPI table: MCFG
+038s : -Completed DumpFilesRcScripts
+038s : -Completed DumpFilesDeviceProperties
+038s : -Completed DumpFilesKernelInfo
+038s : -Completed DumpFilesKextLists
+          Audio: getcodecid completed audio codec ID dump
+          Audio: VoodooHDA is not loaded.
+          Audio: Attempting to load VoodooHDA.kext to run the getdump tool.
+          Found ACPI table: RSDT
+038s : -Completed DumpFilesOpenCLInfo
+          Found ACPI table: SSDT-2
+          Found ACPI table: SSDT-7
+          Found ACPI table: SSDT-1
+          Found ACPI table: SSDT
+          Found ACPI table: SSDT-6
+          Found ACPI table: HPET
+          Audio: Loading VoodooHDA.kext...
+          Found ACPI table: DMAR
+          Found ACPI table: APIC
+          Found ACPI table: SBST
+          Found ACPI table: FACP
+          Audio: Waiting 2 seconds before running VoodooHDA's getdump.
+038s : -Completed DumpFilesSmcKeys
+          Found ACPI table: SSDT-5
+          Found ACPI table: DSDT
+          Found ACPI table: FACS
+          Found ACPI table: ECDT
+          Found ACPI table: SSDT-4
+          Found ACPI table: SSDT-3
+038s : -Completed AcpiTables
+039s : -Completed DumpFilesRtc
+          Audio: Running VoodooHDA's getdump...
+          Audio: Unloading VoodooHDA.kext
+          Audio: VoodooHDA's getdump tool failed to produce a dump.
+          Audio: AppleHDA needs to be disabled for this dump to work properly.
+040s : -Completed DumpFilesAudioCodec
+052s : -Completed DumpFilesFirmwareMemoryMap
+053s : +Started process DumpFilesLspci: pid 7370
+          Update pciids database
+053s : +Started process DumpFilesDmiTables: pid 7373
+053s : +Started process DumpFilesNvram: pid 7379
+053s : +Started process DumpFilesEdid: pid 7383
+053s : -Completed DumpFilesNvram
+053s : -Completed DumpFilesDmiTables
+053s : -Completed DumpFilesEdid
+          Update pciids
+          Dumping LSPCI info...
+          Loading DirectHW.kext
+057s : -Completed DumpFilesLspci
+057s : +Started process DumpFilesIoreg: pid 7435
+          Running ioregwv...
+059s : -Completed DumpFilesIoreg
+          Unloading DirectHW.kext
+========================================================
+Dumps complete after: 59 seconds
+--------------------------------------------------------
+Creating HTML report...
+          adding ACPI tables
+          adding VoodooHDAGetdump.txt
+          adding BIOS flashrom_log.txt
+          adding diskutil & loader info
+          adding Bootloader config files
+          adding device properties
+          adding partition table info
+          adding disk & volume UIDs
+          adding EDID.txt
+          adding firmware memory map
+          adding IORegistry Viewer
+          adding boot messages
+          adding kernel info
+          adding kext dumps
+          adding LSPCI dumps
+          adding NVRAM nvram_hexdump.txt
+          adding NVRAM uefi_firmware_vars.txt
+          adding OpenCL dump
+          adding RTC dump
+          adding SMBIOS dump
+          adding SMC dumps
+          adding System Profiler dump
+========================================================
+DarwinDumper Completed in: 75 seconds
+========================================================

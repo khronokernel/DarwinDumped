@@ -1,0 +1,11 @@
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *121.3 GB   disk0
+   1:                        EFI                         209.7 MB   disk0s1
+   2:                  Apple_HFS Macintosh HD            120.5 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+/dev/disk2
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     Apple_partition_scheme                        *5.6 MB     disk2
+   1:        Apple_partition_map                         32.3 KB    disk2s1
+   2:                  Apple_HFS TotalTerminal           5.6 MB     disk2s2

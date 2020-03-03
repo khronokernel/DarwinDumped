@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SystemParameters</key>
+	<dict>
+		<key>boot-args</key>
+		<string>-v</string>
+		<key>prev-lang:kbd</key>
+		<string>ru:0</string>
+		<key>DefaultBootVolume</key>
+		<string>HD</string>
+		<key>CustomUUID</key>
+		<string>9246DC7D-BEB8-4A0A-8A02-1BDF8BC2D8AE</string>
+		<key>InjectSystemID</key>
+		<string>No</string>
+		<key>iCloudFix</key>
+		<string>No</string>
+	</dict>
+	<key>Graphics</key>
+	<dict>
+		<key>GraphicsInjector</key>
+		<string>Yes</string>
+		<key>FBName</key>
+		<string>Eulemur</string>
+	</dict>
+	<key>Pointer</key>
+	<dict>
+		<key>Speed</key>
+		<string>5</string>
+	</dict>
+	<key>PCI</key>
+	<dict>>
+		<key>HDAInjection</key>
+		<string>NO</string>
+	</dict>
+	<key>SMBIOS</key>
+	<dict>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+	    <key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ProductName</key>
+		<string>MacPro1,1</string>
+		<key>Version</key>
+		<string>1.0</string>
+		<key>Family</key>
+		<string>MacPro</string>
+		<key>BiosVersion</key>
+        <string>MP11.88Z.005D.B00.07091413540</string>
+</dict>
+</plist>

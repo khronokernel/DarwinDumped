@@ -1,0 +1,22 @@
+[
+{"data":{"title":"built-in"},"attr":{"id":"7034","ColType":"Data","ColValue":"&lt;00&gt;"}},
+{"data":{"title":"IODeviceMemory"},"attr":{"id":"7036","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"7037","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"7038","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"address"},"attr":{"id":"7040","ColType":"Number","ColValue":"549775945728"}},{"data":{"title":"length"},"attr":{"id":"7042","ColType":"Number","ColValue":"256"}}]}]},{"data":{"title":"1"},"attr":{"id":"7043","ColType":"String","ColValue":"IOSubMemoryDescriptor is not serializable"}}]},
+{"data":{"title":"device-id"},"attr":{"id":"7045","ColType":"Data","ColValue":"&lt;a3a20000&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"7047","ColType":"Data","ColValue":"&lt;\"pci8086,a2a3\"&gt;"}},
+{"data":{"title":"acpi-path"},"attr":{"id":"7049","ColType":"String","ColValue":"IOACPIPlane:/_SB/PCI0@0/SBUS@1f0004"}},
+{"data":{"title":"IOName"},"attr":{"id":"7051","ColType":"String","ColValue":"pci8086,a2a3"}},
+{"data":{"title":"vendor-id"},"attr":{"id":"7053","ColType":"Data","ColValue":"&lt;86800000&gt;"}},
+{"data":{"title":"revision-id"},"attr":{"id":"7055","ColType":"Data","ColValue":"&lt;00000000&gt;"}},
+{"data":{"title":"IOPCIResourced"},"attr":{"id":"7057","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"acpi-device"},"attr":{"id":"7059","ColType":"String","ColValue":"IOACPIPlatformDevice is not serializable"}},
+{"data":{"title":"subsystem-vendor-id"},"attr":{"id":"7061","ColType":"Data","ColValue":"&lt;86800000&gt;"}},
+{"data":{"title":"IOInterruptControllers"},"attr":{"id":"7063","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"7064","ColType":"String","ColValue":"io-apic-0"}}]},
+{"data":{"title":"pcidebug"},"attr":{"id":"7066","ColType":"String","ColValue":"0:31:4"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"7068","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"7070","ColType":"Number","ColValue":"2"}},{"data":{"title":"ChildProxyPowerState"},"attr":{"id":"7072","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"7074","ColType":"Number","ColValue":"3"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"7076","ColType":"Number","ColValue":"258"}}]},
+{"data":{"title":"class-code"},"attr":{"id":"7078","ColType":"Data","ColValue":"&lt;00050c00&gt;"}},
+{"data":{"title":"compatible"},"attr":{"id":"7080","ColType":"Data","ColValue":"&lt;\"pci8086,7270\",\"pci8086,a2a3\",\"pciclass,0c0500\",\"SBUS\"&gt;"}},
+{"data":{"title":"subsystem-id"},"attr":{"id":"7082","ColType":"Data","ColValue":"&lt;70720000&gt;"}},
+{"data":{"title":"assigned-addresses"},"attr":{"id":"7084","ColType":"Data","ColValue":"&lt;10fc00828000000000303301000000000001000020fc008100000000002000000000000020000000&gt;"}},
+{"data":{"title":"reg"},"attr":{"id":"7086","ColType":"Data","ColValue":"&lt;00fc00000000000000000000000000000000000010fc00020000000000000000000000000001000020fc000100000000000000000000000020000000&gt;"}},
+{"data":{"title":"IOInterruptSpecifiers"},"attr":{"id":"7088","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"7089","ColType":"Data","ColValue":"&lt;1000000007000000&gt;"}}]}
+]

@@ -1,0 +1,1471 @@
+Audio:
+
+    Devices:
+
+        Built-in Microphone:
+
+          Default Input Device: Yes
+          Input Channels: 2
+          Manufacturer: Apple Inc.
+          Current SampleRate: 44100
+          Transport: Built-in
+          Input Source: Internal Microphone
+
+        Built-in Output:
+
+          Default Output Device: Yes
+          Default System Output Device: Yes
+          Manufacturer: Apple Inc.
+          Output Channels: 2
+          Current SampleRate: 44100
+          Transport: Built-in
+          Output Source: Internal Speakers
+
+Bluetooth:
+
+      Apple Bluetooth Software Version: 6.0.0f7
+      Hardware, Features, and Settings:
+          Bluetooth Low Energy Supported: Yes
+          Handoff Supported: Yes
+          Instant Hot Spot Supported: Yes
+          Manufacturer: Broadcom
+          Transport: UART
+          Chipset: 4350
+          Firmware Version: v114 c5562
+          Connectable: Yes
+          Auto Seek Pointing: On
+          Remote wake: On
+          Vendor ID: 0x05AC
+          Product ID: 0x005C
+          Auto Seek Keyboard: On
+      Devices (Paired, Configured, etc.):
+          Device 0:
+              Major Type: Audio
+              Minor Type: Headphones
+              Services: Handsfree, Wireless iAP, AVRCP Controller, Audio Sink, AVRCP Target, AAP Server
+              Manufacturer: Apple (0x6, 0x03)
+              Firmware Version: 0x0372
+              Vendor ID: 0x004C
+              Product ID: 0x2002
+              EDR Supported: Yes
+              eSCO Supported: Yes
+              SSP Supported: Yes
+          Device 1:
+              Major Type: Miscellaneous
+              Minor Type: Unknown
+              Services: 
+          Device 2:
+              Major Type: Miscellaneous
+              Minor Type: Unknown
+              Services: 
+
+Camera:
+
+    FaceTime HD Camera:
+
+      Model ID: Apple Camera VendorID_0x106B ProductID_0x1570
+      Unique ID: DJH7233ESPWGJKD1H
+
+Diagnostics:
+
+    Power On Self-Test:
+
+      Last Run: 06.10.2017, 11:00
+      Result: Passed
+
+    Apple Diagnostics:
+
+      Last Run: 01.08.2017, 09:07
+      Version: 1.0.25
+      Reference Code(s): ADP000
+
+Graphics/Displays:
+
+    Intel Iris Plus Graphics 640:
+
+      Chipset Model: Intel Iris Plus Graphics 640
+      Type: GPU
+      Bus: Built-In
+      VRAM (Dynamic, Max): 1536 MB
+      Vendor: Intel
+      Device ID: 0x5926
+      Revision ID: 0x0006
+      Metal: Supported, feature set OSX_GPUFamily1 v2
+      Displays:
+        Color LCD:
+          Display Type: Built-In Retina LCD
+          Resolution: 2560 x 1600 Retina
+          Framebuffer Depth: 24-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Rotation: Supported
+          Automatically Adjust Brightness: No
+
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro14,1
+      Processor Name: Intel Core i5
+      Processor Speed: 2,3 GHz
+      Number of Processors: 1
+      Total Number of Cores: 2
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 4 MB
+      Memory: 8 GB
+      Boot ROM Version: MBP141.0167.B00
+      SMC Version (system): 2.43f6
+
+Memory:
+
+    Memory Slots:
+
+      ECC: Disabled
+      Upgradeable Memory: No
+
+        BANK 0/DIMM0:
+
+          Size: 4 GB
+          Type: LPDDR3
+          Speed: 2133 MHz
+          Status: OK
+          Manufacturer: 0x802C
+          Part Number: 0x4D5435324C3531324D3332443250462D3039
+
+        BANK 1/DIMM0:
+
+          Size: 4 GB
+          Type: LPDDR3
+          Speed: 2133 MHz
+          Status: OK
+          Manufacturer: 0x802C
+          Part Number: 0x4D5435324C3531324D3332443250462D3039
+
+NVMExpress:
+
+    Apple SSD Controller:
+
+        APPLE SSD AP0128J:
+
+          Capacity: 121,33 GB (121 332 826 112 bytes)
+          TRIM Support: Yes
+          Model: APPLE SSD AP0128J
+          Revision: 16.14.01
+          Link Width: x4
+          Link Speed: 8.0 GT/s
+          Detachable Drive: No
+          BSD Name: disk0
+          Partition Map Type: GPT (GUID Partition Table)
+          Removable Media: No
+
+Network:
+
+    AX88772 :
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en5
+      Service Order: 0
+
+    iPad:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en6
+      Service Order: 1
+
+    Wi-Fi:
+
+      Type: AirPort
+      Hardware: AirPort
+      BSD Device Name: en0
+      Service Order: 2
+
+    iPhone:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en4
+      Service Order: 3
+
+    Bluetooth PAN:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en3
+      Service Order: 4
+
+    Thunderbolt Bridge:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: bridge0
+      Service Order: 5
+
+Printer Software:
+
+    PPDs:
+
+      PPDs:
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 2620 All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP LJ 300 color MFP M375 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 4200 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP ColorLaserJet MFP M278-M281 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 3050 J610 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP LaserJet M1530 MFP Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP LaserJet 400 MFP M425 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet Pro 6970 All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP DeskJet 5730 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 4300 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 6600 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP ENVY Photo 7800 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 2520 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 4500 G510n-z Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 3510 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet Pro 8710 All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 6950 All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro 8640 e-All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP LJ Pro MFP M127-M128 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Photosmart Prem C410 Japan Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP DeskJet 1110 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 4100 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Color LaserJet Pro MFP M277 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro 8500 A909n Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet Pro 8500 A910 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Ink Tank Wireless 410 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet Pro 8720 All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 6960 All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 2000 J210 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 7510 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Color LaserJet CM2320 MFP Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 4500 G510g-m Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro 8600 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP LaserJet Pro MFP M426f-M427f Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Photosmart C6100 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Ink Tank 310 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP PageWide P77740-60 MFP Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP DeskJet 5820 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP PageWide Pro 772-777z MFP Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 6800 e-All-in-one Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Color LaserJet Pro MFP M477 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 1000 J110 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Photosmart C4340 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 7610 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 6700 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 8700 All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 2540 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 2050 J510 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 7500 E910 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro X476-X576 MFP Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet J6400 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro 8500 A909a Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP PageWide MFP P57750 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet Pro 8740 All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Photosmart 7520 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 5200 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Color LJ Pro MFP M177 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 2510 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet J3600 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet Pro 8730 All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP DeskJet 2200 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP LaserJet M1522 MFP Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP PageWide MFP P77740-60zs Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP ENVY 7640 e-All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Photosmart C7200 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet Pro 7720 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP DeskJet 5810 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 5500 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON FAX A3.gz
+          Version: 1.71
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 4650 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP DeskJet 5730 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 6500 E710n-z Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 6500 E709n Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP PageWide Pro 772-777 MFP Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet Pro 6960 All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro 8610 e-All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 2620 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP DeskJet 5200 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Smart Tank 350 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro 8650 e-All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP AMP.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 3830 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro 3620 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Photosmart C309a series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP DeskJet 4720 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Photosmart C7100 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 1010 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 5600 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet Pro 7740 Wide Format All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP LaserJet MFP M129-M134 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Photosmart 2700 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 4630 e-All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet J4660 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Photosmart 2600 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Color LaserJet CM1312 MFP Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 1510 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet Pro 7730 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP PageWide Pro 577 MFP Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP LaserJet Pro MFP M225-M226 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 2640 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP LaserJet 500 color MFP M570 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP DeskJet 4670 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Color LaserJet Pro MFP M476 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP LaserJet MFP M227-M231 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro 8500 A909g Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet J5700 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 6300 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 5740 e-All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP ColorLaserJet MFP M178-M181 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 6200 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro 6830 e-All-in-one Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro 8630 e-All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP PageWide MFP P52750 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet Ink Advantage 2640 All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet J4680 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 6500 E710a-f Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP DeskJet 3830 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP LJ 400 color MFP M475 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP DeskJet 2130 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 4610 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 4500 K710 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP PSC 2400 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP PageWide P77740-60z MFP Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro L7300 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro 8620 e-All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP PageWide Pro 477 MFP Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 7400 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro 276dw MFP Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP LaserJet CM1410 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP PSC 2500 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro 8660 e-All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP DeskJet 3630 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 4500 G510a-f Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP DeskJet 2600 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet Ink Adv 2010 K010 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 3000 J310 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 3830 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet Pro 8732M Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 4620 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet Ink Advantage 4640 e-All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet J4500 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Photosmart Prem C410 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 2020 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP PageWide 377 MFP Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP DeskJet 3700 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 1050 J410 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro L7600 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP LaserJet M2727 MFP Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 4610 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Smart Tank Wireless 450 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 6500 E709a Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP LaserJet Pro MFP M521 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Photosmart 3100 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet 3050A J611 series.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Photosmart Prem-Web C309n-s Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON FAX.gz
+          Version: 1.71
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro L7700 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP DeskJet 3830 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 7300 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Deskjet Ink Adv 2060 K110.ppd.gz
+          Version: 2.11.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet Pro L7500 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 4620 series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 4105 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Officejet 8040 e-All-in-One Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP Photosmart 3300 Series Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP LaserJet 200 color MFP M276 Fax.ppd.gz
+          Version: 5.28.0
+          Path: /Library/Printers/PPDs/Contents/Resources/HP OfficeJet 7200 Series Fax.ppd.gz
+          Version: 5.28.0
+
+    Printers:
+
+      Printers:
+          Path: /Library/Printers/hp/Fax/fax.backend/Contents/Info.plist
+          Version: 5.28.0
+          Path: /Library/Printers/hp/Fax/rastertofax.filter/Contents/Info.plist
+          Version: 5.28.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/PaperHandling.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ContactSupport.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/SystemMaintenance.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/AssignICCProfile.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/IQTroubleshooting.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/DMF.discovery/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/UpdateFirmware.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ColorCalibration.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/CartridgeProtection.hptask/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/OutputDevices.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/DateTime.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/WebServer.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/EmailNotifications.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/HPColorCenter.assistant/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ConfigurationPage.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/DPOF.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanjetEnergy.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/SecureUpgrade.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/PowerManagement.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/PrinterSettings.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/CalibrateScanner.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FileUpload.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/PenAlignment.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxLogs.task/Contents/Resources/FaxCallerIDInfo.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxLogs.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/TestPage.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ProductImprovementStudy.hptask/Contents/Helpers/HP Product Research Manager.app/Contents/Library/LoginItems/HP Product Research.app/Contents/Resources/HP Data Uploader.app/Contents/Info.plist
+          Version: 10.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ProductImprovementStudy.hptask/Contents/Helpers/HP Product Research Manager.app/Contents/Library/LoginItems/HP Product Research.app/Contents/Info.plist
+          Version: 10.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ProductImprovementStudy.hptask/Contents/Helpers/HP Product Research Manager.app/Contents/Info.plist
+          Version: 10.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ProductImprovementStudy.hptask/Contents/Info.plist
+          Version: 10.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/PrinterDocumentation.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ProfPhotographyCenter.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Universal.monitor/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanjetInfo.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/LegacyScanShortcutsManager.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ColorUsage.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/DeviceDiscoveryAssistant.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/TravelInfo.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/UserRolesManagement.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Bluetooth.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ePrintMobile.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/DesignjetStoredJobs.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/AutoWirelessConnect.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/AutomaticPenAlignment.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/DesignjetAssistant.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/NetworkSettings.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanShortcutsManager.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ColorCleaning.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ResourcesLocking.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ManagePapers.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Resolution.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/UploadFonts.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/JobAccounting.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Message Center.task/Contents/PlugIns/AlertMessagePlugin.EventHandler/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Message Center.task/Contents/PlugIns/HPACfEventPlugin.EventHandler/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Message Center.task/Contents/PlugIns/HPSuppliesStatusEventPlugin.EventHandler/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Message Center.task/Contents/PlugIns/HPOutOfPaperEventPlugin.EventHandler/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Message Center.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanToNetworkFolder.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxForwarding.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/SemiAutomaticPenAlignment.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/WebRegistrationAssistant.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/LandingPage.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/AddPrinter.hptask/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Duplex.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ImportPreset.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/SummaryAssistant.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/DownloadDriversAndSoftware.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/AutoOff.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/SuppliesManagementCLT2.0.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FirmwareUpdate.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/SubmitJob.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/DMF.transport/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanjetMaintenance.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ServiceSettings.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/WebServicesAssistant.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/AdminDisabledFeatures.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/QualityDiagnostics.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/IPSettings.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/AddCustomPaper.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/CleanBackPageSmear.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/PantoneEmulation.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/JobQueue.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanToEmail.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/CalibrateDisplay.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxArchive.task/Contents/Resources/FaxCallerIDInfo.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxArchive.task/Contents/Helpers/HP Fax Archive.app/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxArchive.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxSpeedDials.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/PrinterUsage.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ArbitraryCommand.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ClosedLoopCalibration.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/LineFeedCalibration.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/HPePrinterCenter.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/PaperFeedCleaning.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Alerts.hptask/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/RestrictColor.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/PrintingKnowledgeCenter.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/SuppliesManagement.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/eFax.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ControlPanelGuide.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/EconomodeToner.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/EmailAlerts.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/WirelessDirectPrintAssistant.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/LocalSetup.hptask/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ManageCustomPapers.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/StoredJobsPro.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/CreatePaperPreset.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/RegionUnlock.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/SkewTest.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/DirectPrint.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/StoredJobs.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/TestPaperFeed.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ProtectDirectPorts.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/SupplyInfo.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ConsumableLevel.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/QuietMode.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/QualityCalibration.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ControlPanelLanguage.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxBlocking.task/Contents/Resources/FaxCallerIDInfo.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxBlocking.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/PrinterStatus.task/Contents/Resources/DetailsViewInfo.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/PrinterStatus.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/BasicFaxSettings.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ProxySettings.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/WiFiDirect.hptask/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ProductImprovementStudy.task/Contents/Info.plist
+          Version: 10.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanToNetwork.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanjetConfiguration.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/OnlineInformation.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/TraysConfiguration.task/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HP Utility.app/Contents/Applications/HP Email Alerts.app/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HP Utility.app/Contents/Applications/HP Event Status.app/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HP Utility.app/Contents/Applications/HP Alerts.app/Contents/PlugIns/AlertMessagePlugin.AlertHandler/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HP Utility.app/Contents/Applications/HP Alerts.app/Contents/PlugIns/HPACfEventPlugin.AlertHandler/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HP Utility.app/Contents/Applications/HP Alerts.app/Contents/PlugIns/HPSuppliesStatusEventPlugin.AlertHandler/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HP Utility.app/Contents/Applications/HP Alerts.app/Contents/PlugIns/HPOutOfPaperEventPlugin.AlertHandler/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HP Utility.app/Contents/Applications/HP Alerts.app/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HP Utility.app/Contents/Applications/LegacyScanEventHandler.app/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HP Utility.app/Contents/Frameworks/HSDCommonLib.framework/Versions/A/Resources/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HP Utility.app/Contents/Frameworks/HPEventStore.framework/Versions/A/Resources/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/HP Utility.app/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Utilities/Handlers/ScanEventHandler.app/Contents/Info.plist
+          Version: 1.5.0
+          Path: /Library/Printers/hp/PDEs/PDE.plugin/Contents/PlugIns/SmartPrint.plugin/Contents/Info.plist
+          Version: 5.1.0
+          Path: /Library/Printers/hp/PDEs/PDE.plugin/Contents/Info.plist
+          Version: 4.9.2
+          Path: /Library/Printers/hp/PDEs/FaxPDE.plugin/Contents/Info.plist
+          Version: 5.28.0
+          Path: /Library/Printers/hp/Frameworks/HPDM.framework/Versions/5.0/PlugIns/ClientUI.plugin/Contents/Info.plist
+          Version: 5.4.0
+          Path: /Library/Printers/hp/Frameworks/HPDM.framework/Versions/5.0/Resources/Info.plist
+          Version: 5.4.0
+          Path: /Library/Printers/hp/Frameworks/HPDM.framework/Versions/5.0/Runtime/hpdot4d.app/Contents/Info.plist
+          Version: 5.4.0
+          Path: /Library/Printers/hp/Frameworks/HPDM.framework/Versions/5.0/Runtime/HPIOPrinterClassDriver.plugin/Contents/Info.plist
+          Version: 5.4.0
+          Path: /Library/Printers/hp/Frameworks/HPDM.framework/Versions/5.0/XPCServices/com.hp.dm.5.TransportProxy.xpc/Contents/Info.plist
+          Version: 5.4.0
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Runtime/hpdot4d.app/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Runtime/HPIOPrinterClassDriver.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Fax.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/DataStore.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Scan.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/XMLServices.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/DeviceID.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/HDT.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Core.framework/Versions/4.0/PlugIns/bluetooth.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Core.framework/Versions/4.0/PlugIns/NSXMLParser.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Core.framework/Versions/4.0/PlugIns/network.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Core.framework/Versions/4.0/PlugIns/libXmlParser.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Core.framework/Versions/4.0/PlugIns/usb.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Core.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Core.framework/Versions/4.0/XPCServices/com.hp.devicemodel.TransportProxy.xpc/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/HTTP.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/PML.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/IPP.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/JobsStatus.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/CDPrintingStatus.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/EstimatedPagesStatus.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/SuppliesStatus.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/DeviceStatus.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/CoversStatus.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/DeviceTrays.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/SpecialtyPrintingStatus.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/DeviceAlerts.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Configure.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/ClientUI.framework/Versions/4.0/PlugIns/ClientUI.plugin/Contents/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/ClientUI.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.17.1
+          Path: /Library/Printers/hp/Frameworks/HPDeviceMonitoring.framework/Versions/1.0/Resources/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Frameworks/HPDeviceMonitoring.framework/Versions/1.0/Helpers/HP Device Monitor Manager.app/Contents/Library/LoginItems/HP Device Monitor.app/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Frameworks/HPDeviceMonitoring.framework/Versions/1.0/Helpers/HP Device Monitor Manager.app/Contents/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Frameworks/HPEventStoring.framework/Versions/1.0/Resources/HPStoreModel.momd/VersionInfo.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Frameworks/HPEventStoring.framework/Versions/1.0/Resources/Info.plist
+          Version: 5.38.0
+          Path: /Library/Printers/hp/Frameworks/Matterhorn.framework/Versions/DI_MH.A.06.04.008/Resources/Info.plist
+          Version: 06.04.010
+          Path: /Library/Printers/hp/Frameworks/Matterhorn.framework/Versions/DI_MH.A.05.03.006/Resources/Info.plist
+          Version: 05.03.007
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Resources/Info.plist
+          Version: 1.15.0
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Frameworks/DCPPDUpdating.framework/Versions/A/Resources/Info.plist
+          Version: 1.15.0
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Frameworks/DCCore.framework/Versions/A/Resources/Info.plist
+          Version: 1.15.0
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Frameworks/DCCommunicationServices.framework/Versions/A/Resources/DCCSDMFLoader.bundle/Contents/Info.plist
+          Version: 1.15.0
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Frameworks/DCCommunicationServices.framework/Versions/A/Resources/Info.plist
+          Version: 1.15.0
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Frameworks/DCPPDGeneration.framework/Versions/A/Resources/Info.plist
+          Version: 1.15.0
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Frameworks/DCJobSettings.framework/Versions/A/Resources/Info.plist
+          Version: 1.15.0
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Frameworks/DCXMLRepository.framework/Versions/A/Resources/Info.plist
+          Version: 1.15.0
+          Path: /Library/Printers/hp/Frameworks/HPSmartPrint.framework/Versions/A/Resources/Info.plist
+          Version: 5.15.1
+          Path: /Library/Printers/hp/cups/filters/commandtohp.filter/Contents/PlugIns/reporttrays.plugin/Contents/Info.plist
+          Version: 2.4.1
+          Path: /Library/Printers/hp/cups/filters/commandtohp.filter/Contents/PlugIns/reportlevels.plugin/Contents/Info.plist
+          Version: 2.4.1
+          Path: /Library/Printers/hp/cups/filters/commandtohp.filter/Contents/Info.plist
+          Version: 2.4.1
+          Path: /Library/Printers/hp/cups/filters/pdftopdf.filter/Contents/PlugIns/mh_one_button_photofix.plugin/Contents/Frameworks/Matterhorn.framework/Versions/DI_MH.A.07.04.000/Resources/Info.plist
+          Version: 07.04.000
+          Path: /Library/Printers/hp/cups/filters/pdftopdf.filter/Contents/PlugIns/mh_one_button_photofix.plugin/Contents/Info.plist
+          Version: 2.7.0
+          Path: /Library/Printers/hp/cups/filters/pdftopdf.filter/Contents/PlugIns/mh_one_button.plugin/Contents/Info.plist
+          Version: 2.7.0
+          Path: /Library/Printers/hp/cups/filters/pdftopdf.filter/Contents/PlugIns/mh_pre_one_button.plugin/Contents/Info.plist
+          Version: 2.7.0
+          Path: /Library/Printers/hp/cups/filters/pdftopdf.filter/Contents/Info.plist
+          Version: 2.7.0
+          Path: /Library/Printers/hp/cups/tools/autosetup.tool/Contents/Info.plist
+          Version: 1.3.2
+          Path: /Library/Printers/hp/cups/Inkjet9.driver/Contents/Info.plist
+          Version: 2.11.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_jgdir.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_rotate.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4811.plugin/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_sfusb.plugin/Contents/Info.plist
+          Version: 1.4.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_farec.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_hsl.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_caps.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_qare.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq2415.plugin/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_smac.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_dscrn.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_tdg.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ddoct.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ago8.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4809.plugin/Contents/Info.plist
+          Version: 1.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_bjnp.plugin/Contents/Info.plist
+          Version: 2.10.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldo9.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_racs2.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_lld09.plugin/Contents/Info.plist
+          Version: 3.9.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq2413.plugin/Contents/Info.plist
+          Version: 2.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4807.plugin/Contents/Info.plist
+          Version: 2.3.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mcrp3.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldv0.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_lld.plugin/Contents/Info.plist
+          Version: 4.4.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_zoom.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldo0.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mcrpp.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_fare.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_cubs.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_sfusb2.plugin/Contents/Info.plist
+          Version: 1.5.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq2414.plugin/Contents/Info.plist
+          Version: 1.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ag.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ausm.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_gercc.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ijfsh.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_gercg.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4808.plugin/Contents/Info.plist
+          Version: 2.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_iom.plugin/Contents/Info.plist
+          Version: 1.9.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mcrp2.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq9601.plugin/Contents/Info.plist
+          Version: 2.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldo8.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_tonec.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDM.framework/Versions/A/Resources/Info.plist
+          Version: 2.1.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDA.framework/Versions/A/Resources/Info.plist
+          Version: 3.1.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDV.framework/Versions/A/Resources/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDE.framework/Versions/A/Resources/Info.plist
+          Version: 1.4.0
+          Path: /Library/Printers/EPSON/Fax/Libraries/FaxRecipientLib2.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Libraries/FICLib.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Libraries/rastertotiff.framework/Versions/A/Resources/TIFFInfo.plist
+          Version: 1.73
+          Path: /Library/Printers/EPSON/Fax/Libraries/rastertotiff.framework/Versions/A/Resources/Info.plist
+          Version: 1.73
+          Path: /Library/Printers/EPSON/Fax/FaxIOSupport/FaxReceiveLib.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/FaxIOSupport/epsonfax.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/FaxIOSupport/FaxIOService.framework/Versions/A/Resources/Info.plist
+          Version: 1.72
+          Path: /Library/Printers/EPSON/Fax/PDEs/PDECPlugin.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Icons/EpsonFax.icons/Contents/Info.plist
+          Version: 1.00
+          Path: /Library/Printers/EPSON/Fax/Filter/commandFilter.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Filter/rastertoepfax.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/AutoSetupTool/EPFaxAutoSetupTool.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Help/Epson_IJFax_C.help/Contents/Info.plist
+          Version: 1.41
+          Path: /Library/Printers/EPSON/Fax/SupportPrinters/FaxSupportInfo.bundle/Contents/Info.plist
+          Version: 1.10
+          Path: /Library/Printers/EPSON/Fax/Utility/FAX Utility.app/Contents/Info.plist
+          Version: 1.73
+          Path: /Library/Printers/EPSON/Fax/Utility/Fax Receive Monitor.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxTransmissionRecord.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxPrinterSpeedDial.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxSettings.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxCheckConnection.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxReceive.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxSyncContacts.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Help/Epson_IJFaxUTY.help/Contents/Info.plist
+          Version: 1.41
+
+    Image Capture Devices:
+
+      Image Capture Devices:
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter A1.bundle/Contents/Info.plist
+          Version: 1.0.9
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 54.bundle/Contents/Info.plist
+          Version: 1.0.11
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/FIT.bundle/Contents/Info.plist
+          Version: 3.7.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter DD.bundle/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 10C.bundle/Contents/Info.plist
+          Version: 1.6.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 66.bundle/Contents/Info.plist
+          Version: 1.0.12
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter C3.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 95.bundle/Contents/Info.plist
+          Version: 1.2.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter EB.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter CA.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 111.bundle/Contents/Info.plist
+          Version: 1.0.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 68.bundle/Contents/Info.plist
+          Version: 1.1.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 23.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 52.bundle/Contents/Info.plist
+          Version: 1.1.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 8B.bundle/Contents/Info.plist
+          Version: 1.0.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7A.bundle/Contents/Info.plist
+          Version: 1.0.8
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7C.bundle/Contents/Info.plist
+          Version: 1.0.11
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Image Filter2.bundle/Contents/Info.plist
+          Version: 4.4.01
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 1D.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 6E.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 94.bundle/Contents/Info.plist
+          Version: 1.2.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter FE.bundle/Contents/Info.plist
+          Version: 1.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 86.bundle/Contents/Info.plist
+          Version: 1.1.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter AD.bundle/Contents/Info.plist
+          Version: 1.2.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 32.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 43.bundle/Contents/Info.plist
+          Version: 1.1.6
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter C2.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/DDC.bundle/Contents/Info.plist
+          Version: 1.1.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 41.bundle/Contents/Info.plist
+          Version: 1.1.3
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 30.bundle/Contents/Info.plist
+          Version: 1.0.6
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/ImageFilter.bundle/Contents/Info.plist
+          Version: 3.2.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7E.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 5A.bundle/Contents/Info.plist
+          Version: 1.0.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ModelInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/DeviceInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ResolutionInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ProfileInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/RegionCodeInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/HardwareInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Info.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/Canon IJScanner4.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner4.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner4.app/Contents/Info.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner6.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner6.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner6.app/Contents/Info.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Info.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.22.1
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.22.1
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Frameworks/HPScanServices.framework/Versions/A/PlugIns/HPLEDMScan.bundle/Contents/Info.plist
+          Version: 4.22.1
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Frameworks/HPScanServices.framework/Versions/A/PlugIns/HPDOT4Scan.bundle/Contents/PlugIns/HPAiOTulip.bundle/Contents/Resources/ModelInfo.plist
+          Version: 4.22.1
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Frameworks/HPScanServices.framework/Versions/A/PlugIns/HPDOT4Scan.bundle/Contents/PlugIns/HPAiOTulip.bundle/Contents/Info.plist
+          Version: 4.22.1
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Frameworks/HPScanServices.framework/Versions/A/PlugIns/HPDOT4Scan.bundle/Contents/Info.plist
+          Version: 4.22.1
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Frameworks/HPScanServices.framework/Versions/A/PlugIns/HPSOAPScan.bundle/Contents/Info.plist
+          Version: 4.22.1
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Frameworks/HPScanServices.framework/Versions/A/Resources/Info.plist
+          Version: 4.22.1
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Info.plist
+          Version: 4.22.1
+
+    Image Capture Support:
+
+      Image Capture Support:
+          Path: /Library/Image Capture/Support/LegacyDeviceDiscoveryHelpers/AirScanLegacyDiscovery.app/Contents/Info.plist
+          Version: 13
+
+    System Library Extensions:
+
+      System Library Extensions:
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/AppleXserveRAID.kext
+          Version: 439
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/FireWireStorageDeviceSpecifics.kext
+          Version: 439
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/USBStorageDeviceSpecifics.kext
+          Version: 439
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/AppleATAPIStorage.kext
+          Version: 439
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/SCSIDeviceSpecifics.kext
+          Version: 439
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/SonyXDCAMDriver.kext
+          Version: 439
+          Path: /System/Library/Extensions/IOStreamFamily.kext/Contents/PlugIns/IOStreamUserClient.kext
+          Version: 1.1.0
+          Path: /System/Library/Extensions/AppleTopCase.kext
+          Version: 127
+          Path: /System/Library/Extensions/AppleTopCase.kext/Contents/PlugIns/AppleTopCaseActuatorHIDDriver.kext
+          Version: 127
+          Path: /System/Library/Extensions/IOVideoFamily.kext/Contents/PlugIns/IOVideoDeviceUserClient.kext
+          Version: 1.2.0
+          Path: /System/Library/Extensions/AppleMobileDevice.kext
+          Version: 3.5.0
+          Path: /System/Library/Extensions/AppleUSBTopCase.kext
+          Version: 254
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDEventDriver.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDUserClient.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDEventDriverSafeBoot.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/IOUSBHIDDriverSafeBoot.kext
+          Version: 900.4.1
+          Path: /System/Library/Extensions/CellPhoneHelper.kext
+          Version: 1.4.0
+          Path: /System/Library/Extensions/IOUSBHostFamily.kext/Contents/PlugIns/IOUSBHostHIDDeviceSafeBoot.kext
+          Version: 1.2
+
+    Library Extensions:
+
+      Library Extensions:
+          Path: /Library/Extensions/hp_fax_io.kext
+          Version: 5.28.0
+          Path: /Library/Extensions/hp_Inkjet9_io_enabler.kext
+          Version: 2.11.0
+
+Printers:
+
+    HP DeskJet 5820 series:
+
+      Status: Idle
+      Print Server: Local
+      Driver Version: 2.11.0
+      Default: No
+      System Printer Sharing: No
+      Shared: No
+      URI: dnssd://HP%20DeskJet%205820%20series%20%5B0FBD44%5D._ipp._tcp.local./?uuid=1c852a4d-b800-1f08-abcd-a08cfd0fbd44
+      PPD: HP DeskJet GT 5820 All-in-One
+      PPD File Version: 2.11.0
+      PostScript Version: (3011.104) 0
+      CUPS Version: 2.2.5 (cups-462)
+      Scanning support: Yes
+      Scanning app: /Library/Image Capture/Devices/HP Scanner 3.app
+      Scanning app (bundleID path): -
+      Scanning app version: 4.22.1
+      Scanner UUID: 1C852A4D-B800-1F08-ABCD-A08CFD0FBD44
+      Printer Commands: ReportLevels 
+      Added: суббота, 7 октября 2017 г., 14:14:06 Восточная Европа, летнее время
+      CUPS filters:
+        Inkjet9:
+          Path: /Library/Printers/hp/cups/Inkjet9.driver/Contents/MacOS/Inkjet9
+          Permissions: r-xr-xr-x
+          Version: 2.11.0
+        commandtohp:
+          Path: /Library/Printers/hp/cups/filters/commandtohp.filter/Contents/MacOS/commandtohp
+          Permissions: r-xr-xr-x
+          Version: 2.4.1
+      Fax support: No
+      Printer utility: /Library/Printers/hp/Utilities/HP Utility.app
+      Printer utility version: 5.38.0
+      PDEs:
+        PDE.plugin:
+          Sandbox compliant: Yes
+
+    HP DeskJet 5820 series 2:
+
+      Status: Offline
+      Print Server: Local
+      Driver Version: 2.0
+      Default: No
+      System Printer Sharing: No
+      Shared: No
+      URI: ippusb://AIRPRINT%20(DESKJET)._ipp._tcp.local./?uuid=1c852a4d-b800-1f08-abcd-a08cfd0fbd44
+      PPD: HP DeskJet 5820 series-AirPrint
+      PPD File Version: 2.0
+      PostScript Version: (3010.000) 0
+      CUPS Version: 2.2.5 (cups-462)
+      Scanning support: Yes
+      Scanning app: /System/Library/Image Capture/Devices/AirScanScanner.app
+      Scanning app (bundleID path): -
+      Scanning app version: 13
+      Scanner UUID: 1C852A4D-B800-1F08-ABCD-A08CFD0FBD44
+      Printer Commands: none 
+      AirPrint Version: 1,4
+      URF Version: 1,4
+      Scanner Version: 2,5
+      Printer Firmware Version: KWP2FN1703AR:KWP2FN1703AR
+      Added: четверг, 5 октября 2017 г., 15:16:17 Восточная Европа, летнее время
+      CUPS filters:
+          image/jpeg: processed in printer
+          image/urf: processed in printer
+      Fax support: No
+      PDEs: 
+
+    HP DeskJet 5820 series 3:
+
+      Status: Offline
+      Print Server: Local
+      Driver Version: 2.0
+      Default: Yes
+      System Printer Sharing: No
+      Shared: No
+      URI: ippusb://AIRPRINT%20(DESKJET)._ipp._tcp.local./?uuid=1c852a4d-b800-1f08-abcd-a08cfd0fbd44
+      PPD: HP DeskJet 5820 series-AirPrint
+      PPD File Version: 2.0
+      PostScript Version: (3010.000) 0
+      CUPS Version: 2.2.5 (cups-462)
+      Scanning support: Yes
+      Scanning app: /System/Library/Image Capture/Devices/AirScanScanner.app
+      Scanning app (bundleID path): -
+      Scanning app version: 13
+      Scanner UUID: 1c852a4d-b800-1f08-abcd-a08cfd0fbd44
+      Printer Commands: none 
+      AirPrint Version: 1,4
+      URF Version: 1,4
+      Scanner Version: 2,5
+      Printer Firmware Version: KWP2FN1703AR:KWP2FN1703AR
+      Added: четверг, 5 октября 2017 г., 15:16:34 Восточная Европа, летнее время
+      CUPS filters:
+          image/jpeg: processed in printer
+          image/urf: processed in printer
+      Fax support: No
+      PDEs: 
+
+SPI:
+
+    Apple Internal Keyboard / Trackpad:
+
+      Product ID: 0x0276
+      Vendor ID: 0x05ac (Apple Inc.)
+      ST Version: 8.95
+      MT Version: 4.51
+      Serial Number: FM77241071AGJCQA9+RDN
+      Manufacturer: Apple Inc.
+      Location ID: 0x01000000
+
+Software:
+
+    System Software Overview:
+
+      System Version: macOS 10.13 (17A405)
+      Kernel Version: Darwin 17.0.0
+      Time since boot: 2 days 4:53
+
+Thunderbolt:
+
+    Thunderbolt Bus:
+
+      Vendor Name: Apple Inc.
+      Device Name: MacBook Pro
+      UID: 0x00014AC33C728400
+      Route String: 0
+      Firmware Version: 22,3
+      Domain UUID: 6D84FF0D-A6CD-625D-95AB-45604FF5EBDF
+      Port:
+          Status: No device connected
+          Link Status: 0x101
+          Speed: Up to 40 Gb/s x1
+          Current Link Width: 0x1
+          Receptacle: 2
+          Link Controller Firmware Version: 0.25.0
+      Port:
+          Status: No device connected
+          Link Status: 0x101
+          Speed: Up to 40 Gb/s x1
+          Current Link Width: 0x1
+          Receptacle: 1
+          Link Controller Firmware Version: 0.25.0
+
+USB:
+
+    USB 3.0 Bus:
+
+      Host Controller Driver: AppleUSBXHCISPTLP
+      PCI Device ID: 0x9d2f 
+      PCI Revision ID: 0x0021 
+      PCI Vendor ID: 0x8086 
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleUSBXHCIAR
+      PCI Device ID: 0x15d4 
+      PCI Revision ID: 0x0002 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0x00 
+
+Wi-Fi:
+
+      Software Versions:
+          CoreWLAN: 13.0 (1335)
+          CoreWLANKit: 13.0 (1335)
+          Menu Extra: 13.0 (1335)
+          System Information: 12.0 (1200.3)
+          IO80211 Family: 12.0 (1200.12.2)
+          Diagnostics: 1.0 (805)
+          AirPort Utility: 6.3.8 (638.5)
+      Interfaces:
+        en0:
+          Card Type: AirPort Extreme  (0x14E4, 0x170)
+          Firmware Version: Broadcom BCM43xx 1.0 (7.77.37.0.1a1)
+          MAC Address: dc:a9:04:99:b7:06
+          Locale: ETSI
+          Country Code: UA
+          Supported PHY Modes: 802.11 a/b/g/n/ac
+          Supported Channels: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 149, 153, 157, 161, 165
+          Wake On Wireless: Supported
+          AirDrop: Supported
+          AirDrop Channel: 149
+          Auto Unlock: Supported
+          Status: Connected
+

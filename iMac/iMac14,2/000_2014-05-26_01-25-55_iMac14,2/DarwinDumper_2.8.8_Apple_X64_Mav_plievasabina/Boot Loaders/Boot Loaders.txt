@@ -1,0 +1,21 @@
+=============================================================================================================================================================
+disk0  DEVICE    TYPE                   NAME                                      SIZE    MBR (Stage0)  PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                 GUID_partition_scheme                                            1 TB    None
+       disk0s1   EFI                    EFI                                       209 MB                Apple EFI
+       disk0s2   Apple_HFS              Macintosh HD                              999 GB                 
+       disk0s3   Apple_Boot             Recovery HD                               650 MB                 
+=============================================================================================================================================================
+disk1  DEVICE    TYPE                   NAME                                      SIZE    MBR (Stage0)  PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                 GUID_partition_scheme                                            500 GB  None
+       disk1s1   EFI                    EFI                                       209 MB                Apple EFI
+       disk1s2   Apple_HFS              OS X Snow Leopard Install Disk - 10.6.8   10 GB                  
+       disk1s3   Apple_HFS              OS X Lion Install Disk - 10.7.5           10 GB                  
+       disk1s4   Apple_HFS              OS X Mountain Lion Install Disk - 10.8.5  10 GB                  
+       disk1s5   Apple_HFS              OS X 10.9 Install Disk - 10.9.3           10 GB                  
+       disk1s6   Apple_HFS              OS X Install Disk - 10.10                 10 GB                  
+       disk1s7   Apple_HFS              BootTest                                  27 GB                  
+       disk1s8   Apple_HFS              SoftDisk                                  149 GB                 
+       disk1s9   Apple_HFS              DataDisk                                  135 GB                 
+       disk1s10  Microsoft Basic Data   11111                                     135 GB                Windows NTFS NTLDR

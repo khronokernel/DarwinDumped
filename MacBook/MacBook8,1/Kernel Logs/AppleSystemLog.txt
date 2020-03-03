@@ -1,0 +1,501 @@
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Darwin Kernel Version 15.4.0: Fri Feb 26 22:08:05 PST 2016; root:xnu-3248.40.184~3/RELEASE_X86_64
+Apr  4 13:10:27 localhost kernel[0] <Notice>: vm_page_bootstrap: 1955242 free pages and 125526 wired pages
+Apr  4 13:10:27 localhost kernel[0] <Notice>: kext submap [0x<ptr> - 0x<ptr>], kernel text [0x<ptr> - 0x<ptr>]
+Apr  4 13:10:27 localhost kernel[0] <Notice>: zone leak detection enabled
+Apr  4 13:10:27 localhost kernel[0] <Notice>: "vm_compressor_mode" is 4
+Apr  4 13:10:27 localhost kernel[0] <Notice>: multiq scheduler config: deep-drain 0, ceiling 47, depth limit 4, band limit 127, sanity check 0
+Apr  4 13:10:27 localhost kernel[0] <Notice>: standard timeslicing quantum is 10000 us
+Apr  4 13:10:27 localhost kernel[0] <Notice>: standard background quantum is 2500 us
+Apr  4 13:10:27 localhost kernel[0] <Notice>: WQ[lt_init]: init linktable with max:262144 elements (8388608 bytes)
+Apr  4 13:10:27 localhost kernel[0] <Notice>: WQ[wqp_init]: init prepost table with max:262144 elements (8388608 bytes)
+Apr  4 13:10:27 localhost kernel[0] <Notice>: mig_table_max_displ = 16
+Apr  4 13:10:27 localhost kernel[0] <Notice>: TSC Deadline Timer supported and enabled
+Apr  4 13:10:27 localhost kernel[0] <Notice>: kdp_core zlib memory 0x7000
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=1 LocalApicId=0 Enabled
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=2 LocalApicId=2 Enabled
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=3 LocalApicId=1 Enabled
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=4 LocalApicId=3 Enabled
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=5 LocalApicId=255 Disabled
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=6 LocalApicId=255 Disabled
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=7 LocalApicId=255 Disabled
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=8 LocalApicId=255 Disabled
+Apr  4 13:10:27 localhost kernel[0] <Notice>: calling mpo_policy_init for TMSafetyNet
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Security policy loaded: Safety net for Time Machine (TMSafetyNet)
+Apr  4 13:10:27 localhost kernel[0] <Notice>: calling mpo_policy_init for AMFI
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Security policy loaded: Apple Mobile File Integrity (AMFI)
+Apr  4 13:10:27 localhost kernel[0] <Notice>: calling mpo_policy_init for Sandbox
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Security policy loaded: Seatbelt sandbox policy (Sandbox)
+Apr  4 13:10:27 localhost kernel[0] <Notice>: calling mpo_policy_init for Quarantine
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Security policy loaded: Quarantine policy (Quarantine)
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Copyright (c) 1982, 1986, 1989, 1991, 1993
+Apr  4 13:10:27 localhost kernel[0] <Notice>: The Regents of the University of California. All rights reserved.
+Apr  4 13:10:27 localhost kernel[0] <Notice>: MAC Framework successfully initialized
+Apr  4 13:10:27 localhost kernel[0] <Notice>: using 16384 buffer headers and 10240 cluster IO buffer headers
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AppleCredentialManager::start called
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AssertMacros: tmpData (value: 0x0),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager-83.40.3/AppleCredentialManager/AppleCredentialManager.cpp, line: 785
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AppleKeyStore starting (BUILT: Feb 26 2016 22:34:09)
+Apr  4 13:10:27 localhost kernel[0] <Notice>: IOAPIC: Version 0x20 Vectors 64:103
+Apr  4 13:10:27 localhost kernel[0] <Notice>: ACPI: sleep states S0 S3 S4 S5
+Apr  4 13:10:27 localhost kernel[0] <Notice>: pci (build 22:17:13 Feb 26 2016), flags 0xe3400, pfm64 (39 cpu) 0x7f80000000, 0x80000000
+Apr  4 13:10:27 localhost kernel[0] <Notice>: [ PCI configuration begin ]
+Apr  4 13:10:27 localhost kernel[0] <Notice>: console relocated to 0x7f90000000
+Apr  4 13:10:27 localhost kernel[0] <Notice>: [ PCI configuration end, bridges 5, devices 16 ]
+Apr  4 13:10:27 localhost kernel[0] <Notice>: 000000.940404 AppleUSBLegacyRoot@: AppleUSBLegacyRoot::init: enabling legacy matching
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AppleIntelLpssI2C1::initI2CGpio: no ISOL, validateObject returned 0xe00002bc
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AppleIntelLpssGspi1::calcSpiClockParams: fSysClockPeriodPsec 10000, spiClockPeriodNsec 125
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AirPort_Brcm4360::init AirPortFamily_kexts-1110.28 "AirPortFamily_kexts-1110.28" Feb 26 2016 22:34:59
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AppleHSSPIController::start Start Succeeded
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AppleIntelLpssGspi1::calcSpiClockParams: fSysClockPeriodPsec 10000, spiClockPeriodNsec 125
+Apr  4 13:10:27 localhost kernel[0] <Notice>: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000010
+Apr  4 13:10:27 localhost kernel[0] <Notice>: [HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (0x01)
+Apr  4 13:10:27 localhost kernel[0] <Notice>: [HID] [MT] AppleMultitouchDevice::start entered
+Apr  4 13:10:27 localhost kernel[0] <Notice>: [HID] [MT] AppleActuatorHIDEventDriver::start entered
+Apr  4 13:10:27 localhost kernel[0] <Notice>: BuildActDeviceEntry enter
+Apr  4 13:10:27 localhost kernel[0] <Notice>: AppleActuatorDevice::start Entered
+Apr  4 13:10:27 localhost kernel[0] <Notice>: BuildActDeviceEntry exit
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Apple Internal Keyboard / Trackpad::start Start Succeeded
+Apr  4 13:10:27 localhost kernel[0] <Notice>: mcache: 4 CPU(s), 64 bytes CPU cache line size
+Apr  4 13:10:27 localhost kernel[0] <Notice>: mbinit: done [96 MB total pool size, (64/32) split]
+Apr  4 13:10:27 localhost kernel[0] <Notice>: rooting via boot-uuid from /chosen: 8C783F9F-11B9-3E74-8FA2-191ACDC055C1
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOResources</string><key>IOResourceMatch</key><string ID="2">boot-uuid-media</string></dict>
+Apr  4 13:10:27 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib kmod start
+Apr  4 13:10:27 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless kmod start
+Apr  4 13:10:27 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib load succeeded
+Apr  4 13:10:27 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless load succeeded
+Apr  4 13:10:27 localhost kernel[0] <Notice>: IO80211Controller::createIOReporters 0x26653dcd468b96c9
+Apr  4 13:10:27 localhost kernel[0] <Notice>: CCFlags: 0x0, CCLevel: 5 ConsoleFlags: 0x0, ConsoleLevel: -1
+Apr  4 13:10:27 localhost kernel[0] <Notice>: No Service found 1000001f9
+Apr  4 13:10:27 localhost kernel[0] <Notice>: configureInterests - nElements <= 0!Failed to addSubscription for group Chip subgroup Bytes Transferred driver 0x26653dcd468b96c9 - data underrun
+Apr  4 13:10:27 localhost kernel[0] <Notice>: IO80211ControllerMonitor::configureSubscriptions() failed to add subscriptionIO80211Controller::start _controller is 0x26653dcd468b96c9, provider is 0x26653dcc873fdcc9
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Got boot device = IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/RP05@1C,4/IOPP/SSD0@0/AppleNVMeController/IONVMeBlockStorageDevice@1/IOBlockStorageDriver/APPLE SSD AP0512H Media/IOGUIDPartitionScheme/Untitled@2
+Apr  4 13:10:27 localhost kernel[0] <Notice>: BSD root: disk0s2, major 1, minor 2
+Apr  4 13:10:27 localhost kernel[0] <Notice>: ARPT: 1.203260: srom rev:11
+Apr  4 13:10:27 localhost kernel[0] <Notice>: init: error getting PHY_MODE;  using MODE_UNKNOWN
+Apr  4 13:10:27 localhost kernel[0] <Notice>: ARPT: 1.220208: BRCM tunables:
+Apr  4 13:10:27 localhost kernel[0] <Notice>: ARPT: 1.220216:   pullmode[1] txringsize[  256] txsendqsize[1024] reapmin[   32] reapcount[  128]
+Apr  4 13:10:27 localhost kernel[0] <Notice>: ARPT: 1.221189: wl0: Broadcom BCM43a3, vendorID[0x14e4] BAR0[0xc1400004]
+Apr  4 13:10:27 localhost kernel[0] <Notice>: 7.21.95.175 (r622517)
+Apr  4 13:10:27 localhost kernel[0] <Notice>: hfs: mounted System HD on device root_device
+Apr  4 13:10:27 localhost kernel[0] <Notice>: XCPM: registered
+Apr  4 13:10:27 localhost kernel[0] <Notice>: VM Swap Subsystem is ON
+Apr  4 13:10:27 localhost kernel[0] <Notice>: hfs: Removed 1 orphaned / unlinked files and 0 directories 
+Apr  4 13:10:27 localhost kernel[0] <Notice>: BootCache: cache size (4480303104 bytes) too large for physical memory (8589934592 bytes), capping at 4294967296 bytes
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-flags /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: deny(1) file-write-unlink /private/var/run/dyld_shared_cache_x86_64h.map
+Apr  4 13:10:27 localhost kernel[0] <Notice>: IO80211Controller::dataLinkLayerAttachComplete():  adding AppleEFINVRAM notification
+Apr  4 13:10:27 localhost kernel[0] <Notice>: IO80211Interface::efiNVRAMPublished():  
+Apr  4 13:10:27 localhost kernel[0] <Notice>: initting Scan Manager controller 0x26653dcd468b96c9 ioservice 0x26653dcc873fdcc9 interface 0x26653dcc876552c9 ioservce 0x26653dcd468b96c9
+Apr  4 13:10:27 localhost kernel[0] <Notice>: bpfAttach len 64 dlt 12
+Apr  4 13:10:27 localhost kernel[0] <Notice>: fInterfaceSnapshots is missing
+Apr  4 13:10:28 localhost kernel[0] <Notice>: disk0s1: alignment error.
+Apr  4 13:10:28 localhost kernel[0] <Notice>: AppleActuatorDeviceUserClient::start Entered
+Apr  4 13:10:28 localhost kernel[0] <Notice>: Unrecognized reportID 0x02
+Apr  4 13:10:28 localhost kernel[0] <Notice>: disk0s2: alignment error.
+Apr  4 13:10:28 localhost kernel[0] <Notice>: disk0s3: alignment error.
+Apr  4 13:10:28 localhost kernel[0] <Notice>: IOGraphics flags 0x43
+Apr  4 13:10:28 localhost kernel[0] <Notice>: AppleCamIn::init
+Apr  4 13:10:28 localhost kernel[0] <Notice>: AppleCamIn::probe
+Apr  4 13:10:28 localhost kernel[0] <Notice>: AppleCamIn::start
+Apr  4 13:10:28 localhost kernel[0] <Notice>: virtual bool AppleCamIn::start(IOService *): about to configure DDR
+Apr  4 13:10:28 localhost kernel[0] <Notice>: AppleCamIn::start - S2 DDR Frequency set to 450 MHz (default) 
+Apr  4 13:10:28 localhost kernel[0] <Notice>: OSMetaClass: Kext com.apple.driver.AppleIntelLpssUARTCommon class AppleIntel16X50LPSS is a duplicate;kext com.apple.driver.AppleIntelLpssUART already has a class by that name.
+Apr  4 13:10:28 localhost kernel[0] <Notice>: Kext com.apple.driver.AppleIntelLpssUARTCommon start failed (result 0xdc00400a).
+Apr  4 13:10:28 localhost kernel[0] <Notice>: Kext com.apple.driver.AppleIntelLpssUARTCommon failed to load (0xdc008017).
+Apr  4 13:10:28 localhost kernel[0] <Notice>: Dependency com.apple.driver.AppleIntelLpssUARTCommon of kext com.apple.driver.AppleIntelLpssUARTv0 failed to load.
+Apr  4 13:10:28 localhost kernel[0] <Notice>: Can't remove kext com.apple.driver.AppleIntelLpssUARTCommon; services failed to terminate - 0xdc008018.
+Apr  4 13:10:28 localhost kernel[0] <Notice>: Kext com.apple.driver.AppleIntelLpssUARTv0 failed to load (0xdc008015).
+Apr  4 13:10:28 localhost kernel[0] <Notice>: Failed to load kext com.apple.driver.AppleIntelLpssUARTv0 (error 0xdc008015).
+Apr  4 13:10:28 localhost kernel[0] <Notice>: AppleIntel16X50LPSS0::probe: PCI Bus=0 Dev=21 Func=5
+Apr  4 13:10:28 localhost kernel[0] <Notice>: Couldn't alloc class "AppleIntelLpssUARTv0"
+Apr  4 13:10:28 localhost kernel[0] <Notice>: AppleIntel16X50LPSS: Identified 1 Serial channels at PCI Bus=0 Dev=21 Func=5
+Apr  4 13:10:28 localhost kernel[0] <Notice>: setMasterClock: clock 58982400, baud 7372800
+Apr  4 13:10:28 localhost kernel[0] <Notice>: fUseGPUBusy = 0 fPPPMSupport = 1
+Apr  4 13:10:28 localhost kernel[0] <Notice>: [IOBluetoothFamily][start] -- completed
+Apr  4 13:10:28 localhost kernel[0] <Notice>: AppleIntel16X50UARTSync0: Detected LPSS FIFO=64 MaxBaud=3686400
+Apr  4 13:10:28 localhost kernel[0] <Notice>: [IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- 0x2a00 
+Apr  4 13:10:28 localhost kernel[0] <Notice>: [IOBluetoothHostController][start] -- completed
+Apr  4 13:10:28 localhost kernel[0] <Notice>: AppleIntel16X50UARTSync0::programUART() FlowControl 0, use kFIFO_01of64
+Apr  4 13:10:28 localhost kernel[0] <Notice>: AppleIntel16X50UARTSync0::programUART() FlowControl 0x24, use kFIFO_62of64
+Apr  4 13:10:28 localhost kernel[0] <Notice>: Previous shutdown cause: 5
+Apr  4 13:10:28 localhost kernel[0] <Notice>: DSMOS has arrived
+Apr  4 13:10:28 localhost kernel[0] <Notice>: IOPPF - IODeviceTree:/efi/platform/StartupPowerEvents: 0x0
+Apr  4 13:10:28 localhost kernel[0] <Notice>: [IGPU] Graphics accelerator is running in ExecutionList mode.
+Apr  4 13:10:28 localhost kernel[0] <Notice>: [IGPU] Graphics accelerator is using scheduler interface revision 1
+Apr  4 13:10:28 localhost kernel[0] <Notice>: [IGPU] Scheduler: Multiple channel indexes per command streamer
+Apr  4 13:10:28 localhost kernel[0] <Notice>: [IGPU] Scheduler: Process CSB using HWS.
+Apr  4 13:10:28 localhost kernel[0] <Notice>: [IGPU] Scheduler: PM notify enabled
+Apr  4 13:10:28 localhost kernel[0] <Notice>: [IGPU] Graphics Address: PPGTT, Separate Address Space
+Apr  4 13:10:28 localhost kernel[0] <Notice>: [IGPU] MultiForceWake Enabled: Using 3D Driver
+Apr  4 13:10:28 localhost kernel[0] <Notice>: [IGPU] Scheduler Throttle Cap = 100ms.
+Apr  4 13:10:28 localhost kernel[0] <Notice>: [IGPU] startGraphicsEngine: hwCaps compromised fNumSubSlices: 3 fExecUnitCount: 0.
+Apr  4 13:10:28 localhost kernel[0] <Notice>: AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+Apr  4 13:10:28 localhost kernel[0] <Notice>: Got incomplete channel sequence length 0, should be 16
+Apr  4 13:10:28 localhost kernel[0] <Notice>: en0: channel changed to 1
+Apr  4 13:10:28 localhost kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr  4 13:10:28 localhost kernel[0] <Notice>: bpfAttach len 94 dlt 163
+Apr  4 13:10:28 localhost kernel[0] <Notice>: bpfAttach len 30 dlt 105
+Apr  4 13:10:28 localhost kernel[0] <Notice>: bpfAttach len 52 dlt 127
+Apr  4 13:10:28 localhost kernel[0] <Notice>: bpfAttach len 38 dlt 192
+Apr  4 13:10:28 localhost kernel[0] <Notice>: save_ddr_phy_regs: saving 127 DDR PHY shmoo-calibrated registers 
+Apr  4 13:10:28 localhost kernel[0] <Notice>: AppleCamIn::start - link control offset in PCI bridge = 0x50
+Apr  4 13:10:28 localhost kernel[0] <Notice>: AppleCamIn::start - pmcsr offset in PCI bridge = 0xa4
+Apr  4 13:10:28 localhost kernel[0] <Notice>: AppleCamIn::power_off_hardware
+Apr  4 13:10:28 Alexanders-MacBook kernel[0] <Notice>: in6_unlink_ifa: IPv6 address 0x2c511cdfbb12a9dd has no prefix
+Apr  4 13:10:28 Alexanders-MacBook kernel[0] <Notice>: AppleCamIn::initForPM
+Apr  4 13:10:28 Alexanders-MacBook kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: [IOBluetoothHostController::setConfigState] calling registerService
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: **** [BroadcomBluetoothHostController][SetupController] -- disableHIDEmulation() failed -- result = 0xE00002BC (kIOReturnError) -- retry 0 time(s) -- 0xb700 ****
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: [IOBluetoothHostController::setConfigState] calling registerService
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: **** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- calling IOBluetoothFamily's registerService() -- 0x2400 -- 0xfe00 -- 0x2a00 ****
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: **** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- Connected to the transport successfully -- 0x2400 -- 0xfe00 -- 0x2a00 ****
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: IO80211VirtualInterface::createIOReporters p2p0 provider 0
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: IO80211InterfaceMonitor::initWithServiceAndName(): Unable to get fProvider
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: Unable to create IO80211InterfaceMonitor
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init name <p2p0> role 1
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: IO80211VirtualInterface::init _controller is 0x26653dcd468b96c9, provider is 0x26653dcc873fdcc9
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: IO80211VirtualInterface::createIOReporters p2p0 provider 0x26653dcd468b96c9
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init <p2p> role 1
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: OSMetaClass: Kext com.apple.driver.AppleIntelLpssUARTCommon class AppleIntel16X50LPSS is a duplicate;kext com.apple.driver.AppleIntelLpssUART already has a class by that name.
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: Kext com.apple.driver.AppleIntelLpssUARTCommon start failed (result 0xdc00400a).
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: Kext com.apple.driver.AppleIntelLpssUARTCommon failed to load (0xdc008017).
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: Dependency com.apple.driver.AppleIntelLpssUARTCommon of kext com.apple.driver.AppleIntelLpssUARTv0 failed to load.
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: Can't remove kext com.apple.driver.AppleIntelLpssUARTCommon; services failed to terminate - 0xdc008018.
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: Kext com.apple.driver.AppleIntelLpssUARTv0 failed to load (0xdc008015).
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: Failed to load kext com.apple.driver.AppleIntelLpssUARTv0 (error 0xdc008015).
+Apr  4 13:10:29 Alexanders-MacBook kernel[0] <Notice>: Kext load request buffer from user space still retained by a kext; probable memory leak.
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: AppleLPC::notifyPlatformASPM  ASPM callback registered
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: IOPPF: XCPM mode
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: IO80211VirtualInterface::createIOReporters awdl0 provider 0
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: IO80211InterfaceMonitor::initWithServiceAndName(): Unable to get fProvider
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: Unable to create IO80211InterfaceMonitor
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init name <awdl0> role 4
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::attachToBpf name <awdl0> role 4 successful attach to bpf type 147
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: IO80211VirtualInterface::init _controller is 0x26653dcd468b96c9, provider is 0x26653dcc873fdcc9
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: IO80211VirtualInterface::createIOReporters awdl0 provider 0x26653dcd468b96c9
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init <awdl> role 4
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: IO80211Peer::createIOReporters() generated statsID 255 valid 1 FF:FF:FF:FF:FF:FF
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: Invalid _manager->_provider
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: No manager provider 0 or no _statsIDValid 1
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlPeerTrafficRegistration Clearing AirPlay peer 00:00:00:00:00:00
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: en0: channel changed to 1
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: Setting BTCoex Profile: band:8
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: Profile[0]: mode:7; desense:0; desense_level:0; chain_power_offset:0,0,0,0,
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: Profile[1]: mode:7; desense:0; desense_level:0; chain_power_offset:0,0,0,0,
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: Profile[2]: mode:7; desense:0; desense_level:0; chain_power_offset:0,0,0,0,
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: Profile[3]: mode:7; desense:0; desense_level:0; chain_power_offset:0,0,0,0,
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: Setting BTCoex Profile: band:2
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: Profile[0]: mode:0; desense:0; desense_level:0; chain_power_offset:0,0,0,0,
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: awdl0: promiscuous mode enable succeeded
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: AirPort: Link Up on awdl0
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: IO80211AWDLPeerManager::configure Dynamic country code not supported on this device
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: IO80211AWDLPeerManager::setChannelSequenceUnconditional : Couldn't set channel sequence! coded length 16 length 64 step 3 fill ff (Discovery):
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: awdl0: promiscuous mode disable succeeded
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: awdl0: promiscuous mode enable succeeded
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: en0: 802.11d country code set to 'AL'.
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: ARPT: 5.919746: wlc_dump_aggfifo:
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: ARPT: 5.919773: framerdy 0x0 bmccmd 3 framecnt 1024 
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: ARPT: 5.919882: AQM agg params 0xfc0 maxlen hi/lo 0x0 0xffff minlen 0x0 adjlen 0x0
+Apr  4 13:10:30 Alexanders-MacBook kernel[0] <Notice>: ARPT: 5.919927: AQM agg results 0x8001 len hi/lo: 0x0 0x26 BAbitmap(0-3) 0 0 0 0
+Apr  4 13:10:33 Alexanders-MacBook kernel[0] <Notice>: ignored is_io_service_close(0x1000002e2,IOHIDParamUserClient)
+Apr  4 13:10:33 Alexanders-MacBook kernel[0] <Notice>: AirPort: Link Up on en0
+Apr  4 13:10:33 Alexanders-MacBook kernel[0] <Notice>: en0: BSSID changed to c4:6e:1f:6e:24:3e
+Apr  4 13:10:33 Alexanders-MacBook kernel[0] <Notice>: en0: channel changed to 1
+Apr  4 13:10:33 Alexanders-MacBook kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr  4 13:10:33 Alexanders-MacBook kernel[0] <Notice>: AirPort: RSN handshake complete on en0
+Apr  4 13:10:33 Alexanders-MacBook kernel[0] <Notice>: Unexpected payload found for message 9, dataLen 0
+Apr  4 13:10:33 Alexanders-MacBook kernel[0] <Notice>: Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Apr  4 13:10:35 Alexanders-MacBook kernel[0] <Notice>: Setting BTCoex Config: enable_2G:1, profile_2g:1, enable_5G:1, profile_5G:0
+Apr  4 13:10:35 Alexanders-MacBook kernel[0] <Notice>: [BNBMouseDevice::init][90.3] init is complete
+Apr  4 13:10:35 Alexanders-MacBook kernel[0] <Notice>: [BNBMouseDevice::handleStart][90.3] returning 1
+Apr  4 13:10:35 Alexanders-MacBook kernel[0] <Notice>: [HID] [MT] AppleMultitouchHIDEventDriver::start entered
+Apr  4 13:10:35 Alexanders-MacBook kernel[0] <Notice>: [HID] [MT] AppleMultitouchDevice::start entered
+Apr  4 13:10:36 Alexanders-MacBook kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+Apr  4 13:10:36 Alexanders-MacBook kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+Apr  4 13:10:41 Alexanders-MacBook kernel[0] <Notice>: AppleKeyStore::handleUserClientCommandGated: asking for specific bag 501 (eff -501)
+Apr  4 13:10:41 Alexanders-MacBook kernel[0] <Notice>: AppleKeyStore::handleUserClientCommandGated: set handle 1 as special bag -501
+Apr  4 13:10:41 Alexanders-MacBook kernel[0] <Notice>: AppleKeyStore:Sending lock change 1 for handle 1
+Apr  4 13:10:41 Alexanders-MacBook kernel[0] <Notice>: AppleKeyStore:Sending lock change 0 for handle -501
+Apr  4 13:10:42 Alexanders-MacBook kernel[0] <Notice>: Sandbox: CommCenter(245) deny(1) file-read-metadata /private/var/folders
+Apr  4 13:10:44 Alexanders-MacBook kernel[0] <Notice>: Sandbox: SocialPushAgent(282) deny(1) file-write-data /Users/alex/Library/Preferences/com.apple.socialpushagent.plist
+Apr  4 13:10:44 Alexanders-MacBook kernel[0] <Notice>: Sandbox: CalendarAgent(295) allow(0) mach-register com.apple.CalendarStore.lock.init
+Apr  4 13:10:48 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(354) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:48 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(355) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:48 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(356) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:48 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(357) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:48 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(359) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:48 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(360) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:48 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(361) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:48 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(365) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:49 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(366) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:49 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(367) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:49 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(368) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:49 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:10:54 Alexanders-MacBook kernel[0] <Notice>: Sandbox: rpcsvchost(185) deny(1) file-read-metadata /usr
+Apr  4 13:10:54 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreaudiod(189) deny(1) file-read-metadata /usr
+Apr  4 13:10:54 Alexanders-MacBook kernel[0] <Notice>: Sandbox: blued(87) deny(1) file-read-metadata /usr
+Apr  4 13:10:55 Alexanders-MacBook kernel[0] <Notice>: Sandbox: airportd(58) deny(1) file-read-metadata /usr
+Apr  4 13:10:55 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) file-read-metadata /usr/libexec
+Apr  4 13:10:55 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(397) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:55 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(398) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:55 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(399) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:55 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(402) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:55 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(404) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:55 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(405) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:10:58 Alexanders-MacBook kernel[0] <Notice>: fsevents: watcher CleanAppDaemon (pid: 78) - Using /dev/fsevents directly is unsupported.  Migrate to FSEventsFramework
+Apr  4 13:10:59 Alexanders-MacBook kernel[0] <Notice>: Sandbox: netbiosd(233) deny(1) file-read-metadata /usr
+Apr  4 13:10:59 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.apple.spotlight
+Apr  4 13:11:05 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(423) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:11:05 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(424) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:11:10 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(437) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:11:10 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(438) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:11:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) mach-lookup com.apple.lsd.mapdb
+Apr  4 13:11:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) file-read-data /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.LaunchServices-1340.csstore
+Apr  4 13:11:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) ipc-posix-shm-read-data /tmp/com.apple.csseed.135
+Apr  4 13:11:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) file-read-metadata /
+Apr  4 13:11:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) file-read-metadata /Applications/App Store.app
+Apr  4 13:11:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) file-read-metadata /Applications/Automator.app
+Apr  4 13:11:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) file-read-metadata /Applications/Calculator.app
+Apr  4 13:11:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) file-read-metadata /Applications/Calendar.app
+Apr  4 13:11:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) file-read-metadata /Applications/Chess.app
+Apr  4 13:11:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) file-read-metadata /Applications/Contacts.app
+Apr  4 13:11:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) file-read-metadata /Applications/Dashboard.app
+Apr  4 13:11:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreile-read-metadata /Applications/Utilities/VoiceOver Utility.app
+Apr  4 13:11:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) file-read-metadata /Applications/Utilities/VoiceOver Utility.app
+Apr  4 13:11:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) file-read-metadata /
+Apr  4 13:11:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) mach-lookup com.apple.lsd.modifydb
+Apr  4 13:17:39 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:17:41 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:17:42 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(494) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:17:42 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(495) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:17:42 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(496) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:17:42 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(497) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:17:42 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(498) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:17:42 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(499) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:17:42 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(500) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:17:42 Alexanders-MacBook kernel[0] <Notice>: Sandbox: launchctl(501) System Policy: deny(1) mach-priv-task-port
+Apr  4 13:17:48 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:18:04 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(502) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:18:04 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:18:05 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(506) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:18:05 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:18:07 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(502) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:18:07 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(508) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:19:41 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:19:41 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:21:55 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:21:57 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:22:19 Alexanders-MacBook kernel[0] <Notice>: [HID] [MT] AppleMultitouchDevice::willTerminate entered
+Apr  4 13:22:19 Alexanders-MacBook kernel[0] <Notice>: [HID] [MT] AppleMultitouchDevice::stop entered
+Apr  4 13:22:19 Alexanders-MacBook kernel[0] <Notice>: Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Apr  4 13:22:23 Alexanders-MacBook kernel[0] <Notice>: Setting BTCoex Config: enable_2G:1, profile_2g:1, enable_5G:1, profile_5G:0
+Apr  4 13:22:23 Alexanders-MacBook kernel[0] <Notice>: [BNBMouseDevice::init][90.3] init is complete
+Apr  4 13:22:23 Alexanders-MacBook kernel[0] <Notice>: [BNBMouseDevice::handleStart][90.3] returning 1
+Apr  4 13:22:23 Alexanders-MacBook kernel[0] <Notice>: [HID] [MT] AppleMultitouchHIDEventDriver::start entered
+Apr  4 13:22:23 Alexanders-MacBook kernel[0] <Notice>: [HID] [MT] AppleMultitouchDevice::start entered
+Apr  4 13:24:45 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:24:46 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:31:18 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:31:18 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:38:56 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:38:57 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:39:13 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(615) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:39:13 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(616) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:39:13 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:39:13 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(617) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:39:14 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:39:50 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(620) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:39:50 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:39:50 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(621) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:39:50 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(622) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:39:50 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:40:32 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:40:34 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:40:57 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:40:57 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(635) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:40:58 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(636) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:40:58 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:41:37 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:41:37 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:41:56 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(642) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:41:56 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:41:56 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(643) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:41:57 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(644) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:41:57 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:43:02 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:43:03 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:43:39 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(649) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:43:39 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(660) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:43:40 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(661) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:45:11 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:45:12 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:45:27 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(670) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:45:27 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:45:27 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(671) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:45:27 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:45:44 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(674) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:45:44 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:45:44 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(675) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:45:44 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(676) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:45:44 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:46:31 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:46:32 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:46:52 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(683) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:46:52 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:46:52 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(684) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:46:52 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(685) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:46:53 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:47:11 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(687) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:47:11 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:47:11 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(688) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:47:11 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(689) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:47:11 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:48:41 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:48:44 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:49:58 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:49:59 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:50:27 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(713) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:50:27 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:50:27 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(714) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:50:27 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:50:46 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(717) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:50:46 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:50:46 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(718) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:51:32 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:51:33 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:51:54 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:51:54 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:51:54 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(727) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:51:55 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:52:09 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(729) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:52:09 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:52:09 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(730) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:52:09 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:52:09 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(731) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:52:10 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:52:24 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(733) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:52:24 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:52:24 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(734) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:52:24 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:52:24 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(735) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:52:25 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:52:38 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:52:38 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:52:38 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(739) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:52:39 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:53:12 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:53:12 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(743) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:53:12 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:55:33 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:55:34 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:57:21 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:57:22 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:57:35 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(759) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:57:35 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:57:35 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(760) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:57:35 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(761) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:57:36 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:57:56 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(764) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:57:56 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:57:56 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(765) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:57:56 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(768) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:57:56 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(764) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:57:56 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:57:57 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(769) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:57:57 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:58:12 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(771) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:58:12 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:58:13 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(772) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:58:13 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:59:06 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:59:27 Alexanders-MacBook kernel[0] <Notice>: Sandbox: Elmedia Player(781) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:59:27 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 13:59:27 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(782) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:59:27 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 13:59:28 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(783) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 13:59:28 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 14:00:08 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 14:00:11 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 14:00:35 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 14:00:36 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(791) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 14:00:36 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 14:08:31 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 14:08:34 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 14:09:16 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch
+Apr  4 14:09:16 Alexanders-MacBook kernel[0] <Notice>: Sandbox: mplayer(815) deny(1) file-read-data /Users/alex/Movies/XXX/Fisting
+Apr  4 14:09:17 Alexanders-MacBook kernel[0] <Notice>: Sandbox: storeaccountd(338) deny(1) file-write-create /Users/alex/Library/Caches/com.Eltima.ElmediaPlayer.MAS
+Apr  4 14:10:39 Alexanders-MacBook kernel[0] <Notice>: IGAccelDevice: IOUserClient outputCount count mismatch

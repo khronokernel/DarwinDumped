@@ -1,0 +1,16 @@
+[
+{"data":{"title":"HDMIDPAudioCapabilities"},"attr":{"id":"41668","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOAudioPowerState"},"attr":{"id":"41670","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"PeriodicTasks"},"attr":{"id":"41672","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"PowerProfile"},"attr":{"id":"41674","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"PowerIdentity"},"attr":{"id":"41676","ColType":"String","ColValue":"Built-in Audio"}},{"data":{"title":"CurrentPowerLevel"},"attr":{"id":"41678","ColType":"Number","ColValue":"0"}},{"data":{"title":"IdlePowerLevel"},"attr":{"id":"41680","ColType":"Number","ColValue":"0"}},{"data":{"title":"MaximumPowerLimit"},"attr":{"id":"41682","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOPMUnattendedWakePowerState"},"attr":{"id":"41684","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOAudioDeviceModelID"},"attr":{"id":"41686","ColType":"String","ColValue":"AppleHDA:0"}},
+{"data":{"title":"IOAudioDeviceTransportType"},"attr":{"id":"41688","ColType":"Number","ColValue":"1685090932"}},
+{"data":{"title":"IOAudioDeviceManufacturerName"},"attr":{"id":"41690","ColType":"String","ColValue":"ManufacturerName"}},
+{"data":{"title":"vendorcodecID"},"attr":{"id":"41692","ColType":"Number","ColValue":"268610049"}},
+{"data":{"title":"IOAudioDeviceShortName"},"attr":{"id":"41694","ColType":"String","ColValue":"DeviceS"}},
+{"data":{"title":"IOAudioDeviceCanBeDefaults"},"attr":{"id":"41696","ColType":"Number","ColValue":"7"}},
+{"data":{"title":"IOAudioDeviceName"},"attr":{"id":"41698","ColType":"String","ColValue":"DeviceN"}},
+{"data":{"title":"IOAudioDeviceLocalizedBundle"},"attr":{"id":"41700","ColType":"String","ColValue":"AppleGFXHDA.kext"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"41702","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"41704","ColType":"Number","ColValue":"1"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"41706","ColType":"Number","ColValue":"1"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"41708","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"41710","ColType":"Number","ColValue":"32768"}}]}
+]

@@ -1,0 +1,359 @@
+flashrom v0.9.6.1-runknown on Darwin 13.2.0 (x86_64)
+flashrom was built with libpci 3.1.9, GCC 4.0.1 (Apple Inc. build 5488), little endian
+Command line (6 args): /Applications/DarwinDumper_v2.8.8/DarwinDumper.app/Contents/Resources/Tools/flashrom -p internal -r /Applications/DarwinDumper_v2.8.8/DarwinDumperReports/000_2014-05-26_01-25-55_iMac14,2/DarwinDumper_2.8.8_Apple_X64_Mav_plievasabina/BIOS/System/biosbackup.rom -o /Applications/DarwinDumper_v2.8.8/DarwinDumperReports/000_2014-05-26_01-25-55_iMac14,2/DarwinDumper_2.8.8_Apple_X64_Mav_plievasabina/BIOS/System/flashrom_log.txt
+Calibrating delay loop... OS timer resolution is 1 usecs, 2930M loops per second, 10 myus = 18 us, 100 myus = 93 us, 1000 myus = 929 us, 10000 myus = 8652 us, 4 myus = 3 us, OK.
+Initializing internal programmer
+Mapping low megabyte at 0x00000400, unaligned size 0xffc00.
+Mapping low megabyte, 0xffc00 bytes at unaligned 0x00000400.
+No coreboot table found.
+dmidecode execution unsuccessful - continuing without DMI info
+Found chipset "Intel Lynx Point" with PCI ID 8086:8c44. 
+This chipset is marked as untested. If you are using an up-to-date version
+of flashrom *and* were (not) able to successfully update your firmware with it,
+then please email a report to flashrom@flashrom.org including a verbose (-V) log.
+Thank you!
+Enabling flash write... enable_flash_ich_dc_spi: unknown ICH generation. Please report!
+
+0xfff80000/0xffb80000 FWH IDSEL: 0x0
+0xfff00000/0xffb00000 FWH IDSEL: 0x0
+0xffe80000/0xffa80000 FWH IDSEL: 0x1
+0xffe00000/0xffa00000 FWH IDSEL: 0x1
+0xffd80000/0xff980000 FWH IDSEL: 0x2
+0xffd00000/0xff900000 FWH IDSEL: 0x2
+0xffc80000/0xff880000 FWH IDSEL: 0x3
+0xffc00000/0xff800000 FWH IDSEL: 0x3
+0xff700000/0xff300000 FWH IDSEL: 0x4
+0xff600000/0xff200000 FWH IDSEL: 0x5
+0xff500000/0xff100000 FWH IDSEL: 0x6
+0xff400000/0xff000000 FWH IDSEL: 0x7
+0xfff80000/0xffb80000 FWH decode enabled
+0xfff00000/0xffb00000 FWH decode enabled
+0xffe80000/0xffa80000 FWH decode enabled
+0xffe00000/0xffa00000 FWH decode enabled
+0xffd80000/0xff980000 FWH decode enabled
+0xffd00000/0xff900000 FWH decode enabled
+0xffc80000/0xff880000 FWH decode enabled
+0xffc00000/0xff800000 FWH decode enabled
+0xff700000/0xff300000 FWH decode disabled
+0xff600000/0xff200000 FWH decode disabled
+0xff500000/0xff100000 FWH decode disabled
+0xff400000/0xff000000 FWH decode disabled
+Maximum FWH chip size: 0x100000 bytes
+BIOS_CNTL = 0x09: BIOS Lock Enable: disabled, BIOS Write Enable: enabled
+Root Complex Register Block address = 0xfed1c000
+GCS = 0xc21: BIOS Interface Lock-Down: enabled, Boot BIOS Straps: 0x3 (unknown)
+Top Swap : not enabled
+SPIBAR = 0xfed1c000 + 0x3800
+0x04: 0xf008 (HSFS)
+HSFS: FDONE=0, FCERR=0, AEL=0, BERASE=1, SCIP=0, FDOPSS=1, FDV=1, FLOCKDN=1
+WARNING: SPI Configuration Lockdown activated.
+Reading OPCODES... done
+        OP        Type      Pre-OP
+op[0]: 0x9f, read  w/o addr, none
+op[1]: 0x02, write w/  addr, none
+op[2]: 0x03, read  w/  addr, none
+op[3]: 0x01, write w/o addr, none
+op[4]: 0x05, read  w/o addr, none
+op[5]: 0x20, write w/  addr, none
+op[6]: 0xd8, write w/  addr, none
+op[7]: 0xff, read  w/o addr, none
+Pre-OP 0: 0x06, Pre-OP 1: 0x06
+0x06: 0x0004 (HSFC)
+HSFC: FGO=0, FCYCLE=2, FDBC=0, SME=0
+0x08: 0x00616257 (FADDR)
+0x50: 0x00004aff (FRAP)
+BMWAG 0x00, BMRAG 0x00, BRWA 0x4a, BRRA 0xff
+0x54: 0x00000000 FREG0: WARNING: Flash Descriptor region (0x00000000-0x00000fff) is read-only.
+0x58: 0x07ff0190 FREG1: BIOS region (0x00190000-0x007fffff) is read-write.
+0x5C: 0x018f0002 FREG2: WARNING: Management Engine region (0x00002000-0x0018ffff) is read-only.
+0x60: 0x00007fff FREG3: Gigabit Ethernet region is unused.
+0x64: 0x00010001 FREG4: WARNING: Platform Data region (0x00001000-0x00001fff) is read-only.
+0x74: 0x80010000 PR0: WARNING: 0x00000000-0x00001fff is read-only.
+0x78: 0x860f0190 PR1: WARNING: 0x00190000-0x0060ffff is read-only.
+0x7C: 0x9fff0632 PR2: WARNING: 0x00632000-0x01ffffff is read-only.
+0x80: 0x00000000 (PR3 is unused)
+0x84: 0x00000000 (PR4 is unused)
+Please send a verbose log to flashrom@flashrom.org if this board is not listed on
+http://flashrom.org/Supported_hardware#Supported_mainboards yet.
+Writes have been disabled. You can enforce write support with the
+ich_spi_force programmer option, but it will most likely harm your hardware!
+If you force flashrom you will get no support if something breaks.
+0x90: 0xc0 (SSFS)
+SSFS: SCIP=0, FDONE=0, FCERR=0, AEL=0
+0x91: 0xfc7f00 (SSFC)
+SSFC: SCGO=0, ACS=0, SPOP=0, COP=0, DBC=63, SME=0, SCF=4
+0x94: 0x0606     (PREOP)
+0x96: 0x3c6c     (OPTYPE)
+0x98: 0x0103029f (OPMENU)
+0x9C: 0xffd82005 (OPMENU+4)
+0xA0: 0x00000000 (BBAR)
+0xC4: 0x80802045 (LVSCC)
+LVSCC: BES=0x1, WG=1, WSR=0, WEWS=0, EO=0x20, VCL=1
+0xC8: 0x00000000 (UVSCC)
+UVSCC: BES=0x0, WG=0, WSR=0, WEWS=0, EO=0x0, VCL=0
+0xD0: 0x50444653 (FPB)
+
+Reading flash descriptors mapped by the chipset via FDOC/FDOD... done.
+=== Content Section ===
+FLVALSIG 0x0ff0a55a
+FLMAP0   0x03040003
+FLMAP1   0x15100206
+FLMAP2   0x00210120
+
+--- Details ---
+NR          (Number of Regions):                     4
+FRBA        (Flash Region Base Address):         0x040
+NC          (Number of Components):                  1
+FCBA        (Flash Component Base Address):      0x030
+ISL         (ICH/PCH Strap Length):                 21
+FISBA/FPSBA (Flash ICH/PCH Strap Base Address):  0x100
+NM          (Number of Masters):                     3
+FMBA        (Flash Master Base Address):         0x060
+MSL/PSL     (MCH/PROC Strap Length):                 1
+FMSBA       (Flash MCH/PROC Strap Base Address): 0x200
+
+=== Component Section ===
+FLCOMP   0x64900044
+FLILL    0x00000000
+
+--- Details ---
+Component 1 density:             8 MB
+Component 2 is not used.
+Read Clock Frequency:           20 MHz
+Read ID and Status Clock Freq.: 50 MHz
+Write and Erase Clock Freq.:    50 MHz
+Fast Read is supported.
+Fast Read Clock Frequency:      50 MHz
+No forbidden opcodes.
+
+=== Region Section ===
+FLREG0   0x00000000
+FLREG1   0x07ff0190
+FLREG2   0x018f0002
+FLREG3   0x00007fff
+FLREG4   0x00010001
+
+--- Details ---
+Region 0 (Descr.) 0x00000000 - 0x00000fff
+Region 1 (BIOS  ) 0x00190000 - 0x007fffff
+Region 2 (ME    ) 0x00002000 - 0x0018ffff
+Region 3 (GbE   ) is unused.
+Region 4 (Platf.) 0x00001000 - 0x00001fff
+
+=== Master Section ===
+FLMSTR1  0x0aff0000
+FLMSTR2  0x0c0d0000
+FLMSTR3  0xffff0118
+
+--- Details ---
+      Descr. BIOS ME GbE Platf.
+BIOS    r     rw  r   rw   r 
+ME      r         rw  rw     
+GbE     rw    rw  rw  rw   rw
+
+SPI Read Configuration: prefetching enabled, caching enabled, OK.
+The following protocols are supported: FWH, SPI.
+Probing for AMIC A25L05PT, 64 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L05PU, 64 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L10PT, 128 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L10PU, 128 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L20PT, 256 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L20PU, 256 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L40PT, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L40PU, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L80P, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L16PT, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L16PU, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L512, 64 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L010, 128 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L020, 256 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L040, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L080, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L016, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25L032, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for AMIC A25LQ032, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT25DF021, 256 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT25DF041A, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT25DF081, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT25DF081A, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT25DF161, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT25DF321, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT25DF321A, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT25DF641(A), 8192 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT25DQ161, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT25F512B, 64 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT25FS010, 128 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT25FS040, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT26DF041, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT26DF081A, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT26DF161, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT26DF161A, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT26F004, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT45CS1282, 16896 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT45DB011D, 128 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT45DB021D, 256 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT45DB041D, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT45DB081D, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT45DB161D, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT45DB321C, 4224 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT45DB321D, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel AT45DB642D, 8192 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for EMST F25L008A, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B05, 64 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B05T, 64 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B10, 128 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B10T, 128 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B20, 256 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B20T, 256 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B40, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B40T, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B80, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B80T, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B16, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B16T, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B32, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B32T, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B64, 8192 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25B64T, 8192 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25F05, 64 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25F10, 128 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25F20, 256 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25F40, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25F80, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25F16, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25F32, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25Q40, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25Q80(A), 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25Q16, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25Q32(A/B), 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25Q64, 8192 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25Q128, 16384 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25QH16, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon EN25QH32, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for GigaDevice GD25Q20, 256 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for GigaDevice GD25Q40, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for GigaDevice GD25Q80, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for GigaDevice GD25Q16, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for GigaDevice GD25Q32, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for GigaDevice GD25Q64, 8192 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for GigaDevice GD25Q128, 16384 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Macronix MX25L512, 64 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Macronix MX25L1005, 128 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Macronix MX25L2005, 256 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Macronix MX25L4005, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Macronix MX25L8005, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Macronix MX25L1605, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Macronix MX25L1635D, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Macronix MX25L1635E, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Macronix MX25L3205, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Macronix MX25L3235D, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Macronix MX25L6405, 8192 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Chip status register is 00
+Chip status register: Status Register Write Disable (SRWD) is not set
+Chip status register: Bit 6 is not set
+Chip status register: Block Protect 3 (BP3) is not set
+Chip status register: Block Protect 2 (BP2) is not set
+Chip status register: Block Protect 1 (BP1) is not set
+Chip status register: Block Protect 0 (BP0) is not set
+Chip status register: Write Enable Latch (WEL) is not set
+Chip status register: Write In Progress (WIP/BUSY) is not set
+Found Macronix flash chip "MX25L6405" (8192 kB, SPI) at physical address 0xff800000.
+Probing for Macronix MX25L12805, 16384 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Numonyx M25PE10, 128 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Numonyx M25PE20, 256 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Numonyx M25PE40, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Numonyx M25PE80, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Numonyx M25PE16, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Numonyx N25Q064, 8192 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for PMC Pm25LV010, 128 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for PMC Pm25LV016B, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for PMC Pm25LV020, 256 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for PMC Pm25LV040, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for PMC Pm25LV080B, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for PMC Pm25LV512, 64 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Sanyo LF25FW203A, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Spansion S25FL004A, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Spansion S25FL008A, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Spansion S25FL016A, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Spansion S25FL032A, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Spansion S25FL064A, 8192 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for SST SST25LF040A, 512 kB: Invalid OPCODE 0xab, will not execute.
+Probing for SST SST25LF080A, 1024 kB: Invalid OPCODE 0xab, will not execute.
+Probing for SST SST25VF010, 128 kB: Invalid OPCODE 0x90, will not execute.
+Probing for SST SST25VF016B, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for SST SST25VF032B, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for SST SST25VF064C, 8192 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for SST SST25VF040, 512 kB: Invalid OPCODE 0x90, will not execute.
+Probing for SST SST25VF040B, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for SST SST25VF040B.REMS, 512 kB: Invalid OPCODE 0x90, will not execute.
+Probing for SST SST25VF080B, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for ST M25P05-A, 64 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for ST M25P05, 64 kB: Ignoring RES in favour of RDID.
+Probing for ST M25P10-A, 128 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for ST M25P10, 128 kB: Ignoring RES in favour of RDID.
+Probing for ST M25P20, 256 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for ST M25P40, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for ST M25P40-old, 512 kB: Ignoring RES in favour of RDID.
+Probing for ST M25P80, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for ST M25P16, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for ST M25P32, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for ST M25P64, 8192 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for ST M25P128, 16384 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for ST M25PX16, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for ST M25PX32, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for ST M25PX64, 8192 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Winbond W25Q80, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Winbond W25Q16, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Winbond W25Q32, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Winbond W25Q64, 8192 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Winbond W25Q128, 16384 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Winbond W25X10, 128 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Winbond W25X20, 256 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Winbond W25X40, 512 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Winbond W25X80, 1024 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Winbond W25X16, 2048 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Winbond W25X32, 4096 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Winbond W25X64, 8192 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Unknown SFDP-capable chip, 0 kB: Invalid OPCODE 0x5a, will not execute.
+Receiving SFDP signature failed.
+Probing for AMIC unknown AMIC SPI chip, 0 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Atmel unknown Atmel SPI chip, 0 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Eon unknown Eon SPI chip, 0 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Macronix unknown Macronix SPI chip, 0 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for PMC unknown PMC SPI chip, 0 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for SST unknown SST SPI chip, 0 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for ST unknown ST SPI chip, 0 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Sanyo unknown Sanyo SPI chip, 0 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Generic unknown SPI chip (RDID), 0 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Probing for Generic unknown SPI chip (REMS), 0 kB: Invalid OPCODE 0x90, will not execute.
+Probing for Atmel AT49LH002, 256 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 82802AB, 512 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 82802AC, 1024 kB: probe_82802ab: id1 0x44, id2 0x24, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for PMC Pm49FL002, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for PMC Pm49FL004, 512 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Sharp LHF00L04, 1024 kB: probe_82802ab: id1 0x44, id2 0x24, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF002A/B, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF003A/B, 384 kB: probe_jedec_common: id1 0xf0, id2 0xe2, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF004A/B, 512 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF004C, 512 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF008A, 1024 kB: probe_jedec_common: id1 0x44, id2 0x24, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF008C, 1024 kB: probe_82802ab: id1 0x44, id2 0x24, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF016C, 2048 kB: Chip size 2048 kB is bigger than supported size 1024 kB of chipset/board/programmer for FWH interface, probe/read/erase/write may fail. probe_82802ab: id1 0xf0, id2 0xe2, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW040A, 512 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW040B, 512 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW080A, 1024 kB: probe_82802ab: id1 0x44, id2 0x24, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW080B, 1024 kB: probe_82802ab: id1 0x44, id2 0x24, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW002, 256 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW016, 2048 kB: Chip size 2048 kB is bigger than supported size 1024 kB of chipset/board/programmer for FWH interface, probe/read/erase/write may fail. probe_82802ab: id1 0xf0, id2 0xe2, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW040, 512 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW080, 1024 kB: probe_82802ab: id1 0x44, id2 0x24, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V040FA, 512 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V040FB, 512 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V040FC, 512 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W49V002FA, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V080FA, 1024 kB: probe_jedec_common: id1 0x44, id2 0x24, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V080FA (dual mode), 512 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Found Macronix flash chip "MX25L6405" (8192 kB, SPI).
+Reading flash... done.
+Restoring MMIO space at 0x858a0
+Restoring PCI config space for 00:1f:0 reg 0xdc

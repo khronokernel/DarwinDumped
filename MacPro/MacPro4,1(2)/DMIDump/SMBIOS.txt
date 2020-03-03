@@ -1,0 +1,532 @@
+# dmidecode 2.11b
+Handle 0x0005, DMI type 0, 24 bytes
+0000: 00 18 05 00 01 02 00 00 03 1f 00 98 09 78 00 00 
+0010: 00 00 03 0f 00 01 00 00 
+
+BIOS Information
+	Vendor: Apple Inc.
+	Version: MP41.0081.B07
+	Release Date: 03/03/09
+	ROM Size: 2048 kB
+	Characteristics:
+		BIOS is upgradeable
+		BIOS shadowing is allowed
+		Boot from CD is supported
+		Selectable boot is supported
+		EDD is supported
+		8042 keyboard services are supported (int 9h)
+		Serial services are supported (int 14h)
+		Printer services are supported (int 17h)
+		CGA/mono video services are supported (int 10h)
+		ACPI is supported
+		USB legacy is supported
+		BIOS boot specification is supported
+		Function key-initiated network boot is supported
+		Targeted content distribution is supported
+		UEFI is supported
+	BIOS Revision: 0.1
+	Firmware Revision: 0.0
+
+Handle 0x0006, DMI type 1, 27 bytes
+0000: 01 1b 06 00 01 02 03 04 59 24 2c 5e 12 2c 11 e0 
+0010: b2 c3 00 0e a6 70 05 3b 06 05 06 
+
+System Information
+	Manufacturer: Apple Inc.
+	Product Name: MacPro4,1
+	Version: 1.0
+	Serial Number: CT93051DK9Y
+	UUID: 59242C5E-122C-11E0-B2C3-000EA670053B
+	Wake-up Type: Power Switch
+	SKU Number: Mac-F221BEC8
+	Family: MacPro
+
+Handle 0x0007, DMI type 2, 16 bytes
+0000: 02 10 07 00 01 02 03 04 05 0d 05 08 00 0b 00 00 
+0010: 
+
+Base Board Information
+	Manufacturer: Apple Inc.
+	Product Name: Mac-F221BEC8
+	Version: 1.4
+	Serial Number: C02140302D5DMT31M
+	Asset Tag: Part Component
+	Features:
+		Board is a hosting board
+		Board is removable
+		Board is replaceable
+	Location In Chassis: Part Component
+	Chassis Handle: 0x0008
+	Type: Processor+Memory Module
+	Contained Object Handles: 0
+
+Handle 0x0008, DMI type 3, 21 bytes
+0000: 03 15 08 00 01 06 02 03 04 03 03 01 01 00 00 00 
+0010: 00 00 01 00 00 
+
+Chassis Information
+	Manufacturer: Apple Inc.
+	Type: Mini Tower
+	Lock: Not Present
+	Version: Mac-F221BEC8
+	Serial Number: CT93051DK9Y
+	Asset Tag: Pro-Enclosure
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Other
+	Security Status: Other
+	OEM Information: 0x00000000
+	Height: Unspecified
+	Number Of Power Cords: 1
+	Contained Elements: 0
+
+Handle 0x0001, DMI type 7, 19 bytes
+0000: 07 13 01 00 01 82 01 00 20 00 20 40 00 40 00 00 
+0010: 05 05 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 8192 kB
+	Maximum Size: 8192 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unified
+	Associativity: 16-way Set-associative
+
+Handle 0x0002, DMI type 7, 19 bytes
+0000: 07 13 02 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 04 07 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Data
+	Associativity: 8-way Set-associative
+
+Handle 0x0003, DMI type 7, 19 bytes
+0000: 07 13 03 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 05 07 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unified
+	Associativity: 8-way Set-associative
+
+Handle 0x0004, DMI type 7, 19 bytes
+0000: 07 13 04 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 03 05 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 4-way Set-associative
+
+Handle 0x0000, DMI type 4, 42 bytes
+0000: 04 2a 00 00 03 03 c6 02 a5 06 01 00 ff fb eb bf 
+0010: 01 8c 85 00 80 0c 82 0c 41 19 04 00 03 00 01 00 
+0020: 05 04 00 04 04 08 fc 00 c6 00 
+
+Processor Information
+	Socket Designation: U2E1
+	Type: Central Processor
+	Family: Core i7
+	Manufacturer: Intel(R) Corporation
+	ID: A5 06 01 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 26, Stepping 5
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 3200 MHz
+	Current Speed: 3202 MHz
+	Status: Populated, Enabled
+	Upgrade: Socket LGA1366
+	L1 Cache Handle: 0x0004
+	L2 Cache Handle: 0x0003
+	L3 Cache Handle: 0x0001
+	Serial Number: 16
+	Asset Tag: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+	Part Number: Not Specified
+	Core Count: 4
+	Core Enabled: 4
+	Thread Count: 8
+	Characteristics:
+		64-bit capable
+		Multi-Core
+		Hardware Thread
+		Execute Protection
+		Enhanced Virtualization
+		Power/Performance Control
+
+Handle 0x000A, DMI type 9, 13 bytes
+0000: 09 0d 0a 00 01 b0 0d 04 04 06 00 04 00 
+
+System Slot Information
+	Designation: PCIE X16 SLOT 1
+	Type: x16 PCI Express 2 x16
+	Current Usage: In Use
+	Length: Long
+	ID: 6
+	Characteristics:
+		3.3 V is provided
+
+Handle 0x000B, DMI type 9, 13 bytes
+0000: 09 0d 0b 00 01 b0 0d 03 04 04 00 04 00 
+
+System Slot Information
+	Designation: PCIE X16 SLOT 2
+	Type: x16 PCI Express 2 x16
+	Current Usage: Available
+	Length: Long
+	ID: 4
+	Characteristics:
+		3.3 V is provided
+
+Handle 0x000C, DMI type 9, 13 bytes
+0000: 09 0d 0c 00 01 b0 0b 03 04 02 00 04 00 
+
+System Slot Information
+	Designation: PCIE X16 SLOT 3
+	Type: x8 PCI Express 2 x16
+	Current Usage: Available
+	Length: Long
+	ID: 2
+	Characteristics:
+		3.3 V is provided
+
+Handle 0x000D, DMI type 9, 13 bytes
+0000: 09 0d 0d 00 01 a6 08 03 03 05 00 04 05 
+
+System Slot Information
+	Designation: PCIE X1 SLOT 1
+	Type: x1 PCI Express x1
+	Current Usage: Available
+	Length: Short
+	ID: 5
+	Characteristics:
+		3.3 V is provided
+		PME signal is supported
+		SMBus signal is supported
+
+Handle 0x000E, DMI type 9, 13 bytes
+0000: 09 0d 0e 00 01 a6 08 03 03 01 00 04 00 
+
+System Slot Information
+	Designation: PCIE X1 SLOT 2
+	Type: x1 PCI Express x1
+	Current Usage: Available
+	Length: Short
+	ID: 1
+	Characteristics:
+		3.3 V is provided
+
+Handle 0x000F, DMI type 9, 13 bytes
+0000: 09 0d 0f 00 01 06 05 03 04 03 00 04 05 
+
+System Slot Information
+	Designation: PCI SLOT 1
+	Type: 32-bit PCI
+	Current Usage: Available
+	Length: Long
+	ID: 3
+	Characteristics:
+		3.3 V is provided
+		PME signal is supported
+		SMBus signal is supported
+
+Handle 0x0009, DMI type 8, 9 bytes
+0000: 08 09 09 00 01 ff 00 00 ff 
+
+Port Connector Information
+	Internal Reference Designator: ATX_PWR
+	Internal Connector Type: Other
+	External Reference Designator: Not Specified
+	External Connector Type: None
+	Port Type: Other
+
+Handle 0x0010, DMI type 10, 6 bytes
+0000: 0a 06 10 00 85 01 
+
+On Board Device Information
+	Type: Ethernet
+	Status: Enabled
+	Description: Intel(R) 82567LF Gigabit Ethernet Device
+
+Handle 0x0011, DMI type 10, 6 bytes
+0000: 0a 06 11 00 87 01 
+
+On Board Device Information
+	Type: Sound
+	Status: Enabled
+	Description: Intel(R) High Definition Audio Device
+
+Handle 0x0012, DMI type 10, 6 bytes
+0000: 0a 06 12 00 85 01 
+
+On Board Device Information
+	Type: Ethernet
+	Status: Enabled
+	Description: Intel(R) 82574L Gigabit Ethernet Device
+
+Handle 0x0013, DMI type 13, 22 bytes
+0000: 0d 16 13 00 01 01 00 00 00 00 00 00 00 00 00 00 
+0010: 00 00 00 00 00 01 
+
+BIOS Language Information
+	Installable Languages: 1
+		enUS
+	Currently Installed Language: enUS
+
+Handle 0x0014, DMI type 32, 20 bytes
+0000: 20 14 14 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0010: 00 00 00 00 
+
+System Boot Information
+	Status: No errors detected
+
+Handle 0x0015, DMI type 16, 15 bytes
+0000: 10 0f 15 00 03 03 03 00 00 00 03 ff ff 06 00 
+
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 48 GB
+	Error Information Handle: No Error
+	Number Of Devices: 6
+
+Handle 0x0017, DMI type 17, 27 bytes
+0000: 11 1b 17 00 15 00 ff ff 40 00 40 00 00 10 09 00 
+0010: 01 02 18 80 00 8b 05 03 04 05 06 
+
+Memory Device
+	Array Handle: 0x0015
+	Error Information Handle: No Error
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4096 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM0
+	Bank Locator: BANK 0
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1419 MHz (0.7 ns)
+	Manufacturer: Kingston
+	Serial Number: 2418ABB9
+	Asset Tag: Unknown
+	Part Number: 9905471-006.A01LF
+
+Handle 0x0018, DMI type 17, 27 bytes
+0000: 11 1b 18 00 15 00 ff ff 40 00 40 00 00 08 09 00 
+0010: 01 02 18 80 00 8b 05 03 04 05 06 
+
+Memory Device
+	Array Handle: 0x0015
+	Error Information Handle: No Error
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 2048 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM0
+	Bank Locator: BANK 1
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1419 MHz (0.7 ns)
+	Manufacturer: Samsung
+	Serial Number: 65154385
+	Asset Tag: Unknown
+	Part Number: M378B5773CH0-CH9
+
+Handle 0x0019, DMI type 17, 27 bytes
+0000: 11 1b 19 00 15 00 ff ff 40 00 40 00 00 10 09 00 
+0010: 01 02 18 80 00 8b 05 03 04 05 06 
+
+Memory Device
+	Array Handle: 0x0015
+	Error Information Handle: No Error
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4096 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM1
+	Bank Locator: BANK 0
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1419 MHz (0.7 ns)
+	Manufacturer: Kingston
+	Serial Number: 2618A6B9
+	Asset Tag: Unknown
+	Part Number: 9905471-006.A01LF
+
+Handle 0x001A, DMI type 17, 27 bytes
+0000: 11 1b 1a 00 15 00 ff ff 40 00 40 00 00 08 09 00 
+0010: 01 02 18 80 00 8b 05 03 04 05 06 
+
+Memory Device
+	Array Handle: 0x0015
+	Error Information Handle: No Error
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 2048 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM1
+	Bank Locator: BANK 1
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1419 MHz (0.7 ns)
+	Manufacturer: Samsung
+	Serial Number: 85FCB30D
+	Asset Tag: Unknown
+	Part Number: M378B5673FH0-CH9
+
+Handle 0x001B, DMI type 17, 27 bytes
+0000: 11 1b 1b 00 15 00 ff ff 40 00 40 00 00 10 09 00 
+0010: 01 02 18 80 00 8b 05 03 04 05 06 
+
+Memory Device
+	Array Handle: 0x0015
+	Error Information Handle: No Error
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4096 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM2
+	Bank Locator: BANK 0
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1419 MHz (0.7 ns)
+	Manufacturer: Kingston
+	Serial Number: 2018B2B9
+	Asset Tag: Unknown
+	Part Number: 9905471-006.A01LF
+
+Handle 0x001C, DMI type 17, 27 bytes
+0000: 11 1b 1c 00 15 00 ff ff 40 00 40 00 00 08 09 00 
+0010: 01 02 18 80 00 8b 05 03 04 05 06 
+
+Memory Device
+	Array Handle: 0x0015
+	Error Information Handle: No Error
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 2048 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM2
+	Bank Locator: BANK 1
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1419 MHz (0.7 ns)
+	Manufacturer: Samsung
+	Serial Number: 85FCB337
+	Asset Tag: Unknown
+	Part Number: M378B5673FH0-CH9
+
+Handle 0x1300, DMI type 19, 15 bytes
+0000: 13 0f 00 13 00 00 00 00 ff ff 1f 01 15 00 06 
+
+Memory Array Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x0047FFFFFFF
+	Range Size: 18 GB
+	Physical Array Handle: 0x0015
+	Partition Width: 6
+
+Handle 0x8000, DMI type 128, 88 bytes
+0000: 80 58 00 80 01 00 00 00 37 f5 01 e0 37 ff 03 c0 
+0010: 02 00 00 00 00 00 00 00 00 00 e0 ff ff ff ef ff 
+0020: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 
+
+Apple specific FirmwareVolume
+	FirmwareFeatures: e001f537
+	FirmwareFeaturesMask: c003ff37
+	Region Type:02 Start:ffe00000 End:ffefffff
+
+Handle 0x8300, DMI type 131, 6 bytes
+0000: 83 06 00 83 01 07 
+
+Apple specific Processor Type
+	 cpu=0701
+
+Handle 0x8400, DMI type 132, 6 bytes
+0000: 84 06 00 84 00 00 
+
+Apple specific Processor Interconnect Speed
+	 0 MT/s
+
+Handle 0x007E, DMI type 127, 4 bytes
+0000: 7f 04 7e 00 
+
+End Of Table
+

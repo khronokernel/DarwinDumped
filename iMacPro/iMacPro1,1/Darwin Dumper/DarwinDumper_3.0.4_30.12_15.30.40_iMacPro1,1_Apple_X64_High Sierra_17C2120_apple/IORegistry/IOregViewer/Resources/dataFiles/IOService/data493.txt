@@ -1,0 +1,16 @@
+[
+{"data":{"title":"IOPCITunnelCompatible"},"attr":{"id":"36951","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"Statistics"},"attr":{"id":"36953","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Total Tx Packets"},"attr":{"id":"36955","ColType":"String","ColValue":"919"}},{"data":{"title":"Total Rx Packets"},"attr":{"id":"36957","ColType":"String","ColValue":"919"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"36959","ColType":"String","ColValue":"com.apple.driver.AppleThunderboltNHI"}},
+{"data":{"title":"IOClass"},"attr":{"id":"36961","ColType":"String","ColValue":"AppleThunderboltHAL"}},
+{"data":{"title":"Hardware Owner"},"attr":{"id":"36963","ColType":"String","ColValue":"AppleThunderboltNHIType3"}},
+{"data":{"title":"IOPlatformWakeAction"},"attr":{"id":"36965","ColType":"Number","ColValue":"200000"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"36967","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"NVM Loaded"},"attr":{"id":"36969","ColType":"Number","ColValue":"67108901"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"36971","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOPCIClassMatch"},"attr":{"id":"36973","ColType":"String","ColValue":"0x08800000&0xffff0000"}},
+{"data":{"title":"IOPCIMatch"},"attr":{"id":"36975","ColType":"String","ColValue":"0x15008086&0xff00ffff"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"36977","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DevicePowerState"},"attr":{"id":"36979","ColType":"Number","ColValue":"0"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"36981","ColType":"Number","ColValue":"0"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"36983","ColType":"Number","ColValue":"0"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"36985","ColType":"Number","ColValue":"0"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"36987","ColType":"Number","ColValue":"3"}},{"data":{"title":"PowerOverrideOn"},"attr":{"id":"36989","ColType":"Boolean","ColValue":"Yes"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"36991","ColType":"Number","ColValue":"3"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"36993","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"IOPlatformSleepAction"},"attr":{"id":"36995","ColType":"Number","ColValue":"200000"}}
+]

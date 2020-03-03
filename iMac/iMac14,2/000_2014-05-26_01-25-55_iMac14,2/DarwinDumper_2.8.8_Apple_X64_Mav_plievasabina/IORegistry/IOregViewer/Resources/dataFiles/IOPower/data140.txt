@@ -1,0 +1,17 @@
+[
+{"data":{"title":"AHCI-Built-In"},"attr":{"id":"6987","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"Chipset Name"},"attr":{"id":"6989","ColType":"String","ColValue":"8 Series Chipset"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"6991","ColType":"String","ColValue":"pci8086,8c02"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"6993","ColType":"String","ColValue":"com.apple.driver.AppleAHCIPort"}},
+{"data":{"title":"IOClass"},"attr":{"id":"6995","ColType":"String","ColValue":"AppleIntelPchSeriesAHCI"}},
+{"data":{"title":"Vendor Name"},"attr":{"id":"6997","ColType":"String","ColValue":"Intel"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"6999","ColType":"Number","ColValue":"2000"}},
+{"data":{"title":"IOPolledInterface"},"attr":{"id":"7001","ColType":"String","ColValue":"AppleAHCIPolledAdapter is not serializable"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"7003","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"7005","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"7006","ColType":"String","ColValue":"pci8086,8c02"}},{"data":{"title":"1"},"attr":{"id":"7007","ColType":"String","ColValue":"pci8086,8c03"}}]},
+{"data":{"title":"IOPMResetPowerStateOnWake"},"attr":{"id":"7009","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"AHCI-CAP"},"attr":{"id":"7011","ColType":"Number","ColValue":"18446744072756461379"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"7013","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"7015","ColType":"Number","ColValue":"2"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"7017","ColType":"Number","ColValue":"2"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"7019","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"7021","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"AHCI-Ejectable"},"attr":{"id":"7023","ColType":"Boolean","ColValue":"No"}}
+]

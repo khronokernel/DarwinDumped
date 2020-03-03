@@ -1,0 +1,19 @@
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS Macintosh HD            999.3 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+/dev/disk1
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                  Apple_HFS OS X Snow Leopard In... 10.0 GB    disk1s2
+   3:                  Apple_HFS OS X Lion Install Di... 10.0 GB    disk1s3
+   4:                  Apple_HFS OS X Mountain Lion I... 10.0 GB    disk1s4
+   5:                  Apple_HFS OS X 10.9 Install Di... 10.0 GB    disk1s5
+   6:                  Apple_HFS OS X Install Disk - ... 10.0 GB    disk1s6
+   7:                  Apple_HFS BootTest                27.8 GB    disk1s7
+   8:                  Apple_HFS SoftDisk                150.0 GB   disk1s8
+   9:                  Apple_HFS DataDisk                135.5 GB   disk1s9
+  10:       Microsoft Basic Data 11111                   135.5 GB   disk1s10

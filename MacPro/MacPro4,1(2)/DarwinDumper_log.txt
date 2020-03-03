@@ -1,0 +1,138 @@
+========================================================
+Welcome to DarwinDumper 2.6.5
+Wed Mar  6 13:54:54 MUT 2013
+--------------------------------------------------------
+       Dumping System Profiler...
+0s : +Started process DumpFilesSystemProfilerInfo: pid 2207
+0s : +Started process DumpFilesDiskUtilAndLoader: pid 2210
+       Dumping BIOS with Flashrom...
+0s : +Started process DumpFilesBiosROM: pid 2215
+** Root privileges required to dump bios.
+0s : -Completed DumpFilesBiosROM
+       Preparing to read disks...
+       Note: There may be a delay if any disks are sleeping
+5s : -Completed DumpFilesSystemProfilerInfo
+       Scanning disk: disk0
+       Reading partition info for: disk0
+       Searching for Bootloader files on disk0s2
+       Scanning disk: disk1
+       Reading partition info for: disk1
+       Searching for Bootloader files on disk1s2
+       Scanning disk: disk2
+       Reading partition info for: disk2
+       Searching for Bootloader files on disk2s2
+       Scanning disk: disk3
+       Reading partition info for: disk3
+       Searching for Bootloader files on disk3s2
+       Scanning disk: disk4
+       Reading partition info for: disk4
+       Searching for Bootloader files on disk4s2
+       Scanning disk: disk5
+       Reading partition info for: disk5
+       Searching for Bootloader files on disk5s1
+       Searching for Bootloader files on disk5s2
+       Scanning disk: disk6
+       Reading partition info for: disk6
+       Searching for Bootloader files on disk6s0
+       Searching for Bootloader files on disk6s0s2
+12s : -Completed DumpFilesDiskUtilAndLoader
+       Dumping ACPI tables to AML & DSL formats...
+13s : +Started process DumpFilesAcpiTables: pid 3187
+       Dumping Audio Codec ID...
+13s : +Started process DumpFilesAudioCodec: pid 3191
+       Dumping Clover_X64_1140 FirmwareMemoryMap
+** Root privileges required to dump firmware memory map.
+13s : +Started process DumpFilesFirmwareMemoryMap: pid 3198
+       Dumping Non Apple Kext list...
+13s : -Completed DumpFilesFirmwareMemoryMap
+13s : +Started process DumpFilesKextLists: pid 3204
+13s : +Started process DumpFilesFirmwareLog: pid 3208
+       Dumping device-properties...
+       Dumping Clover_X64_1140 Firmware log...
+13s : +Started process DumpFilesDeviceProperties: pid 3211
+       Dumping OpenCL Info...
+13s : +Started process DumpFilesOpenCLInfo: pid 3217
+       Dumping Kernel Info...
+13s : +Started process DumpFilesKernelInfo: pid 3224
+       Dumping Kernel boot messages...
+** Root privileges required to dump kernel dmesg.
+13s : +Started process DumpFilesKernelBootMessages: pid 3228
+13s : -Completed DumpFilesKernelBootMessages
+       Dumping SMC keys...
+13s : +Started process DumpFilesSmcKeys: pid 3234
+13s : -Completed DumpFilesDeviceProperties
+13s : +Started process DumpFilesRtc: pid 3241
+       Dumping Misc Info...
+       Dumping RTC...
+13s : +Started process DumpFilesMisc: pid 3246
+13s : -Completed DumpFilesOpenCLInfo
+13s : -Completed DumpFilesKernelInfo
+13s : -Completed DumpFilesSmcKeys
+       Dumping Apple Kext list...
+13s : -Completed DumpFilesMisc
+** Root privileges required to load VoodooHDA.kext.
+13s : -Completed DumpFilesAudioCodec
+13s : -Completed DumpFilesFirmwareLog
+13s : -Completed DumpFilesKextLists
+       Found ACPI table: RSDT
+       Found ACPI table: ASF!
+       Found ACPI table: WDDT
+       Found ACPI table: SSDT-1
+       Found ACPI table: ASPT
+       Found ACPI table: SSDT
+       Found ACPI table: HPET
+       Found ACPI table: DMAR
+       Found ACPI table: WDTT
+       Found ACPI table: APIC
+       Found ACPI table: MCFG
+       Found ACPI table: FACP
+       Found ACPI table: DSDT
+       Found ACPI table: FACS
+13s : -Completed AcpiTables
+14s : -Completed DumpFilesRtc
+** Root privileges required to load DirectHW.kext and run lspci.
+14s : +Started process DumpFilesLspci: pid 3454
+14s : -Completed DumpFilesLspci
+       Dumping DMI table...
+14s : +Started process DumpFilesDmiTables: pid 3457
+       Dumping nvram plist...
+14s : +Started process DumpFilesNvramPlist: pid 3460
+       Dumping EDID...
+14s : +Started process DumpFilesEdid: pid 3464
+14s : -Completed DumpFilesNvramPlist
+14s : -Completed DumpFilesDmiTables
+15s : -Completed DumpFilesEdid
+       Dumping I/O Kit Registry contents...
+15s : +Started process DumpFilesIoreg: pid 3497
+       IOReg: IOService Plane: Processed 999 nodes
+       IOReg: IODeviceTree Plane: Processed 144 nodes
+       IOReg: IOACPIPlane Plane: Processed 86 nodes
+       IOReg: IOPower Plane: Processed 208 nodes
+       IOReg: IOUSB Plane: Processed 19 nodes
+26s : -Completed DumpFilesIoreg
+========================================================
+Dumps complete after: 26 seconds
+--------------------------------------------------------
+Creating HTML report...
+    adding ACPI tables
+    adding Bootloader config files
+    adding device properties
+    adding partition table info
+    adding diskutil & loader info
+    adding disk & volume UIDs
+    adding EDID1.txt
+    adding EDID2.txt
+    adding firmware log
+    adding IORegistry Viewer
+    adding kernel info
+    adding kext dumps
+    adding Misc
+    adding nvram.plist
+    adding OpenCL dump
+    adding RTC dump
+    adding SMBIOS dump
+    adding SMC dumps
+    adding System Profiler dump
+========================================================
+DarwinDumper Completed in: 33 seconds
+========================================================

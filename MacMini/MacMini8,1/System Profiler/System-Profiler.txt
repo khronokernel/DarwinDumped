@@ -1,0 +1,947 @@
+Audio:
+
+    Devices:
+
+        DisplayPort:
+
+          Default Output Device: Yes
+          Default System Output Device: Yes
+          Manufacturer: Apple Inc.
+          Output Channels: 2
+          Current SampleRate: 44100
+          Transport: DisplayPort
+          Output Source: LG Ultra HD
+
+        Динамики «Mac mini»:
+
+          Manufacturer: Apple Inc.
+          Output Channels: 2
+          Current SampleRate: 44100
+          Transport: Built-in
+          Output Source: Динамики «Mac mini»
+
+Bluetooth:
+
+      Apple Bluetooth Software Version: 6.0.11f4
+      Hardware, Features, and Settings:
+          Bluetooth Low Energy Supported: Yes
+          Handoff Supported: Yes
+          Instant Hot Spot Supported: Yes
+          Manufacturer: Broadcom
+          Transport: UART
+          Chipset: 4364B0
+          Firmware Version: v66 c4393
+          Connectable: Yes
+          Auto Seek Pointing: On
+          Remote wake: On
+          Vendor ID: 0x05AC
+          Product ID: 0x007B
+          Auto Seek Keyboard: On
+      Devices (Paired, Configured, etc.):
+          Device 0:
+              Major Type: Miscellaneous
+              Minor Type: Unknown
+              Services: 
+              Firmware Version: 0x0000
+
+Controller:
+
+    Информация о контроллере:
+
+      Model Name: Чип безопасности Apple T2
+      Firmware Version: 16P4507
+      Boot UUID: 55BC46C5-FCDF-4271-9CFE-90E436C5175B
+
+Diagnostics:
+
+    Power On Self-Test:
+
+      Last Run: 30.04.2019, 22:29
+      Result: Passed
+
+Ethernet Cards:
+
+    Apple 57766-A1:
+
+      Name: ethernet
+      Type: Ethernet Controller
+      Bus: PCI
+      Vendor ID: 0x14e4
+      Device ID: 0x1686
+      Subsystem Vendor ID: 0x106b
+      Subsystem ID: 0x0099
+      Revision ID: 0x0001
+      Link Width: x1
+      BSD name: en0
+      Kext name: AppleBCM5701Ethernet.kext
+      Firmware version: 57766a-v1.15
+      Location: /System/Library/Extensions/IONetworkingFamily.kext/Contents/PlugIns/AppleBCM5701Ethernet.kext
+      mDNS offload capable: f0:18:98:ed:86:6e
+      Version: 10.3.3
+
+    iBridge:
+
+      Type: USB
+      BSD name: en6
+      Kext name: AppleUSBNCM.kext
+      Location: /System/Library/Extensions/AppleUSBNCM.kext
+      Version: 5.0.0
+      MAC Address: ac:de:48:00:11:22
+      Product ID: 33331
+      Vendor ID: 1452
+
+Graphics/Displays:
+
+    Intel UHD Graphics 630:
+
+      Chipset Model: Intel UHD Graphics 630
+      Type: GPU
+      Bus: Built-In
+      VRAM (Dynamic, Max): 1536 MB
+      Vendor: Intel
+      Device ID: 0x3e9b
+      Revision ID: 0x0000
+      Metal: Supported, feature set macOS GPUFamily2 v1
+      Displays:
+        LG Ultra HD:
+          Resolution: 3840 x 2160 (2160p 4K UHD - Ultra High Definition)
+          UI Looks like: 1920 x 1080 @ 60 Hz
+          Framebuffer Depth: 30-Bit Color (ARGB2101010)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Rotation: Supported
+          Automatically Adjust Brightness: No
+          Connection Type: DisplayPort
+
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: Mac mini
+      Model Identifier: Macmini8,1
+      Processor Name: Intel Core i7
+      Processor Speed: 3,2 GHz
+      Number of Processors: 1
+      Total Number of Cores: 6
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 12 MB
+      Memory: 32 GB
+      Boot ROM Version: 220.250.366.0.0 (iBridge: 16.16.4507.0.0,0)
+
+Memory:
+
+    Memory Slots:
+
+      ECC: Disabled
+      Upgradeable Memory: Yes
+
+        BANK 0/ChannelA-DIMM0:
+
+          Size: 16 GB
+          Type: DDR4
+          Speed: 2667 MHz
+          Status: OK
+          Manufacturer: Kingston
+          Part Number: KHX2666C15S4/16G
+
+        BANK 2/ChannelB-DIMM0:
+
+          Size: 16 GB
+          Type: DDR4
+          Speed: 2667 MHz
+          Status: OK
+          Manufacturer: Kingston
+          Part Number: KHX2666C15S4/16G
+
+NVMExpress:
+
+    Apple SSD Controller:
+
+        APPLE SSD AP0512M:
+
+          Capacity: 500,28 GB (500 277 792 768 bytes)
+          TRIM Support: Yes
+          Model: APPLE SSD AP0512M
+          Revision: 177.250.
+          Link Width: x4
+          Link Speed: 8.0 GT/s
+          Detachable Drive: No
+          BSD Name: disk0
+          Partition Map Type: GPT (GUID Partition Table)
+          Removable Media: No
+          S.M.A.R.T. status: Verified
+
+Network:
+
+    Ethernet:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en0
+      Service Order: 0
+
+    iPhone:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en8
+      Service Order: 1
+
+    Wi-Fi:
+
+      Type: AirPort
+      Hardware: AirPort
+      BSD Device Name: en1
+      Service Order: 2
+
+    Bluetooth PAN:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en7
+      Service Order: 3
+
+    Thunderbolt Bridge:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: bridge0
+      Service Order: 4
+
+Printer Software:
+
+    PPDs:
+
+      PPDs:
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLP-660 Series.gz
+          Version: 3.04.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-4300 Series.gz
+          Version: 1.02.02
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-451x 501x Series.gz
+          Version: 1.12.07
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-6x22 Series.gz
+          Version: 1.60.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-5835_5935 Series.gz
+          Version: 1.06.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-4050 Series.gz
+          Version: 2.01.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLP-770 Series.gz
+          Version: 2.01.02
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-2580 Series.gz
+          Version: 1.11.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-6x55 Series.gz
+          Version: 1.10.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-1640 Series.gz
+          Version: 1.03.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-5635 Series.gz
+          Version: 1.02.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-4550 Series.gz
+          Version: 1.60.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-2950 Series.gz
+          Version: 1.05.07
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-3300 Series.gz
+          Version: 5.00.02
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-371x Series.gz
+          Version: 1.11.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-6220 Series.gz
+          Version: 1.07.02
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-191x 252x Series.gz
+          Version: 1.08.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLP-360 Series.gz
+          Version: 5.00.02
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-4600 Series.gz
+          Version: 1.08.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SF-760 Series.gz
+          Version: 1.04.07
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLP-310 Series.gz
+          Version: 1.07.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-8030 8040 Series.gz
+          Version: 1.17.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-4500 Series.gz
+          Version: 2.01.02
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-6250 Series.gz
+          Version: 1.12.02
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-8540X Series.gz
+          Version: 1.00.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-1660 Series.gz
+          Version: 1.07.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-1865W Series.gz
+          Version: 1.03.03
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-92x1 93x1 Series.gz
+          Version: 1.15.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-216x Series.gz
+          Version: 2.00.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-2240 Series.gz
+          Version: 1.03.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-8380 Series.gz
+          Version: 2.07.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung M332x 382x 402x Series.gz
+          Version: 1.05.01
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON FAX A3.gz
+          Version: 1.71
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-1630 Series.gz
+          Version: 2.00.02
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-8385X Series.gz
+          Version: 1.00.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-4190 Series.gz
+          Version: 5.00.03
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-2160 Series.gz
+          Version: 1.05.07
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung M267x 287x Series.gz
+          Version: 1.05.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-4500W Series.gz
+          Version: 1.03.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-6200 Series.gz
+          Version: 2.04.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLP-610 Series.gz
+          Version: 2.04.02
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-2855 Series.gz
+          Version: 1.03.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-483x 5x3x Series.gz
+          Version: 1.10.07
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-472x Series.gz
+          Version: 1.09.07
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-5835_5935X Series.gz
+          Version: 1.00.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-2850 Series.gz
+          Version: 2.01.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung M2070 Series.gz
+          Version: 1.01.04
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-2525W Series.gz
+          Version: 4.00.04
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-4x28 Series.gz
+          Version: 1.06.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-6545X Series.gz
+          Version: 1.00.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-3170 Series.gz
+          Version: 1.06.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung M337x 387x 407x Series.gz
+          Version: 1.05.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung C460 Series.gz
+          Version: 1.02.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLP-620 Series.gz
+          Version: 1.13.02
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-6x55X Series.gz
+          Version: 1.00.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-8540 Series.gz
+          Version: 1.03.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung M2020 Series.gz
+          Version: 1.01.04
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-6260 Series.gz
+          Version: 1.11.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-2540 Series.gz
+          Version: 1.04.06
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLP-670 Series.gz
+          Version: 1.16.02
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung M262x 282x Series.gz
+          Version: 1.05.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLP-320 Series.gz
+          Version: 1.07.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-8123 8128 Series.gz
+          Version: 1.12.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-3200 Series.gz
+          Version: 1.01.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-1860 Series.gz
+          Version: 1.03.02
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-4623FW Series.gz
+          Version: 1.00.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLP-410 Series.gz
+          Version: 5.00.03
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-8640 8650 Series.gz
+          Version: 1.17.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-4623 Series.gz
+          Version: 1.08.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-8385 Series.gz
+          Version: 1.03.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-2245 Series.gz
+          Version: 1.02.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-6x45 Series.gz
+          Version: 2.20.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-4650 4x21S.gz
+          Version: 1.02.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-331x Series.gz
+          Version: 1.09.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-470x Series.gz
+          Version: 1.00.07
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-4x24 Series.gz
+          Version: 1.04.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-3180 Series.gz
+          Version: 1.07.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-551x 651x Series.gz
+          Version: 1.13.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLP-350 Series.gz
+          Version: 2.01.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-9250 9350 Series.gz
+          Version: 1.23.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-3470 Series.gz
+          Version: 2.01.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung MFP 65x Series.gz
+          Version: 1.04.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLX-6240 Series.gz
+          Version: 2.05.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung ML-1630W Series.gz
+          Version: 1.02.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung C410 Series.gz
+          Version: 1.02.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLP-300 Series.gz
+          Version: 1.1.01
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON FAX.gz
+          Version: 1.71
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLP-775 Series.gz
+          Version: 5.03.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung CLP-680 Series.gz
+          Version: 1.11.01
+          Path: /Library/Printers/PPDs/Contents/Resources/Samsung SCX-3400 Series.gz
+          Version: 1.04.07
+
+    Printers:
+
+      Printers:
+          Path: /Library/Printers/Samsung/PDEs/BasicOptionPDE.bundle/Contents/Resources/Info.plist
+          Version: 1.04
+          Path: /Library/Printers/Samsung/PDEs/BasicOptionPDE.bundle/Contents/Info.plist
+          Version: 1.04
+          Path: /Library/Printers/Samsung/PDEs/JobSetting2.bundle/Contents/Info.plist
+          Version: 3.04
+          Path: /Library/Printers/Samsung/PDEs/JobAccounting2.bundle/Contents/Info.plist
+          Version: 2.14
+          Path: /Library/Printers/Samsung/PDEs/JobSetting.bundle/Contents/Resources/JobRetention-Info.plist
+          Version: 6.0
+          Path: /Library/Printers/Samsung/PDEs/JobSetting.bundle/Contents/Info.plist
+          Version: 6.0
+          Path: /Library/Printers/Samsung/PDEs/JobAccounting.bundle/Contents/Info.plist
+          Version: 3.05
+          Path: /Library/Printers/Samsung/PDEs/JobRetention.bundle/Contents/Resources/JobRetention-Info.plist
+          Version: 3.04
+          Path: /Library/Printers/Samsung/PDEs/JobRetention.bundle/Contents/Info.plist
+          Version: 3.04
+          Path: /Library/Printers/Samsung/PDEs/Graphic2.bundle/Contents/Info.plist
+          Version: 3.03
+          Path: /Library/Printers/Samsung/PDEs/AdvancedOptionPDE.bundle/Contents/Info.plist
+          Version: 2.08
+          Path: /Library/Printers/Samsung/PDEs/Graphic.bundle/Contents/Info.plist
+          Version: 3.03
+          Path: /Library/Printers/Samsung/PDEs/Printer.bundle/Contents/Resources/Info.plist
+          Version: 3.03
+          Path: /Library/Printers/Samsung/PDEs/Printer.bundle/Contents/Info.plist
+          Version: 3.03
+          Path: /Library/Printers/Samsung/PDEs/Output.bundle/Contents/Info.plist
+          Version: 1.07
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_jgdir.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_rotate.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4811.plugin/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_sfusb.plugin/Contents/Info.plist
+          Version: 1.4.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_farec.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_hsl.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_caps.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_qare.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq2415.plugin/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_smac.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_dscrn.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_tdg.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ddoct.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ago8.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4809.plugin/Contents/Info.plist
+          Version: 1.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_bjnp.plugin/Contents/Info.plist
+          Version: 2.10.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldo9.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_racs2.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_lld09.plugin/Contents/Info.plist
+          Version: 3.9.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq2413.plugin/Contents/Info.plist
+          Version: 2.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4807.plugin/Contents/Info.plist
+          Version: 2.3.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mcrp3.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldv0.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_lld.plugin/Contents/Info.plist
+          Version: 4.4.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_zoom.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldo0.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mcrpp.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_fare.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_cubs.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_sfusb2.plugin/Contents/Info.plist
+          Version: 1.5.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq2414.plugin/Contents/Info.plist
+          Version: 1.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ag.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ausm.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_gercc.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ijfsh.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_gercg.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4808.plugin/Contents/Info.plist
+          Version: 2.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_iom.plugin/Contents/Info.plist
+          Version: 1.9.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mcrp2.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq9601.plugin/Contents/Info.plist
+          Version: 2.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldo8.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_tonec.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDM.framework/Versions/A/Resources/Info.plist
+          Version: 2.1.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDA.framework/Versions/A/Resources/Info.plist
+          Version: 3.1.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDV.framework/Versions/A/Resources/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDE.framework/Versions/A/Resources/Info.plist
+          Version: 1.4.0
+          Path: /Library/Printers/EPSON/Fax/Libraries/FaxRecipientLib2.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Libraries/FICLib.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Libraries/rastertotiff.framework/Versions/A/Resources/TIFFInfo.plist
+          Version: 1.73
+          Path: /Library/Printers/EPSON/Fax/Libraries/rastertotiff.framework/Versions/A/Resources/Info.plist
+          Version: 1.73
+          Path: /Library/Printers/EPSON/Fax/FaxIOSupport/FaxReceiveLib.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/FaxIOSupport/epsonfax.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/FaxIOSupport/FaxIOService.framework/Versions/A/Resources/Info.plist
+          Version: 1.72
+          Path: /Library/Printers/EPSON/Fax/PDEs/PDECPlugin.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Icons/EpsonFax.icons/Contents/Info.plist
+          Version: 1.00
+          Path: /Library/Printers/EPSON/Fax/Filter/commandFilter.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Filter/rastertoepfax.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/AutoSetupTool/EPFaxAutoSetupTool.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Help/Epson_IJFax_C.help/Contents/Info.plist
+          Version: 1.41
+          Path: /Library/Printers/EPSON/Fax/SupportPrinters/FaxSupportInfo.bundle/Contents/Info.plist
+          Version: 1.10
+          Path: /Library/Printers/EPSON/Fax/Utility/FAX Utility.app/Contents/Info.plist
+          Version: 1.73
+          Path: /Library/Printers/EPSON/Fax/Utility/Fax Receive Monitor.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxTransmissionRecord.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxPrinterSpeedDial.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxSettings.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxCheckConnection.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxReceive.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxSyncContacts.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Help/Epson_IJFaxUTY.help/Contents/Info.plist
+          Version: 1.41
+
+    Image Capture Devices:
+
+      Image Capture Devices:
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter A1.bundle/Contents/Info.plist
+          Version: 1.0.9
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 54.bundle/Contents/Info.plist
+          Version: 1.0.11
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/FIT.bundle/Contents/Info.plist
+          Version: 3.7.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter DD.bundle/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 10C.bundle/Contents/Info.plist
+          Version: 1.6.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 66.bundle/Contents/Info.plist
+          Version: 1.0.12
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter C3.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 95.bundle/Contents/Info.plist
+          Version: 1.2.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter EB.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter CA.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 111.bundle/Contents/Info.plist
+          Version: 1.0.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 68.bundle/Contents/Info.plist
+          Version: 1.1.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 23.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 52.bundle/Contents/Info.plist
+          Version: 1.1.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 8B.bundle/Contents/Info.plist
+          Version: 1.0.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7A.bundle/Contents/Info.plist
+          Version: 1.0.8
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7C.bundle/Contents/Info.plist
+          Version: 1.0.11
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Image Filter2.bundle/Contents/Info.plist
+          Version: 4.4.01
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 1D.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 6E.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 94.bundle/Contents/Info.plist
+          Version: 1.2.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter FE.bundle/Contents/Info.plist
+          Version: 1.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 86.bundle/Contents/Info.plist
+          Version: 1.1.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter AD.bundle/Contents/Info.plist
+          Version: 1.2.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 32.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 43.bundle/Contents/Info.plist
+          Version: 1.1.6
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter C2.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/DDC.bundle/Contents/Info.plist
+          Version: 1.1.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 41.bundle/Contents/Info.plist
+          Version: 1.1.3
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 30.bundle/Contents/Info.plist
+          Version: 1.0.6
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/ImageFilter.bundle/Contents/Info.plist
+          Version: 3.2.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7E.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 5A.bundle/Contents/Info.plist
+          Version: 1.0.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ModelInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/DeviceInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ResolutionInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ProfileInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/RegionCodeInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/HardwareInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Info.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/Canon IJScanner4.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner4.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner4.app/Contents/Info.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner6.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner6.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner6.app/Contents/Info.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Samsung Scanner.app/Contents/Resources/DeviceInfo.plist
+          Version: 2.01.12
+          Path: /Library/Image Capture/Devices/Samsung Scanner.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 2.01.12
+          Path: /Library/Image Capture/Devices/Samsung Scanner.app/Contents/Info.plist
+          Version: 2.01.12
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Info.plist
+          Version: 4.0.0
+
+    Image Capture Support:
+
+      Image Capture Support:
+          Path: /Library/Image Capture/Support/LegacyDeviceDiscoveryHelpers/AirScanLegacyDiscovery.app/Contents/Info.plist
+          Version: 14.4
+
+    System Library Extensions:
+
+      System Library Extensions:
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/AppleXserveRAID.kext
+          Version: 456.250.6
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/FireWireStorageDeviceSpecifics.kext
+          Version: 456.250.6
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/USBStorageDeviceSpecifics.kext
+          Version: 456.250.6
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/AppleATAPIStorage.kext
+          Version: 456.250.6
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/SCSIDeviceSpecifics.kext
+          Version: 456.250.6
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/SonyXDCAMDriver.kext
+          Version: 456.250.6
+          Path: /System/Library/Extensions/IOStreamFamily.kext/Contents/PlugIns/IOStreamUserClient.kext
+          Version: 1.1.0
+          Path: /System/Library/Extensions/AppleTopCase.kext
+          Version: 138.3
+          Path: /System/Library/Extensions/AppleTopCase.kext/Contents/PlugIns/AppleTopCaseActuatorHIDDriver.kext
+          Version: 138.3
+          Path: /System/Library/Extensions/IOVideoFamily.kext/Contents/PlugIns/IOVideoDeviceUserClient.kext
+          Version: 1.2.0
+          Path: /System/Library/Extensions/AppleMobileDevice.kext
+          Version: 3.5.0
+          Path: /System/Library/Extensions/AppleUSBTopCase.kext
+          Version: 255
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDEventDriver.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDUserClient.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDEventDriverSafeBoot.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/IOUSBHIDDriverSafeBoot.kext
+          Version: 900.4.2
+          Path: /System/Library/Extensions/CellPhoneHelper.kext
+          Version: 1.4.0
+          Path: /System/Library/Extensions/IOUSBHostFamily.kext/Contents/PlugIns/IOUSBHostHIDDeviceSafeBoot.kext
+          Version: 1.2
+
+    Library Extensions:
+
+      Library Extensions: 
+
+Printers:
+
+    Samsung M2020 Series (SEC30CDA7C8598D):
+
+      Status: Idle
+      Print Server: Local
+      Driver Version: 2.0
+      Default: Yes
+      System Printer Sharing: No
+      Shared: No
+      URI: dnssd://Samsung%20M2020%20Series%20(SEC30CDA7C8598D)._ipp._tcp.local./?uuid=16a65700-007c-1000-bb49-30cda7c8598d
+      PPD: Samsung M2020 Series-AirPrint
+      PPD File Version: 2.0
+      PostScript Version: (3010.000) 0
+      CUPS Version: 2.2.9 (cups-462.10)
+      Scanning support: No
+      Printer Commands: none 
+      AirPrint Version: 1,2
+      URF Version: 1,2
+      Added: понедельник, 15 апреля 2019 г., 19:31:56 Центральная Европа, летнее время
+      CUPS filters:
+          image/urf: processed in printer
+      Fax support: No
+      PDEs: 
+
+Software:
+
+    System Software Overview:
+
+      System Version: macOS 10.14.4 (18E226)
+      Kernel Version: Darwin 18.5.0
+      Time since boot: 6 minutes
+
+Thunderbolt:
+
+    Thunderbolt Bus 1:
+
+      Vendor Name: Apple Inc.
+      Device Name: Mac mini
+      UID: 0x00014DF7ACF24501
+      Route String: 0
+      Firmware Version: 34,6
+      Domain UUID: 8A28591C-2465-1853-A995-F4A335662F7C
+      Port:
+          Status: No device connected
+          Link Status: 0x101
+          Speed: Up to 40 Gb/s x1
+          Current Link Width: 0x1
+          Receptacle: 4
+          Link Controller Firmware Version: 0.97.0
+      Port:
+          Status: No device connected
+          Link Status: 0x101
+          Speed: Up to 40 Gb/s x1
+          Current Link Width: 0x1
+          Receptacle: 3
+          Link Controller Firmware Version: 0.97.0
+
+    Thunderbolt Bus 0:
+
+      Vendor Name: Apple Inc.
+      Device Name: Mac mini
+      UID: 0x00014DF7ACF24500
+      Route String: 0
+      Firmware Version: 34,6
+      Domain UUID: BE7061B6-917B-7458-8519-5113373CCA04
+      Port:
+          Status: No device connected
+          Link Status: 0x101
+          Speed: Up to 40 Gb/s x1
+          Current Link Width: 0x1
+          Receptacle: 2
+          Link Controller Firmware Version: 0.97.0
+      Port:
+          Status: No device connected
+          Link Status: 0x101
+          Speed: Up to 40 Gb/s x1
+          Current Link Width: 0x1
+          Receptacle: 1
+          Link Controller Firmware Version: 0.97.0
+
+USB:
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleIntelCNLUSBXHCI
+      PCI Device ID: 0xa36d 
+      PCI Revision ID: 0x0010 
+      PCI Vendor ID: 0x8086 
+
+        Hub:
+
+          Product ID: 0x8142
+          Vendor ID: 0x0451  (Texas Instruments)
+          Version: 1.00
+          Serial Number: A**********1
+          Speed: Up to 480 Mb/sec
+          Location ID: 0x14100000 / 1
+          Current Available (mA): 500
+          Current Required (mA): 0
+          Extra Operating Current (mA): 0
+
+            USB Receiver:
+
+              Product ID: 0xc52b
+              Vendor ID: 0x046d  (Logitech Inc.)
+              Version: 24.00
+              Speed: Up to 12 Mb/sec
+              Manufacturer: Logitech
+              Location ID: 0x14130000 / 5
+              Current Available (mA): 500
+              Current Required (mA): 98
+              Extra Operating Current (mA): 0
+
+            USB Keyboard:
+
+              Product ID: 0x0260
+              Vendor ID: 0x09da  (A-FOUR TECH CO., LTD.)
+              Version: 2.50
+              Speed: Up to 1.5 Mb/sec
+              Manufacturer:  
+              Location ID: 0x14120000 / 3
+              Current Available (mA): 500
+              Current Required (mA): 100
+              Extra Operating Current (mA): 0
+
+            T******0 EECode Ser :
+
+              Product ID: 0x3410
+              Vendor ID: 0x0451  (Texas Instruments)
+              Version: 1.01
+              Serial Number: 0******8
+              Speed: Up to 12 Mb/sec
+              Manufacturer: Texas Instruments
+              Location ID: 0x14140000 / 2
+              Current Available (mA): 500
+              Extra Operating Current (mA): 0
+
+            T******0 Boot Device:
+
+              Product ID: 0x3410
+              Vendor ID: 0x0451  (Texas Instruments)
+              Version: 1.00
+              Serial Number: T******0        
+              Speed: Up to 12 Mb/sec
+              Manufacturer: Texas Instruments
+              Location ID: 0x14110000 / 4
+              Current Available (mA): 500
+              Extra Operating Current (mA): 0
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleUSBXHCITR
+      PCI Device ID: 0x15ec 
+      PCI Revision ID: 0x0006 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0x00 
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleUSBXHCITR
+      PCI Device ID: 0x15ec 
+      PCI Revision ID: 0x0006 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0x01 
+
+    iBridge Bus:
+
+      Host Controller Driver: AppleUSBVHCIBCE
+
+        Headset:
+
+          Product ID: 0x5043
+          Vendor ID: 0x05ac (Apple Inc.)
+          Version: 0.01
+          Serial Number: 0**********0
+          Speed: Up to 480 Mb/sec
+          Manufacturer: Apple
+          Location ID: 0x80200000 / 1
+          Current Available (mA): 500
+          Current Required (mA): 500
+          Extra Operating Current (mA): 0
+          Built-In: Yes
+
+        iBridge:
+
+          Product ID: 0x8233
+          Vendor ID: 0x05ac (Apple Inc.)
+          Version: 2.01
+          Serial Number: 0**************0
+          Manufacturer: Apple Inc.
+          Location ID: 0x80100000
+
+Wi-Fi:
+
+      Software Versions:
+          CoreWLAN: 13.0 (1370.8)
+          CoreWLANKit: 13.0 (1370.8)
+          Menu Extra: 13.0 (1376.3)
+          System Information: 12.0 (1300.2)
+          IO80211 Family: 12.0 (1200.12.2)
+          Diagnostics: 1.0 (805)
+          AirPort Utility: 6.3.9 (639.9)
+      Interfaces:
+        en1:
+          Card Type: AirPort Extreme  (0x14E4, 0x7BF)
+          Firmware Version: wl0: Feb 21 2019 21:04:15 version 9.137.3.0.32.6.29 FWID 01-d837a364
+          MAC Address: 38:f9:d3:1c:8e:92
+          Locale: ETSI
+          Country Code: PL
+          Supported PHY Modes: 802.11 a/b/g/n/ac
+          Supported Channels: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 149, 153, 157, 161, 165
+          Wake On Wireless: Supported
+          AirDrop: Supported
+          AirDrop Channel: 44
+          Auto Unlock: Supported
+          Status: Connected
+

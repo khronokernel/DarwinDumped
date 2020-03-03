@@ -1,0 +1,20 @@
+[
+{"data":{"title":"Name"},"attr":{"id":"9986","ColType":"String","ColValue":"FirmwareBusLogs"}},
+{"data":{"title":"LogIdentifier"},"attr":{"id":"9988","ColType":"String","ColValue":"brcm0"}},
+{"data":{"title":"Owner"},"attr":{"id":"9990","ColType":"String","ColValue":"com.apple.driver.AppleBCMWLANCoreV3.0"}},
+{"data":{"title":"IOReportLegend"},"attr":{"id":"9992","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"9993","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOReportSubGroupName"},"attr":{"id":"9995","ColType":"String","ColValue":"Pipe FirmwareBusLogs"}},{"data":{"title":"IOReportChannels"},"attr":{"id":"9997","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"9998","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"9999","ColType":"Number","ColValue":"4846805723627135008"}},{"data":{"title":"1"},"attr":{"id":"10000","ColType":"Number","ColValue":"6443499521"}},{"data":{"title":"2"},"attr":{"id":"10001","ColType":"String","ColValue":"                              Log Calls"}}]},{"data":{"title":"3"},"attr":{"id":"10002","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"10003","ColType":"Number","ColValue":"4846805723630093378"}},{"data":{"title":"1"},"attr":{"id":"10004","ColType":"Number","ColValue":"6443499521"}},{"data":{"title":"2"},"attr":{"id":"10005","ColType":"String","ColValue":"   Log Messages Dropped Short Of Buffer"}}]},{"data":{"title":"3"},"attr":{"id":"10006","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"10007","ColType":"Number","ColValue":"4846805723629441568"}},{"data":{"title":"1"},"attr":{"id":"10008","ColType":"Number","ColValue":"6443499521"}},{"data":{"title":"2"},"attr":{"id":"10009","ColType":"String","ColValue":"                       Capture Requests"}}]}]},{"data":{"title":"IOReportGroupName"},"attr":{"id":"10011","ColType":"String","ColValue":"CoreCapture"}},{"data":{"title":"IOReportChannelInfo"},"attr":{"id":"10013","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOReportChannelUnit"},"attr":{"id":"10015","ColType":"Number","ColValue":"7205759403792793600"}}]}]}]},
+{"data":{"title":"LogType"},"attr":{"id":"10017","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"LogDataType"},"attr":{"id":"10019","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"NumberOfFiles"},"attr":{"id":"10021","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"LogPolicy"},"attr":{"id":"10023","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOClass"},"attr":{"id":"10025","ColType":"String","ColValue":"CCLogPipe"}},
+{"data":{"title":"PipeSize"},"attr":{"id":"10027","ColType":"Number","ColValue":"16384"}},
+{"data":{"title":"FileSize"},"attr":{"id":"10029","ColType":"Number","ColValue":"2097152"}},
+{"data":{"title":"NotifyThreshold"},"attr":{"id":"10031","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"MinLogSizeToNotify"},"attr":{"id":"10033","ColType":"Number","ColValue":"6553"}},
+{"data":{"title":"PipeType"},"attr":{"id":"10035","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Filename"},"attr":{"id":"10037","ColType":"String","ColValue":"FirmwareBusLogs"}},
+{"data":{"title":"DirectoryName"},"attr":{"id":"10039","ColType":"String","ColValue":"WiFi"}},
+{"data":{"title":"IOReportLegendPublic"},"attr":{"id":"10041","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"FileOptions"},"attr":{"id":"10043","ColType":"Number","ColValue":"0"}}
+]

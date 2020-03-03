@@ -1,0 +1,164 @@
+Longterm timer threshold: 1000 ms
+PMAP: PCID enabled
+PMAP: Supervisor Mode Execute Protection enabled
+Darwin Kernel Version 14.4.0: Tue May 12 21:00:42 PDT 2015; root:xnu-2782.30.4~4/RELEASE_X86_64
+vm_page_bootstrap: 935630 free pages and 104754 wired pages
+kext submap [0xffffff7f80a00000 - 0xffffff8000000000], kernel text [0xffffff8000200000 - 0xffffff8000a00000]
+zone leak detection enabled
+"vm_compressor_mode" is 4
+multiq scheduler config: deep-drain 0, urgent first 1, depth limit 4, band limit 127, sanity check 0
+standard timeslicing quantum is 10000 us
+standard background quantum is 2500 us
+mig_table_max_displ = 13
+TSC Deadline Timer supported and enabled
+AppleACPICPU: ProcessorId=1 LocalApicId=0 Enabled
+AppleACPICPU: ProcessorId=2 LocalApicId=2 Enabled
+AppleACPICPU: ProcessorId=3 LocalApicId=1 Enabled
+AppleACPICPU: ProcessorId=4 LocalApicId=3 Enabled
+AppleACPICPU: ProcessorId=5 LocalApicId=255 Disabled
+AppleACPICPU: ProcessorId=6 LocalApicId=255 Disabled
+AppleACPICPU: ProcessorId=7 LocalApicId=255 Disabled
+AppleACPICPU: ProcessorId=8 LocalApicId=255 Disabled
+calling mpo_policy_init for TMSafetyNet
+Security policy loaded: Safety net for Time Machine (TMSafetyNet)
+calling mpo_policy_init for AMFI
+Security policy loaded: Apple Mobile File Integrity (AMFI)
+calling mpo_policy_init for Sandbox
+Security policy loaded: Seatbelt sandbox policy (Sandbox)
+calling mpo_policy_init for Quarantine
+Security policy loaded: Quarantine policy (Quarantine)
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+	The Regents of the University of California. All rights reserved.
+
+MAC Framework successfully initialized
+using 16384 buffer headers and 10240 cluster IO buffer headers
+AppleKeyStore starting (BUILT: May 12 2015 20:17:21)
+IOAPIC: Version 0x20 Vectors 64:103
+ACPI: sleep states S3 S4 S5
+pci (build 20:26:00 May 12 2015), flags 0xe3000, pfm64 (39 cpu) 0x7f80000000, 0x80000000
+[ PCI configuration begin ]
+console relocated to 0x7f80000000
+[ PCI configuration end, bridges 11, devices 13 ]
+AppleThunderboltNHIType2::setupPowerSavings - notification based runtime power management
+mcache: 4 CPU(s), 64 bytes CPU cache line size
+mbinit: done [64 MB total pool size, (42/21) split]
+rooting via boot-uuid from /chosen: BEE303B5-C4B9-3AEC-8FC2-6D1F67C2E1E0
+Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOResources</string><key>IOResourceMatch</key><string ID="2">boot-uuid-media</string></dict>
+com.apple.AppleFSCompressionTypeZlib kmod start
+com.apple.AppleFSCompressionTypeDataless kmod start
+com.apple.AppleFSCompressionTypeZlib load succeeded
+com.apple.AppleFSCompressionTypeDataless load succeeded
+ARPT: 1.716162: srom rev:11
+ARPT: 1.726911: BRCM tunables:
+ARPT: 1.726917:   pullmode[1] txringsize[  256] txsendqsize[1024] reapmin[   32] reapcount[  128]
+ARPT: 1.728618: wl0: Broadcom BCM43a0, vendorID[0x14e4] BAR0[0xa0600004]
+7.15.166.24 (r541488)
+CoreStorage: fsck_cs has finished for group "5CCAB11B-EF26-44DD-9518-32D6055323A9" with status 0x00
+Got boot device = IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/SATA@1F,2/AppleIntelPchSeriesAHCI/PRT0@0/IOAHCIDevice@0/AppleAHCIDiskDriver/IOAHCIBlockStorageDevice/IOBlockStorageDriver/APPLE HDD HTS545050A7E362 Media/IOGUIDPartitionScheme/Customer@2/CoreStoragePhysical/Macintosh HD/Macintosh HD
+BSD root: disk1, major 1, minor 4
+hfs: mounted Macintosh HD on device root_device
+XCPM: registered
+VM Swap Subsystem is ON
+pci pause: SDXC
+IO80211Controller::dataLinkLayerAttachComplete():  adding AppleEFINVRAM notification
+IO80211Interface::efiNVRAMPublished():  
+bpfAttach len 64 dlt 12
+IOGraphics flags 0x43
+[IOBluetoothHCIController][start] -- completed
+IOBluetoothUSBDFU::probe
+IOBluetoothUSBDFU::probe ProductID - 0x8289 FirmwareVersion - 0x0103
+IOBluetoothUSBDFU::start
+Previous shutdown cause: 5
+DSMOS has arrived
+IOPPF - IODeviceTree:/efi/platform/StartupPowerEvents: 0x0
+hmm.. mismatch sizes: 3100 vs 20
+PPGTT is enabled
+AirPort: Link Down on en1. Reason 8 (Disassociated because station leaving).
+en1: channel changed to 1
+en1::IO80211Interface::postMessage bssid changed
+bpfAttach len 94 dlt 163
+bpfAttach len 30 dlt 105
+bpfAttach len 52 dlt 127
+bpfAttach len 38 dlt 192
+IOPPF - Found another boot volume.IOPPF: XCPM mode
+X86PlatformShim::sendPStates - Success!
+X86PlatformShim::sendPStates - Success!
+X86PlatformShim::sendPStates - Success!
+X86PlatformShim::sendPStates - Success!
+en2: promiscuous mode enable succeeded
+en3: promiscuous mode enable succeeded
+Sound assertion in AppleHDAWidget at line 1733
+Sound assertion in AppleHDAWidget_10134208 at line 179
+Sound assertion in AppleHDAWidget_10134208 at line 823
+ARPT: 146.437134: createVirtIf(): ifRole = 1
+AirPort_Brcm4360_P2PInterface::init name <p2p0> role 1
+AirPort_Brcm4360_P2PInterface::init <p2p> role 1
+setVIRTUAL_IF_CREATE: AWDL interface role (4)
+ARPT: 146.599384: createVirtIf(): ifRole = 1
+ARPT: 146.599400: Create AWDL virtif(AWDL): unit = 2, ifRole = 4
+AirPort_Brcm4360_P2PInterface::init name <awdl0> role 4
+AirPort_Brcm4360_P2PInterface::attachToBpf name <awdl0> role 4 successful attach to bpf type 147
+AirPort_Brcm4360_P2PInterface::init <awdl> role 4
+AirPort: Link Up on awdl0
+IO80211AWDLPeerManager::configure Dynamic country code not supported on this device
+awdl0: promiscuous mode enable succeeded
+awdl0: promiscuous mode disable succeeded
+awdl0: promiscuous mode enable succeeded
+en1: channel changed to 1
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+en1: 802.11d country code set to 'RU'.
+en1: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+en1: 802.11d country code set to 'X3'.
+en1: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161
+ARPT: 147.486262: MacAuthEvent en1   Auth result for: 02:0f:02:5d:b8:28  MAC AUTH succeeded
+AirPort: Link Up on en1
+en1: BSSID changed to 02:0f:02:5d:b8:28
+en1: channel changed to 2
+en1::IO80211Interface::postMessage bssid changed
+ARPT: 147.491982: AWDL Sync Enabled 0
+en1: 802.11d country code set to 'RU'.
+en1: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+AirPort: RSN handshake complete on en1
+en1: BSSID changed to 02:0f:02:5d:b8:28
+en1: channel changed to 2
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+IOBluetoothUSBDFU::probe
+IOBluetoothUSBDFU::probe ProductID - 0xF007 FirmwareVersion - 0x0103
+IOBluetoothUSBDFU::start
+hfs: mounted Recovery HD on device disk0s3
+IOBluetoothUSBDFU::probe
+IOBluetoothUSBDFU::probe ProductID - 0x8289 FirmwareVersion - 0x0106
+**** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = TRUE -- 0x7800 ****
+**** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0x7800 ****
+[IOBluetoothHCIController][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- 0x7800 
+[IOBluetoothHCIController::setConfigState] calling registerService
+**** [IOBluetoothHCIController][ProcessBluetoothTransportShowsUpActionWL] -- Connected to the transport successfully -- 0xa500 -- 0xe000 -- 0x7800 ****
+
+
+IOBluetoothDevice::setProperties() -- calling hciController->CallCreateDeviceReporter() -- this = 0x8800 
+
+
+ IOBluetoothHCIController::CallCreateDeviceReporter -- calling enqueueAction() -- device = 0x8800 
+
+
+ IOBluetoothHCIController::CreateDeviceReporterAction -- device = = 0x8800 
+
+
+ IOBluetoothHCIController::CreateDeviceReporterAction -- calling CreateDeviceReporter() device = = 0x8800 
+
+
+ IOBluetoothHCIController::CreateDeviceReporter -- device = = 0x8800 
+
+hfs: unmount initiated on Recovery HD on device disk0s3
+utun_ctl_connect: creating interface utun0
+utun_start: ifnet_disable_output returned error 12
+AppleKeyStore:Sending lock change 0 for handle -502
+IO80211AWDLPeerManager::setAwdlPeerTrafficRegistration Clearing AirPlay peer 00:00:00:00:00:00
+Process Setup Assistant [259] disabling system-wide I/O Throttling
+Process Setup Assistant [259] disabling system-wide CPU Throttling
+Sandbox: secinitd(242) deny ipc-posix-shm-read-data /tmp/com.apple.csseed.106
+hfs: mounted Recovery HD on device disk0s3
+hfs: unmount initiated on Recovery HD on device disk0s3
+IOAccelDisplayPipe performTransaction error e00002c7IOAccelDisplayPipe performTransaction error e00002c7considerRebuildOfPrelinkedKernel prebuild rebuild has expired

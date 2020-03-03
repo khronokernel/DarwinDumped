@@ -1,0 +1,21 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"8022","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"8024","ColType":"Number","ColValue":"1"}},{"data":{"title":"DevicePowerState"},"attr":{"id":"8026","ColType":"Number","ColValue":"1"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"8028","ColType":"Number","ColValue":"1"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"8030","ColType":"Number","ColValue":"1"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"8032","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"8034","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"idProduct"},"attr":{"id":"8036","ColType":"Number","ColValue":"21891"}},
+{"data":{"title":"kUSBVendorString"},"attr":{"id":"8038","ColType":"String","ColValue":"SanDisk"}},
+{"data":{"title":"bConfigurationValue"},"attr":{"id":"8040","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"8042","ColType":"String","ColValue":"External"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"8044","ColType":"String","ColValue":"com.apple.iokit.IOUSBMassStorageDriver"}},
+{"data":{"title":"bInterfaceProtocol"},"attr":{"id":"8046","ColType":"Number","ColValue":"80"}},
+{"data":{"title":"IOClass"},"attr":{"id":"8048","ColType":"String","ColValue":"IOUSBMassStorageDriverNub"}},
+{"data":{"title":"USB Device Info"},"attr":{"id":"8050","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"idProduct"},"attr":{"id":"8052","ColType":"Number","ColValue":"21891"}},{"data":{"title":"kUSBVendorString"},"attr":{"id":"8054","ColType":"String","ColValue":"SanDisk"}},{"data":{"title":"bConfigurationValue"},"attr":{"id":"8056","ColType":"Number","ColValue":"1"}},{"data":{"title":"bInterfaceProtocol"},"attr":{"id":"8058","ColType":"Number","ColValue":"80"}},{"data":{"title":"USB Product Name"},"attr":{"id":"8060","ColType":"String","ColValue":"Ultra Fit"}},{"data":{"title":"bInterfaceNumber"},"attr":{"id":"8062","ColType":"Number","ColValue":"0"}},{"data":{"title":"bInterfaceSubClass"},"attr":{"id":"8064","ColType":"Number","ColValue":"6"}},{"data":{"title":"idVendor"},"attr":{"id":"8066","ColType":"Number","ColValue":"1921"}},{"data":{"title":"locationID"},"attr":{"id":"8068","ColType":"Number","ColValue":"348127232"}},{"data":{"title":"kUSBSerialNumberString"},"attr":{"id":"8070","ColType":"String","ColValue":"4C531001520302122321"}},{"data":{"title":"bInterfaceClass"},"attr":{"id":"8072","ColType":"Number","ColValue":"8"}},{"data":{"title":"bcdDevice"},"attr":{"id":"8074","ColType":"Number","ColValue":"256"}}]},
+{"data":{"title":"USB Product Name"},"attr":{"id":"8076","ColType":"String","ColValue":"Ultra Fit"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"8078","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"8080","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"bInterfaceNumber"},"attr":{"id":"8082","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bInterfaceSubClass"},"attr":{"id":"8084","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"idVendor"},"attr":{"id":"8086","ColType":"Number","ColValue":"1921"}},
+{"data":{"title":"bInterfaceClass"},"attr":{"id":"8088","ColType":"Number","ColValue":"8"}},
+{"data":{"title":"Physical Interconnect"},"attr":{"id":"8090","ColType":"String","ColValue":"USB"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"8092","ColType":"String","ColValue":"IOUSBMassStorageInterfaceNub"}},
+{"data":{"title":"USB Mass Storage Trace ID"},"attr":{"id":"8094","ColType":"Number","ColValue":"540807451738374144"}}
+]

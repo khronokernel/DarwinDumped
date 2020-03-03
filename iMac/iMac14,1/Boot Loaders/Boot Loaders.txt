@@ -1,0 +1,10 @@
+                                                                                                            
+                                                                                                            
+disk0 APPLE HDD HTS541010A9E662 (4096 byte physical block size)
+========================================================================================================================
+ACT  DEVICE   TYPE                   NAME          SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme                1 TB    None
+     disk0s1  EFI                    EFI           209 MB                Apple EFI
+     disk0s2  Apple_HFS              Macintosh HD  999 GB                 
+     disk0s3  Apple_Boot             Recovery HD   650 MB                 

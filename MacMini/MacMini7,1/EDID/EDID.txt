@@ -1,0 +1,91 @@
+Extracted contents:
+header:          00 ff ff ff ff ff ff 00
+serial number:   4e 16 ff ff 01 00 00 00 14 16
+version:         01 03
+basic params:    e8 26 1e 6b 2a
+chroma info:     6c 55 a2 5a 4e 9b 23 16 4f 54
+established:     af 08 00
+standard:        b3 00 95 00 81 c0 71 40 01 01 01 01 01 01 01 01
+descriptor 1:    02 3a 80 18 71 38 2d 40 58 2c 45 00 78 2d 11 00 00 1e
+descriptor 2:    00 00 00 fc 00 4d 6f 6e 69 74 6f 72 20 54 56 0a 20 20
+descriptor 3:    00 00 00 ff 00 0a 20 20 20 20 20 20 20 20 20 20 20 20
+descriptor 4:    00 00 00 ff 00 0a 20 20 20 20 20 20 20 20 20 20 20 20
+extensions:      01
+checksum:        a7
+
+Manufacturer: SPV Model ffff Serial Number 1
+Made week 20 of 2012
+EDID version: 1.3
+Digital display
+Maximum image size: 38 cm x 30 cm
+Gamma: 2.07
+DPMS levels: Off
+Supported color formats: RGB 4:4:4, YCrCb 4:2:2
+First detailed timing is preferred timing
+Chroma Info:
+Red X: 0.633789 Y: 0.353516
+Green X: 0.307617 Y: 0.605469
+Blue X: 0.137695 Y: 0.086914
+White X: 0.309570 Y: 0.329102
+Established timings supported:
+  720x400@70Hz
+  640x480@60Hz
+  640x480@72Hz
+  640x480@75Hz
+  800x600@56Hz
+  800x600@60Hz
+  1024x768@60Hz
+Standard timings supported:
+  1680x1050@60Hz
+  1440x900@60Hz
+  1280x720@60Hz
+  1152x864@60Hz
+Detailed mode: Clock 148.500 MHz, 376 mm x 301 mm
+               1920 2008 2052 2200 hborder 0
+               1080 1084 1089 1125 vborder 0
+               +hsync +vsync 
+Monitor name: Monitor
+Serial number: 
+Serial number: 
+Has 1 extension blocks
+Checksum: 0xa7 (valid)
+
+CEA extension block
+Extension version: 3
+34 bytes of CEA data
+  Video data block
+    VIC 16 1920x1080@60Hz 
+    VIC 31 1920x1080@50Hz 
+    VIC 32 1920x1080@24Hz 
+    VIC 05 1920x1080i@60Hz 
+    VIC 20 1920x1080i@50Hz 
+    VIC 04 1280x720@60Hz 
+    VIC 19 1280x720@50Hz 
+    VIC 18 720x576@50Hz 
+    VIC 03 720x480@60Hz 
+    VIC 22 1440x576i@50Hz 
+    VIC 07 1440x480i@60Hz 
+    VIC 01 640x480@60Hz 
+  Audio data block
+    Linear PCM, max channels 1
+    Supported sample rates (kHz): 192 176.4 96 88.2 48 44.1 32
+    Supported sample sizes (bits): 24 20 16
+  Speaker allocation data block
+  Vendor-specific data block, OUI 000c03 (HDMI)
+    Source physical address 3.0.0.0
+    Supports_AI
+    Maximum TMDS clock: 225MHz
+Basic audio support
+Supports YCbCr 4:4:4
+Supports YCbCr 4:2:2
+1 native detailed modes
+Detailed mode: Clock 0.290 MHz, 0 mm x 0 mm
+                  0    0    0    0 hborder 0
+                  0    0    0    0 vborder 0
+               -hsync -vsync analog composite 
+Checksum: 0xa3 (valid)
+
+EDID block does NOT conform to EDID 1.3!
+	Digital display field contains garbage: 68
+	Missing monitor ranges
+	Detailed block string not properly terminated

@@ -1,0 +1,36 @@
+                                                                                                            
+                                                                                                            
+disk0  APPLE SSD SM0032L (512 byte physical block size)
+========================================================================================================================
+ACT  DEVICE   TYPE                   NAME          SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme                28 GB    
+     disk0s1  EFI                    EFI           314 MB                 
+     disk0s2  Apple_APFS                           27 GB                  
+                                                                                                            
+                                                                                                            
+disk1  APPLE HDD ST1000DM003 (512 byte physical block size)
+========================================================================================================================
+ACT  DEVICE   TYPE                   NAME          SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme                1 TB     
+     disk1s1  EFI                    EFI           209 MB                Apple EFI
+     disk1s2  Apple_APFS                           999 GB                 
+                                                                                                            
+                                                                                                            
+disk2  APPLE HDD ST1000DM003 (512 byte physical block size)
+========================================================================================================================
+ACT  DEVICE   TYPE                   NAME          SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              APFS Container Scheme                1 TB     
+     disk2s1  APFS Volume            Macintosh HD  1 TB                   
+     disk2s2  APFS Volume            Preboot       1 TB                   
+     disk2s3  APFS Volume            Recovery      1 TB                   
+     disk2s4  APFS Volume            VM            1 TB                   
+                                                                                                            
+                                                                                                            
+disk3  Disk Image (512 byte physical block size)
+========================================================================================================================
+ACT  DEVICE   TYPE                   NAME          SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                                                   107 GB   

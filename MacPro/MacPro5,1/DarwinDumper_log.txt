@@ -1,0 +1,103 @@
+========================================================
+Welcome to DarwinDumper 2.7.0
+Fri Apr 12 00:45:26 IDT 2013
+--------------------------------------------------------
+       Dumping System Profiler...
+0s : +Started process DumpFilesSystemProfilerInfo: pid 1037
+0s : +Started process DumpFilesDiskUtilAndLoader: pid 1040
+       Dumping BIOS with Flashrom...
+0s : +Started process DumpFilesBiosROM: pid 1045
+       Preparing to read disks...
+       Note: There may be a delay if any disks are sleeping
+       Scanning disk: disk0
+       Reading partition info for: disk0
+       Searching for Bootloader files on disk0s1
+       Searching for Bootloader files on disk0s2
+       Searching for Bootloader files on disk0s3
+       Scanning disk: disk1
+       Reading partition info for: disk1
+       Searching for Bootloader files on disk1s1
+4s : -Completed DumpFilesBiosROM
+       Searching for Bootloader files on disk1s2
+8s : -Completed DumpFilesSystemProfilerInfo
+8s : -Completed DumpFilesDiskUtilAndLoader
+       Dumping ACPI tables to AML & DSL formats...
+9s : +Started process DumpFilesAcpiTables: pid 1456
+       Dumping Audio Codec ID...
+9s : +Started process DumpFilesAudioCodec: pid 1459
+       Dumping Apple_X64 FirmwareMemoryMap
+9s : +Started process DumpFilesFirmwareMemoryMap: pid 1467
+       Dumping Non Apple Kext list...
+9s : +Started process DumpFilesKextLists: pid 1470
+9s : +Started process DumpFilesFirmwareLog: pid 1474
+       Dumping device-properties...
+9s : +Started process DumpFilesDeviceProperties: pid 1480
+       Dumping OpenCL Info...
+9s : -Completed DumpFilesFirmwareLog
+9s : +Started process DumpFilesOpenCLInfo: pid 1487
+       Dumping Kernel Info...
+9s : +Started process DumpFilesKernelInfo: pid 1493
+       Dumping Kernel boot messages...
+9s : +Started process DumpFilesKernelBootMessages: pid 1498
+       Dumping SMC keys...
+       Dumping Apple Kext list...
+       Loading VoodooHDA.kext
+9s : -Completed DumpFilesKernelBootMessages
+9s : +Started process DumpFilesSmcKeys: pid 1507
+9s : -Completed DumpFilesOpenCLInfo
+       Waiting 2 seconds before running getdump
+9s : -Completed DumpFilesDeviceProperties
+9s : +Started process DumpFilesRtc: pid 1522
+       Dumping Misc Info...
+10s : -Completed DumpFilesKernelInfo
+       Dumping RTC...
+10s : -Completed DumpFilesKextLists
+10s : +Started process DumpFilesMisc: pid 1531
+       Found ACPI table: RSDT
+57s : -Completed DumpFilesRtc
+       getdump produced nothing.
+58s : -Completed DumpFilesFirmwareMemoryMap
+58s : -Completed DumpFilesSmcKeys
+       Unloading VoodooHDA.kext
+       Found ACPI table: SSDT-2
+58s : -Completed DumpFilesAudioCodec
+58s : -Completed DumpFilesMisc
+       Found ACPI table: SSDT-1
+       Found ACPI table: SSDT
+       Found ACPI table: HPET
+       Found ACPI table: DMAR
+       Found ACPI table: APIC
+       Found ACPI table: MCFG
+       Found ACPI table: FACP
+       Found ACPI table: DSDT
+       Found ACPI table: FACS
+       Found ACPI table: ECDT
+61s : -Completed AcpiTables
+61s : +Started process DumpFilesLspci: pid 1710
+       Update pciids database
+       Dumping DMI table...
+62s : +Started process DumpFilesDmiTables: pid 1713
+       Dumping nvram plist...
+62s : +Started process DumpFilesNvramPlist: pid 1720
+       Dumping EDID...
+62s : +Started process DumpFilesEdid: pid 1723
+62s : -Completed DumpFilesNvramPlist
+62s : -Completed DumpFilesDmiTables
+       Update pciids
+       Dumping LSPCI info...
+64s : -Completed DumpFilesLspci
+64s : -Completed DumpFilesEdid
+       Dumping I/O Kit Registry contents...
+64s : +Started process DumpFilesIoreg: pid 1769
+       IOReg: IOService Plane: Processed 580 nodes
+       IOReg: IODeviceTree Plane: Processed 157 nodes
+       IOReg: IOACPIPlane Plane: Processed 92 nodes
+       IOReg: IOPower Plane: Processed 274 nodes
+       IOReg: IOUSB Plane: Processed 15 nodes
+77s : -Completed DumpFilesIoreg
+========================================================
+Dumps complete after: 78 seconds
+--------------------------------------------------------
+========================================================
+DarwinDumper Completed in: 78 seconds
+========================================================

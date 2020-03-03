@@ -1,0 +1,11 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"14670","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"14672","ColType":"Number","ColValue":"1"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"14674","ColType":"Number","ColValue":"1"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"14676","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"14678","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"14680","ColType":"String","ColValue":"AppleSEPIntelIOPNub"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"14682","ColType":"String","ColValue":"iop-nub,sep"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"14684","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"14686","ColType":"String","ColValue":"iop-nub,sep"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"14688","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"14690","ColType":"String","ColValue":"com.apple.driver.AppleSEPManager"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"14692","ColType":"String","ColValue":"AppleSEPUserClient"}},
+{"data":{"title":"IOClass"},"attr":{"id":"14694","ColType":"String","ColValue":"AppleSEPManager"}}
+]

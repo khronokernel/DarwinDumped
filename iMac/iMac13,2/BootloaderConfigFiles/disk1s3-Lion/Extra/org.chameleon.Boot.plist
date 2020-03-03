@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DSDT</key>
+	<string>/Extra/dsdt.aml</string>
+	<key>DropSSDT</key>
+	<key>GraphicsEnabler</key>
+	<string>No</string>
+	<key>Kernel Flags</key>
+	<string>npci=0x2000 darkwake=0 arch=x86_64 -f -v</string>
+	<key>SMBIOS</key>
+	<string>/Extra/SMBios.plist</string>
+	<key>SystemType</key>
+	<string>1</string>
+        <key>Theme</key>
+	<string>LoginToLion</string>
+	<key>USBBusFix</key>
+	<string>Yes</string>
+	<key>UseKernelCache</key>
+	<string>No</string>
+ 
+</dict>
+</plist>

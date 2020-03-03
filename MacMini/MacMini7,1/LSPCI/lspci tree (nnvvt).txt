@@ -1,0 +1,13 @@
+-[0000:00]-+-00.0  Intel Corporation Haswell-ULT DRAM Controller [8086:0a04]
+           +-02.0  Intel Corporation Haswell-ULT Integrated Graphics Controller [8086:0a26]
+           +-03.0  Intel Corporation Haswell-ULT HD Audio Controller [8086:0a0c]
+           +-14.0  Intel Corporation 8 Series USB xHCI HC [8086:9c31]
+           +-16.0  Intel Corporation 8 Series HECI #0 [8086:9c3a]
+           +-1b.0  Intel Corporation 8 Series HD Audio Controller [8086:9c20]
+           +-1c.0-[01]--
+           +-1c.2-[02]----00.0  Broadcom Corporation BCM4360 802.11ac Wireless Network Adapter [14e4:43a0]
+           +-1c.3-[ff-fe]--
+           +-1c.4-[04-ff]--
+           +-1f.0  Intel Corporation 8 Series LPC Controller [8086:9c43]
+           +-1f.2  Intel Corporation 8 Series SATA Controller 1 [AHCI mode] [8086:9c03]
+           \-1f.3  Intel Corporation 8 Series SMBus Controller [8086:9c22]

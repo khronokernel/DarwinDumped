@@ -1,0 +1,15 @@
+-[0000:00]-+-00.0  Intel Corporation 4th Gen Core Processor DRAM Controller [8086:0c00]
+           +-01.0-[01]--+-00.0  NVIDIA Corporation GK104M [GeForce GTX 775M Mac Edition] [10de:119d]
+           |            \-00.1  NVIDIA Corporation GK104 HDMI Audio Controller [10de:0e0a]
+           +-02.0  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller [8086:0412]
+           +-14.0  Intel Corporation 8 Series/C220 Series Chipset Family USB xHCI [8086:8c31]
+           +-16.0  Intel Corporation 8 Series/C220 Series Chipset Family MEI Controller #1 [8086:8c3a]
+           +-1b.0  Intel Corporation 8 Series/C220 Series Chipset High Definition Audio Controller [8086:8c20]
+           +-1c.0-[02]--
+           +-1c.2-[03]----00.0  Broadcom Corporation BCM4360 802.11ac Wireless Network Adapter [14e4:43a0]
+           +-1c.3-[04]--+-00.0  Broadcom Corporation NetXtreme BCM57766 Gigabit Ethernet PCIe [14e4:1686]
+           |            \-00.1  Broadcom Corporation BCM57765/57785 SDXC/MMC Card Reader [14e4:16bc]
+           +-1c.4-[05-ff]--
+           +-1f.0  Intel Corporation Z87 Express LPC Controller [8086:8c44]
+           +-1f.2  Intel Corporation 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode] [8086:8c02]
+           \-1f.3  Intel Corporation 8 Series/C220 Series Chipset Family SMBus Controller [8086:8c22]

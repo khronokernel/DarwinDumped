@@ -1,0 +1,79 @@
+                                                                                                                                                                 
+                                                                                                                                                                 
+disk0 APPLE SSD SM0512F (4096 byte physical block size)
+=============================================================================================================================================================================
+ACT  DEVICE   TYPE                    NAME                                                      SIZE    MBR (Stage0)    PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme                                                             500 GB  None
+     disk0s1  EFI                     EFI                                                       209 MB                  Apple EFI
+     disk0s2  Apple_CoreStorage                                                                 499 GB                   
+     disk0s3  Apple_Boot              Recovery HD                                               650 MB                   
+                                                                                                                                                                 
+                                                                                                                                                                 
+disk1 Macintosh HD (512 byte physical block size)
+=============================================================================================================================================================================
+ACT  DEVICE   TYPE                    NAME                                                      SIZE    MBR (Stage0)    PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              Apple_HFS                                                                         499 GB   
+                                                                                                                                                                 
+                                                                                                                                                                 
+disk2 Apple UDIF, только для чтения, сжатый (zlib) (512 byte physical block size)
+=============================================================================================================================================================================
+ACT  DEVICE   TYPE                    NAME                                                      SIZE    MBR (Stage0)    PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              Apple_partition_scheme                                                            10 MB    
+     disk2s1  Apple_partition_map                                                               322 KB                   
+     disk2s2  Apple_HFS               Creative Cloud Installer                                  10 MB                    
+                                                                                                                                                                 
+                                                                                                                                                                 
+disk3 Apple UDIF, только для чтения, сжатый (zlib) (512 byte physical block size)
+=============================================================================================================================================================================
+ACT  DEVICE   TYPE                    NAME                                                      SIZE    MBR (Stage0)    PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              Apple_partition_scheme                                                            161 MB   
+     disk3s1  Apple_partition_map                                                               322 KB                   
+     disk3s2  Apple_HFS               AdobeCameraRaw-9.1-CC-mul-AdobeUpdate                     161 MB                   
+                                                                                                                                                                 
+                                                                                                                                                                 
+disk4 Apple UDIF, только для чтения, сжатый (zlib) (512 byte physical block size)
+=============================================================================================================================================================================
+ACT  DEVICE   TYPE                    NAME                                                      SIZE    MBR (Stage0)    PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              Apple_partition_scheme                                                            214 MB   
+     disk4s1  Apple_partition_map                                                               322 KB                   
+     disk4s2  Apple_HFS               Lightroom-6.1.0-Update                                    214 MB                   
+                                                                                                                                                                 
+                                                                                                                                                                 
+disk5 Apple UDIF, только для чтения, сжатый (bzip2) (512 byte physical block size)
+=============================================================================================================================================================================
+ACT  DEVICE   TYPE                    NAME                                                      SIZE    MBR (Stage0)    PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              Apple_partition_scheme                                                            13 MB    
+     disk5s1  Apple_partition_map                                                               322 KB                   
+     disk5s2  Apple_HFS               amtlib.framework 9.0.0.21 "One Stop Solution" CR2 by TNT  13 MB                    
+                                                                                                                                                                 
+                                                                                                                                                                 
+disk6 WD My Passport 0822 (512 byte physical block size)
+=============================================================================================================================================================================
+ACT  DEVICE   TYPE                    NAME                                                      SIZE    MBR (Stage0)    PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              FDisk_partition_scheme                                                            2 TB    Windows XP MBR
+     disk6s1  Windows_NTFS            ARINABALERINA                                             2 TB                    Windows NTFS NTLDR
+                                                                                                                                                                 
+                                                                                                                                                                 
+disk7 Apple UDIF, только для чтения, сжатый (zlib) (512 byte physical block size)
+=============================================================================================================================================================================
+ACT  DEVICE   TYPE                    NAME                                                      SIZE    MBR (Stage0)    PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              Apple_partition_scheme                                                            10 MB    
+     disk7s1  Apple_partition_map                                                               322 KB                   
+     disk7s2  Apple_HFS               Creative Cloud Installer                                  10 MB                    
+                                                                                                                                                                 
+                                                                                                                                                                 
+disk8 Apple UDIF, только для чтения, сжатый (zlib) (512 byte physical block size)
+=============================================================================================================================================================================
+ACT  DEVICE   TYPE                    NAME                                                      SIZE    MBR (Stage0)    PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              Apple_partition_scheme                                                            214 MB   
+     disk8s1  Apple_partition_map                                                               322 KB                   
+     disk8s2  Apple_HFS               Lightroom-6.1.0-Update                                    214 MB                   

@@ -1,0 +1,17 @@
+                                                                                                           
+                                                                                                           
+disk0 APPLE HDD HTS545050A7E362 (4096 byte physical block size)
+=======================================================================================================================
+ACT  DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme               500 GB  None
+     disk0s1  EFI                    EFI          209 MB                Apple EFI
+     disk0s2  Apple_CoreStorage                   499 GB                 
+     disk0s3  Apple_Boot             Recovery HD  650 MB                 
+                                                                                                           
+                                                                                                           
+disk1 Macintosh HD (512 byte physical block size)
+=======================================================================================================================
+ACT  DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              Apple_HFS                           498 GB   

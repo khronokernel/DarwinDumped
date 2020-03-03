@@ -1,0 +1,26 @@
+Array Length:16384 bytes
+Array Block Count (512 bytes):32
+
+=====================================================
+
+Partition Type GUID: EFI System Partition
+Partition Unique GUID: 9c5d4395-fc8f-4e9d-b316-da4a2a3ae47a
+Partition Starting LBA: 40
+Partition Ending LBA: 409639
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: EFI System Partition
+Partition Reserved Byte: OK
+Partition Size: 209.71MB
+Partition Loader: Unknown
+
+=====================================================
+
+Partition Type GUID: HFS+
+Partition Unique GUID: 04aa0ba9-0717-4140-be41-1b8a7f07ae30
+Partition Starting LBA: 409640
+Partition Ending LBA: 16236503
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: >2K9
+Partition Reserved Byte: OK
+Partition Size: 8.10GB
+Partition Loader: Clover boot1h

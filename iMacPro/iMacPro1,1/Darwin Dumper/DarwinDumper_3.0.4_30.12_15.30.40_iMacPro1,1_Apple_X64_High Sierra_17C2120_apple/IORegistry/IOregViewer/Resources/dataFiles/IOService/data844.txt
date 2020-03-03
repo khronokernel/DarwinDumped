@@ -1,0 +1,19 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"69228","ColType":"Number","ColValue":"617"}},
+{"data":{"title":"Transport"},"attr":{"id":"69230","ColType":"String","ColValue":"Bluetooth"}},
+{"data":{"title":"LocationID"},"attr":{"id":"69232","ColType":"Number","ColValue":"2062112162"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"69234","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"69236","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"VendorID"},"attr":{"id":"69238","ColType":"Number","ColValue":"76"}},
+{"data":{"title":"VendorIDSource"},"attr":{"id":"69240","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"69242","ColType":"Number","ColValue":"11250"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"69244","ColType":"Number","ColValue":"368"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"69246","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"69248","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"69250","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"69251","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"69253","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"69255","ColType":"Number","ColValue":"2"}}]},{"data":{"title":"1"},"attr":{"id":"69256","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"69258","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"69260","ColType":"Number","ColValue":"1"}}]},{"data":{"title":"2"},"attr":{"id":"69261","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"69263","ColType":"Number","ColValue":"13"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"69265","ColType":"Number","ColValue":"5"}}]},{"data":{"title":"3"},"attr":{"id":"69266","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"69268","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"69270","ColType":"Number","ColValue":"12"}}]}]},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"69272","ColType":"Data","ColValue":"&lt;05010902a1010901a1000509190129021500250185129502750181029501750681010501093009311601fe26ff0136c0fe4640016513550d751095028106950275088101c0c0050d0905a1010600ff090c150026ff0075089510853f8122c00600ff090ca1010600ff090c150026ff0085447508966f018100c0&gt;"}},
+{"data":{"title":"SerialNumber"},"attr":{"id":"69274","ColType":"String","ColValue":"d0-81-7a-e9-55-a2"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"69276","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"Product"},"attr":{"id":"69278","ColType":"String","ColValue":"Magic Mouse 2"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"69280","ColType":"Number","ColValue":"0"}}
+]

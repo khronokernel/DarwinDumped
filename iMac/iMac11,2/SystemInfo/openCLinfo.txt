@@ -1,0 +1,56 @@
+1 OpenCL platform found!
+
+[Platform 0]
+	Name: 			Apple
+	Vendor: 		Apple
+	Version: 		OpenCL 1.0 (Dec 23 2010 17:30:26)
+	Profile: 		FULL_PROFILE
+
+
+2 OpenCL devices found!
+
+[Device 0]
+	Name: 			Radeon HD 4670
+	Vendor: 		AMD
+	Type: 			GPU 
+	Device Version: 	OpenCL 1.0 
+	Driver Version: 	1.0
+	Compute Units: 		8
+	Work Group Size: 	1024
+	Clock: 			680 MHz
+	Global Memory: 		256 MB
+	Local Memory: 		16 KB
+	Cache Size: 		0 KB
+	Cache Line Size: 	0 Bytes
+	Available: 		Yes
+	Double-Precision: 	No
+	Extensions: 
+
+[Device 1]
+	Name: 			Intel(R) Core(TM) i3 CPU         540  @ 3.07GHz
+	Vendor: 		Intel
+	Type: 			CPU 
+	Device Version: 	OpenCL 1.0 
+	Driver Version: 	1.0
+	Compute Units: 		4
+	Work Group Size: 	1
+	Clock: 			3060 MHz
+	Global Memory (Total): 	3584 MB
+	Global Memory (Host): 	3072 MB
+	Global Memory (PCIe): 	512 MB
+	Local Memory: 		16 KB
+	Cache Size: 		4096 KB
+	Cache Line Size: 	64 Bytes
+	Available: 		Yes
+	Double-Precision: 	Yes
+	Extensions: 
+				cl_khr_fp64
+				cl_khr_global_int32_base_atomics
+				cl_khr_global_int32_extended_atomics
+				cl_khr_local_int32_base_atomics
+				cl_khr_local_int32_extended_atomics
+				cl_khr_byte_addressable_store
+				cl_APPLE_gl_sharing
+				cl_APPLE_SetMemObjectDestructor
+				cl_APPLE_ContextLoggingFunctions
+

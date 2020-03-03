@@ -1,0 +1,11 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"40592","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"40594","ColType":"String","ColValue":"AMDSupport"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"40596","ColType":"Number","ColValue":"65050"}},
+{"data":{"title":"IOPCITunnelCompatible"},"attr":{"id":"40598","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"iofb_version"},"attr":{"id":"40600","ColType":"String","ColValue":"1.1.50"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"40602","ColType":"String","ColValue":"com.apple.kext.AMDSupport"}},
+{"data":{"title":"IOPCIClassMatch"},"attr":{"id":"40604","ColType":"String","ColValue":"0x03000000&0xFF000000"}},
+{"data":{"title":"IOClass"},"attr":{"id":"40606","ColType":"String","ColValue":"AMDSupport"}},
+{"data":{"title":"IOPCIMatch"},"attr":{"id":"40608","ColType":"String","ColValue":"0x00001002&0x0000FFFF"}}
+]

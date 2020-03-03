@@ -1,0 +1,36 @@
+Array Length:16384 bytes
+Array Block Count (512 bytes):32
+
+=====================================================
+
+Partition Type GUID: EFI System Partition
+Partition Unique GUID: 1e4a5e0c-716d-4b7d-b3db-96687bbaf41f
+Partition Starting LBA: 40
+Partition Ending LBA: 409639
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: EFI System Partition
+Partition Reserved Byte: OK
+Partition Size: 209.71MB
+Partition Loader: Apple EFI
+
+=====================================================
+
+Partition Type GUID: HFS+
+Partition Unique GUID: 6c9bc392-2572-4c19-aa31-b5b1637a23b1
+Partition Starting LBA: 409640
+Partition Ending LBA: 488965175
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: Customer
+Partition Reserved Byte: OK
+Partition Size: 250.14GB
+
+=====================================================
+
+Partition Type GUID: OSX Boot
+Partition Unique GUID: 31bee16d-1d6f-49cf-a082-3567c03b9c8b
+Partition Starting LBA: 488965176
+Partition Ending LBA: 490234711
+Partition UEFI Reserved Attributes: 0000000000000200
+Partition Name: Recovery HD
+Partition Reserved Byte: OK
+Partition Size: 650.00MB

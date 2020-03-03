@@ -1,0 +1,44 @@
+Extracted contents:
+header:          00 ff ff ff ff ff ff 00
+serial number:   06 10 1e 92 be 04 fe 02 35 0e
+version:         01 03
+basic params:    80 31 1f 78 2e
+chroma info:     cf b5 a3 55 49 99 25 10 50 54
+established:     00 00 00
+standard:        d1 00 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+descriptor 1:    25 3c 80 a0 70 b0 23 40 30 20 36 00 ef 36 11 00 00 1a
+descriptor 2:    00 00 00 fc 00 43 69 6e 65 6d 61 20 48 44 20 44 69 73
+descriptor 3:    00 00 00 fc 00 70 6c 61 79 0a 00 00 00 00 00 00 00 00
+descriptor 4:    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+extensions:      01
+checksum:        df
+
+Manufacturer: APP Model 921e Serial Number 50201790
+EDID version: 1.3
+Digital display
+Maximum image size: 49 cm x 31 cm
+Gamma: 2.20
+DPMS levels: Off
+Supported color formats: RGB 4:4:4, YCrCb 4:2:2
+Default (sRGB) color space is primary color space
+First detailed timing is preferred timing
+Established timings supported:
+Standard timings supported:
+  1920x1200@60Hz
+Detailed mode: Clock 153.970 MHz, 495 mm x 310 mm
+               1920 1968 2000 2080 hborder 0
+               1200 1203 1209 1235 vborder 0
+               +hsync -vsync 
+Monitor name: Cinema
+Manufacturer-specified data, tag 0
+Has 1 extension blocks
+Checksum: 0xdf (valid)
+
+DI extension block
+
+EDID block does NOT conform to EDID 1.3!
+	Missing monitor ranges
+	Detailed block string not properly terminated
+EDID block does not conform at all!
+	Has 128 nonconformant extension block(s)
+	Bad year of manufacture

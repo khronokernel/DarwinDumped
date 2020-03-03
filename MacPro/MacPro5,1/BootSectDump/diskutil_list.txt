@@ -1,0 +1,11 @@
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *512.1 GB   disk0
+   1:                        EFI                         209.7 MB   disk0s1
+   2:                  Apple_HFS Snow                    100.0 GB   disk0s2
+   3:                  Apple_HFS Lion                    411.6 GB   disk0s3
+/dev/disk1
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *8.1 GB     disk1
+   1:                        EFI                         209.7 MB   disk1s1
+   2:                  Apple_HFS USB10.8.2               7.7 GB     disk1s2

@@ -1,0 +1,1519 @@
+Audio:
+
+    Intel High Definition Audio:
+
+      Audio ID: 28
+
+        Headphone:
+
+          Connection: Combination Output
+
+        Speaker:
+
+          Connection: Internal
+
+        Line Input:
+
+          Connection: Combination Input
+
+        Internal Microphone:
+
+          Connection: Internal
+
+        S/PDIF Optical Digital Audio Output:
+
+          Connection: Combination Output
+
+        External Microphone / iPhone Headset:
+
+          Connection: Combination Output
+
+        HDMI / DisplayPort Output:
+
+          Connection: Display
+
+    Devices:
+
+        Built-in Input:
+
+          Default Input Device: Yes
+          Input Channels: 2
+          Manufacturer: Apple Inc.
+          Current SampleRate: 44100
+          Transport: Built-in
+
+        Built-in Output:
+
+          Default Output Device: Yes
+          Default System Output Device: Yes
+          Manufacturer: Apple Inc.
+          Output Channels: 2
+          Current SampleRate: 44100
+          Transport: Built-in
+
+        After Effects 11.0:
+
+          Manufacturer: Apple, Inc.
+          Current SampleRate: 0
+          Transport: Unknown
+
+        After Effects 11.0.2:
+
+          Manufacturer: Apple, Inc.
+          Current SampleRate: 0
+          Transport: Unknown
+
+Bluetooth:
+
+      Apple Bluetooth Software Version: 4.0.9f33 10885
+      Hardware Settings:
+          Manufacturer: Broadcom
+          Firmware Version: v41 c821
+          Vendor ID: 0x5ac
+          Product ID: 0x821a
+      Devices (Paired, Favorites, etc):
+          Мышь Валерий:
+              Type: Mouse
+              Firmware Version: 0x84
+              Services: Apple Wireless Mouse
+              Manufacturer: Apple (0x3, 0x31c)
+              Vendor ID: 0x5ac
+              Product ID: 0x30d
+              EDR Supported: No
+              eSCO Supported: No
+          HTC One S:
+              Type: Smartphone
+              Firmware Version: 0
+              Services: FuturedialDMI, SMS, Phonebook Access PSE, Advanced Audio, Handsfree Gateway, EMAIL, Object Push, Network Access Point Service, AV Remote Control Target, Headset Gateway
+              Manufacturer: Broadcom (0x6, 0x4103)
+              Vendor ID: 0x0f
+              Product ID: 0
+              EDR Supported: Yes
+              eSCO Supported: Yes
+
+Card Reader:
+
+    Built in SD Card Reader:
+
+      Vendor ID: 0x14e4
+      Device ID: 0x16bc
+      Subsystem Vendor ID: 0x14e4
+      Subsystem ID: 0x0000
+      Revision: 0x0010
+      Link Width: x1
+      Link Speed: 2.5 GT/s
+
+Diagnostics:
+
+    Power On Self-Test:
+
+      Last Run: 01.03.13, 19:41
+      Result: Passed
+
+Disc Burning:
+
+    HL-DT-ST DVDRW  GS31N:
+
+      Firmware Revision: TA17
+      Interconnect: ATAPI
+      Burn Support: Yes (Apple Shipping Drive)
+      Cache: 2048 KB
+      Reads DVD: Yes
+      CD-Write: -R, -RW
+      DVD-Write: -R, -R DL, -RW, +R, +R DL, +RW
+      Write Strategies: CD-TAO, CD-SAO, CD-Raw, DVD-DAO
+      Media: To show the available burn speeds, insert a disc and choose File > Refresh Information
+
+Ethernet Cards:
+
+    Broadcom 57765-B0:
+
+      Name: ethernet
+      Type: Ethernet Controller
+      Bus: PCI
+      Vendor ID: 0x14e4
+      Device ID: 0x16b4
+      Subsystem Vendor ID: 0x14e4
+      Subsystem ID: 0x16b4
+      Revision ID: 0x0010
+      Link Width: x1
+      BSD name: en0
+      Kext name: AppleBCM5701Ethernet.kext
+      Firmware version: 57765-v1.37, 0x7287af41
+      Location: /System/Library/Extensions/IONetworkingFamily.kext/Contents/PlugIns/AppleBCM5701Ethernet.kext
+      mDNS offload capable: c8:2a:14:54:ae:58
+      Version: 3.2.5b3
+
+FireWire:
+
+    FireWire Bus:
+
+      Maximum Speed: Up to 800 Mb/sec
+
+Graphics/Displays:
+
+    Intel HD Graphics 3000:
+
+      Chipset Model: Intel HD Graphics 3000
+      Type: GPU
+      Bus: Built-In
+      VRAM (Total): 384 MB
+      Vendor: Intel (0x8086)
+      Device ID: 0x0126
+      Revision ID: 0x0009
+      Displays:
+        Color LCD:
+          Display Type: LCD
+          Resolution: 1280 x 800
+          Pixel Depth: 32-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Built-In: Yes
+
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro8,1
+      Processor Name: Intel Core i5
+      Processor Speed: 2,3 GHz
+      Number of Processors: 1
+      Total Number of Cores: 2
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 3 MB
+      Memory: 4 GB
+      Boot ROM Version: MBP81.0047.B27
+      SMC Version (system): 1.68f99
+      Sudden Motion Sensor:
+          State: Enabled
+
+Memory:
+
+    Memory Slots:
+
+      ECC: Disabled
+
+        BANK 0/DIMM0:
+
+          Size: 2 GB
+          Type: DDR3
+          Speed: 1333 MHz
+          Status: OK
+          Manufacturer: 0x80AD
+          Part Number: 0x484D54333235533642465238432D48392020
+
+        BANK 1/DIMM0:
+
+          Size: 2 GB
+          Type: DDR3
+          Speed: 1333 MHz
+          Status: OK
+          Manufacturer: 0x80AD
+          Part Number: 0x484D54333235533642465238432D48392020
+
+Network:
+
+    Arduino Mega 2561:
+
+      Type: PPP (PPPSerial)
+      Hardware: Modem
+      BSD Device Name: usbmodemfd121
+      Has IP Assigned: No
+      Service Order: 0
+
+    Arduino Mega 2560:
+
+      Type: PPP (PPPSerial)
+      Hardware: Modem
+      BSD Device Name: usbmodemfa131
+      Has IP Assigned: No
+      Service Order: 1
+
+    Bluetooth DUN:
+
+      Type: PPP (PPPSerial)
+      Hardware: Modem
+      BSD Device Name: Bluetooth-Modem
+      Has IP Assigned: No
+      Service Order: 2
+
+    Ethernet:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en0
+      Has IP Assigned: No
+      Service Order: 3
+
+    FireWire:
+
+      Type: FireWire
+      Hardware: FireWire
+      BSD Device Name: fw0
+      Has IP Assigned: No
+      Service Order: 4
+
+    Wi-Fi:
+
+      Type: AirPort
+      Hardware: AirPort
+      BSD Device Name: en1
+      Has IP Assigned: Yes
+      Service Order: 5
+
+    iPad:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en3
+      Has IP Assigned: No
+      Service Order: 6
+
+    Bluetooth PAN:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en2
+      Has IP Assigned: No
+      Service Order: 7
+
+Printer Software:
+
+    Printers:
+
+      Printers:
+          Path: /Library/Printers/Canon/BJPrinter/Frameworks/BJCommand2.framework/Versions/A/Resources/Info.plist
+          Version: 8.1.0
+          Path: /Library/Printers/Canon/BJPrinter/Frameworks/BJEssential2.framework/Versions/A/Resources/Info.plist
+          Version: 4.1.3
+          Path: /Library/Printers/Canon/BJPrinter/Frameworks/BJExtDDI.framework/Versions/A/Resources/Info.plist
+          Version: 4.0.1
+          Path: /Library/Printers/Canon/BJPrinter/Frameworks/BJPDELocalizedString2.framework/Versions/A/Resources/Info.plist
+          Version: 2.1.3
+          Path: /Library/Printers/Canon/BJPrinter/Frameworks/BJPrinterUtility2.framework/Versions/A/Resources/Info.plist
+          Version: 7.47.1
+          Path: /Library/Printers/Canon/BJPrinter/Frameworks/BJStatus2.framework/Versions/A/Resources/Info.plist
+          Version: 7.42.2
+          Path: /Library/Printers/Canon/BJPrinter/Plugins/BJNP/canonijnetwork.bundle/Contents/Info.plist
+          Version: 1.6.7
+          Path: /Library/Printers/Canon/BJPrinter/Plugins/BJNP/CIJNetworkIOM.plugin/Contents/Info.plist
+          Version: 10.44.0
+          Path: /Library/Printers/Canon/BJPrinter/Plugins/BJNP/CIJNetworkPBM.plugin/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Printers/Canon/BJPrinter/Plugins/BJUSB/BJUSBIOM.plugin/Contents/Info.plist
+          Version: 1.5.0
+          Path: /Library/Printers/Canon/BJPrinter/Plugins/BJUSB/BJUSBPBM.plugin/Contents/Info.plist
+          Version: 1.4.7
+          Path: /Library/Printers/Canon/BJPrinter/Plugins/BJUSB/CIJUSBClassDriver.plugin/Contents/Info.plist
+          Version: 1.1.5
+          Path: /Library/Printers/Canon/BJPrinter/Plugins/BJUSB/CIJUSBClassDriver2.plugin/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Printers/Canon/BJPrinter/Plugins/CIJUtility/CIJUtilityControl.bundle/Contents/Info.plist
+          Version: 1.3.1
+          Path: /Library/Printers/Canon/BJPrinter/Plugins/IJBluetooth/IJBluetoothIOM.plugin/Contents/Info.plist
+          Version: 1.0.12
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/BJPrinterUtility2.app/Contents/Info.plist
+          Version: 7.27.2
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Info.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/172CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/173CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/174CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/175CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/205CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/206CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/213CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/217CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/218CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/220CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/221CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/237CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/238CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/250CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/252CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/253CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/254CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/256CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/257CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/258CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/260CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/261CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/262CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/263CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/264CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/265CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/266CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/267CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/270CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/271CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/272CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/273CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/274CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/275CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/276CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/278CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/279CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/280CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/281CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/282CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/283CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/284CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/285CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/286CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/287CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/288CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/289CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/290CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/291CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/292CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/293CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/294CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/295CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/296CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/297CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/298CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/300CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/301CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/302CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/303CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/309CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/310CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/311CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/312CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/315CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/316CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/317CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/318CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/319CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/320CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/321CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/323CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/324CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/325CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/326CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/327CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/328CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/329CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/331CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/332CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/333CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/334CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/335CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/336CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/337CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/338CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/339CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/340CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/341CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/342CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/346CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/347CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/348CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/349CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/352CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/353CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/354CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/356CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/357CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/358CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/359CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/360CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/361CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/362CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/363CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/364CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/365CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/366CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/367CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/369CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/370CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/373CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/374CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/375CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/376CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/377CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/378CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/380CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/381CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/382CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/383CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/384CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/385CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/386CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/387CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/388CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/389CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/390CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/391CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/392CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/393CIJPrinterInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJBatteryLevelInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJChangeBJCartridgeInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJChangeInkTankInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJCleaningInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJCustomSettingInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJInkCartridgeInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJInkInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJInkUsageControlInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizeBatteryLevelInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizeCartridgeInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizeChangeBJCartridgeInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizeChangeInkTankInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizeCleaningInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizeCustomSettingInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizeHelpInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizeInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizeInkInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizeInkUsageControlInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizePaperAllocationInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizePaperSourceSettingInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizePowerSettingInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizeRemainingInkLevelSettingInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizeSelectInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizeSilentModeInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJLocalizeTestPrintInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJPaperAllocationInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJPaperSourceSettingInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJPowerSettingInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJRemainingInkLevelSettingInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJSilentModeInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/BJPrinter/Utilities/CanonIJPrinterUtility.app/Contents/Resources/CIJTestPrintInfo.plist
+          Version: 10.51.7
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/Caddis_09.framework/Versions/A/Resources/Info.plist
+          Version: 1.0.5
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/SGSM5_09.framework/Versions/A/Resources/Info.plist
+          Version: 6.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/ag07_09.plugin/Contents/Info.plist
+          Version: 7.1.4
+          Path: /Library/Printers/Canon/IJScanner/Plugins/ag08_09.plugin/Contents/Info.plist
+          Version: 7.2.4
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cncl09_09.plugin/Contents/Info.plist
+          Version: 3.7.1
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cnq2413_09.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cnq2414_09.plugin/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cnq4807_09.plugin/Contents/Info.plist
+          Version: 2.1.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cnq4808_09.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cnq4809_09.plugin/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cnq9601_09.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/ijfshlib_09.plugin/Contents/Info.plist
+          Version: 1.1.4
+          Path: /Library/Printers/Canon/IJScanner/Plugins/mld07_09.plugin/Contents/Info.plist
+          Version: 1.1.3
+          Path: /Library/Printers/Canon/IJScanner/Plugins/mld08_09.plugin/Contents/Info.plist
+          Version: 3.0.3
+          Path: /Library/Printers/Canon/IJScanner/Plugins/mld09_09.plugin/Contents/Info.plist
+          Version: 6.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/mld9601_09.plugin/Contents/Info.plist
+          Version: 3.1.3
+          Path: /Library/Printers/Canon/IJScanner/Plugins/sfusb_09.plugin/Contents/Info.plist
+          Version: 1.2.1
+          Path: /Library/Printers/Canon/IJScanner/Plugins/sgusb_09.plugin/Contents/Info.plist
+          Version: 1.4.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/smac_09.plugin/Contents/Info.plist
+          Version: 1.2.5
+          Path: /Library/Printers/Canon/IJScanner/Plugins/zoom_09.plugin/Contents/Info.plist
+          Version: 1.1.1
+          Path: /Library/Printers/hp/cups/filters/commandtohp.filter/Contents/Info.plist
+          Version: 2.1.2
+          Path: /Library/Printers/hp/cups/filters/commandtohp.filter/Contents/PlugIns/reportlevels.plugin/Contents/Info.plist
+          Version: 2.1.2
+          Path: /Library/Printers/hp/cups/filters/commandtohp.filter/Contents/PlugIns/reporttrays.plugin/Contents/Info.plist
+          Version: 2.1.2
+          Path: /Library/Printers/hp/cups/filters/pdftopdf.filter/Contents/Info.plist
+          Version: 2.4.0
+          Path: /Library/Printers/hp/cups/filters/pdftopdf.filter/Contents/PlugIns/mh_one_button.plugin/Contents/Info.plist
+          Version: 2.4.0
+          Path: /Library/Printers/hp/cups/filters/pdftopdf.filter/Contents/PlugIns/mh_pre_one_button.plugin/Contents/Info.plist
+          Version: 2.4.0
+          Path: /Library/Printers/hp/cups/Inkjet4.driver/Contents/Info.plist
+          Version: 4.0.2
+          Path: /Library/Printers/hp/cups/tools/autosetup.tool/Contents/Info.plist
+          Version: 1.3.0
+          Path: /Library/Printers/hp/Fax/fax.backend/Contents/Info.plist
+          Version: 5.7.0
+          Path: /Library/Printers/hp/Fax/rastertofax.filter/Contents/Info.plist
+          Version: 5.7.0
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/ClientUI.framework/Versions/3.0/Resources/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/ClientUI.framework/Versions/3.0/Resources/PlugIns/ClientUI.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Configure.framework/Versions/3.0/Resources/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Resources/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Resources/PlugIns/bluetooth.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Resources/PlugIns/CFXmlParser.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Resources/PlugIns/libXmlParser.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Resources/PlugIns/network.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Resources/PlugIns/NSXMLParser.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Resources/PlugIns/usb.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Resources/SpecificInfo.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/DataStore.framework/Versions/3.0/Resources/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/DeviceID.framework/Versions/3.0/Resources/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Fax.framework/Versions/3.0/Resources/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/HDT.framework/Versions/3.0/Resources/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/HTTP.framework/Versions/3.0/Resources/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/PML.framework/Versions/3.0/Resources/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Scan.framework/Versions/3.0/Resources/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Status.framework/Versions/3.0/Resources/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Status.framework/Versions/3.0/Resources/PlugIns/CDPrintingStatus.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Status.framework/Versions/3.0/Resources/PlugIns/CoversStatus.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Status.framework/Versions/3.0/Resources/PlugIns/DeviceAlerts.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Status.framework/Versions/3.0/Resources/PlugIns/DeviceStatus.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Status.framework/Versions/3.0/Resources/PlugIns/DeviceTrays.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Status.framework/Versions/3.0/Resources/PlugIns/EstimatedPagesStatus.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Status.framework/Versions/3.0/Resources/PlugIns/JobsStatus.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Status.framework/Versions/3.0/Resources/PlugIns/SpecialtyPrintingStatus.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Status.framework/Versions/3.0/Resources/PlugIns/SuppliesStatus.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/XMLServices.framework/Versions/3.0/Resources/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Resources/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Resources/PlugIns/statusclient.bundle/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Runtime/hpdot4d.app/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Runtime/HPIOPrinterClassDriver.plugin/Contents/Info.plist
+          Version: 3.9.3
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/ClientUI.framework/Versions/4.0/PlugIns/ClientUI.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/ClientUI.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Configure.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Core.framework/Versions/4.0/PlugIns/bluetooth.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Core.framework/Versions/4.0/PlugIns/CFXmlParser.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Core.framework/Versions/4.0/PlugIns/libXmlParser.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Core.framework/Versions/4.0/PlugIns/network.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Core.framework/Versions/4.0/PlugIns/NSXMLParser.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Core.framework/Versions/4.0/PlugIns/usb.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Core.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/DataStore.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/DeviceID.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Fax.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/HDT.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/HTTP.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/PML.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Scan.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/CDPrintingStatus.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/CoversStatus.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/DeviceAlerts.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/DeviceStatus.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/DeviceTrays.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/EstimatedPagesStatus.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/JobsStatus.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/SpecialtyPrintingStatus.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/PlugIns/SuppliesStatus.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/Status.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Frameworks/XMLServices.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/PlugIns/statusclient.bundle/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Resources/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Runtime/hpdot4d.app/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/4.0/Runtime/HPIOPrinterClassDriver.plugin/Contents/Info.plist
+          Version: 4.5.2
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Frameworks/DCCommunicationServices.framework/Versions/A/Resources/DCCSDMFLoader.bundle/Contents/Info.plist
+          Version: 1.4.1
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Frameworks/DCCommunicationServices.framework/Versions/A/Resources/Info.plist
+          Version: 1.4.1
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Frameworks/DCCore.framework/Versions/A/Resources/Info.plist
+          Version: 1.4.1
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Frameworks/DCJobSettings.framework/Versions/A/Resources/Info.plist
+          Version: 1.4.1
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Frameworks/DCPPDGeneration.framework/Versions/A/Resources/Info.plist
+          Version: 1.4.1
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Frameworks/DCPPDUpdating.framework/Versions/A/Resources/Info.plist
+          Version: 1.4.1
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Frameworks/DCXMLRepository.framework/Versions/A/Resources/Info.plist
+          Version: 1.4.1
+          Path: /Library/Printers/hp/Frameworks/HPDriverCore.framework/Versions/A/Resources/Info.plist
+          Version: 1.4.1
+          Path: /Library/Printers/hp/Frameworks/HPSmartPrint.framework/Versions/A/Resources/Info.plist
+          Version: 5.11.0
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/B/Resources/Info.plist
+          Version: 3.1.1
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/B/Resources/Plugins/Device Management Services/HPSmartX_DM_DMF.SxPlugin/Contents/Info.plist
+          Version: 1,0
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/B/Resources/Plugins/Fax Services/HPSmartX_Fax_HDT_DMF.SxPlugin/Contents/Info.plist
+          Version: 1.0.0
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/B/Resources/Plugins/Scan Services/HPSmartX_Scan_ORB.SxPlugin/Contents/Info.plist
+          Version: 1.2.4
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/B/Resources/Plugins/Scan Services/HPSmartX_Scan_SCL_DMF.SxPlugin/Contents/Info.plist
+          Version: 1.2.2
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Info.plist
+          Version: 3.13.20
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Plugins/Device Configuration Services/HPSmartX_DC_HDT_DMF.SxPlugin/Contents/Info.plist
+          Version: 2.3.2
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Plugins/Device Configuration Services/HPSmartX_DC_PML_DMF.SxPlugin/Contents/Info.plist
+          Version: 2.3.2
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Plugins/Device Management Services/DeviceDiscoveryManager.SxPlugin/Contents/Info.plist
+          Version: 2.3.2
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Plugins/Device Management Services/HPSmartX_DM_DMF.SxPlugin/Contents/Info.plist
+          Version: 2.3.4
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Plugins/Device Update Services/HPSmartX_FU_Dot4.SxPlugin/Contents/Info.plist
+          Version: 1.4.2
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Plugins/Device Update Services/HPSmartX_FU_LEDM.SxPlugin/Contents/Info.plist
+          Version: 1.4.2
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Plugins/Device Update Services/HPSmartX_FU_SOAP.SxPlugin/Contents/Info.plist
+          Version: 1.4.2
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Plugins/EWS Gateway Services/HPSmartX_EWS_DMF.SxPlugin/Contents/Info.plist
+          Version: 1.2.1
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Plugins/Fax Services/HPSmartX_Fax_HDT_DMF.SxPlugin/Contents/Info.plist
+          Version: 3.2.1
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Plugins/Scan Services/HPSmartX_Scan_ORB.SxPlugin/Contents/Info.plist
+          Version: 1.6.1
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Plugins/Scan Services/HPSmartX_Scan_SCL_DMF.SxPlugin/Contents/Info.plist
+          Version: 1.6.1
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Plugins/Unload Services/HPSmartX_CIFS_IC.SxPlugin/Contents/Info.plist
+          Version: 1.3.2
+          Path: /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Plugins/Wifi Services/HPSmartX_WiFi_DMF.SxPlugin/Contents/Info.plist
+          Version: 2.2.2
+          Path: /Library/Printers/hp/Frameworks/Matterhorn.framework/Versions/DI_MH.A.05.03.006/Resources/Info.plist
+          Version: 05.03.006
+          Path: /Library/Printers/hp/Frameworks/Matterhorn.framework/Versions/DI_MH.A.06.04.008/Resources/Info.plist
+          Version: 06.04.008
+          Path: /Library/Printers/hp/Frameworks/ResourceManager.framework/Versions/DI_RM.A.04.08.004/Resources/Info.plist
+          Version: 04.08.004
+          Path: /Library/Printers/hp/PDEs/FaxPDE.plugin/Contents/Info.plist
+          Version: 5.7.0
+          Path: /Library/Printers/hp/PDEs/PDE.plugin/Contents/Info.plist
+          Version: 4.4.0
+          Path: /Library/Printers/hp/PDEs/PDE.plugin/Contents/PlugIns/SmartPrint.plugin/Contents/Info.plist
+          Version: 5.0.0
+          Path: /Library/Printers/hp/Utilities/HP Utility.app/Contents/Frameworks/HSDCommonLib.framework/Versions/A/Resources/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HP Utility.app/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/AddCustomPaper.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/AdminDisabledFeatures.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/AssignICCProfile.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/AutomaticPenAlignment.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/AutoOff.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/BasicFaxSettings.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Bluetooth.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/CalibrateDisplay.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/CleanBackPageSmear.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ClosedLoopCalibration.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ColorCalibration.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ColorCleaning.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ConfigurationPage.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ConsumableLevel.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ControlPanelGuide.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ControlPanelLanguage.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/DirectPrint.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/DMF.discovery/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/DMF.transport/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/DPOF.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/eFax.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxArchive.task/Contents/Info.plist
+          Version: 1.9.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxArchive.task/Contents/Plugins/DeviceSetupDMF.plugin/Contents/Info.plist
+          Version: 2.8.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxArchive.task/Contents/Plugins/DeviceSetupDMF.plugin/Contents/Resources/FaxCallerIDInfo.plist
+          Version: 2.8.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxBlocking.task/Contents/Info.plist
+          Version: 2.8.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxBlocking.task/Contents/Plugins/DeviceSetupDMF.plugin/Contents/Info.plist
+          Version: 2.8.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxBlocking.task/Contents/Plugins/DeviceSetupDMF.plugin/Contents/Resources/FaxCallerIDInfo.plist
+          Version: 2.8.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxBlocking.task/Contents/Resources/FaxCallerIDInfo.plist
+          Version: 2.8.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxForwarding.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxLogs.task/Contents/Info.plist
+          Version: 2.9.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxLogs.task/Contents/Plugins/DeviceSetupDMF.plugin/Contents/Info.plist
+          Version: 2.8.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxLogs.task/Contents/Plugins/DeviceSetupDMF.plugin/Contents/Resources/FaxCallerIDInfo.plist
+          Version: 2.8.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxLogs.task/Contents/Resources/FaxCallerIDInfo.plist
+          Version: 2.9.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxSpeedDials.task/Contents/Info.plist
+          Version: 2.8.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxSpeedDials.task/Contents/Plugins/DeviceSetupDMF.plugin/Contents/Info.plist
+          Version: 2.8.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FaxSpeedDials.task/Contents/Plugins/DeviceSetupDMF.plugin/Contents/Resources/FaxCallerIDInfo.plist
+          Version: 2.8.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/FirmwareUpdate.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/HPePrinterCenter.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/IPSettings.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/LineFeedCalibration.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ManageCustomPapers.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Marketsplash.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Message Center.task/Contents/Info.plist
+          Version: 1.12.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Message Center.task/Contents/PlugIns/AlertMessagePlugin.EventHandler/Contents/Info.plist
+          Version: 1.12.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Message Center.task/Contents/PlugIns/HPACfEventPlugin.EventHandler/Contents/Info.plist
+          Version: 1.12.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Message Center.task/Contents/PlugIns/HPOutOfPaperEventPlugin.EventHandler/Contents/Info.plist
+          Version: 1.12.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Message Center.task/Contents/PlugIns/HPSuppliesStatusEventPlugin.EventHandler/Contents/Info.plist
+          Version: 1.12.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Message Center.task/Contents/PlugIns/HPSuppliesStatusEventPlugin.EventHandler/Contents/Resources/HPSuppliesStatusEventPlugin-Info.plist
+          Version: 1.12.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Message Center.task/Contents/Resources/HPMessageCenterBridge.app/Contents/Info.plist
+          Version: 1.12.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/PaperFeedCleaning.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/PaperHandling.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/PenAlignment.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/PowerManagement.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ProfPhotographyCenter.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/QualityCalibration.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/QualityDiagnostics.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/RegionUnlock.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanShortcutsManager.task/Contents/Info.plist
+          Version: 4.0.90
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanTasksManager.task/Contents/Info.plist
+          Version: 1.3.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanTasksManager.task/Contents/Plugins/ScanTasksDeviceInterface.plugin/Contents/Info.plist
+          Version: 1.3.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanToEmail.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanToEmailSettings.task/Contents/Info.plist
+          Version: 1.3.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanToEmailSettings.task/Contents/Plugins/DeviceSetup.plugin/Contents/Info.plist
+          Version: 2.4.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanToEmailSettings.task/Contents/Plugins/DeviceSetup.plugin/Contents/Resources/FaxCallerIDInfo.plist
+          Version: 2.4.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanToEmailSettings.task/Contents/Plugins/DeviceSetupDMF.plugin/Contents/Info.plist
+          Version: 2.4.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanToEmailSettings.task/Contents/Plugins/DeviceSetupDMF.plugin/Contents/Resources/FaxCallerIDInfo.plist
+          Version: 2.4.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanToFolderSettings.task/Contents/Info.plist
+          Version: 1.3.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanToFolderSettings.task/Contents/Plugins/DeviceSetup.plugin/Contents/Info.plist
+          Version: 2.4.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanToFolderSettings.task/Contents/Plugins/DeviceSetup.plugin/Contents/Resources/FaxCallerIDInfo.plist
+          Version: 2.4.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanToFolderSettings.task/Contents/Plugins/DeviceSetupDMF.plugin/Contents/Info.plist
+          Version: 2.4.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanToFolderSettings.task/Contents/Plugins/DeviceSetupDMF.plugin/Contents/Resources/FaxCallerIDInfo.plist
+          Version: 2.4.0
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/ScanToNetworkFolder.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/SecureUpgrade.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/SemiAutomaticPenAlignment.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/SkewTest.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/StoredJobs.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/SupplyInfo.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/TestPage.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/TestPaperFeed.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/TravelInfo.task/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/Universal.monitor/Contents/Info.plist
+          Version: 5.12.1
+          Path: /Library/Printers/hp/Utilities/HPPU Plugins/WebServer.task/Contents/Info.plist
+          Version: 5.12.1
+
+    Image Capture Devices:
+
+      Image Capture Devices:
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Info.plist
+          Version: 1.5.1
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Resources/DeviceInfo.plist
+          Version: 1.5.1
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 1.5.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Info.plist
+          Version: 5.3.15
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/.ICASingle.bundle/Contents/Info.plist
+          Version: 5.3.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/DDC.bundle/Contents/Info.plist
+          Version: 1.1.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/FIT.bundle/Contents/Info.plist
+          Version: 3.7.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/ImageFilter.bundle/Contents/Info.plist
+          Version: 3.2.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 1D.bundle/Contents/Info.plist
+          Version: 1,0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 23.bundle/Contents/Info.plist
+          Version: 1,0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 30.bundle/Contents/Info.plist
+          Version: 1.0.3
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 32.bundle/Contents/Info.plist
+          Version: 1.0.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 41.bundle/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 43.bundle/Contents/Info.plist
+          Version: 1.1.3
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 52.bundle/Contents/Info.plist
+          Version: 1.1.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 54.bundle/Contents/Info.plist
+          Version: 1.0.8
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 5A.bundle/Contents/Info.plist
+          Version: 1.0.3
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 66.bundle/Contents/Info.plist
+          Version: 1.0.9
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 68.bundle/Contents/Info.plist
+          Version: 1.1.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 6E.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7A.bundle/Contents/Info.plist
+          Version: 1.0.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7C.bundle/Contents/Info.plist
+          Version: 1.0.8
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7E.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 86.bundle/Contents/Info.plist
+          Version: 1.0.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 8B.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 94.bundle/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 95.bundle/Contents/Info.plist
+          Version: 1.1.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter A1.bundle/Contents/Info.plist
+          Version: 1.0.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter AD.bundle/Contents/Info.plist
+          Version: 1.0.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/DeviceInfo.plist
+          Version: 5.3.15
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 5.3.15
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/HardwareInfo.plist
+          Version: 5.3.15
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ModelInfo.plist
+          Version: 5.3.15
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ProfileInfo.plist
+          Version: 5.3.15
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/RegionCodeInfo.plist
+          Version: 5.3.15
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ResolutionInfo.plist
+          Version: 5.3.15
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Frameworks/HPScanServices.framework/Versions/A/Bundles/HPDOT4Scan.bundle/Contents/Info.plist
+          Version: 4.0.90
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Frameworks/HPScanServices.framework/Versions/A/Bundles/HPDOT4Scan.bundle/Contents/Resources/HPAiOTulip.bundle/Contents/Info.plist
+          Version: 3.0.0
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Frameworks/HPScanServices.framework/Versions/A/Bundles/HPLEDMScan.bundle/Contents/Info.plist
+          Version: 4.0.90
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Frameworks/HPScanServices.framework/Versions/A/Bundles/HPSOAPScan.bundle/Contents/Info.plist
+          Version: 4.0.90
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Frameworks/HPScanServices.framework/Versions/A/Resources/Info.plist
+          Version: 4.0.90
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Info.plist
+          Version: 4.0.90
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.90
+          Path: /Library/Image Capture/Devices/HP Scanner 3.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.90
+          Path: /Library/Image Capture/Devices/HPScanner.app/Contents/Frameworks/HPScan.framework/Versions/A/Resources/DestinationInfo.plist
+          Version: 2.2.29
+          Path: /Library/Image Capture/Devices/HPScanner.app/Contents/Frameworks/HPScan.framework/Versions/A/Resources/Info.plist
+          Version: 2.2.29
+          Path: /Library/Image Capture/Devices/HPScanner.app/Contents/Frameworks/HPScan.framework/Versions/A/Resources/ProfileInfo.plist
+          Version: 2.2.29
+          Path: /Library/Image Capture/Devices/HPScanner.app/Contents/Frameworks/HPScan.framework/Versions/A/Resources/TulipInfo.plist
+          Version: 2.2.29
+          Path: /Library/Image Capture/Devices/HPScanner.app/Contents/Info.plist
+          Version: 1.9.3
+          Path: /Library/Image Capture/Devices/HPScanner.app/Contents/Resources/DeviceInfo.plist
+          Version: 1.9.3
+          Path: /Library/Image Capture/Devices/HPScanner.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 1.9.3
+
+    Image Capture Support:
+
+      Image Capture Support:
+          Path: /Library/Image Capture/Support/Hewlett-Packard/Devices/HPAiOScan.bundle/Contents/Info.plist
+          Version: 2.3.0
+          Path: /Library/Image Capture/Support/Hewlett-Packard/Devices/HPAiOScan.bundle/Contents/Resources/DeviceInfo.plist
+          Version: 2.3.0
+
+    Extensions:
+
+      Extensions:
+          Path: /System/Library/Extensions/AppleMobileDevice.kext
+          Version: 3.3.0
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/AppleATAPIStorage.kext
+          Version: 3.1.0
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/AppleXserveRAID.kext
+          Version: 3.1.0
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/FireWireStorageDeviceSpecifics.kext
+          Version: 3.1.0
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/SonyXDCAMDriver.kext
+          Version: 3.1.0
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/USBStorageDeviceSpecifics.kext
+          Version: 3.1.0
+          Path: /System/Library/Extensions/AppleUSBTopCase.kext
+          Version: 235,4
+          Path: /System/Library/Extensions/BJUSBLoad.kext
+          Version: 2.1.0
+          Path: /System/Library/Extensions/CellPhoneHelper.kext
+          Version: 1.2.6
+          Path: /System/Library/Extensions/hp_fax_io.kext
+          Version: 5.7.0
+          Path: /System/Library/Extensions/hp_Inkjet4_io_enabler.kext
+          Version: 4.0.2
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDEventDriver.kext
+          Version: 1.8.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDEventDriverSafeBoot.kext
+          Version: 1.8.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDUserClient.kext
+          Version: 1.8.0
+          Path: /System/Library/Extensions/IOStreamFamily.kext/Contents/PlugIns/IOStreamUserClient.kext
+          Version: 1.1.0
+          Path: /System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/IOUSBHIDDriverSafeBoot.kext
+          Version: 4.4.5
+          Path: /System/Library/Extensions/IOVideoFamily.kext/Contents/PlugIns/IOVideoDeviceUserClient.kext
+          Version: 1.2.0
+          Path: /System/Library/Extensions/Pen Tablet.kext
+          Version: Pen Tablet 5.3.0-3
+
+Printers:
+
+    HP Photosmart Prem C310 series:
+
+      Status: Offline
+      Print Server: Local
+      Driver Version: 4.0.2
+      Default: No
+      Shared: Yes
+      URI: usb://HP/Photosmart%20Prem%20C310%20series?serial=CN0AF111NJ05KM
+      PPD: HP Photosmart Prem C310 series
+      PPD File Version: 4.0.2
+      PostScript Version: (3011.104) 0
+      CUPS Version: 1.6svn (cups-327)
+      Scanning support: Yes
+      Scanning app (bundleID path): -
+      Scanning app version: -
+      Scanner UUID: 0000434E-3041-4631-3131-4E4A30354B4D
+      Printer Commands: ReportLevels 
+      CUPS filters:
+        Inkjet4:
+          Path: /Library/Printers/hp/cups/Inkjet4.driver/Contents/MacOS/Inkjet4
+          Permissions: rwxr-xr-x
+          Version: 4.0.2
+        commandtohp:
+          Path: /Library/Printers/hp/cups/filters/commandtohp.filter/Contents/MacOS/commandtohp
+          Permissions: rwxr-xr-x
+          Version: 2.1.2
+      Fax support: No
+      Printer utility: /Library/Printers/hp/Utilities/HP Utility.app
+      Printer utility version: 5.12.1
+      PDEs:
+        PDE.plugin:
+          Sandbox compliant: Yes
+
+    Photosmart Prem C310 series:
+
+      Status: Idle
+      Print Server: Local
+      Driver Version: 1,0
+      Default: No
+      Shared: No
+      URI: dnssd://Photosmart%20Prem%20C310%20series%20%5B1BDB14%5D._ipp._tcp.local./
+      PPD: HP Photosmart Prem C310 series-AirPrint
+      PPD File Version: 1,0
+      PostScript Version: (3010.000) 0
+      CUPS Version: 1.6svn (cups-327)
+      Scanning support: Yes
+      Scanning app (bundleID path): -
+      Scanning app version: -
+      Scanner UUID: A9AEFAE1-A9AE-FAE1-A9AE-FAE1A9AEFAE1
+      Printer Commands: none 
+      CUPS filters:
+        image/urf processed in Printer:
+        image/jpeg processed in Printer:
+      Fax support: No
+      PDEs: 
+
+    Photosmart Prem C310 series [1BDB14] @ Valery:
+
+      Status: Idle
+      Print Server: Remote
+      Default: Yes
+      URI: dnssd://Photosmart%20Prem%20C310%20series%20%5B1BDB14%5D%20%40%20Valery._ipp._tcp.local./
+      PPD: HP Photosmart Prem C310 series
+      Scanning app (bundleID path): -
+      Scanning app version: -
+      Scanner UUID: -
+
+Serial-ATA:
+
+    Intel 6 Series Chipset:
+
+      Vendor: Intel
+      Product: 6 Series Chipset
+      Link Speed: 6 Gigabit
+      Negotiated Link Speed: 3 Gigabit
+      Description: AHCI Version 1.30 Supported
+
+        TOSHIBA MK3265GSXF:
+
+          Capacity: 320,07 GB (320 072 933 376 bytes)
+          Model: TOSHIBA MK3265GSXF                      
+          Revision: GP006B  
+          Native Command Queuing: Yes
+          Queue Depth: 32
+          Removable Media: No
+          Detachable Drive: No
+          BSD Name: disk0
+          Rotational Rate: 5400
+          Medium Type: Rotational
+          Partition Map Type: GPT (GUID Partition Table)
+          S.M.A.R.T. status: Verified
+          Volumes:
+            disk0s1:
+              Capacity: 209,7 MB (209 715 200 bytes)
+              Content: EFI
+            disk0s2:
+              Capacity: 319,21 GB (319 213 174 784 bytes)
+              Available: 138,71 GB (138 709 639 168 bytes)
+              Writable: Yes
+              File System: Journaled HFS+
+              Content: Apple_HFS
+            disk0s3:
+              Capacity: 650 MB (650 002 432 bytes)
+              Content: Apple_Boot
+
+    Intel 6 Series Chipset:
+
+      Vendor: Intel
+      Product: 6 Series Chipset
+      Link Speed: 6 Gigabit
+      Negotiated Link Speed: 1.5 Gigabit
+      Description: AHCI Version 1.30 Supported
+
+        HL-DT-ST DVDRW  GS31N:
+
+          Model: HL-DT-ST DVDRW  GS31N                   
+          Revision: TA17    
+          Native Command Queuing: No
+          Detachable Drive: No
+          Power Off: Yes
+          Async Notification: No
+
+Software:
+
+    System Software Overview:
+
+      System Version: OS X 10.8.2 (12C60)
+      Kernel Version: Darwin 12.2.0
+      Time since boot: 3 days 2:04
+
+Thunderbolt:
+
+    MacBook Pro:
+
+      Vendor Name: Apple, Inc.
+      Device Name: MacBook Pro
+      UID: 0x0001000A1E9B3BE0
+      Firmware Version: 22,1
+      Port:
+          Status: No devices connected
+          Link Status: 7
+          Port Micro Firmware Version: 2.0.7
+
+USB:
+
+    USB High-Speed Bus:
+
+      Host Controller Location: Built-in USB
+      Host Controller Driver: AppleUSBEHCI
+      PCI Device ID: 0x1c2d 
+      PCI Revision ID: 0x0005 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0xfa 
+
+        FaceTime HD Camera (Built-in):
+
+          Product ID: 0x8509
+          Vendor ID: 0x05ac  (Apple Inc.)
+          Version: 5,16
+          Serial Number: CC2B8607U6DG6LL0
+          Speed: Up to 480 Mb/sec
+          Manufacturer: Apple Inc.
+          Location ID: 0xfa200000 / 3
+          Current Available (mA): 500
+          Current Required (mA): 500
+
+        Hub:
+
+          Product ID: 0x2513
+          Vendor ID: 0x0424  (SMSC)
+          Version:  b.b3
+          Speed: Up to 480 Mb/sec
+          Location ID: 0xfa100000 / 2
+          Current Available (mA): 500
+          Current Required (mA): 2
+
+            CTH-661:
+
+              Product ID: 0x00d8
+              Vendor ID: 0x056a  (WACOM Co., Ltd.)
+              Version: 1,11
+              Speed: Up to 12 Mb/sec
+              Manufacturer: Wacom Co.,Ltd.
+              Location ID: 0xfa130000 / 6
+              Current Available (mA): 500
+              Current Required (mA): 98
+
+            BRCM2070 Hub:
+
+              Product ID: 0x4500
+              Vendor ID: 0x0a5c  (Broadcom Corp.)
+              Version: 1,00
+              Speed: Up to 12 Mb/sec
+              Manufacturer: Apple Inc.
+              Location ID: 0xfa110000 / 5
+              Current Available (mA): 500
+              Current Required (mA): 94
+
+                Bluetooth USB Host Controller:
+
+                  Product ID: 0x821a
+                  Vendor ID: 0x05ac  (Apple Inc.)
+                  Version: 0,41
+                  Speed: Up to 12 Mb/sec
+                  Manufacturer: Apple Inc.
+                  Location ID: 0xfa113000 / 8
+                  Current Available (mA): 500
+                  Current Required (mA): 0
+
+            Apple Internal Keyboard / Trackpad:
+
+              Product ID: 0x0253
+              Vendor ID: 0x05ac  (Apple Inc.)
+              Version: 1,18
+              Speed: Up to 12 Mb/sec
+              Manufacturer: Apple Inc.
+              Location ID: 0xfa120000 / 4
+              Current Available (mA): 500
+              Current Required (mA): 40
+
+    USB High-Speed Bus:
+
+      Host Controller Location: Built-in USB
+      Host Controller Driver: AppleUSBEHCI
+      PCI Device ID: 0x7fba00001c26 
+      PCI Revision ID: 0x7fba00000005 
+      PCI Vendor ID: 0x7fba00008086 
+      Bus Number: 0xfd 
+
+        Hub:
+
+          Product ID: 0x2513
+          Vendor ID: 0x0424  (SMSC)
+          Version:  b.b3
+          Speed: Up to 480 Mb/sec
+          Location ID: 0xfd100000 / 2
+          Current Available (mA): 500
+          Current Required (mA): 2
+
+            Android Phone:
+
+              Capacity: 10,67 GB (10 668 212 224 bytes)
+              Removable Media: Yes
+              Detachable Drive: Yes
+              BSD Name: disk1
+              Product ID: 0x0ff9
+              Vendor ID: 0x0bb4  (HTC Corporation)
+              Version: 2,28
+              Serial Number: HT26BW406043
+              Speed: Up to 480 Mb/sec
+              Manufacturer: HTC
+              Location ID: 0xfd120000 / 4
+              Current Available (mA): 500
+              Current Required (mA): 500
+              Partition Map Type: Unknown
+              S.M.A.R.T. status: Not Supported
+
+            IR Receiver:
+
+              Product ID: 0x8242
+              Vendor ID: 0x05ac  (Apple Inc.)
+              Version: 0,16
+              Speed: Up to 1.5 Mb/sec
+              Manufacturer: Apple Computer, Inc.
+              Location ID: 0xfd110000 / 3
+              Current Available (mA): 500
+              Current Required (mA): 100
+
+Wi-Fi:
+
+      Software Versions:
+          CoreWLAN: 3.0.1 (301.11)
+          CoreWLANKit: 2.0 (200.10)
+          Menu Extra: 8.0 (800.7)
+          configd plug-in: 8.0.1 (801.17)
+          System Information: 8.0 (800.1)
+          IO80211 Family: 5.0 (500.15)
+          WiFi Diagnostics: 1.1 (110.26)
+          AirPort Utility: 6.2 (620.33)
+      Interfaces:
+        en1:
+          Card Type: AirPort Extreme  (0x14E4, 0xD6)
+          Firmware Version: Broadcom BCM43xx 1.0 (5.106.98.81.22)
+          MAC Address: 28:cf:da:dd:51:82
+          Locale: RoW
+          Country Code: RU
+          Supported PHY Modes: 802.11 a/b/g/n
+          Supported Channels: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 149, 153, 157, 161, 165
+          Wake On Wireless: Supported
+          AirDrop: Supported
+          Status: Connected
+

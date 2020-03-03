@@ -1,0 +1,71 @@
+========================================================
+Welcome to DarwinDumper 2.5.7f
+Fri Mar 22 19:13:37 MSK 2013
+--------------------------------------------------------
+       Dumping System Profiler...
+0s : +Started process DumpFilesSystemProfilerInfo: pid 307
+0s : +Started process DumpFilesDiskUtilAndLoader: pid 312
+       Dumping bootloaders file..
+       Error: /tmp/diskutilLoaderInfo.txt failed to be created.
+1s : -Completed DumpFilesDiskUtilAndLoader
+11s : -Completed DumpFilesSystemProfilerInfo
+       Dumping ACPI tables to AML & DSL formats...
+11s : +Started process DumpFilesAcpiTables: pid 359
+       Dumping Non Apple Kext list...
+11s : +Started process DumpFilesKextLists: pid 369
+       Dumping Apple Kext list...
+11s : +Started process DumpFilesFirmwareLog: pid 373
+       Dumping Ioreg...
+11s : +Started process DumpFilesIoreg: pid 378
+       Dumping device-properties...
+11s : +Started process DumpFilesDeviceProperties: pid 382
+       Dumping OpenCL Info...
+11s : +Started process DumpFilesOpenCLInfo: pid 390
+       Dumping Kernel Info...
+11s : -Completed DumpFilesFirmwareLog
+11s : +Started process DumpFilesKernelInfo: pid 393
+       Dumping SMC keys...
+12s : +Started process DumpFilesSmcKeys: pid 401
+       Dumping RTC...
+12s : +Started process DumpFilesRtc: pid 404
+       Dumping Misc Info...
+12s : +Started process DumpFilesMisc: pid 412
+12s : -Completed DumpFilesDeviceProperties
+12s : -Completed DumpFilesKernelInfo
+12s : -Completed DumpFilesKextLists
+12s : -Completed DumpFilesMisc
+12s : -Completed DumpFilesOpenCLInfo
+       Found ACPI table: RSDT
+       Found ACPI table: APIC-1
+13s : -Completed DumpFilesIoreg
+       Found ACPI table: ASF!
+13s : -Completed DumpFilesRtc
+       Found ACPI table: SSDT-2
+       Found ACPI table: SSDT-1
+       Found ACPI table: SSDT
+       Found ACPI table: HPET
+       Found ACPI table: APIC
+       Found ACPI table: SBST
+13s : -Completed DumpFilesSmcKeys
+       Found ACPI table: FACP
+       Found ACPI table: MCFG
+       Found ACPI table: DSDT
+       Found ACPI table: FACS
+       Found ACPI table: ECDT
+       Found ACPI table: SSDT-3
+15s : -Completed AcpiTables
+       Dumping DMI table...
+15s : +Started process DumpFilesDmiTables: pid 615
+       Dumping nvram plist...
+15s : +Started process DumpFilesNvramPlist: pid 618
+       Dumping EDID...
+15s : +Started process DumpFilesEdid: pid 622
+15s : -Completed DumpFilesNvramPlist
+15s : -Completed DumpFilesDmiTables
+16s : -Completed DumpFilesEdid
+========================================================
+Dumps complete after: 17 seconds
+--------------------------------------------------------
+========================================================
+DarwinDumper Completed in: 17 seconds
+========================================================

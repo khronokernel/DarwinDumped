@@ -1,0 +1,22 @@
+[
+{"data":{"title":"built-in"},"attr":{"id":"38773","ColType":"Data","ColValue":"&lt;00&gt;"}},
+{"data":{"title":"device-id"},"attr":{"id":"38775","ColType":"Data","ColValue":"&lt;66200000&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"38777","ColType":"Data","ColValue":"&lt;\"pci8086,2066\"&gt;"}},
+{"data":{"title":"acpi-path"},"attr":{"id":"38779","ColType":"String","ColValue":"IOACPIPlane:/_SB/PC02@0/M2M1@90000"}},
+{"data":{"title":"IOName"},"attr":{"id":"38781","ColType":"String","ColValue":"pci8086,2066"}},
+{"data":{"title":"vendor-id"},"attr":{"id":"38783","ColType":"Data","ColValue":"&lt;86800000&gt;"}},
+{"data":{"title":"revision-id"},"attr":{"id":"38785","ColType":"Data","ColValue":"&lt;04000000&gt;"}},
+{"data":{"title":"acpi-device"},"attr":{"id":"38787","ColType":"String","ColValue":"IOACPIPlatformDevice is not serializable"}},
+{"data":{"title":"IOPCIResourced"},"attr":{"id":"38789","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"subsystem-vendor-id"},"attr":{"id":"38791","ColType":"Data","ColValue":"&lt;86800000&gt;"}},
+{"data":{"title":"IOPCIExpressLinkCapabilities"},"attr":{"id":"38793","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"pci-aspm-default"},"attr":{"id":"38795","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"pcidebug"},"attr":{"id":"38797","ColType":"String","ColValue":"5:9:0"}},
+{"data":{"title":"IOPCIExpressLinkStatus"},"attr":{"id":"38799","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOPCIExpressCapabilities"},"attr":{"id":"38801","ColType":"Number","ColValue":"145"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"38803","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"38805","ColType":"Number","ColValue":"2"}},{"data":{"title":"ChildProxyPowerState"},"attr":{"id":"38807","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"38809","ColType":"Number","ColValue":"3"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"38811","ColType":"Number","ColValue":"258"}}]},
+{"data":{"title":"class-code"},"attr":{"id":"38813","ColType":"Data","ColValue":"&lt;00800800&gt;"}},
+{"data":{"title":"compatible"},"attr":{"id":"38815","ColType":"Data","ColValue":"&lt;\"pci8086,0\",\"pci8086,2066\",\"pciclass,088000\",\"M2M1\"&gt;"}},
+{"data":{"title":"subsystem-id"},"attr":{"id":"38817","ColType":"Data","ColValue":"&lt;00000000&gt;"}},
+{"data":{"title":"reg"},"attr":{"id":"38819","ColType":"Data","ColValue":"&lt;0048050000000000000000000000000000000000&gt;"}}
+]

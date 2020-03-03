@@ -1,0 +1,20 @@
+/dev/disk2 
+JetFlash Transcend 64GB Media 
+Physical Block (sector) size: Unknown bytes 
+Using Block (sector) size: 512 bytes 
+Total Number of Blocks: 125493248 
+Total Disk Size: 64.3 GB 
+  
+MBR Partition Entry 1: 00feffff0bfeffff02000000fedf7a07 
+MBR Partition Entry 2: 00000000000000000000000000000000 
+MBR Partition Entry 3: 00000000000000000000000000000000 
+MBR Partition Entry 4: 00000000000000000000000000000000 
+  
+Partition Map: MBR Partition Table 
+
+==========  =  =========   ==========        ========= 
+LBA Start   A  Type        LoaderCode        Size LBA 
+==========  =  =========   ==========        ========= 
+0              MBR                           1 
+1              Space                         1 
+2              FAT32 (0b)  FAT32 Non System  125493246 

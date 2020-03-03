@@ -1,0 +1,276 @@
+4:a4:54
+ARPT: 13031.102569: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+ARPT: 13032.993891: MacAuthEvent en0   Auth result for: 70:62:b8:c4:a4:54  MAC AUTH succeeded
+wlEvent: en0 en0 Link UP virtIf = 0
+AirPort: RSN handshake complete on en0
+wl0: Roamed or switched channel, reason #2, bssid 70:62:b8:c4:a4:54
+en0: BSSID changed to 70:62:b8:c4:a4:54
+AppleCamIn::handleWakeEvent_gated
+AppleCamIn::handleWakeEvent_gated
+ARPT: 13078.162327: AirPort_Brcm43xx::powerChange: System Sleep 
+ARPT: 13078.162333: wl0: powerChange: *** BONJOUR/MDNS OFFLOADS ARE NOT RUNNING.
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+ARPT: 13078.642654: scanparams:
+ARPT: 13078.642659:   flags 0
+ARPT: 13078.642661:   active_time 0, passive_time 0
+ARPT: 13078.642664:   scan_start_delay 0
+ARPT: 13078.642667:   scan_cycle_idle_rest_time 0, scan_cycle_idle_rest_time_multiplier 0
+ARPT: 13078.642671:   max_scan_cycles 0, max_rest_time 0
+ARPT: 13078.642674: Scan Channels (0): None
+ARPT: 13078.642677: SSID (0): None
+ARPT: 13078.642680: SSID count = 0
+ARPT: 13078.642683: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+AppleThunderboltHAL::earlyWake - complete - took 0 milliseconds
+IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+         0 [Time 1438522740] [Message AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 16
+Wake reason: EC.LidOpen (User)
+AppleCamIn::systemWakeCall - messageType = 0xE0000320
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+Previous Sleep Cause: 5
+IOPPF: Sent gpu-internal-single-slice-plimit-notification last value 0 (rounded time weighted average 0)
+IOPPF: Sent gpu-internal-plimit-notification last value 0 (rounded time weighted average 0)
+AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+AppleThunderboltHAL::earlyWake - complete - took 1 milliseconds
+TBT W (2): 0x0040 [x]
+IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+ARPT: 13080.532986: si_survive_perst_war: bar0win before 18003000, bar0win after 18001000
+ARPT: 13080.536142: pcicore_pci_pmeclr PMECSR : 0x4008
+ARPT: 13080.536152: pcicore_pmestatclr PMECSR : 0x4008
+ARPT: 13080.536261: pcicore_pci_pmeclr PMECSR : 0x4008
+AppleUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+en0: BSSID changed to 70:62:b8:c4:a4:54
+ARPT: 13080.717728: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+AppleCamIn::systemWakeCall - messageType = 0xE0000300
+en0: BSSID changed to 00:00:00:00:00:00
+ARPT: 13082.660210: MacAuthEvent en0   Auth result for: 70:62:b8:c4:a4:54  MAC AUTH succeeded
+wlEvent: en0 en0 Link UP virtIf = 0
+AirPort: RSN handshake complete on en0
+wl0: Roamed or switched channel, reason #2, bssid 70:62:b8:c4:a4:54
+en0: BSSID changed to 70:62:b8:c4:a4:54
+AppleCamIn::handleWakeEvent_gated
+AppleCamIn::handleWakeEvent_gated
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::systemWakeCall - messageType = 0xE0000280
+ARPT: 13161.686151: AirPort_Brcm43xx::powerChange: System Sleep 
+ARPT: 13161.686157: wl0: powerChange: *** BONJOUR/MDNS OFFLOADS ARE NOT RUNNING.
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+AppleThunderboltHAL::earlyWake - complete - took 0 milliseconds
+ARPT: 13162.207136: scanparams:
+ARPT: 13162.207138:   flags 0
+ARPT: 13162.207139:   active_time 0, passive_time 0
+ARPT: 13162.207140:   scan_start_delay 0
+ARPT: 13162.207142:   scan_cycle_idle_rest_time 0, scan_cycle_idle_rest_time_multiplier 0
+ARPT: 13162.207143:   max_scan_cycles 0, max_rest_time 0
+ARPT: 13162.207145: Scan Channels (0): None
+ARPT: 13162.207146: SSID (0): None
+ARPT: 13162.207147: SSID count = 0
+ARPT: 13162.207148: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+         0 [Time 1438523517] [Message AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 16
+Wake reason: RTC (Alarm)
+RTC: Maintenance 2015/8/2 14:21:53, sleep 2015/8/2 13:51:57
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+RTC: PowerByCalendarDate setting ignored
+Previous Sleep Cause: 5
+IOPPF: Sent gpu-internal-single-slice-plimit-notification last value 0 (rounded time weighted average 0)
+IOPPF: Sent gpu-internal-plimit-notification last value 0 (rounded time weighted average 0)
+AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+AppleThunderboltHAL::earlyWake - complete - took 1 milliseconds
+TBT W (2): 0x0040 [x]
+IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+ARPT: 13164.106134: si_survive_perst_war: bar0win before 18003000, bar0win after 18001000
+ARPT: 13164.109300: pcicore_pci_pmeclr PMECSR : 0x4008
+ARPT: 13164.109310: pcicore_pmestatclr PMECSR : 0x4008
+ARPT: 13164.109503: pcicore_pci_pmeclr PMECSR : 0x4008
+AppleUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+en0: BSSID changed to 70:62:b8:c4:a4:54
+ARPT: 13164.369263: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+AppleCamIn::handleWakeEvent_gated
+AppleCamIn::handleWakeEvent_gated
+IOPPF: Sent cpu-plimit-notification last value 3 (rounded time weighted average 3)
+hfs: mounted Recovery HD on device disk0s3
+hfs: unmount initiated on Recovery HD on device disk0s3
+IOPPF: Sent gpu-internal-single-slice-plimit-notification last value 0 (rounded time weighted average 0)
+IOPPF: Sent gpu-internal-plimit-notification last value 0 (rounded time weighted average 0)
+IOPPF: Sent cpu-plimit-notification last value 3 (rounded time weighted average 3)
+ARPT: 13211.438638: AirPort_Brcm43xx::powerChange: System Sleep 
+ARPT: 13211.438643: wl0: powerChange: *** BONJOUR/MDNS OFFLOADS ARE NOT RUNNING.
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+ARPT: 13211.919201: scanparams:
+ARPT: 13211.919205:   flags 0
+ARPT: 13211.919207:   active_time 0, passive_time 0
+ARPT: 13211.919208:   scan_start_delay 0
+ARPT: 13211.919210:   scan_cycle_idle_rest_time 0, scan_cycle_idle_rest_time_multiplier 0
+ARPT: 13211.919212:   max_scan_cycles 0, max_rest_time 0
+ARPT: 13211.919213: Scan Channels (0): None
+ARPT: 13211.919214: SSID (0): None
+ARPT: 13211.919216: SSID count = 0
+ARPT: 13211.919217: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+AppleThunderboltHAL::earlyWake - complete - took 0 milliseconds
+IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+         0 [Time 1438525362] [Message AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 12
+Wake reason: RTC (Alarm)
+RTC: SleepService 2015/8/2 14:51:53, sleep 2015/8/2 14:22:43
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+RTC: PowerByCalendarDate setting ignored
+Previous Sleep Cause: 5
+IOPPF: Sent gpu-internal-single-slice-plimit-notification last value 0 (rounded time weighted average 0)
+IOPPF: Sent gpu-internal-plimit-notification last value 0 (rounded time weighted average 0)
+AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+AppleThunderboltHAL::earlyWake - complete - took 1 milliseconds
+IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+TBT W (2): 0x0040 [x]
+IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+ARPT: 13213.703079: si_survive_perst_war: bar0win before 18003000, bar0win after 18001000
+ARPT: 13213.706178: pcicore_pci_pmeclr PMECSR : 0x4008
+ARPT: 13213.706251: pcicore_pmestatclr PMECSR : 0x4008
+ARPT: 13213.706469: pcicore_pci_pmeclr PMECSR : 0x4008
+AppleUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+en0: BSSID changed to 70:62:b8:c4:a4:54
+ARPT: 13213.963746: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+ARPT: 13215.913469: MacAuthEvent en0   Auth result for: 70:62:b8:c4:a4:54  MAC AUTH succeeded
+wlEvent: en0 en0 Link UP virtIf = 0
+AirPort: RSN handshake complete on en0
+wl0: Roamed or switched channel, reason #2, bssid 70:62:b8:c4:a4:54
+en0: BSSID changed to 70:62:b8:c4:a4:54
+AppleCamIn::handleWakeEvent_gated
+AppleCamIn::handleWakeEvent_gated
+ARPT: 13260.938676: AirPort_Brcm43xx::powerChange: System Sleep 
+ARPT: 13260.938680: wl0: powerChange: *** BONJOUR/MDNS OFFLOADS ARE NOT RUNNING.
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+ARPT: 13261.416075: scanparams:
+ARPT: 13261.416077:   flags 0
+ARPT: 13261.416079:   active_time 0, passive_time 0
+ARPT: 13261.416081:   scan_start_delay 0
+ARPT: 13261.416083:   scan_cycle_idle_rest_time 0, scan_cycle_idle_rest_time_multiplier 0
+ARPT: 13261.416088:   max_scan_cycles 0, max_rest_time 0
+ARPT: 13261.416090: Scan Channels (0): None
+ARPT: 13261.416092: SSID (0): None
+ARPT: 13261.416094: SSID count = 0
+ARPT: 13261.416097: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+AppleThunderboltHAL::earlyWake - complete - took 0 milliseconds
+IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+         0 [Time 1438527162] [Message AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 10
+Wake reason: EC.ACDetach (Maintenance)
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+RTC: PowerByCalendarDate setting ignored
+Previous Sleep Cause: 5
+IOPPF: Sent gpu-internal-single-slice-plimit-notification last value 0 (rounded time weighted average 0)
+IOPPF: Sent gpu-internal-plimit-notification last value 0 (rounded time weighted average 0)
+AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+AppleThunderboltHAL::earlyWake - complete - took 1 milliseconds
+TBT W (2): 0x0040 [x]
+IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+ARPT: 13263.176256: si_survive_perst_war: bar0win before 18003000, bar0win after 18001000
+ARPT: 13263.179541: pcicore_pci_pmeclr PMECSR : 0x4008
+ARPT: 13263.179551: pcicore_pmestatclr PMECSR : 0x4008
+ARPT: 13263.179695: pcicore_pci_pmeclr PMECSR : 0x4008
+AppleUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+en0: BSSID changed to 70:62:b8:c4:a4:54
+ARPT: 13263.438217: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+ARPT: 13267.438487: AirPort_Brcm43xx::powerChange: System Sleep 
+ARPT: 13267.438492: wl0: powerChange: *** BONJOUR/MDNS OFFLOADS ARE NOT RUNNING.
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+en0: BSSID changed to 70:62:b8:c4:a4:54
+ARPT: 13267.556212: scanparams:
+ARPT: 13267.556216:   flags 0
+ARPT: 13267.556218:   active_time 0, passive_time 0
+ARPT: 13267.556220:   scan_start_delay 0
+ARPT: 13267.556222:   scan_cycle_idle_rest_time 0, scan_cycle_idle_rest_time_multiplier 0
+ARPT: 13267.556226:   max_scan_cycles 0, max_rest_time 0
+ARPT: 13267.556228: Scan Channels (0): None
+ARPT: 13267.556229: SSID (0): None
+ARPT: 13267.556231: SSID count = 0
+ARPT: 13267.556233: wl0: leaveModulePoweredForOffloads: Wi-Fi will turn off.
+wlEvent: en0 en0 Link DOWN virtIf = 0
+vmnet: bridge-en0: interface en is sending notification 0x14
+AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+vmnet: bridge-en0: interface en is going DOWN
+AppleCamIn::handleWakeEvent_gated
+AppleCamIn::handleWakeEvent_gated
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+         0 [Time 1438529846] [Message AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 16
+Wake reason: EC.LidOpen (User)
+AppleCamIn::systemWakeCall - messageType = 0xE0000320
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+Previous Sleep Cause: 5
+IOPPF: Sent gpu-internal-single-slice-plimit-notification last value 0 (rounded time weighted average 0)
+IOPPF: Sent gpu-internal-plimit-notification last value 0 (rounded time weighted average 0)
+AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+The USB device Card Reader (Port 4 of Hub at 0x15000000) may have caused a wake by being disconnected
+AppleThunderboltHAL::earlyWake - complete - took 1 milliseconds
+IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+TBT W (2): 0x0040 [x]
+ARPT: 13269.477059: si_survive_perst_war: bar0win before 18003000, bar0win after 18001000
+AppleUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+en0: 802.11d country code set to 'X3'.
+en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161
+ARPT: 13269.628382: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+AppleCamIn::systemWakeCall - messageType = 0xE0000300
+vmnet: VMNetDisconnect called for port 0xffffff8038588e00
+vmnet: bridge-en0: filter detached
+vmnet: bridge-en0: down
+vmnet: bridge-en0: detached
+vmnet: Freeing hub at 0xffffff803af58000.
+vmnet: VMNetSetopt: Set link state DOWN
+vmnet: VMNetSetopt: Set link state UP
+en0: 802.11d country code set to 'US'.
+en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+AppleCamIn::handleWakeEvent_gated
+AppleCamIn::handleWakeEvent_gated
+ARPT: 13275.095842: directed SSID scan fail
+ARPT: 13277.903429: MacAuthEvent en0   Auth result for: 34:08:04:7f:e6:e5  MAC AUTH succeeded
+wlEvent: en0 en0 Link UP virtIf = 0
+AirPort: Link Up on en0
+en0: BSSID changed to 34:08:04:7f:e6:e5
+flow_divert_kctl_disconnect (0): disconnecting group 1
+vmnet: VNetUserIf_Create: created userIf at 0xffffff80385a5800.
+vmnet: VMNetConnect: returning port 0xffffff80385a5800
+vmnet: Hub 0 does not exist, allocating memory.
+vmnet: Allocated hub 0xffffff8041687000 for hubNum 0.
+vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:fc:8f:f5
+vmnet: Hub 0
+vmnet: 	Port 0
+vmnet: bridge-en0: media 80 dev 0xffffff80387fa558 family 2
+vmnet: bridge-en0: wireless interface detected.
+vmnet: bridge-en0: up
+vmnet: bridge-en0: attached
+vmnet: VNetUserIfFree: freeing userIf at 0xffffff80385a5800.
+vmnet: VMNetSetopt: Set link state DOWN
+vmnet: VMNetSetopt: Set link state UP
+considerRebuildOfPrelinkedKernel prebuild rebuild has expired
+USBMSC Identifier (non-unique): CCBB1304200912470436012502 0x1e3d 0x2096 0x100, 2
+hfs: mounted Recovery HD on device disk1s2

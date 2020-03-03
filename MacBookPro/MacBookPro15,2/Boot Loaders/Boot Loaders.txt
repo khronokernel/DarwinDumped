@@ -1,0 +1,32 @@
+                                                                                                                    
+                                                                                                                    
+disk0  APPLE SSD AP0256M (512 byte physical block size)
+===================================================================================================================================================
+ACT  DEVICE   TYPE                    NAME                 SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme                        251 GB   
+     disk0s1  EFI                     EFI                  314 MB                 
+                                                                                                                   /EFI/Boot/BootX64.efi(Windows)
+                                                                                                                   /EFI/Microsoft/Boot/bootmgfw.efi
+     disk0s2  Apple_APFS                                   170 GB                 
+     disk0s3  Microsoft Basic Data    BOOTCAMP             80 GB                  
+                                                                                                                    
+                                                                                                                    
+disk1  APPLE SSD AP0256M (512 byte physical block size)
+===================================================================================================================================================
+ACT  DEVICE   TYPE                    NAME                 SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              APFS Container Scheme                        170 GB   
+     disk1s1  APFS Volume             Macintosh HD - Data  170 GB                 
+     disk1s2  APFS Volume             Preboot              170 GB                 
+     disk1s3  APFS Volume             Recovery             170 GB                 
+     disk1s4  APFS Volume             VM                   170 GB                 
+     disk1s5  APFS Volume             Macintosh HD         170 GB                 
+                                                                                                                    
+                                                                                                                    
+disk2  STORAGE DEVICE (512 byte physical block size)
+===================================================================================================================================================
+ACT  DEVICE   TYPE                    NAME                 SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              FDisk_partition_scheme                       63 GB    
+     disk2s1  Windows_NTFS                                 63 GB                  

@@ -1,0 +1,39 @@
+[
+{"data":{"title":"IONetworkData"},"attr":{"id":"13739","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOEthernetStatsKey"},"attr":{"id":"13741","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Data"},"attr":{"id":"13743","ColType":"Data","ColValue":"&lt;000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&gt;"}},{"data":{"title":"Access Types"},"attr":{"id":"13745","ColType":"Number","ColValue":"9"}},{"data":{"title":"Size"},"attr":{"id":"13747","ColType":"Number","ColValue":"216"}}]},{"data":{"title":"IONetworkStatsKey"},"attr":{"id":"13749","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Data"},"attr":{"id":"13751","ColType":"Data","ColValue":"&lt;0000000000000000000000000000000000000000&gt;"}},{"data":{"title":"Access Types"},"attr":{"id":"13753","ColType":"Number","ColValue":"9"}},{"data":{"title":"Size"},"attr":{"id":"13755","ColType":"Number","ColValue":"20"}}]},{"data":{"title":"IOOutputQueueStatsKey"},"attr":{"id":"13757","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Data"},"attr":{"id":"13759","ColType":"Data","ColValue":"&lt;0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&gt;"}},{"data":{"title":"Access Types"},"attr":{"id":"13761","ColType":"Number","ColValue":"9"}},{"data":{"title":"Size"},"attr":{"id":"13763","ColType":"Number","ColValue":"44"}}]}]},
+{"data":{"title":"IOInterfaceState"},"attr":{"id":"13765","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"IO80211DriverVersion"},"attr":{"id":"13767","ColType":"String","ColValue":"Broadcom BCM43xx 1.0 (6.30.223.154.63)"}},
+{"data":{"title":"IOInterfaceUnit"},"attr":{"id":"13769","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"IOInterfaceType"},"attr":{"id":"13771","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"IOMulticastAddressList"},"attr":{"id":"13773","ColType":"Data","ColValue":"&lt;010393df0b92&gt;"}},
+{"data":{"title":"IOLocation"},"attr":{"id":"13775","ColType":"String","ColValue":""}},
+{"data":{"title":"IOInterfaceExtraFlags"},"attr":{"id":"13777","ColType":"Number","ColValue":"2097280"}},
+{"data":{"title":"IOInterfaceNamePrefix"},"attr":{"id":"13779","ColType":"String","ColValue":"en"}},
+{"data":{"title":"IOInterfaceFlags"},"attr":{"id":"13781","ColType":"Number","ColValue":"34915"}},
+{"data":{"title":"IOActivePacketFilters"},"attr":{"id":"13783","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IONetworkFilterGroup"},"attr":{"id":"13785","ColType":"Number","ColValue":"19"}},{"data":{"title":"IOEthernetWakeOnLANFilterGroup"},"attr":{"id":"13787","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IO80211Locale"},"attr":{"id":"13789","ColType":"String","ColValue":"ETSI"}},
+{"data":{"title":"IO80211CountryCode"},"attr":{"id":"13791","ColType":"String","ColValue":"GB"}},
+{"data":{"title":"IOControllerEnabled"},"attr":{"id":"13793","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"BSD Name"},"attr":{"id":"13795","ColType":"String","ColValue":"en1"}},
+{"data":{"title":"IOMediaHeaderLength"},"attr":{"id":"13797","ColType":"Number","ColValue":"14"}},
+{"data":{"title":"IOBuiltin"},"attr":{"id":"13799","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IO80211Channel"},"attr":{"id":"13801","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"IOMaxTransferUnit"},"attr":{"id":"13803","ColType":"Number","ColValue":"1500"}},
+{"data":{"title":"IOMACAddress"},"attr":{"id":"13805","ColType":"Data","ColValue":"&lt;c8e0eb2c72fd&gt;"}},
+{"data":{"title":"IORequiredPacketFilters"},"attr":{"id":"13807","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IONetworkFilterGroup"},"attr":{"id":"13809","ColType":"Number","ColValue":"19"}},{"data":{"title":"IOEthernetWakeOnLANFilterGroup"},"attr":{"id":"13811","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOMediaAddressLength"},"attr":{"id":"13813","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"IO80211Band"},"attr":{"id":"13815","ColType":"String","ColValue":"2.4 GHz"}},
+{"data":{"title":"IO80211HardwareVersion"},"attr":{"id":"13817","ColType":"String","ColValue":"vendorid: 0x14e4
+deviceid: 0x43a0
+radiorev: 0x42069000
+chipnum: 0x4360
+chiprev: 0x3
+corerev: 0x2a
+boardid: 0x111
+boardvendor: 0x106b
+boardrev: 0x1107
+driverrev: 0x61edf9a
+ucoderev: 0x3400075
+bus: 0x1
+"}},
+{"data":{"title":"IOPrimaryInterface"},"attr":{"id":"13819","ColType":"Boolean","ColValue":"No"}}
+]

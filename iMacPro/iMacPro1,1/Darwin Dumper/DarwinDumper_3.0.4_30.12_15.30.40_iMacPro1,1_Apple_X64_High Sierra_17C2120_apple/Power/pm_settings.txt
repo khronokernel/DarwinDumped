@@ -1,0 +1,17 @@
+System-wide power settings:
+ DestroyFVKeyOnStandby		0
+Currently in use:
+ autorestart          1
+ Sleep On Power Button 1
+ halfdim              1
+ hibernatefile        /var/vm/sleepimage
+ powernap             1
+ gpuswitch            2
+ networkoversleep     0
+ disksleep            0
+ sleep                0 (sleep prevented by coreaudiod, coreaudiod)
+ hibernatemode        3
+ ttyskeepawake        1
+ displaysleep         0
+ tcpkeepalive         1
+ womp                 1

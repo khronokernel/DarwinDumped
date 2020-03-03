@@ -1,0 +1,8 @@
+[
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"9468","ColType":"String","ColValue":"SCSITaskUserClientIniter"}},
+{"data":{"title":"IOProviderMergeProperties"},"attr":{"id":"9470","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"SCSITaskDeviceCategory"},"attr":{"id":"9472","ColType":"String","ColValue":"SCSITaskUserClientDevice"}},{"data":{"title":"IOUserClientClass"},"attr":{"id":"9474","ColType":"String","ColValue":"SCSITaskUserClient"}},{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"9476","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"7D66678E-08A2-11D5-A1B8-0030657D052A"},"attr":{"id":"9478","ColType":"String","ColValue":"IOSCSIArchitectureModelFamily.kext/Contents/PlugIns/SCSITaskUserClient.kext/Contents/PlugIns/SCSITaskLib.plugin"}}]}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"9480","ColType":"String","ColValue":"com.apple.iokit.SCSITaskUserClient"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"9482","ColType":"Number","ColValue":"4900"}},
+{"data":{"title":"IOClass"},"attr":{"id":"9484","ColType":"String","ColValue":"SCSITaskUserClientIniter"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"9486","ColType":"String","ColValue":"IOSCSIPeripheralDeviceNub"}}
+]

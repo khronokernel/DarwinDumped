@@ -1,0 +1,16 @@
+CMOS Dumper V0.1.:)
+DSDT has RTC Length of 2. Dumped 128 Bytes.
+--------------------------------------------------
+  0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  |
+--------------------------------------------------
+0|07 20 55 26 09 13 03 06 03 13 26 02 70 80 80 00 |
+1|00 2b d8 99 0a 80 02 00 3c c1 62 85 e0 20 08 2a |
+2|05 9c 02 10 d1 11 00 5a 2a 12 e6 42 08 9b 09 34 |
+3|00 3c 20 9b c0 04 00 f2 a0 02 50 b6 c0 07 49 ce |
+4|3d 56 0c 8b 04 2d ec 35 d8 81 5b c9 20 50 18 40 |
+5|b3 13 1e c1 f4 d4 90 03 0a 11 b8 93 e0 c8 84 1e |
+6|02 5c 00 8a 92 94 39 b6 98 b3 d2 f3 84 a0 03 3f |
+7|d4 0a 80 50 92 56 0b 49 d6 68 28 d2 5c e1 2e bc |
+--------------------------------------------------
+By observtion of the CHANGED bytes from Sleep/Wake Cycles
+You MAY get some idea as to why CMOS RESET bug exists!!!!

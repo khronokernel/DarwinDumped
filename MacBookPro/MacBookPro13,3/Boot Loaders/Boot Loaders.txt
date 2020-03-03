@@ -1,0 +1,21 @@
+                                                                                                                      
+                                                                                                                      
+disk0 APPLE SSD SM0256L (512 byte physical block size)
+=====================================================================================================================================================
+ACT  DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)             UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme               251 GB  None
+     disk0s1  EFI                    EFI          314 MB                 
+                                                                                                                     /EFI/Boot/BootX64.efi(Windows)
+                                                                                                                     /EFI/Microsoft/Boot/bootmgfw.efi
+     disk0s2  Apple_CoreStorage                   141 GB                 
+     disk0s3  Apple_Boot             Recovery HD  650 MB                 
+     disk0s4  Microsoft Basic Data   BOOTCAMP     100 GB                 
+                                                                                      bootmgr(Windows Boot Manager)
+                                                                                                                      
+                                                                                                                      
+disk1 APPLE SSD SM0256L (512 byte physical block size)
+=====================================================================================================================================================
+ACT  DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)             UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              Apple_HFS                           140 GB   

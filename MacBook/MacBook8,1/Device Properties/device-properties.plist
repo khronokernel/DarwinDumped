@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+	<dict>
+		<key>MaximumBootBeepVolume</key>
+		<data>
+		8g==
+		</data>
+		<key>MaximumBootBeepVolumeAlt</key>
+		<data>
+		AA==
+		</data>
+		<key>PinConfigurations</key>
+		<data>
+		AAGmkDCQqwAAAaaQMJCrAA==
+		</data>
+		<key>layout-id</key>
+		<data>
+		ZAAAAA==
+		</data>
+		<key>multiEQDevicePresence</key>
+		<data>
+		BgABAA==
+		</data>
+	</dict>
+	<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+	<dict>
+		<key>AAPL,ig-platform-id</key>
+		<data>
+		AQAeFg==
+		</data>
+		<key>AAPL,ig-tcon-scaler</key>
+		<data>
+		AQAAAA==
+		</data>
+		<key>graphic-options</key>
+		<data>
+		DAAAAA==
+		</data>
+		<key>saved-config</key>
+		<data>
+		RwAAAAAAAAAAAAAAAAAAAAAAAwABAB4WAGwFaQUAAAAAAAAAAAAAAAAAAAAA
+		AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAAYQKKACAkAAAAAAAAAA
+		AAKgbqUPAApABmMAAAAuAAAAIAAgAAMABgAACkAGACgAAAAAAAAAAAAAAAAA
+		AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		</data>
+	</dict>
+</dict>
+</plist>

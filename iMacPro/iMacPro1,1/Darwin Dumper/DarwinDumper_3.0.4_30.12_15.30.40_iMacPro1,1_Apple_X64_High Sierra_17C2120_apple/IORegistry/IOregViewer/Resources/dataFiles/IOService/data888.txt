@@ -1,0 +1,12 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"120466","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"120468","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"120470","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"120472","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"120474","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"120476","ColType":"String","ColValue":"AppleKeyStore"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"120478","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOPlatformWakeAction"},"attr":{"id":"120480","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"120482","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"120484","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"120486","ColType":"String","ColValue":"com.apple.driver.AppleKeyStore"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"120488","ColType":"String","ColValue":"AppleKeyStoreUserClient"}},
+{"data":{"title":"IOClass"},"attr":{"id":"120490","ColType":"String","ColValue":"AppleKeyStore"}}
+]

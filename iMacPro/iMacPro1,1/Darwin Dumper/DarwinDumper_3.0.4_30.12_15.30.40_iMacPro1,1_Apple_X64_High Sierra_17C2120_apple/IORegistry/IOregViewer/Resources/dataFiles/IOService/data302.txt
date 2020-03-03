@@ -1,0 +1,12 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"26390","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"26392","ColType":"Number","ColValue":"3"}},{"data":{"title":"DevicePowerState"},"attr":{"id":"26394","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"26396","ColType":"Number","ColValue":"3"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"26398","ColType":"Number","ColValue":"3"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"26400","ColType":"Number","ColValue":"0"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"26402","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"26404","ColType":"String","ColValue":"IOBufferCopyEngine"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"26406","ColType":"String","ColValue":"AppleUSBVHCI"}},
+{"data":{"title":"locationID"},"attr":{"id":"26408","ColType":"Number","ColValue":"18446744071562067968"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"26410","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"26412","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"kUSBSleepSupported"},"attr":{"id":"26414","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"26416","ColType":"String","ColValue":"com.apple.driver.AppleUSBVHCI"}},
+{"data":{"title":"controller-statistics"},"attr":{"id":"26418","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"kControllerStatPowerStateTime"},"attr":{"id":"26420","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"kPowerStateSleep"},"attr":{"id":"26422","ColType":"String","ColValue":"0ms (0%)"}},{"data":{"title":"kPowerStateOn"},"attr":{"id":"26424","ColType":"String","ColValue":"30645653ms (99%)"}},{"data":{"title":"kPowerStateOff"},"attr":{"id":"26426","ColType":"String","ColValue":"0ms (0%)"}},{"data":{"title":"kPowerStateSuspended"},"attr":{"id":"26428","ColType":"String","ColValue":"386ms (0%)"}}]},{"data":{"title":"kControllerStatSpuriousInterruptCount"},"attr":{"id":"26430","ColType":"Number","ColValue":"1604"}},{"data":{"title":"kControllerStatIOCount"},"attr":{"id":"26432","ColType":"Number","ColValue":"38336"}}]},
+{"data":{"title":"IOClass"},"attr":{"id":"26434","ColType":"String","ColValue":"AppleUSBVHCIBCE"}}
+]

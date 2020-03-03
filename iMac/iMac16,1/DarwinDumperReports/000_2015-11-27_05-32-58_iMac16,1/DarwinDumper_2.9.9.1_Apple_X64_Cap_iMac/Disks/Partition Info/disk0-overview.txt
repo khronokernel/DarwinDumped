@@ -1,0 +1,31 @@
+/dev/disk0 
+APPLE HDD ST1000LM024 Media 
+Physical Block (sector) size: 4096 bytes 
+Using Block (sector) size: 512 bytes 
+Total Number of Blocks: 1953525168 
+Total Disk Size: 1.0 TB 
+  
+MBR Partition Entry 1: 00feffffeefeffff01000000af6d7074 
+MBR Partition Entry 2: 00000000000000000000000000000000 
+MBR Partition Entry 3: 00000000000000000000000000000000 
+MBR Partition Entry 4: 00000000000000000000000000000000 
+  
+Partition Map: GUID Partition Table 
+Disk GUID:f2f135ac-30a3-46f0-bdc2-7691bfe78b59 
+Partition GUID: ffcc683b-7f55-467d-9eb5-4a0aa449ac51 | Name: EFI System Partition 
+Partition GUID: 9e4a16f7-80e0-4050-91c3-e5eab91cdc29 | Name: Macintosh HD 
+Partition GUID: 33896c46-d712-40c9-9549-462aa89c1ae0 | Name: Booter 
+
+=========   =========             ========              ==========  ========= 
+LBA Start   Type                  GPT Name              LoaderCode  Size LBA 
+=========   =========             ========              ==========  ========= 
+0           MBR                                                     1 
+1           Primary GPT Header                                      1 
+2           Primary GPT Table                                       32 
+34          Space                                                   6 
+40          EFI System Partition  EFI System Partition  Apple EFI   409600 
+409640      Core Storage          Macintosh HD                      1951845952 
+1952255592  OSX Boot              Booter                            1269536 
+1953525128  Space                                                   7 
+1953525135  Backup GPT Table                                        32 
+1953525167  Backup GPT Header                                       1 

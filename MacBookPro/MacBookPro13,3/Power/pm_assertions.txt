@@ -1,0 +1,16 @@
+2017-08-12 17:31:43 +0300 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   PreventUserIdleSystemSleep     0
+   NetworkClientActive            0
+Listed by owning process:
+   pid 104(hidd): [0x000015f800098430] 00:03:46 UserIsActive named: "com.apple.iohideventsystem.queue.tickle.4294970871.11" 
+	Timeout will fire in 113 secs Action=TimeoutActionRelease
+   pid 215(mds_stores): [0x000016d9000b84af] 00:00:00 BackgroundTask named: "com.apple.metadata.mds_stores.power" 
+No kernel assertions.
+Idle sleep preventers: IODisplayWrangler

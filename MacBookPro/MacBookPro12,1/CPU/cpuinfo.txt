@@ -1,0 +1,59 @@
+x86info v1.31pre
+Found 4 identical CPUs
+Extended Family: 0 Extended Model: 3 Family: 6 Model: 61 Stepping: 4
+Type: 0 (Original OEM)
+CPU Model (x86info's best guess): Unknown model. 
+Processor name string (BIOS programmed): Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
+
+eax in: 0x00000000, eax = 00000014 ebx = 756e6547 ecx = 6c65746e edx = 49656e69
+eax in: 0x00000001, eax = 000306d4 ebx = 00100800 ecx = 7ffafbbf edx = bfebfbff
+eax in: 0x00000002, eax = 76036301 ebx = 00f0b5ff ecx = 00000000 edx = 00c30000
+eax in: 0x00000003, eax = 00000000 ebx = 00000000 ecx = 00000000 edx = 00000000
+eax in: 0x00000004, eax = 1c004121 ebx = 01c0003f ecx = 0000003f edx = 00000000
+eax in: 0x00000005, eax = 00000040 ebx = 00000040 ecx = 00000003 edx = 11142120
+eax in: 0x00000006, eax = 00000077 ebx = 00000002 ecx = 00000009 edx = 00000000
+eax in: 0x00000007, eax = 00000000 ebx = 00000000 ecx = 00000000 edx = 00000000
+eax in: 0x00000008, eax = 00000000 ebx = 00000000 ecx = 00000000 edx = 00000000
+eax in: 0x00000009, eax = 00000000 ebx = 00000000 ecx = 00000000 edx = 00000000
+eax in: 0x0000000a, eax = 07300403 ebx = 00000000 ecx = 00000000 edx = 00000603
+eax in: 0x0000000b, eax = 00000001 ebx = 00000002 ecx = 00000100 edx = 00000000
+eax in: 0x0000000c, eax = 00000000 ebx = 00000000 ecx = 00000000 edx = 00000000
+eax in: 0x0000000d, eax = 00000007 ebx = 00000340 ecx = 00000340 edx = 00000000
+eax in: 0x0000000e, eax = 00000000 ebx = 00000000 ecx = 00000000 edx = 00000000
+eax in: 0x0000000f, eax = 00000000 ebx = 00000000 ecx = 00000000 edx = 00000000
+eax in: 0x00000010, eax = 00000000 ebx = 00000000 ecx = 00000000 edx = 00000000
+eax in: 0x00000011, eax = 00000000 ebx = 00000000 ecx = 00000000 edx = 00000000
+eax in: 0x00000012, eax = 00000000 ebx = 00000000 ecx = 00000000 edx = 00000000
+eax in: 0x00000013, eax = 00000000 ebx = 00000000 ecx = 00000000 edx = 00000000
+eax in: 0x00000014, eax = 00000000 ebx = 00000001 ecx = 00000001 edx = 00000000
+
+eax in: 0x80000000, eax = 80000008 ebx = 00000000 ecx = 00000000 edx = 00000000
+eax in: 0x80000001, eax = 00000000 ebx = 00000000 ecx = 00000121 edx = 2c100000
+eax in: 0x80000002, eax = 65746e49 ebx = 2952286c ecx = 726f4320 edx = 4d542865
+eax in: 0x80000003, eax = 35692029 ebx = 3532352d ecx = 43205537 edx = 40205550
+eax in: 0x80000004, eax = 372e3220 ebx = 7a484730 ecx = 00000000 edx = 00000000
+eax in: 0x80000005, eax = 00000000 ebx = 00000000 ecx = 00000000 edx = 00000000
+eax in: 0x80000006, eax = 00000000 ebx = 00000000 ecx = 01006040 edx = 00000000
+eax in: 0x80000007, eax = 00000000 ebx = 00000000 ecx = 00000000 edx = 00000100
+eax in: 0x80000008, eax = 00003027 ebx = 00000000 ecx = 00000000 edx = 00000000
+
+Cache info
+ L1 Data Cache: 32KB, 8-way associative, 64 byte line size
+TLB info
+ Instruction TLB: 2M/4M pages, fully associative, 8 entries
+ Instruction TLB: 4K pages, 8-way associative, 64 entries
+ Data TLB: 1GB pages, 4-way set associative, 4 entries
+ Data TLB: 4KB pages, 4-way associative, 64 entries
+ 64 byte prefetching.
+Found unknown cache descriptors: c3 
+Feature flags:
+ fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflsh ds acpi mmx fxsr sse sse2 ss ht tm pbe sse3 pclmuldq dtes64 monitor ds-cpl vmx est tm2 ssse3 [1:ecx:11] fma cx16 xTPR pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc-deadline aes xsave osxsave avx f16c rdrnd
+Extended feature flags:
+ xd pdpe1gb rdtscp em64t lahf_lm [80000001:ecx:5] [80000001:ecx:8] dts ida arat pln ecmd ptm nonstop_tsc
+Long NOPs supported: yes
+
+Address sizes : 39 bits physical, 48 bits virtual
+2.70GHz processor (estimate).
+
+Total processor threads: 4
+This system has 1 dual-core processor with hyper-threading (2 threads per core) running at an estimated 2.70GHz

@@ -1,0 +1,131 @@
+Darwin Kernel Version 11.0.0: Sat Jun 18 12:56:35 PDT 2011; root:xnu-1699.22.73~1/RELEASE_X86_64
+hw.ncpu = 2
+hw.cpufrequency = 2000000000
+hw.availcpu = 2
+hw.ncpu: 2
+hw.activecpu: 2
+hw.physicalcpu: 2
+hw.physicalcpu_max: 2
+hw.logicalcpu: 2
+hw.logicalcpu_max: 2
+hw.cputype: 7
+hw.cpusubtype: 4
+hw.cpu64bit_capable: 1
+hw.cpufamily: 2028621756
+hw.cpufrequency: 2000000000
+hw.cpufrequency_min: 2000000000
+hw.cpufrequency_max: 2000000000
+machdep.cpu.max_basic: 13
+machdep.cpu.max_ext: 2147483656
+machdep.cpu.vendor: GenuineIntel
+machdep.cpu.brand_string: Intel(R) Core(TM)2 Duo CPU     P7350  @ 2.00GHz
+machdep.cpu.family: 6
+machdep.cpu.model: 23
+machdep.cpu.extmodel: 1
+machdep.cpu.extfamily: 0
+machdep.cpu.stepping: 10
+machdep.cpu.feature_bits: 3219913727 67691453
+machdep.cpu.extfeature_bits: 537921536 1
+machdep.cpu.signature: 67194
+machdep.cpu.brand: 0
+machdep.cpu.features: FPU VME DE PSE TSC MSR PAE MCE CX8 APIC SEP MTRR PGE MCA CMOV PAT PSE36 CLFSH DS ACPI MMX FXSR SSE SSE2 SS HTT TM PBE SSE3 DTES64 MON DSCPL VMX EST TM2 SSSE3 CX16 TPR PDCM SSE4.1 XSAVE
+machdep.cpu.extfeatures: SYSCALL XD EM64T LAHF
+machdep.cpu.logical_per_package: 2
+machdep.cpu.cores_per_package: 2
+machdep.cpu.microcode_version: 2567
+machdep.cpu.processor_flag: 3
+machdep.cpu.mwait.linesize_min: 64
+machdep.cpu.mwait.linesize_max: 64
+machdep.cpu.mwait.extensions: 3
+machdep.cpu.mwait.sub_Cstates: 51520032
+machdep.cpu.thermal.sensor: 1
+machdep.cpu.thermal.dynamic_acceleration: 0
+machdep.cpu.thermal.invariant_APIC_timer: 0
+machdep.cpu.thermal.thresholds: 2
+machdep.cpu.thermal.ACNT_MCNT: 1
+machdep.cpu.thermal.core_power_limits: 0
+machdep.cpu.thermal.fine_grain_clock_mod: 0
+machdep.cpu.thermal.package_thermal_intr: 0
+machdep.cpu.thermal.hardware_feedback: 1
+machdep.cpu.thermal.energy_policy: 0
+machdep.cpu.xsave.extended_state: 3 576 576 0
+machdep.cpu.arch_perf.version: 2
+machdep.cpu.arch_perf.number: 2
+machdep.cpu.arch_perf.width: 40
+machdep.cpu.arch_perf.events_number: 7
+machdep.cpu.arch_perf.events: 0
+machdep.cpu.arch_perf.fixed_number: 3
+machdep.cpu.arch_perf.fixed_width: 40
+machdep.cpu.cache.linesize: 64
+machdep.cpu.cache.L2_associativity: 12
+machdep.cpu.cache.size: 3072
+machdep.cpu.tlb.inst.small: 128
+machdep.cpu.tlb.inst.large: 8
+machdep.cpu.tlb.data.small: 16
+machdep.cpu.tlb.data.small_level1: 256
+machdep.cpu.tlb.data.large: 16
+machdep.cpu.tlb.data.large_level1: 32
+machdep.cpu.address_bits.physical: 36
+machdep.cpu.address_bits.virtual: 48
+machdep.cpu.core_count: 2
+machdep.cpu.thread_count: 2
+hw.machine = x86_64
+hw.model = Macmini3,1
+hw.ncpu = 2
+hw.byteorder = 1234
+hw.physmem = 1879048192
+hw.usermem = 1638907904
+hw.pagesize = 4096
+hw.epoch = 0
+hw.vectorunit = 1
+hw.busfrequency = 1064000000
+hw.cpufrequency = 2000000000
+hw.cachelinesize = 64
+hw.l1icachesize = 32768
+hw.l1dcachesize = 32768
+hw.l2settings = 1
+hw.l2cachesize = 3145728
+hw.tbfrequency = 1000000000
+hw.memsize = 2147483648
+hw.availcpu = 2
+net.link.ether.inet.apple_hwcksum_tx: 1
+net.link.ether.inet.apple_hwcksum_rx: 1
+hw.ncpu: 2
+hw.byteorder: 1234
+hw.memsize: 2147483648
+hw.activecpu: 2
+hw.physicalcpu: 2
+hw.physicalcpu_max: 2
+hw.logicalcpu: 2
+hw.logicalcpu_max: 2
+hw.cputype: 7
+hw.cpusubtype: 4
+hw.cpu64bit_capable: 1
+hw.cpufamily: 2028621756
+hw.cacheconfig: 2 1 2 0 0 0 0 0 0 0
+hw.cachesize: 1879048192 32768 3145728 0 0 0 0 0 0 0
+hw.pagesize: 4096
+hw.busfrequency: 1064000000
+hw.busfrequency_min: 1064000000
+hw.busfrequency_max: 1064000000
+hw.cpufrequency: 2000000000
+hw.cpufrequency_min: 2000000000
+hw.cpufrequency_max: 2000000000
+hw.cachelinesize: 64
+hw.l1icachesize: 32768
+hw.l1dcachesize: 32768
+hw.l2cachesize: 3145728
+hw.tbfrequency: 1000000000
+hw.packages: 1
+hw.optional.floatingpoint: 1
+hw.optional.mmx: 1
+hw.optional.sse: 1
+hw.optional.sse2: 1
+hw.optional.sse3: 1
+hw.optional.supplementalsse3: 1
+hw.optional.sse4_1: 1
+hw.optional.sse4_2: 0
+hw.optional.x86_64: 1
+hw.optional.aes: 0
+hw.optional.avx1_0: 0
+machdep.pmap.hashwalks: 103471

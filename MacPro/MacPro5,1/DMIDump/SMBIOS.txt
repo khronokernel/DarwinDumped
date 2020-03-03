@@ -1,0 +1,4161 @@
+# dmidecode 2.11b
+Handle 0x0000, DMI type 132, 6 bytes
+0000: 84 06 00 00 00 19 
+
+Apple specific Processor Interconnect Speed
+	 6400 MT/s
+
+Handle 0x0001, DMI type 16, 15 bytes
+0000: 10 0f 01 00 03 03 05 00 00 00 08 fe ff 08 00 
+
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: Single-bit ECC
+	Maximum Capacity: 128 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 8
+
+Handle 0x0002, DMI type 19, 15 bytes
+0000: 13 0f 02 00 00 00 00 00 ff ff 3f 01 01 00 08 
+
+Memory Array Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x004FFFFFFFF
+	Range Size: 20 GB
+	Physical Array Handle: 0x0001
+	Partition Width: 8
+
+Handle 0x0003, DMI type 33, 31 bytes
+0000: 21 1f 03 00 02 02 02 00 00 00 00 00 00 00 00 00 
+0010: 00 00 80 00 00 00 00 00 00 00 80 00 00 00 80 
+
+64-bit Memory Error Information
+	Type: Unknown
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x0004, DMI type 17, 27 bytes
+0000: 11 1b 04 00 01 00 ff ff 48 00 40 00 00 10 09 ff 
+0010: 01 00 18 00 00 35 05 02 03 04 05 
+
+Memory Device
+	Array Handle: 0x0001
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 4096 MB
+	Form Factor: DIMM
+	Set: Unknown
+	Locator: DIMM 1
+	Bank Locator: Not Specified
+	Type: DDR3
+	Type Detail: None
+	Speed: 1333 MHz (0.8 ns)
+	Manufacturer: 0x802C
+	Serial Number: 0xE75575B8
+	Asset Tag: Asset Tag: 
+	Part Number: 0x31384A53463531323732415A2D3147344431
+
+Handle 0x0005, DMI type 130, 186 bytes
+0000: 82 ba 05 00 04 00 00 00 b0 00 92 11 0b 02 03 19 
+0010: 00 09 0b 11 01 08 0c 00 7e 00 69 78 69 30 69 11 
+0020: 20 89 00 05 3c 3c 00 f0 83 05 80 00 00 00 00 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 0f 11 04 01 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 
+0080: 2c 0f 11 47 e7 55 75 b8 38 5c 31 38 4a 53 46 35 
+0090: 31 32 37 32 41 5a 2d 31 47 34 44 31 44 31 80 2c 
+00a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00b0: 00 00 00 00 00 00 00 00 00 00 
+
+Apple specific SPD
+	000082ba050004000000b00092110b020319
+	001000090b1101080c007e00697869306911
+	0020208900053c3c00f08305800000000000
+	003000000000000000000000000000000000
+	00400000000000000f110401000000000000
+	005000000000000000000000000000000000
+	006000000000000000000000000000000000
+	007000000000000000000000000000000080
+	00802c0f1147e75575b8385c31384a534635
+	009031323732415a2d31473444314431802c
+	00a000000000000000000000000000000000
+	00b0000000000000000000000000211f0600
+	00c002020200000000000000000000008000
+	00d000000000000080000000800000111b07
+	00e0000100ffff48004000001009ff010018
+	00f0000035050203040544494d4d20320030
+
+Handle 0x0006, DMI type 33, 31 bytes
+0000: 21 1f 06 00 02 02 02 00 00 00 00 00 00 00 00 00 
+0010: 00 00 80 00 00 00 00 00 00 00 80 00 00 00 80 
+
+64-bit Memory Error Information
+	Type: Unknown
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x0007, DMI type 17, 27 bytes
+0000: 11 1b 07 00 01 00 ff ff 48 00 40 00 00 10 09 ff 
+0010: 01 00 18 00 00 35 05 02 03 04 05 
+
+Memory Device
+	Array Handle: 0x0001
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 4096 MB
+	Form Factor: DIMM
+	Set: Unknown
+	Locator: DIMM 2
+	Bank Locator: Not Specified
+	Type: DDR3
+	Type Detail: None
+	Speed: 1333 MHz (0.8 ns)
+	Manufacturer: 0x802C
+	Serial Number: 0xE7557564
+	Asset Tag: Asset Tag: 
+	Part Number: 0x31384A53463531323732415A2D3147344431
+
+Handle 0x0008, DMI type 130, 186 bytes
+0000: 82 ba 08 00 07 00 00 00 b0 00 92 11 0b 02 03 19 
+0010: 00 09 0b 11 01 08 0c 00 7e 00 69 78 69 30 69 11 
+0020: 20 89 00 05 3c 3c 00 f0 83 05 80 00 00 00 00 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 0f 11 04 01 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 
+0080: 2c 0f 11 47 e7 55 75 64 38 5c 31 38 4a 53 46 35 
+0090: 31 32 37 32 41 5a 2d 31 47 34 44 31 44 31 80 2c 
+00a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00b0: 00 00 00 00 00 00 00 00 00 00 
+
+Apple specific SPD
+	000082ba080007000000b00092110b020319
+	001000090b1101080c007e00697869306911
+	0020208900053c3c00f08305800000000000
+	003000000000000000000000000000000000
+	00400000000000000f110401000000000000
+	005000000000000000000000000000000000
+	006000000000000000000000000000000000
+	007000000000000000000000000000000080
+	00802c0f1147e7557564385c31384a534635
+	009031323732415a2d31473444314431802c
+	00a000000000000000000000000000000000
+	00b0000000000000000000000000211f0900
+	00c002020200000000000000000000008000
+	00d000000000000080000000800000111b0a
+	00e0000100ffff48004000000409ff010018
+	00f0000035050203040544494d4d20330030
+
+Handle 0x0009, DMI type 33, 31 bytes
+0000: 21 1f 09 00 02 02 02 00 00 00 00 00 00 00 00 00 
+0010: 00 00 80 00 00 00 00 00 00 00 80 00 00 00 80 
+
+64-bit Memory Error Information
+	Type: Unknown
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x000A, DMI type 17, 27 bytes
+0000: 11 1b 0a 00 01 00 ff ff 48 00 40 00 00 04 09 ff 
+0010: 01 00 18 00 00 35 05 02 03 04 05 
+
+Memory Device
+	Array Handle: 0x0001
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 1024 MB
+	Form Factor: DIMM
+	Set: Unknown
+	Locator: DIMM 3
+	Bank Locator: Not Specified
+	Type: DDR3
+	Type Detail: None
+	Speed: 1333 MHz (0.8 ns)
+	Manufacturer: 0x80AD
+	Serial Number: 0x38906735
+	Asset Tag: Asset Tag: 
+	Part Number: 0x484D54313132553754465238432D48392020
+
+Handle 0x000B, DMI type 130, 186 bytes
+0000: 82 ba 0b 00 0a 00 00 00 b0 00 92 10 0b 02 02 11 
+0010: 00 01 0b 52 01 08 0c 00 3c 00 69 78 69 30 69 11 
+0020: 20 89 70 03 3c 3c 00 f0 83 05 80 00 00 00 00 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 0f 11 03 01 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 
+0080: ad 01 11 42 38 90 67 35 c9 17 48 4d 54 31 31 32 
+0090: 55 37 54 46 52 38 43 2d 48 39 20 20 54 30 80 ad 
+00a0: 00 54 48 31 41 4e 38 30 32 36 49 31 33 00 01 03 
+00b0: 02 03 02 04 00 03 00 00 00 00 
+
+Apple specific SPD
+	000082ba0b000a000000b00092100b020211
+	001000010b5201080c003c00697869306911
+	0020208970033c3c00f08305800000000000
+	003000000000000000000000000000000000
+	00400000000000000f110301000000000000
+	005000000000000000000000000000000000
+	006000000000000000000000000000000000
+	007000000000000000000000000000000080
+	0080ad01114238906735c917484d54313132
+	0090553754465238432d48392020543080ad
+	00a000544831414e38303236493133000103
+	00b0020302040003000000000000211f0c00
+	00c002020200000000000000000000008000
+	00d000000000000080000000800000111b0d
+	00e0000100ffff48004000000409ff010018
+	00f0000035050203040544494d4d20340030
+
+Handle 0x000C, DMI type 33, 31 bytes
+0000: 21 1f 0c 00 02 02 02 00 00 00 00 00 00 00 00 00 
+0010: 00 00 80 00 00 00 00 00 00 00 80 00 00 00 80 
+
+64-bit Memory Error Information
+	Type: Unknown
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x000D, DMI type 17, 27 bytes
+0000: 11 1b 0d 00 01 00 ff ff 48 00 40 00 00 04 09 ff 
+0010: 01 00 18 00 00 35 05 02 03 04 05 
+
+Memory Device
+	Array Handle: 0x0001
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 1024 MB
+	Form Factor: DIMM
+	Set: Unknown
+	Locator: DIMM 4
+	Bank Locator: Not Specified
+	Type: DDR3
+	Type Detail: None
+	Speed: 1333 MHz (0.8 ns)
+	Manufacturer: 0x80AD
+	Serial Number: 0x38C06735
+	Asset Tag: Asset Tag: 
+	Part Number: 0x484D54313132553754465238432D48392020
+
+Handle 0x000E, DMI type 130, 186 bytes
+0000: 82 ba 0e 00 0d 00 00 00 b0 00 92 10 0b 02 02 11 
+0010: 00 01 0b 52 01 08 0c 00 3c 00 69 78 69 30 69 11 
+0020: 20 89 70 03 3c 3c 00 f0 83 05 80 00 00 00 00 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 0f 11 03 01 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 
+0080: ad 01 11 42 38 c0 67 35 c9 17 48 4d 54 31 31 32 
+0090: 55 37 54 46 52 38 43 2d 48 39 20 20 54 30 80 ad 
+00a0: 00 54 48 31 41 4e 38 30 32 36 49 31 33 00 01 03 
+00b0: 02 03 02 04 00 03 00 00 00 00 
+
+Apple specific SPD
+	000082ba0e000d000000b00092100b020211
+	001000010b5201080c003c00697869306911
+	0020208970033c3c00f08305800000000000
+	003000000000000000000000000000000000
+	00400000000000000f110301000000000000
+	005000000000000000000000000000000000
+	006000000000000000000000000000000000
+	007000000000000000000000000000000080
+	0080ad01114238c06735c917484d54313132
+	0090553754465238432d48392020543080ad
+	00a000544831414e38303236493133000103
+	00b0020302040003000000000000211f0f00
+	00c002020200000000000000000000008000
+	00d000000000000080000000800000111b10
+	00e0000100ffff48004000001009ff010018
+	00f0000035050203040544494d4d20350030
+
+Handle 0x000F, DMI type 33, 31 bytes
+0000: 21 1f 0f 00 02 02 02 00 00 00 00 00 00 00 00 00 
+0010: 00 00 80 00 00 00 00 00 00 00 80 00 00 00 80 
+
+64-bit Memory Error Information
+	Type: Unknown
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x0010, DMI type 17, 27 bytes
+0000: 11 1b 10 00 01 00 ff ff 48 00 40 00 00 10 09 ff 
+0010: 01 00 18 00 00 35 05 02 03 04 05 
+
+Memory Device
+	Array Handle: 0x0001
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 4096 MB
+	Form Factor: DIMM
+	Set: Unknown
+	Locator: DIMM 5
+	Bank Locator: Not Specified
+	Type: DDR3
+	Type Detail: None
+	Speed: 1333 MHz (0.8 ns)
+	Manufacturer: 0x802C
+	Serial Number: 0xE7557554
+	Asset Tag: Asset Tag: 
+	Part Number: 0x31384A53463531323732415A2D3147344431
+
+Handle 0x0011, DMI type 130, 186 bytes
+0000: 82 ba 11 00 10 00 00 00 b0 00 92 11 0b 02 03 19 
+0010: 00 09 0b 11 01 08 0c 00 7e 00 69 78 69 30 69 11 
+0020: 20 89 00 05 3c 3c 00 f0 83 05 80 00 00 00 00 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 0f 11 04 01 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 
+0080: 2c 0f 11 47 e7 55 75 54 38 5c 31 38 4a 53 46 35 
+0090: 31 32 37 32 41 5a 2d 31 47 34 44 31 44 31 80 2c 
+00a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00b0: 00 00 00 00 00 00 00 00 00 00 
+
+Apple specific SPD
+	000082ba110010000000b00092110b020319
+	001000090b1101080c007e00697869306911
+	0020208900053c3c00f08305800000000000
+	003000000000000000000000000000000000
+	00400000000000000f110401000000000000
+	005000000000000000000000000000000000
+	006000000000000000000000000000000000
+	007000000000000000000000000000000080
+	00802c0f1147e7557554385c31384a534635
+	009031323732415a2d31473444314431802c
+	00a000000000000000000000000000000000
+	00b0000000000000000000000000211f1200
+	00c002020200000000000000000000008000
+	00d000000000000080000000800000111b13
+	00e0000100ffff48004000001009ff010018
+	00f0000035050203040544494d4d20360030
+
+Handle 0x0012, DMI type 33, 31 bytes
+0000: 21 1f 12 00 02 02 02 00 00 00 00 00 00 00 00 00 
+0010: 00 00 80 00 00 00 00 00 00 00 80 00 00 00 80 
+
+64-bit Memory Error Information
+	Type: Unknown
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x0013, DMI type 17, 27 bytes
+0000: 11 1b 13 00 01 00 ff ff 48 00 40 00 00 10 09 ff 
+0010: 01 00 18 00 00 35 05 02 03 04 05 
+
+Memory Device
+	Array Handle: 0x0001
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 4096 MB
+	Form Factor: DIMM
+	Set: Unknown
+	Locator: DIMM 6
+	Bank Locator: Not Specified
+	Type: DDR3
+	Type Detail: None
+	Speed: 1333 MHz (0.8 ns)
+	Manufacturer: 0x802C
+	Serial Number: 0xE7557556
+	Asset Tag: Asset Tag: 
+	Part Number: 0x31384A53463531323732415A2D3147344431
+
+Handle 0x0014, DMI type 130, 186 bytes
+0000: 82 ba 14 00 13 00 00 00 b0 00 92 11 0b 02 03 19 
+0010: 00 09 0b 11 01 08 0c 00 7e 00 69 78 69 30 69 11 
+0020: 20 89 00 05 3c 3c 00 f0 83 05 80 00 00 00 00 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 0f 11 04 01 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 
+0080: 2c 0f 11 47 e7 55 75 56 38 5c 31 38 4a 53 46 35 
+0090: 31 32 37 32 41 5a 2d 31 47 34 44 31 44 31 80 2c 
+00a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00b0: 00 00 00 00 00 00 00 00 00 00 
+
+Apple specific SPD
+	000082ba140013000000b00092110b020319
+	001000090b1101080c007e00697869306911
+	0020208900053c3c00f08305800000000000
+	003000000000000000000000000000000000
+	00400000000000000f110401000000000000
+	005000000000000000000000000000000000
+	006000000000000000000000000000000000
+	007000000000000000000000000000000080
+	00802c0f1147e7557556385c31384a534635
+	009031323732415a2d31473444314431802c
+	00a000000000000000000000000000000000
+	00b0000000000000000000000000211f1500
+	00c002020200000000000000000000008000
+	00d000000000000080000000800000111b16
+	00e0000100ffff48004000000409ff010018
+	00f0000035050203040544494d4d20370030
+
+Handle 0x0015, DMI type 33, 31 bytes
+0000: 21 1f 15 00 02 02 02 00 00 00 00 00 00 00 00 00 
+0010: 00 00 80 00 00 00 00 00 00 00 80 00 00 00 80 
+
+64-bit Memory Error Information
+	Type: Unknown
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x0016, DMI type 17, 27 bytes
+0000: 11 1b 16 00 01 00 ff ff 48 00 40 00 00 04 09 ff 
+0010: 01 00 18 00 00 35 05 02 03 04 05 
+
+Memory Device
+	Array Handle: 0x0001
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 1024 MB
+	Form Factor: DIMM
+	Set: Unknown
+	Locator: DIMM 7
+	Bank Locator: Not Specified
+	Type: DDR3
+	Type Detail: None
+	Speed: 1333 MHz (0.8 ns)
+	Manufacturer: 0x80AD
+	Serial Number: 0x3880673A
+	Asset Tag: Asset Tag: 
+	Part Number: 0x484D54313132553754465238432D48392020
+
+Handle 0x0017, DMI type 130, 186 bytes
+0000: 82 ba 17 00 16 00 00 00 b0 00 92 10 0b 02 02 11 
+0010: 00 01 0b 52 01 08 0c 00 3c 00 69 78 69 30 69 11 
+0020: 20 89 70 03 3c 3c 00 f0 83 05 80 00 00 00 00 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 0f 11 03 01 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 
+0080: ad 01 11 42 38 80 67 3a c9 17 48 4d 54 31 31 32 
+0090: 55 37 54 46 52 38 43 2d 48 39 20 20 54 30 80 ad 
+00a0: 00 54 48 31 41 4e 38 30 32 36 49 31 33 00 01 03 
+00b0: 02 03 02 04 00 03 00 00 00 00 
+
+Apple specific SPD
+	000082ba170016000000b00092100b020211
+	001000010b5201080c003c00697869306911
+	0020208970033c3c00f08305800000000000
+	003000000000000000000000000000000000
+	00400000000000000f110301000000000000
+	005000000000000000000000000000000000
+	006000000000000000000000000000000000
+	007000000000000000000000000000000080
+	0080ad0111423880673ac917484d54313132
+	0090553754465238432d48392020543080ad
+	00a000544831414e38303236493133000103
+	00b0020302040003000000000000211f1800
+	00c002020200000000000000000000008000
+	00d000000000000080000000800000111b19
+	00e0000100ffff48004000000409ff010018
+	00f0000035050203040544494d4d20380030
+
+Handle 0x0018, DMI type 33, 31 bytes
+0000: 21 1f 18 00 02 02 02 00 00 00 00 00 00 00 00 00 
+0010: 00 00 80 00 00 00 00 00 00 00 80 00 00 00 80 
+
+64-bit Memory Error Information
+	Type: Unknown
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x0019, DMI type 17, 27 bytes
+0000: 11 1b 19 00 01 00 ff ff 48 00 40 00 00 04 09 ff 
+0010: 01 00 18 00 00 35 05 02 03 04 05 
+
+Memory Device
+	Array Handle: 0x0001
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 1024 MB
+	Form Factor: DIMM
+	Set: Unknown
+	Locator: DIMM 8
+	Bank Locator: Not Specified
+	Type: DDR3
+	Type Detail: None
+	Speed: 1333 MHz (0.8 ns)
+	Manufacturer: 0x80AD
+	Serial Number: 0x3850672B
+	Asset Tag: Asset Tag: 
+	Part Number: 0x484D54313132553754465238432D48392020
+
+Handle 0x001A, DMI type 130, 186 bytes
+0000: 82 ba 1a 00 19 00 00 00 b0 00 92 10 0b 02 02 11 
+0010: 00 01 0b 52 01 08 0c 00 3c 00 69 78 69 30 69 11 
+0020: 20 89 70 03 3c 3c 00 f0 83 05 80 00 00 00 00 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 0f 11 03 01 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 
+0080: ad 01 11 42 38 50 67 2b c9 17 48 4d 54 31 31 32 
+0090: 55 37 54 46 52 38 43 2d 48 39 20 20 54 30 80 ad 
+00a0: 00 54 48 31 41 4e 38 30 32 36 49 31 33 00 01 03 
+00b0: 02 03 02 04 00 03 00 00 00 00 
+
+Apple specific SPD
+	000082ba1a0019000000b00092100b020211
+	001000010b5201080c003c00697869306911
+	0020208970033c3c00f08305800000000000
+	003000000000000000000000000000000000
+	00400000000000000f110301000000000000
+	005000000000000000000000000000000000
+	006000000000000000000000000000000000
+	007000000000000000000000000000000080
+	0080ad0111423850672bc917484d54313132
+	0090553754465238432d48392020543080ad
+	00a000544831414e38303236493133000103
+	00b002030204000300000000000004231b00
+	00c00303b202c2060200fffbebbf018c8500
+	00d0720b720b41041d001e001f0000000049
+	00e06e74656c2852292058656f6e28522920
+	00f043505520202020202020202020205835
+
+Handle 0x001B, DMI type 4, 35 bytes
+0000: 04 23 1b 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 1d 00 1e 00 1f 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-A (00)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x001D
+	L2 Cache Handle: 0x001E
+	L3 Cache Handle: 0x001F
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x001C, DMI type 7, 19 bytes
+0000: 07 13 1c 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x001D, DMI type 7, 19 bytes
+0000: 07 13 1d 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x001E, DMI type 7, 19 bytes
+0000: 07 13 1e 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x001F, DMI type 7, 19 bytes
+0000: 07 13 1f 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x0020, DMI type 4, 35 bytes
+0000: 04 23 20 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 22 00 23 00 24 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-A (01)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0022
+	L2 Cache Handle: 0x0023
+	L3 Cache Handle: 0x0024
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x0021, DMI type 7, 19 bytes
+0000: 07 13 21 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0022, DMI type 7, 19 bytes
+0000: 07 13 22 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x0023, DMI type 7, 19 bytes
+0000: 07 13 23 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0024, DMI type 7, 19 bytes
+0000: 07 13 24 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x0025, DMI type 4, 35 bytes
+0000: 04 23 25 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 27 00 28 00 29 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-A (02)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0027
+	L2 Cache Handle: 0x0028
+	L3 Cache Handle: 0x0029
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x0026, DMI type 7, 19 bytes
+0000: 07 13 26 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0027, DMI type 7, 19 bytes
+0000: 07 13 27 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x0028, DMI type 7, 19 bytes
+0000: 07 13 28 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0029, DMI type 7, 19 bytes
+0000: 07 13 29 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x002A, DMI type 4, 35 bytes
+0000: 04 23 2a 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 2c 00 2d 00 2e 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-A (03)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x002C
+	L2 Cache Handle: 0x002D
+	L3 Cache Handle: 0x002E
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x002B, DMI type 7, 19 bytes
+0000: 07 13 2b 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x002C, DMI type 7, 19 bytes
+0000: 07 13 2c 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x002D, DMI type 7, 19 bytes
+0000: 07 13 2d 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x002E, DMI type 7, 19 bytes
+0000: 07 13 2e 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x002F, DMI type 4, 35 bytes
+0000: 04 23 2f 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 31 00 32 00 33 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-A (04)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0031
+	L2 Cache Handle: 0x0032
+	L3 Cache Handle: 0x0033
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x0030, DMI type 7, 19 bytes
+0000: 07 13 30 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0031, DMI type 7, 19 bytes
+0000: 07 13 31 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x0032, DMI type 7, 19 bytes
+0000: 07 13 32 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0033, DMI type 7, 19 bytes
+0000: 07 13 33 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x0034, DMI type 4, 35 bytes
+0000: 04 23 34 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 36 00 37 00 38 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-A (05)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0036
+	L2 Cache Handle: 0x0037
+	L3 Cache Handle: 0x0038
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x0035, DMI type 7, 19 bytes
+0000: 07 13 35 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0036, DMI type 7, 19 bytes
+0000: 07 13 36 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x0037, DMI type 7, 19 bytes
+0000: 07 13 37 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0038, DMI type 7, 19 bytes
+0000: 07 13 38 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x0039, DMI type 4, 35 bytes
+0000: 04 23 39 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 3b 00 3c 00 3d 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-A (16)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x003B
+	L2 Cache Handle: 0x003C
+	L3 Cache Handle: 0x003D
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x003A, DMI type 7, 19 bytes
+0000: 07 13 3a 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x003B, DMI type 7, 19 bytes
+0000: 07 13 3b 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x003C, DMI type 7, 19 bytes
+0000: 07 13 3c 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x003D, DMI type 7, 19 bytes
+0000: 07 13 3d 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x003E, DMI type 4, 35 bytes
+0000: 04 23 3e 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 40 00 41 00 42 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-A (17)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0040
+	L2 Cache Handle: 0x0041
+	L3 Cache Handle: 0x0042
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x003F, DMI type 7, 19 bytes
+0000: 07 13 3f 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0040, DMI type 7, 19 bytes
+0000: 07 13 40 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x0041, DMI type 7, 19 bytes
+0000: 07 13 41 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0042, DMI type 7, 19 bytes
+0000: 07 13 42 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x0043, DMI type 4, 35 bytes
+0000: 04 23 43 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 45 00 46 00 47 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-A (18)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0045
+	L2 Cache Handle: 0x0046
+	L3 Cache Handle: 0x0047
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x0044, DMI type 7, 19 bytes
+0000: 07 13 44 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0045, DMI type 7, 19 bytes
+0000: 07 13 45 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x0046, DMI type 7, 19 bytes
+0000: 07 13 46 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0047, DMI type 7, 19 bytes
+0000: 07 13 47 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x0048, DMI type 4, 35 bytes
+0000: 04 23 48 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 4a 00 4b 00 4c 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-A (19)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x004A
+	L2 Cache Handle: 0x004B
+	L3 Cache Handle: 0x004C
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x0049, DMI type 7, 19 bytes
+0000: 07 13 49 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x004A, DMI type 7, 19 bytes
+0000: 07 13 4a 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x004B, DMI type 7, 19 bytes
+0000: 07 13 4b 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x004C, DMI type 7, 19 bytes
+0000: 07 13 4c 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x004D, DMI type 4, 35 bytes
+0000: 04 23 4d 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 4f 00 50 00 51 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-A (20)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x004F
+	L2 Cache Handle: 0x0050
+	L3 Cache Handle: 0x0051
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x004E, DMI type 7, 19 bytes
+0000: 07 13 4e 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x004F, DMI type 7, 19 bytes
+0000: 07 13 4f 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x0050, DMI type 7, 19 bytes
+0000: 07 13 50 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0051, DMI type 7, 19 bytes
+0000: 07 13 51 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x0052, DMI type 4, 35 bytes
+0000: 04 23 52 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 54 00 55 00 56 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-A (21)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0054
+	L2 Cache Handle: 0x0055
+	L3 Cache Handle: 0x0056
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x0053, DMI type 7, 19 bytes
+0000: 07 13 53 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0054, DMI type 7, 19 bytes
+0000: 07 13 54 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x0055, DMI type 7, 19 bytes
+0000: 07 13 55 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0056, DMI type 7, 19 bytes
+0000: 07 13 56 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x0057, DMI type 4, 35 bytes
+0000: 04 23 57 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 59 00 5a 00 5b 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-B (32)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0059
+	L2 Cache Handle: 0x005A
+	L3 Cache Handle: 0x005B
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x0058, DMI type 7, 19 bytes
+0000: 07 13 58 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0059, DMI type 7, 19 bytes
+0000: 07 13 59 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x005A, DMI type 7, 19 bytes
+0000: 07 13 5a 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x005B, DMI type 7, 19 bytes
+0000: 07 13 5b 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x005C, DMI type 4, 35 bytes
+0000: 04 23 5c 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 5e 00 5f 00 60 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-B (33)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x005E
+	L2 Cache Handle: 0x005F
+	L3 Cache Handle: 0x0060
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x005D, DMI type 7, 19 bytes
+0000: 07 13 5d 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x005E, DMI type 7, 19 bytes
+0000: 07 13 5e 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x005F, DMI type 7, 19 bytes
+0000: 07 13 5f 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0060, DMI type 7, 19 bytes
+0000: 07 13 60 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x0061, DMI type 4, 35 bytes
+0000: 04 23 61 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 63 00 64 00 65 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-B (34)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0063
+	L2 Cache Handle: 0x0064
+	L3 Cache Handle: 0x0065
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x0062, DMI type 7, 19 bytes
+0000: 07 13 62 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0063, DMI type 7, 19 bytes
+0000: 07 13 63 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x0064, DMI type 7, 19 bytes
+0000: 07 13 64 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0065, DMI type 7, 19 bytes
+0000: 07 13 65 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x0066, DMI type 4, 35 bytes
+0000: 04 23 66 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 68 00 69 00 6a 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-B (35)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0068
+	L2 Cache Handle: 0x0069
+	L3 Cache Handle: 0x006A
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x0067, DMI type 7, 19 bytes
+0000: 07 13 67 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0068, DMI type 7, 19 bytes
+0000: 07 13 68 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x0069, DMI type 7, 19 bytes
+0000: 07 13 69 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x006A, DMI type 7, 19 bytes
+0000: 07 13 6a 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x006B, DMI type 4, 35 bytes
+0000: 04 23 6b 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 6d 00 6e 00 6f 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-B (36)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x006D
+	L2 Cache Handle: 0x006E
+	L3 Cache Handle: 0x006F
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x006C, DMI type 7, 19 bytes
+0000: 07 13 6c 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x006D, DMI type 7, 19 bytes
+0000: 07 13 6d 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x006E, DMI type 7, 19 bytes
+0000: 07 13 6e 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x006F, DMI type 7, 19 bytes
+0000: 07 13 6f 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x0070, DMI type 4, 35 bytes
+0000: 04 23 70 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 72 00 73 00 74 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-B (37)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0072
+	L2 Cache Handle: 0x0073
+	L3 Cache Handle: 0x0074
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x0071, DMI type 7, 19 bytes
+0000: 07 13 71 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0072, DMI type 7, 19 bytes
+0000: 07 13 72 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x0073, DMI type 7, 19 bytes
+0000: 07 13 73 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0074, DMI type 7, 19 bytes
+0000: 07 13 74 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x0075, DMI type 4, 35 bytes
+0000: 04 23 75 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 77 00 78 00 79 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-B (48)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0077
+	L2 Cache Handle: 0x0078
+	L3 Cache Handle: 0x0079
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x0076, DMI type 7, 19 bytes
+0000: 07 13 76 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0077, DMI type 7, 19 bytes
+0000: 07 13 77 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x0078, DMI type 7, 19 bytes
+0000: 07 13 78 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0079, DMI type 7, 19 bytes
+0000: 07 13 79 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x007A, DMI type 4, 35 bytes
+0000: 04 23 7a 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 7c 00 7d 00 7e 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-B (49)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x007C
+	L2 Cache Handle: 0x007D
+	L3 Cache Handle: 0x007E
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x007B, DMI type 7, 19 bytes
+0000: 07 13 7b 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x007C, DMI type 7, 19 bytes
+0000: 07 13 7c 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x007D, DMI type 7, 19 bytes
+0000: 07 13 7d 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x007E, DMI type 7, 19 bytes
+0000: 07 13 7e 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x007F, DMI type 4, 35 bytes
+0000: 04 23 7f 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 81 00 82 00 83 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-B (50)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0081
+	L2 Cache Handle: 0x0082
+	L3 Cache Handle: 0x0083
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x0080, DMI type 7, 19 bytes
+0000: 07 13 80 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0081, DMI type 7, 19 bytes
+0000: 07 13 81 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x0082, DMI type 7, 19 bytes
+0000: 07 13 82 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0083, DMI type 7, 19 bytes
+0000: 07 13 83 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x0084, DMI type 4, 35 bytes
+0000: 04 23 84 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 86 00 87 00 88 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-B (51)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0086
+	L2 Cache Handle: 0x0087
+	L3 Cache Handle: 0x0088
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x0085, DMI type 7, 19 bytes
+0000: 07 13 85 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0086, DMI type 7, 19 bytes
+0000: 07 13 86 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x0087, DMI type 7, 19 bytes
+0000: 07 13 87 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0088, DMI type 7, 19 bytes
+0000: 07 13 88 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x0089, DMI type 4, 35 bytes
+0000: 04 23 89 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 8b 00 8c 00 8d 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-B (52)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x008B
+	L2 Cache Handle: 0x008C
+	L3 Cache Handle: 0x008D
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x008A, DMI type 7, 19 bytes
+0000: 07 13 8a 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x008B, DMI type 7, 19 bytes
+0000: 07 13 8b 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x008C, DMI type 7, 19 bytes
+0000: 07 13 8c 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x008D, DMI type 7, 19 bytes
+0000: 07 13 8d 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x008E, DMI type 4, 35 bytes
+0000: 04 23 8e 00 03 03 b2 02 c2 06 02 00 ff fb eb bf 
+0010: 01 8c 85 00 72 0b 72 0b 41 04 90 00 91 00 92 00 
+0020: 00 00 00 
+
+Processor Information
+	Socket Designation:  CPU-B (53)
+	Type: Central Processor
+	Family: Pentium 4
+	Manufacturer: Intel(R) Corporation
+	ID: C2 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 44, Stepping 2
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+	Voltage: 1.2 V
+	External Clock: 133 MHz
+	Max Speed: 2930 MHz
+	Current Speed: 2930 MHz
+	Status: Populated, Enabled
+	Upgrade: ZIF Socket
+	L1 Cache Handle: 0x0090
+	L2 Cache Handle: 0x0091
+	L3 Cache Handle: 0x0092
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x008F, DMI type 7, 19 bytes
+0000: 07 13 8f 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 01 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Other
+	Associativity: 16-way Set-associative
+
+Handle 0x0090, DMI type 7, 19 bytes
+0000: 07 13 90 00 01 80 01 20 00 20 00 40 00 40 00 00 
+0010: 05 02 04 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unknown
+	Associativity: 2-way Set-associative
+
+Handle 0x0091, DMI type 7, 19 bytes
+0000: 07 13 91 00 01 81 01 00 01 00 01 40 00 40 00 00 
+0010: 05 03 08 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: 16-way Set-associative
+
+Handle 0x0092, DMI type 7, 19 bytes
+0000: 07 13 92 00 01 82 01 0c 00 0c 00 40 00 40 00 00 
+0010: 05 03 10 
+
+Cache Information
+	Socket Designation: Unknown
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 12 kB
+	Maximum Size: 12 kB
+	Supported SRAM Types:
+		Asynchronous
+	Installed SRAM Type: Asynchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Instruction
+	Associativity: <OUT OF SPEC>
+
+Handle 0x0093, DMI type 0, 24 bytes
+0000: 00 18 93 00 01 02 00 00 03 3f 80 98 01 00 00 00 
+0010: 00 00 c1 02 00 01 ff ff 
+
+BIOS Information
+	Vendor: Apple Inc.
+	Version:     MP51.88Z.007F.B03.1010071432
+	Release Date: 10/07/10
+	ROM Size: 4096 kB
+	Characteristics:
+		PCI is supported
+		BIOS is upgradeable
+		BIOS shadowing is allowed
+		Boot from CD is supported
+		Selectable boot is supported
+		ACPI is supported
+		IEEE 1394 boot is supported
+		Smart battery is supported
+		Function key-initiated network boot is supported
+	BIOS Revision: 0.1
+
+Handle 0x0094, DMI type 1, 27 bytes
+0000: 01 1b 94 00 01 02 03 04 d7 23 8a 6b c1 3a f2 5c 
+0010: 91 65 d7 b7 ac e1 7c dc 06 05 06 
+
+System Information
+	Manufacturer: Apple Inc.
+	Product Name: MacPro5,1
+	Version: 0.0
+	Serial Number: CK151076EUH
+	UUID: D7238A6B-C13A-F25C-9165-D7B7ACE17CDC
+	Wake-up Type: Power Switch
+	SKU Number: System SKU#
+	Family: MacPro
+
+Handle 0x0095, DMI type 2, 16 bytes
+0000: 02 10 95 00 01 02 00 03 04 0d 05 96 00 0b 00 00 
+0010: 
+
+Base Board Information
+	Manufacturer: Apple Inc.
+	Product Name: Mac-F221BEC8
+	Version: Not Specified
+	Serial Number: J514900RZBH8C     
+	Asset Tag: 0
+	Features:
+		Board is a hosting board
+		Board is removable
+		Board is replaceable
+	Location In Chassis: Part Component
+	Chassis Handle: 0x0096
+	Type: Processor+Memory Module
+	Contained Object Handles: 0
+
+Handle 0x0096, DMI type 3, 21 bytes
+0000: 03 15 96 00 01 07 02 03 00 03 03 01 01 00 00 00 
+0010: 00 00 00 00 00 
+
+Chassis Information
+	Manufacturer: Apple Inc.
+	Type: Tower
+	Lock: Not Present
+	Version: Mac-F221BEC8
+	Serial Number: CK151076EUH
+	Asset Tag: Not Specified
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Other
+	Security Status: Other
+	OEM Information: 0x00000000
+	Height: Unspecified
+	Number Of Power Cords: Unspecified
+	Contained Elements: 0
+
+Handle 0x0097, DMI type 8, 9 bytes
+0000: 08 09 97 00 01 00 02 1f 1d 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: Audio In Rear Panel
+	External Connector Type: Mini Jack (headphones)
+	Port Type: Audio Port
+
+Handle 0x0098, DMI type 8, 9 bytes
+0000: 08 09 98 00 01 00 02 1f 1d 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: Audio Out Rear Panel
+	External Connector Type: Mini Jack (headphones)
+	Port Type: Audio Port
+
+Handle 0x0099, DMI type 8, 9 bytes
+0000: 08 09 99 00 01 00 02 1f 1d 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: Audio Out Real Panel
+	External Connector Type: Mini Jack (headphones)
+	Port Type: Audio Port
+
+Handle 0x009A, DMI type 8, 9 bytes
+0000: 08 09 9a 00 01 00 02 1f 1d 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: Audio Out Front Panel
+	External Connector Type: Mini Jack (headphones)
+	Port Type: Audio Port
+
+Handle 0x009B, DMI type 8, 9 bytes
+0000: 08 09 9b 00 01 00 02 1f 1d 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: Microphone
+	External Connector Type: Mini Jack (headphones)
+	Port Type: Audio Port
+
+Handle 0x009C, DMI type 8, 9 bytes
+0000: 08 09 9c 00 01 00 02 21 11 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: 1394_0
+	External Connector Type: IEEE 1394
+	Port Type: Firewire (IEEE P1394)
+
+Handle 0x009D, DMI type 8, 9 bytes
+0000: 08 09 9d 00 01 00 02 21 11 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: 1394B_0
+	External Connector Type: IEEE 1394
+	Port Type: Firewire (IEEE P1394)
+
+Handle 0x009E, DMI type 8, 9 bytes
+0000: 08 09 9e 00 01 00 02 21 11 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: 1394_1
+	External Connector Type: IEEE 1394
+	Port Type: Firewire (IEEE P1394)
+
+Handle 0x009F, DMI type 8, 9 bytes
+0000: 08 09 9f 00 01 00 02 21 11 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: 1394B_1
+	External Connector Type: IEEE 1394
+	Port Type: Firewire (IEEE P1394)
+
+Handle 0x00A0, DMI type 8, 9 bytes
+0000: 08 09 a0 00 01 00 02 12 10 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: USB0
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x00A1, DMI type 8, 9 bytes
+0000: 08 09 a1 00 01 00 02 12 10 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: USB1
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x00A2, DMI type 8, 9 bytes
+0000: 08 09 a2 00 01 00 02 12 10 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: USB2
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x00A3, DMI type 8, 9 bytes
+0000: 08 09 a3 00 01 00 02 12 10 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: USB3
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x00A4, DMI type 8, 9 bytes
+0000: 08 09 a4 00 01 00 02 12 10 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: USB4
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x00A5, DMI type 8, 9 bytes
+0000: 08 09 a5 00 01 12 02 00 10 
+
+Port Connector Information
+	Internal Reference Designator: BlueTooth
+	Internal Connector Type: Access Bus (USB)
+	External Reference Designator: USB5
+	External Connector Type: None
+	Port Type: USB
+
+Handle 0x00A6, DMI type 8, 9 bytes
+0000: 08 09 a6 00 01 12 02 00 10 
+
+Port Connector Information
+	Internal Reference Designator: BlueTooth
+	Internal Connector Type: Access Bus (USB)
+	External Reference Designator: USB5
+	External Connector Type: None
+	Port Type: USB
+
+Handle 0x00A7, DMI type 8, 9 bytes
+0000: 08 09 a7 00 01 00 02 0b 1f 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: RJ-45 0
+	External Connector Type: RJ-45
+	Port Type: Network Port
+
+Handle 0x00A8, DMI type 8, 9 bytes
+0000: 08 09 a8 00 01 00 02 0b 1f 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: RJ-45 1
+	External Connector Type: RJ-45
+	Port Type: Network Port
+
+Handle 0x00A9, DMI type 8, 9 bytes
+0000: 08 09 a9 00 01 00 02 0b 1f 
+
+Port Connector Information
+	Internal Reference Designator: None
+	Internal Connector Type: None
+	External Reference Designator: RJ-45 2
+	External Connector Type: RJ-45
+	Port Type: Network Port
+
+Handle 0x00AA, DMI type 8, 9 bytes
+0000: 08 09 aa 00 01 16 02 00 ff 
+
+Port Connector Information
+	Internal Reference Designator: Quad S-ATA
+	Internal Connector Type: On Board IDE
+	External Reference Designator: None
+	External Connector Type: None
+	Port Type: Other
+
+Handle 0x00AB, DMI type 8, 9 bytes
+0000: 08 09 ab 00 01 16 02 00 ff 
+
+Port Connector Information
+	Internal Reference Designator: S-ATA0
+	Internal Connector Type: On Board IDE
+	External Reference Designator: None
+	External Connector Type: None
+	Port Type: Other
+
+Handle 0x00AC, DMI type 8, 9 bytes
+0000: 08 09 ac 00 01 16 02 00 ff 
+
+Port Connector Information
+	Internal Reference Designator: S-ATA1
+	Internal Connector Type: On Board IDE
+	External Reference Designator: None
+	External Connector Type: None
+	Port Type: Other
+
+Handle 0x00AD, DMI type 9, 13 bytes
+0000: 09 0d ad 00 01 a5 0d 04 04 01 00 04 06 
+
+System Slot Information
+	Designation: Slot-1
+	Type: x16 PCI Express
+	Current Usage: In Use
+	Length: Long
+	ID: 1
+	Characteristics:
+		3.3 V is provided
+		Hot-plug devices are supported
+		SMBus signal is supported
+
+Handle 0x00AE, DMI type 9, 13 bytes
+0000: 09 0d ae 00 01 a5 0d 03 04 02 00 04 06 
+
+System Slot Information
+	Designation: Slot-2
+	Type: x16 PCI Express
+	Current Usage: Available
+	Length: Long
+	ID: 2
+	Characteristics:
+		3.3 V is provided
+		Hot-plug devices are supported
+		SMBus signal is supported
+
+Handle 0x00AF, DMI type 9, 13 bytes
+0000: 09 0d af 00 01 a5 0a 03 04 03 00 04 06 
+
+System Slot Information
+	Designation: Slot-3
+	Type: x4 PCI Express
+	Current Usage: Available
+	Length: Long
+	ID: 3
+	Characteristics:
+		3.3 V is provided
+		Hot-plug devices are supported
+		SMBus signal is supported
+
+Handle 0x00B0, DMI type 9, 13 bytes
+0000: 09 0d b0 00 01 a5 0a 03 04 04 00 0c 06 
+
+System Slot Information
+	Designation: Slot-4
+	Type: x4 PCI Express
+	Current Usage: Available
+	Length: Long
+	ID: 4
+	Characteristics:
+		3.3 V is provided
+		Opening is shared
+		Hot-plug devices are supported
+		SMBus signal is supported
+
+Handle 0x00B1, DMI type 9, 13 bytes
+0000: 09 0d b1 00 01 a5 08 03 03 05 00 0c 04 
+
+System Slot Information
+	Designation: AirPort
+	Type: x1 PCI Express
+	Current Usage: Available
+	Length: Short
+	ID: 5
+	Characteristics:
+		3.3 V is provided
+		Opening is shared
+		SMBus signal is supported
+
+Handle 0x00B2, DMI type 10, 6 bytes
+0000: 0a 06 b2 00 87 01 
+
+On Board Device Information
+	Type: Sound
+	Status: Enabled
+	Description: Hi Def Audio Codec
+
+Handle 0x00B3, DMI type 10, 6 bytes
+0000: 0a 06 b3 00 85 01 
+
+On Board Device Information
+	Type: Ethernet
+	Status: Enabled
+	Description: Zoar Ethernet Controller
+
+Handle 0x00B4, DMI type 10, 6 bytes
+0000: 0a 06 b4 00 85 01 
+
+On Board Device Information
+	Type: Ethernet
+	Status: Enabled
+	Description: Zoar Ethernet Controller
+
+Handle 0x00B5, DMI type 10, 6 bytes
+0000: 0a 06 b5 00 85 01 
+
+On Board Device Information
+	Type: Ethernet
+	Status: Enabled
+	Description: Zoar Ethernet Controller
+
+Handle 0x00B6, DMI type 10, 6 bytes
+0000: 0a 06 b6 00 81 01 
+
+On Board Device Information
+	Type: Other
+	Status: Enabled
+	Description: Sata
+
+Handle 0x00B7, DMI type 13, 22 bytes
+0000: 0d 16 b7 00 01 00 00 00 00 00 00 00 00 00 00 00 
+0010: 00 00 00 00 00 00 
+
+BIOS Language Information
+	Installable Languages: 1
+		<BAD INDEX>
+	Currently Installed Language: Not Specified
+
+Handle 0x00B8, DMI type 12, 5 bytes
+0000: 0c 05 b8 00 00 
+
+System Configuration Options
+
+Handle 0x00B9, DMI type 32, 20 bytes
+0000: 20 14 b9 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0010: 00 00 00 00 
+
+System Boot Information
+	Status: No errors detected
+
+Handle 0x00BA, DMI type 128, 88 bytes
+0000: 80 58 ba 00 04 00 00 00 03 14 00 c0 ff ff 00 c0 
+0010: 01 02 00 03 00 00 00 00 00 00 c0 ff ff ff c7 ff 
+0020: 00 00 d5 ff ff ff fd ff 00 40 d0 ff ff ff d0 ff 
+0030: 00 00 d2 ff ff ff d4 ff 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 
+
+Apple specific FirmwareVolume
+	FirmwareFeatures: c0001403
+	FirmwareFeaturesMask: c000ffff
+	Region Type:01 Start:ffc00000 End:ffc7ffff
+	Region Type:02 Start:ffd50000 End:fffdffff
+	Region Type:00 Start:ffd04000 End:ffd0ffff
+	Region Type:03 Start:ffd20000 End:ffd4ffff
+
+Handle 0x00BB, DMI type 131, 6 bytes
+0000: 83 06 bb 00 01 05 
+
+Apple specific Processor Type
+	 cpu=0501
+
+Handle 0xFFFD, DMI type 127, 4 bytes
+0000: 7f 04 fd ff 
+
+End Of Table
+

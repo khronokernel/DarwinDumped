@@ -1,0 +1,23 @@
+/dev/disk0 
+APPLE HDD ST1000DM003 Media 
+Block (sector) size: 512 bytes 
+Total Number of Blocks: 1953525168 
+Total Disk Size: 1.0 TB 
+Partition Map: GUID Partition Table 
+Disk GUID:0000113e-72f2-0000-230c-000015480000 
+Partition GUID: 0000765c-1b22-0000-335c-000048100000 | Name: EFI system partition 
+Partition GUID: 00003de0-0882-0000-8f5b-0000fd010000 | Name: Customer 
+Partition GUID: 2112f065-8502-49f8-a348-fdeb8d4fbe3a | Name: Recovery HD 
+=========   =========             ========              ==========  ========= 
+LBA Start   Type                  GPT Name              LoaderCode  Size LBA 
+=========   =========             ========              ==========  ========= 
+0           MBR                                                     1 
+1           Primary GPT Header                                      1 
+2           Primary GPT Table                                       32 
+34          Space                                                   6 
+40          EFI System Partition  EFI system partition  Apple EFI   409600 
+409640      HFS+                  Customer                          1951845952 
+1952255592  OSX Boot              Recovery HD                       1269536 
+1953525128  Space                                                   7 
+1953525135  Backup GPT Table                                        32 
+1953525167  Backup GPT Header                                       1 

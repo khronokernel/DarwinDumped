@@ -1,0 +1,57 @@
+Extracted contents:
+header:          00 ff ff ff ff ff ff 00
+serial number:   06 10 03 ae 00 00 00 00 0c 18
+version:         01 04
+basic params:    b5 3c 22 78 22
+chroma info:     c8 05 a7 55 4b a0 26 0c 50 54
+established:     00 00 00
+standard:        01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+descriptor 1:    00 00 00 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+descriptor 2:    00 00 00 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+descriptor 3:    00 00 00 fc 00 69 4d 61 63 0a 20 20 20 20 20 20 20 20
+descriptor 4:    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+extensions:      02
+checksum:        2d
+
+Manufacturer: APP Model ae03 Serial Number 0
+Made week 12 of 2014
+EDID version: 1.4
+Digital display
+10 bits per primary color channel
+DisplayPort interface
+Maximum image size: 60 cm x 34 cm
+Gamma: 2.20
+DPMS levels: Off
+Supported color formats: RGB 4:4:4
+First detailed timing is preferred timing
+Chroma Info:
+Red X: 0.655273 Y: 0.332031
+Green X: 0.294922 Y: 0.625000
+Blue X: 0.148438 Y: 0.046875
+White X: 0.313477 Y: 0.329102
+Established timings supported:
+Standard timings supported:
+Dummy block
+Dummy block
+Monitor name: iMac
+Manufacturer-specified data, tag 0
+Has 2 extension blocks
+Checksum: 0x2d (valid)
+
+CEA extension block
+Extension version: 3
+26 bytes of CEA data
+  Vendor-specific data block, OUI 0010fa
+  Vendor-specific data block, OUI 0010fa
+Underscans PC formats by default
+1 native detailed modes
+Checksum: 0x92 (valid)
+
+
+Unknown extension block
+
+EDID block does NOT conform to EDID 1.3!
+	Missing preferred timing
+	Missing monitor ranges
+EDID block does not conform at all!
+	Impossible extension block count

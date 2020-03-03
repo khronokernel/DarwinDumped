@@ -1,0 +1,22 @@
+2017-10-08 15:53:27 +0300 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   PreventUserIdleSystemSleep     1
+   NetworkClientActive            0
+Listed by owning process:
+   pid 281(nsurlsessiond): [0x0000bd120001a41c] 00:00:00 PreventUserIdleSystemSleep named: "NSURLSessionTask 18179575-97CB-4B82-A75C-38DCB8E452EC" 
+   pid 281(nsurlsessiond): [0x0000bd110001a41b] 00:00:00 PreventUserIdleSystemSleep named: "NSURLSessionTask CFBBC6C1-FDB9-41A1-B9AF-3B5A3C32E7B1" 
+   pid 281(nsurlsessiond): [0x0000bd110001a41a] 00:00:01 PreventUserIdleSystemSleep named: "NSURLSessionTask 07A7EB87-46F8-4178-8BFD-F8E5A3AB8544" 
+   pid 281(nsurlsessiond): [0x0000bd0f0001a417] 00:00:02 PreventUserIdleSystemSleep named: "NSURLSessionTask 2ED7FD34-8223-412A-ACE0-19295732FB24" 
+   pid 281(nsurlsessiond): [0x0000bd0e0001a415] 00:00:03 PreventUserIdleSystemSleep named: "NSURLSessionTask B3B96356-FFC8-42ED-A8D9-B2BA59157394" 
+   pid 281(nsurlsessiond): [0x0000bd0d0001a411] 00:00:04 PreventUserIdleSystemSleep named: "NSURLSessionTask D87BE06A-0CA5-4415-A416-FF9BA18ED74A" 
+   pid 104(hidd): [0x0000b6eb0009a05b] 00:00:25 UserIsActive named: "com.apple.iohideventsystem.queue.tickle.4294996256.3" 
+	Timeout will fire in 574 secs Action=TimeoutActionRelease
+Kernel Assertions: 0x100=MAGICWAKE
+   id=502  level=255 0x100=MAGICWAKE mod=08.10.2017, 15:41 description=en0 owner=en0
+Idle sleep preventers: IODisplayWrangler

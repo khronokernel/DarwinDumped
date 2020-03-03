@@ -1,0 +1,13 @@
+Device   Name                  Volume UUID                                      Unique partition GUID 
+                               (Example Usage: Kernel flag rd=uuid boot-uuid=)  (Example Usage: Clover Hide Volume) 
+disk0s1  EFI System Partition  0E239BC6-F960-3107-89CF-1C97F78BB46B             685B366A-67ED-4F17-BB4F-D94B580DEABB 
+disk0s2  /Volumes/Aleams S     FE414D3B-4B53-3D89-8919-3E7F8134B18C             DA8B6CBC-53E5-4116-9364-07CBE79488D1 
+disk0s3  /Volumes/Recovery HD  05DFAAC6-DF7C-3BAC-B70A-851714F488A5             6FCBCFD2-AA93-46C8-A388-9F9D6A56BB18 
+disk1s1  EFI System Partition  0E239BC6-F960-3107-89CF-1C97F78BB46B             7CD2641F-9AFD-464B-B12A-D791E90EE103 
+disk1s2  /Volumes/                                                              593CC1DC-60B9-43E5-9DBE-883DED4D88FF 
+disk1s3  /Volumes/Boot OS X    DEA89C4F-7E9B-3D21-898D-B717795688CC             1026705F-9AB9-43AE-B5F1-ED5EBB0B37A7 
+disk2s1  EFI System Partition  0E239BC6-F960-3107-89CF-1C97F78BB46B             044C525B-4553-4404-BE61-023564F89753 
+disk2s2  /Volumes/                                                              92BB4E7D-A25B-44E4-AE56-492EEEA965E5 
+disk2s3  /Volumes/Boot OS X    15B284AD-56C0-3697-8DA7-92DBF098D56F             5D33CBC8-46E5-4B15-A1A1-A3D438CC0F9C 
+disk4s1  EFI System Partition  0E239BC6-F960-3107-89CF-1C97F78BB46B             1AC88634-2C8C-4D51-A73B-D441113EECF1 
+disk4s2  /Volumes/Silver Nox   902C8745-017D-3D14-8982-461A9CDB70F8             F18924DF-9C6B-430F-B8B8-57A2D3544CB7 

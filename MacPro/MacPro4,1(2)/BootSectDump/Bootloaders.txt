@@ -1,0 +1,42 @@
+/dev/disk0
+ACTV        DEVICE     TYPE                                        NAME                                        SIZE    MBR (Stage0)     PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+                       GUID_partition_scheme                                                                   120 GB   
+            disk0s1    EFI                                                                                     209 MB                    
+            disk0s2    Apple_HFS                                   Intel                                       119 GB                    
+/dev/disk1
+ACTV        DEVICE     TYPE                                        NAME                                        SIZE    MBR (Stage0)     PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+                       GUID_partition_scheme                                                                   1 TB     
+            disk1s1    EFI                                                                                     209 MB                    
+            disk1s2    Apple_HFS                                   WORK                                        999 GB                    
+/dev/disk2
+ACTV        DEVICE     TYPE                                        NAME                                        SIZE    MBR (Stage0)     PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+                       GUID_partition_scheme                                                                   1 TB     
+            disk2s1    EFI                                                                                     209 MB                    
+            disk2s2    Apple_HFS                                   ARHIVE_1                                    1 TB                      
+/dev/disk3
+ACTV        DEVICE     TYPE                                        NAME                                        SIZE    MBR (Stage0)     PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+                       GUID_partition_scheme                                                                   1 TB     
+            disk3s1    EFI                                                                                     209 MB                    
+            disk3s2    Apple_HFS                                   TM                                          999 GB                    
+/dev/disk4
+ACTV        DEVICE     TYPE                                        NAME                                        SIZE    MBR (Stage0)     PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+                       GUID_partition_scheme                                                                   1 TB     
+            disk4s1    EFI                                                                                     209 MB                    
+            disk4s2    Apple_HFS                                   ARHIVE_2                                    999 GB                    
+/dev/disk5
+ACTV        DEVICE     TYPE                                        NAME                                        SIZE    MBR (Stage0)     PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+                       FDisk_partition_scheme                                                                  15 GB   Chameleon boot0
+            disk5s1    DOS_FAT_32                                  CLOVER_SL                                   998 MB                   Clover boot1f32alt
+                                                                                                                                                            boot(CloverR1139)
+                                                                                                                                                            boot3(CloverR980)
+                                                                                                                                                            boot6(CloverR1140)
+                                                                                                                                                                                /EFI/BOOT/BootX64.efi(CloverR1140)
+                                                                                                                                                                                /EFI/BOOT/CloverX64.efi(R1140)
+                                                                                                                                                                                /EFI/BOOT/CloverIA32.efi(R1050)
+            disk5s2    Apple_HFS                                   14_Gb                                       14 GB                     
+/dev/disk6
+ACTV        DEVICE     TYPE                                        NAME                                        SIZE    MBR (Stage0)     PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+                       Error Reading File: /tmp/duSliceinfo.plist                                                       
+            disk6s0    Error Reading File: /tmp/duSliceinfo.plist  Error Reading File: /tmp/duSliceinfo.plist                            
+            disk6s0s1  Error Reading File: /tmp/duSliceinfo.plist  Error Reading File: /tmp/duSliceinfo.plist                            
+            disk6s0s2  Error Reading File: /tmp/duSliceinfo.plist  Error Reading File: /tmp/duSliceinfo.plist                            

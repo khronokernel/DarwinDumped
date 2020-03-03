@@ -1,0 +1,16 @@
+csrstat v1.8 Copyright (c) 2015-2020 by Pike R. Alpha
+System Integrity Protection status: enabled (0x00000067) (Custom Configuration).
+
+Configuration:
+	Apple Internal...........: 0 (disabled)
+	Kext Signing Restrictions: 1 (disabled)
+	Task for PID Restrictions: 1 (disabled)
+	Filesystem Protections...: 1 (disabled)
+	Debugging Restrictions...: 0 (enabled)
+	DTrace Restrictions......: 1 (disabled)
+	NVRAM Protections........: 1 (disabled)
+	Device Configuration.....: 0 (disabled)
+	BaseSystem Verification..: 0 (enabled)
+	Allow Unapproved Kexts...: 0 (enabled)
+
+This is an unsupported configuration, likely to break in the future and leave your machine in an unknown state.

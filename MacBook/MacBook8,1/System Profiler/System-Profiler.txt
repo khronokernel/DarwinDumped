@@ -1,0 +1,1084 @@
+Audio:
+
+    Intel High Definition Audio:
+
+      Audio ID: 100
+
+        Headphone:
+
+          Connection: Combination Output
+
+        External Microphone / iPhone Headset:
+
+          Connection: Combination Output
+
+        Internal Microphone:
+
+          Connection: Internal
+
+        Speaker:
+
+          Connection: Internal
+
+        HDMI / DisplayPort Output:
+
+          Connection: Display
+
+    Devices:
+
+        Built-in Microphone:
+
+          Default Input Device: Yes
+          Input Channels: 2
+          Manufacturer: Apple Inc.
+          Current SampleRate: 44100
+          Transport: Built-in
+
+        Built-in Output:
+
+          Default Output Device: Yes
+          Default System Output Device: Yes
+          Manufacturer: Apple Inc.
+          Output Channels: 2
+          Current SampleRate: 44100
+          Transport: Built-in
+
+Bluetooth:
+
+      Apple Bluetooth Software Version: 4.4.4f4 17685
+      Hardware, Features, and Settings:
+          Bluetooth Low Energy Supported: Yes
+          Handoff Supported: Yes
+          Instant Hot Spot Supported: Yes
+          Manufacturer: Broadcom
+          Transport: UART
+          Chipset: 4350C1
+          Firmware Version: v76 c5359
+          Connectable: Yes
+          Auto Seek Pointing: On
+          Remote wake: On
+          Vendor ID: 0x05AC
+          Product ID: 0x828E
+          Auto Seek Keyboard: On
+      Devices (Paired, Configured, etc.):
+          Device 0:
+              Major Type: Miscellaneous
+              Minor Type: Unknown
+              Services: 
+          Device 1:
+              Major Type: Peripheral
+              Minor Type: Mouse
+              Services: Apple Magic Mouse
+              Manufacturer: Apple (0x3, 0x31C)
+              Firmware Version: 0x0306
+              Vendor ID: 0x05AC
+              Product ID: 0x030D
+              Host Connectable: Yes
+              EDR Supported: No
+              eSCO Supported: No
+              SSP Supported: No
+          Device 2:
+              Major Type: Miscellaneous
+              Minor Type: Unknown
+              Services: 
+
+Camera:
+
+    FaceTime Camera:
+
+      Model ID: Apple Camera VendorID_0x106B ProductID_0x1570
+      Unique ID: CC25073EXNCFM4YFD
+
+Diagnostics:
+
+    Power On Self-Test:
+
+      Last Run: 04.04.16, 13:10
+      Result: Passed
+
+Graphics/Displays:
+
+    Intel HD Graphics 5300:
+
+      Chipset Model: Intel HD Graphics 5300
+      Type: GPU
+      Bus: Built-In
+      VRAM (Dynamic, Max): 1536 MB
+      Vendor: Intel (0x8086)
+      Device ID: 0x161e
+      Revision ID: 0x0009
+      Displays:
+        Color LCD:
+          Display Type: Retina LCD
+          Resolution: 2304 x 1440 Retina
+          Retina: Yes
+          Pixel Depth: 32-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Built-In: Yes
+
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook
+      Model Identifier: MacBook8,1
+      Processor Name: Intel Core M
+      Processor Speed: 1,2 GHz
+      Number of Processors: 1
+      Total Number of Cores: 2
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 4 MB
+      Memory: 8 GB
+      Boot ROM Version: MB81.0164.B13
+      SMC Version (system): 2.25f87
+
+Memory:
+
+    Memory Slots:
+
+      ECC: Disabled
+      Upgradeable Memory: No
+
+        BANK 0/DIMM0:
+
+          Size: 4 GB
+          Type: DDR3
+          Speed: 1600 MHz
+          Status: OK
+          Manufacturer: 0x02FE
+          Part Number: 0x4544464231363441314D412D47442D462020
+
+        BANK 1/DIMM0:
+
+          Size: 4 GB
+          Type: DDR3
+          Speed: 1600 MHz
+          Status: OK
+          Manufacturer: 0x02FE
+          Part Number: 0x4544464231363441314D412D47442D462020
+
+NVMExpress:
+
+    Apple SSD Controller:
+
+        APPLE SSD AP0512H:
+
+          Capacity: 500,28 GB (500 277 788 672 bytes)
+          TRIM Support: Yes
+          Model: APPLE SSD AP0512H
+          Revision: 5.841.01
+          Link Width: x4
+          Link Speed: 5.0 GT/s
+          Detachable Drive: No
+          BSD Name: disk0
+          Partition Map Type: GPT (GUID Partition Table)
+          Removable Media: No
+
+Network:
+
+    Wi-Fi:
+
+      Type: AirPort
+      Hardware: AirPort
+      BSD Device Name: en0
+      Service Order: 0
+
+    Bluetooth PAN:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en1
+      Service Order: 1
+
+Printer Software:
+
+    PPDs:
+
+      PPDs:
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON Epson ME OFFICE 82WD.gz
+          Version: 9.00
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON Epson ME OFFICE 85ND.gz
+          Version: 9.00
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON Epson Stylus Office B42WD.gz
+          Version: 9.00
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON Epson Stylus Photo PX660.gz
+          Version: 9.05
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON FAX A3.gz
+          Version: 1.71
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON FAX.gz
+          Version: 1.71
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON WorkForce 60.gz
+          Version: 9.00
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON WorkForce T42WD.gz
+          Version: 9.04
+
+    Printers:
+
+      Printers:
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDA.framework/Versions/A/Resources/Info.plist
+          Version: 3.1.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDE.framework/Versions/A/Resources/Info.plist
+          Version: 1.4.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDM.framework/Versions/A/Resources/Info.plist
+          Version: 2.1.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDV.framework/Versions/A/Resources/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_bjnp.plugin/Contents/Info.plist
+          Version: 2.10.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq2413.plugin/Contents/Info.plist
+          Version: 2.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq2414.plugin/Contents/Info.plist
+          Version: 1.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq2415.plugin/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4807.plugin/Contents/Info.plist
+          Version: 2.3.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4808.plugin/Contents/Info.plist
+          Version: 2.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4809.plugin/Contents/Info.plist
+          Version: 1.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4811.plugin/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq9601.plugin/Contents/Info.plist
+          Version: 2.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_iom.plugin/Contents/Info.plist
+          Version: 1.9.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_lld.plugin/Contents/Info.plist
+          Version: 4.4.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_lld09.plugin/Contents/Info.plist
+          Version: 3.9.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_sfusb.plugin/Contents/Info.plist
+          Version: 1.4.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_sfusb2.plugin/Contents/Info.plist
+          Version: 1.5.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ag.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ago8.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ausm.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_caps.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_cubs.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ddoct.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_dscrn.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_fare.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_farec.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_gercc.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_gercg.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_hsl.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ijfsh.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_jgdir.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mcrp2.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mcrp3.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mcrpp.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldo0.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldo8.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldo9.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldv0.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_qare.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_racs2.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_rotate.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_smac.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_tdg.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_tonec.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_zoom.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/EPSON/CIOSupport/ASVersionSupport.plugin/Contents/Info.plist
+          Version: 1.23.1
+          Path: /Library/Printers/EPSON/CIOSupport/CIOHelper.plugin/Contents/Info.plist
+          Version: 3.36
+          Path: /Library/Printers/EPSON/CIOSupport/CIOSupport.framework/Versions/A/Resources/Info.plist
+          Version: 3.36
+          Path: /Library/Printers/EPSON/CIOSupport/EPSONUSBPrintClass.plugin/Contents/Info.plist
+          Version: 3.36
+          Path: /Library/Printers/EPSON/CIOSupport/XIOP.plugin/Contents/Info.plist
+          Version: 4.37
+          Path: /Library/Printers/EPSON/CIOSupport/XIORemoteClient.plugin/Contents/Info.plist
+          Version: 3.36
+          Path: /Library/Printers/EPSON/CIOSupport/XIORemoteServer.plugin/Contents/Info.plist
+          Version: 3.36
+          Path: /Library/Printers/EPSON/EPSON PIC Folder/Modules/PIC3.framework/Versions/A/Resources/Info.plist
+          Version: 4.9.7
+          Path: /Library/Printers/EPSON/EPSON PIC Folder/Modules/PIC3Plugins/PIC_Epson_ME_OFFICE_82WD.plugin/Contents/Info.plist
+          Version: 4.9.7
+          Path: /Library/Printers/EPSON/EPSON PIC Folder/Modules/PIC3Plugins/PIC_Epson_ME_OFFICE_85ND.plugin/Contents/Info.plist
+          Version: 4.9.7
+          Path: /Library/Printers/EPSON/EPSON PIC Folder/Modules/PIC3Plugins/PIC_Epson_Stylus_Office_B42WD.plugin/Contents/Info.plist
+          Version: 4.9.7
+          Path: /Library/Printers/EPSON/EPSON PIC Folder/Modules/PIC3Plugins/PIC_Epson_Stylus_Photo_PX660.plugin/Contents/Info.plist
+          Version: 4.9.7
+          Path: /Library/Printers/EPSON/EPSON PIC Folder/Modules/PIC3Plugins/PIC_WorkForce_60.plugin/Contents/Info.plist
+          Version: 4.9.7
+          Path: /Library/Printers/EPSON/EPSON PIC Folder/Modules/PIC3Plugins/PIC_WorkForce_T42WD.plugin/Contents/Info.plist
+          Version: 4.9.7
+          Path: /Library/Printers/EPSON/EPSON PIC Folder/PICCommon.framework/Versions/A/Resources/Info.plist
+          Version: 4.9.7
+          Path: /Library/Printers/EPSON/Fax/AutoSetupTool/EPFaxAutoSetupTool.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/FaxIOSupport/epsonfax.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/FaxIOSupport/FaxIOService.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/FaxIOSupport/FaxReceiveLib.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Filter/commandFilter.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Filter/rastertoepfax.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Help/Epson_IJFax_C.help/Contents/Info.plist
+          Version: 1.41
+          Path: /Library/Printers/EPSON/Fax/Icons/EpsonFax.icons/Contents/Info.plist
+          Version: 1.00
+          Path: /Library/Printers/EPSON/Fax/Libraries/FaxRecipientLib2.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Libraries/FICLib.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Libraries/rastertotiff.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Libraries/rastertotiff.framework/Versions/A/Resources/TIFFInfo.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/PDEs/PDECPlugin.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/SupportPrinters/FaxSupportInfo.bundle/Contents/Info.plist
+          Version: 1.10
+          Path: /Library/Printers/EPSON/Fax/Utility/Fax Receive Monitor.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/FAX Utility.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Help/Epson_IJFaxUTY.help/Contents/Info.plist
+          Version: 1.41
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxCheckConnection.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxPrinterSpeedDial.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxReceive.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxSettings.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxSyncContacts.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxTransmissionRecord.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/InkjetPrinter2/APF/ECX.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/AutoSetupTool/EPIJAutoSetupTool2.app/Contents/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0104PT1.cmd/Contents/Info.plist
+          Version: 8.27
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0104PT2.cmd/Contents/Info.plist
+          Version: 8.27
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0106AN1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0106DL1.cmd/Contents/Info.plist
+          Version: 8.27
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0106DL2.cmd/Contents/Info.plist
+          Version: 8.27
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0107TJ1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0107TJ3.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0204BS1.cmd/Contents/Info.plist
+          Version: 8.27
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0204PM1.cmd/Contents/Info.plist
+          Version: 8.27
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0204PM2.cmd/Contents/Info.plist
+          Version: 8.27
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0206AK1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0206CB1.cmd/Contents/Info.plist
+          Version: 8.27
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0206CB2.cmd/Contents/Info.plist
+          Version: 8.27
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0206SY1.cmd/Contents/Info.plist
+          Version: 8.27
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0206WG1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0207CP1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0207EL1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0304BM1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0304BM2.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0304BM3.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0304BM4.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0304BR1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0304BR2.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0304MR1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0304MR2.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0304MR3.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0304YU2.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0304YU3.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0306IK1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0306IK2.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0306IK3.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0306KL1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0306KU1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0306KU2.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0306KU3.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0306OT1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0306OT2.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0306SO1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0307CP1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0308CI1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0308CI2.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0308CI3.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0406PS1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0408CT1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0408FE1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0508CH1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0508FG1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0704BR1.cmd/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0704CH1.cmd/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0704CH2.cmd/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0704IZ1.cmd/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0704IZ2.cmd/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0704IZ3.cmd/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0704VV1.cmd/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0704VV2.cmd/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0704VV3.cmd/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0706DY1.cmd/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0706DY2.cmd/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0706DY3.cmd/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0706JS1.cmd/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0706JS2.cmd/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0706JS3.cmd/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0904AY1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0904CH1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0904CH2.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0904HL1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP0906LK1.cmd/Contents/Info.plist
+          Version: 8.12
+          Path: /Library/Printers/EPSON/InkjetPrinter2/CmdData/EP1004KT1.cmd/Contents/Info.plist
+          Version: 8.27
+          Path: /Library/Printers/EPSON/InkjetPrinter2/ColorTable/EP1004KT1.lut/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/ColorTable/EP1006BR1.lut/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/ColorTable/EP1006RH1.lut/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Filter/commandtoescp.app/Contents/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Filter/pdftopdf2.app/Contents/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Filter/rastertoescpII.app/Contents/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Halftone/Halftone3T3.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Halftone/Halftone6T2.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Halftone/Halftone7T3.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Halftone/Halftone7T5.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Halftone/Halftone7T6.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/ICCProfiles/SP PX660.profiles/Contents/Info.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/ICCProfiles/Standard.profiles/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/ICCProfiles/Standard_06.profiles/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/ICCProfiles/Standard_07.profiles/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Libraries/EPConvertManager.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Libraries/EPIJDataManager.framework/Versions/A/Frameworks/EPIJDataManager_Core_L.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Libraries/EPIJDataManager.framework/Versions/A/Resources/DataManagerCommonInfo.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Libraries/EPIJDataManager.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Libraries/EPIJDataManager.framework/Versions/A/Resources/PaperSourceInfo.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Libraries/EPIJOpener.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Libraries/EPPolice2.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Libraries/ESCPLib.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP04P0801A.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP04P0801W.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP04P0802A.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP04P0802W.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP04P0806J.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP07P0801J.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP08C0410A.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP08C0410W.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP08C0412J.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP08P0801J.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP09C0408A.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP09C0408J.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP09C0408W.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0401A.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0401J.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0401W.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0402J.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0408W.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0409A.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0409J.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0409W.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0410A.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0411A.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0411J.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0411W.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0601A.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0601J.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0601W.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0602J.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10C0602W.data/Contents/Info.plist
+          Version: 9.05
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10M0401J.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10P0801A.data/Contents/Info.plist
+          Version: 9.29
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10P0801J.data/Contents/Info.plist
+          Version: 9.29
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10P0801W.data/Contents/Info.plist
+          Version: 9.29
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10P0802A.data/Contents/Info.plist
+          Version: 9.34
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP10P0802W.data/Contents/Info.plist
+          Version: 9.19
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP11C0404A.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Machine/EP11C0404W.data/Contents/Info.plist
+          Version: 9.00
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/IraMW1.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/IraMW2.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/IraMW3.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/IraMW4.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/IraMW5.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/IraMW6.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/IraMW7.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/RBRS.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/RBRSII.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/UniMW15.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/UniMW16.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/UniMW19.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/UniMW21.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/UniMW23.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/UniMW27.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/UniMW28.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/UniMW29.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/UniMW30.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/UniMW31.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/UniMW34.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/UniMW35.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MW/UniMW36.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MWRes/EP0408AT1.mwr/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MWRes/EP0704BR1.mwr/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MWRes/EP0704CH1.mwr/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MWRes/EP0704IZ1.mwr/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MWRes/EP0704VV1.mwr/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MWRes/EP0704VV2.mwr/Contents/Info.plist
+          Version: 8.07
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MWRes/EP0706DY1.mwr/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MWRes/EP0706DY2.mwr/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/MWRes/EP1004KT1.mwr/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/PDE/PDECPlugin01.plugin/Contents/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/PrinterIcon/Printer_C100.pib/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/PrinterIcon/Printer_C101.pib/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/PrinterIcon/Printer_C105.pib/Contents/Info.plist
+          Version: 8.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/PrinterIcon/Printer_C109.pib/Contents/Info.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/PrinterIcon/Printer_C110.pib/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/PrinterIcon/Printer_C111.pib/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/PrinterIcon/Printer_C113.pib/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/PrinterIcon/Printer_C114.pib/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/PrinterIcon/Printer_C115.pib/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/PrinterIcon/Printer_P005.pib/Contents/Info.plist
+          Version: 8.39
+          Path: /Library/Printers/EPSON/InkjetPrinter2/PrinterIcon/Printer_V007.pib/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/PrinterIcon/Printer_V008.pib/Contents/Info.plist
+          Version: 8.32
+          Path: /Library/Printers/EPSON/InkjetPrinter2/SupportPrinters/Epson ME OFFICE 82WD.data/Contents/Info.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/SupportPrinters/Epson ME OFFICE 85ND.data/Contents/Info.plist
+          Version: 8.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/SupportPrinters/Epson Stylus Office B42WD.data/Contents/Info.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/SupportPrinters/Epson Stylus Photo PX660.data/Contents/Info.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/SupportPrinters/WorkForce 60.data/Contents/Info.plist
+          Version: 9.04
+          Path: /Library/Printers/EPSON/InkjetPrinter2/SupportPrinters/WorkForce T42WD.data/Contents/Info.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UT1010Core_A.bundle/Contents/Info.plist
+          Version: 8.67
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UT1010Core_A.bundle/Contents/Resources/UTMInfo.plist
+          Version: 8.67
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UT1010Core_W.bundle/Contents/Info.plist
+          Version: 9.04
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UT1010Core_W.bundle/Contents/Resources/UTMInfo.plist
+          Version: 9.04
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UT1015Core_W.bundle/Contents/Info.plist
+          Version: 9.04
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UT1015Core_W.bundle/Contents/Resources/UTMInfo.plist
+          Version: 9.04
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTME OFFICE 82WD_W.bundle/Contents/Info.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTME OFFICE 82WD_W.bundle/Contents/Resources/BuyInkInfo.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTME OFFICE 82WD_W.bundle/Contents/Resources/UTMInfo.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTME OFFICE 85ND_W.bundle/Contents/Info.plist
+          Version: 8.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTME OFFICE 85ND_W.bundle/Contents/Resources/BuyInkInfo.plist
+          Version: 8.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTME OFFICE 85ND_W.bundle/Contents/Resources/UTMInfo.plist
+          Version: 8.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTSO B42WD Series_W.bundle/Contents/Info.plist
+          Version: 9.04
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTSO B42WD Series_W.bundle/Contents/Resources/BuyInkInfo.plist
+          Version: 9.04
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTSO B42WD Series_W.bundle/Contents/Resources/UTMInfo.plist
+          Version: 9.04
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTSP PX660 Series_W.bundle/Contents/Info.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTSP PX660 Series_W.bundle/Contents/Resources/BuyInkInfo.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTSP PX660 Series_W.bundle/Contents/Resources/UTMInfo.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTWF 60 Series_A.bundle/Contents/Info.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTWF 60 Series_A.bundle/Contents/Resources/BuyInkInfo.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTWF 60 Series_A.bundle/Contents/Resources/UTMInfo.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTWF 60 Series_W.bundle/Contents/Info.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTWF 60 Series_W.bundle/Contents/Resources/BuyInkInfo.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTWF 60 Series_W.bundle/Contents/Resources/UTMInfo.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTWF T42WD Series_A.bundle/Contents/Info.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTWF T42WD Series_A.bundle/Contents/Resources/BuyInkInfo.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Bundles/UTWF T42WD Series_A.bundle/Contents/Resources/UTMInfo.plist
+          Version: 8.37
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Epson Printer Utility 4.app/Contents/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Libraries/UtilityCore4.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Libraries/UtilitySub4.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Utility/UTL/Epson Printer Utility Lite.app/Contents/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/Libraries/EPIJPrDrvLib2.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+          Path: /Library/Printers/EPSON/Libraries/EpsonInformationService.framework/Versions/A/Resources/Info.plist
+          Version: 9.60
+
+    Image Capture Devices:
+
+      Image Capture Devices:
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Info.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner4.app/Contents/Info.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner4.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner4.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner6.app/Contents/Info.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner6.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner6.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Info.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/.ICASingle.bundle/Contents/Info.plist
+          Version: 5.3.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/DDC.bundle/Contents/Info.plist
+          Version: 1.1.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/FIT.bundle/Contents/Info.plist
+          Version: 3.7.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Image Filter2.bundle/Contents/Info.plist
+          Version: 4.4.01
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/ImageFilter.bundle/Contents/Info.plist
+          Version: 3.2.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 10C.bundle/Contents/Info.plist
+          Version: 1.6.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 111.bundle/Contents/Info.plist
+          Version: 1.0.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 1D.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 23.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 30.bundle/Contents/Info.plist
+          Version: 1.0.6
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 32.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 41.bundle/Contents/Info.plist
+          Version: 1.1.3
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 43.bundle/Contents/Info.plist
+          Version: 1.1.6
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 52.bundle/Contents/Info.plist
+          Version: 1.1.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 54.bundle/Contents/Info.plist
+          Version: 1.0.11
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 5A.bundle/Contents/Info.plist
+          Version: 1.0.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 66.bundle/Contents/Info.plist
+          Version: 1.0.12
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 68.bundle/Contents/Info.plist
+          Version: 1.1.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 6E.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7A.bundle/Contents/Info.plist
+          Version: 1.0.8
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7C.bundle/Contents/Info.plist
+          Version: 1.0.11
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7E.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 86.bundle/Contents/Info.plist
+          Version: 1.1.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 8B.bundle/Contents/Info.plist
+          Version: 1.0.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 94.bundle/Contents/Info.plist
+          Version: 1.2.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 95.bundle/Contents/Info.plist
+          Version: 1.2.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter A1.bundle/Contents/Info.plist
+          Version: 1.0.9
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter AD.bundle/Contents/Info.plist
+          Version: 1.2.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter C2.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter C3.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter CA.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter DD.bundle/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter EB.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter FE.bundle/Contents/Info.plist
+          Version: 1.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/DeviceInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/HardwareInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ModelInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ProfileInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/RegionCodeInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ResolutionInfo.plist
+          Version: 5.7.24
+
+    Image Capture Support:
+
+      Image Capture Support:
+          Path: /Library/Image Capture/Support/LegacyDeviceDiscoveryHelpers/AirScanLegacyDiscovery.app/Contents/Info.plist
+          Version: 11.4
+
+    System Library Extensions:
+
+      System Library Extensions:
+          Path: /System/Library/Extensions/AppleMobileDevice.kext
+          Version: 3.4.0
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/AppleATAPIStorage.kext
+          Version: 3.7.1
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/AppleXserveRAID.kext
+          Version: 3.7.1
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/FireWireStorageDeviceSpecifics.kext
+          Version: 3.7.1
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/SonyXDCAMDriver.kext
+          Version: 3.7.1
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/USBStorageDeviceSpecifics.kext
+          Version: 3.7.1
+          Path: /System/Library/Extensions/AppleTopCase.kext
+          Version: 86
+          Path: /System/Library/Extensions/AppleTopCase.kext/Contents/PlugIns/AppleTopCaseActuatorHIDDriver.kext
+          Version: 86
+          Path: /System/Library/Extensions/AppleUSBTopCase.kext
+          Version: 245.4
+          Path: /System/Library/Extensions/CellPhoneHelper.kext
+          Version: 1.4.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDEventDriver.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDEventDriverSafeBoot.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDUserClient.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOStreamFamily.kext/Contents/PlugIns/IOStreamUserClient.kext
+          Version: 1.1.0
+          Path: /System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/IOUSBHIDDriverSafeBoot.kext
+          Version: 900.4.1
+          Path: /System/Library/Extensions/IOUSBHostFamily.kext/Contents/PlugIns/IOUSBHostHIDDeviceSafeBoot.kext
+          Version: 1.0.1
+          Path: /System/Library/Extensions/IOVideoFamily.kext/Contents/PlugIns/IOVideoDeviceUserClient.kext
+          Version: 1.2.0
+
+    Library Extensions:
+
+      Library Extensions:
+          Path: /Library/Extensions/EPSONUSBPrintClass.kext
+          Version: 2.2.3
+
+Printers:
+
+    EPSONAA73F4 (Epson Stylus Office B42WD):
+
+      Status: Idle
+      Print Server: Local
+      Driver Version: 9.00
+      Default: No
+      System Printer Sharing: No
+      Shared: No
+      URI: dnssd://EPSONAA73F4%20(Epson%20Stylus%20Office%20B42WD)._printer._tcp.local./auto
+      PPD: EPSON SO B42WD Series
+      PPD File Version: 9.00
+      PostScript Version: (3011.106) 0
+      CUPS Version: 2.1.0 (cups-435.1)
+      Scanning support: No
+      Printer Commands: Clean PrintSelfTestPage ReportLevels 
+      CUPS filters:
+        rastertoescpII:
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Filter/rastertoescpII.app/Contents/MacOS/rastertoescpII
+          Permissions: rwxr-xr-x
+          Version: 9,60
+        commandtoescp:
+          Path: /Library/Printers/EPSON/InkjetPrinter2/Filter/commandtoescp.app/Contents/MacOS/commandtoescp
+          Permissions: rwxr-xr-x
+          Version: 9,60
+      Fax support: No
+      Printer utility: /Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Epson Printer Utility 4.app
+      Printer utility version: 9,60
+      PDEs:
+        PDECPlugin01.plugin:
+          Sandbox compliant: Yes
+
+    HP LaserJet M1536dnf MFP (F8C1C1):
+
+      Status: Idle
+      Print Server: Local
+      Driver Version: 2.0
+      Default: Yes
+      System Printer Sharing: No
+      Shared: No
+      URI: dnssd://HP%20LaserJet%20M1536dnf%20MFP%20(F8C1C1)._ipp._tcp.local./ipp/printer?uuid=434e4339-4334-3642-4b56-78e3b5f8c1c1
+      PPD: HP LaserJet M1536dnf MFP-AirPrint
+      PPD File Version: 2.0
+      PostScript Version: (3010.000) 0
+      CUPS Version: 2.1.0 (cups-435.1)
+      Scanning support: Yes
+      Scanning app (bundleID path): -
+      Scanning app version: -
+      Scanner UUID: 0139DFAF-0139-DFAF-0139-DFAF0139DFAF
+      Printer Commands: none 
+      CUPS filters:
+          image/urf: processed in printer
+          application/vnd.cups-pdf: processed in printer
+      Fax support: No
+      PDEs: 
+
+SPI:
+
+    Apple Internal Keyboard / Trackpad:
+
+      Product ID: 0x0272
+      Vendor ID: 0x05ac (Apple Inc.)
+      Version: 6.22
+      Serial Number: D3H5191VKUSFLHPA84BS
+      Manufacturer: Apple Inc.
+      Location ID: 0x01000000
+
+Software:
+
+    System Software Overview:
+
+      System Version: OS X 10.11.4 (15E65)
+      Kernel Version: Darwin 15.4.0
+      Time since boot: 2 days 6:51
+
+Thunderbolt:
+
+      Thunderbolt: No hardware was found.
+
+USB:
+
+    USB 3.0 Bus:
+
+      Host Controller Driver: AppleUSBXHCIWPT
+      PCI Device ID: 0x9cb1 
+      PCI Revision ID: 0x0003 
+      PCI Vendor ID: 0x8086 
+
+Wi-Fi:
+
+      Software Versions:
+          CoreWLAN: 11.0 (1101.20)
+          CoreWLANKit: 11.0 (1101.20)
+          Menu Extra: 11.0 (1121.34)
+          System Information: 12.0 (1100.2)
+          IO80211 Family: 11.1 (1110.26)
+          Diagnostics: 5.1 (510.88)
+          AirPort Utility: 6.3.6 (636.5)
+      Interfaces:
+        en0:
+          Card Type: AirPort Extreme  (0x14E4, 0x131)
+          Firmware Version: Broadcom BCM43xx 1.0 (7.21.95.175.1a6)
+          MAC Address: a8:66:7f:03:f1:7c
+          Locale: ETSI
+          Country Code: US
+          Supported PHY Modes: 802.11 a/b/g/n/ac
+          Supported Channels: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 144, 149, 153, 157, 161, 165
+          Wake On Wireless: Supported
+          AirDrop: Supported, Channel 149
+          Status: Connected
+

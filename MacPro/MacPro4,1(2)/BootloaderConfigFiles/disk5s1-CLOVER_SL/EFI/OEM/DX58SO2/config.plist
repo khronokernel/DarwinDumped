@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SystemParameters</key>
+	<dict>
+		<key>boot-args</key>
+		<string>-v -f</string>
+		<key>prev-lang:kbd</key>
+		<string>ru:0</string>
+		<key>DefaultBootVolume</key>
+		<string>EINSTEIN</string>
+		<key>CustomUUID</key>
+		<string>860D131C-42C7-552C-B361-10CF3C9725E0</string>
+		<key>InjectSystemID</key>
+		<string>No</string>
+		<key>iCloudFix</key>
+		<string>No</string>
+	</dict>
+	<key>SMBIOS</key>
+	<dict>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>MP51.0081.B07</string>
+		<key>BiosReleaseDate</key>
+		<string>03/03/09</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ProductName</key>
+		<string>MacPro5,1</string>
+		<key>Version</key>
+		<string>1.0</string>
+		<key>Family</key>
+		<string>MacPro</string>
+		<key>SerialNumber</key>
+		<string>CT93051DK9Y</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>Board-ID</key>
+		<string>Mac-F221BEC8</string>
+	</dict>
+	<key>Graphics</key>
+	<dict>
+		<key>GraphicsInjector</key>
+		<string>Yes</string>
+	</dict>
+	<key>PCI</key>
+	<dict>
+		<key>PCIRootUID</key>
+		<string>0</string>
+		<key>HDAInjection</key>
+		<string>No</string>
+		<key>USBInjection</key>
+		<string>No</string>
+	</dict>
+	<key>Pointer</key>
+	<dict>
+		<key>Speed</key>
+		<string>5</string>
+	</dict>
+	<key>ACPI</key>
+	<dict>
+		<key>DropOemSSDT</key>
+		<string>Yes</string>
+		<key>GeneratePStates</key>
+		<string>Yes</string>
+		<key>GenerateCStates</key>
+		<string>Yes</string>
+		<key>EnableC6</key>
+		<string>Yes</string>
+		<key>EnableC4</key>
+		<string>Yes</string>
+		<key>C3Latency</key>
+		<string>0x03E7</string>
+		<key>EnableC2</key>
+		<string>Yes</string>
+		<key>EnableISS</key>
+		<string>No</string>
+		<key>PLimitDict</key>
+		<string>0</string>
+		<key>UnderVoltStep</key>
+		<string>0</string>
+		<key>ResetAddress</key>
+		<string>0x64</string>
+		<key>ResetValue</key>
+		<string>0xFE</string>
+		<key>FixDsdtMask</key>
+		<string>0xFFFF</string>
+		<key>PatchNMI</key>
+		<string>No</string>
+	</dict>
+	<key>KernelAndKextPatches</key>
+	<dict>
+		<key>KernelCpu</key>
+		<string>No</string>
+		<key>ATIConnectorInfo</key>
+		<string>No</string>
+		<key>AsusAICPUPM</key>
+		<string>No</string>
+		<key>AppleRTC</key>
+		<string>Yes</string>
+	</dict>
+</dict>
+</plist>

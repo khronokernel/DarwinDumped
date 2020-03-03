@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kernel Cache</key>
+	<string>/.IABootFiles/kernelcache</string>
+	<key>Kernel Flags</key>
+	<string>container-dmg=file:///Install%20OS%20X%20Mavericks.app/Contents/SharedSupport/InstallESD.dmg root-dmg=file:///BaseSystem.dmg</string>
+</dict>
+</plist>

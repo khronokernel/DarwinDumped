@@ -1,0 +1,11 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"14804","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"14806","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"14808","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"14810","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"14812","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"14814","ColType":"String","ColValue":"ADIO"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"14816","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"14818","ColType":"String","ColValue":"ADIO"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"14820","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"14822","ColType":"String","ColValue":"com.apple.driver.AppleBridgeAudioController"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"14824","ColType":"String","ColValue":"BridgeAudioControllerUserClient"}},
+{"data":{"title":"IOClass"},"attr":{"id":"14826","ColType":"String","ColValue":"BridgeAudioControllerPCI"}}
+]

@@ -1,0 +1,8 @@
+Device   Name                   Volume UUID                                      Unique partition GUID 
+                                (Example Usage: Kernel flag rd=uuid boot-uuid=)  (Example Usage: Clover Hide Volume) 
+disk0s1  /Volumes/EFI           E783267B-A4C3-3556-B751-DBED770EB996              
+disk0s2  /Volumes/                                                                
+disk1s1  /Volumes/Macintosh HD  E1AA7079-DD8A-3A02-B000-EA6480BC7839              
+disk1s2  /Volumes/Preboot       266F1556-7127-422C-AB94-770D0820B279              
+disk1s3  /Volumes/Recovery      DA9C2C38-714C-4A11-8E38-104C685D8EC2              
+disk1s4  /Volumes/VM            CBFF679A-45B5-4631-BD27-C2D4A360B144              

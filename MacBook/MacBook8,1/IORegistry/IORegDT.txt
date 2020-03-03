@@ -1,0 +1,1454 @@
++-o Root  <class IORegistryEntry, id 0x100000100, retain 13>
+  | {
+  |   "IOKitBuildVersion" = "Darwin Kernel Version 15.4.0: Fri Feb 26 22:08:05 PST 2016; root:xnu-3248.40.184~3/RELEASE_X86_64"
+  |   "OS Build Version" = "15E65"
+  |   "IOBluetoothActive" = Yes
+  |   "OSKernelCPUSubtype" = 3
+  |   "OSKernelCPUType" = 16777223
+  |   "OSPrelinkKextCount" = 265
+  |   "IOConsoleLocked" = No
+  |   "IORegistryPlanes" = {"IOACPIPlane"="IOACPIPlane","IOPower"="IOPower","IODeviceTree"="IODeviceTree","IOService"="IOService","IO80211Plane"="IO80211Plane","CoreCapture"="CoreCapture"}
+  |   "IOConsoleUsers" = ({"kCGSSessionOnConsoleKey"=Yes,"kCGSSessionLoginwindowSafeLogin"=No,"kSCSecuritySessionID"=100007,"kCGSessionLongUserNameKey"="Alexander Loktev","kCGSSessionUserIDKey"=501,"kCGSSessionSystemSafeBoot"=No,"kCGSessionLoginDoneKey"=Yes,"kCGSSessionIDKey"=257,"kCGSSessionGroupIDKey"=20,"kCGSSessionUserNameKey"="alex","kCGSSessionAuditIDKey"=100007})
+  |   "IOKitDiagnostics" = {"Container allocation"=9187030,"Instance allocation"=9192080,"Pageable allocation"=1595748352,"Classes"={"CCIOReporterHub"=2,"IOHDIXCommand"=0,"AppleACPIButton"=2,"IORegistryDescriptorC5"=4,"_IOConfigThread"=0,"IOThunderboltSwitchType3"=0,"IOInterleavedMemoryDescriptor"=0,"IOAGPDevice"=0,"IOHIDPointing"=1,"IOHIDEventRepairDriver"=0,"IOSMBusController"=1,"IOGraphicsAccelerator2"=1,"AppleACPICPUInterruptController"=1,"IOUSBRootHubDevice"=0,"OSSerialize"=1,"IOBreaker"=0,"IGAccelEventMachine"=1,"IO80211Peer"=1,"AppleHDAFunctionGroupATI_RS710"=0,"AppleUSBXHCIIsochronousEndpoint"=0,"AppleHSSPIDevice"=1,"AppleUSBHostControllerIsochListElement"=0,"IOSlowAdaptiveClockingDomain"=0,"IGRangeAllocator"=45,"DspParameter"=207,"hv_vmx_space_t"=0,"IOMemoryCursor"=1,"IOUserClient"=29,"IOThunderboltTransmitQueue"=0,"IORegistryIterator"=0,"IOBluetoothHostController"=1,"IOThunderboltFindCapabilityCommand"=0,"IOServicePM"=75,"IOUSBLog"=0,"IOAccelResource2"=1,"IOBluetoothObject"=0,"AppleHDAWidgetATI_Park"=0,"OSArray"=6636,"AppleLMUClient"=2,"AppleIntelFramebuffer"=2,"IOSubMemoryDescriptor"=6,"AppleGraphicsControl"=0,"IOAccelMemory"=1,"OSObject"=116,"IOThunderboltPath"=0,"DspFuncPreGain"=0,"IOApplePartitionScheme"=0,"PMHaltWorker"=0,"AppleUSBXHCIPCI"=1,"com_apple_driver_pmtelemetry"=1,"IOTimerEventSource"=163,"IOPCIMessagedInterruptController"=1,"AppleHDAFunctionGroup_10DE0014"=0,"IOThunderboltConfigPrepareToSleepCommand"=0,"IOMemoryDescriptor"=3,"MEIDriverIOEventSource"=3,"IGHwCsStatsTracker"=4,"AppleUSBXHCIWPT"=1,"AppleHDAAudioSelectorControlDP"=0,"IOThunderboltConfigReadQuadletCommand"=0,"IGMemoryManager"=1,"AppleUSBHostControllerListElement"=0,"AppleIntelPanelA"=1,"IGAccelDisplayMachine"=1,"AppleSmartBatteryManager"=1,"AppleACPILid"=1,"IODTPlatformExpert"=1,"com_apple_driver_pm_cstate_reporter"=1,"Stopwatch"=8,"AppleUSBHubPolicyMaker"=0,"AppleMobileFileIntegrity"=1,"IOConditionLock"=0,"IOUSBInterfaceIterator"=0,"AppleMultitouchHIDEventDriver"=0,"mDNSHandoff"=1,"AppleUSBController"=0,"IO80211NetBootNub"=0,"IOBluetoothMemoryDescriptorRetainer"=0,"IOThunderboltDeficitCommandQueue"=0,"DspFuncClientGainAdjust"=1,"IOUSBControllerV2"=0,"AppleEFIRuntime"=1,"IOAppleLabelScheme"=0,"AppleHDAWidgetALC885"=0,"AirPort_Brcm4360_P2PInterface"=2,"IOUSBHostPipe"=0,"IOBluetoothDevice"=0,"AppleMultitouchEventDriverWrapper"=1,"IORegistryDescriptorC2"=1,"AirPort_Brcm4360_InputQueue"=1,"IGScheduler1"=1,"com_apple_driver_pm_reporter"=6,"IO80211ScanManager"=1,"CCStream"=2,"IOHIDWorkLoop"=1,"_IOFramebufferNotifier"=11,"IGHardwareRingBufferBlit"=7,"IOThunderboltIECSNub"=0,"AppleHIDTransportHIDDevice"=0,"AppleHDAWidgetWM8800"=0,"AppleUSBHostResourcesClient"=1,"DspFuncMultiBandCompressor"=0,"IOHIDUserClient"=1,"HIDMTQueueEventSourceWorkItem"=0,"AppleUSBInterface"=0,"IOMultiMemoryDescriptor"=447,"DspFuncLoudness"=1,"IOCommandPool"=4,"IGAccelCommandQueue"=39,"DspFuncAudioMeter"=0,"IOThunderboltPacketLoggerNub"=0,"IOBluetoothRFCOMMConnectionUserClient"=0,"IOHIDKeyboard"=1,"IOThunderboltArray"=0,"OSNumber"=8893,"IOHIDElement"=1,"IOPacketQueue"=1,"PMAssertionsTracker"=1,"AppleGraphicsDeviceControlClient"=2,"IOPlatformExpert"=1,"IOHIDResourceDeviceUserClient"=0,"IOServiceMessageUserNotification"=144,"AppleMCCSControlModule"=2,"IOHDACodecFunction"=1,"AppleUSBXHCIPort"=2,"AppleHDATDMDevice"=1,"IODisplayConnect"=1,"IOHDIXHDDriveOutKernel"=0,"IOUSBControllerListElement"=0,"AppleMultitouchEventServiceWrapper"=0,"LogManagerDevice"=3,"AppleBacklightDisplay"=1,"IGAccelCLContext"=0,"IOOutputQueue"=1,"AppleHDATDM_Codec"=0,"IOThunderboltIECSCommand"=0,"IOAccelEventMachineFast2"=1,"IOEventSource"=17,"AppleSMBusDevice"=0,"com_apple_AppleFSCompression_AppleFSCompressionTypeDataless"=1,"IOThunderboltAbstractMicro"=0,"AppleHDATDM_CS42L83"=0,"AppleHDAWidgetAD1984"=0,"AirPort_Brcm4360"=1,"AppleIntelSlowAdaptiveClockingManager"=1,"AppleGraphicsDeviceControl"=2,"AppleIntelSPIDevice"=1,"IGFence"=0,"AppleHDACodec"=1,"IOFramebufferParameterHandler"=2,"IOPanicPlatform"=0,"IOSlowAdaptiveClockingManager"=1,"IOUSBControllerV3"=0,"IOBluetoothL2CAPSupervisoryFrameMemoryBlock"=0,"IO80211VirtualInterfaceNamer"=1,"AppleSMC"=1,"OSKext"=118,"X86PlatformShim"=1,"AppleSMBusControllerUserClient"=0,"AppleNVMeS3XBlockDevice"=0,"IGAccelSegmentResourceList"=0,"IOThunderboltConfigXDomainLinkChangeRequestCommand"=0,"IOBluetoothHCIUserClient"=15,"IOThunderboltConfigMultiReadCommand"=0,"AppleHDAControllerUserClient"=0,"AppleEmbeddedKeyboard"=1,"IOUSBBus"=0,"IOBootFramebuffer"=0,"AppleHIDTransportIODataQueue"=0,"IOBluetoothLocalUtilityEventSource"=0,"AppleHDAWorkLoop"=2,"AppleHDAFunctionGroupGK10X"=0,"IORootParent"=1,"IOBluetoothSerialClientModemStreamSync"=0,"AppleHDAWidgetSTAC9220"=0,"IOAccelChannel2"=1,"AppleMobileFileIntegrityUserClient"=0,"IOAccelCommandBufferPool2"=10,"IOAccelContext2"=2,"AppleHDATDMAmpTAS5758L"=0,"ApplePlatformEnablerUserClient"=0,"IOThunderboltControlPathListener"=0,"IO80211ServiceRequestDescriptor"=2,"IOAccelCommandQueue"=1,"AppleHDAWidgetFactory"=0,"AppleUSB30XHCICardReaderPort"=0,"ApplePlatformEnabler"=1,"IOHIDResource"=1,"DspFunc2To6Splitter"=0,"com_apple_driver_pm_ltr_reporter"=1,"AppleHDAFunctionGroupCS8409"=0,"IOAccelMemoryMap"=1,"AppleHDATDMAmpMAX98706"=0,"AppleIntelSPIController"=1,"IOMemoryMap"=1913,"IOAccelDeviceShmem"=6,"CCIOReporterLogStream"=1,"IO80211Interface"=1,"IOCharacterDevice"=3,"AppleHDAWidget_80862807"=0,"IOThunderboltConfigCommand"=0,"IOThunderboltEEPROM"=0,"IGAccelMemoryMap"=1794,"IOI2CInterface"=1,"IOAudioDevice"=1,"AppleHDAMikeyInternalCS8409"=0,"IOSCSIMultipathedLogicalUnit"=0,"IOPMPowerSourceList"=0,"IOThunderboltXDPropertiesEntry"=0,"IO80211P2PInterface"=1,"AppleUSBHostBusCurrentPool"=1,"AppleHSSPIInterface"=5,"IOAccelShared2"=21,"IOAudioToggleControl"=8,"IOAudioStream"=1,"IGHardwareRingBuffer"=3,"IOThunderboltConfigXDomainUUIDRequestCommand"=0,"DspFuncBuzzKill"=1,"AppleHPM"=1,"AppleHIDTransportBootloaderUserClient"=0,"IOSCSILogicalUnitNub"=0,"AppleUSBHostSynchronousRequestCompleter"=0,"IOReportLegend"=4,"AHTQueueEventSource"=0,"IOAccelDisplayMachine2"=1,"AppleUSBXHCIFL1100"=0,"IOPowerConnection"=70,"IOUSBLowLatencyCommandLegacy"=0,"RSNSupplicant"=1,"IOPMServiceInterestNotifier"=101,"IGHardwareBlit2DContext"=7,"AppleHIDTransportProtocol"=0,"AppleHDAWidget_1002AAA0"=0,"IOPCIBridge"=2,"IO80211AssociationJoinSnapshot"=1,"AppleHDAPathControl"=8,"_IOServiceNotifier"=266,"AppleHDAEngine"=2,"IOHIDKeyboardDevice"=0,"IOHDAController"=1,"AppleEFINVRAM"=1,"DspFuncVirtualization"=0,"IOPCIDevice"=20,"IOGraphicsDevice"=1,"IOAudioPort"=0,"AppleActuatorHIDEventDriver"=1,"IGStolenMemoryDescriptor"=36,"IOBluetoothDataQueue"=0,"IOThunderboltLocalNode"=0,"IOThunderboltXDPropertiesImmediateValue"=0,"IOThunderboltConfigWriteQuadletCommand"=0,"AppleUSB30XHCIPort"=1,"IOInterruptEventSource"=69,"AGPMController"=1,"AppleACPIEventController"=1,"IOHDAStream"=2,"IOHIDevice"=2,"IOPlatformPluginFamily"=1,"IOPMRequest"=0,"DspFuncMozartCompressorDualBand"=1,"IOThunderboltUserObjectExporter"=0,"IOPlatformExpertDevice"=1,"IOHITabletPointer"=0,"IOThunderboltI2CCommandQueue"=0,"IORegistryPlane"=6,"IOUSBInterface"=0,"AGDPClientControl"=1,"AppleMultitouchMouseHIDEventDriver"=0,"AppleUSBRootHubDevice"=0,"DspFuncDelay"=0,"AppleUSBHostDARTDMACommand"=0,"IOLittleMemoryCursor"=0,"AppleUSBLegacyRoot"=1,"IOAccelMemoryInfoUserClient"=146,"IOThunderboltControlPath"=0,"IOHIDEventDriver"=2,"AppleHDAFunctionGroupATI_Park"=0,"HDCPCtrl"=0,"IOSurfaceRootUserClient"=17,"IOMbufMemoryCursor"=1,"IGAccelVideoContext"=0,"IOThunderboltUserProtocolListener"=0,"IOBluetoothACLMemoryDescriptor"=1,"IGHardwareDisplayContext"=1,"IOThunderboltFamilyUserClient"=0,"AppleMultitouchTrackpadHIDEventDriver"=1,"IOAudioControlUserClient"=19,"IGHardwareRingBufferMedia"=1,"com_apple_driver_pm_msr_reporter"=1,"AppleIntelFBController"=1,"IGHardwareCommandStreamer1"=4,"AudioAUUC"=0,"BroadcomBluetoothHostController"=1,"AppleSmartBatteryManagerUserClient"=0,"AppleHDAFunctionGroupExternalControl_GPIO"=3,"AppleHDATDMAmpSSM3515"=0,"IOAccelBlockFencePort2"=39,"IOAccelSharedNamespace2"=21,"AppleUSBXHCIPPT"=0,"AppleNVMeSMARTUserClient"=0,"IO80211PeerExtendedStats"=0,"OSData"=55220,"IOThunderboltConfigModifyQuadletCommand"=0,"IOHIDDeviceShim"=0,"IODMACommand"=50,"IOMbufNaturalMemoryCursor"=1,"IOPlatformDevice"=3,"IOPCI2PCIBridge"=4,"AppleHSSPIHIDDriver"=5,"AppleIntelLpssI2C"=1,"IOUSBHubDevice"=0,"IOBluetoothMemoryBlockQueue"=0,"IOThunderboltXDPropertiesLeafText"=0,"IOPartitionScheme"=1,"IOBufferMemoryDescriptor"=2895,"AppleIntel16X50UARTSyncStats"=1,"AppleIntelLpssI2CGate"=1,"IOBluetoothL2CAPChannel"=0,"AppleNVMeControllerPolledAdapter"=1,"IOWatchDogTimer"=2,"IOUSBController"=0,"AppleUSBPipe"=0,"IOGeneralMemoryDescriptor"=349,"DspFuncMozartCompressor"=1,"AppleActuatorDeviceUserClient"=1,"OSMetaClass"=0,"OSIterator"=2,"IOAccelDisplayPipeGammaTable2"=2,"AppleHDAFunctionGroupCS4206"=0,"IOBluetoothDeviceUserClient"=0,"OSSymbol"=6536,"OSString"=8811,"EFIData"=42,"IGHardwarePageTable"=2,"DspFunc6ChOutput"=0,"IOHistogramReporter"=3,"IOKitDiagnosticsClient"=0,"hv_vcpu_t"=0,"IO80211VirtualInterface"=1,"AppleUSBXHCISPT"=0,"IOHIDLibUserClient"=10,"_IOServiceInterestNotifier"=70,"TDMConfig"=1,"AppleBusControllerCS8409"=0,"IOMapper"=1,"AppleCredentialManager"=1,"IOUserIterator"=29,"DspFunc2To4Splitter"=0,"AppleHDAFunctionGroupGT216"=0,"IOAccelEventMachine2"=1,"AppleOSXWatchdog"=1,"IOHIKeyboardMapper"=2,"DspFunc"=8,"IOBluetoothL2CAPSignalChannel"=0,"IOThunderboltSwitchI2CCommandQueue"=0,"AppleHDADriverUserClient"=0,"AppleIntelPanel"=1,"DspFuncAutoGainControl"=0,"IGHardwarePerProcessPageTable32Unmanaged"=22,"AppleHDATDMBusManagerCS8409"=0,"DspFuncChOutput"=1,"IOHIDEventSource"=5,"com_apple_AppleFSCompression_AppleFSCompressionTypeZlib"=1,"DspFuncSplineLimiter"=0,"HIDAlwaysNotifyingIODataQueue"=1,"IOThunderboltCommand"=0,"AppleIntelPAVPEventSource"=1,"IOThunderboltConfigXDomainPathTeardownRequestCommand"=0,"IO80211QueueDescriptor"=4,"IOThunderboltAbstractPath"=0,"CamelliaBase"=1,"IOThunderboltData"=0,"AirPort_Brcm4360_Interface"=1,"AppleSMBusControllerMCP"=0,"IOCommandGate"=199,"IOHIDConsumer"=1,"IO80211AWDLPeerManager"=1,"AppleHDAFunctionGroupExternalControlFactory"=0,"CamelliaTcon2"=1,"AppleHDAWidget_10DE0014"=0,"AppleIntelI2CCommand"=0,"IOPMRequestQueue"=2,"IOThunderboltReceiveCommand"=0,"AppleSCSISubsystemGlobals"=1,"IOSerialBSDClient"=1,"IOMediaBSDClient"=4,"IOSCSIProtocolServices"=0,"IORegistryDescriptorC3"=1,"IOBluetoothRFCOMMConnection"=0,"IOHIDPointingDevice"=0,"IOUSBPortInterruptEventSource"=3,"AppleHDACodecGeneric"=1,"IONetworkController"=1,"IOThunderboltXDomainService"=0,"HSSPIIODataQueue_AppleHSSPIController"=0,"AppleCredentialManagerUserClient"=0,"IOThunderboltNHITransmitRing"=0,"IONDRVFramebuffer"=0,"SMCPolledInterface"=1,"AppleUSBXHCISPTLP"=0,"CCPipeUserClient"=0,"IOThunderboltNumber"=0,"IODTNVRAM"=1,"AppleUpstreamUserClientDriver"=2,"IOACPIPlatformExpert"=1,"AppleUSBHostDMACommand"=0,"AppleUSBHostResources"=1,"com_apple_driver_pm_pch_reporter"=1,"AppleUSBInterfaceIterator"=0,"IOGraphicsWorkLoop"=2,"IOThunderboltSwitchLC"=0,"IOThunderboltConfigReadCommand"=0,"X86PlatformPlugin"=1,"IOHDIXController"=1,"IOKDP"=0,"IOBluetoothHCIPacketLogUserClient"=0,"IOHIDEventServiceQueue"=0,"AppleNVMeRequestTimer"=1,"IOInterruptController"=5,"AGPMHeuristic1"=0,"IOBluetoothHCIController"=1,"IOAccelerationUserClient"=1,"AppleUSBHostControllerIsochEndpoint"=0,"AppleSMBusController"=0,"AppleMCCSControlCello"=0,"AppleHDAWidgetCS4206"=0,"IOThunderboltDispatchQueue"=0,"AppleHSSPICommand"=30,"AppleHDAFunctionGroupATI_RS780"=0,"IOThunderboltNHIReceiveRing"=0,"AppleHDAWidgetAD1988"=0,"IOUSBCommand"=0,"IGAccel2DContext"=2,"IOHIDElementPrivate"=1593,"AppleHSSPIController"=1,"CCLogStream"=3,"AppleHDATDMSinkDevice"=1,"AGPMHeuristic3"=0,"IOFramebufferUserClient"=2,"IOThunderboltXDomainLink"=0,"IOStateReporter"=26,"AppleGraphicsDevicePolicy"=1,"AppleIntelI2CDevice"=1,"IGFenceAllocator"=1,"AppleHDAFunctionGroupALC262"=0,"at_obdev_LSNKE"=1,"CSRBluetoothHostController"=0,"IOHIDSystem"=1,"AGPMClient"=1,"AppleHDAMikeyInternal"=1,"IOBluetoothHostControllerUARTTransport"=1,"AppleActuatorDevice"=1,"SCSITask"=0,"IGAccelStatistics"=1,"IGHardwarePerProcessPageTable32Managed"=0,"IOThunderboltString"=0,"IOFilterScheme"=0,"IOUSBHostStream"=0,"IOCPU"=1,"AppleUSBXHCIEndpoint"=0,"IGHardwareContext"=88,"AppleHDAFunctionGroupExternalControl"=1,"RootDomainUserClient"=74,"OSCollectionIterator"=36,"AppleACPIACAdapter"=1,"IOHIDDevice"=1,"AppleKeyStore"=1,"AppleUSBXHCIDevice"=0,"IO80211PeerManager"=1,"AppleHPMUserClient"=0,"OSSerializer"=17,"IOBlockStorageDevice"=1,"IOUSBNotification"=0,"IOAccelSurface2"=1,"PMTraceWorker"=1,"AppleMultitouchDevice"=1,"IOBluetoothL2CAPChannelUserClient"=0,"IOUserEthernetResourceUserClient"=0,"mDNSOffloadUserClient"=0,"AppleUSBXHCIStream"=0,"AppleHSSPIControllerUserClient"=0,"DspFunc2Dot2Crossover"=0,"OSDictionary"=11363,"AppleMCCSParameterHandler"=2,"AppleUSBHostDescriptorCache"=0,"IOUSBHostInterface"=0,"AppleUSBXHCIRequest"=6,"IOReportHub"=1,"AppleMCCSUserClient"=0,"IOThunderboltConfigXDomainResponseCommand"=0,"IOThunderboltLinkController"=0,"IOHIDEventQueue"=0,"AppleUSBHostPort"=1,"AppleMultitouchInputHIDEventDriver"=1,"PMSettingObject"=6,"IOThunderboltStatistics"=0,"IOThunderboltConfigXDomainCommand"=0,"IOAudioLevelControl"=3,"IOAudioClientBufferSet"=0,"IOHDIXCommandQueue"=0,"IO80211AWDLMulticastPeer"=1,"AppleACPIEC"=1,"AppleIntel16X50BusInterface"=1,"AppleSMCClient"=2,"IGAccelDevice"=22,"AppleSmartBattery"=1,"com_apple_driver_pm_msr_limits_reporter"=1,"IOEthernetInterface"=1,"IOHDIXControllerUserClient"=0,"IOAudioEngineUserClient"=16,"IOAudioTimeIntervalFilter"=1,"AppleUSBHostDescriptor"=0,"IGHardwareExtendedContext"=4,"DspFunc4ChOutput"=1,"AppleUSBXHCITDPool"=1,"IOThunderboltTransmitCommand"=0,"IO80211ControllerMonitor"=1,"IOThunderboltConfigNotifyAckCommand"=0,"AppleOSXWatchdogClient"=1,"IOHDIXHDDriveOutKernelUserClient"=0,"AppleHDAFunctionGroup_80862805"=0,"AppleBusControllerFactory"=0,"AppleHDAWidgetATI_RS730"=0,"IONetworkUserClient"=0,"AppleHDAFunctionGroupExternalControl_VirtualGPO"=0,"IOHIDStackShotUserClient"=0,"AppleUSBHostRequestPool"=1,"IOSCSIPeripheralDeviceNub"=0,"AppleMCCSControlFamily"=1,"IOPMinformeeList"=75,"DspFuncMultiBandDRC"=0,"IOAudioControl"=3,"IOBluetoothSerialClient"=1,"AppleHPMLPSS"=1,"IOAudioTimeIntervalFilterIIR"=2,"AppleHDAPath"=4,"IOAccelStatistics2"=1,"AppleHDAFunctionGroupFactory"=0,"AppleHDATDM_CS42L81"=0,"AppleUSBHostBusCurrentClient"=2,"AppleHVClient"=0,"IOBluetoothRFCOMMChannel"=0,"IGStolenMemoryPool"=1,"IOThunderboltNub"=0,"IOHIKeyboard"=2,"IOThunderboltFrameList"=0,"IOFilterInterruptEventSource"=9,"IOAccelRangeAllocator"=0,"IOHITablet"=1,"AppleACPICPU"=4,"IOSurfaceRoot"=1,"IOThunderboltSwitchType1"=0,"CCDataPipe"=2,"DspFuncStereoEnhancer"=0,"AppleSMBusControllerICH"=0,"IOGUIDPartitionScheme"=1,"IOSerialStreamSync"=1,"IOHIDEventSystemUserClient"=0,"AppleACPIEventPoller"=1,"AppleUSBXHCILPT"=1,"AppleUSBHostIORequestPool"=0,"IOPlatformPluginFamilyPriv"=1,"IOSCSITargetDevice"=0,"DspFuncCalibrationEQ"=3,"AppleHDAWidgetCS4208"=36,"IORS232SerialStreamSync"=2,"IOSimpleReporter"=86,"DigitizerTransducer"=0,"IODeblocker"=0,"AppleDisplay"=0,"IOUSBControllerIsochEndpoint"=0,"IOUSBPipe"=0,"IOAccelMemoryAllocator2"=0,"IOAccelDevice2"=1,"IOSurface"=29,"IGSchedJobQueueDataPriority"=4,"IGAccelDisplayPipe"=2,"IGHardwareRingBufferMain"=96,"IOBluetoothHostControllerTransport"=1,"IOThunderboltConnectionManager"=0,"IOGatedOutputQueue"=16,"IOSurfaceSendRight"=0,"IOThunderboltXDPropertiesDirectory"=0,"AppleHIDTransportBootloader"=0,"IOThunderboltTimerCommandQueue"=0,"_IOOpenServiceIterator"=0,"IOThunderboltPortMicro"=0,"IODisplayParameterHandler"=3,"IONetworkStackUserClient"=1,"IOCommand"=47,"DspPatchPoint"=72,"AppleMultitouchTimestampSync"=0,"AppleUSBXHCIIsochronousTransferRing"=0,"AppleACPIPowerResource"=0,"DspFunc3ChOutput"=0,"IOReportUserClient"=1,"IOPMPowerSource"=1,"IOHIDResourceQueue"=0,"SMCWatchDogTimer"=1,"IGSchedJobQueueData"=1,"MEICompletion"=0,"IOBluetoothRFCOMMChannelUserClient"=0,"IO80211ActionFrameDescriptor"=0,"AppleHDAWidget"=1,"AppleUSBXHCILPTCommandRing"=1,"CamelliaTcon1"=0,"IOAccelGLContext2"=1,"AppleUSBXHCIPipe"=0,"IOThunderboltConfigCompareSwapCommand"=0,"IOBacklightDisplay"=1,"AppleHDAFunctionGroupSTAC9220"=0,"IOUSBPipeV2"=0,"IOThunderboltPort"=0,"OSBoolean"=2,"DspFuncCrossover"=0,"IOUSBDevice"=0,"IOHIDParamUserClient"=1,"IOHIDAsyncReportQueue"=0,"AppleSMCFamily"=1,"IOBasicOutputQueue"=1,"DspFuncStereoToMono"=0,"AppleBacklightParameterHandler"=1,"IOAudioEngineEntry"=0,"DspFuncVolume_4ch"=0,"AppleHDAFunctionGroupAD1988"=0,"IGHardwareResolveContext"=2,"IOSCSIPrimaryCommandsDevice"=0,"IGSharedMappedBuffer"=136,"AppleHDAFunctionGroup_80862807"=0,"IOThunderboltReceiveQueue"=0,"AppleHDAFunctionGroup_1002AAA0"=0,"IOAccelDisplayPipe2"=1,"DspFunc2WayCrossover"=0,"IOHDIXHDDriveNub"=0,"IOBluetoothInactivityTimerEventSource"=0,"IOThunderboltProtocolListener"=0,"AppleUSBXHCIParkingCommandRing"=1,"IONDRVDevice"=0,"IOMbufLittleMemoryCursor"=0,"IOUserNotification"=2,"IO80211PeerMonitor"=0,"CCDataPipeUserClient"=0,"AppleHIDKeyboardEventDriverV2"=1,"IOThunderboltIECSCommandQueue"=0,"IOBlockStorageDriver"=1,"IOService"=150,"AppleHDATDMBusManager"=1,"IGAccelSurface"=7,"IOHIDEvent"=0,"AGPMEventSource"=1,"IONetworkStack"=1,"AppleNVMeWorkLoop"=1,"IOSerialDriverSync"=1,"IOAccelBufferMemoryDescriptorPool2"=1,"IOUSBHostFamilyLog"=1,"IOBluetoothTimerEventSource"=0,"IOThunderboltConfigWriteCommand"=0,"Dont_Steal_Mac_OS_X"=1,"IORegistryEntry"=22,"EventQueue"=1,"IOThunderboltController"=0,"CCPipe"=2,"AppleUSBHostBusCurrentAllocator"=3,"IODMAController"=0,"AppleIntelI2CController"=1,"IOBootNDRV"=0,"IOModemSerialStreamSync"=0,"IOHIPointing"=1,"IOServiceUserNotification"=203,"IOStorage"=3,"IGAccelTask"=22,"IGMappedBuffer"=23,"DspFuncNoiseCanceller"=1,"AppleHPMDevice"=1,"CCIOReporterDataStream"=1,"IORegistryDescriptorC4"=1,"AppleMultitouchTimestampSyncUC"=0,"AppleUSBXHCIStreamingEndpoint"=0,"IOThunderboltCallbackEventSource"=0,"IOThunderboltSwitch"=0,"IONVMeController"=1,"IOAccelCLContext2"=0,"IOBluetoothSCOMemoryDescriptorRetainer"=0,"IOHDACodecDevice"=2,"AppleNVMeRequest"=256,"CCLogPipeUserClient"=0,"AppleAPICInterruptController"=1,"IOSMBusRequest"=0,"AppleHDAEngineUserClient"=0,"IOUSBInterfaceUserClientV3"=0,"IOAccelDrawable2"=0,"DspFuncLimiter"=0,"IOBigMemoryCursor"=0,"IGHardwareRingBufferMedia2"=0,"DspFuncUserClient"=0,"AppleHDAFunctionGroupATI_Broadway"=0,"AppleUSB20XHCIPort"=2,"IOHIDProviderPropertyMerger"=0,"AppleUSBXHCI"=1,"OSCollection"=5,"CCDataStream"=2,"AppleHDAFunctionGroupALC885"=0,"AppleCamInUserClient"=0,"AppleHDAFunctionGroupCS4208"=1,"IOThunderboltXDPropertiesLeafData"=0,"IOUSBHostDevice"=0,"AppleRTC"=1,"AGPM"=1,"AppleACPIPlatformExpert"=1,"IOPolledFilePollers"=1,"IOHDIXHDDrive"=0,"AppleIntelLpssGspi"=1,"PMSettingHandle"=6,"AppleNVMeController"=1,"CCLogPipe"=3,"AppleNVMeRequestPool"=1,"CCCapture"=0,"IOSyncer"=0,"IOAccelerator"=1,"AppleHDAMikeyInternalCS4208"=1,"MEIClientList"=1,"IONaturalMemoryCursor"=0,"AppleIntelDisplayPath"=2,"IOSurfaceClient"=33,"IOThunderboltConfigXDomainROMChangedRequestCommand"=0,"hv_vmx_vm_t"=0,"IOUSBHostIOSource"=0,"IOBluetoothHCIRequest"=0,"IONotifier"=3,"AppleHIDTransportInterface"=0,"EventElementCollection"=0,"IOCatalogue"=1,"AppleUSBHostController"=1,"EupDSP"=0,"AppleMultitouchHIDService"=0,"AppleHDAWidgetGT216"=0,"IOUserEthernetResource"=1,"AirPort_Brcm4360_Timer"=50,"IOAccelNamespace"=22,"IOUSBWorkLoop"=0,"IOPolledInterface"=3,"AppleIntelI2CCommandQueue"=1,"IGHardwareGlobalPageTable"=1,"IOSCSIProtocolInterface"=0,"IGHardwareBlit3DContext"=7,"AudioAUUCDriver"=1,"IOKernelDebugger"=0,"IOUSBIsocCommand"=0,"IOMedia"=7,"AppleACPIInterruptLink"=0,"IOThunderboltCommandGate"=0,"IOHIDInterface"=5,"IOAccelAllocationInfo"=0,"AppleMCCSIOController"=4,"IOAudioTimeIntervalFilterFIR"=0,"IOThunderboltConfigXDomainLinkStatusRequestCommand"=0,"AppleHDAWidgetGK10X"=0,"AppleUSBHostRequestCompleter"=1,"AppleHDAFunctionGroupWM8800"=0,"IORegistryDescriptorC1"=3,"IOThunderboltSwitchType2"=0,"IOThunderboltNHI"=0,"AppleHDAController"=2,"AppleHDAFunctionGroupMCP89"=0,"AppleLPC"=1,"AppleIntelLpssI2CController"=1,"AppleUSBXHCILPTH"=0,"AppleHDAWidgetMCP79"=0,"IOUserEthernetInterface"=0,"AppleUSBXHCICommandRing"=1,"IONDRV"=0,"IOThunderboltConfigCMOverrideCommand"=0,"AppleUSBHostMergeProperties"=1,"AppleUSBIORequest"=0,"AppleIntelLpssDmacChannel"=0,"AppleHV"=1,"AppleMultitouchHIDEventDriverV2"=1,"IOAccelDisplayPipeUserClient2"=1,"AppleHIDTransportManagement"=0,"HIDSPIQueueEventSource"=5,"IOThunderboltConfigPollQuadletCommand"=0,"IOUSBDeviceUserClientV2"=0,"AppleHDAWidgetATI_RS710"=0,"IOThunderboltConfigXDomainROMReadRequestCommand"=0,"IOHIDEventSystemQueue"=0,"AppleUSBHostLegacyClient"=0,"IOAudioEngine"=1,"AppleMultitouchDeviceUserClient"=1,"IOPMWorkQueue"=1,"IOPCIDiagnosticsClient"=0,"AppleBusController"=0,"AppleMultitouchHIDEventService"=0,"AppleUSBXHCILPTHB"=0,"AppleDeviceManagementHIDEventService"=1,"IOWorkLoop"=50,"IO80211CommandQueue"=14,"IOPMinformee"=53,"IGAccelGLContext"=8,"AppleHDAFunctionGroup"=1,"DspBuffer"=9,"IOThunderboltXDomainPath"=0,"IOThunderboltTunnelDriver"=0,"IOUSBNub"=0,"AppleHIDTransportDevice"=0,"IO80211Controller"=1,"AppleIntelMEIDriver"=1,"IOUserEthernetController"=0,"AppleHDAWidgetALC262"=0,"IOPCIConfigurator"=1,"DspFuncGain"=1,"IOUSBUserClientLegacy"=0,"IOThunderboltConfigXDomainRequestCommand"=0,"IOThunderboltDictionary"=0,"IOFramebufferSharedUserClient"=1,"IOThunderboltWorkLoop"=0,"IOSurfaceDeviceCache"=12,"IOBluetoothWorkLoop"=0,"AppleHDAMikeyInternalFactory"=0,"OSSet"=1304,"IOAccelTask"=1,"IOThunderboltConfigXDomainPathSetupRequestCommand"=0,"AppleHDADriver"=1,"HIDMTQueueEventSource"=1,"AppleUSBDiagnostics"=0,"DspFuncEQ"=3,"IGAccelVideoContextVEBox"=0,"IOThunderboltXDPropertiesCache"=0,"LogManager"=1,"com_apple_BootCache"=1,"IODisplay"=1,"IO80211WorkLoop"=1,"KDIURL"=0,"AppleHDANode"=2,"AppleHDAStream"=3,"AppleHDAEngineOutput"=1,"IOUSBCommandPool"=0,"IOAccelSegmentResourceList"=0,"IO80211DriverCommandDescriptor"=0,"AppleLMUController"=1,"AppleSNBFBUserClient"=0,"IOPCIEventSource"=0,"IOMbufBigMemoryCursor"=0,"AppleCSRBluetoothHostController"=0,"IOUSBHubPolicyMaker"=0,"IOUSBInterfaceUserClientV2"=0,"AppleUSBXHCIIsochronousRequest"=5,"AppleIntel16X50LPSS"=1,"IOFramebufferI2CInterface"=2,"IOAccelVidMemory"=0,"ApplePMTGraphicsInformation"=0,"IOPMCompletionQueue"=1,"IGAccelSharedUserClient"=21,"AppleHDAFunctionGroupAD1984"=0,"AppleHDAFunctionGroupMCP79"=0,"AppleHDATDMDeviceFactory"=0,"AppleHPMCommandGate"=1,"DspFunc2Dot1Crossover"=0,"AppleUpstreamUserClient"=0,"AppleKeyStoreUserClient"=3,"CCDataSession"=0,"AppleHIDTransportLogger"=0,"IOBluetoothSerialManager"=1,"IOSharedDataQueue"=1,"IONetworkMedium"=1,"IGAccelFIFOChannel"=104,"IOBluetoothL2CAPInformationFrameMemoryBlock"=0,"IOBluetoothSerialClientSerialStreamSync"=1,"IOHDACodecDriver"=1,"IOThunderboltCommandQueue"=0,"IGInterruptBridge"=1,"AppleUSBDevice"=0,"AppleRTCUserClient"=0,"hv_vm_t"=0,"IOAccelDisplayPipeTransaction2"=1,"AppleUSBHostRequest"=1,"IOThunderboltTimerCommand"=0,"IOSCSIHierarchicalLogicalUnit"=0,"IOThunderboltXDDirectory"=0,"IONetworkData"=18,"AppleECSMBusController"=1,"IGAccelVideoContextMedia"=0,"IntelFBClientControl"=1,"IOBluetoothRFCOMMMemoryBlock"=0,"AppleIntelLpssI2CDevice"=1,"IGAccelVideoContextMain"=0,"IGHardwarePerProcessPageTable"=1,"com_apple_driver_pm_cpu_mbox"=2,"AppleHDATDMBusManagerCS4208"=2,"AppleIntelLpssDmac"=1,"IOAccel2DContext2"=1,"AppleBroadcomBluetoothHostController"=1,"IntelAccelerator"=1,"IOI2CInterfaceUserClient"=0,"IOCPUInterruptController"=1,"AppleHDAWidgetATI_RS780"=0,"AppleIntel16X50UARTSync"=1,"IOAccelSharedUserClient2"=1,"IOAccelSysMemory"=1,"AppleUSBXHCIIsochronousRequestPool"=1,"IOReporter"=3,"IODataQueue"=5,"AppleHDAWidgetCS8409"=0,"IOThunderboltXDLocalPropertiesCache"=0,"IO80211InterfaceMonitor"=3,"DspFuncSum"=0,"IOUSBInterfaceUserClient"=0,"IOThunderboltHopSet"=0,"IOHIDUserDevice"=0,"DspFuncBiquad"=0,"IODisplayWrangler"=1,"IOAudioSelectorControl"=2,"IOPMPowerStateQueue"=1,"DspFuncDRC"=0,"AppleIntelPAVP"=1,"IGAccelSysMemory"=2000,"AppleHPET"=1,"AppleHDAWidgetMCP89"=0,"IOThunderboltConfigErrorCommand"=0,"AppleUSBXHCIInterrupter"=3,"IOAudioTimerEvent"=0,"AGPMHeuristic0"=0,"IOAccelFIFOChannel2"=1,"AppleHIDTransportDeviceUserClient"=0,"CoreCaptureUserClient"=0,"AppleHIDKeyboardEventDriver"=0,"IGHardwareRingBufferVEBox"=0,"AppleSMBIOS"=1,"AppleCamIn"=1,"CoreCaptureResponder"=1,"IO80211AWDLPeer"=0,"AppleVTD"=1,"IOFDiskPartitionScheme"=0,"IOAccelGPURestartReport2"=0,"IONetworkInterface"=1,"IOPMrootDomain"=1,"hv_vmx_vcpu_t"=0,"DspFuncVolume_3ch"=0,"IOEthernetController"=1,"IOResources"=1,"AppleUSBXHCITransferRing"=0,"DspFuncBeamFormer"=0,"AGPMHeuristic2"=1,"com_apple_driver_pm_cpu_reporter"=1,"IODMAEventSource"=0,"IOUSBControllerIsochListElement"=0,"AppleUSBHostDMABufferMemoryDescriptor"=12,"IGAccelResource"=764,"DspFuncControlFreak"=1,"AppleHPMIECS"=0,"AppleHDAHardwareConfigDriverLoader"=0,"AppleHDAEngineInput"=1,"CCDataPipeBlob"=0,"AppleIntelLpssSpiController"=1,"OSOrderedSet"=211,"IOSharedInterruptController"=2,"_IOServiceJob"=0,"AGPMHeuristic"=1,"AppleMultitouchEventDriverV2Wrapper"=1,"DspFuncXTC"=1,"AppleUSBXHCIRequestPool"=2,"AppleHDAEngineOutputDP"=0,"IOHIDEventService"=2,"IO80211QueueCall"=1,"IOPlatformPluginDevice"=2,"AGPMHeuristic4"=0,"IOAccelVideoContext2"=0,"IOAccelBlockFence"=0,"MEIEventSource"=1,"IOAccelSubmitter2"=2,"DspFuncSplitBand"=0,"IOBluetoothL2CAPMemoryBlock"=1,"IOThunderboltI2CCommand"=0,"AppleHSSPINub"=1,"DspFuncWithSharedMemory"=6,"IO80211PacketDescriptor"=4096,"AppleACPIPlatformUserClient"=0,"IONVMeBlockStorageDevice"=1,"IOThunderboltDispatchCallback"=0,"AppleMEClientController"=1,"IOMachPort"=870,"IODiskImageBlockStorageDeviceOutKernel"=0,"IOHDACodecDeviceUserClient"=0,"AppleIntelLpssSpiDevice"=1,"DspFuncVolume"=2,"IOThunderboltDispatchContext"=0,"DspFuncBeam2"=1,"IOUSBDeviceUserClient"=0,"AppleACPIPCI"=1,"IOBluetoothMemoryBlock"=2,"AppleHDAFunctionGroupATI_RS730"=0,"AppleHDAPathSet"=4,"AppleHDAWidget_80862805"=0,"IOFramebuffer"=1,"IOKitDiagnostics"=1,"AppleUSBHostDeviceIdler"=0,"IOThunderboltSet"=0,"IOThunderboltConfigResetCommand"=0,"IOWorkQueue"=6,"IOACPIPlatformDevice"=78,"AppleFDEKeyStoreUserClient"=0,"DspFuncManager"=2,"IORangeAllocator"=3,"AppleFDEKeyStore"=1},"IOMalloc allocation"=108587237}
+  | }
+  | 
+  +-o /  <class IOPlatformExpertDevice, id 0x100000112, registered, matched, active, busy 0 (7785 ms), retain 42>
+    | {
+    |   "compatible" = <"MacBook8,1">
+    |   "version" = <"1.0">
+    |   "board-id" = <"Mac-BE0E8AC46FE800CC">
+    |   "IOInterruptSpecifiers" = (<0900000005000000>)
+    |   "platform-feature" = <1a0******0000000>
+    |   "serial-number" = <465757340******00******000433032504e313936465757340******00******00******00******00000>
+    |   "IOInterruptControllers" = ("io-apic-0")
+    |   "IOPlatformUUID" = "D1********************************F1"
+    |   "clock-frequency" = <00e1f505>
+    |   "IOPolledInterface" = "SMCPolledInterface is not serializable"
+    |   "manufacturer" = <"Apple Inc.">
+    |   "IOPlatformSystemSleepPolicy" = <534c505402001300841e1200040******014000000040000060******00000000f250******00******04000000040000000100000001000070******00000000f250******00000841e1200040******018000000080000050******00000000f250******00000841e1200040000000810000008000000050******00000000f250******000002000000020******00******00******050******00000000f250******0000008000000080******00******0000000060******000000004010000010******00004000000040******00******000050******00000000f250******00******001000000010******00******000060******000000004010******00000c4160******000000800000008000000050******00000000f250******00000c416100000001000204000002040000007000000080000000f3d0******00000c4160******000002000000020******050******00000000f250******00000d416000010******00******00******050******00000000f250******00000c41e120044000000061000000600000007000000020000000f3d0******00000841e1200040******010******00000007000000020000000f3d0******00000c4160******0000000c0000000c0000007000000080000000f3d0******00000c4160******000000880000008800000050******00000000f250******00000c4160******00******00******0000007000000010000000f3d0******000004000000040******0600000006000000070******00000000f350******00******00******00******00******00000070******00000000f350******00000>
+    |   "IOPlatformSerialNumber" = "C**********4"
+    |   "system-type" = <02>
+    |   "product-name" = <"MacBook8,1">
+    |   "model" = <"MacBook8,1">
+    |   "name" = <"/">
+    |   "IOBusyInterest" = "IOCommand is not serializable"
+    | }
+    | 
+    +-o chosen  <class IOService, id 0x100000101, !registered, !matched, active, busy 0, retain 15>
+    | | {
+    | |   "boot-args" = <00>
+    | |   "boot-uuid" = <"8C783F9F-11B9-3E74-8FA2-191ACDC055C1">
+    | |   "IOScreenLockState" = <01000000>
+    | |   "boot-file-path" = <040450005c00530079007300740065006d005c004c006900620072006100720079005c0043006f0072006500530065007200760069006300650073005c0062006f006f0074002e0065006600690000007fff0400>
+    | |   "booter-name" = <"boot.efi">
+    | |   "random-seed" = <0******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******0>
+    | |   "boot-file" = <"System\Library\PrelinkedKernels\prelinkedkernel">
+    | |   "booter-version" = <"version:307.40.6">
+    | |   "booter-build-time" = <"Tue Feb  9 17:15:24 PST 2016">
+    | |   "machine-signature" = <0******0>
+    | |   "IOProgressColorTheme" = 1
+    | |   "boot-kernelcache-adler32" = <e02fbdb3>
+    | |   "boot-device-path" = <02010c00d041030a0******001010600041c010106000000031610000100000079880d100093030004012a0002000000062c010******000251644070******0ce4e04748e3efe42a06f727d79abcdba02027fff0400>
+    | |   "name" = <"chosen">
+    | | }
+    | | 
+    | +-o memory-map  <class IOService, id 0x100000102, !registered, !matched, active, busy 0, retain 6>
+    |     {
+    |       "name" = <"memory-map">
+    |       "FailedCLUT" = <0070111000100000>
+    |       "FailedImage" = <0080111020640000>
+    |     }
+    |     
+    +-o efi  <class IOService, id 0x100000103, !registered, !matched, active, busy 0, retain 15>
+    | | {
+    | |   "firmware-revision" = <0a000100>
+    | |   "device-properties" = <e00200000100000002000000b20100000400000002010c00d041030a0******00101060000027fff04001e000000730061007600650064002d0063006f006e006600690067000000e2000000470******00******00******00******000030001001e16006c0569050******00******00******00******00******00******00******00******00******00******000000101010100061028a0020240******00******0002a06ea50f000a4006630000002e0000002000200003000600000a400600280******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******02c0000004100410050004c002c00690067002d0070006c006100740066006f0072006d002d006900640000000800000001001e162400000067007200610070006800690063002d006f007000740069006f006e0073000000080000000c0000002c0000004100410050004c002c00690067002d00740063006f006e002d007300630061006c006500720000000800000001000000220100000500000002010c00d041030a0******001010600001b7fff040028000000500069006e0043006f006e00660069006700750072006100740069006f006e0073000000140******001a6903090ab000001a6903090ab00180000006c00610079006f00750074002d006900640000000800000064000000300000004d006100780069006d0075006d0042006f006f007400420065006500700056006f006c0075006d006500000005000000f2360000004d006100780069006d0075006d0042006f006f007400420065006500700056006f006c0075006d00650041006c0074000000050******0300000006d0075006c007400690045005100440065007600690063006500500072006500730065006e006300650000000800000006000100>
+    | |   "firmware-abi" = <"EFI64">
+    | |   "name" = <"efi">
+    | |   "firmware-vendor" = <4100700070006c0065000000>
+    | | }
+    | | 
+    | +-o kernel-compatibility  <class IOService, id 0x100000104, !registered, !matched, active, busy 0, retain 4>
+    | |   {
+    | |     "name" = <"kernel-compatibility">
+    | |     "x86_64" = <"8mDx">
+    | |   }
+    | |   
+    | +-o runtime-services  <class IOService, id 0x100000105, !registered, !matched, active, busy 0, retain 4>
+    | |   {
+    | |     "name" = <"runtime-services">
+    | |     "table" = <90ebe88a0******0>
+    | |   }
+    | |   
+    | +-o configuration-table  <class IOService, id 0x100000106, !registered, !matched, active, busy 0, retain 14>
+    | | | {
+    | | |   "name" = <"configuration-table">
+    | | | }
+    | | | 
+    | | +-o EB9D2D31-2D88-11D3-9A16-0090273FC14D  <class IOService, id 0x100000107, !registered, !matched, active, busy 0, retain 4>
+    | | |   {
+    | | |     "name" = <"EB9D2D31-2D88-11D3-9A16-0090273FC14D">
+    | | |     "guid" = <312d9deb882dd3119a160090273fc14d>
+    | | |     "table" = <00e0fa8a0******0>
+    | | |   }
+    | | |   
+    | | +-o 8868E871-E4F1-11D3-BC22-0080C73C8881  <class IOService, id 0x100000108, !registered, !matched, active, busy 0, retain 4>
+    | | |   {
+    | | |     "alias" = <"ACPI_20">
+    | | |     "name" = <"8868E871-E4F1-11D3-BC22-0080C73C8881">
+    | | |     "table" = <14e0d88a0******0>
+    | | |     "guid" = <71e86888f1e4d311bc220080c73c8881>
+    | | |   }
+    | | |   
+    | | +-o EB9D2D30-2D88-11D3-9A16-0090273FC14D  <class IOService, id 0x100000109, !registered, !matched, active, busy 0, retain 4>
+    | | |   {
+    | | |     "alias" = <"ACPI">
+    | | |     "name" = <"EB9D2D30-2D88-11D3-9A16-0090273FC14D">
+    | | |     "table" = <00e0d88a0******0>
+    | | |     "guid" = <302d9deb882dd3119a160090273fc14d>
+    | | |   }
+    | | |   
+    | | +-o C5CFF4F1-379A-54E1-9EDD-93219C6AA4FE  <class IOService, id 0x10000010a, !registered, !matched, active, busy 0, retain 4>
+    | | |   {
+    | | |     "name" = <"C5CFF4F1-379A-54E1-9EDD-93219C6AA4FE">
+    | | |     "guid" = <f1f4cfc59a37e1549edd93219c6aa4fe>
+    | | |     "table" = <503aed8a0******0>
+    | | |   }
+    | | |   
+    | | +-o 2C8D93B0-B1F4-56D3-8698-EE2A61FBE720  <class IOService, id 0x10000010b, !registered, !matched, active, busy 0, retain 4>
+    | | |   {
+    | | |     "name" = <"2C8D93B0-B1F4-56D3-8698-EE2A61FBE720">
+    | | |     "guid" = <b0938d2cf4b1d3568698ee2a61fbe720>
+    | | |     "table" = <a8d7e38a0******0>
+    | | |   }
+    | | |   
+    | | +-o 026C0F80-22EC-11E2-AA02-3C07540E73B4  <class IOService, id 0x10000010c, !registered, !matched, active, busy 0, retain 4>
+    | | |   {
+    | | |     "name" = <"026C0F80-22EC-11E2-AA02-3C07540E73B4">
+    | | |     "guid" = <800f6c02ec22e211aa023c07540e73b4>
+    | | |     "table" = <00f0cd8a0******0>
+    | | |   }
+    | | |   
+    | | +-o 49152E77-1ADA-4764-B7A2-7AFEFED95E8B  <class IOService, id 0x10000010d, !registered, !matched, active, busy 0, retain 4>
+    | | |   {
+    | | |     "name" = <"49152E77-1ADA-4764-B7A2-7AFEFED95E8B">
+    | | |     "guid" = <772e1549da1a6447b7a27afefed95e8b>
+    | | |     "table" = <c001368a0******0>
+    | | |   }
+    | | |   
+    | | +-o 4C19049F-4137-4DD3-9C10-8B97A83FFDFA  <class IOService, id 0x10000010e, !registered, !matched, active, busy 0, retain 4>
+    | | |   {
+    | | |     "name" = <"4C19049F-4137-4DD3-9C10-8B97A83FFDFA">
+    | | |     "guid" = <9f04194c3741d34d9c108b97a83ffdfa>
+    | | |     "table" = <10f2358a0******0>
+    | | |   }
+    | | |   
+    | | +-o 7739F24C-93D7-11D4-9A3A-0090273FC14D  <class IOService, id 0x10000010f, !registered, !matched, active, busy 0, retain 4>
+    | | |   {
+    | | |     "name" = <"7739F24C-93D7-11D4-9A3A-0090273FC14D">
+    | | |     "guid" = <4cf23977d793d4119a3a0090273fc14d>
+    | | |     "table" = <90f1fd8a0******0>
+    | | |   }
+    | | |   
+    | | +-o 05AD34BA-6F02-4214-952E-4DA0398E2BB9  <class IOService, id 0x100000110, !registered, !matched, active, busy 0, retain 4>
+    | |     {
+    | |       "name" = <"05AD34BA-6F02-4214-952E-4DA0398E2BB9">
+    | |       "guid" = <ba34ad05026f1442952e4da0398e2bb9>
+    | |       "table" = <a8e9358a0******0>
+    | |     }
+    | |     
+    | +-o platform  <class IOService, id 0x100000111, !registered, !matched, active, busy 0, retain 12>
+    |     {
+    |       "device-colors" = <00020000dfe1e10******00******000>
+    |       "SystemSerialNumber" = <"C*******************************************4">
+    |       "system-id" = <b******************************6>
+    |       "StartupPowerEvents" = <0******00******0>
+    |       "InitialTSC" = <0******00******0>
+    |       "FSBFrequency" = <00e1f5050******0>
+    |       "Model" = <"M","a","c","B","o","o","k","8",",","1">
+    |       "DevicePathsSupported" = <01000000>
+    |       "name" = <"platform">
+    |       "board-id" = <"Mac-BE0E8AC46FE800CC">
+    |     }
+    |     
+    +-o cpus  <class IOPlatformDevice, id 0x100000119, registered, matched, active, busy 0 (1 ms), retain 14>
+    | | {
+    | |   "name" = <"cpus">
+    | | }
+    | | 
+    | +-o CPU0@0  <class IOACPIPlatformDevice, id 0x10000011a, registered, matched, active, busy 0 (1819 ms), retain 8>
+    | |   {
+    | |     "processor-lapic" = 0
+    | |     "clock-frequency" = <008c8647>
+    | |     "processor-number" = 0
+    | |     "timebase-frequency" = <00ca9a3b>
+    | |     "processor-id" = 1
+    | |     "bus-frequency" = <00e1f505>
+    | |     "plugin-type" = 1
+    | |     "cpu-type" = <060b>
+    | |     "device_type" = <"processor">
+    | |     "processor-index" = 0
+    | |     "name" = <"CPU0">
+    | |   }
+    | |   
+    | +-o CPU1@2  <class IOACPIPlatformDevice, id 0x10000011b, registered, matched, active, busy 0 (10 ms), retain 8>
+    | |   {
+    | |     "processor-lapic" = 2
+    | |     "clock-frequency" = <008c8647>
+    | |     "processor-number" = 2
+    | |     "timebase-frequency" = <00ca9a3b>
+    | |     "processor-id" = 2
+    | |     "bus-frequency" = <00e1f505>
+    | |     "cpu-type" = <060b>
+    | |     "device_type" = <"processor">
+    | |     "processor-index" = 1
+    | |     "name" = <"CPU1">
+    | |   }
+    | |   
+    | +-o CPU2@1  <class IOACPIPlatformDevice, id 0x10000011c, registered, matched, active, busy 0 (11 ms), retain 8>
+    | |   {
+    | |     "processor-lapic" = 1
+    | |     "clock-frequency" = <008c8647>
+    | |     "processor-number" = 1
+    | |     "timebase-frequency" = <00ca9a3b>
+    | |     "processor-id" = 3
+    | |     "bus-frequency" = <00e1f505>
+    | |     "cpu-type" = <060b>
+    | |     "device_type" = <"processor">
+    | |     "processor-index" = 2
+    | |     "name" = <"CPU2">
+    | |   }
+    | |   
+    | +-o CPU3@3  <class IOACPIPlatformDevice, id 0x10000011d, registered, matched, active, busy 0 (12 ms), retain 8>
+    | |   {
+    | |     "processor-lapic" = 3
+    | |     "clock-frequency" = <008c8647>
+    | |     "processor-number" = 3
+    | |     "timebase-frequency" = <00ca9a3b>
+    | |     "processor-id" = 4
+    | |     "bus-frequency" = <00e1f505>
+    | |     "cpu-type" = <060b>
+    | |     "device_type" = <"processor">
+    | |     "processor-index" = 3
+    | |     "name" = <"CPU3">
+    | |   }
+    | |   
+    | +-o CPU4  <class IOACPIPlatformDevice, id 0x10000011e, registered, matched, active, busy 0 (12 ms), retain 7>
+    | |   {
+    | |     "processor-index" = 4
+    | |     "processor-id" = 5
+    | |     "name" = <"CPU4">
+    | |     "cpu-type" = <060b>
+    | |     "device_type" = <"processor">
+    | |   }
+    | |   
+    | +-o CPU5  <class IOACPIPlatformDevice, id 0x10000011f, registered, matched, active, busy 0 (12 ms), retain 7>
+    | |   {
+    | |     "processor-index" = 5
+    | |     "processor-id" = 6
+    | |     "name" = <"CPU5">
+    | |     "cpu-type" = <060b>
+    | |     "device_type" = <"processor">
+    | |   }
+    | |   
+    | +-o CPU6  <class IOACPIPlatformDevice, id 0x100000120, registered, matched, active, busy 0 (12 ms), retain 7>
+    | |   {
+    | |     "processor-index" = 6
+    | |     "processor-id" = 7
+    | |     "name" = <"CPU6">
+    | |     "cpu-type" = <060b>
+    | |     "device_type" = <"processor">
+    | |   }
+    | |   
+    | +-o CPU7  <class IOACPIPlatformDevice, id 0x100000121, registered, matched, active, busy 0 (12 ms), retain 7>
+    |     {
+    |       "processor-index" = 7
+    |       "processor-id" = 8
+    |       "name" = <"CPU7">
+    |       "cpu-type" = <060b>
+    |       "device_type" = <"processor">
+    |     }
+    |     
+    +-o memory  <class IOService, id 0x100000139, !registered, !matched, active, busy 0, retain 78>
+    |   {
+    |     "dimm-part-number" = <"0x4544464231363441314D412D47442D462020","0x4544464231363441314D412D47442D462020">
+    |     "dimm-types" = <"DDR3","DDR3">
+    |     "slot-names" = <"   ","BANK 0/DIMM0","BANK 1/DIMM0">
+    |     "dimm-speeds" = <"1600 MHz","1600 MHz">
+    |     "dimm-manufacturer" = <"0x02FE","0x02FE">
+    |     "ecc-enabled" = No
+    |     "reg" = <010******0000000010******0000000>
+    |     "dimm-info" = <9120f1030519050b031101080a00500178789050901150e090063c3c0190******00******0000a80******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00002fe0******00******0009120f1030519050b031101080a00500178789050901150e090063c3c0190******00******0000a80******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00002fe0******00******000>
+    |     "dimm-serial-number" = <"0x0******0","0x0******0">
+    |   }
+    |   
+    +-o rom@e0000  <class IOService, id 0x10000013a, !registered, !matched, active, busy 0, retain 4>
+    |   {
+    |     "rom-size" = 8388608
+    |     "vendor" = <"Apple Inc.">
+    |     "fv-main-address" = 18446744073702801408
+    |     "fv-main-size" = 1507328
+    |     "release-date" = <"02/16/2016">
+    |     "version" = <"MB81.88Z.0164.B13.1602161331">
+    |   }
+    |   
+    +-o PCI0@0  <class IOACPIPlatformDevice, id 0x10000013c, registered, matched, active, busy 0 (1946 ms), retain 48>
+    | | {
+    | |   "compatible" = <"PNP0A03">
+    | |   "IODTPersist" = <>
+    | |   "_STA" = 18446744073709551615
+    | |   "IOPCIConfigured" = Yes
+    | |   "acpi-address-spaces" = <020******00******00******00******00******00******00******00000003e0******00******00******00000003f0******00******00******00******00******00******00******0000000010******00******00******00******00******00******00******0000000f70c0******00******00******00000f80c0******00******00******00******00******00******00******00000010******00******00******00******00******00******00d0******00000ffff0******00******00******0000000f30******00******00******00******00******00******00******00******00******00******00******00******00******00******00a0******000ffff0b0******00******00******0000000020******00******00******00******00******00******00******00******00******00******00******00******00******00000000c0******000ff3f0c0******00******00******0000040******00******00******00******00******00******00******00******00******00******00******00******00******00000000400c0******000ff7f0c0******00******00******0000040******00******00******00******00******00******00******00******00******00******00******00******00******00000000800c0******000ffbf0c0******00******00******0000040******00******00******00******00******00******00******00******00******00******00******00******00******00000000c00c0******000ffff0c0******00******00******0000040******00******00******00******00******00******00******00******00******00******00******00******00******00******000d0******000ff3f0d0******00******00******0000040******00******00******00******00******00******00******00******00******00******00******00******00******00000000400d0******000ff7f0d0******00******00******0000040******00******00******00******00******00******00******00******00******00******00******00******00******00000000800d0******000ffbf0d0******00******00******0000040******00******00******00******00******00******00******00******00******00******00******00******00******00000000c00d0******000ffff0d0******00******00******0000040******00******00******00******00******00******00******00******00******00******00******00******00******00******000e0******000ff3f0e0******00******00******0000040******00******00******00******00******00******00******00******00******00******00******00******00******00000000400e0******000ff7f0e0******00******00******0000040******00******00******00******00******00******00******00******00******00******00******00******00******00000000800e0******000ffbf0e0******00******00******0000040******00******00******00******00******00******00******00******00******00******00******00******00******00000000c00e0******000ffff0e0******00******00******0000040******00******00******00******00******00******00******00******00******00******00******00******00******00******000f0******000ffff0f0******00******00******0000000010******00******00******00******00******00******00******00******00******00******00******00******00******00******090******00ffffaffe0******00******00******00000b06e0******00******00******00******00******00******00******00******00******00******00******00******00******00000d4fe0******0ff4fd4fe0******00******00******00050******00******00******00******00******00******00******000000>
+    | |   "IODeviceMemory" = (({"address"=3320,"length"=8}))
+    | |   "#size-cells" = <02000000>
+    | |   "_UID" = "0"
+    | |   "acpi-pci-routing-table" = <180******0000000ffff1f0******000150******00000001800000001000000ffff1f0******000130******00000001800000002000000ffff1f0******000120******00000001800000003000000ffff1f0******00010******00000000180******0000000ffff030******00010******00000000180******0000000ffff140******00010******00000000180******0000000ffff150******000140******00000001800000001000000ffff150******000140******00000001800000002000000ffff150******000150******00000001800000003000000ffff150******000150******0000000180******0000000ffff1d0******000160******00000001800000001000000ffff1d0******000130******00000001800000002000000ffff1d0******00010******000000001800000003000000ffff1d0******000120******0000000180******0000000ffff1a0******000170******00000001800000001000000ffff1a0******000150******00000001800000002000000ffff1a0******000120******00000001800000003000000ffff1a0******000130******0000000180******0000000ffff1b0******000160******0000000180******0000000ffff180******000140******0000000180******0000000ffff190******000140******0000000180******0000000ffff160******00010******000000001800000001000000ffff160******000130******00000001800000002000000ffff160******000120******00000001800000003000000ffff160******000110******0000000180******0000000ffff1c0******00010******000000001800000001000000ffff1c0******000110******00000001800000002000000ffff1c0******000120******00000001800000003000000ffff1c0******000130******0000000180******0000000ffff010******00010******000000001800000001000000ffff010******000110******00000001800000002000000ffff010******000120******00000001800000003000000ffff010******000130******0000000180******0000000ffff020******00010******00******00******00******00******00******00******00000000>
+    | |   "_ADR" = 0
+    | |   "device-properties" = {"acpi-device"="IOACPIPlatformDevice is not serializable","acpi-path"="IOACPIPlane:/_SB/PCI0@0"}
+    | |   "#address-cells" = <03000000>
+    | |   "acpi-path" = "IOACPIPlane:/_SB/PCI0@0"
+    | |   "name" = <"PNP0A08">
+    | |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | }
+    | | 
+    | +-o PEG0@10000  <class IORegistryEntry, id 0x100000180, retain 4>
+    | |   {
+    | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/PEG0@10000"
+    | |   }
+    | |   
+    | +-o PDRC  <class IOACPIPlatformDevice, id 0x10000016a, registered, matched, active, busy 0 (0 ms), retain 7>
+    | |   {
+    | |     "_STA" = 18446744073709551615
+    | |     "_UID" = "1"
+    | |     "IODeviceMemory" = (({"address"=4275159040,"length"=16384}),({"address"=4275109888,"length"=32768}),({"address"=4275142656,"length"=4096}),({"address"=4275146752,"length"=4096}),({"address"=3758096384,"length"=268435456}),({"address"=4275175424,"length"=131072}),({"address"=4275634176,"length"=16384}),({"address"=4275326976,"length"=307200}),({"address"=4278190080,"length"=16777216}),({"address"=4276092928,"length"=1048576}))
+    | |     "name" = <"PNP0C02">
+    | |   }
+    | |   
+    | +-o MCHC@0  <class IOPCIDevice, id 0x10000017f, registered, matched, active, busy 0 (1 ms), retain 8>
+    | |   {
+    | |     "name" = <"pci8086,1604">
+    | |     "compatible" = <"pci106b,13e","pci8086,1604","pciclass,060000","MCHC">
+    | |     "subsystem-vendor-id" = <6b100000>
+    | |     "IOName" = "pci8086,1604"
+    | |     "reg" = <0******00******00******00******00******0>
+    | |     "device-id" = <04160000>
+    | |     "IOPowerManagement" = {"CapabilityFlags"=258,"CurrentPowerState"=2,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | |     "built-in" = <00>
+    | |     "IOPCIResourced" = Yes
+    | |     "revision-id" = <09000000>
+    | |     "vendor-id" = <86800000>
+    | |     "pcidebug" = "0:0:0"
+    | |     "class-code" = <00000600>
+    | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/MCHC@0"
+    | |     "subsystem-id" = <3******0>
+    | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |   }
+    | |   
+    | +-o IGPU@2  <class IOPCIDevice, id 0x100000181, registered, matched, active, busy 0 (315 ms), retain 24>
+    | | | {
+    | | |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |   "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/IGPU@20000"
+    | | |   "assigned-addresses" = <101000827f0******00000a0******00******01181000c27f0******0000090******0000000010201000810******00030******00000040000000>
+    | | |   "class-code" = <00000300>
+    | | |   "subsystem-vendor-id" = <6b100000>
+    | | |   "vendor-id" = <86800000>
+    | | |   "hda-gfx" = <"onboard-1">
+    | | |   "AAPL,ig-platform-id" = <01001e16>
+    | | |   "IOName" = "display"
+    | | |   "IOMemoryDescriptorOptions" = 2048
+    | | |   "IOPCIPMCSState" = 0
+    | | |   "pcidebug" = "0:2:0"
+    | | |   "AAPL,gray-value" = <0******0>
+    | | |   "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
+    | | |   "built-in" = <00>
+    | | |   "IOPCIResourced" = Yes
+    | | |   "IODeviceMemory" = (({"address"=548145201152,"length"=16777216}),({"address"=547876765696,"length"=268435456}),"IOSubMemoryDescriptor is not serializable")
+    | | |   "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | | |   "saved-config" = <470******00******00******00******000030001001e16006c0569050******00******00******00******00******00******00******00******00******00******000000101010100061028a0020240******00******0002a06ea50f000a4006630000002e0000002000200003000600000a400600280******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******00******0>
+    | | |   "name" = <"display">
+    | | |   "subsystem-id" = <3******0>
+    | | |   "graphic-options" = <0c000000>
+    | | |   "model" = <"Intel HD Graphics 5300">
+    | | |   "AAPL,gray-page" = <01000000>
+    | | |   "AAPL,ig-tcon-scaler" = <01000000>
+    | | |   "compatible" = <"pci106b,13e","pci8086,161e","pciclass,030000","IGPU">
+    | | |   "IOHibernateState" = <0******0>
+    | | |   "IOReportLegendPublic" = Yes
+    | | |   "attached-gpu-control-path" = "IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/IGPU@2/AppleIntelFramebuffer@0/AGPM"
+    | | |   "reg" = <0010******00******00******00******000000101000020******00******00******000000001181000420******00******00******000000010201000010******00******00******040000000>
+    | | |   "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182070784,4295098369,"               First Level Interrupt Handler Count"),(5291294645182070785,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182070786,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182070787,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182070788,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="IGPU 1"})
+    | | |   "device-id" = <1e160000>
+    | | |   "revision-id" = <09000000>
+    | | |   "IOInterruptSpecifiers" = (<10******07000000>,<020******0000100>)
+    | | |   "IOPCIMSIMode" = Yes
+    | | | }
+    | | | 
+    | | +-o DD01@100  <class IORegistryEntry, id 0x100000182, retain 4>
+    | | |   {
+    | | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/IGPU@20000/DD01@100"
+    | | |   }
+    | | |   
+    | | +-o DD02@400  <class IORegistryEntry, id 0x100000183, retain 4>
+    | | |   {
+    | | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/IGPU@20000/DD02@400"
+    | | |   }
+    | | |   
+    | | +-o DD03@200  <class IORegistryEntry, id 0x100000184, retain 4>
+    | | |   {
+    | | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/IGPU@20000/DD03@200"
+    | | |   }
+    | | |   
+    | | +-o DD04@4  <class IORegistryEntry, id 0x100000185, retain 4>
+    | | |   {
+    | | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/IGPU@20000/DD04@4"
+    | | |   }
+    | | |   
+    | | +-o DD05@5  <class IORegistryEntry, id 0x100000186, retain 4>
+    | | |   {
+    | | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/IGPU@20000/DD05@5"
+    | | |   }
+    | | |   
+    | | +-o DD06@6  <class IORegistryEntry, id 0x100000187, retain 4>
+    | | |   {
+    | | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/IGPU@20000/DD06@6"
+    | | |   }
+    | | |   
+    | | +-o DD07@7  <class IORegistryEntry, id 0x100000188, retain 4>
+    | | |   {
+    | | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/IGPU@20000/DD07@7"
+    | | |   }
+    | | |   
+    | | +-o DD08@8  <class IORegistryEntry, id 0x100000189, retain 4>
+    | | |   {
+    | | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/IGPU@20000/DD08@8"
+    | | |   }
+    | | |   
+    | | +-o DD1F@1f  <class IORegistryEntry, id 0x10000018a, retain 4>
+    | |     {
+    | |       "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |       "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/IGPU@20000/DD1F@1f"
+    | |     }
+    | |     
+    | +-o HDAU@3  <class IOPCIDevice, id 0x10000019f, registered, matched, active, busy 0 (35 ms), retain 10>
+    | |   {
+    | |     "assigned-addresses" = <101800827f0******04001a10******000400000>
+    | |     "IOInterruptSpecifiers" = (<10******07000000>,<030******0000100>)
+    | |     "class-code" = <00030400>
+    | |     "IODeviceMemory" = (({"address"=548162060288,"length"=16384}))
+    | |     "IOReportLegendPublic" = Yes
+    | |     "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | |     "subsystem-vendor-id" = <6b100000>
+    | |     "built-in" = <00>
+    | |     "pci-aspm-default" = 0
+    | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |     "PinConfigurations" = <e0005628>
+    | |     "hda-gfx" = <"onboard-1">
+    | |     "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
+    | |     "IOPCIMSIMode" = Yes
+    | |     "name" = <"pci8086,160c">
+    | |     "vendor-id" = <86800000>
+    | |     "device-id" = <0c160000>
+    | |     "IOPCIResourced" = Yes
+    | |     "layout-id" = <64000000>
+    | |     "compatible" = <"pci106b,13e","pci8086,160c","pciclass,040300","HDAU">
+    | |     "IOPCIExpressLinkCapabilities" = 0
+    | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/HDAU@30000"
+    | |     "DigitalAudioCapabilities" = {"DisplayPort"=1,"HDMI"=1}
+    | |     "subsystem-id" = <3******0>
+    | |     "revision-id" = <09000000>
+    | |     "IOPCIExpressLinkStatus" = 0
+    | |     "IOPCIExpressCapabilities" = 145
+    | |     "pcidebug" = "0:3:0"
+    | |     "IOName" = "pci8086,160c"
+    | |     "IOPCIPMCSState" = 3
+    | |     "reg" = <00180******00******00******00******00000101800020******00******00******000400000>
+    | |     "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182070784,4295098369,"               First Level Interrupt Handler Count"),(5291294645182070785,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182070786,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182070787,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182070788,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="HDAU 1"})
+    | |   }
+    | |   
+    | +-o XHC1@14  <class IOPCIDevice, id 0x1000001a0, registered, matched, active, busy 0 (181 ms), retain 12>
+    | | | {
+    | | |   "assigned-addresses" = <10a000827f0******00000a10******000000100>
+    | | |   "IOInterruptSpecifiers" = (<10******07000000>,<040******0000100>)
+    | | |   "AAPL,current-extra-in-sleep" = 1000
+    | | |   "class-code" = <30030c00>
+    | | |   "IODeviceMemory" = (({"address"=548161978368,"length"=65536}))
+    | | |   "IOReportLegendPublic" = Yes
+    | | |   "IOPowerManagement" = {"ChildrenPowerState"=0,"CurrentPowerState"=0,"CapabilityFlags"=0,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | | |   "subsystem-vendor-id" = <86800000>
+    | | |   "built-in" = <00>
+    | | |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |   "AAPL,current-extra" = 1000
+    | | |   "IOPCIMSIMode" = Yes
+    | | |   "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
+    | | |   "name" = <"pci8086,9cb1">
+    | | |   "vendor-id" = <86800000>
+    | | |   "device-id" = <b19c0000>
+    | | |   "acpi-pmcap-offset" = 112
+    | | |   "IOPCIResourced" = Yes
+    | | |   "AAPL,current-available" = 1500
+    | | |   "compatible" = <"pci8086,7270","pci8086,9cb1","pciclass,0c0330","XHC1">
+    | | |   "AAPL,max-port-current-in-sleep" = 1500
+    | | |   "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/XHC1@140000"
+    | | |   "subsystem-id" = <7******0>
+    | | |   "revision-id" = <03000000>
+    | | |   "IOPCIPMCSState" = 264
+    | | |   "pcidebug" = "0:20:0"
+    | | |   "IOName" = "pci8086,9cb1"
+    | | |   "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182070784,4295098369,"               First Level Interrupt Handler Count"),(5291294645182070785,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182070786,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182070787,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182070788,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="XHC1 1"})
+    | | |   "reg" = <00a0******00******00******00******00000010a000020******00******00******000000100>
+    | | | }
+    | | | 
+    | | +-o RHUB@0  <class IORegistryEntry, id 0x1000001a1, retain 7>
+    | |   | {
+    | |   |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |   |   "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/XHC1@140000/RHUB@0"
+    | |   | }
+    | |   | 
+    | |   +-o HS01@1  <class IORegistryEntry, id 0x1000001a2, retain 4>
+    | |   |   {
+    | |   |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |   |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/XHC1@140000/RHUB@0/HS01@1"
+    | |   |   }
+    | |   |   
+    | |   +-o HS03@3  <class IORegistryEntry, id 0x1000001a3, retain 4>
+    | |   |   {
+    | |   |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |   |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/XHC1@140000/RHUB@0/HS03@3"
+    | |   |   }
+    | |   |   
+    | |   +-o SSP1@c  <class IORegistryEntry, id 0x1000001a4, retain 4>
+    | |       {
+    | |         "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |         "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/XHC1@140000/RHUB@0/SSP1@c"
+    | |       }
+    | |       
+    | +-o SDMA@15  <class IOPCIDevice, id 0x100000197, registered, matched, active, busy 0 (11 ms), retain 10>
+    | |   {
+    | |     "assigned-addresses" = <10a800820******000c081c10******000100000>
+    | |     "IOInterruptSpecifiers" = (<1400000007000000>)
+    | |     "class-code" = <02010800>
+    | |     "IODeviceMemory" = (({"address"=3246505984,"length"=4096}))
+    | |     "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | |     "subsystem-vendor-id" = <86800000>
+    | |     "built-in" = <00>
+    | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |     "IOInterruptControllers" = ("io-apic-0")
+    | |     "name" = <"pci8086,9ce0">
+    | |     "vendor-id" = <86800000>
+    | |     "device-id" = <e******0>
+    | |     "IOPCIResourced" = Yes
+    | |     "compatible" = <"pci8086,9ce0","pciclass,080102","SDMA">
+    | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/SDMA@150000"
+    | |     "subsystem-id" = <e******0>
+    | |     "IOPCIPMCSState" = 11
+    | |     "revision-id" = <03000000>
+    | |     "pcidebug" = "0:21:0"
+    | |     "IOName" = "pci8086,9ce0"
+    | |     "reg" = <00a80******00******00******00******0000010a800020******00******00******000100000>
+    | |   }
+    | |   
+    | +-o I2C1@15,2  <class IOPCIDevice, id 0x100000198, registered, matched, active, busy 0 (12 ms), retain 11>
+    | | | {
+    | | |   "assigned-addresses" = <10aa00820******000b081c10******000100000>
+    | | |   "i2c-channel-number" = <010******0000000>
+    | | |   "IOInterruptSpecifiers" = (<1500000007000000>)
+    | | |   "class-code" = <00800c00>
+    | | |   "IODeviceMemory" = (({"address"=3246501888,"length"=4096}))
+    | | |   "IOReportLegendPublic" = Yes
+    | | |   "i2c-pin-sda" = <060******0000000>
+    | | |   "subsystem-vendor-id" = <86800000>
+    | | |   "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | | |   "built-in" = <00>
+    | | |   "i2c-pin-scl" = <070******0000000>
+    | | |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |   "IOInterruptControllers" = ("io-apic-0")
+    | | |   "name" = <"pci8086,9ce2">
+    | | |   "vendor-id" = <86800000>
+    | | |   "device-id" = <e******0>
+    | | |   "IOPCIResourced" = Yes
+    | | |   "compatible" = <"pci8086,9ce2","pciclass,0c8000","I2C1">
+    | | |   "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/I2C1@150002"
+    | | |   "subsystem-id" = <e******0>
+    | | |   "revision-id" = <03000000>
+    | | |   "IOPCIPMCSState" = 0
+    | | |   "pcidebug" = "0:21:2"
+    | | |   "IOName" = "pci8086,9ce2"
+    | | |   "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182005248,4295098369,"               First Level Interrupt Handler Count"),(5291294645182005249,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182005250,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182005251,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182005252,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="I2C1 0"})
+    | | |   "reg" = <00aa0******00******00******00******0000010aa00020******00******00******000100000>
+    | | | }
+    | | | 
+    | | +-o HPM0@0  <class IORegistryEntry, id 0x100000199, retain 4>
+    | |     {
+    | |       "sdaHold" = <0******00******0>
+    | |       "i2cAddress" = <120******0000000>
+    | |       "i2cSize" = <10******00000000>
+    | |       "sclHz" = <801a060******000>
+    | |       "dataWidth" = <080******0000000>
+    | |       "sclPeriod" = <c4090******00000>
+    | |       "ioVoltageSelect" = <030******0000000>
+    | |       "ltrSWMode" = <010******0000000>
+    | |       "sclLcnt" = <7d0******0000000>
+    | |       "addrWidth" = <070******0000000>
+    | |       "sdaSetup" = <0******00******0>
+    | |       "powerStrategy" = <42540******00000>
+    | |       "sclHcnt" = <7d0******0000000>
+    | |       "sclMode" = <020******0000000>
+    | |       "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/I2C1@150002/HPM0@0"
+    | |       "ltrEnb" = <0******00******0>
+    | |       "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |     }
+    | |     
+    | +-o SPI1@15,4  <class IOPCIDevice, id 0x10000019a, registered, matched, active, busy 0 (911 ms), retain 11>
+    | | | {
+    | | |   "assigned-addresses" = <10ac00820******000a081c10******000100000>
+    | | |   "gspi-pin-cs" = <570******0000000>
+    | | |   "IOInterruptSpecifiers" = (<1500000007000000>)
+    | | |   "class-code" = <00800c00>
+    | | |   "IODeviceMemory" = (({"address"=3246497792,"length"=4096}))
+    | | |   "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | | |   "subsystem-vendor-id" = <86800000>
+    | | |   "built-in" = <00>
+    | | |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |   "IOInterruptControllers" = ("io-apic-0")
+    | | |   "gspi-pin-miso" = <5a0******0000000>
+    | | |   "vendor-id" = <86800000>
+    | | |   "device-id" = <e******0>
+    | | |   "gspi-pin-mosi" = <590******0000000>
+    | | |   "gspi-pin-clk" = <580******0000000>
+    | | |   "name" = <"pci8086,9ce6">
+    | | |   "compatible" = <"pci8086,9ce6","pciclass,0c8000","SPI1">
+    | | |   "IOPCIResourced" = Yes
+    | | |   "gspi-sysclk-period" = <0a0******0000000>
+    | | |   "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/SPI1@150004"
+    | | |   "subsystem-id" = <e******0>
+    | | |   "revision-id" = <03000000>
+    | | |   "IOPCIPMCSState" = 0
+    | | |   "pcidebug" = "0:21:4"
+    | | |   "IOName" = "pci8086,9ce6"
+    | | |   "reg" = <00ac0******00******00******00******0000010ac00020******00******00******000100000>
+    | | |   "gspi-channel-number" = <010******0000000>
+    | | | }
+    | | | 
+    | | +-o SPIT@0  <class IORegistryEntry, id 0x10000019b, retain 4>
+    | |     {
+    | |       "spiSPO" = <0******00******0>
+    | |       "spiSPH" = <0******00******0>
+    | |       "spiCSDelay" = <0a0******0000000>
+    | |       "resetA2RUsec" = <0a0******0000000>
+    | |       "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/SPI1@150004/SPIT@0"
+    | |       "spiBitOrder" = <010******0000000>
+    | |       "resetRecUsec" = <0a0******0000000>
+    | |       "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |       "spiWordSize" = <080******0000000>
+    | |       "spiSclkPeriod" = <7d0******0000000>
+    | |     }
+    | |     
+    | +-o URT0@15,5  <class IOPCIDevice, id 0x10000019c, registered, matched, active, busy 0 (35 ms), retain 12>
+    | | | {
+    | | |   "assigned-addresses" = <10ad00820******0009081c10******000100000>
+    | | |   "IOInterruptSpecifiers" = (<1500000007000000>)
+    | | |   "class-code" = <02000700>
+    | | |   "uart-channel-number" = <0******00******0>
+    | | |   "IODeviceMemory" = (({"address"=3246493696,"length"=4096}))
+    | | |   "IOReportLegendPublic" = Yes
+    | | |   "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | | |   "subsystem-vendor-id" = <86800000>
+    | | |   "built-in" = <00>
+    | | |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |   "IOInterruptControllers" = ("io-apic-0")
+    | | |   "name" = <"pci8086,9ce3">
+    | | |   "vendor-id" = <86800000>
+    | | |   "device-id" = <e******0>
+    | | |   "IOPCIResourced" = Yes
+    | | |   "compatible" = <"pci8086,9ce3","pciclass,070002","URT0">
+    | | |   "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/URT0@150005"
+    | | |   "subsystem-id" = <e******0>
+    | | |   "revision-id" = <03000000>
+    | | |   "IOPCIPMCSState" = 11
+    | | |   "pcidebug" = "0:21:5"
+    | | |   "IOName" = "pci8086,9ce3"
+    | | |   "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182005248,4295098369,"               First Level Interrupt Handler Count"),(5291294645182005249,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182005250,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182005251,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182005252,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="URT0 0"})
+    | | |   "reg" = <00ad0******00******00******00******0000010ad00020******00******00******000100000>
+    | | | }
+    | | | 
+    | | +-o SSDC@0  <class IORegistryEntry, id 0x10000019d, retain 4>
+    | | |   {
+    | | |     "dataBits" = <080******0000000>
+    | | |     "stopBits" = <010******0000000>
+    | | |     "baud" = <d012130******000>
+    | | |     "parity" = <0******00******0>
+    | | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/URT0@150005/SSDC@0"
+    | | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |   }
+    | | |   
+    | | +-o BLTH@0  <class IORegistryEntry, id 0x10000019e, retain 4>
+    | |     {
+    | |       "dataBits" = <080******0000000>
+    | |       "stopBits" = <010******0000000>
+    | |       "baud" = <c0c62d0******000>
+    | |       "parity" = <0******00******0>
+    | |       "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/URT0@150005/BLTH@0"
+    | |       "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |     }
+    | |     
+    | +-o pci8086,9cba@16  <class IOPCIDevice, id 0x1000001b8, registered, matched, active, busy 0 (2 ms), retain 10>
+    | |   {
+    | |     "assigned-addresses" = <10b000827f0******09101a10******020000000>
+    | |     "IOInterruptSpecifiers" = (<10******07000000>,<050******0000100>)
+    | |     "IODeviceMemory" = (({"address"=548162081024,"length"=32}))
+    | |     "class-code" = <00800700>
+    | |     "IOReportLegendPublic" = Yes
+    | |     "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | |     "subsystem-vendor-id" = <86800000>
+    | |     "IOPCIMSIMode" = Yes
+    | |     "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
+    | |     "vendor-id" = <86800000>
+    | |     "name" = <"pci8086,9cba">
+    | |     "acpi-pmcap-offset" = 80
+    | |     "device-id" = <ba9c0000>
+    | |     "IOPCIResourced" = Yes
+    | |     "compatible" = <"pci8086,7270","pci8086,9cba","pciclass,078000">
+    | |     "subsystem-id" = <7******0>
+    | |     "revision-id" = <03000000>
+    | |     "IOPCIPMCSState" = 0
+    | |     "pcidebug" = "0:22:0"
+    | |     "IOName" = "pci8086,9cba"
+    | |     "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182070784,4295098369,"               First Level Interrupt Handler Count"),(5291294645182070785,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182070786,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182070787,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182070788,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="pci8086,9cba 1"})
+    | |     "reg" = <00b0******00******00******00******00000010b000020******00******00******020000000>
+    | |   }
+    | |   
+    | +-o HDEF@1B  <class IOPCIDevice, id 0x10000018f, registered, matched, active, busy 0 (346 ms), retain 10>
+    | |   {
+    | |     "assigned-addresses" = <10d800827f0******00001a10******000400000>
+    | |     "MaximumBootBeepVolumeAlt" = <00>
+    | |     "IOInterruptSpecifiers" = (<1600000007000000>,<060******0000100>)
+    | |     "class-code" = <00030400>
+    | |     "IODeviceMemory" = (({"address"=548162043904,"length"=16384}))
+    | |     "IOReportLegendPublic" = Yes
+    | |     "PinConfigurations" = <20402b003090ab000001a69010011090>
+    | |     "subsystem-vendor-id" = <86800000>
+    | |     "multiEQDevicePresence" = <06000100>
+    | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |     "MaximumBootBeepVolume" = <f2>
+    | |     "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | |     "built-in" = <00>
+    | |     "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
+    | |     "IOPCIMSIMode" = Yes
+    | |     "name" = <"pci8086,9ca0">
+    | |     "vendor-id" = <86800000>
+    | |     "device-id" = <a09c0000>
+    | |     "acpi-pmcap-offset" = 80
+    | |     "layout-id" = <64000000>
+    | |     "IOPCIResourced" = Yes
+    | |     "compatible" = <"pci8086,7270","pci8086,9ca0","pciclass,040300","HDEF">
+    | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/HDEF@1b0000"
+    | |     "subsystem-id" = <7******0>
+    | |     "revision-id" = <03000000>
+    | |     "IOPCIPMCSState" = 32779
+    | |     "pcidebug" = "0:27:0"
+    | |     "IOName" = "pci8086,9ca0"
+    | |     "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182070784,4295098369,"               First Level Interrupt Handler Count"),(5291294645182070785,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182070786,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182070787,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182070788,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="HDEF 1"})
+    | |     "reg" = <00d80******00******00******00******0000010d800020******00******00******000400000>
+    | |   }
+    | |   
+    | +-o RP01@1C  <class IOPCIDevice, id 0x100000190, registered, matched, active, busy 0 (12 ms), retain 10>
+    | |   {
+    | |     "IOPCIPMCSState" = 267
+    | |     "IOInterruptSpecifiers" = (<10******07000000>)
+    | |     "#address-cells" = <03000000>
+    | |     "class-code" = <00040600>
+    | |     "IOPCIExpressSlotStatus" = 0
+    | |     "IOPowerManagement" = {"ChildrenPowerState"=0,"CurrentPowerState"=0,"CapabilityFlags"=0,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | |     "built-in" = <00>
+    | |     "pci-aspm-default" = 0
+    | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |     "reg-ltrovr" = <00040******00000>
+    | |     "IOInterruptControllers" = ("io-apic-0")
+    | |     "vendor-id" = <86800000>
+    | |     "name" = <"pci-bridge">
+    | |     "device-id" = <909c0000>
+    | |     "acpi-pmcap-offset" = 160
+    | |     "IOPCIResourced" = Yes
+    | |     "IODTPersist" = <>
+    | |     "compatible" = <"pci8086,9c90","pciclass,060400","RP01">
+    | |     "ranges" = <000000820******00******0000000820******00******00******00******0000000c20******00******0000000c20******00******00******00******0000000810******00******0000000810******00******00******00******0>
+    | |     "IOPCIExpressLinkCapabilities" = 20073506
+    | |     "IOPCIConfigured" = Yes
+    | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/RP01@1c0000"
+    | |     "revision-id" = <e3000000>
+    | |     "IOPCIExpressLinkStatus" = 4097
+    | |     "IOPCIExpressCapabilities" = 322
+    | |     "pcidebug" = "0:28:0(4:52)"
+    | |     "IOName" = "pci-bridge"
+    | |     "#size-cells" = <02000000>
+    | |     "reg" = <00e0******00******00******00******000000>
+    | |     "IOPCIExpressSlotCapabilities" = 326912
+    | |   }
+    | |   
+    | +-o RP03@1C,2  <class IOPCIDevice, id 0x100000191, registered, matched, active, busy 0 (346 ms), retain 11>
+    | | | {
+    | | |   "IOPCIPMCSState" = 11
+    | | |   "IOInterruptSpecifiers" = (<1200000007000000>)
+    | | |   "#address-cells" = <03000000>
+    | | |   "class-code" = <00040600>
+    | | |   "IOPCIExpressSlotStatus" = 64
+    | | |   "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | | |   "built-in" = <00>
+    | | |   "pci-aspm-default" = 3
+    | | |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |   "reg-ltrovr" = <00040******00000>
+    | | |   "IOInterruptControllers" = ("io-apic-0")
+    | | |   "vendor-id" = <86800000>
+    | | |   "name" = <"pci-bridge">
+    | | |   "device-id" = <949c0000>
+    | | |   "acpi-pmcap-offset" = 160
+    | | |   "IOPCIResourced" = Yes
+    | | |   "IODTPersist" = <>
+    | | |   "compatible" = <"pci8086,9c94","pciclass,060400","RP03">
+    | | |   "ranges" = <000000820******0000000c1000000820******0000000c10******0000050******00c20******00******0000000c20******00******00******00******0000000810******00******0000000810******00******00******00******0>
+    | | |   "IOPCIExpressLinkCapabilities" = 53623826
+    | | |   "IOPCIConfigured" = Yes
+    | | |   "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/RP03@1c0002"
+    | | |   "revision-id" = <e3000000>
+    | | |   "IOPCIExpressLinkStatus" = 28689
+    | | |   "IOPCIExpressCapabilities" = 322
+    | | |   "pcidebug" = "0:28:2(1:1)"
+    | | |   "IOName" = "pci-bridge"
+    | | |   "#size-cells" = <02000000>
+    | | |   "reg" = <00e20******00******00******00******00000>
+    | | |   "IOPCIExpressSlotCapabilities" = 1356288
+    | | | }
+    | | | 
+    | | +-o ARPT@0  <class IOPCIDevice, id 0x100000192, registered, matched, active, busy 0 (335 ms), retain 11>
+    | |     {
+    | |       "assigned-addresses" = <100001820******0000040c10******000800000180001820******0000000c10******000004000>
+    | |       "IOInterruptSpecifiers" = (<1200000007000000>,<080******0000100>)
+    | |       "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182070784,4295098369,"               First Level Interrupt Handler Count"),(5291294645182070785,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182070786,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182070787,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182070788,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="ARPT 1"})
+    | |       "class-code" = <00800200>
+    | |       "IODeviceMemory" = (({"address"=3242196992,"length"=32768}),({"address"=3238002688,"length"=4194304}))
+    | |       "IOReportLegendPublic" = Yes
+    | |       "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | |       "subsystem-vendor-id" = <6b100000>
+    | |       "built-in" = <00>
+    | |       "pci-aspm-default" = 3
+    | |       "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |       "IOPCIMSIMode" = Yes
+    | |       "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
+    | |       "name" = <"pci14e4,43a3">
+    | |       "IOChildIndex" = 1
+    | |       "device-id" = <a3430000>
+    | |       "vendor-id" = <e4140000>
+    | |       "acpi-pmcap-offset" = 72
+    | |       "IOPCIResourced" = Yes
+    | |       "compatible" = <"pci106b,131","pci14e4,43a3","pciclass,028000","ARPT">
+    | |       "IOPCIExpressLinkCapabilities" = 4643857
+    | |       "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/RP03@1c0002/ARPT@0"
+    | |       "subsystem-id" = <3******0>
+    | |       "revision-id" = <05000000>
+    | |       "IOPCIExpressLinkStatus" = 4113
+    | |       "IOPCIExpressCapabilities" = 2
+    | |       "pcidebug" = "1:0:0"
+    | |       "IOName" = "pci14e4,43a3"
+    | |       "acpi-wake-type" = 2
+    | |       "reg" = <0000010******00******00******00******000100001020******00******00******000800000180001020******00******00******000004000>
+    | |       "IOPCIPMCSState" = 16648
+    | |     }
+    | |     
+    | +-o RP04@1C,3  <class IOPCIDevice, id 0x100000193, registered, matched, active, busy 0 (579 ms), retain 11>
+    | | | {
+    | | |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |   "IOPCIExpressLinkCapabilities" = 70401042
+    | | |   "class-code" = <00040600>
+    | | |   "subsystem-vendor-id" = <7f000000>
+    | | |   "vendor-id" = <86800000>
+    | | |   "IOName" = "pci-bridge"
+    | | |   "IOPCIPMCSState" = 11
+    | | |   "#size-cells" = <02000000>
+    | | |   "IOPCIExpressSlotCapabilities" = 1880576
+    | | |   "IOPMPCIConfigSpaceVolatile" = No
+    | | |   "pcidebug" = "0:28:3(2:2)"
+    | | |   "IOPCIExpressLinkStatus" = 28690
+    | | |   "pci-aspm-default" = 2
+    | | |   "IODTPersist" = <>
+    | | |   "IOInterruptControllers" = ("io-apic-0")
+    | | |   "reg-ltrovr" = <00040******00000>
+    | | |   "IOPCIConfigured" = Yes
+    | | |   "IOPCIExpressCapabilities" = 322
+    | | |   "built-in" = <00>
+    | | |   "IOPCIResourced" = Yes
+    | | |   "IOPowerManagement" = {"ChildrenPowerState"=0,"CurrentPowerState"=0,"CapabilityFlags"=0,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | | |   "ranges" = <000000820******0000060c1000000820******0000060c10******0000020******00c27f0******0000080000000c27f0******0000080******0000000010000000810******00******0000000810******00******00******00******0>
+    | | |   "acpi-pmcap-offset" = 160
+    | | |   "name" = <"pci-bridge">
+    | | |   "subsystem-id" = <0******0>
+    | | |   "compatible" = <"pci7f,0","pci8086,9c96","pciclass,060400","RP04">
+    | | |   "IOPCIExpressSlotStatus" = 64
+    | | |   "reg" = <00e30******00******00******00******00000>
+    | | |   "device-id" = <969c0000>
+    | | |   "#address-cells" = <03000000>
+    | | |   "IOInterruptSpecifiers" = (<1300000007000000>)
+    | | |   "revision-id" = <e3000000>
+    | | |   "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/RP04@1c0003"
+    | | | }
+    | | | 
+    | | +-o CMRA@0  <class IOPCIDevice, id 0x100000194, registered, matched, active, busy 0 (572 ms), retain 10>
+    | |     {
+    | |       "assigned-addresses" = <100002820******0000070c10******000000100180002c27f0******0000080******0000000010200002820******0000060c10******000001000>
+    | |       "IOInterruptSpecifiers" = (<1300000007000000>,<090******0000100>)
+    | |       "class-code" = <00800400>
+    | |       "IODeviceMemory" = (({"address"=3245342720,"length"=65536}),({"address"=547608330240,"length"=268435456}),({"address"=3244294144,"length"=1048576}))
+    | |       "IOReportLegendPublic" = Yes
+    | |       "IOPowerManagement" = {"ChildrenPowerState"=0,"CurrentPowerState"=0,"CapabilityFlags"=0,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | |       "subsystem-vendor-id" = <e4140000>
+    | |       "built-in" = <00>
+    | |       "pci-aspm-default" = 2
+    | |       "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |       "IOPCIMSIMode" = Yes
+    | |       "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
+    | |       "name" = <"pci14e4,1570">
+    | |       "IOChildIndex" = 1
+    | |       "device-id" = <7******0>
+    | |       "vendor-id" = <e4140000>
+    | |       "acpi-pmcap-offset" = 72
+    | |       "IOPCIResourced" = Yes
+    | |       "compatible" = <"pci14e4,1570","pciclass,048000","CMRA">
+    | |       "IOPCIExpressLinkCapabilities" = 4643858
+    | |       "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/RP04@1c0003/CMRA@0"
+    | |       "IOPMPCIConfigSpaceVolatile" = No
+    | |       "subsystem-id" = <7******0>
+    | |       "revision-id" = <0******0>
+    | |       "IOPCIExpressLinkStatus" = 4114
+    | |       "IOPCIExpressCapabilities" = 2
+    | |       "pcidebug" = "2:0:0"
+    | |       "IOName" = "pci14e4,1570"
+    | |       "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182070784,4295098369,"               First Level Interrupt Handler Count"),(5291294645182070785,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182070786,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182070787,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182070788,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="CMRA 1"})
+    | |       "reg" = <0000020******00******00******00******000100002020******00******00******000000100180002420******00******00******000000010200002020******00******00******000001000>
+    | |     }
+    | |     
+    | +-o RP05@1C,4  <class IOPCIDevice, id 0x100000195, registered, matched, active, busy 0 (171 ms), retain 11>
+    | | | {
+    | | |   "IOPCIPMCSState" = 0
+    | | |   "IOInterruptSpecifiers" = (<10******07000000>)
+    | | |   "#address-cells" = <03000000>
+    | | |   "class-code" = <00040600>
+    | | |   "IOPCIExpressSlotStatus" = 64
+    | | |   "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | | |   "built-in" = <00>
+    | | |   "pci-aspm-default" = 2
+    | | |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |   "reg-ltrovr" = <00040******00000>
+    | | |   "IOInterruptControllers" = ("io-apic-0")
+    | | |   "vendor-id" = <86800000>
+    | | |   "name" = <"pci-bridge">
+    | | |   "device-id" = <989c0000>
+    | | |   "acpi-pmcap-offset" = 160
+    | | |   "IOPCIResourced" = Yes
+    | | |   "IODTPersist" = <>
+    | | |   "compatible" = <"pci8086,9c98","pciclass,060400","RP05">
+    | | |   "ranges" = <000000820******0000050c1000000820******0000050c10******0000010******00c20******00******0000000c20******00******00******00******0000000810******00******0000000810******00******00******00******0>
+    | | |   "IOPCIExpressLinkCapabilities" = 87178306
+    | | |   "IOPCIConfigured" = Yes
+    | | |   "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/RP05@1c0004"
+    | | |   "revision-id" = <e3000000>
+    | | |   "IOPCIExpressLinkStatus" = 61506
+    | | |   "IOPCIExpressCapabilities" = 322
+    | | |   "pcidebug" = "0:28:4(3:3)"
+    | | |   "IOName" = "pci-bridge"
+    | | |   "#size-cells" = <02000000>
+    | | |   "reg" = <00e40******00******00******00******00000>
+    | | |   "IOPCIExpressSlotCapabilities" = 2424064
+    | | | }
+    | | | 
+    | | +-o SSD0@0  <class IOPCIDevice, id 0x100000196, registered, matched, active, busy 0 (150 ms), retain 12>
+    | |   | {
+    | |   |   "assigned-addresses" = <100003820******0000050c10******000200000>
+    | |   |   "IOInterruptSpecifiers" = (<10******07000000>,<0a0******0000100>)
+    | |   |   "use-msi" = 1
+    | |   |   "class-code" = <02800100>
+    | |   |   "IODeviceMemory" = (({"address"=3243245568,"length"=8192}))
+    | |   |   "IOReportLegendPublic" = Yes
+    | |   |   "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | |   |   "subsystem-vendor-id" = <6b100000>
+    | |   |   "built-in" = <00>
+    | |   |   "pci-aspm-default" = 2
+    | |   |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |   |   "IOPCIMSIMode" = Yes
+    | |   |   "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
+    | |   |   "name" = <"pci106b,2001">
+    | |   |   "IOChildIndex" = 1
+    | |   |   "device-id" = <0******0>
+    | |   |   "vendor-id" = <6b100000>
+    | |   |   "IOPCIResourced" = Yes
+    | |   |   "compatible" = <"pci106b,2001","pciclass,018002","SSD0">
+    | |   |   "IOPCIExpressLinkCapabilities" = 4508738
+    | |   |   "nvme-self-refresh" = 1
+    | |   |   "deep-idle" = 1
+    | |   |   "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/RP05@1c0004/SSD0@0"
+    | |   |   "subsystem-id" = <0******0>
+    | |   |   "revision-id" = <01000000>
+    | |   |   "IOPCIExpressLinkStatus" = 4162
+    | |   |   "IOPCIExpressCapabilities" = 2
+    | |   |   "pcidebug" = "3:0:0"
+    | |   |   "IOName" = "pci106b,2001"
+    | |   |   "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182070784,4295098369,"               First Level Interrupt Handler Count"),(5291294645182070785,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182070786,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182070787,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182070788,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="SSD0 1"})
+    | |   |   "reg" = <0000030******00******00******00******000100003020******00******00******000200000>
+    | |   |   "IOPCIPMCSState" = 8
+    | |   | }
+    | |   | 
+    | |   +-o AppleNVMeController  <class AppleNVMeController, id 0x1000001fe, registered, matched, active, busy 0 (142 ms), retain 11>
+    | |     | {
+    | |     |   "IOClass" = "AppleNVMeController"
+    | |     |   "IOPolledInterface" = "AppleNVMeControllerPolledAdapter is not serializable"
+    | |     |   "IOMaximumSegmentByteCountRead" = 4096
+    | |     |   "IOMaximumSegmentByteCountWrite" = 4096
+    | |     |   "IOReportLegendPublic" = Yes
+    | |     |   "IOProviderClass" = "IOPCIDevice"
+    | |     |   "Physical Interconnect Location" = "Internal"
+    | |     |   "IOPowerManagement" = {"ChildrenPowerState"=3,"MaxPowerState"=3,"CurrentPowerState"=3,"CapabilityFlags"=32768,"ChildProxyPowerState"=3,"DriverPowerState"=0}
+    | |     |   "IOMaximumSegmentCountRead" = 64
+    | |     |   "Model Number" = "APPLE SSD AP0512H"
+    | |     |   "IOProbeScore" = 0
+    | |     |   "IOMaximumSegmentCountWrite" = 64
+    | |     |   "Serial Number" = "C02516300M6FVC7A5"
+    | |     |   "NVMe Revision Supported" = "1.01"
+    | |     |   "IOPCIPauseCompatible" = Yes
+    | |     |   "Physical Interconnect" = "PCI-Express"
+    | |     |   "Chipset Name" = "SSD Controller"
+    | |     |   "Controller Characteristics" = {"Low Power Mode"=Yes,"Preferred IO Size"=262144}
+    | |     |   "IOMatchCategory" = "IODefaultMatchCategory"
+    | |     |   "CFBundleIdentifier" = "com.apple.iokit.IONVMeFamily"
+    | |     |   "Vendor Name" = "Apple"
+    | |     |   "IOMinimumSegmentAlignmentByteCount" = 4
+    | |     |   "Firmware Revision" = "5.841.01"
+    | |     |   "IOPCITunnelCompatible" = Yes
+    | |     |   "IOReportLegend" = ({"IOReportChannels"=((5644784279684675442,17180000258,"NVMe Power States")),"IOReportGroupName"="NVMe","IOReportChannelInfo"={"IOReportChannelUnit"=72058100844068865}})
+    | |     |   "IOUnitName" = "disk"
+    | |     |   "IOPCIClassMatch" = "0x01800200&0xffffff00"
+    | |     | }
+    | |     | 
+    | |     +-o IONVMeBlockStorageDevice@1  <class IONVMeBlockStorageDevice, id 0x100000201, registered, matched, active, busy 0 (142 ms), retain 14>
+    | |       | {
+    | |       |   "IOCFPlugInTypes" = {"AA0FA6F9-C2D6-457F-B10B-59A13253292F"="NVMeSMARTLib.plugin"}
+    | |       |   "NamespaceUUID" = 1006053408737401
+    | |       |   "Queue Depth Counters" = {"QueueDepths"=(1636,402,171,97,62,50,47,46,8,2,2,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)}
+    | |       |   "IOPowerManagement" = {"CapabilityFlags"=49216,"MaxPowerState"=3,"ActivityTickles"=2691,"IdleTimerPeriod"=3000,"DevicePowerState"=3,"TimeSinceLastTickle"=17,"DriverPowerState"=2,"IdleTimerElapsedTime"=2857,"CurrentPowerState"=3}
+    | |       |   "NamespaceID" = 1
+    | |       |   "IOUnit" = 1
+    | |       |   "ThermalThrottlingSupported" = Yes
+    | |       |   "IOReportLegend" = ({"IOReportGroupName"="NVMe","IOReportChannels"=((6082504312848663127,6442450945,"Tier0 BW Scale Factor"),(6082504312865440343,6442450945,"Tier1 BW Scale Factor"),(6082504312882217559,6442450945,"Tier2 BW Scale Factor"),(6082504312898994775,6442450945,"Tier3 BW Scale Factor")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="BW Limits"},{"IOReportGroupName"="NVMe","IOReportChannels"=((6084209303804800357,6442450945,"Total time elapsed"),(6082504312848654368,6442450945,"Tier0 Throttle Time"),(6082504312865431584,6442450945,"Tier1 Throttle Time"),(6082504312882208800,6442450945,"Tier2 Throttle Time"),(6082504312898986016,6442450945,"Tier3 Throttle Time")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="Time weighted throttle statistics"})
+    | |       |   "device-type" = "Generic"
+    | |       |   "IOReportLegendPublic" = Yes
+    | |       |   "SSDThermalThrottlingInfo" = 1684300900
+    | |       |   "Protocol Characteristics" = {"Physical Interconnect"="PCI-Express","Physical Interconnect Location"="Internal"}
+    | |       |   "Device Characteristics" = {"Serial Number"="C02516300M6FVC7A5","Medium Type"="Solid State","Product Name"="APPLE SSD AP0512H","Vendor Name"="","Product Revision Level"="5.841.01"}
+    | |       |   "IOStorageFeatures" = {"Unmap"=Yes,"Priority"=Yes,"Barrier"=No}
+    | |       |   "NVMe SMART Capable" = Yes
+    | |       | }
+    | |       | 
+    | |       +-o @1:0  <class IOMedia, id 0x100000204, registered, matched, active, busy 0 (142 ms), retain 21>
+    | |       |   {
+    | |       |     "Removable" = No
+    | |       |     "Content" = "GUID_partition_scheme"
+    | |       |     "Whole" = Yes
+    | |       |     "Leaf" = No
+    | |       |     "BSD Name" = "disk0"
+    | |       |     "Ejectable" = No
+    | |       |     "Preferred Block Size" = 4096
+    | |       |     "IOMediaIcon" = {"IOBundleResourceFile"="Internal.icns","CFBundleIdentifier"="com.apple.iokit.IOStorageFamily"}
+    | |       |     "BSD Minor" = 0
+    | |       |     "IOGeneralInterest" = "IOCommand is not serializable"
+    | |       |     "Writable" = Yes
+    | |       |     "IOPolledInterfaceStack" = "IOPolledFilePollers is not serializable"
+    | |       |     "BSD Major" = 1
+    | |       |     "Size" = 500277788672
+    | |       |     "IOBusyInterest" = "IOCommand is not serializable"
+    | |       |     "Open" = Yes
+    | |       |     "Content Hint" = ""
+    | |       |     "BSD Unit" = 0
+    | |       |   }
+    | |       |   
+    | |       +-o @1:1  <class IOMedia, id 0x100000239, registered, matched, active, busy 0 (1 ms), retain 19>
+    | |       |   {
+    | |       |     "Removable" = No
+    | |       |     "Content" = "C12A7328-F81F-11D2-BA4B-00A0C93EC93B"
+    | |       |     "Whole" = No
+    | |       |     "Leaf" = Yes
+    | |       |     "BSD Name" = "disk0s1"
+    | |       |     "Ejectable" = No
+    | |       |     "Preferred Block Size" = 4096
+    | |       |     "Base" = 24576
+    | |       |     "BSD Minor" = 1
+    | |       |     "IOGeneralInterest" = "IOCommand is not serializable"
+    | |       |     "Writable" = Yes
+    | |       |     "UUID" = "51E2824B-118C-4A3B-9959-5734964266BF"
+    | |       |     "Partition ID" = 1
+    | |       |     "BSD Major" = 1
+    | |       |     "Size" = 314572800
+    | |       |     "IOBusyInterest" = "IOCommand is not serializable"
+    | |       |     "Open" = No
+    | |       |     "Content Hint" = "C12A7328-F81F-11D2-BA4B-00A0C93EC93B"
+    | |       |     "BSD Unit" = 0
+    | |       |   }
+    | |       |   
+    | |       +-o @1:2  <class IOMedia, id 0x10000023a, registered, matched, active, busy 0 (0 ms), retain 21>
+    | |       |   {
+    | |       |     "Removable" = No
+    | |       |     "Content" = "48465300-0000-11AA-AA11-00306543ECAC"
+    | |       |     "Whole" = No
+    | |       |     "Leaf" = Yes
+    | |       |     "BSD Name" = "disk0s2"
+    | |       |     "Ejectable" = No
+    | |       |     "Preferred Block Size" = 4096
+    | |       |     "Base" = 314597376
+    | |       |     "BSD Minor" = 2
+    | |       |     "IOGeneralInterest" = "IOCommand is not serializable"
+    | |       |     "Writable" = Yes
+    | |       |     "UUID" = "74044ECE-3E8E-42FE-A06F-727D79ABCDBA"
+    | |       |     "Partition ID" = 2
+    | |       |     "BSD Major" = 1
+    | |       |     "Size" = 499313168384
+    | |       |     "IOBusyInterest" = "IOCommand is not serializable"
+    | |       |     "Open" = Yes
+    | |       |     "Content Hint" = "48465300-0000-11AA-AA11-00306543ECAC"
+    | |       |     "BSD Unit" = 0
+    | |       |   }
+    | |       |   
+    | |       +-o @1:3  <class IOMedia, id 0x10000023c, registered, matched, active, busy 0 (3 ms), retain 19>
+    | |           {
+    | |             "Removable" = No
+    | |             "Content" = "426F6F74-0000-11AA-AA11-00306543ECAC"
+    | |             "Whole" = No
+    | |             "Leaf" = Yes
+    | |             "BSD Name" = "disk0s3"
+    | |             "Ejectable" = No
+    | |             "Preferred Block Size" = 4096
+    | |             "Base" = 499627765760
+    | |             "BSD Minor" = 3
+    | |             "IOGeneralInterest" = "IOCommand is not serializable"
+    | |             "Writable" = Yes
+    | |             "UUID" = "3EBFC2F1-7EFE-4ECA-BA0F-49F243C9AA1D"
+    | |             "Partition ID" = 3
+    | |             "BSD Major" = 1
+    | |             "Size" = 650002432
+    | |             "IOBusyInterest" = "IOCommand is not serializable"
+    | |             "Open" = No
+    | |             "Content Hint" = "426F6F74-0000-11AA-AA11-00306543ECAC"
+    | |             "BSD Unit" = 0
+    | |           }
+    | |           
+    | +-o LPCB@1F  <class IOPCIDevice, id 0x10000018e, registered, matched, active, busy 0 (48 ms), retain 21>
+    | | | {
+    | | |   "name" = <"pci8086,9cc7">
+    | | |   "compatible" = <"pci8086,7270","pci8086,9cc7","pciclass,060100","LPCB">
+    | | |   "subsystem-vendor-id" = <86800000>
+    | | |   "IOName" = "pci8086,9cc7"
+    | | |   "reg" = <00f80******00******00******00******00000>
+    | | |   "device-id" = <c79c0000>
+    | | |   "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | | |   "built-in" = <00>
+    | | |   "IOPCIResourced" = Yes
+    | | |   "revision-id" = <03000000>
+    | | |   "vendor-id" = <86800000>
+    | | |   "pcidebug" = "0:31:0"
+    | | |   "class-code" = <00010600>
+    | | |   "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/LPCB@1f0000"
+    | | |   "subsystem-id" = <7******0>
+    | | |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | | }
+    | | | 
+    | | +-o DMAC  <class IOACPIPlatformDevice, id 0x10000014d, registered, matched, active, busy 0 (0 ms), retain 7>
+    | | |   {
+    | | |     "name" = <"PNP0200">
+    | | |     "_STA" = 18446744073709551615
+    | | |     "IODeviceMemory" = (({"address"=0,"length"=32}),({"address"=129,"length"=17}),({"address"=147,"length"=13}),({"address"=192,"length"=32}))
+    | | |   }
+    | | |   
+    | | +-o FWHD  <class IOACPIPlatformDevice, id 0x10000014e, registered, matched, active, busy 0 (0 ms), retain 7>
+    | | |   {
+    | | |     "name" = <"INT0800">
+    | | |     "_STA" = 18446744073709551615
+    | | |     "IODeviceMemory" = (({"address"=4278190080,"length"=16777216}))
+    | | |   }
+    | | |   
+    | | +-o HPET  <class IOACPIPlatformDevice, id 0x10000014f, registered, matched, active, busy 0 (0 ms), retain 8>
+    | | |   {
+    | | |     "_STA" = 15
+    | | |     "IODeviceMemory" = (({"address"=4275044352,"length"=16384}))
+    | | |     "name" = <"PNP0103">
+    | | |     "IOInterruptControllers" = ("io-apic-0","io-apic-0","io-apic-0","io-apic-0")
+    | | |     "IOInterruptSpecifiers" = (<020******0000000>,<080******0000000>,<0b0******0000000>,<0c0******0000000>)
+    | | |     "compatible" = <"PNP0C01">
+    | | |   }
+    | | |   
+    | | +-o IPIC  <class IOACPIPlatformDevice, id 0x100000150, registered, matched, active, busy 0 (0 ms), retain 7>
+    | | |   {
+    | | |     "name" = <"PNP0000">
+    | | |     "_STA" = 18446744073709551615
+    | | |     "IODeviceMemory" = (({"address"=32,"length"=2}),({"address"=36,"length"=2}),({"address"=40,"length"=2}),({"address"=44,"length"=2}),({"address"=48,"length"=2}),({"address"=52,"length"=2}),({"address"=56,"length"=2}),({"address"=60,"length"=2}),({"address"=160,"length"=2}),({"address"=164,"length"=2}),({"address"=168,"length"=2}),({"address"=172,"length"=2}),({"address"=176,"length"=2}),({"address"=180,"length"=2}),({"address"=184,"length"=2}),({"address"=188,"length"=2}),({"address"=1232,"length"=2}))
+    | | |   }
+    | | |   
+    | | +-o MATH  <class IOACPIPlatformDevice, id 0x100000151, registered, matched, active, busy 0 (0 ms), retain 7>
+    | | |   {
+    | | |     "_STA" = 18446744073709551615
+    | | |     "IODeviceMemory" = (({"address"=240,"length"=1}))
+    | | |     "IOInterruptControllers" = ("io-apic-0")
+    | | |     "IOInterruptSpecifiers" = (<0d0******0000000>)
+    | | |     "name" = <"PNP0C04">
+    | | |   }
+    | | |   
+    | | +-o LDRC  <class IOACPIPlatformDevice, id 0x100000152, registered, matched, active, busy 0 (0 ms), retain 7>
+    | | |   {
+    | | |     "_STA" = 18446744073709551615
+    | | |     "_UID" = "2"
+    | | |     "IODeviceMemory" = (({"address"=46,"length"=2}),({"address"=78,"length"=2}),({"address"=97,"length"=1}),({"address"=99,"length"=1}),({"address"=101,"length"=1}),({"address"=103,"length"=1}),({"address"=128,"length"=1}),({"address"=146,"length"=1}),({"address"=178,"length"=2}),({"address"=65535,"length"=1}),({"address"=6144,"length"=128}),({"address"=2048,"length"=128}))
+    | | |     "name" = <"PNP0C02">
+    | | |   }
+    | | |   
+    | | +-o RTC  <class IOACPIPlatformDevice, id 0x100000153, registered, matched, active, busy 0 (10 ms), retain 9>
+    | | |   {
+    | | |     "IODeviceMemory" = (({"address"=112,"length"=8}))
+    | | |     "_STA" = 18446744073709551615
+    | | |     "IOInterruptSpecifiers" = (<040******0000000>)
+    | | |     "acpi-wake-type" = 4
+    | | |     "name" = <"PNP0B00">
+    | | |     "IOInterruptControllers" = ("ACPIEventController")
+    | | |   }
+    | | |   
+    | | +-o TIMR  <class IOACPIPlatformDevice, id 0x100000154, registered, matched, active, busy 0 (0 ms), retain 7>
+    | | |   {
+    | | |     "name" = <"PNP0100">
+    | | |     "_STA" = 18446744073709551615
+    | | |     "IODeviceMemory" = (({"address"=64,"length"=4}),({"address"=80,"length"=4}))
+    | | |   }
+    | | |   
+    | | +-o SMC  <class IOACPIPlatformDevice, id 0x100000155, registered, matched, active, busy 0 (753 ms), retain 8>
+    | | |   {
+    | | |     "IODeviceMemory" = (({"address"=768,"length"=32}),({"address"=4277141504,"length"=65536}))
+    | | |     "compatible" = <"smc-huronriver">
+    | | |     "IOReportLegendPublic" = Yes
+    | | |     "IOInterruptControllers" = ("io-apic-0")
+    | | |     "_STA" = 11
+    | | |     "IOInterruptSpecifiers" = (<060******0000000>)
+    | | |     "name" = <"APP0001">
+    | | |     "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182005248,4295098369,"               First Level Interrupt Handler Count"),(5291294645182005249,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182005250,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182005251,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182005252,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="SMC 0"})
+    | | |   }
+    | | |   
+    | | +-o ALS0  <class IOACPIPlatformDevice, id 0x100000156, registered, matched, active, busy 0 (242 ms), retain 8>
+    | | |   {
+    | | |     "compatible" = <"smc-als">
+    | | |     "_STA" = 15
+    | | |     "name" = <"ACPI0008">
+    | | |   }
+    | | |   
+    | | +-o EC  <class IOACPIPlatformDevice, id 0x100000157, registered, matched, active, busy 0 (2 ms), retain 10>
+    | |   | {
+    | |   |   "IODeviceMemory" = (({"address"=98,"length"=1}),({"address"=102,"length"=1}))
+    | |   |   "_STA" = 18446744073709551615
+    | |   |   "_UID" = "0"
+    | |   |   "name" = <"PNP0C09">
+    | |   |   "acpi-wake-gpe" = 112
+    | |   | }
+    | |   | 
+    | |   +-o SMB0  <class IOACPIPlatformDevice, id 0x100000158, registered, matched, active, busy 0 (3 ms), retain 10>
+    | |     | {
+    | |     |   "name" = <"ACPI0001">
+    | |     |   "_STA" = 15
+    | |     | }
+    | |     | 
+    | |     +-o SBS0  <class IOACPIPlatformDevice, id 0x100000159, registered, matched, active, busy 0 (0 ms), retain 7>
+    | |         {
+    | |           "name" = <"ACPI0002">
+    | |           "_STA" = 18446744073709551615
+    | |         }
+    | |         
+    | +-o SBUS@1F,3  <class IOPCIDevice, id 0x10000018b, registered, matched, active, busy 0 (46 ms), retain 10>
+    | | | {
+    | | |   "assigned-addresses" = <10fb00827f0******09001a10******00001000020fb00810******0a0ef0******0000020000000>
+    | | |   "IOInterruptSpecifiers" = (<1200000007000000>)
+    | | |   "IODeviceMemory" = (({"address"=548162080768,"length"=256}),"IOSubMemoryDescriptor is not serializable")
+    | | |   "class-code" = <00050c00>
+    | | |   "IOPowerManagement" = {"CapabilityFlags"=258,"CurrentPowerState"=2,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    | | |   "subsystem-vendor-id" = <86800000>
+    | | |   "built-in" = <00>
+    | | |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |   "IOInterruptControllers" = ("io-apic-0")
+    | | |   "name" = <"pci8086,9ca2">
+    | | |   "vendor-id" = <86800000>
+    | | |   "device-id" = <a29c0000>
+    | | |   "IOPCIResourced" = Yes
+    | | |   "compatible" = <"pci8086,7270","pci8086,9ca2","pciclass,0c0500","SBUS">
+    | | |   "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/SBUS@1f0003"
+    | | |   "subsystem-id" = <7******0>
+    | | |   "revision-id" = <03000000>
+    | | |   "pcidebug" = "0:31:3"
+    | | |   "IOName" = "pci8086,9ca2"
+    | | |   "reg" = <00fb0******00******00******00******0000010fb00020******00******00******00001000020fb00010******00******00******020000000>
+    | | | }
+    | | | 
+    | | +-o BUS0@0  <class IORegistryEntry, id 0x10000018c, retain 4>
+    | | |   {
+    | | |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | | |     "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/SBUS@1f0003/BUS0@0"
+    | | |   }
+    | | |   
+    | | +-o BUS1@1  <class IORegistryEntry, id 0x10000018d, retain 4>
+    | |     {
+    | |       "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    | |       "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/SBUS@1f0003/BUS1@1"
+    | |     }
+    | |     
+    | +-o pci8086,9ca4@1F,6  <class IOPCIDevice, id 0x1000001b9, registered, matched, active, busy 0 (51 ms), retain 8>
+    |     {
+    |       "compatible" = <"pci8086,7270","pci8086,9ca4","pciclass,118000">
+    |       "subsystem-vendor-id" = <86800000>
+    |       "IOName" = "pci8086,9ca4"
+    |       "reg" = <00fe0******00******00******00******0000010fe00020******00******00******000100000>
+    |       "device-id" = <a49c0000>
+    |       "assigned-addresses" = <10fe00827f0******08001a10******000100000>
+    |       "IOPowerManagement" = {"CapabilityFlags"=258,"CurrentPowerState"=2,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+    |       "IOPCIPMCSState" = 0
+    |       "IOPCIResourced" = Yes
+    |       "revision-id" = <03000000>
+    |       "IODeviceMemory" = (({"address"=548162076672,"length"=4096}))
+    |       "vendor-id" = <86800000>
+    |       "pcidebug" = "0:31:6"
+    |       "class-code" = <00801100>
+    |       "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
+    |       "IOInterruptSpecifiers" = (<1200000007000000>,<070******0000100>)
+    |       "subsystem-id" = <7******0>
+    |       "name" = <"pci8086,9ca4">
+    |     }
+    |     
+    +-o MEM2  <class IOACPIPlatformDevice, id 0x100000171, registered, matched, active, busy 0 (0 ms), retain 7>
+    |   {
+    |     "_STA" = 18446744073709551615
+    |     "_UID" = "2"
+    |     "IODeviceMemory" = (({"address"=536870912,"length"=2097152}),({"address"=1073741824,"length"=2097152}))
+    |     "name" = <"PNP0C01">
+    |   }
+    |   
+    +-o LNKA  <class IOACPIPlatformDevice, id 0x100000172, !registered, !matched, active, busy 0, retain 5>
+    |   {
+    |     "_UID" = "1"
+    |     "_STA" = 9
+    |     "name" = <"PNP0C0F">
+    |   }
+    |   
+    +-o LNKB  <class IOACPIPlatformDevice, id 0x100000173, !registered, !matched, active, busy 0, retain 5>
+    |   {
+    |     "_UID" = "2"
+    |     "_STA" = 9
+    |     "name" = <"PNP0C0F">
+    |   }
+    |   
+    +-o LNKC  <class IOACPIPlatformDevice, id 0x100000174, !registered, !matched, active, busy 0, retain 5>
+    |   {
+    |     "_UID" = "3"
+    |     "_STA" = 9
+    |     "name" = <"PNP0C0F">
+    |   }
+    |   
+    +-o LNKD  <class IOACPIPlatformDevice, id 0x100000175, !registered, !matched, active, busy 0, retain 5>
+    |   {
+    |     "_UID" = "4"
+    |     "_STA" = 9
+    |     "name" = <"PNP0C0F">
+    |   }
+    |   
+    +-o LNKE  <class IOACPIPlatformDevice, id 0x100000176, !registered, !matched, active, busy 0, retain 5>
+    |   {
+    |     "_UID" = "5"
+    |     "_STA" = 9
+    |     "name" = <"PNP0C0F">
+    |   }
+    |   
+    +-o LNKF  <class IOACPIPlatformDevice, id 0x100000177, !registered, !matched, active, busy 0, retain 5>
+    |   {
+    |     "_UID" = "6"
+    |     "_STA" = 9
+    |     "name" = <"PNP0C0F">
+    |   }
+    |   
+    +-o LNKG  <class IOACPIPlatformDevice, id 0x100000178, !registered, !matched, active, busy 0, retain 5>
+    |   {
+    |     "_UID" = "7"
+    |     "_STA" = 9
+    |     "name" = <"PNP0C0F">
+    |   }
+    |   
+    +-o LNKH  <class IOACPIPlatformDevice, id 0x100000179, !registered, !matched, active, busy 0, retain 5>
+    |   {
+    |     "_UID" = "8"
+    |     "_STA" = 9
+    |     "name" = <"PNP0C0F">
+    |   }
+    |   
+    +-o ADP1  <class IOACPIPlatformDevice, id 0x10000017a, registered, matched, active, busy 0 (2 ms), retain 8>
+    |   {
+    |     "name" = <"ACPI0003">
+    |     "acpi-wake-gpe" = 112
+    |     "_STA" = 18446744073709551615
+    |   }
+    |   
+    +-o LID0  <class IOACPIPlatformDevice, id 0x10000017b, registered, matched, active, busy 0 (4 ms), retain 10>
+    |   {
+    |     "name" = <"PNP0C0D">
+    |     "acpi-wake-gpe" = 112
+    |     "_STA" = 18446744073709551615
+    |   }
+    |   
+    +-o PWRB  <class IOACPIPlatformDevice, id 0x10000017c, registered, matched, active, busy 0 (1 ms), retain 9>
+    |   {
+    |     "acpi-wake-type" = 1
+    |     "IOReportLegendPublic" = Yes
+    |     "IOInterruptControllers" = ("ACPIEventController")
+    |     "_STA" = 18446744073709551615
+    |     "IOInterruptSpecifiers" = (<020******0000000>)
+    |     "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182005248,4295098369,"               First Level Interrupt Handler Count"),(5291294645182005249,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182005250,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182005251,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182005252,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="PWRB 0"})
+    |     "name" = <"PNP0C0C">
+    |   }
+    |   
+    +-o PNLF@0  <class IOACPIPlatformDevice, id 0x10000017d, registered, matched, active, busy 0 (35 ms), retain 10>
+    |   {
+    |     "acpi-path" = "IOACPIPlane:/_SB/PNLF@0"
+    |     "compatible" = <"backlight">
+    |     "AppleBacklightAtBoot" = 1385
+    |     "AppleMaxBrightness" = 1385
+    |     "_UID" = "15"
+    |     "device-properties" = {"acpi-device"="IOACPIPlatformDevice is not serializable","acpi-path"="IOACPIPlane:/_SB/PNLF@0"}
+    |     "ApplePanelRawBrightness" = 1012
+    |     "_STA" = 11
+    |     "acpi-device" = "IOACPIPlatformDevice is not serializable"
+    |     "_ADR" = 0
+    |     "name" = <"APP0002">
+    |   }
+    |   
+    +-o SLPB  <class IOACPIPlatformDevice, id 0x10000017e, registered, matched, active, busy 0 (2 ms), retain 8>
+    |   {
+    |     "name" = <"PNP0C0E">
+    |     "_STA" = 11
+    |   }
+    |   
+    +-o options  <class AppleEFINVRAM, id 0x1000001b5, registered, matched, active, busy 0 (0 ms), retain 168>
+        {
+          "bluetoothInternalControllerInfo" = <8e82ac050******0a8667f06f7d3>
+          "fmm-computer-name" = <"Alexander’s MacBook">
+          "fmm-mobileme-token-FMM" = <62706c6973743030d90102030405060708090a0b161718191a1b1c567573657269645f101364617461636c61737350726f706572746965735961757468546f6b656e58706572736f6e494458757365726e616d655761646454696d655f1012656e61626c656444617461636c617373657354677569645875736572496e666f1101f5d10c0d5f1021636f6d2e6170706c652e44617461636c6173732e4465766963654c6f6361746f72d40e0f10111213141556617073456e7658686f73746e616d655d617574684d656368616e69736d56736368656d655a50726f64756374696f6e5f10137033342d666d69702e69636c6f75642e636f6d55746f6b656e5568747470735f10284151414141414258424248334c78663034615948554771746f5470517133786d70586e757450637e5a313131323133333833345f101361766c6f6b7465764069636c6f75642e636f6d2341d5c10481b0e26da10c5f102437343035393441342d444631432d344238442d413236462d354537383031344244363236d31d1e1f2021225f1015496e5573654f776e6572446973706c61794e616d655f1013496e5573654f776e657246697273744e616d655f1012496e5573654f776e65724c6173744e616d655f1010416c6578616e646572204c6f6b74657659416c6578616e646572564c6f6b7465760008001b002200380042004b0054005c00710076007f0082008500a900b200b900c200d000d700e200f800fe0104012f013a01500159015b0182018901a101b701cc01df01e90******0000002010******0000000230******00******00******0000001f0>
+          "bluetoothActiveControllerInfo" = <8e82ac05010******000a8667f06f7d3>
+          "SystemAudioVolumeDB" = <80>
+          "SystemAudioVolume" = <80>
+          "backlight-level" = <f403>
+          "LocationServicesEnabled" = <01>
+          "ALS_Data" = <b80c8a8a0******0>
+          "BootCampProcessorPstates" = <0800>
+        }
+        

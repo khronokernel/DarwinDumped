@@ -1,0 +1,11 @@
+/dev/disk0
+ACTV        DEVICE   TYPE                    NAME           SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+                     GUID_partition_scheme                  121 GB   
+            disk0s1  EFI                                    209 MB                 
+            disk0s2  Apple_HFS               Macintosh HD   120 GB                 
+            disk0s3  Apple_Boot              Recovery HD    650 MB                 
+/dev/disk2
+ACTV        DEVICE   TYPE                    NAME           SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+                     Apple_partition_scheme                 5 MB     
+            disk2s1  Apple_partition_map                    322 KB                 
+            disk2s2  Apple_HFS               TotalTerminal  5 MB                   

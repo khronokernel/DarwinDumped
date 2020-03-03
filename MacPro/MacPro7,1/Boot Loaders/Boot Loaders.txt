@@ -1,0 +1,21 @@
+                                                                                                                   
+                                                                                                                   
+disk0  APPLE SSD AP2048N (512 byte physical block size)
+===============================================================================================================================
+ACT  DEVICE   TYPE                   NAME                 SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme                       2 TB    None
+     disk0s1  EFI                    EFI                  314 MB                 
+     disk0s2  Apple_APFS                                  2 TB                   
+                                                                                                                   
+                                                                                                                   
+disk1  APPLE SSD AP2048N (512 byte physical block size)
+===============================================================================================================================
+ACT  DEVICE   TYPE                   NAME                 SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              APFS Container Scheme                       2 TB     
+     disk1s1  APFS Volume            Macintosh HD         2 TB                   
+     disk1s2  APFS Volume            Macintosh HD - Data  2 TB                   
+     disk1s3  APFS Volume            Preboot              2 TB                   
+     disk1s4  APFS Volume            Recovery             2 TB                   
+     disk1s5  APFS Volume            VM                   2 TB                   

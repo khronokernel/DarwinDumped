@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOMaximumBlockCountWrite"},"attr":{"id":"4286","ColType":"Number","ColValue":"2048"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"4288","ColType":"String","ColValue":"com.apple.iokit.IOSCSIBlockCommandsDevice"}},
+{"data":{"title":"IOClass"},"attr":{"id":"4290","ColType":"String","ColValue":"IOSCSIPeripheralDeviceType00"}},
+{"data":{"title":"Peripheral Device Type"},"attr":{"id":"4292","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOMaximumByteCountWrite"},"attr":{"id":"4294","ColType":"Number","ColValue":"1048576"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"4296","ColType":"Number","ColValue":"5000"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"4298","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOMediaIcon"},"attr":{"id":"4300","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"4302","ColType":"String","ColValue":"com.apple.iokit.IOSCSIArchitectureModelFamily"}},{"data":{"title":"IOBundleResourceFile"},"attr":{"id":"4304","ColType":"String","ColValue":"USBHD.icns"}}]},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"4306","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"TimeSinceDeviceIdle"},"attr":{"id":"4308","ColType":"Number","ColValue":"340387"}},{"data":{"title":"DevicePowerState"},"attr":{"id":"4310","ColType":"Number","ColValue":"4"}},{"data":{"title":"ActivityTickles"},"attr":{"id":"4312","ColType":"Number","ColValue":"13743"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"4314","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"4316","ColType":"Number","ColValue":"4"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"4318","ColType":"Number","ColValue":"4"}},{"data":{"title":"IdleTimerPeriod"},"attr":{"id":"4320","ColType":"Number","ColValue":"200000"}},{"data":{"title":"TimeSinceLastTickle"},"attr":{"id":"4322","ColType":"Number","ColValue":"20151"}}]},
+{"data":{"title":"IOMaximumBlockCountRead"},"attr":{"id":"4324","ColType":"Number","ColValue":"2048"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"4326","ColType":"String","ColValue":"IOSCSIPeripheralDeviceNub"}},
+{"data":{"title":"IOMaximumByteCountRead"},"attr":{"id":"4328","ColType":"Number","ColValue":"1048576"}}
+]

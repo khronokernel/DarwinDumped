@@ -1,0 +1,32 @@
+ATOM BIOS Rom: 
+	SubsystemVendorID: 0x106b SubsystemID: 0x0206
+	IOBaseAddress: 0x0000
+	Filename: C944A1XT.014
+	BIOS Bootup Message: 
+ELLESMERE XTA A1 GDDR5 256Mx32 8GB 300e/300m                                
+
+PCI ID: 1002:67df
+Connector at index 0
+	Type [@offset 40684]: DisplayPort (10)
+	Encoder [@offset 40688]: INTERNAL_UNIPHY (0x1e)
+	i2cid [@offset 40812]: 0x90, OSX senseid: 0x1
+Connector at index 1
+	Type [@offset 40694]: DisplayPort (10)
+	Encoder [@offset 40698]: INTERNAL_UNIPHY (0x1e)
+	i2cid [@offset 40839]: 0x91, OSX senseid: 0x2
+Connector at index 2
+	Type [@offset 40704]: DisplayPort (10)
+	Encoder [@offset 40708]: INTERNAL_UNIPHY1 (0x20)
+	i2cid [@offset 40866]: 0x92, OSX senseid: 0x3
+Connector at index 3
+	Type [@offset 40714]: DisplayPort (10)
+	Encoder [@offset 40718]: INTERNAL_UNIPHY1 (0x20)
+	i2cid [@offset 40893]: 0x93, OSX senseid: 0x4
+Connector at index 4
+	Type [@offset 40724]: DisplayPort (10)
+	Encoder [@offset 40728]: INTERNAL_UNIPHY2 (0x21)
+	i2cid [@offset 40920]: 0x94, OSX senseid: 0x5
+Connector at index 5
+	Type [@offset 40734]: DisplayPort (10)
+	Encoder [@offset 40738]: INTERNAL_UNIPHY2 (0x21)
+	i2cid [@offset 40947]: 0x95, OSX senseid: 0x6

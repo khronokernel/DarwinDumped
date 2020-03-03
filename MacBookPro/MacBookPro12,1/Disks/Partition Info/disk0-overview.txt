@@ -1,0 +1,31 @@
+/dev/disk0 
+APPLE SSD SM0128G 
+Physical Block (sector) size: 4096 bytes 
+Using Block (sector) size: 512 bytes 
+Total Number of Blocks:  
+Total Disk Size:  
+  
+MBR Partition Entry 1: 00feffffeefeffff01000000ffff1f0e 
+MBR Partition Entry 2: 00000000000000000000000000000000 
+MBR Partition Entry 3: 00000000000000000000000000000000 
+MBR Partition Entry 4: 00000000000000000000000000000000 
+  
+Partition Map: GUID Partition Table 
+Disk GUID:067a500c-7580-48af-9fb8-80192e9abbac 
+Partition GUID: 048d34fe-4701-48dd-81a1-13688d7f1c1f | Name: EFI System Partition 
+Partition GUID: 2852b353-ac35-4cd9-a53e-e29b2f238a39 | Name: Customer 
+Partition GUID: 5596504f-ccf1-407e-ac2b-c73507527ad2 | Name: Recovery HD 
+
+=========  =========             ========              ==========  ========= 
+LBA Start  Type                  GPT Name              LoaderCode  Size LBA 
+=========  =========             ========              ==========  ========= 
+0          MBR                                                     1 
+1          Primary GPT Header                                      1 
+2          Primary GPT Table                                       32 
+34         Space                                                   6 
+40         EFI System Partition  EFI System Partition  Apple EFI   409600 
+409640     Core Storage          Customer                          235298960 
+235708600  OSX Boot              Recovery HD                       1269536 
+236978136  Space                                                   7 
+236978143  Backup GPT Table                                        32 
+236978175  Backup GPT Header                                       1 

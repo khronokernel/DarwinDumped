@@ -1,0 +1,9 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"37754","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"37756","ColType":"String","ColValue":"IOSurfaceRoot"}},
+{"data":{"title":"SurfaceInfo"},"attr":{"id":"37758","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"User Clients"},"attr":{"id":"37760","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"37761","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Client Surfaces"},"attr":{"id":"37763","ColType":"Array","ColValue":"0_values"},"children":[]},{"data":{"title":"name"},"attr":{"id":"37765","ColType":"String","ColValue":"WindowServer"}}]},{"data":{"title":"0"},"attr":{"id":"37766","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Client Surfaces"},"attr":{"id":"37768","ColType":"Array","ColValue":"0_values"},"children":[]},{"data":{"title":"name"},"attr":{"id":"37770","ColType":"String","ColValue":"Google Chrome He"}}]}]},{"data":{"title":"Global Surfaces"},"attr":{"id":"37772","ColType":"Array","ColValue":"0_values"},"children":[]}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"37774","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"37776","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"37778","ColType":"String","ColValue":"com.apple.iokit.IOSurface"}},
+{"data":{"title":"IOClass"},"attr":{"id":"37780","ColType":"String","ColValue":"IOSurfaceRoot"}}
+]

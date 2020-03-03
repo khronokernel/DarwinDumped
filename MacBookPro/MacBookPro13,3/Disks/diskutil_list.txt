@@ -1,0 +1,15 @@
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         251.0 GB   disk0
+   1:                        EFI EFI                     314.6 MB   disk0s1
+   2:          Apple_CoreStorage Mac                     141.4 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+   4:       Microsoft Basic Data BOOTCAMP                100.7 GB   disk0s4
+
+/dev/disk1 (internal, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                  Apple_HFS Mac                    +141.0 GB   disk1
+                                 Logical Volume on disk0s2
+                                 5E39AB20-D6E7-4A21-96F4-D45E1F1BFD14
+                                 Unencrypted
+

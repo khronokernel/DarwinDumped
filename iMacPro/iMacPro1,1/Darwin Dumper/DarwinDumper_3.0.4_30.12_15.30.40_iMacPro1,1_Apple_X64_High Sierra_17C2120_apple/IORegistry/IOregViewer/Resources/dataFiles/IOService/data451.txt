@@ -1,0 +1,19 @@
+[
+{"data":{"title":"IOInterfaceState"},"attr":{"id":"35012","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"IONetworkData"},"attr":{"id":"35014","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOEthernetStatsKey"},"attr":{"id":"35016","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Data"},"attr":{"id":"35018","ColType":"Data","ColValue":"&lt;000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&gt;"}},{"data":{"title":"Access Types"},"attr":{"id":"35020","ColType":"Number","ColValue":"9"}},{"data":{"title":"Size"},"attr":{"id":"35022","ColType":"Number","ColValue":"216"}}]},{"data":{"title":"IONetworkStatsKey"},"attr":{"id":"35024","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Data"},"attr":{"id":"35026","ColType":"Data","ColValue":"&lt;0000000000000000000000000000000000000000&gt;"}},{"data":{"title":"Access Types"},"attr":{"id":"35028","ColType":"Number","ColValue":"9"}},{"data":{"title":"Size"},"attr":{"id":"35030","ColType":"Number","ColValue":"20"}}]}]},
+{"data":{"title":"IOActivePacketFilters"},"attr":{"id":"35032","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IONetworkFilterGroup"},"attr":{"id":"35034","ColType":"Number","ColValue":"3"}},{"data":{"title":"IOEthernetWakeOnLANFilterGroup"},"attr":{"id":"35036","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOInterfaceType"},"attr":{"id":"35038","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"IOInterfaceUnit"},"attr":{"id":"35040","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"IOPrimaryInterface"},"attr":{"id":"35042","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"IOMediaHeaderLength"},"attr":{"id":"35044","ColType":"Number","ColValue":"14"}},
+{"data":{"title":"IORequiredPacketFilters"},"attr":{"id":"35046","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IONetworkFilterGroup"},"attr":{"id":"35048","ColType":"Number","ColValue":"3"}},{"data":{"title":"IOEthernetWakeOnLANFilterGroup"},"attr":{"id":"35050","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOControllerEnabled"},"attr":{"id":"35052","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"BSD Name"},"attr":{"id":"35054","ColType":"String","ColValue":"en3"}},
+{"data":{"title":"IOMaxTransferUnit"},"attr":{"id":"35056","ColType":"Number","ColValue":"1500"}},
+{"data":{"title":"IOLocation"},"attr":{"id":"35058","ColType":"String","ColValue":"2"}},
+{"data":{"title":"IOInterfaceNamePrefix"},"attr":{"id":"35060","ColType":"String","ColValue":"en"}},
+{"data":{"title":"IOMediaAddressLength"},"attr":{"id":"35062","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"IOInterfaceFlags"},"attr":{"id":"35064","ColType":"Number","ColValue":"35171"}},
+{"data":{"title":"IOInterfaceExtraFlags"},"attr":{"id":"35066","ColType":"Number","ColValue":"1090519168"}},
+{"data":{"title":"IOBuiltin"},"attr":{"id":"35068","ColType":"Boolean","ColValue":"Yes"}}
+]

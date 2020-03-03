@@ -1,0 +1,114 @@
+nt until the target exits.
+Limiting closed port RST response from 303 to 250 packets per second
+Limiting closed port RST response from 268 to 250 packets per second
+ignored is_io_service_close(0x1000003d2,IOHIDParamUserClient)
+Google Chrome He[2622] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f6ca7. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Sandbox: com.apple.WebKit(2678) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(2678) deny(1) system-fsctl 682f
+Sandbox: com.apple.WebKit(2678) deny(1) system-fsctl 682f
+ignored is_io_service_close(0x1000003d2,IOHIDParamUserClient)
+ignored is_io_service_close(0x1000003d2,IOHIDParamUserClient)
+ignored is_io_service_close(0x1000003d2,IOHIDParamUserClient)
+ARPT: 69274.560143: wl0: TCPKEEP: locate_keepalive_data_new_uc: No IPV4 addrs, keepalive not started.
+ARPT: 69274.560174: wl0: MDNS: IPV4 Addr: 192.168.0.108
+ARPT: 69274.560178: wl0: MDNS: IPV6 Addr: fe80:0:0:0:b618:d1ff:fee5:b0a1
+ARPT: 69274.560182: wl0: MDNS: 6 SRV Recs, 2 TXT Recs
+ARPT: 69274.560185: wl0: MDNS: 3 UDP ports:  3283  3283  4500 
+ARPT: 69274.560190: wl0: MDNS: 10 TCP ports:  22  22  445  5900  548  22  22  445  5900  548 
+PM response took 5769 ms (53, powerd)
+kern_open_file_for_direct_io(0)
+kern_open_file_for_direct_io took 0 ms
+Opened file /var/log/SleepWakeStacks.bin, size 172032, extents 1, maxio 2000000 ssd 0
+polled file major 1, minor 0, blocksize 4096, pollers 5
+ARPT: 69280.312671: AirPort_Brcm43xx::powerChange: System Sleep 
+ARPT: 69280.814762: IOPMPowerSource Information: onSleep,  SleepType: Normal Sleep,  
+AppleThunderboltNHIType2::prePCIWake - power up complete - took 2 us
+AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+ARPT: 69281.259793: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+ARPT: 69281.268966: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable]
+ARPT: 69281.269743: AirPort_Brcm43xx::syncPowerState: WWEN[enabled]
+IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+         0 [Time 1459600230] [Message AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 60000
+Wake reason: XHC1
+Previous sleep cause: 5
+AppleThunderboltNHIType2::prePCIWake - power up complete - took 2 us
+AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+TBT W (2): 0x0100 [x]
+en1: BSSID changed to c0:4a:00:a5:d0:1e
+en1: channel changed to 9
+in6_unlink_ifa: IPv6 address 0xb57c09831250bbcf has no prefix
+
+[IOBluetoothHCIController][WakeUpDisplay] -- took 1079811 microseconds to call activityTickle()
+
+full wake promotion (reason 1) 1081 ms
+AirPort: Link Up on awdl0
+ARPT: 69286.954668: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+ARPT: 69287.455752: IOPMPowerSource Information: onWake,  SleepType: Normal Sleep,  
+ARPT: 69287.455875: AirPort_Brcm43xx::platformWoWEnable: WWEN[disable]
+pci pause: SDXC
+Google Chrome He[2850] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c098316043ca7. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2851] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831830c467. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2852] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f6f8f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+ignored is_io_service_close(0x1000003d2,IOHIDParamUserClient)
+Google Chrome He[2857] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831830c467. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2858] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f5a3f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2859] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f63ef. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2860] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f6f8f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2864] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f7467. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+process Google Chrome He[2566] caught causing excessive wakeups. Observed wakeups rate (per sec): 161; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 149549
+Google Chrome He[2876] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f63ef. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2878] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f6d9f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2879] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f7467. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2880] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f6f8f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2884] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f7467. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2896] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99c277. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2898] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f63ef. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+ignored is_io_service_close(0x1000003d2,IOHIDParamUserClient)
+ignored is_io_service_close(0x1000003d2,IOHIDParamUserClient)
+ignored is_io_service_close(0x1000003d2,IOHIDParamUserClient)
+Google Chrome[2942] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99bf8f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2945] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99ae1f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2947] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f6107. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2950] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f63ef. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2951] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c098316043e97. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2952] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831830b00f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2953] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f7847. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2962] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f5b37. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2963] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f6107. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2964] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f7467. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2980] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99c277. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2981] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99be97. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2982] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831830bbaf. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2984] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99c277. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2985] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831830bbaf. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2986] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f6d9f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2987] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f6d9f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[2988] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831830bbaf. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3008] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99c277. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3009] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831830bbaf. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3010] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99be97. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome[3025] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c098312d12467. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3028] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f63ef. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3029] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99bf8f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3032] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99b4e7. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3034] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831830b00f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3039] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c098316043e97. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3035] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99ae1f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3058] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99bf8f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3059] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99c277. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3060] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99ae1f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+ignored is_io_service_close(0x1000003d2,IOHIDParamUserClient)
+ignored is_io_service_close(0x1000003d2,IOHIDParamUserClient)
+Google Chrome[3124] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f793f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3127] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831830c467. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3128] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f5a3f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3132] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c098312d12467. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3133] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99bd9f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3134] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99b4e7. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3135] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c09831a99ae1f. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[3142] triggered unnest of range 0x7fff8f800000->0x7fff8fa00000 of DYLD shared region in VM map 0xb57c0983271f7847. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+ignored is_io_service_close(0x1000003d2,IOHIDParamUserClient)

@@ -1,0 +1,27 @@
+/dev/disk3 
+Apple UDIF, только для чтения, сжатый (zlib) 
+Physical Block (sector) size: Unknown bytes 
+Using Block (sector) size: 512 bytes 
+Total Number of Blocks: 94208 
+Total Disk Size: 48.2 MB 
+  
+MBR Partition Entry 1: 00feffffeefeffff01000000ff6f0100 
+MBR Partition Entry 2: 00000000000000000000000000000000 
+MBR Partition Entry 3: 00000000000000000000000000000000 
+MBR Partition Entry 4: 00000000000000000000000000000000 
+  
+Partition Map: GUID Partition Table 
+Disk GUID:7b6f4b4b-6492-446c-9590-6ff734514dfd 
+Partition GUID: 04650f37-097a-4bce-8a22-d76cf9d42e66 | Name: disk image 
+
+=========  =========           ========    ==========  ========= 
+LBA Start  Type                GPT Name    LoaderCode  Size LBA 
+=========  =========           ========    ==========  ========= 
+0          MBR                                         1 
+1          Primary GPT Header                          1 
+2          Primary GPT Table                           32 
+34         Space                                       6 
+40         HFS+                disk image              94128 
+94168      Space                                       7 
+94175      Backup GPT Table                            32 
+94207      Backup GPT Header                           1 

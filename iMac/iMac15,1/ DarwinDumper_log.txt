@@ -1,0 +1,125 @@
+========================================================
+Welcome to DarwinDumper 2.9.6
+Fri Oct 24 13:58:44 EDT 2014
+System Version: OS X 10.10 (14A389)
+========================================================
+Initialisation info
+--------------------------------------------------------
+*/Users/apple/Library/Preferences/org.tom.DarwinDumper not found.
+*Save path - Default: Will use /Users/apple/Downloads
+*Symlink check: Symlink has not been created.
+*Version check: This is the latest version.
+*UI: User clicked the run button
+*Save path verify: Path exists.
+*Save path verify: Path is writeable.
+*Save path verify: Path does not end with DarwinDumperReports.
+*Save path: Creating /Users/apple/Downloads/DarwinDumperReports
+*Save path: Currently owned by user:501 of group:20 with permissions: 755
+*Save path: /Users/apple/Downloads/DarwinDumperReports is now owned by apple:staff with permissions 755
+--------------------------------------------------------
+          Attempting to read last ASL boot log...
+001s : +Started process DumpFilesAppleSystemLog: pid 1776
+001s : +Started process DumpFilesSystemProfilerInfo: pid 1780
+          System has been booted for 7:58
+          Apple System Log file no longer exists.
+001s : -Completed DumpFilesAppleSystemLog
+          Check: /System Profiler/System-Profiler.spx created.
+          Check: /System Profiler/System-Profiler.txt created.
+017s : -Completed DumpFilesSystemProfilerInfo
+018s : +Started process DumpFilesAcpiTables: pid 1898
+018s : +Started process DumpFilesFirmwareLog: pid 1900
+018s : +Started process DumpFilesDeviceProperties: pid 1903
+018s : +Started process DumpFilesOpenCLInfo: pid 1913
+018s : +Started process DumpFilesKernelInfo: pid 1923
+          Firmware Log not available.
+018s : -Completed DumpFilesFirmwareLog
+018s : +Started process DumpFilesSmcKeys: pid 1929
+018s : +Started process DumpFilesRtc: pid 1944
+          Check: /Kernel Info/sysctl_cpu.txt created.
+018s : +Started process DumpFilesRcScripts: pid 1948
+018s : -Completed DumpFilesRcScripts
+          Check: /OpenCL/openCLinfo.txt created.
+018s : -Completed DumpFilesOpenCLInfo
+          Check: /Kernel Info/sysctl_hw.txt created.
+          Check: /Device Properties/device-properties.hex created.
+          Check: /Kernel Info/sysctl_machdep_xcpm.txt created.
+018s : -Completed DumpFilesKernelInfo
+          Check: /Device Properties/device-properties.plist created.
+018s : -Completed DumpFilesDeviceProperties
+          Found ACPI table: SSDT-5
+          Found ACPI table: RSDT
+          Disassembled ACPI table: RSDT
+          Found ACPI table: SSDT-2
+          Found ACPI table: SSDT-7
+          Found ACPI table: SSDT-1
+          Found ACPI table: SSDT
+          Found ACPI table: SSDT-6
+          Found ACPI table: DMAR
+          Disassembled ACPI table: DMAR
+          Found ACPI table: HPET
+          Disassembled ACPI table: HPET
+          Found ACPI table: VFCT
+          Disassembled ACPI table: VFCT
+          Found ACPI table: APIC
+          Disassembled ACPI table: APIC
+          Found ACPI table: SBST
+          Disassembled ACPI table: SBST
+          Found ACPI table: MCFG
+          Disassembled ACPI table: MCFG
+          Found ACPI table: FACP
+          Disassembled ACPI table: FACP
+          Found ACPI table: DSDT
+          Found ACPI table: FACS
+          Disassembled ACPI table: FACS
+          Found ACPI table: ECDT
+          Disassembled ACPI table: ECDT
+          Found ACPI table: SSDT-4
+          Found ACPI table: SSDT-3
+          Disassembling DSDT and SSDT's (9 files in total) as multiple tables from single namespace...
+          Disassembling was successful.
+018s : -Completed AcpiTables
+          Check: /SMC/SMC-keys.txt created.
+          Check: /SMC/SMC-fans.txt created.
+018s : -Completed DumpFilesSmcKeys
+          Check: /RTC/RTCDump.txt created.
+019s : -Completed DumpFilesRtc
+019s : +Started process DumpFilesDmiTables: pid 2174
+019s : +Started process DumpFilesNvram: pid 2178
+          Check: /NVRAM/nvram.plist created.
+019s : +Started process DumpFilesEdid: pid 2182
+          Check: /NVRAM/nvram_hexdump.txt created.
+          Check: /DMI Tables/SMBIOS.bin created.
+019s : +Started process DumpFilesCpuInfo: pid 2187
+          Check: /NVRAM/nvram.plist created.
+          Check: /DMI Tables/SMBIOS.txt created.
+019s : -Completed DumpFilesNvram
+019s : -Completed DumpFilesDmiTables
+          Check: /CPU/cpuinfo.txt created.
+          Check: /CPU/cpuinfo.txt is 0K in size!
+019s : -Completed DumpFilesCpuInfo
+          Check: /EDID/EDID.txt created.
+          Check: /EDID/EDID.bin created.
+019s : -Completed DumpFilesEdid
+          Running ioregwv...
+019s : +Started process DumpFilesIoreg: pid 2221
+020s : -Completed DumpFilesIoreg
+========================================================
+Dumps complete after: 21 seconds
+--------------------------------------------------------
+Creating HTML report...
+          adding ACPI tables
+          adding CPU Information
+          adding device properties
+          adding DMI dump
+          adding EDID.txt
+          adding IORegistry Viewer
+          adding kernel logs
+          adding kernel info
+          adding nvram info
+          adding OpenCL dump
+          adding RTC dump
+          adding SMC dumps
+          adding System Profiler dump
+========================================================
+DarwinDumper Completed in: 30 seconds
+========================================================

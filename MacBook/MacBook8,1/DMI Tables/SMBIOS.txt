@@ -1,0 +1,571 @@
+# dmidecode 2.12b
+Handle 0x0000, DMI type 7, 19 bytes
+0000: 07 13 00 00 01 80 01 20 00 20 00 20 00 20 00 00 
+0010: 04 04 07 
+
+Cache Information
+	Socket Designation: L1 Cache
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Parity
+	System Type: Data
+	Associativity: 8-way Set-associative
+
+Handle 0x0001, DMI type 7, 19 bytes
+0000: 07 13 01 00 01 80 01 20 00 20 00 20 00 20 00 00 
+0010: 04 03 07 
+
+Cache Information
+	Socket Designation: L1 Cache
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Parity
+	System Type: Instruction
+	Associativity: 8-way Set-associative
+
+Handle 0x0002, DMI type 7, 19 bytes
+0000: 07 13 02 00 01 81 01 00 01 00 01 20 00 20 00 00 
+0010: 05 05 07 
+
+Cache Information
+	Socket Designation: L2 Cache
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unified
+	Associativity: 8-way Set-associative
+
+Handle 0x0003, DMI type 7, 19 bytes
+0000: 07 13 03 00 01 82 01 00 10 00 10 20 00 20 00 00 
+0010: 06 05 08 
+
+Cache Information
+	Socket Designation: L3 Cache
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 4096 kB
+	Maximum Size: 4096 kB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Multi-bit ECC
+	System Type: Unified
+	Associativity: 16-way Set-associative
+
+Handle 0x0004, DMI type 4, 42 bytes
+0000: 04 2a 04 00 01 03 2c 02 d4 06 03 00 ff fb eb bf 
+0010: 03 89 19 00 b0 04 d0 07 41 2f 01 00 02 00 03 00 
+0020: 04 05 06 02 02 04 fc 00 2c 00 
+
+Processor Information
+	Socket Designation: U3E1
+	Type: Central Processor
+	Family: <OUT OF SPEC>
+	Manufacturer: Intel(R) Corporation
+	ID: D4 06 03 00 FF FB EB BF
+	Version: Intel(R) Core(TM) M-5Y51 CPU @ 1.10GHz
+	Voltage: 0.9 V
+	External Clock: 25 MHz
+	Max Speed: 1200 MHz
+	Current Speed: 2000 MHz
+	Status: Populated, Enabled
+	Upgrade: <OUT OF SPEC>
+	L1 Cache Handle: 0x0001
+	L2 Cache Handle: 0x0002
+	L3 Cache Handle: 0x0003
+	Serial Number:  
+	Asset Tag:  
+	Part Number:  
+	Core Count: 2
+	Core Enabled: 2
+	Thread Count: 4
+	Characteristics:
+		64-bit capable
+		Multi-Core
+		Hardware Thread
+		Execute Protection
+		Enhanced Virtualization
+		Power/Performance Control
+
+Handle 0x0005, DMI type 0, 24 bytes
+0000: 00 18 05 00 01 02 00 e0 03 7f 80 98 03 00 00 00 
+0010: 00 00 81 0a 00 01 ff ff 
+
+BIOS Information
+	Vendor: Apple Inc.
+	Version: MB81.88Z.0164.B13.1602161331
+	Release Date: 02/16/2016
+	Address: 0xE0000
+	Runtime Size: 128 kB
+	ROM Size: 8192 kB
+	Characteristics:
+		PCI is supported
+		BIOS is upgradeable
+		BIOS shadowing is allowed
+		Boot from CD is supported
+		Selectable boot is supported
+		BIOS ROM is socketed
+		ACPI is supported
+		Smart battery is supported
+		Function key-initiated network boot is supported
+		UEFI is supported
+	BIOS Revision: 0.1
+
+Handle 0x0006, DMI type 1, 27 bytes
+0000: 01 1b 06 00 01 02 03 04 bd 42 bb 1e e0 7b fe 58 
+0010: 9d 41 6b 7a 80 ae ac b6 06 05 06 
+
+System Information
+	Manufacturer: Apple Inc.
+	Product Name: MacBook8,1
+	Version: 1.0
+	Serial Number: C**********4
+	UUID: BD********************************B6
+	Wake-up Type: Power Switch
+	SKU Number: System SKU#
+	Family: Crb
+
+Handle 0x0007, DMI type 2, 17 bytes
+0000: 02 11 07 00 01 02 03 04 05 01 06 08 00 0a 00 00 
+0010: 00 
+
+Base Board Information
+	Manufacturer: Apple Inc.
+	Product Name: Mac-BE0E8AC46FE800CC
+	Version: MacBook8,1
+	Serial Number: C***************5
+	Asset Tag: Base Board Asset Tag#
+	Features:
+		Board is a hosting board
+	Location In Chassis: Part Component
+	Chassis Handle: 0x0008
+	Type: Motherboard
+	Contained Object Handles: 0
+
+Handle 0x0008, DMI type 3, 24 bytes
+0000: 03 18 08 00 01 09 02 03 04 03 03 03 03 00 00 00 
+0010: 00 00 00 00 00 00 00 00 
+
+Chassis Information
+	Manufacturer: Apple Inc.
+	Type: Laptop
+	Lock: Not Present
+	Version: Mac-BE0E8AC46FE800CC
+	Serial Number: C**********4
+	Asset Tag: Chassis Board Asset Tag#
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Safe
+	Security Status: None
+	OEM Information: 0x00000000
+	Height: Unspecified
+	Number Of Power Cords: Unspecified
+	Contained Elements: 0
+	SKU Number: Not Specified
+
+Handle 0x0009, DMI type 8, 9 bytes
+0000: 08 09 09 00 00 00 01 12 10 
+
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: USB0
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x000A, DMI type 8, 9 bytes
+0000: 08 09 0a 00 00 00 01 12 10 
+
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: USB1
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x000B, DMI type 8, 9 bytes
+0000: 08 09 0b 00 00 00 01 00 11 
+
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: FireWire 800
+	External Connector Type: None
+	Port Type: Firewire (IEEE P1394)
+
+Handle 0x000C, DMI type 8, 9 bytes
+0000: 08 09 0c 00 00 00 01 1f 1d 
+
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: Audio Line In
+	External Connector Type: Mini Jack (headphones)
+	Port Type: Audio Port
+
+Handle 0x000D, DMI type 8, 9 bytes
+0000: 08 09 0d 00 00 00 01 1f 1d 
+
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: Audio Line Out
+	External Connector Type: Mini Jack (headphones)
+	Port Type: Audio Port
+
+Handle 0x000E, DMI type 8, 9 bytes
+0000: 08 09 0e 00 00 00 01 0b 1f 
+
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: Ethernet
+	External Connector Type: RJ-45
+	Port Type: Network Port
+
+Handle 0x000F, DMI type 8, 9 bytes
+0000: 08 09 0f 00 00 00 01 00 ff 
+
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: Mini DisplayPort
+	External Connector Type: None
+	Port Type: Other
+
+Handle 0x0010, DMI type 8, 9 bytes
+0000: 08 09 10 00 01 16 00 00 00 
+
+Port Connector Information
+	Internal Reference Designator: SATA Port A
+	Internal Connector Type: On Board IDE
+	External Reference Designator: Not Specified
+	External Connector Type: None
+	Port Type: None
+
+Handle 0x0011, DMI type 8, 9 bytes
+0000: 08 09 11 00 01 ff 00 00 00 
+
+Port Connector Information
+	Internal Reference Designator: Speaker
+	Internal Connector Type: Other
+	External Reference Designator: Not Specified
+	External Connector Type: None
+	Port Type: None
+
+Handle 0x0012, DMI type 9, 17 bytes
+0000: 09 11 12 00 01 a6 08 04 01 00 00 04 06 00 00 00 
+0010: 80 
+
+System Slot Information
+	Designation: AirPort
+	Type: x1 PCI Express x1
+	Current Usage: In Use
+	Length: Other
+	ID: 0
+	Characteristics:
+		3.3 V is provided
+		Hot-plug devices are supported
+		SMBus signal is supported
+	Bus Address: 0000:00:10.0
+
+Handle 0x0013, DMI type 41, 11 bytes
+0000: 29 0b 13 00 01 83 01 00 00 00 00 
+
+Onboard Device
+	Reference Designation: FIX THIS Graphics Controller
+	Type: Video
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:00.0
+
+Handle 0x0014, DMI type 41, 11 bytes
+0000: 29 0b 14 00 01 83 01 00 00 00 00 
+
+Onboard Device
+	Reference Designation: FIX THIS Graphics Controller
+	Type: Video
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:00.0
+
+Handle 0x0015, DMI type 41, 11 bytes
+0000: 29 0b 15 00 01 87 01 00 00 00 00 
+
+Onboard Device
+	Reference Designation: FIX THIS Audio Codec
+	Type: Sound
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:00.0
+
+Handle 0x0016, DMI type 41, 11 bytes
+0000: 29 0b 16 00 01 85 01 00 00 00 00 
+
+Onboard Device
+	Reference Designation: FIX THIS Ethernet Controllerr
+	Type: Ethernet
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:00.0
+
+Handle 0x0017, DMI type 41, 11 bytes
+0000: 29 0b 17 00 01 89 01 00 00 00 00 
+
+Onboard Device
+	Reference Designation: SATA
+	Type: SATA Controller
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:00.0
+
+Handle 0x0018, DMI type 41, 11 bytes
+0000: 29 0b 18 00 01 88 01 00 00 00 00 
+
+Onboard Device
+	Reference Designation: PATA
+	Type: PATA Controller
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:00.0
+
+Handle 0x0019, DMI type 12, 5 bytes
+0000: 0c 05 19 00 01 
+
+System Configuration Options
+	Option 1: Not Found
+
+Handle 0x001A, DMI type 13, 22 bytes
+0000: 0d 16 1a 00 01 01 00 00 00 00 00 00 00 00 00 00 
+0010: 00 00 00 00 00 01 
+
+BIOS Language Information
+	Installable Languages: 1
+		en
+	Currently Installed Language: en
+
+Handle 0x001B, DMI type 22, 26 bytes
+0000: 16 1a 1b 00 00 00 00 00 00 02 00 00 00 00 00 00 
+0010: 00 00 00 00 00 00 00 00 00 00 
+
+Portable Battery
+	Location: Not Specified
+	Manufacturer: Not Specified
+	Name: Not Specified
+	Design Capacity: Unknown
+	Design Voltage: Unknown
+	SBDS Version: Not Specified
+	Maximum Error: 0%
+	SBDS Serial Number: 0000
+	SBDS Manufacture Date: 1980-00-00
+	SBDS Chemistry: Not Specified
+	OEM-specific Information: 0x00000000
+
+Handle 0x001C, DMI type 32, 11 bytes
+0000: 20 0b 1c 00 00 00 00 00 00 00 00 
+
+System Boot Information
+	Status: No errors detected
+
+Handle 0x001D, DMI type 131, 6 bytes
+0000: 83 06 1d 00 06 0b 
+
+Apple specific Processor Type
+	 cpu=0b06
+
+Handle 0x001E, DMI type 133, 12 bytes
+0000: 85 0c 1e 00 1a 00 00 00 00 00 00 00 
+
+OEM-specific Type
+	Header and Data:
+		85 0C 1E 00 1A 00 00 00 00 00 00 00
+
+Handle 0x001F, DMI type 128, 88 bytes
+0000: 80 58 1f 00 03 00 00 00 3e f5 03 fc 3f ff 03 fc 
+0010: 02 00 03 00 00 00 00 00 00 00 99 ff ff ff af ff 
+0020: 00 00 b0 ff ff ff d4 ff 00 00 d7 ff ff ff d9 ff 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 
+
+Apple specific FirmwareVolume
+	FirmwareFeatures: fc03f53e
+	FirmwareFeaturesMask: fc03ff3f
+	Region Type:02 Start:ff990000 End:ffafffff
+	Region Type:00 Start:ffb00000 End:ffd4ffff
+	Region Type:03 Start:ffd70000 End:ffd9ffff
+
+Handle 0x0020, DMI type 134, 20 bytes
+0000: 86 14 20 00 32 2e 32 35 46 30 38 37 00 00 00 00 
+0010: 00 00 00 00 
+
+OEM-specific Type
+	Header and Data:
+		86 14 20 00 32 2E 32 35 46 30 38 37 00 00 00 00
+		00 00 00 00
+
+Handle 0x0021, DMI type 16, 23 bytes
+0000: 10 17 21 00 03 03 03 00 00 80 00 fe ff 02 00 00 
+0010: 00 00 00 00 00 00 00 
+
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 8 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 2
+
+Handle 0x0022, DMI type 17, 34 bytes
+0000: 11 22 22 00 21 00 fe ff 40 00 40 00 00 10 0d 00 
+0010: 01 02 18 80 00 40 06 03 04 00 05 00 00 00 00 00 
+0020: 40 06 
+
+Memory Device
+	Array Handle: 0x0021
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4096 MB
+	Form Factor: SODIMM
+	Set: None
+	Locator: DIMM0
+	Bank Locator: BANK 0
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1600 MHz (0.6 ns)
+	Manufacturer: 0x02FE
+	Serial Number: 0x00000000
+	Asset Tag: Not Specified
+	Part Number: 0x4544464231363441314D412D47442D462020
+	Rank: Unknown
+	Configured Clock Speed: 1600 MHz (0.6 ns)
+
+Handle 0x0023, DMI type 130, 186 bytes
+0000: 82 ba 23 00 22 00 00 00 b0 00 91 20 f1 03 05 19 
+0010: 05 0b 03 11 01 08 0a 00 50 01 78 78 90 50 90 11 
+0020: 50 e0 90 06 3c 3c 01 90 00 00 00 00 00 00 00 00 
+0030: 00 a8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 
+0080: fe 00 00 00 00 00 00 00 00 00 45 44 46 42 31 36 
+0090: 34 41 31 4d 41 2d 47 44 2d 46 20 20 00 00 00 00 
+00a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00b0: 00 00 00 00 00 00 00 00 00 00 
+
+Apple specific SPD
+	000082ba230022000000b0009120f1030519
+	0010050b031101080a005001787890509011
+	002050e090063c3c01900000000000000000
+	003000a80000000000000000000000000000
+	004000000000000000000000000000000000
+	005000000000000000000000000000000000
+	006000000000000000000000000000000000
+	007000000000000000000000000000000002
+	0080fe000000000000000000454446423136
+	00903441314d412d47442d46202000000000
+	00a000000000000000000000000000000000
+	00b000000000000000000000000011222400
+	00c02100feff4000400000100d0001021880
+	00d000400603040005000000000040064449
+	00e04d4d300042414e4b2031003078303246
+	00f045003078303030303030303000307834
+
+Handle 0x0024, DMI type 17, 34 bytes
+0000: 11 22 24 00 21 00 fe ff 40 00 40 00 00 10 0d 00 
+0010: 01 02 18 80 00 40 06 03 04 00 05 00 00 00 00 00 
+0020: 40 06 
+
+Memory Device
+	Array Handle: 0x0021
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4096 MB
+	Form Factor: SODIMM
+	Set: None
+	Locator: DIMM0
+	Bank Locator: BANK 1
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1600 MHz (0.6 ns)
+	Manufacturer: 0x02FE
+	Serial Number: 0x00000000
+	Asset Tag: Not Specified
+	Part Number: 0x4544464231363441314D412D47442D462020
+	Rank: Unknown
+	Configured Clock Speed: 1600 MHz (0.6 ns)
+
+Handle 0x0025, DMI type 130, 186 bytes
+0000: 82 ba 25 00 24 00 00 00 b0 00 91 20 f1 03 05 19 
+0010: 05 0b 03 11 01 08 0a 00 50 01 78 78 90 50 90 11 
+0020: 50 e0 90 06 3c 3c 01 90 00 00 00 00 00 00 00 00 
+0030: 00 a8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 
+0080: fe 00 00 00 00 00 00 00 00 00 45 44 46 42 31 36 
+0090: 34 41 31 4d 41 2d 47 44 2d 46 20 20 00 00 00 00 
+00a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00b0: 00 00 00 00 00 00 00 00 00 00 
+
+Apple specific SPD
+	000082ba250024000000b0009120f1030519
+	0010050b031101080a005001787890509011
+	002050e090063c3c01900000000000000000
+	003000a80000000000000000000000000000
+	004000000000000000000000000000000000
+	005000000000000000000000000000000000
+	006000000000000000000000000000000000
+	007000000000000000000000000000000002
+	0080fe000000000000000000454446423136
+	00903441314d412d47442d46202000000000
+	00a000000000000000000000000000000000
+	00b0000000000000000000000000131f2600
+	00c0ffffffffffffffff2100000000000000
+	00d0000000ffffffff0100000000007f04ff
+	00e0fe000000000000000000000000000000
+	00f000000000000000000000000000000000
+
+Handle 0x0026, DMI type 19, 31 bytes
+0000: 13 1f 26 00 ff ff ff ff ff ff ff ff 21 00 00 00 
+0010: 00 00 00 00 00 00 00 ff ff ff ff 01 00 00 00 
+
+Memory Array Mapped Address
+	Starting Address: 0x0000000000000000k
+	Ending Address: 0x00000001FFFFFFFFk
+	Range Size: 8 GB
+	Physical Array Handle: 0x0021
+	Partition Width: 0
+
+Handle 0xFEFF, DMI type 127, 4 bytes
+0000: 7f 04 ff fe 
+
+End Of Table
+

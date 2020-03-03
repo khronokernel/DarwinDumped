@@ -1,0 +1,82 @@
+1 OpenCL platform found!
+
+[Platform 0]
+	Name: 			Apple
+	Vendor: 		Apple
+	Version: 		OpenCL 1.2 (Jan  2 2020 17:35:29)
+	Profile: 		FULL_PROFILE
+	Extensions: 			cl_APPLE_SetMemObjectDestructor cl_APPLE_ContextLoggingFunctions cl_APPLE_clut cl_APPLE_query_kernel_names cl_APPLE_gl_sharing cl_khr_gl_event
+
+
+2 OpenCL devices found!
+
+[Device 0]
+	Name: 			Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
+	Vendor: 		Intel
+	Type: 			CPU 
+	Device Version: 	OpenCL 1.2 
+	Driver Version: 	1.1
+	Compute Units: 		8
+	Work Group Size: 	1024
+	Clock: 			2400 MHz
+	Global Memory (Total): 	8192 MB
+	Global Memory (Host): 	8192 MB
+	Global Memory (PCIe): 	0 MB
+	Local Memory: 		32 KB
+	Cache Size: 		0.0625 KB
+	Cache Line Size: 	6291456 Bytes
+	Available: 		Yes
+	Double-Precision: 	Yes
+	Extensions: 
+				cl_APPLE_SetMemObjectDestructor
+				cl_APPLE_ContextLoggingFunctions
+				cl_APPLE_clut
+				cl_APPLE_query_kernel_names
+				cl_APPLE_gl_sharing
+				cl_khr_gl_event
+				cl_khr_fp64
+				cl_khr_global_int32_base_atomics
+				cl_khr_global_int32_extended_atomics
+				cl_khr_local_int32_base_atomics
+				cl_khr_local_int32_extended_atomics
+				cl_khr_byte_addressable_store
+				cl_khr_int64_base_atomics
+				cl_khr_int64_extended_atomics
+				cl_khr_3d_image_writes
+				cl_khr_image2d_from_buffer
+				cl_APPLE_fp64_basic_ops
+				cl_APPLE_fixed_alpha_channel_orders
+				cl_APPLE_biased_fixed_point_image_formats
+
+[Device 1]
+	Name: 			Intel(R) Iris(TM) Plus Graphics 655
+	Vendor: 		Intel Inc.
+	Type: 			GPU 
+	Device Version: 	OpenCL 1.2 
+	Driver Version: 	1.2(Jan 17 2020 22:29:16)
+	Compute Units: 		48
+	Work Group Size: 	256
+	Clock: 			1150 MHz
+	Global Memory: 		1536 MB
+	Local Memory: 		64 KB
+	Cache Size: 		0 KB
+	Cache Line Size: 	0 Bytes
+	Available: 		Yes
+	Double-Precision: 	No
+	Extensions: 
+				cl_APPLE_SetMemObjectDestructor
+				cl_APPLE_ContextLoggingFunctions
+				cl_APPLE_clut
+				cl_APPLE_query_kernel_names
+				cl_APPLE_gl_sharing
+				cl_khr_gl_event
+				cl_khr_global_int32_base_atomics
+				cl_khr_global_int32_extended_atomics
+				cl_khr_local_int32_base_atomics
+				cl_khr_local_int32_extended_atomics
+				cl_khr_byte_addressable_store
+				cl_khr_image2d_from_buffer
+				cl_khr_gl_depth_images
+				cl_khr_depth_images
+				cl_khr_3d_image_writes
+

@@ -1,0 +1,31 @@
+/dev/disk0 
+APPLE HDD HTS541010A9E662 Media 
+Physical Block (sector) size: 4096 bytes 
+Using Block (sector) size: 512 bytes 
+Total Number of Blocks: 1953525168 
+Total Disk Size: 1.0 TB 
+  
+MBR Partition Entry 1: 00feffffeefeffff01000000af6d7074 
+MBR Partition Entry 2: 00000000000000000000000000000000 
+MBR Partition Entry 3: 00000000000000000000000000000000 
+MBR Partition Entry 4: 00000000000000000000000000000000 
+  
+Partition Map: GUID Partition Table 
+Disk GUID:8ef0e7e2-a818-4b78-ba29-667d54904024 
+Partition GUID: 08efb870-fcbb-486e-8ad7-4141cf02b4da | Name: EFI System Partition 
+Partition GUID: 8af59b0b-6cc4-468f-9ccb-403d317c27e2 | Name: Macintosh HD 
+Partition GUID: 10ae550e-92ef-457f-ba92-b0c3b3b9c64e | Name: Booter 
+
+=========   =========             ========              ==========  ========= 
+LBA Start   Type                  GPT Name              LoaderCode  Size LBA 
+=========   =========             ========              ==========  ========= 
+0           MBR                                                     1 
+1           Primary GPT Header                                      1 
+2           Primary GPT Table                                       32 
+34          Space                                                   6 
+40          EFI System Partition  EFI System Partition  Apple EFI   409600 
+409640      Core Storage          Macintosh HD                      1951845952 
+1952255592  OSX Boot              Booter                            1269536 
+1953525128  Space                                                   7 
+1953525135  Backup GPT Table                                        32 
+1953525167  Backup GPT Header                                       1 

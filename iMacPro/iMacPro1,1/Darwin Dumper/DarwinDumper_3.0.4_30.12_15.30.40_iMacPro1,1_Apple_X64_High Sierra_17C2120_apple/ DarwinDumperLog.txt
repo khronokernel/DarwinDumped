@@ -1,0 +1,160 @@
+===================================
+Welcome to DarwinDumper 3.0.4
+Sat Dec 30 15:30:40 AEDT 2017
+System Version: macOS 10.13.2 (17C2120)
+Security Integrity Configuration: 0x00000000
+===================================
+Initialisation information
+===================================
+*/Users/apple/Library/Preferences/org.tom.DarwinDumper not found.
+*Save path - Default: Will use /private/var/folders/dq/dsqjmf_96j50zx39l8zvj0l80000gp/T/AppTranslocation/BC07AE8F-EBED-459E-9224-21FABB27D05D/d
+*Symlink check: Symlink has not been created.
+*User Chose: Archive Zip
+*User Chose: ACPI tables
+*User Chose: Firmware (Boot) Log
+*User Chose: Kernel (Boot) Messages
+*User Chose: Device Properties
+*User Chose: DMI Tables
+*User Chose: EDID
+*User Chose: IORegistry
+*User Chose: Kernel Info
+*User Chose: Kexts
+*User Chose: NVRAM
+*User Chose: Open CL
+*User Chose: Power
+*User Chose: RC Scripts
+*User Chose: RTC
+*User Chose: SIP
+*User Chose: SMC Keys
+*User Chose: System Profiler
+*User Chose: Report
+===================================
+000s : +Started process DumpFilesBootlogKernel: pid 3446
+          Extracting boot time kernel entries from the system log..
+000s : +Started process DumpFilesSystemProfilerInfo: pid 3449
+          Extracting kernel entries from 2017-12-30 06:59:29 to 2017-12-30 07:05:29
+000s : -Completed DumpFilesBootlogKernel
+          Check: /System Profiler/System-Profiler.spx created.
+          Check: /System Profiler/System-Profiler.txt created.
+018s : -Completed DumpFilesSystemProfilerInfo
+018s : +Started process DumpFilesAcpiTables: pid 3658
+          Dumping Kext lists...
+018s : +Started process DumpFilesKextLists: pid 3662
+018s : +Started process DumpFilesBootLogFirmware: pid 3667
+018s : +Started process DumpFilesDeviceProperties: pid 3671
+018s : +Started process DumpFilesOpenCLInfo: pid 3675
+018s : +Started process DumpFilesKernelInfo: pid 3683
+          Boot Log not available.
+018s : +Started process DumpSip: pid 3696
+018s : -Completed DumpFilesBootLogFirmware
+018s : +Started process DumpFilesSmcKeys: pid 3705
+018s : +Started process DumpFilesRtc: pid 3710
+          Check: /SIP/SIP_status.txt created.
+018s : +Started process DumpFilesRcScripts: pid 3716
+018s : -Completed DumpSip
+018s : -Completed DumpFilesRcScripts
+          Check: /Device Properties/device-properties.hex created.
+          Check: /OpenCL/openCLinfo.txt created.
+          Check: /RTC/RTCDump.txt created.
+018s : -Completed DumpFilesOpenCLInfo
+018s : -Completed DumpFilesRtc
+          Check: /Device Properties/device-properties.plist created.
+018s : -Completed DumpFilesDeviceProperties
+          Check: /Kernel Info/sysctl_cpu.txt created.
+          Found ACPI table: APIC
+          Check: /Kernel Info/sysctl_hw.txt created.
+          Check: /Kernel Info/sysctl_machdep_xcpm.txt created.
+018s : -Completed DumpFilesKernelInfo
+          Disassembled ACPI table: APIC
+          Found ACPI table: BDAT
+          Disassembled ACPI table: BDAT
+          Found ACPI table: DMAR
+          Check: /Kexts/loaded_non_apple_kexts.txt created.
+          Disassembled ACPI table: DMAR
+          Found ACPI table: DMAR-1
+          Disassembled ACPI table: DMAR-1
+          Found ACPI table: DSDT
+          Found ACPI table: ECDT
+          Disassembled ACPI table: ECDT
+          Found ACPI table: FACP
+          Disassembled ACPI table: FACP
+          Found ACPI table: FACS
+          Disassembled ACPI table: FACS
+          Found ACPI table: HPET
+          Disassembled ACPI table: HPET
+          Found ACPI table: MCFG
+          Disassembled ACPI table: MCFG
+          Found ACPI table: RSDT
+          Disassembled ACPI table: RSDT
+          Found ACPI table: SBST
+          Disassembled ACPI table: SBST
+          Found ACPI table: SSDT
+          Check: /Kexts/loaded_apple_kexts.txt created.
+          Found ACPI table: SSDT-1
+          Found ACPI table: SSDT-2
+          Check: /SMC/SMC-keys.txt created.
+          Found ACPI table: SSDT-3
+          Check: /SMC/SMC-fans.txt created.
+019s : -Completed DumpFilesSmcKeys
+          Found ACPI table: SSDT-4
+          Found ACPI table: SSDT-5
+          Found ACPI table: SSDT-6
+          Found ACPI table: SSDT-7
+          Found ACPI table: SSDT-8
+          Found ACPI table: SSDT-9
+          Found ACPI table: SSDT-10
+          Found ACPI table: UEFI
+          Disassembled ACPI table: UEFI
+          Found ACPI table: VFCT
+          Disassembled ACPI table: VFCT
+          Disassembling DSDT and SSDT's (12 files in total) as multiple tables from single namespace...
+          Disassembling was successful.
+019s : -Completed AcpiTables
+          Check: /Kexts/prelinked_kexts_list.txt created.
+          Check: /Kexts/prelinked_kexts_dictionary.plist created.
+032s : -Completed DumpFilesKextLists
+033s : +Started process DumpFilesDmiTables: pid 4061
+033s : +Started process DumpFilesNvram: pid 4064
+033s : +Started process DumpFilesEdid: pid 4069
+033s : +Started process DumpFilesPower: pid 4073
+          Check: /NVRAM/nvram.plist created.
+          Check: /NVRAM/nvram_hexdump.txt created.
+          Check: /Power/pm_settings.txt created.
+          Check: /NVRAM/nvram.plist created.
+          Check: /DMI Tables/SMBIOS.bin created.
+033s : -Completed DumpFilesNvram
+          Check: /DMI Tables/SMBIOS.txt created.
+033s : -Completed DumpFilesDmiTables
+          Check: /Power/pm_log.txt created.
+          Check: /Power/pm_assertions.txt created.
+033s : -Completed DumpFilesPower
+          Found 1 EDID in ioreg
+          Check: /EDID/EDID.txt created.
+          Check: /EDID/EDID.bin created.
+033s : -Completed DumpFilesEdid
+033s : +Started process DumpFilesIoreg: pid 4103
+          Running ioregwv...
+035s : -Completed DumpFilesIoreg
+===================================
+Dumps complete after: 35 seconds
+===================================
+Creating HTML report...
+          adding ACPI tables
+          adding boot log - firmware
+          adding boot log - kernel messages
+          adding device properties
+          adding DMI dump
+          adding EDID.txt
+          adding IORegistry Viewer
+          adding kernel info
+          adding kext dumps
+          adding nvram info
+          adding OpenCL dump
+          adding power dumps
+          adding RTC dump
+          adding SIP dump
+          adding SMC dumps
+          adding System Profiler dump
+===================================
+DarwinDumper Completed in: 56 seconds
+===================================

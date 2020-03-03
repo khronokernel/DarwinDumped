@@ -1,0 +1,12 @@
+/dev/disk0
+ACTIVE      DEVICE   TYPE                   NAME          SIZE    MBR (Stage0)  PBR (Stage1)  BootFile  LOADER (Stage2)
+                     GUID_partition_scheme                500 GB   
+            disk0s1  EFI                                  209 MB                Apple EFI
+            disk0s2  Apple_HFS              Macintosh HD  499 GB                 
+            disk0s3  Apple_Boot             Recovery HD   650 MB                 
+/dev/disk2
+ACTIVE      DEVICE   TYPE                   NAME          SIZE    MBR (Stage0)  PBR (Stage1)  BootFile  LOADER (Stage2)
+                     GUID_partition_scheme                1 TB     
+            disk2s1  EFI                                  209 MB                Apple EFI
+            disk2s2  Apple_HFS              TimeHD        100 GB                 
+            disk2s3  Apple_HFS              DataHD        899 GB                 

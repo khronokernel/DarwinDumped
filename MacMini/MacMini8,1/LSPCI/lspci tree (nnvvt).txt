@@ -1,0 +1,23 @@
+-[0000:00]-+-00.0  Intel Corporation 8th Gen Core Processor Host Bridge/DRAM Registers [8086:3ec4]
+           +-01.0-[01]--
+           +-01.1-[83-ff]--
+           +-01.2-[05-82]----00.0-[06-82]--+-00.0-[08]--
+           |                               +-01.0-[46]--
+           |                               +-02.0-[07]----00.0  Intel Corporation JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 4C 2018] [8086:15ec]
+           |                               \-04.0-[09]--
+           +-02.0  Intel Corporation UHD Graphics 630 (Mobile) [8086:3e9b]
+           +-12.0  Intel Corporation Cannon Lake PCH Thermal Controller [8086:a379]
+           +-14.0  Intel Corporation Cannon Lake PCH USB 3.1 xHCI Host Controller [8086:a36d]
+           +-14.2  Intel Corporation Cannon Lake PCH Shared SRAM [8086:a36f]
+           +-16.0  Intel Corporation Cannon Lake PCH HECI Controller [8086:a360]
+           +-1b.0-[02]--+-00.0  Apple Inc. ANS2 NVMe Controller [106b:2005]
+           |            +-00.1  Apple Inc. T2 Bridge Controller [106b:1801]
+           |            +-00.2  Apple Inc. T2 Secure Enclave Processor [106b:1802]
+           |            \-00.3  Apple Inc. Apple Audio Device [106b:1803]
+           +-1c.0-[03]----00.0  Broadcom Inc. and subsidiaries Device [14e4:4464]
+           +-1c.1-[04]----00.0  Broadcom Inc. and subsidiaries NetXtreme BCM57766 Gigabit Ethernet PCIe [14e4:1686]
+           +-1e.0  Intel Corporation Device [8086:a328]
+           +-1f.0  Intel Corporation Device [8086:a30e]
+           +-1f.3  Intel Corporation Cannon Lake PCH cAVS [8086:a348]
+           +-1f.4  Intel Corporation Cannon Lake PCH SMBus Controller [8086:a323]
+           \-1f.5  Intel Corporation Cannon Lake PCH SPI Controller [8086:a324]

@@ -1,0 +1,15 @@
+[
+{"data":{"title":"IOMaximumBlockCountWrite"},"attr":{"id":"14591","ColType":"Number","ColValue":"65536"}},
+{"data":{"title":"device-type"},"attr":{"id":"14593","ColType":"String","ColValue":"Generic"}},
+{"data":{"title":"IOCommandPoolSize"},"attr":{"id":"14595","ColType":"Number","ColValue":"64"}},
+{"data":{"title":"Protocol Characteristics"},"attr":{"id":"14597","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"14599","ColType":"String","ColValue":"Internal"}},{"data":{"title":"Physical Interconnect"},"attr":{"id":"14601","ColType":"String","ColValue":"Secure Digital"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"14603","ColType":"String","ColValue":"com.apple.driver.AppleSDXC"}},
+{"data":{"title":"IOClass"},"attr":{"id":"14605","ColType":"String","ColValue":"AppleSDXCBlockStorageDevice"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"14607","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"14609","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOMediaIcon"},"attr":{"id":"14611","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOBundleResourceFile"},"attr":{"id":"14613","ColType":"String","ColValue":"SD.icns"}},{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"14615","ColType":"String","ColValue":"com.apple.iokit.IOSCSIArchitectureModelFamily"}}]},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"14617","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"TimeSinceDeviceIdle"},"attr":{"id":"14619","ColType":"Number","ColValue":"304478"}},{"data":{"title":"DevicePowerState"},"attr":{"id":"14621","ColType":"Number","ColValue":"0"}},{"data":{"title":"ActivityTickles"},"attr":{"id":"14623","ColType":"Number","ColValue":"0"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"14625","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"14627","ColType":"Number","ColValue":"1"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"14629","ColType":"Number","ColValue":"4"}},{"data":{"title":"IdleTimerPeriod"},"attr":{"id":"14631","ColType":"Number","ColValue":"15000"}}]},
+{"data":{"title":"IOMaximumBlockCountRead"},"attr":{"id":"14633","ColType":"Number","ColValue":"65536"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"14635","ColType":"String","ColValue":"AppleSDXCSlot"}},
+{"data":{"title":"Device Characteristics"},"attr":{"id":"14637","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Vendor Name"},"attr":{"id":"14639","ColType":"String","ColValue":"Apple"}},{"data":{"title":"Product Name"},"attr":{"id":"14641","ColType":"String","ColValue":"Built In SDXC Reader"}}]}
+]

@@ -1,0 +1,151 @@
+========================================================
+Welcome to DarwinDumper 2.9.9.2
+Tue Dec 22 19:01:57 CST 2015
+System Version: OS X 10.11.2 (15C50)
+Security Integrity Configuration: Enabled (00) | Internal (00)
+========================================================
+Initialisation info
+--------------------------------------------------------
+*/Users/apple/Library/Preferences/org.tom.DarwinDumper not found.
+*Save path - Default: Will use /Volumes/USB
+*Symlink check: Symlink has not been created.
+*UI: User clicked the run button
+*Save path verify: Path exists.
+*Save path verify: Path is writeable.
+*Save path verify: Path ends with DarwinDumperReports.
+*User Chose: Archive Zip
+*User Chose: ACPI tables
+*User Chose: Apple System Log
+*User Chose: Firmware (Boot) Log
+*User Chose: CPU Information
+*User Chose: Device Properties
+*User Chose: DMI Tables
+*User Chose: EDID
+*User Chose: IORegistry
+*User Chose: Kernel Info
+*User Chose: NVRAM
+*User Chose: Open CL
+*User Chose: RC Scripts
+*User Chose: RTC
+*User Chose: SIP
+*User Chose: SMC Keys
+*User Chose: System Profiler
+*User Chose: Report
+--------------------------------------------------------
+          Attempting to read last ASL boot log...
+001s : +Started process DumpFilesAppleSystemLog: pid 1108
+001s : +Started process DumpFilesSystemProfilerInfo: pid 1112
+          System has been booted for 1:43
+          Apple System Log file no longer exists.
+001s : -Completed DumpFilesAppleSystemLog
+          Check: /System Profiler/System-Profiler.spx created.
+          Check: /System Profiler/System-Profiler.txt created.
+019s : -Completed DumpFilesSystemProfilerInfo
+020s : +Started process DumpFilesAcpiTables: pid 1244
+020s : +Started process DumpFilesBootLog: pid 1248
+020s : +Started process DumpFilesDeviceProperties: pid 1253
+020s : +Started process DumpFilesOpenCLInfo: pid 1259
+020s : +Started process DumpFilesKernelInfo: pid 1267
+          Boot Log not available.
+020s : -Completed DumpFilesBootLog
+020s : +Started process DumpSip: pid 1281
+          Check: /Device Properties/device-properties.hex created.
+020s : +Started process DumpFilesSmcKeys: pid 1288
+          Check: /Kernel Info/sysctl_cpu.txt created.
+          Check: /SIP/SIP_status.txt created.
+020s : +Started process DumpFilesRtc: pid 1297
+020s : -Completed DumpSip
+020s : +Started process DumpFilesRcScripts: pid 1305
+020s : -Completed DumpFilesRcScripts
+          Check: /Kernel Info/sysctl_hw.txt created.
+          Check: /Device Properties/device-properties.plist created.
+020s : -Completed DumpFilesDeviceProperties
+          Check: /Kernel Info/sysctl_machdep_xcpm.txt created.
+          Check: /OpenCL/openCLinfo.txt created.
+020s : -Completed DumpFilesKernelInfo
+020s : -Completed DumpFilesOpenCLInfo
+          Found ACPI table: MCFG
+          Disassembled ACPI table: MCFG
+          Found ACPI table: SSDT-4
+          Found ACPI table: SSDT-10
+          Found ACPI table: DSDT
+          Found ACPI table: VFCT
+          Disassembled ACPI table: VFCT
+          Found ACPI table: SSDT-6
+          Found ACPI table: SSDT-11
+          Found ACPI table: ECDT
+          Disassembled ACPI table: ECDT
+          Found ACPI table: SSDT-1
+          Found ACPI table: SSDT
+          Found ACPI table: UEFI
+          Disassembled ACPI table: UEFI
+          Found ACPI table: SSDT-8
+          Found ACPI table: RSDT
+          Disassembled ACPI table: RSDT
+          Found ACPI table: SSDT-3
+          Found ACPI table: DMAR
+          Disassembled ACPI table: DMAR
+          Found ACPI table: FACP
+          Disassembled ACPI table: FACP
+          Found ACPI table: SSDT-5
+          Found ACPI table: HPET
+          Disassembled ACPI table: HPET
+          Found ACPI table: APIC
+          Disassembled ACPI table: APIC
+          Found ACPI table: SBST
+          Disassembled ACPI table: SBST
+          Found ACPI table: FACS
+          Disassembled ACPI table: FACS
+          Found ACPI table: SSDT-7
+          Found ACPI table: SSDT-2
+          Found ACPI table: SSDT-9
+          Disassembling DSDT and SSDT's (13 files in total) as multiple tables from single namespace...
+          Check: /SMC/SMC-keys.txt created.
+          Check: /SMC/SMC-fans.txt created.
+021s : -Completed DumpFilesSmcKeys
+          Disassembling was successful.
+021s : -Completed AcpiTables
+          Check: /RTC/RTCDump.txt created.
+021s : -Completed DumpFilesRtc
+021s : +Started process DumpFilesDmiTables: pid 1579
+021s : +Started process DumpFilesNvram: pid 1583
+021s : +Started process DumpFilesEdid: pid 1587
+021s : +Started process DumpFilesCpuInfo: pid 1591
+          Check: /NVRAM/nvram.plist created.
+          Check: /NVRAM/nvram_hexdump.txt created.
+          Check: /NVRAM/nvram.plist created.
+          Check: /DMI Tables/SMBIOS.bin created.
+          Check: /CPU/cpuinfo.txt created.
+021s : -Completed DumpFilesNvram
+          Check: /CPU/cpuinfo.txt is 0K in size!
+021s : -Completed DumpFilesCpuInfo
+          Check: /DMI Tables/SMBIOS.txt created.
+021s : -Completed DumpFilesDmiTables
+          Found 1 EDID in ioreg
+          Check: /EDID/EDID.txt created.
+          Check: /EDID/EDID.bin created.
+023s : -Completed DumpFilesEdid
+          Running ioregwv...
+023s : +Started process DumpFilesIoreg: pid 1631
+028s : -Completed DumpFilesIoreg
+========================================================
+Dumps complete after: 28 seconds
+--------------------------------------------------------
+Creating HTML report...
+          adding ACPI tables
+          adding CPU Information
+          adding device properties
+          adding DMI dump
+          adding EDID.txt
+          adding IORegistry Viewer
+          adding kernel logs
+          adding kernel info
+          adding nvram info
+          adding OpenCL dump
+          adding RTC dump
+          adding SIP dump
+          adding SMC dumps
+          adding System Profiler dump
+========================================================
+DarwinDumper Completed in: 97 seconds
+========================================================

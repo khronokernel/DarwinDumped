@@ -1,0 +1,20 @@
+                                                                                                            
+                                                                                                            
+disk0  APPLE SSD AP0512M (512 byte physical block size)
+========================================================================================================================
+ACT  DEVICE   TYPE                   NAME          SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme                500 GB  None
+     disk0s1  EFI                    EFI           314 MB                 
+     disk0s2  Apple_APFS                           499 GB                 
+                                                                                                            
+                                                                                                            
+disk1  APPLE SSD AP0512M (512 byte physical block size)
+========================================================================================================================
+ACT  DEVICE   TYPE                   NAME          SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              APFS Container Scheme                499 GB   
+     disk1s1  APFS Volume            Macintosh HD  499 GB                 
+     disk1s2  APFS Volume            Preboot       499 GB                 
+     disk1s3  APFS Volume            Recovery      499 GB                 
+     disk1s4  APFS Volume            VM            499 GB                 

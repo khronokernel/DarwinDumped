@@ -1,0 +1,1239 @@
+===================================
+Welcome to DarwinDumper 3.0.4
+Tue Apr 30 22:35:17 CEST 2019
+System Version: macOS 10.14.4 (18E226)
+Security Integrity Configuration: 0x00000067
+===================================
+Initialisation information
+===================================
+*/Users/gen4ig/Library/Preferences/org.tom.DarwinDumper not found.
+*Save path - Default: Will use /Applications
+*Symlink check: Symlink has not been created.
+*User Chose: Archive Zip
+*User Chose: Audio Codec
+*User Chose: System BIOS
+*User Chose: Video BIOS
+*User Chose: Boot Loaders and Disk Sectors
+*User Chose: CPU Information
+*User Chose: Disk Loader Configs
+*User Chose: Disk Partitions
+*User Chose: Firmware Memory Map
+*User Chose: LSPCI
+*User Chose: Memory Dump
+*User Chose: ACPI tables
+*User Chose: Firmware (Boot) Log
+*User Chose: Kernel (Boot) Messages
+*User Chose: Device Properties
+*User Chose: DMI Tables
+*User Chose: EDID
+*User Chose: IORegistry
+*User Chose: Kernel Info
+*User Chose: Kexts
+*User Chose: NVRAM
+*User Chose: Open CL
+*User Chose: Power
+*User Chose: RC Scripts
+*User Chose: RTC
+*User Chose: SIP
+*User Chose: SMC Keys
+*User Chose: System Profiler
+*User Chose: privacy
+*User Chose: Report
+===================================
+000s : +Started process DumpFilesBootlogKernel: pid 1438
+          Extracting boot time kernel entries from the system log..
+000s : +Started process DumpFilesMemory: pid 1442
+000s : +Started process DumpFilesSystemProfilerInfo: pid 1447
+000s : +Started process DumpFilesDiskUtilConfigsAndLoaders: pid 1458
+000s : +Started process DumpFilesBiosROM: pid 1464
+000s : +Started process DumpFilesBiosVideoROM: pid 1470
+          Extracting kernel entries from 2019-04-30 22:28:25 to 2019-04-30 22:34:25
+          Preparing to read disks...
+Note: There may be a delay if any disks are sleeping
+          Memory: Attempting to load MacPmem driver kext to access memory.
+          Driver: Loading com.google.MacPmem
+          Driver: Loading DirectHW
+          Driver: Loading RadeonPCI
+          Driver: com.google.MacPmem loaded successfully.
+          Memory: Scanning memory regions.
+          Memory: Writing 4096 bytes from (00000000 to 00000fff) to disk
+          Memory: Writing 4096 bytes from (00002000 to 00002fff) to disk
+          Memory: Writing 512 bytes from (00003000 to 000031ff) to disk
+          Memory: Writing 3584 bytes from (00003200 to 00003fff) to disk
+          Driver: DirectHW loaded successfully.
+          Memory: Writing 4096 bytes from (00005000 to 00005fff) to disk
+          Memory: Writing 4096 bytes from (00006000 to 00006fff) to disk
+          Memory: Writing 4096 bytes from (00007000 to 00007fff) to disk
+          Memory: Writing 5376 bytes from (00007400 to 000088ff) to disk
+          Driver: RadeonPCI loaded successfully.
+          Running RadeonDump
+          Number of legacy VBIOS ROM's dumped: 0
+          Memory: Writing 4096 bytes from (0000a000 to 0000afff) to disk
+          Memory: Writing 16384 bytes from (00010000 to 00013fff) to disk
+          Memory: Writing 65536 bytes from (00030000 to 0003ffff) to disk
+          Driver: Unloading RadeonPCI
+          Memory: Writing 65536 bytes from (00060000 to 0006ffff) to disk
+          Memory: Writing 12288 bytes from (00070000 to 00072fff) to disk
+          Memory: Writing 4096 bytes from (00073000 to 00073fff) to disk
+          Driver: RadeonPCI successfully unloaded.
+          Memory: Scanning complete.
+          Memory: Writing memory info to file.
+          Memory: Splitting memory info file.
+          Memory: Convert memory map file to table.
+          Memory: Sorting memory map table file.
+          Memory: Split sorted memory map table file in to ranges.
+          Memory: Sorting range files.
+          Memory: Convert efi range file to hex.
+          Memory: Done.
+          Driver: Unloading com.google.MacPmem
+002s : -Completed DumpFilesBootlogKernel
+          Driver: com.google.MacPmem successfully unloaded.
+          Note: System Profiler shows more GPUs than dumped VBIOS ROM's.
+          Scanning disk: disk0
+          Reading partition info for: disk0
+          Number of ATI ROM images found in IORegistry: 0
+          Looking for existence of ACPI table: VFCT
+002s : -Completed DumpFilesBiosVideoROM
+          Scanning & interpreting partition table for disk0
+          Searching for Bootloader files on disk0s1
+          Scanning disk: disk1
+          Reading partition info for: disk1
+          Check: ** /BIOS/System/biosbackup.rom failed to be created.
+          Driver: Unloading DirectHW
+          Driver: DirectHW successfully unloaded.
+004s : -Completed DumpFilesBiosROM
+          Scanning & interpreting partition table for disk1
+          Searching for Bootloader files on disk1s1
+          Check: /System Profiler/System-Profiler.spx created.
+          Found /Volumes/Macintosh HD/Library/Preferences/SystemConfiguration/com.apple.Boot.plist
+          Searching for Bootloader files on disk1s2
+          Searching for Bootloader files on disk1s3
+          Searching for Bootloader files on disk1s4
+005s : -Completed DumpFilesDiskUtilConfigsAndLoaders
+          Check: /System Profiler/System-Profiler.txt created.
+018s : -Completed DumpFilesSystemProfilerInfo
+018s : +Started process DumpFilesAcpiTables: pid 2802
+018s : +Started process DumpFilesAudioCodec: pid 2806
+018s : +Started process DumpFilesFirmwareMemoryMap: pid 2810
+          Dumping Kext lists...
+018s : +Started process DumpFilesKextLists: pid 2819
+018s : +Started process DumpFilesBootLogFirmware: pid 2828
+018s : +Started process DumpFilesDeviceProperties: pid 2833
+018s : +Started process DumpFilesOpenCLInfo: pid 2839
+          Boot Log not available.
+018s : +Started process DumpFilesKernelInfo: pid 2847
+018s : -Completed DumpFilesBootLogFirmware
+018s : +Started process DumpSip: pid 2854
+          Check: /Device Properties/device-properties.hex created.
+018s : +Started process DumpFilesSmcKeys: pid 2862
+018s : +Started process DumpFilesRtc: pid 2868
+          Check: /SIP/SIP_status.txt created.
+018s : +Started process DumpFilesRcScripts: pid 2874
+          Check: /RTC/RTCDump.txt created.
+018s : -Completed DumpFilesRcScripts
+018s : -Completed DumpSip
+018s : -Completed DumpFilesRtc
+          Check: /OpenCL/openCLinfo.txt created.
+          Audio: AppleHDA is loaded.
+          Check: /Kernel Info/sysctl_cpu.txt created.
+          Audio: VoodooHDA is not loaded.
+          Audio: Attempting to load VoodooHDA.kext to run the getdump tool.
+019s : -Completed DumpFilesOpenCLInfo
+          Found ACPI table: APIC
+          Disassembled ACPI table: APIC
+          Found ACPI table: DMAR
+          Check: /Device Properties/device-properties.plist created.
+019s : -Completed DumpFilesDeviceProperties
+          Disassembled ACPI table: DMAR
+          Found ACPI table: DSDT
+          Check: /Kernel Info/sysctl_hw.txt created.
+          Check: /Kernel Info/sysctl_machdep_xcpm.txt created.
+019s : -Completed DumpFilesKernelInfo
+          Check: /Kexts/loaded_non_apple_kexts.txt created.
+          Found ACPI table: ECDT
+          Disassembled ACPI table: ECDT
+          Found ACPI table: FACP
+          Disassembled ACPI table: FACP
+          Found ACPI table: FACS
+          Driver: Loading VoodooHDA
+          Disassembled ACPI table: FACS
+          Found ACPI table: HPET
+          Disassembled ACPI table: HPET
+          Found ACPI table: MCFG
+          Disassembled ACPI table: MCFG
+          Found ACPI table: MCFG-1
+          Disassembled ACPI table: MCFG-1
+          Found ACPI table: RSDT
+          Check: /Kexts/loaded_apple_kexts.txt created.
+          Disassembled ACPI table: RSDT
+          Found ACPI table: SBST
+          Disassembled ACPI table: SBST
+          Found ACPI table: SSDT
+          Found ACPI table: SSDT-1
+          Found ACPI table: SSDT-2
+          Found ACPI table: SSDT-3
+          Found ACPI table: SSDT-4
+          Found ACPI table: SSDT-5
+          Check: /SMC/SMC-keys.txt created.
+          Found ACPI table: SSDT-6
+          Check: /SMC/SMC-fans.txt created.
+019s : -Completed DumpFilesSmcKeys
+          Found ACPI table: SSDT-7
+          Found ACPI table: SSDT-8
+          Found ACPI table: SSDT-9
+          Driver: VoodooHDA loaded successfully.
+          Found ACPI table: SSDT-10
+          Found ACPI table: SSDT-11
+          Audio: Waiting 2 seconds before running VoodooHDA's getdump.
+          Found ACPI table: UEFI
+          Disassembled ACPI table: UEFI
+          Disassembling DSDT and SSDT's (13 files in total) as multiple tables from single namespace...
+          Check: /Kexts/prelinked_kexts_list.txt created.
+          ** Error disassembling. Attaching iasl log to logfile.
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml, Length 0x701C (28700) bytes
+ACPI: DSDT 0x0000000000000000 00701C (v02 APPLE  Mac mini 00010001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml, Length 0x647 (1607) bytes
+ACPI: SSDT 0x0000000000000000 000647 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml, Length 0xD0B (3339) bytes
+ACPI: SSDT 0x0000000000000000 000D0B (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml, Length 0xCCF4 (52468) bytes
+ACPI: SSDT 0x0000000000000000 00CCF4 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 3 external control methods, reparsing with new information
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.dsl - 8204 bytes
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml, Length 0xCCF4 (52468) bytes
+ACPI: SSDT 0x0000000000000000 00CCF4 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml, Length 0x701C (28700) bytes
+ACPI: DSDT 0x0000000000000000 00701C (v02 APPLE  Mac mini 00010001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml, Length 0x647 (1607) bytes
+ACPI: SSDT 0x0000000000000000 000647 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml, Length 0xD0B (3339) bytes
+ACPI: SSDT 0x0000000000000000 000D0B (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 16 external control methods, reparsing with new information
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.dsl - 531638 bytes
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml, Length 0xD0B (3339) bytes
+ACPI: SSDT 0x0000000000000000 000D0B (v02 APPLE  Xhci     00001000 INTL 20160930)
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml, Length 0x701C (28700) bytes
+ACPI: DSDT 0x0000000000000000 00701C (v02 APPLE  Mac mini 00010001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml, Length 0x647 (1607) bytes
+ACPI: SSDT 0x0000000000000000 000647 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml, Length 0xCCF4 (52468) bytes
+ACPI: SSDT 0x0000000000000000 00CCF4 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 4 external control methods, reparsing with new information
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.dsl - 45715 bytes
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml, Length 0x701C (28700) bytes
+ACPI: DSDT 0x0000000000000000 00701C (v02 APPLE  Mac mini 00010001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml, Length 0x647 (1607) bytes
+ACPI: SSDT 0x0000000000000000 000647 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml, Length 0xD0B (3339) bytes
+ACPI: SSDT 0x0000000000000000 000D0B (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml, Length 0xCCF4 (52468) bytes
+ACPI: SSDT 0x0000000000000000 00CCF4 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.dsl - 5774 bytes
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml, Length 0x701C (28700) bytes
+ACPI: DSDT 0x0000000000000000 00701C (v02 APPLE  Mac mini 00010001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml, Length 0x647 (1607) bytes
+ACPI: SSDT 0x0000000000000000 000647 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml, Length 0xD0B (3339) bytes
+ACPI: SSDT 0x0000000000000000 000D0B (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml, Length 0xCCF4 (52468) bytes
+ACPI: SSDT 0x0000000000000000 00CCF4 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.dsl - 2881 bytes
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml, Length 0x701C (28700) bytes
+ACPI: DSDT 0x0000000000000000 00701C (v02 APPLE  Mac mini 00010001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml, Length 0x647 (1607) bytes
+ACPI: SSDT 0x0000000000000000 000647 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml, Length 0xD0B (3339) bytes
+ACPI: SSDT 0x0000000000000000 000D0B (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml, Length 0xCCF4 (52468) bytes
+ACPI: SSDT 0x0000000000000000 00CCF4 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.dsl - 33459 bytes
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml, Length 0x701C (28700) bytes
+ACPI: DSDT 0x0000000000000000 00701C (v02 APPLE  Mac mini 00010001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml, Length 0x647 (1607) bytes
+ACPI: SSDT 0x0000000000000000 000647 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml, Length 0xD0B (3339) bytes
+ACPI: SSDT 0x0000000000000000 000D0B (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml, Length 0xCCF4 (52468) bytes
+ACPI: SSDT 0x0000000000000000 00CCF4 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 6 external control methods, reparsing with new information
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.dsl - 76513 bytes
+
+ iASL Warning: There were 6 external control methods found during
+ disassembly, but only 4 were resolved (2 unresolved). Additional
+ ACPI tables may be required to properly disassemble the code. This
+ resulting disassembler output file may not compile because the
+ disassembler did not know how many arguments to assign to the
+ unresolved methods. Note: SSDTs can be dynamically loaded at
+ runtime and may or may not be available via the host OS.
+
+ In addition, the -fe option can be used to specify a file containing
+ control method external declarations with the associated method
+ argument counts. Each line of the file must be of the form:
+     External (<method pathname>, MethodObj, <argument count>)
+ Invocation:
+     iasl -fe refs.txt -d dsdt.aml
+
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml, Length 0x701C (28700) bytes
+ACPI: DSDT 0x0000000000000000 00701C (v02 APPLE  Mac mini 00010001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml, Length 0x647 (1607) bytes
+ACPI: SSDT 0x0000000000000000 000647 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml, Length 0xD0B (3339) bytes
+ACPI: SSDT 0x0000000000000000 000D0B (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml, Length 0xCCF4 (52468) bytes
+ACPI: SSDT 0x0000000000000000 00CCF4 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.dsl - 761 bytes
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml, Length 0x701C (28700) bytes
+ACPI: DSDT 0x0000000000000000 00701C (v02 APPLE  Mac mini 00010001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml, Length 0x647 (1607) bytes
+ACPI: SSDT 0x0000000000000000 000647 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml, Length 0xD0B (3339) bytes
+ACPI: SSDT 0x0000000000000000 000D0B (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml, Length 0xCCF4 (52468) bytes
+ACPI: SSDT 0x0000000000000000 00CCF4 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.dsl - 874 bytes
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler version 20160729-64
+Copyright (c) 2000 - 2016 Intel Corporation
+
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml, Length 0x701C (28700) bytes
+ACPI: DSDT 0x0000000000000000 00701C (v02 APPLE  Mac mini 00010001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml, Length 0x647 (1607) bytes
+ACPI: SSDT 0x0000000000000000 000647 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml, Length 0xD0B (3339) bytes
+ACPI: SSDT 0x0000000000000000 000D0B (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml, Length 0xCCF4 (52468) bytes
+ACPI: SSDT 0x0000000000000000 00CCF4 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.dsl - 959 bytes
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml, Length 0x701C (28700) bytes
+ACPI: DSDT 0x0000000000000000 00701C (v02 APPLE  Mac mini 00010001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml, Length 0x647 (1607) bytes
+ACPI: SSDT 0x0000000000000000 000647 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml, Length 0xD0B (3339) bytes
+ACPI: SSDT 0x0000000000000000 000D0B (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml, Length 0xCCF4 (52468) bytes
+ACPI: SSDT 0x0000000000000000 00CCF4 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.dsl - 2333 bytes
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml, Length 0x647 (1607) bytes
+ACPI: SSDT 0x0000000000000000 000647 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml, Length 0x701C (28700) bytes
+ACPI: DSDT 0x0000000000000000 00701C (v02 APPLE  Mac mini 00010001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml, Length 0xD0B (3339) bytes
+ACPI: SSDT 0x0000000000000000 000D0B (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml, Length 0xCCF4 (52468) bytes
+ACPI: SSDT 0x0000000000000000 00CCF4 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.dsl - 11799 bytes
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml, Length 0x701C (28700) bytes
+ACPI: DSDT 0x0000000000000000 00701C (v02 APPLE  Mac mini 00010001 INTL 20160930)
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml, Length 0x647 (1607) bytes
+ACPI: SSDT 0x0000000000000000 000647 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml, Length 0xD0B (3339) bytes
+ACPI: SSDT 0x0000000000000000 000D0B (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml, Length 0xCCF4 (52468) bytes
+ACPI: SSDT 0x0000000000000000 00CCF4 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 7 external control methods, reparsing with new information
+Pass 1 parse of [DSDT]
+ACPI Error: [SMCB] Namespace lookup failure, AE_ALREADY_EXISTS (20160729/dsfield-732)
+Pass 2 parse of [DSDT]
+ACPI Warning: NsLookup: Type mismatch on SMCB (FieldUnit), searching for (RegionField) (20160729/nsaccess-736)
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.dsl - 244114 bytes
+_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/DSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Applications/DarwinDumper_3.0.4_30.04_22.35.17_Macmini8,1_Apple_X64_Unknown_18E226_gen4ig/ACPI Tables/AML/SSDT-1.aml
+020s : -Completed AcpiTables
+          Check: /Memory/FirmwareMemoryMap.txt created.
+          Check: /Kexts/prelinked_kexts_dictionary.plist created.
+021s : -Completed DumpFilesFirmwareMemoryMap
+021s : -Completed DumpFilesKextLists
+          Audio: Running VoodooHDA's getdump...
+          Audio: VoodooHDA's getdump tool failed to produce a dump.
+          Audio: AppleHDA needs to be disabled for this dump to work properly.
+          Audio: Running getcodecid
+          Audio: pci.ids uncompressed
+          Audio: Parsing getcodecid line 0:no audio codecs found!
+          Audio: Parsing getcodecid line 1:Be sure to have AppleHDA or VoodooHDA somewere!
+          Check: /Audio/AudioCodecID.txt created.
+          Audio: getcodecid completed audio codec ID dump
+          Driver: Unloading VoodooHDA
+          Driver: VoodooHDA successfully unloaded.
+022s : -Completed DumpFilesAudioCodec
+          Update pciids database
+022s : +Started process DumpFilesLspci: pid 3199
+022s : +Started process DumpFilesDmiTables: pid 3203
+022s : +Started process DumpFilesNvram: pid 3208
+022s : +Started process DumpFilesEdid: pid 3213
+022s : +Started process DumpFilesCpuInfo: pid 3217
+          Check: /NVRAM/nvram.plist created.
+022s : +Started process DumpFilesPower: pid 3225
+          Check: /NVRAM/nvram_hexdump.txt created.
+          Check: /Power/pm_settings.txt created.
+          Check: /NVRAM/nvram.plist created.
+022s : -Completed DumpFilesNvram
+          Check: /DMI Tables/SMBIOS.bin created.
+          Check: /DMI Tables/SMBIOS.txt created.
+022s : -Completed DumpFilesDmiTables
+          Update pciids
+          Found 1 EDID in ioreg
+          Check: /EDID/EDID.txt created.
+          Check: /EDID/EDID.bin created.
+022s : -Completed DumpFilesEdid
+          Dumping LSPCI info...
+          Driver: Loading DirectHW
+          Driver: DirectHW loaded successfully.
+          Check: /LSPCI/lspci (nnvv).txt created.
+          Check: /LSPCI/lspci detailed (nnvvbxxxx).txt created.
+          Check: /LSPCI/lspci tree (nnvvt).txt created.
+          Check: /LSPCI/lspci map (M).txt created.
+          Driver: Unloading DirectHW
+          Check: /CPU/cpuinfo.txt created.
+          Driver: DirectHW successfully unloaded.
+023s : -Completed DumpFilesLspci
+          Memory: Attempting to load AppleIntelInfo.kext.
+          Driver: Loading com.pikeralpha.driver.AppleIntelInfo
+          Driver: com.pikeralpha.driver.AppleIntelInfo loaded successfully.
+023s : -Completed DumpFilesCpuInfo
+          Check: /Power/pm_log.txt created.
+          Check: /Power/pm_assertions.txt created.
+024s : -Completed DumpFilesPower
+          Running ioregwv...
+024s : +Started process DumpFilesIoreg: pid 3306
+025s : -Completed DumpFilesIoreg
+025s : Making dump(s) private..
+===================================
+Dumps complete after: 33 seconds
+===================================
+Creating HTML report...
+          adding ACPI tables
+          adding VoodooHDAGetdump.txt
+          adding BIOS flashrom_log.txt
+          adding diskutil & loader info
+          adding Bootloader config files
+          adding boot log - firmware
+          adding boot log - kernel messages
+          adding CPU Information
+          adding device properties
+          adding partition table info
+          adding disk & volume UIDs
+          adding DMI dump
+          adding EDID.txt
+          adding firmware memory map
+          adding IORegistry Viewer
+          adding kernel info
+          adding kext dumps
+          adding LSPCI dumps
+          adding Intel Graphics Register dumps
+          adding nvram info
+          adding OpenCL dump
+          adding power dumps
+          adding RTC dump
+          adding SIP dump
+          adding SMC dumps
+          adding System Profiler dump
+===================================
+DarwinDumper Completed in: 43 seconds
+===================================

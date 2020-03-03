@@ -1,0 +1,168 @@
+flashrom v0.9.7-unknown on Darwin 14.3.0 (x86_64)
+flashrom was built with libpci 3.1.9, GCC 4.2.1 (Apple Inc. build 5666) (dot 3), little endian
+Command line (8 args): /Users/arinabalerina/Downloads/DarwinDumper_v2.9.8/DarwinDumper.app/Contents/Resources/Tools/flashrom -p internal -c MX25L6405(D) -r /Users/arinabalerina/Downloads/DarwinDumper_v2.9.8/DarwinDumperReports/000_2015-07-16_17-23-26_MacBookPro11,3/DarwinDumper_2.9.8_Apple_X64_Yos_arinabalerina/BIOS/System/biosbackup.rom -o /Users/arinabalerina/Downloads/DarwinDumper_v2.9.8/DarwinDumperReports/000_2015-07-16_17-23-26_MacBookPro11,3/DarwinDumper_2.9.8_Apple_X64_Yos_arinabalerina/BIOS/System/flashrom_log.txt
+Calibrating delay loop... OS timer resolution is 1 usecs, 3055M loops per second, 10 myus = 9 us, 100 myus = 111 us, 1000 myus = 1033 us, 10000 myus = 9670 us, 4 myus = 4 us, OK.
+Initializing internal programmer
+No coreboot table found.
+Using Internal DMI decoder.
+No DMI table found.
+Found chipset "Intel HM87" with PCI ID 8086:8c4b. Enabling flash write... Root Complex Register Block address = 0xfed1c000
+GCS = 0xc21: BIOS Interface Lock-Down: enabled, Boot BIOS Straps: 0x3 (SPI)
+Top Swap : not enabled
+
+0xfff80000/0xffb80000 FWH IDSEL: 0x0
+0xfff00000/0xffb00000 FWH IDSEL: 0x0
+0xffe80000/0xffa80000 FWH IDSEL: 0x1
+0xffe00000/0xffa00000 FWH IDSEL: 0x1
+0xffd80000/0xff980000 FWH IDSEL: 0x2
+0xffd00000/0xff900000 FWH IDSEL: 0x2
+0xffc80000/0xff880000 FWH IDSEL: 0x3
+0xffc00000/0xff800000 FWH IDSEL: 0x3
+0xff700000/0xff300000 FWH IDSEL: 0x4
+0xff600000/0xff200000 FWH IDSEL: 0x5
+0xff500000/0xff100000 FWH IDSEL: 0x6
+0xff400000/0xff000000 FWH IDSEL: 0x7
+0xfff80000/0xffb80000 FWH decode enabled
+0xfff00000/0xffb00000 FWH decode enabled
+0xffe80000/0xffa80000 FWH decode enabled
+0xffe00000/0xffa00000 FWH decode enabled
+0xffd80000/0xff980000 FWH decode enabled
+0xffd00000/0xff900000 FWH decode enabled
+0xffc80000/0xff880000 FWH decode enabled
+0xffc00000/0xff800000 FWH decode enabled
+0xff700000/0xff300000 FWH decode disabled
+0xff600000/0xff200000 FWH decode disabled
+0xff500000/0xff100000 FWH decode disabled
+0xff400000/0xff000000 FWH decode disabled
+Maximum FWH chip size: 0x100000 bytesSPI Read Configuration: prefetching enabled, caching enabled, 
+BIOS_CNTL = 0x09: BIOS Lock Enable: disabled, BIOS Write Enable: enabled
+SPIBAR = 0x00000001000cf000 + 0x3800
+0x04: 0xf00c (HSFS)
+HSFS: FDONE=0, FCERR=0, AEL=1, BERASE=1, SCIP=0, FDOPSS=1, FDV=1, FLOCKDN=1
+Warning: SPI Configuration Lockdown activated.
+Reading OPCODES... done
+        OP        Type      Pre-OP
+op[0]: 0x9f, read  w/o addr, none
+op[1]: 0x02, write w/  addr, none
+op[2]: 0x03, read  w/  addr, none
+op[3]: 0x01, write w/o addr, none
+op[4]: 0x05, read  w/o addr, none
+op[5]: 0x20, write w/  addr, none
+op[6]: 0xd8, write w/  addr, none
+op[7]: 0xff, read  w/o addr, none
+Pre-OP 0: 0x06, Pre-OP 1: 0x06
+0x06: 0x0000 (HSFC)
+HSFC: FGO=0, FCYCLE=0, FDBC=0, SME=0
+0x08: 0x00000000 (FADDR)
+0x50: 0x00004aff (FRAP)
+BMWAG 0x00, BMRAG 0x00, BRWA 0x4a, BRRA 0xff
+0x54: 0x00000000 FREG0: Warning: Flash Descriptor region (0x00000000-0x00000fff) is read-only.
+0x58: 0x07ff0190 FREG1: BIOS region (0x00190000-0x007fffff) is read-write.
+0x5C: 0x018f0002 FREG2: Warning: Management Engine region (0x00002000-0x0018ffff) is read-only.
+0x60: 0x00007fff FREG3: Gigabit Ethernet region is unused.
+0x64: 0x00010001 FREG4: Warning: Platform Data region (0x00001000-0x00001fff) is read-only.
+Not all flash regions are freely accessible by flashrom. This is most likely
+due to an active ME. Please see http://flashrom.org/ME for details.
+0x74: 0x80010000 PR0: Warning: 0x00000000-0x00001fff is read-only.
+0x78: 0x860f0190 PR1: Warning: 0x00190000-0x0060ffff is read-only.
+0x7C: 0x9fff0632 PR2: Warning: 0x00632000-0x01ffffff is read-only.
+0x80: 0x00000000 (PR3 is unused)
+0x84: 0x00000000 (PR4 is unused)
+Writes have been disabled for safety reasons. You can enforce write
+support with the ich_spi_force programmer option, but you will most likely
+harm your hardware! If you force flashrom you will get no support if
+something breaks. On a few mainboards it is possible to enable write
+access by setting a jumper (see its documentation or the board itself).
+0x90: 0xd4 (SSFS)
+SSFS: SCIP=0, FDONE=1, FCERR=0, AEL=1
+0x91: 0xf94140 (SSFC)
+SSFC: SCGO=0, ACS=0, SPOP=0, COP=4, DBC=1, SME=0, SCF=1
+0x94: 0x0606     (PREOP)
+0x96: 0x3c6c     (OPTYPE)
+0x98: 0x0103029f (OPMENU)
+0x9C: 0xffd82005 (OPMENU+4)
+0xA0: 0x00000000 (BBAR)
+0xC4: 0x80802045 (LVSCC)
+LVSCC: BES=0x1, WG=1, WSR=0, WEWS=0, EO=0x20, VCL=1
+0xC8: 0x00000000 (UVSCC)
+UVSCC: BES=0x0, WG=0, WSR=0, WEWS=0, EO=0x0, VCL=0
+0xD0: 0x50444653 (FPB)
+
+Reading flash descriptors mapped by the chipset via FDOC/FDOD... done.
+=== Content Section ===
+FLVALSIG 0x0ff0a55a
+FLMAP0   0x03040003
+FLMAP1   0x15100206
+FLMAP2   0x00210120
+
+--- Details ---
+NR          (Number of Regions):                     4
+FRBA        (Flash Region Base Address):         0x040
+NC          (Number of Components):                  1
+FCBA        (Flash Component Base Address):      0x030
+ISL         (ICH/PCH Strap Length):                 21
+FISBA/FPSBA (Flash ICH/PCH Strap Base Address):  0x100
+NM          (Number of Masters):                     3
+FMBA        (Flash Master Base Address):         0x060
+MSL/PSL     (MCH/PROC Strap Length):                 1
+FMSBA       (Flash MCH/PROC Strap Base Address): 0x200
+
+=== Component Section ===
+FLCOMP   0x64900044
+FLILL    0x00000000
+
+--- Details ---
+Component 1 density:             8 MB
+Component 2 is not used.
+Read Clock Frequency:           20 MHz
+Read ID and Status Clock Freq.: 50 MHz
+Write and Erase Clock Freq.:    50 MHz
+Fast Read is supported.
+Fast Read Clock Frequency:      50 MHz
+No forbidden opcodes.
+
+=== Region Section ===
+FLREG0   0x00000000
+FLREG1   0x07ff0190
+FLREG2   0x018f0002
+FLREG3   0x00007fff
+FLREG4   0x00010001
+
+--- Details ---
+Region 0 (Descr.) 0x00000000 - 0x00000fff
+Region 1 (BIOS  ) 0x00190000 - 0x007fffff
+Region 2 (ME    ) 0x00002000 - 0x0018ffff
+Region 3 (GbE   ) is unused.
+Region 4 (Platf.) 0x00001000 - 0x00001fff
+
+=== Master Section ===
+FLMSTR1  0x0aff0000
+FLMSTR2  0x0c0d0000
+FLMSTR3  0xffff0118
+
+--- Details ---
+      Descr. BIOS ME GbE Platf.
+BIOS    r     rw  r   rw   r 
+ME      r         rw  rw     
+GbE     rw    rw  rw  rw   rw
+
+OK.
+The following protocols are supported: FWH, SPI.
+Probing for Macronix MX25L6405(D), 8192 kB: probe_spi_rdid_generic: id1 0xc2, id2 0x2017
+Found Macronix flash chip "MX25L6405(D)" (8192 kB, SPI) at physical address 0xff800000.
+Chip status register is 0x00.
+Chip status register: Status Register Write Disable (SRWD, SRP, ...) is not set
+Chip status register: Bit 6 is not set
+Chip status register: Block Protect 3 (BP3) is not set
+Chip status register: Block Protect 2 (BP2) is not set
+Chip status register: Block Protect 1 (BP1) is not set
+Chip status register: Block Protect 0 (BP0) is not set
+Chip status register: Write Enable Latch (WEL) is not set
+Chip status register: Write In Progress (WIP/BUSY) is not set
+This chip may contain one-time programmable memory. flashrom cannot read
+and may never be able to write it, hence it may not be able to completely
+clone the contents of this chip (see man page for details).
+Block protection is disabled.
+Reading flash... done.
+Restoring MMIO space at 0x1000d28a0
+Restoring PCI config space for 00:1f:0 reg 0xdc

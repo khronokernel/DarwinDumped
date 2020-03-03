@@ -1,0 +1,501 @@
+Aug  1 13:17:39 localhost kernel[0] <Debug>: Darwin Kernel Version 13.4.0: Sun Aug 17 19:50:11 PDT 2014; root:xnu-2422.115.4~1/RELEASE_X86_64
+Aug  1 13:17:39 localhost kernel[0] <Debug>: vm_page_bootstrap: 3956585 free pages and 204951 wired pages
+Aug  1 13:17:39 localhost kernel[0] <Debug>: kext submap [0xffffff7f807a9000 - 0xffffff8000000000], kernel text [0xffffff8000200000 - 0xffffff80007a9000]
+Aug  1 13:17:39 localhost kernel[0] <Debug>: zone leak detection enabled
+Aug  1 13:17:39 localhost kernel[0] <Debug>: "vm_compressor_mode" is 4
+Aug  1 13:17:39 localhost kernel[0] <Debug>: standard timeslicing quantum is 10000 us
+Aug  1 13:17:39 localhost kernel[0] <Debug>: standard background quantum is 2500 us
+Aug  1 13:17:39 localhost kernel[0] <Debug>: mig_table_max_displ = 74
+Aug  1 13:17:39 localhost kernel[0] <Debug>: TSC Deadline Timer supported and enabled
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleACPICPU: ProcessorId=1 LocalApicId=0 Enabled
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleACPICPU: ProcessorId=2 LocalApicId=2 Enabled
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleACPICPU: ProcessorId=3 LocalApicId=4 Enabled
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleACPICPU: ProcessorId=4 LocalApicId=6 Enabled
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleACPICPU: ProcessorId=5 LocalApicId=1 Enabled
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleACPICPU: ProcessorId=6 LocalApicId=3 Enabled
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleACPICPU: ProcessorId=7 LocalApicId=5 Enabled
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleACPICPU: ProcessorId=8 LocalApicId=7 Enabled
+Aug  1 13:17:39 localhost kernel[0] <Debug>: calling mpo_policy_init for TMSafetyNet
+Aug  1 13:17:39 localhost kernel[0] <Debug>: Security policy loaded: Safety net for Time Machine (TMSafetyNet)
+Aug  1 13:17:39 localhost kernel[0] <Debug>: calling mpo_policy_init for Sandbox
+Aug  1 13:17:39 localhost kernel[0] <Debug>: Security policy loaded: Seatbelt sandbox policy (Sandbox)
+Aug  1 13:17:39 localhost kernel[0] <Debug>: calling mpo_policy_init for Quarantine
+Aug  1 13:17:39 localhost kernel[0] <Debug>: Security policy loaded: Quarantine policy (Quarantine)
+Aug  1 13:17:39 localhost kernel[0] <Debug>: Copyright (c) 1982, 1986, 1989, 1991, 1993
+Aug  1 13:17:39 localhost kernel[0] <Debug>: The Regents of the University of California. All rights reserved.
+Aug  1 13:17:39 localhost kernel[0] <Debug>: MAC Framework successfully initialized
+Aug  1 13:17:39 localhost kernel[0] <Debug>: using 16384 buffer headers and 10240 cluster IO buffer headers
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleKeyStore starting (BUILT: Aug 17 2014 20:21:39)
+Aug  1 13:17:39 localhost kernel[0] <Debug>: IOAPIC: Version 0x20 Vectors 64:87
+Aug  1 13:17:39 localhost kernel[0] <Debug>: ACPI: sleep states S3 S4 S5
+Aug  1 13:17:39 localhost kernel[0] <Debug>: pci (build 20:04:33 Aug 17 2014), flags 0x63008, pfm64 (39 cpu) 0x7f80000000, 0x80000000
+Aug  1 13:17:39 localhost kernel[0] <Debug>: [ PCI configuration begin ]
+Aug  1 13:17:39 localhost kernel[0] <Debug>: console relocated to 0x7f90000000
+Aug  1 13:17:39 localhost kernel[0] <Debug>: [ PCI configuration end, bridges 12, devices 12 ]
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleThunderboltNHIType2::setupPowerSavings - GPE based runtime power management
+Aug  1 13:17:39 localhost kernel[0] <Debug>: SATA WARNING: IDENTIFY DEVICE checksum not implemented.
+Aug  1 13:17:39 localhost kernel[0] <Debug>: mcache: 8 CPU(s), 64 bytes CPU cache line size
+Aug  1 13:17:39 localhost kernel[0] <Debug>: mbinit: done [128 MB total pool size, (85/42) split]
+Aug  1 13:17:39 localhost kernel[0] <Debug>: Pthread support ABORTS when sync kernel primitives misused
+Aug  1 13:17:39 localhost kernel[0] <Debug>: rooting via boot-uuid from /chosen: 3321148E-B351-3B44-93BE-00F5CCE2A34E
+Aug  1 13:17:39 localhost kernel[0] <Debug>: Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOResources</string><key>IOResourceMatch</key><string ID="2">boot-uuid-media</string></dict>
+Aug  1 13:17:39 localhost kernel[0] <Debug>: com.apple.AppleFSCompressionTypeZlib kmod start
+Aug  1 13:17:39 localhost kernel[0] <Debug>: com.apple.AppleFSCompressionTypeLZVN kmod start
+Aug  1 13:17:39 localhost kernel[0] <Debug>: com.apple.AppleFSCompressionTypeDataless kmod start
+Aug  1 13:17:39 localhost kernel[0] <Debug>: com.apple.AppleFSCompressionTypeZlib load succeeded
+Aug  1 13:17:39 localhost kernel[0] <Debug>: com.apple.AppleFSCompressionTypeLZVN load succeeded
+Aug  1 13:17:39 localhost kernel[0] <Debug>: com.apple.AppleFSCompressionTypeDataless load succeeded
+Aug  1 13:17:39 localhost kernel[0] <Debug>: Got boot device = IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/RP05@1C,4/IOPP/SSD0@0/AppleAHCI/PRT0@0/IOAHCIDevice@0/AppleAHCIDiskDriver/IOAHCIBlockStorageDevice/IOBlockStorageDriver/APPLE SSD SM0256F Media/IOGUIDPartitionScheme/Customer@2
+Aug  1 13:17:39 localhost kernel[0] <Debug>: BSD root: disk0s2, major 1, minor 2
+Aug  1 13:17:39 localhost kernel[0] <Debug>: srom rev:11
+Aug  1 13:17:39 localhost kernel[0] <Debug>: ARPT: 0.696005: ChangeVCO => vco:960, xtalF:40, frac: 98, ndivMode: 3, ndivint: 24
+Aug  1 13:17:39 localhost kernel[0] <Debug>: ARPT: 0.696013: Data written into the PLL_CNTRL_ADDR2: 00000c31
+Aug  1 13:17:39 localhost kernel[0] <Debug>: ARPT: 0.696071: Data written into the PLL_CNTRL_ADDR3 (Fractional): 0000100e
+Aug  1 13:17:39 localhost kernel[0] <Debug>: ARPT: 0.702336: BTCOEXIST off 
+Aug  1 13:17:39 localhost kernel[0] <Debug>: ARPT: 0.702532: BRCM tunables:
+Aug  1 13:17:39 localhost kernel[0] <Debug>: ARPT: 0.702537:   pullmode[1] txringsize[  256] txsendqsize[1024] reapmin[   32] reapcount[  128]
+Aug  1 13:17:39 localhost kernel[0] <Debug>: ARPT: 0.703088: wl0: Broadcom BCM43a0, vendorID[0x14e4] BAR0[0xa0600004]
+Aug  1 13:17:39 localhost kernel[0] <Debug>: 6.30.223.154 (r420397)
+Aug  1 13:17:39 localhost kernel[0] <Debug>: hfs: mounted Macintosh HD on device root_device
+Aug  1 13:17:39 localhost kernel[0] <Debug>: XCPM: registered
+Aug  1 13:17:39 localhost kernel[0] <Debug>: IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Aug  1 13:17:39 localhost kernel[0] <Debug>: IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Aug  1 13:17:39 localhost kernel[0] <Debug>: USBMSC Identifier (non-unique): 000000000820 0x5ac 0x8406 0x820, 3
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+Aug  1 13:17:39 localhost kernel[0] <Debug>: IO80211Controller::dataLinkLayerAttachComplete():  adding AppleEFINVRAM notification
+Aug  1 13:17:39 localhost kernel[0] <Debug>: IO80211Interface::efiNVRAMPublished():  
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleCamIn::init
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleCamIn::probe
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleCamIn::start
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleCamIn::start: fS2DeviceRegs=0xffffff8203708000 (len=65536)
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleCamIn::start: fS2DeviceMemory=0xffffff820395b000 (len=268435456)
+Aug  1 13:17:39 localhost kernel[0] <Debug>: AppleCamIn::start: fISPRegsMem=0xffffff8038b7a280 (len=1048576)
+Aug  1 13:17:39 localhost kernel[0] <Debug>: virtual bool AppleCamIn::start(IOService *): about to configure DDR
+Aug  1 13:17:39 localhost kernel[0] <Debug>: SMC::smcReadKeyAction ERROR: smcReadData8 failed for key LsNM (kSMCKeyNotFound)
+Aug  1 13:17:39 localhost kernel[0] <Debug>: SMC::smcReadKeyAction ERROR LsNM kSMCKeyNotFound(0x84) fKeyHashTable=0x0
+Aug  1 13:17:39 localhost kernel[0] <Debug>: SMC::smcGetLightshowVers ERROR: smcReadKey LsNM failed (kSMCKeyNotFound)
+Aug  1 13:17:39 localhost kernel[0] <Debug>: SMC::smcPublishLightshowVersion ERROR: smcGetLightshowVers failed (kSMCKeyNotFound)
+Aug  1 13:17:39 localhost kernel[0] <Debug>: SMC::smcInitHelper ERROR: smcPublishLightshowVersion failed (kSMCKeyNotFound)
+Aug  1 13:17:39 localhost kernel[0] <Debug>: Previous Shutdown Cause: 5
+Aug  1 13:17:39 localhost kernel[0] <Debug>: init
+Aug  1 13:17:39 localhost kernel[0] <Debug>: probe
+Aug  1 13:17:39 localhost kernel[0] <Debug>: start
+Aug  1 13:17:39 localhost kernel[0] <Debug>: [IOBluetoothHCIController][start] -- completed
+Aug  1 13:17:39 localhost kernel[0] <Debug>: Waiting for DSMOS...
+Aug  1 13:17:39 localhost kernel[0] <Debug>: flow_divert_kctl_disconnect (0): disconnecting group 1
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: DSMOS has arrived
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: IOPPF - IODeviceTree:/efi/platform/StartupPowerEvents: 0x0
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: IOBluetoothUSBDFU::probe
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: IOBluetoothUSBDFU::probe ProductID - 0x8289 FirmwareVersion - 0x0079
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: **** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = TRUE -- 0x4000 ****
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: **** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed -- 0x4000 ****
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: [IOBluetoothHCIController][staticBluetoothHCIControllerTransportShowsUp] -- Received Bluetooth Controller register service notification -- 0x4000 
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: IOPPF: XCPM mode
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: [IOBluetoothHCIController::setConfigState] calling registerService
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: **** [IOBluetoothHCIController][protectedBluetoothHCIControllerTransportShowsUp] -- Connected to the transport successfully -- 0x6bc0 -- 0xd000 -- 0x4000 ****
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: save_ddr_phy_regs: saving 127 DDR PHY shmoo-calibrated registers 
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::initACPI - status = 0x00000000, acpi_path_object = 0xffffff8037884440
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::initACPI - status = 0x00000000, acpi_path = IOACPIPlane:/_SB/PCI0@0/RP04@1c0003/CMRA@0
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::initACPI - status = 0x00000000, acpi_device_entry = 0xffffff8037cef300
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::initACPI - status = 0x00000000, fACPIDevice = 0xffffff8037cef300
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::initACPI - status = 0x00000000, fACPIPowerEnabled = 1
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::start - link control offset in PCI bridge = 0x50
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::start - pmcsr offset in PCI bridge = 0xa4
+Aug  1 13:17:39 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::power_off_hardware
+Aug  1 13:17:40 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::initForPM
+Aug  1 13:17:40 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 13:17:40 MacBook-Pro-Alina kernel[0] <Debug>: **** [IOBluetoothHostControllerUSBTransport][SuspendDevice] -- Suspend -- suspendDeviceCallResult = 0x0000 (kIOReturnSuccess) -- 0x4000 ****
+Aug  1 13:17:41 MacBook-Pro-Alina kernel[0] <Debug>: hmm.. mismatch sizes: 3100 vs 20
+Aug  1 13:17:41 MacBook-Pro-Alina kernel[0] <Debug>: fGPUIdleIntervalMS = 0
+Aug  1 13:17:41 MacBook-Pro-Alina kernel[0] <Debug>: en1: promiscuous mode enable succeeded
+Aug  1 13:17:41 MacBook-Pro-Alina kernel[0] <Debug>: en2: promiscuous mode enable succeeded
+Aug  1 13:17:41 MacBook-Pro-Alina kernel[0] <Debug>: VM Swap Subsystem is ON
+Aug  1 13:17:42 MacBook-Pro-Alina kernel[0] <Debug>: AirPort_Brcm4360_P2PInterface::init name <p2p0> role 1
+Aug  1 13:17:42 MacBook-Pro-Alina kernel[0] <Debug>: AirPort_Brcm4360_P2PInterface::init() <p2p> role 1
+Aug  1 13:17:42 MacBook-Pro-Alina kernel[0] <Debug>: hfs: mounted Recovery HD on device disk0s3
+Aug  1 13:17:42 MacBook-Pro-Alina kernel[0] <Debug>: hfs: unmount initiated on Recovery HD on device disk0s3
+Aug  1 13:17:43 MacBook-Pro-Alina kernel[0] <Debug>: en0: 802.11d country code set to 'US'.
+Aug  1 13:17:43 MacBook-Pro-Alina kernel[0] <Debug>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+Aug  1 13:17:47 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 10.502498: directed SSID scan fail
+Aug  1 13:18:04 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 13:18:47 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000280
+Aug  1 13:18:47 MacBook-Pro-Alina kernel[0] <Debug>: en0: 802.11d country code set to 'X3'.
+Aug  1 13:18:47 MacBook-Pro-Alina kernel[0] <Debug>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161
+Aug  1 13:18:47 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 70.225252: AirPort_Brcm43xx::powerChange: System Sleep 
+Aug  1 13:18:47 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 70.225256: wl0: powerChange: *** BONJOUR/MDNS OFFLOADS ARE NOT RUNNING.
+Aug  1 13:18:47 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 13:18:48 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+Aug  1 13:18:48 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 70.755257: scanparams:
+Aug  1 13:18:48 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 70.755262:   flags 0
+Aug  1 13:18:48 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 70.755264:   active_time 0, passive_time 0
+Aug  1 13:18:48 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 70.755266:   scan_start_delay 0
+Aug  1 13:18:48 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 70.755268:   scan_cycle_idle_rest_time 0, scan_cycle_idle_rest_time_multiplier 0
+Aug  1 13:18:48 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 70.755271:   max_scan_cycles 0, max_rest_time 0
+Aug  1 13:18:48 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 70.755273: Scan Channels (0): None
+Aug  1 13:18:48 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 70.755275: SSID (0): None
+Aug  1 13:18:48 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 70.755277: SSID count = 0
+Aug  1 13:18:48 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 70.755279: wl0: leaveModulePoweredForOffloads: Wi-Fi will turn off.
+Aug  1 13:18:48 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltHAL::earlyWake - complete - took 0 milliseconds
+Aug  1 13:18:48 MacBook-Pro-Alina kernel[0] <Debug>: IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Aug  1 13:18:48 MacBook-Pro-Alina kernel[0] <Debug>: IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Aug  1 13:18:49 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 13:18:49 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 14
+Aug  1 14:34:29 MacBook-Pro-Alina kernel[0] <Debug>: Wake reason: EC.ACAttach (Maintenance)
+Aug  1 14:34:29 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 14:34:29 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::wakeEventHandlerThread
+Aug  1 14:34:29 MacBook-Pro-Alina kernel[0] <Debug>: Previous Sleep Cause: 5
+Aug  1 14:34:29 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+Aug  1 14:34:29 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltHAL::earlyWake - complete - took 1 milliseconds
+Aug  1 14:34:29 MacBook-Pro-Alina kernel[0] <Debug>: TBT W (2): 0x0040 [x]
+Aug  1 14:34:29 MacBook-Pro-Alina kernel[0] <Debug>: IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Aug  1 14:34:29 MacBook-Pro-Alina kernel[0] <Debug>: IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Aug  1 14:34:29 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 72.536845: si_survive_perst_war: bar0win before 18003000, bar0win after 18001000
+Aug  1 14:34:29 MacBook-Pro-Alina kernel[0] <Debug>: AppleUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+Aug  1 14:34:29 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 72.704260: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Aug  1 14:34:29 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 14:34:29 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::wakeEventHandlerThread
+Aug  1 14:34:30 MacBook-Pro-Alina kernel[0] <Debug>: en0: 802.11d country code set to 'US'.
+Aug  1 14:34:30 MacBook-Pro-Alina kernel[0] <Debug>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+Aug  1 14:34:34 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::handleWakeEvent_gated
+Aug  1 14:34:34 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 77.570739: AirPort_Brcm43xx::powerChange: System Sleep 
+Aug  1 14:34:34 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 77.570744: wl0: powerChange: *** BONJOUR/MDNS OFFLOADS ARE NOT RUNNING.
+Aug  1 14:34:34 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 14:34:34 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 77.684348: scanparams:
+Aug  1 14:34:34 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 77.684352:   flags 0
+Aug  1 14:34:34 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 77.684354:   active_time 0, passive_time 0
+Aug  1 14:34:34 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 77.684356:   scan_start_delay 0
+Aug  1 14:34:34 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 77.684357:   scan_cycle_idle_rest_time 0, scan_cycle_idle_rest_time_multiplier 0
+Aug  1 14:34:34 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 77.684368:   max_scan_cycles 0, max_rest_time 0
+Aug  1 14:34:34 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 77.684370: Scan Channels (0): None
+Aug  1 14:34:34 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 77.684371: SSID (0): None
+Aug  1 14:34:34 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 77.684372: SSID count = 0
+Aug  1 14:34:34 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 77.684374: wl0: leaveModulePoweredForOffloads: Wi-Fi will turn off.
+Aug  1 14:34:34 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::handleWakeEvent_gated
+Aug  1 14:34:35 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 14:34:35 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 13
+Aug  1 14:34:39 MacBook-Pro-Alina kernel[0] <Debug>: Wake reason: EC.ACAttach (Maintenance)
+Aug  1 14:34:39 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 14:34:39 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::wakeEventHandlerThread
+Aug  1 14:34:39 MacBook-Pro-Alina kernel[0] <Debug>: Previous Sleep Cause: 5
+Aug  1 14:34:39 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+Aug  1 14:34:39 MacBook-Pro-Alina kernel[0] <Debug>: The USB device Card Reader (Port 4 of Hub at 0x15000000) may have caused a wake by being disconnected
+Aug  1 14:34:39 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltHAL::earlyWake - complete - took 1 milliseconds
+Aug  1 14:34:39 MacBook-Pro-Alina kernel[0] <Debug>: IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Aug  1 14:34:39 MacBook-Pro-Alina kernel[0] <Debug>: TBT W (2): 0x0040 [x]
+Aug  1 14:34:39 MacBook-Pro-Alina kernel[0] <Debug>: IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Aug  1 14:34:39 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 79.477050: si_survive_perst_war: bar0win before 18003000, bar0win after 18001000
+Aug  1 14:34:39 MacBook-Pro-Alina kernel[0] <Debug>: AppleUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+Aug  1 14:34:39 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 79.704615: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Aug  1 14:34:39 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 14:34:39 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::wakeEventHandlerThread
+Aug  1 14:34:44 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::handleWakeEvent_gated
+Aug  1 14:35:08 MacBook-Pro-Alina kernel[0] <Debug>: full wake (reason 1) 29585 ms
+Aug  1 14:35:08 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000320
+Aug  1 14:35:08 MacBook-Pro-Alina kernel[0] <Debug>: en0: 802.11d country code set to 'X3'.
+Aug  1 14:35:08 MacBook-Pro-Alina kernel[0] <Debug>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161
+Aug  1 14:35:08 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 14:35:08 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000300
+Aug  1 14:35:12 MacBook-Pro-Alina kernel[0] <Debug>: AppleKeyStore:Sending lock change 0
+Aug  1 14:35:27 MacBook-Pro-Alina kernel[0] <Debug>: en0: 802.11d country code set to 'CA'.
+Aug  1 14:35:27 MacBook-Pro-Alina kernel[0] <Debug>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+Aug  1 14:36:35 MacBook-Pro-Alina kernel[0] <Debug>: Sandbox: QuickLookSatelli(305) deny iokit-open IOFramebufferSharedUserClient
+Aug  1 14:37:00 MacBook-Pro-Alina kernel[0] <Debug>: Google Chrome (map: 0xffffff803ad513c0) triggered DYLD shared region unnest for map: 0xffffff803ad513c0, region 0x7fff8e800000->0x7fff8ea00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Aug  1 14:37:00 MacBook-Pro-Alina kernel[0] <Debug>: Google Chrome He (map: 0xffffff803a27f000) triggered DYLD shared region unnest for map: 0xffffff803a27f000, region 0x7fff8e800000->0x7fff8ea00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Aug  1 14:37:00 MacBook-Pro-Alina kernel[0] <Debug>: Google Chrome He (map: 0xffffff803c1a40f0) triggered DYLD shared region unnest for map: 0xffffff803c1a40f0, region 0x7fff8e800000->0x7fff8ea00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Aug  1 14:37:00 MacBook-Pro-Alina kernel[0] <Debug>: Google Chrome He (map: 0xffffff803bdbf5a0) triggered DYLD shared region unnest for map: 0xffffff803bdbf5a0, region 0x7fff8e800000->0x7fff8ea00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Aug  1 14:37:03 MacBook-Pro-Alina kernel[0] <Debug>: Google Chrome He (map: 0xffffff803ca84b40) triggered DYLD shared region unnest for map: 0xffffff803ca84b40, region 0x7fff8e800000->0x7fff8ea00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Aug  1 14:37:04 MacBook-Pro-Alina kernel[0] <Debug>: Google Chrome He (map: 0xffffff803a27f3c0) triggered DYLD shared region unnest for map: 0xffffff803a27f3c0, region 0x7fff8e800000->0x7fff8ea00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Aug  1 14:37:05 MacBook-Pro-Alina kernel[0] <Debug>: Google Chrome He (map: 0xffffff803ca84b40) triggered DYLD shared region unnest for map: 0xffffff803ca84b40, region 0x7fff8e800000->0x7fff8ea00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Aug  1 15:37:04 MacBook-Pro-Alina kernel[0] <Debug>: Google Chrome He (map: 0xffffff803c1a42d0) triggered DYLD shared region unnest for map: 0xffffff803c1a42d0, region 0x7fff8e800000->0x7fff8ea00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Aug  1 16:37:24 MacBook-Pro-Alina kernel[0] <Debug>: Google Chrome He (map: 0xffffff803c1a4b40) triggered DYLD shared region unnest for map: 0xffffff803c1a4b40, region 0x7fff8e800000->0x7fff8ea00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Aug  1 17:12:15 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 9538.293025: MacAuthEvent en0   Auth result for: 34:08:04:7f:e6:e5  MAC AUTH succeeded
+Aug  1 17:12:15 MacBook-Pro-Alina kernel[0] <Debug>: wlEvent: en0 en0 Link UP virtIf = 0
+Aug  1 17:12:15 MacBook-Pro-Alina kernel[0] <Debug>: AirPort: Link Up on en0
+Aug  1 17:12:15 MacBook-Pro-Alina kernel[0] <Debug>: en0: BSSID changed to 34:08:04:7f:e6:e5
+Aug  1 17:12:16 MacBook-Pro-Alina kernel[0] <Debug>: flow_divert_kctl_disconnect (0): disconnecting group 1
+Aug  1 17:12:38 MacBook-Pro-Alina kernel[0] <Debug>: Google Chrome He (map: 0xffffff803a27fb40) triggered DYLD shared region unnest for map: 0xffffff803a27fb40, region 0x7fff8e800000->0x7fff8ea00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Aug  1 17:14:27 MacBook-Pro-Alina kernel[0] <Debug>: wlEvent: en0 en0 Link DOWN virtIf = 0
+Aug  1 17:14:27 MacBook-Pro-Alina kernel[0] <Debug>: AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+Aug  1 17:14:30 MacBook-Pro-Alina kernel[0] <Debug>: wlEvent: en0 en0 Link UP virtIf = 0
+Aug  1 17:14:30 MacBook-Pro-Alina kernel[0] <Debug>: AirPort: Link Up on en0
+Aug  1 17:14:30 MacBook-Pro-Alina kernel[0] <Debug>: en0: BSSID changed to ca:87:c6:a2:9e:95
+Aug  1 17:17:02 MacBook-Pro-Alina kernel[0] <Debug>: wlEvent: en0 en0 Link UP virtIf = 0
+Aug  1 17:27:27 MacBook-Pro-Alina kernel[0] <Debug>: wlEvent: en0 en0 Link DOWN virtIf = 0
+Aug  1 17:27:27 MacBook-Pro-Alina kernel[0] <Debug>: AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+Aug  1 17:28:19 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 10502.426877: MacAuthEvent en0   Auth result for: 34:08:04:7f:e6:e5  MAC AUTH succeeded
+Aug  1 17:28:19 MacBook-Pro-Alina kernel[0] <Debug>: wlEvent: en0 en0 Link UP virtIf = 0
+Aug  1 17:28:19 MacBook-Pro-Alina kernel[0] <Debug>: AirPort: Link Up on en0
+Aug  1 17:28:19 MacBook-Pro-Alina kernel[0] <Debug>: en0: BSSID changed to 34:08:04:7f:e6:e5
+Aug  1 17:28:19 MacBook-Pro-Alina kernel[0] <Debug>: flow_divert_kctl_disconnect (0): disconnecting group 1
+Aug  1 17:29:32 MacBook-Pro-Alina kernel[0] <Debug>: vmci: Loaded @ 0xffffff7f984555bd: Info 0xffffff7f98460a88 Name com.vmware.kext.vmci Version 90.6.3 build-2103067 at Sep  4 2014 14:09:30
+Aug  1 17:29:32 MacBook-Pro-Alina kernel[0] <Debug>: vmci: Initializing module.
+Aug  1 17:29:32 MacBook-Pro-Alina kernel[0] <Debug>: vmci: VMCI: shared components initialized.
+Aug  1 17:29:32 MacBook-Pro-Alina kernel[0] <Debug>: vmci: VMCI: host components initialized.
+Aug  1 17:29:32 MacBook-Pro-Alina kernel[0] <Debug>: vmci: Module initialized.
+Aug  1 17:29:32 MacBook-Pro-Alina kernel[0] <Debug>: vmci: Begin helper queue thread.
+Aug  1 17:29:32 MacBook-Pro-Alina kernel[0] <Debug>: vsock: Loaded @ 0xffffff7f98465844: Info 0xffffff7f984703b0 Name com.vmware.kext.vsockets Version 90.6.0 build-2103067 at Sep  4 2014 14:09:33
+Aug  1 17:29:32 MacBook-Pro-Alina kernel[0] <Debug>: vsock: Initializing module...
+Aug  1 17:29:32 MacBook-Pro-Alina kernel[0] <Debug>: vsock: Begin workloop.
+Aug  1 17:29:32 MacBook-Pro-Alina kernel[0] <Debug>: vsock: Module initialized.
+Aug  1 17:29:32 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Loaded @ 0xffffff7f98475aaf: Info 0xffffff7f9847d110 Name com.vmware.kext.vmnet Version 0210.30.67 build-2103067 at Sep  4 2014 14:09:36
+Aug  1 17:29:32 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Initializing module.
+Aug  1 17:29:32 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNet_Start allocated gOSMallocTag.
+Aug  1 17:29:32 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNet_Start allocated vnetBigLock.
+Aug  1 17:29:32 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Module initialized.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: Loaded @ 0xffffff7f9847e80d: Info 0xffffff7f98489068 Name com.vmware.kext.vmx86 Version 0210.30.67 build-2103067 at Sep  4 2014 14:09:26
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: Cycles 62
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: Timer thread started.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: Module initialized.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIf_Create: created userIf at 0xffffff803b240000.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetConnect: returning port 0xffffff803b240000
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 0 does not exist, allocating memory.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Allocated hub 0xffffff8041373000 for hubNum 0.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:e0:2b:c4
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 0
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 0
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: media 80 dev 0xffffff80387fa558 family 2
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: wireless interface detected.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: up
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: attached
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIfFree: freeing userIf at 0xffffff803b240000.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIf_Create: created userIf at 0xffffff8037a94400.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetConnect: returning port 0xffffff8037a94400
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 1 does not exist, allocating memory.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Allocated hub 0xffffff8041370000 for hubNum 1.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:fb:ed:5e
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 1
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 0
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIfFree: freeing userIf at 0xffffff8037a94400.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: netif-vmnet1: Adding protocol 2.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: netif-vmnet1: SIOCSIFFLAGS: 0x8863
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIf_Create: created userIf at 0xffffff803b1fc800.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetConnect: returning port 0xffffff803b1fc800
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:fd:ed:05
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 1
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 0
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 1
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIf_Create: created userIf at 0xffffff803b229600.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetConnect: returning port 0xffffff803b229600
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 8 does not exist, allocating memory.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Allocated hub 0xffffff804136b000 for hubNum 8.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:fe:ba:7c
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 8
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 0
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetSetopt: Set link state UP
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIf_Create: created userIf at 0xffffff803859ac00.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetConnect: returning port 0xffffff803859ac00
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:e1:45:6c
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 8
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 0
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 1
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIfFree: freeing userIf at 0xffffff803859ac00.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: netif-vmnet8: Adding protocol 2.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: netif-vmnet8: SIOCSIFFLAGS: 0x8863
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIf_Create: created userIf at 0xffffff803793e200.
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetConnect: returning port 0xffffff803793e200
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:eb:06:9c
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 8
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 0
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 1
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 2
+Aug  1 17:29:33 MacBook-Pro-Alina kernel[0] <Debug>: vmioplug: Loaded @ 0xffffff7f9848dcdf: Info 0xffffff7f98491e20 Name com.vmware.kext.vmioplug.14.1.3 Version 14.1.3 build-2103067 at Sep  4 2014 14:09:39
+Aug  1 17:29:35 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: offset 0: 80
+Aug  1 17:29:35 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: offset 1: 16
+Aug  1 17:29:35 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: offset 2: 56
+Aug  1 17:29:35 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: offset 3: 64
+Aug  1 17:29:35 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: offset 4: 76
+Aug  1 17:29:35 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: PTSC: initialized at 2194918000 Hz using reference clock, TSCs are synchronized.
+Aug  1 17:29:35 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: Cycles 40
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIf_Create: created userIf at 0xffffff8037aa5c00.
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetConnect: returning port 0xffffff8037aa5c00
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:e6:6c:06
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 8
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 0
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 1
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 2
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 3
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIf_Create: created userIf at 0xffffff80378afc00.
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetConnect: returning port 0xffffff80378afc00
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:e7:bc:7c
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 8
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 0
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 1
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 2
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 3
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 4
+Aug  1 17:30:11 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIfFree: freeing userIf at 0xffffff80378afc00.
+Aug  1 17:31:13 MacBook-Pro-Alina kernel[0] <Debug>: virtual bool IOHIDEventSystemUserClient::initWithTask(task_t, void *, UInt32): Client task not privileged to open IOHIDSystem for mapping memory (e00002c1)
+Aug  1 17:32:01 MacBook-Pro-Alina kernel[0] <Debug>: process vmware-vmx[813] caught causing excessive wakeups. Observed wakeups rate (per sec): 307; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 45004
+Aug  1 17:36:55 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetDisconnect called for port 0xffffff8038292600
+Aug  1 17:36:55 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetDisconnect called for port 0xffffff8037aa5c00
+Aug  1 17:36:55 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIfFree: freeing userIf at 0xffffff8037aa5c00.
+Aug  1 17:36:56 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: Cleaned up 2062244 virtual main memory pages from VM 0xffffff8214868008.
+Aug  1 17:36:56 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: Cleaned up 7990 monitor anonymous pages from VM 0xffffff8214868008.
+Aug  1 17:36:56 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: Cleaned up 5403 user anonymous pages from VM 0xffffff8214868008.
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: PTSC: initialized at 2194918000 Hz using reference clock, TSCs are synchronized.
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmmon: Cycles 58
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIf_Create: created userIf at 0xffffff8038292c00.
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetConnect: returning port 0xffffff8038292c00
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:fc:bc:c0
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 8
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 0
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 1
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 2
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 3
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIf_Create: created userIf at 0xffffff803b212e00.
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetConnect: returning port 0xffffff803b212e00
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:fd:b8:5a
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 8
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 0
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 1
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 2
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 3
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 4
+Aug  1 17:36:59 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIfFree: freeing userIf at 0xffffff803b212e00.
+Aug  1 17:38:33 MacBook-Pro-Alina kernel[0] <Debug>: Google Chrome He (map: 0xffffff803ca84870) triggered DYLD shared region unnest for map: 0xffffff803ca84870, region 0x7fff8e800000->0x7fff8ea00000. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Aug  1 17:38:56 MacBook-Pro-Alina kernel[0] <Debug>: process vmware-vmx[876] caught causing excessive wakeups. Observed wakeups rate (per sec): 382; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 45015
+Aug  1 17:41:25 MacBook-Pro-Alina kernel[0] <Debug>: wlEvent: en0 en0 Link DOWN virtIf = 0
+Aug  1 17:41:25 MacBook-Pro-Alina kernel[0] <Debug>: wl0: Beacon Loss Event
+Aug  1 17:41:25 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: interface en is sending notification 0x14
+Aug  1 17:41:25 MacBook-Pro-Alina kernel[0] <Debug>: AirPort: Link Down on en0. Reason 4 (Disassociated due to inactivity).
+Aug  1 17:41:25 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: interface en is going DOWN
+Aug  1 17:41:25 MacBook-Pro-Alina kernel[0] <Debug>: en0: BSSID changed to 00:00:00:00:00:00
+Aug  1 17:41:26 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetDisconnect called for port 0xffffff803b20f600
+Aug  1 17:41:26 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: filter detached
+Aug  1 17:41:26 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: down
+Aug  1 17:41:26 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: detached
+Aug  1 17:41:26 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Freeing hub at 0xffffff8041373000.
+Aug  1 17:41:26 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetSetopt: Set link state DOWN
+Aug  1 17:41:26 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetSetopt: Set link state UP
+Aug  1 17:42:01 MacBook-Pro-Alina kernel[0] <Debug>: fsevents: watcher vmware-vmx (pid: 876) - Using /dev/fsevents directly is unsupported.  Migrate to FSEventsFramework
+Aug  1 17:42:04 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11327.781052: MacAuthEvent en0   Auth result for: 34:08:04:7f:e6:e5 Auth request tx failed
+Aug  1 17:42:56 MacBook-Pro-Alina kernel[0] <Debug>: wlEvent: en0 en0 Link DOWN virtIf = 0
+Aug  1 17:42:59 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11382.702943: MacAuthEvent en0   Auth result for: 34:08:04:7f:e6:e5 Auth request tx failed
+Aug  1 17:45:31 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: en0: 802.11d country code set to 'X3'.
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000280
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11561.487587: AirPort_Brcm43xx::powerChange: System Sleep 
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11561.487592: wl0: powerChange: *** BONJOUR/MDNS OFFLOADS ARE NOT RUNNING.
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11562.155056: scanparams:
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11562.155059:   flags 0
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11562.155061:   active_time 0, passive_time 0
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11562.155063:   scan_start_delay 0
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11562.155065:   scan_cycle_idle_rest_time 0, scan_cycle_idle_rest_time_multiplier 0
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11562.155067:   max_scan_cycles 0, max_rest_time 0
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11562.155069: Scan Channels (0): None
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11562.155071: SSID (0): None
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11562.155073: SSID count = 0
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11562.155075: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+Aug  1 17:45:58 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltHAL::earlyWake - complete - took 0 milliseconds
+Aug  1 17:45:59 MacBook-Pro-Alina kernel[0] <Debug>: IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Aug  1 17:46:00 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 17:46:00 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 9
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: Wake reason: EC.LidOpen (User)
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000320
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::wakeEventHandlerThread
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: Previous Sleep Cause: 5
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltHAL::earlyWake - complete - took 1 milliseconds
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: TBT W (2): 0x0040 [x]
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11564.057507: si_survive_perst_war: bar0win before 18003000, bar0win after 18001000
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: AppleUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11564.230134: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::wakeEventHandlerThread
+Aug  1 17:46:22 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000300
+Aug  1 17:46:23 MacBook-Pro-Alina kernel[0] <Debug>: en0: 802.11d country code set to 'US'.
+Aug  1 17:46:23 MacBook-Pro-Alina kernel[0] <Debug>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+Aug  1 17:46:27 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::handleWakeEvent_gated
+Aug  1 17:46:27 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11569.671727: directed SSID scan fail
+Aug  1 17:46:36 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11578.112156: MacAuthEvent en0   Auth result for: 34:08:04:7f:e6:e5 Auth request tx failed
+Aug  1 17:46:38 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 17:46:39 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11580.946495: MacAuthEvent en0   Auth result for: 34:08:04:7f:e6:e5 Auth request tx failed
+Aug  1 17:46:55 MacBook-Pro-Alina kernel[0] <Debug>: en0: 802.11d country code set to 'X3'.
+Aug  1 17:46:55 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000280
+Aug  1 17:46:55 MacBook-Pro-Alina kernel[0] <Debug>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161
+Aug  1 17:46:55 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11597.287431: AirPort_Brcm43xx::powerChange: System Sleep 
+Aug  1 17:46:55 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11597.287435: wl0: powerChange: *** BONJOUR/MDNS OFFLOADS ARE NOT RUNNING.
+Aug  1 17:46:55 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 17:46:56 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11597.836122: scanparams:
+Aug  1 17:46:56 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11597.836126:   flags 0
+Aug  1 17:46:56 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11597.836128:   active_time 0, passive_time 0
+Aug  1 17:46:56 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11597.836129:   scan_start_delay 0
+Aug  1 17:46:56 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11597.836131:   scan_cycle_idle_rest_time 0, scan_cycle_idle_rest_time_multiplier 0
+Aug  1 17:46:56 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11597.836134:   max_scan_cycles 0, max_rest_time 0
+Aug  1 17:46:56 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11597.836135: Scan Channels (0): None
+Aug  1 17:46:56 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11597.836137: SSID (0): None
+Aug  1 17:46:56 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11597.836139: SSID count = 0
+Aug  1 17:46:56 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11597.836141: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+Aug  1 17:46:56 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+Aug  1 17:46:56 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltHAL::earlyWake - complete - took 0 milliseconds
+Aug  1 17:46:56 MacBook-Pro-Alina kernel[0] <Debug>: IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Aug  1 17:46:57 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 17:46:57 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 12
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: Wake reason: EC.LidOpen (User)
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000320
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::wakeEventHandlerThread
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: Previous Sleep Cause: 5
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltNHI::prePCIWake - power up complete - took 0 us
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: The USB device Card Reader (Port 4 of Hub at 0x15000000) may have caused a wake by being disconnected
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: AppleThunderboltHAL::earlyWake - complete - took 1 milliseconds
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: TBT W (2): 0x0040 [x]
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: IOThunderboltSwitch<0xffffff8037d8fc00>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11599.596599: si_survive_perst_war: bar0win before 18003000, bar0win after 18001000
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: AppleUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11599.738130: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::wakeEventHandlerThread
+Aug  1 18:03:43 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::systemWakeCall - messageType = 0xE0000300
+Aug  1 18:03:46 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11602.717278: MacAuthEvent en0   Auth result for: 70:62:b8:c4:a4:54  MAC AUTH succeeded
+Aug  1 18:03:46 MacBook-Pro-Alina kernel[0] <Debug>: wlEvent: en0 en0 Link UP virtIf = 0
+Aug  1 18:03:46 MacBook-Pro-Alina kernel[0] <Debug>: AirPort: Link Up on en0
+Aug  1 18:03:46 MacBook-Pro-Alina kernel[0] <Debug>: en0: BSSID changed to 70:62:b8:c4:a4:54
+Aug  1 18:03:46 MacBook-Pro-Alina kernel[0] <Debug>: AirPort: RSN handshake complete on en0
+Aug  1 18:03:46 MacBook-Pro-Alina kernel[0] <Debug>: flow_divert_kctl_disconnect (0): disconnecting group 1
+Aug  1 18:03:48 MacBook-Pro-Alina kernel[0] <Debug>: AppleCamIn::handleWakeEvent_gated
+Aug  1 18:03:53 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIf_Create: created userIf at 0xffffff803859d000.
+Aug  1 18:03:53 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetConnect: returning port 0xffffff803859d000
+Aug  1 18:03:53 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 0 does not exist, allocating memory.
+Aug  1 18:03:53 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Allocated hub 0xffffff803af58000 for hubNum 0.
+Aug  1 18:03:53 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:e0:04:4a
+Aug  1 18:03:53 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 0
+Aug  1 18:03:53 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 0
+Aug  1 18:03:53 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: media 80 dev 0xffffff80387fa558 family 2
+Aug  1 18:03:53 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: wireless interface detected.
+Aug  1 18:03:53 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: up
+Aug  1 18:03:53 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: attached
+Aug  1 18:03:53 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIfFree: freeing userIf at 0xffffff803859d000.
+Aug  1 20:23:15 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetDisconnect called for port 0xffffff8037896800
+Aug  1 20:23:15 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: filter detached
+Aug  1 20:23:15 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: down
+Aug  1 20:23:15 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: detached
+Aug  1 20:23:15 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Freeing hub at 0xffffff803af58000.
+Aug  1 20:23:15 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetSetopt: Set link state DOWN
+Aug  1 20:23:15 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetSetopt: Set link state UP
+Aug  1 20:23:16 MacBook-Pro-Alina kernel[0] <Debug>: en0: 802.11d country code set to 'RU'.
+Aug  1 20:23:16 MacBook-Pro-Alina kernel[0] <Debug>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 132 136 140 149 153 157 161 165
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: ARPT: 11749.192900: MacAuthEvent en0   Auth result for: 70:62:b8:c4:a4:54  MAC AUTH succeeded
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: wlEvent: en0 en0 Link UP virtIf = 0
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: AirPort: Link Up on en0
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: en0: BSSID changed to 70:62:b8:c4:a4:54
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: AirPort: RSN handshake complete on en0
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VNetUserIf_Create: created userIf at 0xffffff8037852400.
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNetConnect: returning port 0xffffff8037852400
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 0 does not exist, allocating memory.
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Allocated hub 0xffffff803af58000 for hubNum 0.
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:fe:69:8d
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: Hub 0
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: 	Port 0
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: media 80 dev 0xffffff80387fa558 family 2
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: wireless interface detected.
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: up
+Aug  1 20:23:18 MacBook-Pro-Alina kernel[0] <Debug>: vmnet: bridge-en0: attached

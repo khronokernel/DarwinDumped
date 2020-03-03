@@ -1,0 +1,12 @@
+System Integrity Protection status: enabled (0x00000067) (Custom Configuration).
+
+Configuration:
+	Apple Internal: disabled
+	Kext Signing Restrictions: disabled
+	Task for PID Restrictions: disabled
+	Filesystem Protections: disabled
+	Debugging Restrictions: enabled
+	DTrace Restrictions: disabled
+	NVRAM Protections: disabled
+
+This is an unsupported configuration, likely to break in the future and leave your machine in an unknown state.

@@ -1,0 +1,50 @@
+APFS Container (1 found)
+|
++-- Container disk2 C267F44C-E787-4C38-A777-FFE7FEC66BB3
+    ====================================================
+    APFS Container Reference:     disk2 (Fusion)
+    Size (Capacity Ceiling):      1027546296320 B (1.0 TB)
+    Capacity In Use By Volumes:   111656599552 B (111.7 GB) (10.9% used)
+    Capacity Not Allocated:       915889696768 B (915.9 GB) (89.1% free)
+    |
+    +-< Physical Store disk0s2 A7837DA3-947B-439B-951F-C8AC60194A1D
+    |   -----------------------------------------------------------
+    |   APFS Physical Store Disk:   disk0s2 (Main)
+    |   Size:                       27551166464 B (27.6 GB)
+    |
+    +-< Physical Store disk1s2 3C0A9BF2-568E-45AC-925A-8D8EC7DBB1D6
+    |   -----------------------------------------------------------
+    |   APFS Physical Store Disk:   disk1s2 (Secondary, Designated Aux Use)
+    |   Size:                       999995129856 B (1000.0 GB)
+    |
+    +-> Volume disk2s1 5C96B171-CABD-498E-8BE2-1479B2DA673F
+    |   ---------------------------------------------------
+    |   APFS Volume Disk (Role):   disk2s1 (No specific role)
+    |   Name:                      Macintosh HD (Case-insensitive)
+    |   Mount Point:               /
+    |   Capacity Consumed:         104412082176 B (104.4 GB)
+    |   FileVault:                 No
+    |
+    +-> Volume disk2s2 EA181F64-DCAD-4867-B2C4-DA073C9E5E69
+    |   ---------------------------------------------------
+    |   APFS Volume Disk (Role):   disk2s2 (Preboot)
+    |   Name:                      Preboot (Case-insensitive)
+    |   Mount Point:               Not Mounted
+    |   Capacity Consumed:         44253184 B (44.3 MB)
+    |   FileVault:                 No
+    |
+    +-> Volume disk2s3 791E09E7-CEFA-41EC-991A-887D79BBCD07
+    |   ---------------------------------------------------
+    |   APFS Volume Disk (Role):   disk2s3 (Recovery)
+    |   Name:                      Recovery (Case-insensitive)
+    |   Mount Point:               Not Mounted
+    |   Capacity Consumed:         536453120 B (536.5 MB)
+    |   FileVault:                 No
+    |
+    +-> Volume disk2s4 52D7957E-1F1A-49C0-98CC-0CF0ED495E97
+        ---------------------------------------------------
+        APFS Volume Disk (Role):   disk2s4 (VM)
+        Name:                      VM (Case-insensitive)
+        Mount Point:               /private/var/vm
+        Capacity Consumed:         2147508224 B (2.1 GB)
+        FileVault:                 No

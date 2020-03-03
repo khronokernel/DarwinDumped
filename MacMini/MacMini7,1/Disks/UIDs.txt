@@ -1,0 +1,5 @@
+Device   Name                  Volume UUID                                      Unique partition GUID 
+                               (Example Usage: Kernel flag rd=uuid boot-uuid=)  (Example Usage: Clover Hide Volume) 
+disk0s1  EFI System Partition  0E239BC6-F960-3107-89CF-1C97F78BB46B             6511DEA2-67AA-4B13-8633-09125F139981 
+disk0s2  /Volumes/                                                              6C399617-3FA6-43AA-97FD-5E9D2F974F5C 
+disk0s3  /Volumes/Recovery HD  051827A8-8D5B-301E-AB75-EB1ECC2FD776             75943FA0-E1F3-4A01-8487-1F815461A799 

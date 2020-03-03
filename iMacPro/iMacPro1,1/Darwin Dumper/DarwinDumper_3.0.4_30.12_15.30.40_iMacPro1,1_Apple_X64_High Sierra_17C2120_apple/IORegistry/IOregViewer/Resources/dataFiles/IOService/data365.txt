@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"31523","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"31525","ColType":"String","ColValue":"AppleIntelPCHPMC"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"31527","ColType":"String","ColValue":"pci8086,a2a1"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"31529","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"31530","ColType":"String","ColValue":"pci8086,a121"}},{"data":{"title":"1"},"attr":{"id":"31531","ColType":"String","ColValue":"pci8086,9d21"}},{"data":{"title":"2"},"attr":{"id":"31532","ColType":"String","ColValue":"pci8086,a2a1"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"31534","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"31536","ColType":"String","ColValue":"com.apple.driver.AppleIntelPCHPMC"}},
+{"data":{"title":"IOClass"},"attr":{"id":"31538","ColType":"String","ColValue":"AppleIntelPCHPMC"}},
+{"data":{"title":"IntelPCH"},"attr":{"id":"31540","ColType":"Boolean","ColValue":"Yes"}}
+]

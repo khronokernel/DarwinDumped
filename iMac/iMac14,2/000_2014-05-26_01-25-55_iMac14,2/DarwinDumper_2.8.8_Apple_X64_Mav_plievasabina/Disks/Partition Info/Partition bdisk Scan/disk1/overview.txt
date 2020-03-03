@@ -1,0 +1,45 @@
+/dev/disk1 
+WD My Passport 0812 Media 
+Block (sector) size: 512 bytes 
+Total Number of Blocks: 976707584 
+Total Disk Size: 500.1 GB 
+Partition Map: GUID Partition Table 
+Disk GUID:2f85c6b6-a660-4080-9f7e-598ae3dced6a 
+Partition GUID: 14d3f574-a44e-4dd1-8b5c-5435d901f1d4 | Name: EFI System Partition 
+Partition GUID: 277bcbe8-8f60-48d8-82c8-72f452e937ba | Name: 10.6.8 
+Partition GUID: 981aab51-d316-4ea3-b8f2-0ea2e0ff9808 | Name: 10.7.5 
+Partition GUID: fb7d9490-4d02-4e7e-9265-5b3a9d23922c | Name: 10.8.5 
+Partition GUID: 87d392ea-85a0-4b85-9279-b1cc2a722229 | Name: 10.9.3 
+Partition GUID: 7e63a465-596b-4928-922a-3902aab6a775 | Name: 10.10 
+Partition GUID: 9a3e6ccb-4702-4558-a1c1-4c62177db15d | Name: TestBoot 
+Partition GUID: 56ac1afd-5d8a-4591-a969-4b47edf1cdd1 | Name: Soft 
+Partition GUID: e7a5a3d0-be08-4412-9906-9f227f07d61d | Name: DataDisk 
+Partition GUID: 4e86257e-01df-4b8a-b212-9adf6670a3ed | Name: 11111 
+=========  =========             ========              ==========          ========= 
+LBA Start  Type                  GPT Name              LoaderCode          Size LBA 
+=========  =========             ========              ==========          ========= 
+0          MBR                                                             1 
+1          Primary GPT Header                                              1 
+2          Primary GPT Table                                               32 
+34         Space                                                           6 
+40         EFI System Partition  EFI System Partition  Apple EFI           409600 
+409640     HFS+                  10.6.8                                    19531256 
+19940896   Space                                                           262144 
+20203040   HFS+                  10.7.5                                    19531256 
+39734296   Space                                                           262144 
+39996440   HFS+                  10.8.5                                    19531256 
+59527696   Space                                                           262144 
+59789840   HFS+                  10.9.3                                    19531256 
+79321096   Space                                                           262144 
+79583240   HFS+                  10.10                                     19531256 
+99114496   Space                                                           262144 
+99376640   HFS+                  TestBoot                                  54270888 
+153647528  Space                                                           262144 
+153909672  HFS+                  Soft                                      292968744 
+446878416  Space                                                           262144 
+447140560  HFS+                  DataDisk                                  264652416 
+711792976  Space                                                           263856 
+712056832  Windows Basic Data    11111                 Windows NTFS NTLDR  264648704 
+976705536  Space                                                           2015 
+976707551  Backup GPT Table                                                32 
+976707583  Backup GPT Header                                               1 

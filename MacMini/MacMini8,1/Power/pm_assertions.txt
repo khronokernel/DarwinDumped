@@ -1,0 +1,21 @@
+2019-04-30 22:35:41 +0200 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   InternalPreventDisplaySleep    1
+   PreventUserIdleSystemSleep     0
+   NetworkClientActive            0
+Listed by owning process:
+   pid 96(hidd): [0x0000000b0009809b] 00:00:01 UserIsActive named: "com.apple.iohideventsystem.queue.tickle.4294968748.17" 
+	Timeout will fire in 598 secs Action=TimeoutActionRelease
+   pid 55(powerd): [0x0000003b0010818d] 00:01:07 InternalPreventDisplaySleep named: "com.apple.powermanagement.delayDisplayOff" 
+	Timeout will fire in 232 secs Action=TimeoutActionTurnOff
+Kernel Assertions: 0x4=USB
+   id=504  level=255 0x4=USB mod=01.01.1970, 1:00 description=com.apple.usb.externaldevice.14100000 owner=IOUSBHostDevice
+   id=506  level=255 0x4=USB mod=01.01.1970, 1:00 description=com.apple.usb.externaldevice.14120000 owner=USB Keyboard
+   id=507  level=255 0x4=USB mod=01.01.1970, 1:00 description=com.apple.usb.externaldevice.14130000 owner=USB Receiver
+Idle sleep preventers: IODisplayWrangler

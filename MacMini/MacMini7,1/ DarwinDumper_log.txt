@@ -1,0 +1,232 @@
+========================================================
+Welcome to DarwinDumper 2.9.8
+Sat Jun  6 00:39:16 NOVT 2015
+System Version: OS X 10.10.4 (14E26a)
+========================================================
+Initialisation info
+--------------------------------------------------------
+*/Users/Admin1/Library/Preferences/org.tom.DarwinDumper not found.
+*Save path - Default: Will use /Users/Admin1/Downloads/DarwinDumper_v2.9.8
+*Symlink check: Symlink has not been created.
+*Version check: This is the latest version.
+*UI: User clicked the run button
+*Save path verify: Path exists.
+*Save path verify: Path is writeable.
+*Save path verify: Path does not end with DarwinDumperReports.
+*Save path: Creating /Users/Admin1/Downloads/DarwinDumper_v2.9.8/DarwinDumperReports
+*Save path: Currently owned by user:502 of group:20 with permissions: 755
+*Save path: /Users/Admin1/Downloads/DarwinDumper_v2.9.8/DarwinDumperReports is now owned by Admin1:staff with permissions 755
+*User Chose: Archive Zip
+*User Chose: New Report
+*User Chose: Audio Codec
+*User Chose: System BIOS
+*User Chose: Video BIOS
+*User Chose: Boot Loaders and Disk Sectors
+*User Chose: Disk Loader Configs
+*User Chose: Disk Partitions
+*User Chose: Firmware Memory Map
+*User Chose: Kernel dmesg
+*User Chose: Kexts
+*User Chose: LSPCI
+*User Chose: ACPI tables
+*User Chose: Apple System Log
+*User Chose: CPU Information
+*User Chose: Device Properties
+*User Chose: DMI Tables
+*User Chose: EDID
+*User Chose: Firmware (Boot) Log
+*User Chose: IORegistry
+*User Chose: Kernel Info
+*User Chose: NVRAM
+*User Chose: Open CL
+*User Chose: RC Scripts
+*User Chose: RTC
+*User Chose: SMC Keys
+*User Chose: System Profiler
+--------------------------------------------------------
+          Attempting to dump kernel buffer using dmesg...
+000s : +Started process DumpFilesKernelLogs: pid 866
+          Attempting to read last ASL boot log...
+000s : +Started process DumpFilesAppleSystemLog: pid 870
+          Check: /Kernel Logs/dmesg.txt created.
+001s : +Started process DumpFilesSystemProfilerInfo: pid 873
+001s : -Completed DumpFilesKernelLogs
+001s : +Started process DumpFilesDiskUtilConfigsAndLoaders: pid 878
+001s : +Started process DumpFilesBiosROM: pid 882
+001s : +Started process DumpFilesBiosVideoROM: pid 887
+          Preparing to read disks...
+          Note: There may be a delay if any disks are sleeping
+          Found /var/log/asl/2015.06.05.U0.G80.asl
+          Check: /Kernel Logs/AppleSystemLog.txt created.
+001s : -Completed DumpFilesAppleSystemLog
+          Driver: Loading RadeonPCI
+          Driver: Loading DirectHW
+          Driver: RadeonPCI loaded successfully.
+          Running RadeonDump
+          Number of legacy VBIOS ROM's dumped: 0
+          Driver: Unloading RadeonPCI
+          Driver: DirectHW loaded successfully.
+          Driver: RadeonPCI successfully unloaded.
+          Note: System Profiler shows more GPUs than dumped VBIOS ROM's.
+          Number of ATI ROM images found in IORegistry: 0
+          Looking for existence of ACPI table: VFCT
+008s : -Completed DumpFilesBiosVideoROM
+          Multiple flash chip definitions match the detected chip(s)
+          Running flashrom with chipname MX25L6405(D)
+          Scanning disk: disk0
+          Reading partition info for: disk0
+          Scanning & interpreting partition table for disk0
+          Check: /System Profiler/System-Profiler.spx created.
+          Searching for Bootloader files on disk0s1
+          Check: /BIOS/System/biosbackup.rom created.
+          Driver: Unloading DirectHW
+          Driver: DirectHW successfully unloaded.
+021s : -Completed DumpFilesBiosROM
+          Searching for Bootloader files on disk0s3
+          Scanning disk: disk1
+          Reading partition info for: disk1
+          Scanning & interpreting partition table for disk1
+029s : -Completed DumpFilesDiskUtilConfigsAndLoaders
+          Check: /System Profiler/System-Profiler.txt created.
+033s : -Completed DumpFilesSystemProfilerInfo
+033s : +Started process DumpFilesAcpiTables: pid 3014
+033s : +Started process DumpFilesAudioCodec: pid 3018
+033s : +Started process DumpFilesFirmwareMemoryMap: pid 3024
+033s : +Started process DumpFilesKextLists: pid 3031
+          Dumping Kext lists...
+033s : +Started process DumpFilesFirmwareLog: pid 3034
+033s : +Started process DumpFilesDeviceProperties: pid 3046
+          Check: /Device Properties/device-properties.hex created.
+          Audio: AppleHDA is loaded.
+033s : +Started process DumpFilesOpenCLInfo: pid 3053
+          Audio: Running getcodecid
+          Check: /Device Properties/device-properties.plist created.
+          Check: /Kexts/NonAppleKexts.txt created.
+          Check: /Kexts/NonAppleKexts.txt is 0K in size!
+035s : +Started process DumpFilesKernelInfo: pid 3064
+035s : -Completed DumpFilesDeviceProperties
+          Firmware Log not available.
+          Found ACPI table: SSDT-5
+          Check: /Audio/AudioCodecID.txt created.
+          Audio: getcodecid completed audio codec ID dump
+          Audio: VoodooHDA is not loaded.
+          Audio: Attempting to load VoodooHDA.kext to run the getdump tool.
+          Check: /OpenCL/openCLinfo.txt created.
+035s : -Completed DumpFilesFirmwareLog
+035s : +Started process DumpFilesSmcKeys: pid 3078
+035s : -Completed DumpFilesOpenCLInfo
+035s : +Started process DumpFilesRtc: pid 3094
+          Check: /Kexts/AppleKexts.txt created.
+          Check: /Kernel Info/sysctl_cpu.txt created.
+036s : -Completed DumpFilesKextLists
+036s : -Completed DumpFilesRcScripts
+036s : +Started process DumpFilesRcScripts: pid 3103
+          Found ACPI table: RSDT
+          Check: /Kernel Info/sysctl_hw.txt created.
+          Check: /SMC/SMC-keys.txt created.
+          Check: /Kernel Info/sysctl_machdep_xcpm.txt created.
+036s : -Completed DumpFilesKernelInfo
+          Check: /SMC/SMC-fans.txt created.
+036s : -Completed DumpFilesSmcKeys
+          Driver: Loading VoodooHDA
+          Disassembled ACPI table: RSDT
+          Found ACPI table: SSDT-2
+          Check: /RTC/RTCDump.txt created.
+037s : -Completed DumpFilesRtc
+          Found ACPI table: SSDT-7
+          Found ACPI table: SSDT-1
+          Found ACPI table: SSDT
+          Found ACPI table: SSDT-6
+          Driver: VoodooHDA loaded successfully.
+          Found ACPI table: DMAR
+          Audio: Waiting 2 seconds before running VoodooHDA's getdump.
+          Disassembled ACPI table: DMAR
+          Found ACPI table: HPET
+          Disassembled ACPI table: HPET
+          Found ACPI table: APIC
+          Disassembled ACPI table: APIC
+          Found ACPI table: SBST
+          Disassembled ACPI table: SBST
+          Found ACPI table: MCFG
+          Audio: Running VoodooHDA's getdump...
+          Disassembled ACPI table: MCFG
+          Check: /Memory/FirmwareMemoryMap.txt created.
+092s : -Completed DumpFilesFirmwareMemoryMap
+          Found ACPI table: FACP
+          Disassembled ACPI table: FACP
+          Found ACPI table: DSDT
+          Found ACPI table: FACS
+          Disassembled ACPI table: FACS
+          Found ACPI table: ECDT
+          Driver: Unloading VoodooHDA
+          Disassembled ACPI table: ECDT
+          Found ACPI table: SSDT-4
+          Found ACPI table: SSDT-3
+          Disassembling DSDT and SSDT's (9 files in total) as multiple tables from single namespace...
+          Driver: VoodooHDA successfully unloaded.
+          Audio: VoodooHDA's getdump tool failed to produce a dump.
+          Audio: AppleHDA needs to be disabled for this dump to work properly.
+092s : -Completed DumpFilesAudioCodec
+          Disassembling was successful.
+092s : -Completed AcpiTables
+          Update pciids database
+092s : +Started process DumpFilesLspci: pid 3340
+092s : +Started process DumpFilesDmiTables: pid 3344
+093s : +Started process DumpFilesNvram: pid 3350
+093s : +Started process DumpFilesEdid: pid 3354
+093s : +Started process DumpFilesCpuInfo: pid 3358
+          Check: /NVRAM/nvram.plist created.
+          Check: /DMI Tables/SMBIOS.bin created.
+          Check: /NVRAM/nvram_hexdump.txt created.
+          Check: /NVRAM/nvram.plist created.
+093s : -Completed DumpFilesNvram
+          Check: /DMI Tables/SMBIOS.txt created.
+093s : -Completed DumpFilesDmiTables
+          Found 1 EDID in ioreg
+          Check: /CPU/cpuinfo.txt created.
+094s : -Completed DumpFilesCpuInfo
+          Check: /EDID/EDID.txt created.
+          Check: /EDID/EDID.bin created.
+094s : -Completed DumpFilesEdid
+          Update pciids
+          Dumping LSPCI info...
+          Driver: Loading DirectHW
+          Driver: DirectHW loaded successfully.
+          Check: /LSPCI/lspci (nnvv).txt created.
+          Check: /LSPCI/lspci detailed (nnvvbxxxx).txt created.
+          Check: /LSPCI/lspci tree (nnvvt).txt created.
+          Check: /LSPCI/lspci map (M).txt created.
+          Driver: Unloading DirectHW
+          Driver: DirectHW successfully unloaded.
+096s : -Completed DumpFilesLspci
+          Running ioregwv...
+097s : +Started process DumpFilesIoreg: pid 3423
+100s : -Completed DumpFilesIoreg
+========================================================
+Dumps complete after: 100 seconds
+--------------------------------------------------------
+Creating HTML report...
+          adding ACPI tables
+          adding VoodooHDAGetdump.txt
+          adding BIOS flashrom_log.txt
+          adding diskutil & loader info
+          adding CPU Information
+          adding device properties
+          adding partition table info
+          adding disk & volume UIDs
+          adding DMI dump
+          adding EDID.txt
+          adding firmware memory map
+          adding IORegistry Viewer
+          adding kernel logs
+          adding kernel info
+          adding kext dumps
+          adding LSPCI dumps
+          adding nvram info
+          adding OpenCL dump
+          adding RTC dump
+          adding SMC dumps
+          adding System Profiler dump
+========================================================
+DarwinDumper Completed in: 125 seconds
+========================================================

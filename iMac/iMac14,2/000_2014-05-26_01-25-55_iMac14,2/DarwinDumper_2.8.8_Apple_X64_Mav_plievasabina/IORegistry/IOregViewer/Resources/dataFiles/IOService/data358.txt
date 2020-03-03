@@ -1,0 +1,12 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"17139","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"17141","ColType":"Number","ColValue":"2"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"17143","ColType":"Number","ColValue":"2"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"17145","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"17147","ColType":"String","ColValue":"AppleSMBusDevice"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"17149","ColType":"String","ColValue":"MKY0"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"17151","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"17153","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"17154","ColType":"String","ColValue":"mikey"}},{"data":{"title":"1"},"attr":{"id":"17155","ColType":"String","ColValue":"MKY0"}},{"data":{"title":"2"},"attr":{"id":"17156","ColType":"String","ColValue":"MKY1"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"17158","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"IOPMUnattendedWakePowerState"},"attr":{"id":"17160","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"AppleMikeyHIDMatching"},"attr":{"id":"17162","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"17164","ColType":"String","ColValue":"com.apple.driver.AppleMikeyDriver"}},
+{"data":{"title":"IOClass"},"attr":{"id":"17166","ColType":"String","ColValue":"AppleMikeyDriver"}}
+]

@@ -1,0 +1,680 @@
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: Mac Pro
+      Model Identifier: MacPro4,1
+      Processor Name: Intel Core i7
+      Processor Speed: 3,2 GHz
+      Number Of Processors: 1
+      Total Number Of Cores: 4
+      L2 Cache (per core): 256 KB
+      L3 Cache: 8 MB
+      Memory: 18 GB
+      Bus Speed: 533 MHz
+      Boot ROM Version: MP41.0081.B07
+      SMC Version (system): 1.25f4
+
+Network:
+
+    ZTEUSBModem:
+
+      Type: PPP (PPPSerial)
+      Hardware: Modem
+      BSD Device Name: ppp0
+      Has IP Assigned: Yes
+      Service Order: 0
+
+    Ethernet:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en0
+      Has IP Assigned: Yes
+      Service Order: 1
+
+    FireWire:
+
+      Type: FireWire
+      Hardware: FireWire
+      BSD Device Name: fw0
+      Has IP Assigned: No
+      Service Order: 2
+
+    Удаленный доступ Bluetooth:
+
+      Type: PPP (PPPSerial)
+      Hardware: Modem
+      BSD Device Name: Bluetooth-Modem
+      Has IP Assigned: No
+      Service Order: 3
+
+    Адаптер Ethernet (en1):
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en1
+      Has IP Assigned: No
+      Service Order: 4
+
+Software:
+
+    System Software Overview:
+
+      System Version: Mac OS X 10.6.8 (10K549)
+      Kernel Version: Darwin 10.8.0
+      64-bit Kernel and Extensions: No
+      Time since boot: 22:04
+
+Audio (Built In):
+
+    Intel High Definition Audio:
+
+      Audio ID: 892
+
+    Intel High Definition Audio:
+
+      Audio ID: 892
+
+        S/PDIF Optical Digital Audio Output:
+
+          Connection: RCA
+
+        Speaker:
+
+          Connection: 1/8-Inch Jack
+
+        Line Output:
+
+          Connection: 1/8-Inch Jack
+
+        Line Output:
+
+          Connection: 1/8-Inch Jack
+
+        Line Output:
+
+          Connection: 1/8-Inch Jack
+
+        External Microphone / iPhone Headset:
+
+          Connection: 1/8-Inch Jack
+
+        Line Input:
+
+          Connection: 1/8-Inch Jack
+
+        Headphone:
+
+          Connection: 1/8-Inch Jack
+
+        S/PDIF Optical Digital Audio Output:
+
+          Connection: Combination Output
+
+        S/PDIF Optical Digital Audio Input:
+
+          Connection: Combination Input
+
+Diagnostics:
+
+    Power On Self-Test:
+
+      Last Run: 05.03.13 15:51
+      Result: Passed
+
+Disc Burning:
+
+    HL-DT-ST DVDRAM GH22NS50:
+
+      Firmware Revision: TN02
+      Interconnect: ATAPI
+      Burn Support: Yes (Generic Drive Support)
+      Profile Path: None
+      Cache: 2048 KB
+      Reads DVD: Yes
+      CD-Write: -R, -RW
+      DVD-Write: -R, -R DL, -RAM, -RW, +R, +R DL, +RW
+      Write Strategies: CD-TAO, CD-SAO, CD-Raw, DVD-DAO
+      Media: To show the available burn speeds, insert a disc and choose View > Refresh
+
+Ethernet Cards:
+
+    ethernet:
+
+      Type: Ethernet Controller
+      Bus: PCI
+      Vendor ID: 0x8086
+      Device ID: 0x10cd
+      Subsystem Vendor ID: 0x8086
+      Subsystem ID: 0x5332
+      Revision ID: 0x0000
+      BSD name: en0
+      Kext name: AppleIntel8256X.kext
+      Location: /System/Library/Extensions/AppleIntel8256X.kext
+      Version: 1
+
+    Unknown:
+
+      Name: ethernet
+      Type: Ethernet
+      Bus: PCI
+      Vendor ID: 0x8086
+      Device ID: 0x10d3
+      Subsystem Vendor ID: 0x8086
+      Subsystem ID: 0x5332
+      Revision ID: 0x0000
+      Link Width: x1
+      BSD name: en1
+      Kext name: Intel82574L.kext
+      Location: /System/Library/Extensions/IONetworkingFamily.kext/Contents/PlugIns/Intel82574L.kext
+      Version: 2.1.8b1
+
+FireWire:
+
+    FireWire Bus:
+
+      Maximum Speed: Up to 400 Mb/sec
+
+Graphics/Displays:
+
+    AMD Radeon HD 6870 Series:
+
+      Chipset Model: AMD Radeon HD 6870 Series
+      Type: GPU
+      Bus: PCIe
+      PCIe Lane Width: x16
+      VRAM (Total): 1024 MB
+      Vendor: ATI (0x1002)
+      Device ID: 0x6738
+      Revision ID: 0x0000
+      EFI Driver Version: 01.00.3180
+      Displays:
+        Cinema HD:
+          Resolution: 1920 x 1200
+          Pixel Depth: 32-Bit Color (ARGB8888)
+          Display Serial Number: 2A7350VPXMN 
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Rotation: Supported
+        Cinema HD Display:
+          Resolution: 1920 x 1200
+          Pixel Depth: 32-Bit Color (ARGB8888)
+          Mirror: Off
+          Online: Yes
+          Rotation: Supported
+        Display Connector:
+          Status: No Display Connected
+        Display Connector:
+          Status: No Display Connected
+
+Memory:
+
+    Memory Slots:
+
+      ECC: Disabled
+
+        BANK 0/DIMM0:
+
+          Size: 4 GB
+          Type: DDR3
+          Speed: 1419 MHz
+          Status: OK
+          Manufacturer: Kingston
+          Part Number: 9905471-006.A01LF
+
+        BANK 1/DIMM0:
+
+          Size: 2 GB
+          Type: DDR3
+          Speed: 1419 MHz
+          Status: OK
+          Manufacturer: Samsung
+          Part Number: M378B5773CH0-CH9
+
+        BANK 0/DIMM1:
+
+          Size: 4 GB
+          Type: DDR3
+          Speed: 1419 MHz
+          Status: OK
+          Manufacturer: Kingston
+          Part Number: 9905471-006.A01LF
+
+        BANK 1/DIMM1:
+
+          Size: 2 GB
+          Type: DDR3
+          Speed: 1419 MHz
+          Status: OK
+          Manufacturer: Samsung
+          Part Number: M378B5673FH0-CH9
+
+        BANK 0/DIMM2:
+
+          Size: 4 GB
+          Type: DDR3
+          Speed: 1419 MHz
+          Status: OK
+          Manufacturer: Kingston
+          Part Number: 9905471-006.A01LF
+
+        BANK 1/DIMM2:
+
+          Size: 2 GB
+          Type: DDR3
+          Speed: 1419 MHz
+          Status: OK
+          Manufacturer: Samsung
+          Part Number: M378B5673FH0-CH9
+
+Serial-ATA:
+
+    Intel ESB2 AHCI:
+
+      Vendor: Intel
+      Product: ESB2 AHCI
+      Link Speed: 3 Gigabit
+      Negotiated Link Speed: 1.5 Gigabit
+      Description: AHCI Version 1.20 Supported
+
+        HL-DT-ST DVDRAM GH22NS50:
+
+          Model: HL-DT-ST DVDRAM GH22NS50                
+          Revision: TN02    
+          Native Command Queuing: No
+          Detachable Drive: No
+          Power Off: No
+          Async Notification: Yes
+
+    Intel ESB2 AHCI:
+
+      Vendor: Intel
+      Product: ESB2 AHCI
+      Link Speed: 3 Gigabit
+      Negotiated Link Speed: 3 Gigabit
+      Description: AHCI Version 1.20 Supported
+
+        INTEL SSDSC2CW120A3:
+
+          Capacity: 120,03 GB (120 034 123 776 bytes)
+          Model: INTEL SSDSC2CW120A3                     
+          Revision: 400i    
+          Native Command Queuing: Yes
+          Queue Depth: 32
+          Removable Media: No
+          Detachable Drive: No
+          BSD Name: disk0
+          Medium Type: Solid State
+          TRIM Support: No
+          Partition Map Type: GPT (GUID Partition Table)
+          S.M.A.R.T. status: Verified
+          Volumes:
+            disk0s1:
+              Capacity: 209,7 MB (209 715 200 bytes)
+              Writable: Yes
+            disk0s2:
+              Capacity: 119,69 GB (119 690 170 368 bytes)
+              Available: 74,67 GB (74 666 184 704 bytes)
+              Writable: Yes
+              File System: Journaled HFS+
+
+    Intel ESB2 AHCI:
+
+      Vendor: Intel
+      Product: ESB2 AHCI
+      Link Speed: 3 Gigabit
+      Negotiated Link Speed: 3 Gigabit
+      Description: AHCI Version 1.20 Supported
+
+        WDC WD15EARS-00Z5B1:
+
+          Capacity: 1,5 TB (1 500 301 910 016 bytes)
+          Model: WDC WD15EARS-00Z5B1                     
+          Revision: 80.00A80
+          Native Command Queuing: Yes
+          Queue Depth: 32
+          Removable Media: No
+          Detachable Drive: No
+          BSD Name: disk2
+          Medium Type: Rotational
+          Partition Map Type: GPT (GUID Partition Table)
+          S.M.A.R.T. status: Verified
+          Volumes:
+            disk2s1:
+              Capacity: 209,7 MB (209 715 200 bytes)
+              Writable: Yes
+            disk2s2:
+              Capacity: 1,5 TB (1 499 957 936 128 bytes)
+              Available: 81,18 GB (81 182 306 304 bytes)
+              Writable: Yes
+              File System: Journaled HFS+
+
+    Intel ESB2 AHCI:
+
+      Vendor: Intel
+      Product: ESB2 AHCI
+      Link Speed: 3 Gigabit
+      Negotiated Link Speed: 3 Gigabit
+      Description: AHCI Version 1.20 Supported
+
+        WDC WD10EADS-65L5B1:
+
+          Capacity: 1 TB (1 000 204 886 016 bytes)
+          Model: WDC WD10EADS-65L5B1                     
+          Revision: 01.01A01
+          Native Command Queuing: Yes
+          Queue Depth: 32
+          Removable Media: No
+          Detachable Drive: No
+          BSD Name: disk4
+          Medium Type: Rotational
+          Partition Map Type: GPT (GUID Partition Table)
+          S.M.A.R.T. status: Verified
+          Volumes:
+            disk4s1:
+              Capacity: 209,7 MB (209 715 200 bytes)
+              Writable: Yes
+            disk4s2:
+              Capacity: 999,73 GB (999 726 714 880 bytes)
+              Available: 847,71 GB (847 709 528 064 bytes)
+              Writable: Yes
+              File System: Journaled HFS+
+
+    Intel ESB2 AHCI:
+
+      Vendor: Intel
+      Product: ESB2 AHCI
+      Link Speed: 3 Gigabit
+      Negotiated Link Speed: 3 Gigabit
+      Description: AHCI Version 1.20 Supported
+
+        WDC WD10EADS-00M2B0:
+
+          Capacity: 1 TB (1 000 204 886 016 bytes)
+          Model: WDC WD10EADS-00M2B0                     
+          Revision: 01.00A01
+          Native Command Queuing: Yes
+          Queue Depth: 32
+          Removable Media: No
+          Detachable Drive: No
+          BSD Name: disk3
+          Medium Type: Rotational
+          Partition Map Type: GPT (GUID Partition Table)
+          S.M.A.R.T. status: Verified
+          Volumes:
+            disk3s1:
+              Capacity: 209,7 MB (209 715 200 bytes)
+              Writable: Yes
+            disk3s2:
+              Capacity: 999,86 GB (999 860 912 128 bytes)
+              Available: 767,64 GB (767 636 258 816 bytes)
+              Writable: Yes
+              File System: Journaled HFS+
+
+    Intel ESB2 AHCI:
+
+      Vendor: Intel
+      Product: ESB2 AHCI
+      Link Speed: 3 Gigabit
+      Negotiated Link Speed: 3 Gigabit
+      Description: AHCI Version 1.20 Supported
+
+        WDC WD1002FAEX-00Z3A0:
+
+          Capacity: 1 TB (1 000 204 886 016 bytes)
+          Model: WDC WD1002FAEX-00Z3A0                   
+          Revision: 05.01D05
+          Native Command Queuing: Yes
+          Queue Depth: 32
+          Removable Media: No
+          Detachable Drive: No
+          BSD Name: disk1
+          Medium Type: Rotational
+          Partition Map Type: GPT (GUID Partition Table)
+          S.M.A.R.T. status: Verified
+          Volumes:
+            disk1s1:
+              Capacity: 209,7 MB (209 715 200 bytes)
+              Writable: Yes
+            disk1s2:
+              Capacity: 999,86 GB (999 860 912 128 bytes)
+              Available: 416,26 GB (416 255 442 944 bytes)
+              Writable: Yes
+              File System: Journaled HFS+
+
+Thunderbolt:
+
+      Thunderbolt: No hardware was found.
+
+USB:
+
+    USB High-Speed Bus:
+
+      Host Controller Location: Built-in USB
+      Host Controller Driver: AppleUSBEHCI
+      PCI Device ID: 0x3a3c 
+      PCI Revision ID: 0x0000 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0xfa 
+
+        Hub:
+
+          Product ID: 0x911c
+          Vendor ID: 0x05ac  (Apple Inc.)
+          Version:  1.01
+          Speed: Up to 480 Mb/sec
+          Location ID: 0xfa300000 / 3
+          Current Available (mA): 500
+          Current Required (mA): 100
+
+            Apple Cinema HD Display:
+
+              Product ID: 0x921c
+              Vendor ID: 0x05ac  (Apple Inc.)
+              Version:  1.15
+              Speed: Up to 12 Mb/sec
+              Manufacturer: Apple Computer, Inc.
+              Location ID: 0xfa320000 / 7
+              Current Available (mA): 500
+              Current Required (mA): 2
+
+            Hub in Apple Pro Keyboard:
+
+              Product ID: 0x1003
+              Vendor ID: 0x05ac  (Apple Inc.)
+              Version:  4.20
+              Speed: Up to 12 Mb/sec
+              Manufacturer: Mitsumi Electric
+              Location ID: 0xfa330000 / 6
+              Current Available (mA): 500
+              Current Required (mA): 50
+
+                Apple Pro Keyboard:
+
+                  Product ID: 0x020c
+                  Vendor ID: 0x05ac  (Apple Inc.)
+                  Version:  4.20
+                  Speed: Up to 12 Mb/sec
+                  Manufacturer: Mitsumi Electric
+                  Location ID: 0xfa333000 / 8
+                  Current Available (mA): 250
+                  Current Required (mA): 50
+
+        Hub:
+
+          Product ID: 0x911f
+          Vendor ID: 0x05ac  (Apple Inc.)
+          Version:  0.01
+          Speed: Up to 480 Mb/sec
+          Location ID: 0xfa100000 / 2
+          Current Available (mA): 500
+          Current Required (mA): 100
+
+            Silicon-Power16G:
+
+              Capacity: 15,5 GB (15 504 900 096 bytes)
+              Removable Media: Yes
+              Detachable Drive: Yes
+              BSD Name: disk5
+              Product ID: 0x3e00
+              Vendor ID: 0x13fe  (Phison Electronics Corp.)
+              Version:  1.00
+              Serial Number: 12021048012E600236A003C9462
+              Speed: Up to 480 Mb/sec
+              Manufacturer: UFD 2.0
+              Location ID: 0xfa120000 / 5
+              Current Available (mA): 500
+              Current Required (mA): 200
+              Partition Map Type: MBR (Master Boot Record)
+              S.M.A.R.T. status: Not Supported
+              Volumes:
+                disk5s1:
+                  Capacity: 1 GB (1 000 001 536 bytes)
+                  Available: 659,7 MB (659 664 896 bytes)
+                  Writable: Yes
+                  File System: MS-DOS FAT32
+                disk5s2:
+                  Capacity: 14,5 GB (14 504 897 024 bytes)
+                  Available: 3,49 GB (3 489 267 712 bytes)
+                  Writable: Yes
+                  File System: Journaled HFS+
+
+            Apple Cinema HD Display:
+
+              Product ID: 0x921e
+              Vendor ID: 0x05ac  (Apple Inc.)
+              Version:  1.35
+              Speed: Up to 1.5 Mb/sec
+              Location ID: 0xfa130000 / 4
+              Current Available (mA): 500
+              Current Required (mA): 2
+
+    USB High-Speed Bus:
+
+      Host Controller Location: Built-in USB
+      Host Controller Driver: AppleUSBEHCI
+      PCI Device ID: 0x3a3a 
+      PCI Revision ID: 0x0000 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0xfd 
+
+        ZTE WCDMA Technologies MSM:
+
+          Capacity: 37,7 MB (37 709 616 bytes)
+          Removable Media: Yes
+          Detachable Drive: Yes
+          BSD Name: disk6
+          Product ID: 0x0117
+          Vendor ID: 0x19d2
+          Version:  0.00
+          Serial Number: MF6670INVD010000
+          Speed: Up to 480 Mb/sec
+          Manufacturer: ZTE,Incorporated
+          Location ID: 0xfd300000 / 3
+          Current Available (mA): 500
+          Current Required (mA): 500
+          Partition Map Type: Unknown
+          S.M.A.R.T. status: Not Supported
+          Volumes:
+            disk6s0:
+              Capacity: 32,8 MB (32 835 584 bytes)
+              Writable: No
+            disk6s0s1:
+              Capacity: 18 KB (17 920 bytes)
+              Writable: No
+            disk6s0s2:
+              Capacity: 32,5 MB (32 514 048 bytes)
+              Available: Zero KB
+              Writable: No
+              File System: HFS+
+
+        USB2.0 Printer (Hi-speed):
+
+          Product ID: 0x0007
+          Vendor ID: 0x04b8  (Seiko Epson Corp.)
+          Version:  1.00
+          Serial Number: 4C43534B3035343757
+          Speed: Up to 480 Mb/sec
+          Manufacturer: EPSON
+          Location ID: 0xfd400000 / 2
+          Current Available (mA): 500
+          Current Required (mA): 2
+          1284 Device ID: MFG:EPSON;CMD:ESCPL2,BDC,D4,D4PX;MDL:Epson Stylus Photo T50;CLS:PRINTER;DES:EPSON Epson Stylus Photo T50;CID:EpsonStd2;
+
+    USB Bus:
+
+      Host Controller Location: Built-in USB
+      Host Controller Driver: AppleUSBUHCI
+      PCI Device ID: 0x3a39 
+      PCI Revision ID: 0x0000 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0x5a 
+
+        NetScroll + Traveler:
+
+          Product ID: 0x002e
+          Vendor ID: 0x0458  (KYE Systems Corp.)
+          Version:  1.10
+          Speed: Up to 1.5 Mb/sec
+          Manufacturer: Genius
+          Location ID: 0x5a100000 / 2
+          Current Available (mA): 500
+          Current Required (mA): 100
+
+    USB Bus:
+
+      Host Controller Location: Built-in USB
+      Host Controller Driver: AppleUSBUHCI
+      PCI Device ID: 0x3a37 
+      PCI Revision ID: 0x0000 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0x1a 
+
+    USB Bus:
+
+      Host Controller Location: Built-in USB
+      Host Controller Driver: AppleUSBUHCI
+      PCI Device ID: 0x3a38 
+      PCI Revision ID: 0x0000 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0x3a 
+
+    USB Bus:
+
+      Host Controller Location: Built-in USB
+      Host Controller Driver: AppleUSBUHCI
+      PCI Device ID: 0x3a34 
+      PCI Revision ID: 0x0000 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0x1d 
+
+    USB Bus:
+
+      Host Controller Location: Built-in USB
+      Host Controller Driver: AppleUSBUHCI
+      PCI Device ID: 0x3a36 
+      PCI Revision ID: 0x0000 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0x5d 
+
+    USB Bus:
+
+      Host Controller Location: Built-in USB
+      Host Controller Driver: AppleUSBUHCI
+      PCI Device ID: 0x3a35 
+      PCI Revision ID: 0x0000 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0x3d 
+
+AirPort:
+
+      Software Versions:
+          Menu Extra: 6.2.2 (622.2)
+          configd plug-in: 6.2.5 (625.6)
+          System Profiler: 6.0.1 (601.1)
+          Network Preference: 6.2.2 (622.2)
+          AirPort Utility: 5.6.1 (561.3)
+          IO80211 Family: 3.2 (320.1)
+

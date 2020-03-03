@@ -1,0 +1,4 @@
+VoodooHDA's getdump tool failed to produce a dump.
+NOTE: AppleHDA was loaded when this dump was attempted.
+If you wish to get a successful dump using VoodooHDA and it's associated getdump tool then AppleHDA will have to be disabled.
+The simplest option to do that will be to add AppleHDADisabler.kext to your system, rebuild caches and reboot. Then try this dump again.

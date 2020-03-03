@@ -1,0 +1,15 @@
+2016-11-04 00:50:43 +0200 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   PreventUserIdleSystemSleep     0
+   NetworkClientActive            0
+Listed by owning process:
+   pid 118(hidd): [0x0000fd0a00099c2e] 00:10:44 UserIsActive named: "com.apple.iohideventsystem.queue.tickle" 
+	Timeout will fire in 271 secs Action=TimeoutActionRelease
+No kernel assertions.
+Idle sleep preventers: IODisplayWrangler

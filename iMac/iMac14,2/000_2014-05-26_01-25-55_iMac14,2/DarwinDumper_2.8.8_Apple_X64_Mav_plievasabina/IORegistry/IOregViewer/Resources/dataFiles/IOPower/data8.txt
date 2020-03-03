@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"2307","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"2309","ColType":"Number","ColValue":"3"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"2311","ColType":"Number","ColValue":"2"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"2313","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"2315","ColType":"String","ColValue":"IOACPIPlatformDevice"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"2317","ColType":"String","ColValue":"PNP0A03"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"2319","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"2321","ColType":"String","ColValue":"PNP0A03"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"2323","ColType":"Number","ColValue":"5000"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"2325","ColType":"String","ColValue":"com.apple.driver.AppleACPIPlatform"}},
+{"data":{"title":"IOClass"},"attr":{"id":"2327","ColType":"String","ColValue":"AppleACPIPCI"}}
+]

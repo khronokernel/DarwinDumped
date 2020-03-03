@@ -1,0 +1,75 @@
+1 OpenCL platform found!
+
+[Platform 0]
+	Name: 			Apple
+	Vendor: 		Apple
+	Version: 		OpenCL 1.2 (Dec  4 2012 18:26:30)
+	Profile: 		FULL_PROFILE
+	Extensions: 			cl_APPLE_SetMemObjectDestructor cl_APPLE_ContextLoggingFunctions cl_APPLE_clut cl_APPLE_query_kernel_names cl_APPLE_gl_sharing cl_khr_gl_event
+
+
+2 OpenCL devices found!
+
+[Device 0]
+	Name: 			Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz
+	Vendor: 		Intel
+	Type: 			CPU 
+	Device Version: 	OpenCL 1.2 
+	Driver Version: 	1.1
+	Compute Units: 		8
+	Work Group Size: 	1024
+	Clock: 			2800 MHz
+	Global Memory (Total): 	16384 MB
+	Global Memory (Host): 	16384 MB
+	Global Memory (PCIe): 	0 MB
+	Local Memory: 		32 KB
+	Cache Size: 		0.0625 KB
+	Cache Line Size: 	6291456 Bytes
+	Available: 		Yes
+	Double-Precision: 	Yes
+	Extensions: 
+				cl_APPLE_SetMemObjectDestructor
+				cl_APPLE_ContextLoggingFunctions
+				cl_APPLE_clut
+				cl_APPLE_query_kernel_names
+				cl_APPLE_gl_sharing
+				cl_khr_gl_event
+				cl_khr_fp64
+				cl_khr_global_int32_base_atomics
+				cl_khr_global_int32_extended_atomics
+				cl_khr_local_int32_base_atomics
+				cl_khr_local_int32_extended_atomics
+				cl_khr_byte_addressable_store
+				cl_khr_int64_base_atomics
+				cl_khr_int64_extended_atomics
+				cl_khr_3d_image_writes
+				cl_APPLE_fp64_basic_ops
+				cl_APPLE_fixed_alpha_channel_orders
+
+[Device 1]
+	Name: 			ATI Radeon HD 5770
+	Vendor: 		AMD
+	Type: 			GPU 
+	Device Version: 	OpenCL 1.1 
+	Driver Version: 	1.0
+	Compute Units: 		10
+	Work Group Size: 	1024
+	Clock: 			850 MHz
+	Global Memory: 		1024 MB
+	Local Memory: 		32 KB
+	Cache Size: 		0 KB
+	Cache Line Size: 	0 Bytes
+	Available: 		Yes
+	Double-Precision: 	No
+	Extensions: 
+				cl_APPLE_SetMemObjectDestructor
+				cl_APPLE_ContextLoggingFunctions
+				cl_APPLE_clut
+				cl_APPLE_query_kernel_names
+				cl_APPLE_gl_sharing
+				cl_khr_gl_event
+				cl_khr_global_int32_base_atomics
+				cl_khr_global_int32_extended_atomics
+				cl_khr_local_int32_base_atomics
+				cl_khr_local_int32_extended_atomics
+

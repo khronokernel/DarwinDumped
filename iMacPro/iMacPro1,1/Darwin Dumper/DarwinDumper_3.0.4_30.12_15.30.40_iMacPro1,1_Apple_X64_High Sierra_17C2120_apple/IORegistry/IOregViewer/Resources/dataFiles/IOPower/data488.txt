@@ -1,0 +1,16 @@
+[
+{"data":{"title":"Write Time Out Duration"},"attr":{"id":"45266","ColType":"Number","ColValue":"30000"}},
+{"data":{"title":"Read Time Out Duration"},"attr":{"id":"45268","ColType":"Number","ColValue":"30000"}},
+{"data":{"title":"IOUnit"},"attr":{"id":"45270","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"45272","ColType":"String","ColValue":"External"}},
+{"data":{"title":"No INQUIRY VPD Pages"},"attr":{"id":"45274","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"Protocol Characteristics"},"attr":{"id":"45276","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Physical Interconnect"},"attr":{"id":"45278","ColType":"String","ColValue":"USB"}},{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"45280","ColType":"String","ColValue":"External"}},{"data":{"title":"Read Time Out Duration"},"attr":{"id":"45282","ColType":"Number","ColValue":"30000"}},{"data":{"title":"Write Time Out Duration"},"attr":{"id":"45284","ColType":"Number","ColValue":"30000"}}]},
+{"data":{"title":"bInterfaceProtocol"},"attr":{"id":"45286","ColType":"Number","ColValue":"80"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"45288","ColType":"String","ColValue":"com.apple.iokit.IOUSBMassStorageDriver"}},
+{"data":{"title":"IOClass"},"attr":{"id":"45290","ColType":"String","ColValue":"IOUSBMassStorageDriver"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"45292","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"45294","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"45296","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"45298","ColType":"Number","ColValue":"1"}},{"data":{"title":"DevicePowerState"},"attr":{"id":"45300","ColType":"Number","ColValue":"1"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"45302","ColType":"Number","ColValue":"1"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"45304","ColType":"Number","ColValue":"1"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"45306","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"45308","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"45310","ColType":"String","ColValue":"IOUSBMassStorageDriverNub"}},
+{"data":{"title":"USB Mass Storage Trace ID"},"attr":{"id":"45312","ColType":"Number","ColValue":"540807451738374144"}}
+]

@@ -1,0 +1,31 @@
+/dev/disk0 
+APPLE HDD HTS545050A7E362 Media 
+Physical Block (sector) size: 4096 bytes 
+Using Block (sector) size: 512 bytes 
+Total Number of Blocks: 976773168 
+Total Disk Size: 500.1 GB 
+  
+MBR Partition Entry 1: 00feffffeefeffff010000002f60383a 
+MBR Partition Entry 2: 00000000000000000000000000000000 
+MBR Partition Entry 3: 00000000000000000000000000000000 
+MBR Partition Entry 4: 00000000000000000000000000000000 
+  
+Partition Map: GUID Partition Table 
+Disk GUID:9634ab0e-6278-4929-b73e-d8c82fce656c 
+Partition GUID: 6511dea2-67aa-4b13-8633-09125f139981 | Name: EFI System Partition 
+Partition GUID: 6c399617-3fa6-43aa-97fd-5e9d2f974f5c | Name: Customer 
+Partition GUID: 75943fa0-e1f3-4a01-8487-1f815461a799 | Name: Recovery HD 
+
+=========  =========             ========              ==========  ========= 
+LBA Start  Type                  GPT Name              LoaderCode  Size LBA 
+=========  =========             ========              ==========  ========= 
+0          MBR                                                     1 
+1          Primary GPT Header                                      1 
+2          Primary GPT Table                                       32 
+34         Space                                                   6 
+40         EFI System Partition  EFI System Partition  Apple EFI   409600 
+409640     Core Storage          Customer                          975093952 
+975503592  OSX Boot              Recovery HD                       1269536 
+976773128  Space                                                   7 
+976773135  Backup GPT Table                                        32 
+976773167  Backup GPT Header                                       1 

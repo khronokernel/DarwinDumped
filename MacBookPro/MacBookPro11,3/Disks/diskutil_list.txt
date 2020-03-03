@@ -1,0 +1,46 @@
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.3 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:          Apple_CoreStorage                         499.4 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+/dev/disk1
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                  Apple_HFS Macintosh HD           *499.0 GB   disk1
+                                 Logical Volume on disk0s2
+                                 580DFB49-6664-40F3-9F3D-6A91F5EC74DE
+                                 Unencrypted
+/dev/disk2
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     Apple_partition_scheme                        *10.3 MB    disk2
+   1:        Apple_partition_map                         32.3 KB    disk2s1
+   2:                  Apple_HFS Creative Cloud Insta... 10.2 MB    disk2s2
+/dev/disk3
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     Apple_partition_scheme                        *161.4 MB   disk3
+   1:        Apple_partition_map                         32.3 KB    disk3s1
+   2:                  Apple_HFS AdobeCameraRaw-9.1-C... 161.4 MB   disk3s2
+/dev/disk4
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     Apple_partition_scheme                        *214.8 MB   disk4
+   1:        Apple_partition_map                         32.3 KB    disk4s1
+   2:                  Apple_HFS Lightroom-6.1.0-Update  214.7 MB   disk4s2
+/dev/disk5
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     Apple_partition_scheme                        *13.6 MB    disk5
+   1:        Apple_partition_map                         32.3 KB    disk5s1
+   2:                  Apple_HFS amtlib.framework 9.0... 13.6 MB    disk5s2
+/dev/disk6
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *2.0 TB     disk6
+   1:               Windows_NTFS ARINABALERINA           2.0 TB     disk6s1
+/dev/disk7
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     Apple_partition_scheme                        *10.3 MB    disk7
+   1:        Apple_partition_map                         32.3 KB    disk7s1
+   2:                  Apple_HFS Creative Cloud Insta... 10.2 MB    disk7s2
+/dev/disk8
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     Apple_partition_scheme                        *214.8 MB   disk8
+   1:        Apple_partition_map                         32.3 KB    disk8s1
+   2:                  Apple_HFS Lightroom-6.1.0-Update  214.7 MB   disk8s2

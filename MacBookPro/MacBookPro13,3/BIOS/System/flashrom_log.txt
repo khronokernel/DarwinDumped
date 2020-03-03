@@ -1,0 +1,170 @@
+flashrom v0.9.7-unknown on Darwin 16.6.0 (x86_64)
+flashrom was built with libpci 3.1.9, GCC 4.2.1 (Apple Inc. build 5666) (dot 3), little endian
+Command line (6 args): /private/var/folders/hh/gh4b4m6x0cl5ptk0qb756dtr0000gn/T/AppTranslocation/A633FDAE-F118-4898-815F-BDD4ABF59D8F/d/DarwinDumper.app/Contents/Resources/public/tools/flashrom -p internal -r /Users/samslesarev/Desktop/DarwinDumper_3.0.3_12.08_17.31.12_MacBookPro13,3_Apple_X64_Sierra_16F73_samslesarev/BIOS/System/biosbackup.rom -o /Users/samslesarev/Desktop/DarwinDumper_3.0.3_12.08_17.31.12_MacBookPro13,3_Apple_X64_Sierra_16F73_samslesarev/BIOS/System/flashrom_log.txt
+Calibrating delay loop... OS timer resolution is 1 usecs, 2929M loops per second, 10 myus = 9 us, 100 myus = 95 us, 1000 myus = 994 us, 10000 myus = 10153 us, 4 myus = 4 us, OK.
+Initializing internal programmer
+No coreboot table found.
+Using Internal DMI decoder.
+No DMI table found.
+WARNING: No chipset found. Flash detection will most likely fail.
+The following protocols are supported: Non-SPI.
+Probing for AMD Am29F010A/B, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for AMD Am29F002(N)BB, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMD Am29F002(N)BT, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMD Am29F016D, 2048 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMD Am29F040B, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMD Am29F080B, 1024 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMD Am29LV001BB, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for AMD Am29LV001BT, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for AMD Am29LV002BB, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMD Am29LV002BT, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMD Am29LV004BB, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMD Am29LV004BT, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMD Am29LV008BB, 1024 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMD Am29LV008BT, 1024 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMD Am29LV040B, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMD Am29LV081B, 1024 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMIC A29002B, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMIC A29002T, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMIC A29040B, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for AMIC A49LF040A, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Atmel AT29C512, 64 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Atmel AT29C010A, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for Atmel AT29C020, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Atmel AT29C040A, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Atmel AT49BV512, 64 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Atmel AT49F002(N), 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Atmel AT49F002(N)T, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Atmel AT49(H)F010, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for Atmel AT49F020, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Atmel AT49F040, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Atmel AT49F080, 1024 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Atmel AT49F080T, 1024 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Atmel AT49LH002, 256 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Catalyst CAT28F512, 64 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Bright BM29F040, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ESMT F49B002UA, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Eon EN29F010, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for Eon EN29F002(A)(N)B, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Eon EN29F002(A)(N)T, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Eon EN29LV640B, 8192 kB: probe_en29lv640b: id1 0xffff, id2 0x00ff
+Probing for Fujitsu MBM29F004BC, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Fujitsu MBM29F004TC, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Fujitsu MBM29F400BC, 512 kB: probe_m29f400bt: id1 0x00, id2 0x00
+Probing for Fujitsu MBM29F400TC, 512 kB: probe_m29f400bt: id1 0x00, id2 0x00
+Probing for Fujitsu MBM29LV160BE, 2048 kB: probe_m29f400bt: id1 0xff, id2 0xff
+Probing for Fujitsu MBM29LV160TE, 2048 kB: probe_m29f400bt: id1 0xff, id2 0xff
+Probing for Hyundai HY29F002T, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Hyundai HY29F002B, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Hyundai HY29F040A, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 28F001BN/BX-B, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 28F001BN/BX-T, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 28F002BC/BL/BV/BX-T, 256 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 28F008S3/S5/SC, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 28F004B5/BE/BV/BX-B, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 28F004B5/BE/BV/BX-T, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 28F400BV/BX/CE/CV-B, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 28F400BV/BX/CE/CV-T, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 82802AB, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 82802AC, 1024 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Macronix MX29F001B, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for Macronix MX29F001T, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for Macronix MX29F002(N)B, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Macronix MX29F002(N)T, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Macronix MX29F040, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Macronix MX29LV040, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for MoselVitelic V29C51000B, 64 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for MoselVitelic V29C51000T, 64 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for MoselVitelic V29C51400B, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for MoselVitelic V29C51400T, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for MoselVitelic V29LC51000, 64 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for MoselVitelic V29LC51001, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for MoselVitelic V29LC51002, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for PMC Pm29F002T, 256 kB: Chip lacks correct probe timing information, using default 10mS/40uS. probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for PMC Pm29F002B, 256 kB: Chip lacks correct probe timing information, using default 10mS/40uS. probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for PMC Pm39LV010, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for PMC Pm39LV020, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for PMC Pm39LV040, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for PMC Pm39LV512, 64 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for PMC Pm49FL002, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for PMC Pm49FL004, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Sharp LH28F008BJT-BTLZ1, 1024 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Sharp LHF00L04, 1024 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST28SF040A, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST29EE010, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST29LE010, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST29EE020A, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST29LE020, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST39SF512, 64 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST39SF010A, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST39SF020A, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST39SF040, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST39VF512, 64 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST39VF010, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST39VF020, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST39VF040, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST39VF080, 1024 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF002A/B, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF003A/B, 384 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF004A/B, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF004C, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF008A, 1024 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF008C, 1024 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF016C, 2048 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF020, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF020A, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF040, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF040B, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF080A, 1024 kB: Chip lacks correct probe timing information, using default 10mS/40uS. probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF160C, 2048 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M29F002B, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M29F002T/NT, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M29F040B, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M29F400BB, 512 kB: probe_m29f400bt: id1 0x00, id2 0x00
+Probing for ST M29F400BT, 512 kB: probe_m29f400bt: id1 0x00, id2 0x00
+Probing for ST M29W010B, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for ST M29W040B, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M29W512B, 64 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW040A, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW040B, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW080A, 1024 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW080B, 1024 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW002, 256 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW016, 2048 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW040, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW080, 1024 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50LPW080, 1024 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50LPW116, 2048 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SyncMOS/MoselVitelic {F,S,V}29C51001B, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for SyncMOS/MoselVitelic {F,S,V}29C51001T, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for SyncMOS/MoselVitelic {F,S,V}29C51002B, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SyncMOS/MoselVitelic {F,S,V}29C51002T, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SyncMOS/MoselVitelic {F,S,V}29C51004B, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SyncMOS/MoselVitelic {F,S,V}29C51004T, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SyncMOS/MoselVitelic {S,V}29C31004B, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SyncMOS/MoselVitelic {S,V}29C31004T, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for TI TMS29F002RB, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for TI TMS29F002RT, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W29C010(M)/W29C011A/W29EE011/W29EE012-old, 128 kB: Old Winbond W29* probe method disabled because the probing sequence puts the AMIC A49LF040A in a funky state. Use 'flashrom -c W29C010(M)/W29C011A/W29EE011/W29EE012-old' if you have a board with such a chip.
+Probing for Winbond W29C010(M)/W29C011A/W29EE011/W29EE012, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W29C020(C)/W29C022, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W29C040/P, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39F010, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39L010, 128 kB: probe_jedec_common: id1 0x57, id2 0x39, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39L020, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39L040, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V040A, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V040B, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V040C, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V040FA, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V040FB, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V040FC, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V080A, 1024 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W49F002U/N, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W49F020, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W49V002A, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W49V002FA, 256 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V080FA, 1024 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V080FA (dual mode), 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+No EEPROM/flash device found.
+Note: flashrom can never write if the flash chip isn't found automatically.
