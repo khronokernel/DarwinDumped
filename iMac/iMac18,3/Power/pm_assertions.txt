@@ -1,0 +1,26 @@
+2017-10-21 07:07:48 +0300 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  1
+   PreventUserIdleSystemSleep     1
+   NetworkClientActive            0
+Listed by owning process:
+   pid 56(powerd): [0x0000001300088000] 00:17:09 ExternalMedia named: "com.apple.powermanagement.externalmediamounted" 
+   pid 471(iTunes): [0x000000f10001817c] 00:13:26 PreventUserIdleSystemSleep named: "com.apple.iTunes.playback" 
+   pid 191(coreaudiod): [0x000000f10001816f] 00:13:26 PreventUserIdleSystemSleep named: "com.apple.audio.EMUUSBAudioEngine:E-MU Systems, Inc.:E-MU 0404 | USB:14310000:2.context.preventuseridlesleep" 
+	Created for PID: 471. 
+   pid 99(hidd): [0x00000057000980e5] 00:00:02 UserIsActive named: "com.apple.iohideventsystem.queue.tickle.4294968320.17" 
+	Timeout will fire in 7198 secs Action=TimeoutActionRelease
+Kernel Assertions: 0x10c=USB,BT-HID,MAGICWAKE
+   id=502  level=255 0x4=USB mod=01/01/1970, 03:00 description=com.apple.usb.externaldevice.14a00000 owner=USB to ATA/ATAPI Bridge
+   id=503  level=255 0x4=USB mod=01/01/1970, 03:00 description=com.apple.usb.externaldevice.14300000 owner=USB 2.0 Hub
+   id=505  level=255 0x4=USB mod=01/01/1970, 03:00 description=com.apple.usb.externaldevice.14310000 owner=E-MU 0404 | USB
+   id=506  level=255 0x4=USB mod=01/01/1970, 03:00 description=com.apple.usb.externaldevice.14330000 owner=USB Receiver
+   id=507  level=255 0x100=MAGICWAKE mod=01/01/1970, 03:00 description=en0 owner=en0
+   id=508  level=255 0x100=MAGICWAKE mod=01/01/1970, 03:00 description=en1 owner=en1
+   id=509  level=255 0x8=BT-HID mod=01/01/1970, 03:00 description=com.apple.driver.IOBluetoothHIDDriver owner=AppleBluetoothHIDKeyboard
+Idle sleep preventers: IODisplayWrangler

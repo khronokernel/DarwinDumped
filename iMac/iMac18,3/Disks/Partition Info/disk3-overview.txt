@@ -1,0 +1,26 @@
+/dev/disk3 
+EZRX-00DC0B0 
+Physical Block (sector) size: Unknown bytes 
+Using Block (sector) size: 512 bytes 
+Total Number of Blocks:  
+Total Disk Size:  
+  
+MBR Partition Entry 1: 00feffffeefeffff01000000feffffff 
+MBR Partition Entry 2: 00000000000000000000000000000000 
+MBR Partition Entry 3: 00000000000000000000000000000000 
+MBR Partition Entry 4: 00000000000000000000000000000000 
+  
+Partition Map: GUID Partition Table 
+Disk GUID:c996b0fd-42f9-45fc-9430-aa2e30a4e40f 
+Partition GUID: 1812fce1-fb33-4cd9-a172-5e734ad2fee8 | Name: EFI System Partition 
+Partition GUID: 0791dd31-22be-4ec3-b61d-9ac6225a5a35 | Name: WDG3T-Hfs 
+
+=========  =========             ========              ==========  ========= 
+LBA Start  Type                  GPT Name              LoaderCode  Size LBA 
+=========  =========             ========              ==========  ========= 
+0          MBR                                                     1 
+1          Primary GPT Header                                      1 
+2          Primary GPT Table                                       32 
+34         Space                                                   6 
+40         EFI System Partition  EFI System Partition  Apple EFI   409600 
+409640     HFS+                  WDG3T-Hfs                         5859861344 

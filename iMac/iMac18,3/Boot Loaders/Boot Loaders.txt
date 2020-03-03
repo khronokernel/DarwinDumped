@@ -1,0 +1,36 @@
+                                                                                                           
+                                                                                                           
+disk0 APPLE SSD SM0032L (512 byte physical block size)
+=======================================================================================================================
+ACT  DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme               28 GB    
+     disk0s1  EFI                    EFI          314 MB                 
+     disk0s2  Apple_CoreStorage                   27 GB                  
+     disk0s3  Apple_Boot             Boot OS X    134 MB                 
+                                                                                                           
+                                                                                                           
+disk1 APPLE HDD ST1000DM003 (4096 byte physical block size)
+=======================================================================================================================
+ACT  DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme               1 TB     
+     disk1s1  EFI                    EFI          209 MB                Apple EFI
+     disk1s2  Apple_CoreStorage                   999 GB                 
+     disk1s3  Apple_Boot             Recovery HD  650 MB                 
+                                                                                                           
+                                                                                                           
+disk2 APPLE HDD ST1000DM003 (4096 byte physical block size)
+=======================================================================================================================
+ACT  DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              Apple_HFS                           1 TB     
+                                                                                                           
+                                                                                                           
+disk3 EZRX-00DC0B0 (512 byte physical block size)
+=======================================================================================================================
+ACT  DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme               3 TB    None
+     disk3s1  EFI                    EFI          209 MB                Apple EFI
+     disk3s2  Apple_HFS              WDG3T-Hfs    3 TB                   

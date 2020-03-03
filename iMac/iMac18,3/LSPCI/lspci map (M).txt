@@ -1,0 +1,38 @@
+00:00.0 Host bridge: Intel Corporation Intel Kaby Lake Host Bridge (rev 05)
+00:01.0 PCI bridge: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16) (rev 05)
+## 00.01:0 is a bridge from 00 to 01-01
+00:02.0 VGA compatible controller: Intel Corporation HD Graphics 630 (rev 04)
+00:14.0 USB controller: Intel Corporation Sunrise Point-H USB 3.0 xHCI Controller (rev 31)
+00:16.0 Communication controller: Intel Corporation Sunrise Point-H CSME HECI #1 (rev 31)
+00:17.0 SATA controller: Intel Corporation Sunrise Point-H SATA controller [AHCI mode] (rev 31)
+00:1b.0 PCI bridge: Intel Corporation Sunrise Point-H PCI Root Port #17 (rev f1)
+## 00.1b:0 is a bridge from 00 to 02-02
+00:1c.0 PCI bridge: Intel Corporation Sunrise Point-H PCI Express Root Port #1 (rev f1)
+## 00.1c:0 is a bridge from 00 to 03-03
+00:1c.1 PCI bridge: Intel Corporation Sunrise Point-H PCI Express Root Port #2 (rev f1)
+## 00.1c:1 is a bridge from 00 to 04-04
+00:1c.4 PCI bridge: Intel Corporation Sunrise Point-H PCI Express Root Port #5 (rev f1)
+## 00.1c:4 is a bridge from 00 to 05-ff
+00:1f.0 ISA bridge: Intel Corporation Sunrise Point-H LPC Controller (rev 31)
+00:1f.2 Memory controller: Intel Corporation Sunrise Point-H PMC (rev 31)
+00:1f.3 Audio device: Intel Corporation Sunrise Point-H HD Audio (rev 31)
+00:1f.4 SMBus: Intel Corporation Sunrise Point-H SMBus (rev 31)
+01:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Ellesmere [Radeon RX 470/480/570/580] (rev c4)
+01:00.1 Audio device: Advanced Micro Devices, Inc. [AMD/ATI] Ellesmere [Radeon RX 580]
+02:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd Device a806
+03:00.0 Network controller: Broadcom Limited BCM43602 802.11ac Wireless LAN SoC (rev 01)
+04:00.0 Ethernet controller: Broadcom Limited NetXtreme BCM57766 Gigabit Ethernet PCIe (rev 01)
+04:00.1 SD Host controller: Broadcom Limited BCM57765/57785 SDXC/MMC Card Reader (rev 01)
+
+Summary of buses:
+
+00: Primary host bus
+	1c.4 Bridge to 05-ff
+	1c.1 Bridge to 04-04
+	1c.0 Bridge to 03-03
+	1b.0 Bridge to 02-02
+	01.0 Bridge to 01-01
+01: Entered via 00:01.0
+02: Entered via 00:1b.0
+03: Entered via 00:1c.0
+04: Entered via 00:1c.1

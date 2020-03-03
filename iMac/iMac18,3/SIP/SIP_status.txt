@@ -1,0 +1,12 @@
+System Integrity Protection status: enabled (0x00000001) (Custom Configuration).
+
+Configuration:
+	Apple Internal: disabled
+	Kext Signing Restrictions: disabled
+	Task for PID Restrictions: enabled
+	Filesystem Protections: enabled
+	Debugging Restrictions: disabled
+	DTrace Restrictions: enabled
+	NVRAM Protections: enabled
+
+This is an unsupported configuration, likely to break in the future and leave your machine in an unknown state.

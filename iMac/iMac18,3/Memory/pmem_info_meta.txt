@@ -1,0 +1,13 @@
+  pmem_api_version: 2
+  cr3: 564490574
+  dtb_off: 564490240
+  phys_mem_size: 8589934592
+  pci_config_space_base: 3758096384
+  mmap_poffset: 858464256
+  mmap_desc_version: 1
+  mmap_size: 2592
+  mmap_desc_size: 48
+  kaslr_slide: 497025024
+  kernel_poffset: 498073600
+  kernel_version: "Darwin Kernel Version 17.0.0: Thu Aug 24 21:48:19 PDT 2017; root:xnu-4570.1.46~2/RELEASE_X86_64"
+  version_poffset: 506779888
