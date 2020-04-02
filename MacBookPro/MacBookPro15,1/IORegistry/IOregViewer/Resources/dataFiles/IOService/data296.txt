@@ -1,0 +1,15 @@
+[
+{"data":{"title":"HDMIDPAudioCapabilities"},"attr":{"id":"10480","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOAudioPowerState"},"attr":{"id":"10482","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"PowerProfile"},"attr":{"id":"10484","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"PowerIdentity"},"attr":{"id":"10486","ColType":"String","ColValue":"Built-in Audio"}},{"data":{"title":"CurrentPowerLevel"},"attr":{"id":"10488","ColType":"Number","ColValue":"0"}},{"data":{"title":"IdlePowerLevel"},"attr":{"id":"10490","ColType":"Number","ColValue":"0"}},{"data":{"title":"MaximumPowerLimit"},"attr":{"id":"10492","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOPMUnattendedWakePowerState"},"attr":{"id":"10494","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOAudioDeviceModelID"},"attr":{"id":"10496","ColType":"String","ColValue":"AppleGFXHDA:0"}},
+{"data":{"title":"IOAudioDeviceTransportType"},"attr":{"id":"10498","ColType":"Number","ColValue":"1685090932"}},
+{"data":{"title":"IOAudioDeviceManufacturerName"},"attr":{"id":"10500","ColType":"String","ColValue":"ManufacturerName"}},
+{"data":{"title":"vendorcodecID"},"attr":{"id":"10502","ColType":"Number","ColValue":"268610049"}},
+{"data":{"title":"IOAudioDeviceShortName"},"attr":{"id":"10504","ColType":"String","ColValue":"DeviceS"}},
+{"data":{"title":"IOAudioDeviceCanBeDefaults"},"attr":{"id":"10506","ColType":"Number","ColValue":"7"}},
+{"data":{"title":"IOAudioDeviceName"},"attr":{"id":"10508","ColType":"String","ColValue":"DeviceN"}},
+{"data":{"title":"IOAudioDeviceLocalizedBundle"},"attr":{"id":"10510","ColType":"String","ColValue":"AppleGFXHDA.kext"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"10512","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"10514","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"10516","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"10518","ColType":"Number","ColValue":"32768"}}]}
+]

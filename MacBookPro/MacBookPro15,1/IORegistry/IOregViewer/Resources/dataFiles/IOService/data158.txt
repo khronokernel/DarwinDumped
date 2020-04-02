@@ -1,0 +1,9 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"6784","ColType":"String","ColValue":"AMDRadeonX4000_AMDRadeonHWServicesInterface"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"6786","ColType":"String","ColValue":"AMDRadeonHWLibs"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"6788","ColType":"Number","ColValue":"10"}},
+{"data":{"title":"IOPCITunnelCompatible"},"attr":{"id":"6790","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOPropertyMatch"},"attr":{"id":"6792","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"LoadPlugIn"},"attr":{"id":"6794","ColType":"String","ColValue":"Load4100"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"6796","ColType":"String","ColValue":"com.apple.kext.AMDRadeonX4100HWLibs"}},
+{"data":{"title":"IOClass"},"attr":{"id":"6798","ColType":"String","ColValue":"AMDRadeonX4100_AMDRadeonHWLibs"}}
+]

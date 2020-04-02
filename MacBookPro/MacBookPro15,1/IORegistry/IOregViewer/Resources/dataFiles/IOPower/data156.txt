@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"10404","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"10406","ColType":"Number","ColValue":"1"}},{"data":{"title":"DevicePowerState"},"attr":{"id":"10408","ColType":"Number","ColValue":"1"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"10410","ColType":"Number","ColValue":"1"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"10412","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"10414","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"10416","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"10418","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"10420","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"10422","ColType":"String","ColValue":"com.apple.iokit.IOBufferCopyController"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"10424","ColType":"String","ColValue":"IOBufferCopyEngineUserClient"}},
+{"data":{"title":"IOPCIMatch"},"attr":{"id":"10426","ColType":"String","ColValue":"0x1801106b"}},
+{"data":{"title":"IOClass"},"attr":{"id":"10428","ColType":"String","ColValue":"IOBufferCopyController"}}
+]

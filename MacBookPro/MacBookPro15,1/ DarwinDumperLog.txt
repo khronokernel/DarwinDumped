@@ -1,0 +1,1389 @@
+===================================
+Welcome to DarwinDumper 3.0.4
+Wed Apr  1 18:20:50 MDT 2020
+System Version: macOS 10.14.6 (18G84)
+Security Integrity Configuration: 0x00000000
+===================================
+Initialisation information
+===================================
+*/Users/mykolagrymalyuk/Library/Preferences/org.tom.DarwinDumper not found.
+*Save path - Default: Will use /private/var/folders/4c/x7sfknhn2zq8wz8fmlvtjsd00000gn/T/AppTranslocation/19AB923C-66F9-440D-B3E4-4C928B1C625A/d
+*Symlink check: Symlink has not been created.
+*User Chose: Archive Zip
+*User Chose: Audio Codec
+*User Chose: System BIOS
+*User Chose: Video BIOS
+*User Chose: Boot Loaders and Disk Sectors
+*User Chose: CPU Information
+*User Chose: Disk Loader Configs
+*User Chose: Disk Partitions
+*User Chose: Firmware Memory Map
+*User Chose: LSPCI
+*User Chose: Memory Dump
+*User Chose: ACPI tables
+*User Chose: Firmware (Boot) Log
+*User Chose: Kernel (Boot) Messages
+*User Chose: Device Properties
+*User Chose: DMI Tables
+*User Chose: EDID
+*User Chose: IORegistry
+*User Chose: Kernel Info
+*User Chose: Kexts
+*User Chose: NVRAM
+*User Chose: Open CL
+*User Chose: Power
+*User Chose: RC Scripts
+*User Chose: RTC
+*User Chose: SIP
+*User Chose: SMC Keys
+*User Chose: System Profiler
+*User Chose: privacy
+*User Chose: Report
+===================================
+000s : +Started process DumpFilesBootlogKernel: pid 1761
+          Extracting boot time kernel entries from the system log..
+000s : +Started process DumpFilesMemory: pid 1764
+000s : +Started process DumpFilesSystemProfilerInfo: pid 1771
+000s : +Started process DumpFilesDiskUtilConfigsAndLoaders: pid 1781
+000s : +Started process DumpFilesBiosROM: pid 1787
+000s : +Started process DumpFilesBiosVideoROM: pid 1794
+          Extracting kernel entries from 2020-04-1 18:16:57 to 2020-04-1 18:22:57
+          Preparing to read disks...
+Note: There may be a delay if any disks are sleeping
+          Memory: Attempting to load MacPmem driver kext to access memory.
+          Driver: Loading com.google.MacPmem
+          Driver: Loading DirectHW
+          Driver: Loading RadeonPCI
+003s : -Completed DumpFilesBootlogKernel
+          Scanning disk: disk0
+          Reading partition info for: disk0
+          Scanning & interpreting partition table for disk0
+          Searching for Bootloader files on disk0s1
+          Check: /System Profiler/System-Profiler.spx created.
+          Driver: *ERROR - com.google.MacPmem failed to load.
+          Memory: Scanning memory regions.
+          Memory: Writing 4096 bytes from (00000000 to 00000fff) to disk
+          Memory: Writing 4096 bytes from (00002000 to 00002fff) to disk
+          Memory: Writing 512 bytes from (00003000 to 000031ff) to disk
+          Memory: Writing 3584 bytes from (00003200 to 00003fff) to disk
+          Memory: Writing 4096 bytes from (00005000 to 00005fff) to disk
+          Memory: Writing 4096 bytes from (00006000 to 00006fff) to disk
+          Memory: Writing 4096 bytes from (00007000 to 00007fff) to disk
+          Memory: Writing 5376 bytes from (00007400 to 000088ff) to disk
+          Driver: *ERROR - DirectHW failed to load.
+          Memory: Writing 4096 bytes from (0000a000 to 0000afff) to disk
+          Memory: Writing 16384 bytes from (00010000 to 00013fff) to disk
+          Memory: Writing 65536 bytes from (00030000 to 0003ffff) to disk
+          Memory: Writing 65536 bytes from (00060000 to 0006ffff) to disk
+          Memory: Writing 12288 bytes from (00070000 to 00072fff) to disk
+          Driver: *ERROR - RadeonPCI failed to load.
+          Running RadeonDump
+          Number of legacy VBIOS ROM's dumped: 0
+          Memory: Writing 4096 bytes from (00073000 to 00073fff) to disk
+          Memory: Scanning complete.
+          Memory: Writing memory info to file.
+          Memory: Splitting memory info file.
+          Memory: Convert memory map file to table.
+          Memory: Sorting memory map table file.
+          Memory: Split sorted memory map table file in to ranges.
+          Memory: Sorting range files.
+          Memory: Convert efi range file to hex.
+          Memory: Done.
+          Searching for Bootloader files on disk0s3
+          Note: System Profiler shows more GPUs than dumped VBIOS ROM's.
+          Scanning disk: disk1
+          Check: ** /BIOS/System/biosbackup.rom failed to be created.
+016s : -Completed DumpFilesBiosROM
+          Reading partition info for: disk1
+          Number of ATI ROM images found in IORegistry: 1
+          Extracted legacy VBIOS ROM from IORegistry
+          Looking for existence of ACPI table: VFCT
+          Found ACPI table: VFCT
+          ACPI table VFCT contains signature
+          Identified ROM VendorID:1002 | DeviceID:67ef
+          Extracted VBIOS ROM from ACPI VFCT
+          Decoded VBIOS ROM file:1002.67ef.from_ioreg_0.rom
+          Scanning & interpreting partition table for disk1
+          Searching for Bootloader files on disk1s1
+          Disassembled VBIOS ROM file:1002.67ef.from_ioreg_0.rom
+          Decoded VBIOS ROM file:1002.67ef.from_ACPI_VFCT.rom
+          Disassembled VBIOS ROM file:1002.67ef.from_ACPI_VFCT.rom
+017s : -Completed DumpFilesBiosVideoROM
+          Found /Volumes/Mojave HD/Library/Preferences/SystemConfiguration/com.apple.Boot.plist
+          Searching for Bootloader files on disk1s2
+          Searching for Bootloader files on disk1s3
+          Searching for Bootloader files on disk1s4
+          Searching for Bootloader files on disk1s5
+          Found /Volumes/Catalina HD - Data/Library/Preferences/SystemConfiguration/com.apple.Boot.plist
+          Searching for Bootloader files on disk1s6
+          Searching for Bootloader files on disk1s7
+022s : -Completed DumpFilesDiskUtilConfigsAndLoaders
+          Check: /System Profiler/System-Profiler.txt created.
+023s : -Completed DumpFilesSystemProfilerInfo
+023s : +Started process DumpFilesAcpiTables: pid 3051
+023s : +Started process DumpFilesAudioCodec: pid 3055
+023s : +Started process DumpFilesFirmwareMemoryMap: pid 3059
+          Dumping Kext lists...
+023s : +Started process DumpFilesKextLists: pid 3067
+023s : +Started process DumpFilesBootLogFirmware: pid 3071
+023s : +Started process DumpFilesDeviceProperties: pid 3076
+023s : +Started process DumpFilesOpenCLInfo: pid 3081
+023s : +Started process DumpFilesKernelInfo: pid 3090
+          Boot Log not available.
+023s : +Started process DumpSip: pid 3101
+023s : -Completed DumpFilesBootLogFirmware
+023s : +Started process DumpFilesSmcKeys: pid 3109
+023s : +Started process DumpFilesRtc: pid 3117
+          Check: /SIP/SIP_status.txt created.
+023s : -Completed DumpSip
+          Check: /RTC/RTCDump.txt created.
+023s : -Completed DumpFilesRcScripts
+023s : +Started process DumpFilesRcScripts: pid 3122
+023s : -Completed DumpFilesRtc
+          Check: /Device Properties/device-properties.hex created.
+          Check: /Kernel Info/sysctl_cpu.txt created.
+          Check: /OpenCL/openCLinfo.txt created.
+023s : -Completed DumpFilesOpenCLInfo
+          Check: /Device Properties/device-properties.plist created.
+          Found ACPI table: APIC
+023s : -Completed DumpFilesDeviceProperties
+          Disassembled ACPI table: APIC
+          Found ACPI table: DMAR
+          Disassembled ACPI table: DMAR
+          Found ACPI table: DSDT
+          Check: /Kernel Info/sysctl_hw.txt created.
+          Check: /Kernel Info/sysctl_machdep_xcpm.txt created.
+023s : -Completed DumpFilesKernelInfo
+          Found ACPI table: ECDT
+          Audio: AppleHDA is loaded.
+          Audio: VoodooHDA is not loaded.
+          Audio: Attempting to load VoodooHDA.kext to run the getdump tool.
+          Disassembled ACPI table: ECDT
+          Found ACPI table: FACP
+          Disassembled ACPI table: FACP
+          Found ACPI table: FACS
+          Disassembled ACPI table: FACS
+          Found ACPI table: HPET
+          Disassembled ACPI table: HPET
+          Found ACPI table: MCFG
+          Disassembled ACPI table: MCFG
+          Found ACPI table: RSDT
+          Disassembled ACPI table: RSDT
+          Found ACPI table: SBST
+          Disassembled ACPI table: SBST
+          Found ACPI table: SSDT
+          Found ACPI table: SSDT-1
+          Found ACPI table: SSDT-2
+          Found ACPI table: SSDT-3
+          Found ACPI table: SSDT-4
+          Found ACPI table: SSDT-5
+          Found ACPI table: SSDT-6
+          Found ACPI table: SSDT-7
+          Found ACPI table: SSDT-8
+          Found ACPI table: SSDT-9
+          Found ACPI table: SSDT-10
+          Found ACPI table: SSDT-11
+          Found ACPI table: SSDT-12
+          Found ACPI table: UEFI
+          Disassembled ACPI table: UEFI
+          Found ACPI table: VFCT
+          Driver: Loading VoodooHDA
+          Memory: ** The OS X security settings disallow the memory map dump from running..
+          Disassembled ACPI table: VFCT
+024s : -Completed DumpFilesFirmwareMemoryMap
+          Disassembling DSDT and SSDT's (14 files in total) as multiple tables from single namespace...
+          Check: /Kexts/loaded_non_apple_kexts.txt created.
+          Check: /SMC/SMC-keys.txt created.
+          Check: /SMC/SMC-fans.txt created.
+024s : -Completed DumpFilesSmcKeys
+          Driver: *ERROR - VoodooHDA failed to load.
+          ** Error disassembling. Attaching iasl log to logfile.
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml, Length 0x71C3 (29123) bytes
+ACPI: DSDT 0x0000000000000000 0071C3 (v02 APPLE  MacXX    00150001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml, Length 0x581 (1409) bytes
+ACPI: SSDT 0x0000000000000000 000581 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml, Length 0x91D (2333) bytes
+ACPI: SSDT 0x0000000000000000 00091D (v02 APPLE  PEG0GFX0 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml, Length 0xA49 (2633) bytes
+ACPI: SSDT 0x0000000000000000 000A49 (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml, Length 0xCC76 (52342) bytes
+ACPI: SSDT 0x0000000000000000 00CC76 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 3 external control methods, reparsing with new information
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.dsl - 8253 bytes
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml, Length 0x71C3 (29123) bytes
+ACPI: DSDT 0x0000000000000000 0071C3 (v02 APPLE  MacXX    00150001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml, Length 0x581 (1409) bytes
+ACPI: SSDT 0x0000000000000000 000581 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml, Length 0x91D (2333) bytes
+ACPI: SSDT 0x0000000000000000 00091D (v02 APPLE  PEG0GFX0 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml, Length 0xA49 (2633) bytes
+ACPI: SSDT 0x0000000000000000 000A49 (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml, Length 0xCC76 (52342) bytes
+ACPI: SSDT 0x0000000000000000 00CC76 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.dsl - 2383 bytes
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml, Length 0xCC76 (52342) bytes
+ACPI: SSDT 0x0000000000000000 00CC76 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml, Length 0x71C3 (29123) bytes
+ACPI: DSDT 0x0000000000000000 0071C3 (v02 APPLE  MacXX    00150001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml, Length 0x581 (1409) bytes
+ACPI: SSDT 0x0000000000000000 000581 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml, Length 0x91D (2333) bytes
+ACPI: SSDT 0x0000000000000000 00091D (v02 APPLE  PEG0GFX0 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml, Length 0xA49 (2633) bytes
+ACPI: SSDT 0x0000000000000000 000A49 (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 15 external control methods, reparsing with new information
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.dsl - 531061 bytes
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml, Length 0xA49 (2633) bytes
+ACPI: SSDT 0x0000000000000000 000A49 (v02 APPLE  Xhci     00001000 INTL 20160930)
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml, Length 0x71C3 (29123) bytes
+ACPI: DSDT 0x0000000000000000 0071C3 (v02 APPLE  MacXX    00150001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml, Length 0x581 (1409) bytes
+ACPI: SSDT 0x0000000000000000 000581 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml, Length 0x91D (2333) bytes
+ACPI: SSDT 0x0000000000000000 00091D (v02 APPLE  PEG0GFX0 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml, Length 0xCC76 (52342) bytes
+ACPI: SSDT 0x0000000000000000 00CC76 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 4 external control methods, reparsing with new information
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.dsl - 23974 bytes
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml, Length 0x71C3 (29123) bytes
+ACPI: DSDT 0x0000000000000000 0071C3 (v02 APPLE  MacXX    00150001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml, Length 0x581 (1409) bytes
+ACPI: SSDT 0x0000000000000000 000581 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml, Length 0x91D (2333) bytes
+ACPI: SSDT 0x0000000000000000 00091D (v02 APPLE  PEG0GFX0 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml, Length 0xA49 (2633) bytes
+ACPI: SSDT 0x0000000000000000 000A49 (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml, Length 0xCC76 (52342) bytes
+ACPI: SSDT 0x0000000000000000 00CC76 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.dsl - 5823 bytes
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml, Length 0x71C3 (29123) bytes
+ACPI: DSDT 0x0000000000000000 0071C3 (v02 APPLE  MacXX    00150001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml, Length 0x581 (1409) bytes
+ACPI: SSDT 0x0000000000000000 000581 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml, Length 0x91D (2333) bytes
+ACPI: SSDT 0x0000000000000000 00091D (v02 APPLE  PEG0GFX0 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml, Length 0xA49 (2633) bytes
+ACPI: SSDT 0x0000000000000000 000A49 (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml, Length 0xCC76 (52342) bytes
+ACPI: SSDT 0x0000000000000000 00CC76 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.dsl - 2930 bytes
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml, Length 0x71C3 (29123) bytes
+ACPI: DSDT 0x0000000000000000 0071C3 (v02 APPLE  MacXX    00150001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml, Length 0x581 (1409) bytes
+ACPI: SSDT 0x0000000000000000 000581 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler version 20160729-64
+Copyright (c) 2000 - 2016 Intel Corporation
+
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18GInput file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml, Length 0x91D (2333) bytes
+ACPI: SSDT 0x0000000000000000 00091D (v02 APPLE  PEG0GFX0 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml, Length 0xA49 (2633) bytes
+ACPI: SSDT 0x0000000000000000 000A49 (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml, Length 0xCC76 (52342) bytes
+ACPI: SSDT 0x0000000000000000 00CC76 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.dsl - 33508 bytes
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml, Length 0x71C3 (29123) bytes
+ACPI: DSDT 0x0000000000000000 0071C3 (v02 APPLE  MacXX    00150001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml, Length 0x581 (1409) bytes
+ACPI: SSDT 0x0000000000000000 000581 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml, Length 0x91D (2333) bytes
+ACPI: SSDT 0x0000000000000000 00091D (v02 APPLE  PEG0GFX0 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml, Length 0xA49 (2633) bytes
+ACPI: SSDT 0x0000000000000000 000A49 (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml, Length 0xCC76 (52342) bytes
+ACPI: SSDT 0x0000000000000000 00CC76 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 6 external control methods, reparsing with new information
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.dsl - 76562 bytes
+
+ iASL Warning: There were 6 external control methods found during
+ disassembly, but only 4 were resolved (2 unresolved). Additional
+ ACPI tables may be required to properly disassemble the code. This
+ resulting disassembler output file may not compile because the
+ disassembler did not know how many arguments to assign to the
+ unresolved methods. Note: SSDTs can be dynamically loaded at
+ runtime and may or may not be available via the host OS.
+
+ In addition, the -fe option can be used to specify a file containing
+ control method external declarations with the associated method
+ argument counts. Each line of the file must be of the form:
+     External (<method pathname>, MethodObj, <argument count>)
+ Invocation:
+     iasl -fe refs.txt -d dsdt.aml
+
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml, Length 0x71C3 (29123) bytes
+ACPI: DSDT 0x0000000000000000 0071C3 (v02 APPLE  MacXX    00150001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml, Length 0x581 (1409) bytes
+ACPI: SSDT 0x0000000000000000 000581 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml, Length 0x91D (2333) bytes
+ACPI: SSDT 0x0000000000000000 00091D (v02 APPLE  PEG0GFX0 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml, Length 0xA49 (2633) bytes
+ACPI: SSDT 0x0000000000000000 000A49 (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml, Length 0xCC76 (52342) bytes
+ACPI: SSDT 0x0000000000000000 00CC76 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.dsl - 810 bytes
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml, Length 0x91D (2333) bytes
+ACPI: SSDT 0x0000000000000000 00091D (v02 APPLE  PEG0GFX0 00001000 INTL 20160930)
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml, Length 0x71C3 (29123) bytes
+ACPI: DSDT 0x0000000000000000 0071C3 (v02 APPLE  MacXX    00150001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml, Length 0x581 (1409) bytes
+ACPI: SSDT 0x0000000000000000 000581 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml, Length 0xA49 (2633) bytes
+ACPI: SSDT 0x0000000000000000 000A49 (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml, Length 0xCC76 (52342) bytes
+ACPI: SSDT 0x0000000000000000 00CC76 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 2 external control methods, reparsing with new information
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.dsl - 18832 bytes
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml, Length 0x71C3 (29123) bytes
+ACPI: DSDT 0x0000000000000000 0071C3 (v02 APPLE  MacXX    00150001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml, Length 0x581 (1409) bytes
+ACPI: SSDT 0x0000000000000000 000581 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml, Length 0x91D (2333) bytes
+ACPI: SSDT 0x0000000000000000 00091D (v02 APPLE  PEG0GFX0 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml, Length 0xA49 (2633) bytes
+ACPI: SSDT 0x0000000000000000 000A49 (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml, Length 0xCC76 (52342) bytes
+ACPI: SSDT 0x0000000000000000 00CC76 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.dsl - 923 bytes
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml, Length 0x71C3 (29123) bytes
+ACPI: DSDT 0x0000000000000000 0071C3 (v02 APPLE  MacXX    00150001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml, Length 0x581 (1409) bytes
+ACPI: SSDT 0x0000000000000000 000581 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml, Length 0x91D (2333) bytes
+ACPI: SSDT 0x0000000000000000 00091D (v02 APPLE  PEG0GFX0 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml, Length 0xA49 (2633) bytes
+ACPI: SSDT 0x0000000000000000 000A49 (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml, Length 0xCC76 (52342) bytes
+ACPI: SSDT 0x0000000000000000 00CC76 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.dsl - 1008 bytes
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml, Length 0x581 (1409) bytes
+ACPI: SSDT 0x0000000000000000 000581 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml, Length 0x71C3 (29123) bytes
+ACPI: DSDT 0x0000000000000000 0071C3 (v02 APPLE  MacXX    00150001 INTL 20160930)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml, Length 0x91D (2333) bytes
+ACPI: SSDT 0x0000000000000000 00091D (v02 APPLE  PEG0GFX0 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml
+External object resolutiInput file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml, Length 0xA49 (2633) bytes
+ACPI: SSDT 0x0000000000000000 000A49 (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml, Length 0xCC76 (52342) bytes
+ACPI: SSDT 0x0000000000000000 00CC76 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.dsl - 10468 bytes
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.aml, Length 0x71C3 (29123) bytes
+ACPI: DSDT 0x0000000000000000 0071C3 (v02 APPLE  MacXX    00150001 INTL 20160930)
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml, Length 0x581 (1409) bytes
+ACPI: SSDT 0x0000000000000000 000581 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml, Length 0x51 (81) bytes
+ACPI: SSDT 0x0000000000000000 000051 (v01 APPLE  SataAhci 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml, Length 0x31 (49) bytes
+ACPI: SSDT 0x0000000000000000 000031 (v01 APPLE  SsdtS3   00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml, Length 0x91D (2333) bytes
+ACPI: SSDT 0x0000000000000000 00091D (v02 APPLE  PEG0GFX0 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml, Length 0x24 (36) bytes
+ACPI: SSDT 0x0000000000000000 000024 (v01 APPLE  SmcDppt  00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml, Length 0x31C6 (12742) bytes
+ACPI: SSDT 0x0000000000000000 0031C6 (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml, Length 0x1BCD (7117) bytes
+ACPI: SSDT 0x0000000000000000 001BCD (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml, Length 0x24A (586) bytes
+ACPI: SSDT 0x0000000000000000 00024A (v02 PmRef  ApCst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml, Length 0x370 (880) bytes
+ACPI: SSDT 0x0000000000000000 000370 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml, Length 0xA49 (2633) bytes
+ACPI: SSDT 0x0000000000000000 000A49 (v02 APPLE  Xhci     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml, Length 0xCC76 (52342) bytes
+ACPI: SSDT 0x0000000000000000 00CC76 (v02 APPLE  TbtPEG12 00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml, Length 0xB8 (184) bytes
+ACPI: SSDT 0x0000000000000000 0000B8 (v01 APPLE  Sdxc     00001000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml, Length 0x5FC (1532) bytes
+ACPI: SSDT 0x0000000000000000 0005FC (v02 PmRef  ApIst    00003000 INTL 20160930)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 7 external control methods, reparsing with new information
+Pass 1 parse of [DSDT]
+ACPI Error: [SMCB] Namespace lookup failure, AE_ALREADY_EXISTS (20160729/dsfield-732)
+Pass 2 parse of [DSDT]
+ACPI Warning: NsLookup: Type mismatch on SMCB (FieldUnit), searching for (RegionField) (20160729/nsaccess-736)
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/DSDT.dsl - 246854 bytes
+on file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-12.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-11.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/mykolagrymalyuk/Desktop/MacBookPro15,1 Dump/DarwinDumper_3.0.4_01.04_18.20.50_MacBookPro15,1_Apple_X64_Unknown_18G84_mykolagrymalyuk/ACPI Tables/AML/SSDT-1.aml
+024s : -Completed AcpiTables
+          Check: /Kexts/loaded_apple_kexts.txt created.
+          Audio: Failed to load VoodooHDA.kext.
+          Audio: Running getcodecid
+          Audio: pci.ids uncompressed
+          Audio: Parsing getcodecid line 0:no audio codecs found!
+          Audio: Parsing getcodecid line 1:Be sure to have AppleHDA or VoodooHDA somewere!
+          Check: /Audio/AudioCodecID.txt created.
+          Audio: getcodecid completed audio codec ID dump
+024s : -Completed DumpFilesAudioCodec
+          Check: /Kexts/prelinked_kexts_list.txt created.
+          Check: /Kexts/prelinked_kexts_dictionary.plist created.
+025s : -Completed DumpFilesKextLists
+026s : +Started process DumpFilesLspci: pid 3454
+          Update pciids database
+026s : +Started process DumpFilesDmiTables: pid 3457
+026s : +Started process DumpFilesNvram: pid 3464
+026s : +Started process DumpFilesEdid: pid 3468
+          Check: /NVRAM/nvram.plist created.
+026s : +Started process DumpFilesCpuInfo: pid 3472
+026s : +Started process DumpFilesPower: pid 3481
+          Check: /NVRAM/nvram_hexdump.txt created.
+          Check: /DMI Tables/SMBIOS.bin created.
+          Check: /DMI Tables/SMBIOS.txt created.
+026s : -Completed DumpFilesDmiTables
+          Check: /Power/pm_settings.txt created.
+          Check: /NVRAM/nvram.plist created.
+026s : -Completed DumpFilesNvram
+          Found 1 EDID in ioreg
+          Check: /Power/pm_log.txt created.
+          Check: /Power/pm_assertions.txt created.
+026s : -Completed DumpFilesPower
+          Check: /CPU/cpuinfo.txt created.
+          Memory: Attempting to load AppleIntelInfo.kext.
+          Driver: Loading com.pikeralpha.driver.AppleIntelInfo
+          Update pciids
+          Driver: *ERROR - com.pikeralpha.driver.AppleIntelInfo failed to load.
+027s : -Completed DumpFilesCpuInfo
+          Check: /EDID/EDID.txt created.
+          Check: /EDID/EDID.bin created.
+027s : -Completed DumpFilesEdid
+          update-pciids: download failed
+          Dumping LSPCI info...
+          Driver: Loading DirectHW
+          Driver: *ERROR - DirectHW failed to load.
+          Check: /LSPCI/lspci (nnvv).txt created.
+          Check: /LSPCI/lspci detailed (nnvvbxxxx).txt created.
+          Check: /LSPCI/lspci tree (nnvvt).txt created.
+          Check: /LSPCI/lspci map (M).txt created.
+028s : -Completed DumpFilesLspci
+          Running ioregwv...
+028s : +Started process DumpFilesIoreg: pid 3545
+031s : -Completed DumpFilesIoreg
+031s : Making dump(s) private..
+===================================
+Dumps complete after: 46 seconds
+===================================
+Creating HTML report...
+          adding ACPI tables
+          adding VoodooHDAGetdump.txt
+          adding BIOS flashrom_log.txt
+          adding BIOS Video decoded text file
+          adding diskutil & loader info
+          adding Bootloader config files
+          adding boot log - firmware
+          adding boot log - kernel messages
+          adding CPU Information
+          adding device properties
+          adding partition table info
+          adding disk & volume UIDs
+          adding DMI dump
+          adding EDID.txt
+          adding firmware memory map
+          adding IORegistry Viewer
+          adding kernel info
+          adding kext dumps
+          adding LSPCI dumps
+          adding Intel Graphics Register dumps
+          adding nvram info
+          adding OpenCL dump
+          adding power dumps
+          adding RTC dump
+          adding SIP dump
+          adding SMC dumps
+          adding System Profiler dump
+===================================
+DarwinDumper Completed in: 65 seconds
+===================================

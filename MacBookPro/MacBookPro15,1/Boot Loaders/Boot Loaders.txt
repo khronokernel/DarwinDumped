@@ -1,0 +1,26 @@
+                                                                                                                  
+                                                                                                                  
+disk0  APPLE SSD AP0512M (512 byte physical block size)
+=================================================================================================================================================
+ACT  DEVICE   TYPE                   NAME                SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme                      500 GB   
+     disk0s1  EFI                    EFI                 314 MB                 
+                                                                                                                 /EFI/Boot/BootX64.efi(Windows)
+                                                                                                                 /EFI/Microsoft/Boot/bootmgfw.efi
+     disk0s2  Apple_APFS                                 371 GB                 
+     disk0s3  Microsoft Basic Data   BOOTCAMP            128 GB                 
+                                                                                                                  
+                                                                                                                  
+disk1  APPLE SSD AP0512M (512 byte physical block size)
+=================================================================================================================================================
+ACT  DEVICE   TYPE                   NAME                SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              APFS Container Scheme                      371 GB   
+     disk1s1  APFS Volume            Mojave HD           371 GB                 
+     disk1s2  APFS Volume            Preboot             371 GB                 
+     disk1s3  APFS Volume            Recovery            371 GB                 
+     disk1s4  APFS Volume            VM                  371 GB                 
+     disk1s5  APFS Volume            Catalina HD - Data  371 GB                 
+     disk1s6  APFS Volume            Catalina HD         371 GB                 
+     disk1s7  APFS Volume            Misc Data           371 GB                 

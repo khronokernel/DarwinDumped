@@ -1,0 +1,8 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"15350","ColType":"String","ColValue":"IOACPIPlatformDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"15352","ColType":"String","ColValue":"IODisplayParameters"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"15354","ColType":"String","ColValue":"com.apple.driver.AGDCBacklightControl"}},
+{"data":{"title":"IODisplayParameters"},"attr":{"id":"15356","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"commit"},"attr":{"id":"15358","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"reg"},"attr":{"id":"15360","ColType":"Number","ColValue":"0"}}]},{"data":{"title":"brightness"},"attr":{"id":"15362","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"max"},"attr":{"id":"15364","ColType":"Number","ColValue":"255"}},{"data":{"title":"min"},"attr":{"id":"15366","ColType":"Number","ColValue":"40"}}]}]},
+{"data":{"title":"IONameMatched"},"attr":{"id":"15368","ColType":"String","ColValue":"backlight"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"15370","ColType":"String","ColValue":"backlight"}}
+]

@@ -1,0 +1,13 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"175267","ColType":"String","ColValue":"IOACPIPlatformDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"175269","ColType":"String","ColValue":"IODisplayParameters"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"175271","ColType":"String","ColValue":"backlight"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"175273","ColType":"String","ColValue":"backlight"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"175275","ColType":"Number","ColValue":"5000"}},
+{"data":{"title":"ConfigMap"},"attr":{"id":"175277","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Mac-937A206F2EE63C01"},"attr":{"id":"175279","ColType":"Boolean","ColValue":"Yes"}},{"data":{"title":"Mac-1E7E29AD0135F9BC"},"attr":{"id":"175281","ColType":"Boolean","ColValue":"Yes"}}]},
+{"data":{"title":"IODisplayParameters"},"attr":{"id":"175283","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"commit"},"attr":{"id":"175285","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"reg"},"attr":{"id":"175287","ColType":"Number","ColValue":"0"}}]},{"data":{"title":"brightness"},"attr":{"id":"175289","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"max"},"attr":{"id":"175291","ColType":"Number","ColValue":"255"}},{"data":{"title":"min"},"attr":{"id":"175293","ColType":"Number","ColValue":"40"}}]}]},
+{"data":{"title":"ApplePanel"},"attr":{"id":"175295","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"F15Ia040"},"attr":{"id":"175297","ColType":"Data","ColValue":"&lt;0011000002950351043d05b707bf0a540e33135d1a5f2426319d443d5e6e8322b6c7ff72&gt;"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"175299","ColType":"String","ColValue":"com.apple.driver.AGDCBacklightControl"}},
+{"data":{"title":"IOClass"},"attr":{"id":"175301","ColType":"String","ColValue":"AGDCBacklightControl"}},
+{"data":{"title":"AppleScaledLE"},"attr":{"id":"175303","ColType":"Data","ColValue":"&lt;00000a000d001200180020002c003c0052006f009800d1001e0189011b02e602f403&gt;"}}
+]

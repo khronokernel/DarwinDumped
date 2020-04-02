@@ -1,0 +1,15 @@
+[
+{"data":{"title":"device-id"},"attr":{"id":"9854","ColType":"Data","ColValue":"&lt;6fa30000&gt;"}},
+{"data":{"title":"vendor-id"},"attr":{"id":"9856","ColType":"Data","ColValue":"&lt;86800000&gt;"}},
+{"data":{"title":"IOName"},"attr":{"id":"9858","ColType":"String","ColValue":"pci8086,a36f"}},
+{"data":{"title":"pcidebug"},"attr":{"id":"9860","ColType":"String","ColValue":"0:20:2"}},
+{"data":{"title":"IOPCIResourced"},"attr":{"id":"9862","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"revision-id"},"attr":{"id":"9864","ColType":"Data","ColValue":"&lt;10000000&gt;"}},
+{"data":{"title":"reg"},"attr":{"id":"9866","ColType":"Data","ColValue":"&lt;00a200000000000000000000000000000000000010a200020000000000000000000000000020000018a2000200000000000000000000000000100000&gt;"}},
+{"data":{"title":"IODeviceMemory"},"attr":{"id":"9868","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"9869","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"9870","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"address"},"attr":{"id":"9872","ColType":"Number","ColValue":"275148505088"}},{"data":{"title":"length"},"attr":{"id":"9874","ColType":"Number","ColValue":"8192"}}]}]},{"data":{"title":"1"},"attr":{"id":"9875","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"9876","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"address"},"attr":{"id":"9878","ColType":"Number","ColValue":"275148521472"}},{"data":{"title":"length"},"attr":{"id":"9880","ColType":"Number","ColValue":"4096"}}]}]}]},
+{"data":{"title":"class-code"},"attr":{"id":"9882","ColType":"Data","ColValue":"&lt;00000500&gt;"}},
+{"data":{"title":"assigned-addresses"},"attr":{"id":"9884","ColType":"Data","ColValue":"&lt;10a200824000000000002110000000000020000018a2008240000000004021100000000000100000&gt;"}},
+{"data":{"title":"compatible"},"attr":{"id":"9886","ColType":"Data","ColValue":"&lt;\"pci8086,a36f\",\"pciclass,050000\"&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"9888","ColType":"Data","ColValue":"&lt;\"pci8086,a36f\"&gt;"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"9890","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"9892","ColType":"Number","ColValue":"2"}},{"data":{"title":"ChildProxyPowerState"},"attr":{"id":"9894","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"9896","ColType":"Number","ColValue":"3"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"9898","ColType":"Number","ColValue":"258"}}]}
+]

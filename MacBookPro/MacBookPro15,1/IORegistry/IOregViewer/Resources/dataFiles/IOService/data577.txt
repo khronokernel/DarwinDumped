@@ -1,0 +1,21 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"22744","ColType":"Number","ColValue":"33378"}},
+{"data":{"title":"Transport"},"attr":{"id":"22746","ColType":"String","ColValue":"USB"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"22748","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"22750","ColType":"Number","ColValue":"513"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"22752","ColType":"Number","ColValue":"65"}},
+{"data":{"title":"VendorID"},"attr":{"id":"22754","ColType":"Number","ColValue":"1452"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"22756","ColType":"Number","ColValue":"32"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"22758","ColType":"Number","ColValue":"18"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"22760","ColType":"Data","ColValue":"&lt;05200941a101850105200a16031501250275089501a1020a40080a4108b100c00a0e0316c80026102775109501b1020a09031501250175089501a1020a3008b100c00a19031501250475089501a1020a50080a51080a52080a5508b100c00a180316018026ff7f7510950a5500b1020a01021501250775089501a1020a00080a01080a02080a03080a04080a05080a0608b100c00a0403150026102775109501b1020ad1e4550e150026102775209501b1420ad114550d15002700e1f50575209501b1420ad31455003500450115002700e1f50575209501b14205200a0202350045001501250175089501a1020a11080a13088100c00ad10467e1000001550d15002700e1f5057520950181020ad2046701000100550015002740420f007520950181020ad404650015002700e1f50555087520950181020ad50415002700e1f5055508752095018102c0&gt;"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"22762","ColType":"Number","ColValue":"41"}},
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"22764","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"22766","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"22767","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"22769","ColType":"Number","ColValue":"32"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"22771","ColType":"Number","ColValue":"65"}}]}]},
+{"data":{"title":"BootProtocol"},"attr":{"id":"22773","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"22775","ColType":"String","ColValue":""}},
+{"data":{"title":"SerialNumber"},"attr":{"id":"22777","ColType":"String","ColValue":"000000000000"}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"22779","ColType":"String","ColValue":"Apple Inc."}},
+{"data":{"title":"Product"},"attr":{"id":"22781","ColType":"String","ColValue":"Ambient Light Sensor"}},
+{"data":{"title":"LocationID"},"attr":{"id":"22783","ColType":"Number","ColValue":"18446744071565213696"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"22785","ColType":"Number","ColValue":"0"}}
+]

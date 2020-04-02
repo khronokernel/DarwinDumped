@@ -1,0 +1,21 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"156594","ColType":"Number","ColValue":"33026"}},
+{"data":{"title":"Transport"},"attr":{"id":"156596","ColType":"String","ColValue":"USB"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"156598","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"156600","ColType":"Number","ColValue":"513"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"156602","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"VendorID"},"attr":{"id":"156604","ColType":"Number","ColValue":"1452"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"156606","ColType":"Number","ColValue":"65298"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"156608","ColType":"Number","ColValue":"10"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"156610","ColType":"Data","ColValue":"&lt;0612ff0901a10185030910150125023501450275089501b102091115002780841e00350046d00775209501b1020912150026e8033500450175209501b1020913150027a08601003500456475209501b10285010920150125043501450475089501b1020921150125043501450475089501b1020922150027a08601003500456475209501b1020923150026e8033500450175209501b10285020931150125023501450275089501b1020932150027a08601003500456475209501b1020950150125013501450175089501b1020951150027ffffffff350047ffffffff75409501b10285040940150125013501450175109501b1020941150125023501450275089501b102094215002780841e00350046d00775209501b102094375209501b10209441500250a3501450a75109501b10209451501250b3501450b75109501b1020946150027a08601003500456475209501b102094715002700e1f505350047a08601007520950cb102094815002780841e00350046d0077520950cb10285050960150027ffffff7f3500450175209501b1020961150027ffffff7f3500450175209501b1020962660110550d15012761ea000035004760ea000075209501b102850655006500093115012502350145027508950181020951150027ffffffff350047ffffffff754095018102c0&gt;"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"156612","ColType":"Number","ColValue":"116"}},
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"156614","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"156616","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"156617","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"156619","ColType":"Number","ColValue":"65298"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"156621","ColType":"Number","ColValue":"1"}}]}]},
+{"data":{"title":"BootProtocol"},"attr":{"id":"156623","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"156625","ColType":"String","ColValue":""}},
+{"data":{"title":"SerialNumber"},"attr":{"id":"156627","ColType":"String","ColValue":"0000000000000000"}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"156629","ColType":"String","ColValue":"Apple Inc."}},
+{"data":{"title":"Product"},"attr":{"id":"156631","ColType":"String","ColValue":"Touch Bar Backlight"}},
+{"data":{"title":"LocationID"},"attr":{"id":"156633","ColType":"Number","ColValue":"18446744071569408000"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"156635","ColType":"Number","ColValue":"0"}}
+]

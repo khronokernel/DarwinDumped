@@ -1,0 +1,23 @@
+[
+{"data":{"title":"Built-In"},"attr":{"id":"19103","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"Device Speed"},"attr":{"id":"19105","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"iSerialNumber"},"attr":{"id":"19107","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOClassNameOverride"},"attr":{"id":"19109","ColType":"String","ColValue":"IOUSBRootHubDevice"}},
+{"data":{"title":"non-removable"},"attr":{"id":"19111","ColType":"String","ColValue":"yes"}},
+{"data":{"title":"bDeviceClass"},"attr":{"id":"19113","ColType":"Number","ColValue":"9"}},
+{"data":{"title":"USB Product Name"},"attr":{"id":"19115","ColType":"String","ColValue":"AppleUSBVHCIBCE Root Hub Simulation"}},
+{"data":{"title":"bNumConfigurations"},"attr":{"id":"19117","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"iManufacturer"},"attr":{"id":"19119","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bcdUSB"},"attr":{"id":"19121","ColType":"Number","ColValue":"256"}},
+{"data":{"title":"USB Vendor Name"},"attr":{"id":"19123","ColType":"String","ColValue":"Apple Inc."}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"19125","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"9dc7b780-9ec0-11d4-a54f-000a27052861"},"attr":{"id":"19127","ColType":"String","ColValue":"IOUSBFamily.kext/Contents/PlugIns/IOUSBLib.bundle"}}]},
+{"data":{"title":"bDeviceSubClass"},"attr":{"id":"19129","ColType":"Number","ColValue":"255"}},
+{"data":{"title":"iProduct"},"attr":{"id":"19131","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"locationID"},"attr":{"id":"19133","ColType":"Number","ColValue":"18446744071562067968"}},
+{"data":{"title":"bMaxPacketSize0"},"attr":{"id":"19135","ColType":"Number","ColValue":"8"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"19137","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"19139","ColType":"Number","ColValue":"4"}},{"data":{"title":"DevicePowerState"},"attr":{"id":"19141","ColType":"Number","ColValue":"0"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"19143","ColType":"Number","ColValue":"4"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"19145","ColType":"Number","ColValue":"4"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"19147","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"idProduct"},"attr":{"id":"19149","ColType":"Number","ColValue":"32775"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"19151","ColType":"String","ColValue":"IOUSBDeviceUserClientV2"}},
+{"data":{"title":"bDeviceProtocol"},"attr":{"id":"19153","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"idVendor"},"attr":{"id":"19155","ColType":"Number","ColValue":"1452"}}
+]

@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"174713","ColType":"String","ColValue":"IOACPIPlatformDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"174715","ColType":"String","ColValue":"AppleACPIPMC"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"174717","ColType":"String","ColValue":"APP9876"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"174719","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"174720","ColType":"String","ColValue":"APP9876"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"174722","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"174724","ColType":"String","ColValue":"com.apple.driver.AppleIntelPCHPMC"}},
+{"data":{"title":"IOClass"},"attr":{"id":"174726","ColType":"String","ColValue":"AppleACPIPMC"}},
+{"data":{"title":"IntelPCH"},"attr":{"id":"174728","ColType":"Boolean","ColValue":"Yes"}}
+]

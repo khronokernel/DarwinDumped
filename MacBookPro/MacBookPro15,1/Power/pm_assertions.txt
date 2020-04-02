@@ -1,0 +1,41 @@
+2020-04-01 18:21:16 -0600 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   InternalPreventDisplaySleep    1
+   PreventUserIdleSystemSleep     1
+   NetworkClientActive            0
+Listed by owning process:
+   pid 104(hidd): [0x000000310009808d] 00:00:04 UserIsActive named: "com.apple.iohideventsystem.queue.tickle.4294968893.11" 
+	Timeout will fire in 595 secs Action=TimeoutActionRelease
+   pid 334(identityservicesd): [0x000000c1000184e3] 00:00:07 PreventUserIdleSystemSleep named: "CloudPairingDelay" 
+	Details: CloudPairingDelay
+	Timeout will fire in 28 secs Action=TimeoutActionTurnOff
+   pid 82(apsd): [0x000000c6000b84f3] 00:00:01 ApplePushServiceTask named: "com.apple.apsd-lastpowerassertionlinger" 
+   pid 71(mds): [0x00000029000b8018] 00:02:46 BackgroundTask named: "com.apple.metadata.mds.power" 
+   pid 397(AddressBookSourceSync): [0x0000003e000180e8] 00:02:17 PreventUserIdleSystemSleep named: "Address Book Source Sync" 
+	Timeout will fire in 1662 secs Action=TimeoutActionTurnOff
+   pid 60(powerd): [0x0000004800108179] 00:02:08 InternalPreventDisplaySleep named: "com.apple.powermanagement.delayDisplayOff" 
+	Timeout will fire in 172 secs Action=TimeoutActionTurnOff
+   pid 333(nsurlsessiond): [0x000000c4000184e9] 00:00:03 PreventUserIdleSystemSleep named: "NSURLSessionTask F0C10B26-2AEC-462A-B194-363A67255639" 
+	Timeout will fire in 10796 secs Action=TimeoutActionTurnOff
+   pid 333(nsurlsessiond): [0x000000c5000184ec] 00:00:03 PreventUserIdleSystemSleep named: "NSURLSessionTask 7790661E-0DC5-4E35-843C-9A982A9F242D" 
+	Timeout will fire in 10797 secs Action=TimeoutActionTurnOff
+   pid 333(nsurlsessiond): [0x000000c5000184ed] 00:00:02 PreventUserIdleSystemSleep named: "NSURLSessionTask 9A9D8CCB-73E6-4DEF-A9E7-B20628DFEA57" 
+	Timeout will fire in 10797 secs Action=TimeoutActionTurnOff
+   pid 333(nsurlsessiond): [0x000000c5000184ee] 00:00:02 PreventUserIdleSystemSleep named: "NSURLSessionTask A17000A6-1723-4CBC-88D0-F73C6F8951CA" 
+	Timeout will fire in 10797 secs Action=TimeoutActionTurnOff
+   pid 333(nsurlsessiond): [0x000000c6000184f2] 00:00:01 PreventUserIdleSystemSleep named: "NSURLSessionTask 1A2CECBE-5DBB-4E20-897E-387FF89AF32F" 
+	Timeout will fire in 10798 secs Action=TimeoutActionTurnOff
+   pid 333(nsurlsessiond): [0x000000c6000184f4] 00:00:01 PreventUserIdleSystemSleep named: "NSURLSessionTask 4217F327-93AC-40BE-A653-3833F1AF957B" 
+	Timeout will fire in 10799 secs Action=TimeoutActionTurnOff
+   pid 333(nsurlsessiond): [0x000000c7000184f6] 00:00:01 PreventUserIdleSystemSleep named: "NSURLSessionTask 3E77294E-B2C1-4755-9F90-BFF2673E8BA6" 
+	Timeout will fire in 10799 secs Action=TimeoutActionTurnOff
+   pid 333(nsurlsessiond): [0x000000c8000184f7] 00:00:00 PreventUserIdleSystemSleep named: "NSURLSessionTask 81F69962-10A1-4E35-A145-983533957500" 
+	Timeout will fire in 10800 secs Action=TimeoutActionTurnOff
+No kernel assertions.
+Idle sleep preventers: IODisplayWrangler

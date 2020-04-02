@@ -1,0 +1,19 @@
+[
+{"data":{"title":"device-id"},"attr":{"id":"10396","ColType":"Data","ColValue":"&lt;24a30000&gt;"}},
+{"data":{"title":"vendor-id"},"attr":{"id":"10398","ColType":"Data","ColValue":"&lt;86800000&gt;"}},
+{"data":{"title":"IOName"},"attr":{"id":"10400","ColType":"String","ColValue":"pci8086,a324"}},
+{"data":{"title":"subsystem-vendor-id"},"attr":{"id":"10402","ColType":"Data","ColValue":"&lt;86800000&gt;"}},
+{"data":{"title":"pcidebug"},"attr":{"id":"10404","ColType":"String","ColValue":"0:31:5"}},
+{"data":{"title":"revision-id"},"attr":{"id":"10406","ColType":"Data","ColValue":"&lt;10000000&gt;"}},
+{"data":{"title":"reg"},"attr":{"id":"10408","ColType":"Data","ColValue":"&lt;00fd0******00******00******00******00000&gt;"}},
+{"data":{"title":"acpi-path"},"attr":{"id":"10410","ColType":"String","ColValue":"IOACPIPlane:/_SB/PCI0@0/XSPI@1f0005"}},
+{"data":{"title":"built-in"},"attr":{"id":"10412","ColType":"Data","ColValue":"&lt;00&gt;"}},
+{"data":{"title":"IOPCIResourced"},"attr":{"id":"10414","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"pci-device-hidden"},"attr":{"id":"10416","ColType":"Data","ColValue":"&lt;010******0000000&gt;"}},
+{"data":{"title":"class-code"},"attr":{"id":"10418","ColType":"Data","ColValue":"&lt;00800c00&gt;"}},
+{"data":{"title":"acpi-device"},"attr":{"id":"10420","ColType":"String","ColValue":"IOACPIPlatformDevice is not serializable"}},
+{"data":{"title":"subsystem-id"},"attr":{"id":"10422","ColType":"Data","ColValue":"&lt;7******0&gt;"}},
+{"data":{"title":"compatible"},"attr":{"id":"10424","ColType":"Data","ColValue":"&lt;\"pci8086,7270\",\"pci8086,a324\",\"pciclass,0c8000\",\"XSPI\"&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"10426","ColType":"Data","ColValue":"&lt;\"pci8086,a324\"&gt;"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"10428","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"10430","ColType":"Number","ColValue":"2"}},{"data":{"title":"ChildProxyPowerState"},"attr":{"id":"10432","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"10434","ColType":"Number","ColValue":"3"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"10436","ColType":"Number","ColValue":"258"}}]}
+]

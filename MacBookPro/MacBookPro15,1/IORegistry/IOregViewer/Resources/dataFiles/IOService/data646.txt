@@ -1,0 +1,15 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"156637","ColType":"Number","ColValue":"33026"}},
+{"data":{"title":"VendorID"},"attr":{"id":"156639","ColType":"Number","ColValue":"1452"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"156641","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"156643","ColType":"String","ColValue":"com.apple.driver.AppleHIDALSService"}},
+{"data":{"title":"IOClass"},"attr":{"id":"156645","ColType":"String","ColValue":"AppleUSBALSService"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"156647","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"156648","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"156650","ColType":"Number","ColValue":"65298"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"156652","ColType":"Number","ColValue":"1"}}]}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"156654","ColType":"Number","ColValue":"7200"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"156656","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"156658","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"HIDServiceSupport"},"attr":{"id":"156660","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"156662","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"0516B563-B15B-11DA-96EB-0014519758EF"},"attr":{"id":"156664","ColType":"String","ColValue":"AppleHIDALSService.kext/Contents/PlugIns/AppleHIDALS.plugin"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"156666","ColType":"String","ColValue":"IOHIDInterface"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"156668","ColType":"Number","ColValue":"65298"}}
+]

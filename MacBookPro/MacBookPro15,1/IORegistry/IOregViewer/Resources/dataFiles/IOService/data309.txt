@@ -1,0 +1,16 @@
+[
+{"data":{"title":"IOMinPacketSize"},"attr":{"id":"11071","ColType":"Number","ColValue":"64"}},
+{"data":{"title":"IORevision"},"attr":{"id":"11073","ColType":"String","ColValue":"3.1.2"}},
+{"data":{"title":"IOMaxPacketSize"},"attr":{"id":"11075","ColType":"Number","ColValue":"9018"}},
+{"data":{"title":"IOPacketFilters"},"attr":{"id":"11077","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IONetworkFilterGroup"},"attr":{"id":"11079","ColType":"Number","ColValue":"35"}},{"data":{"title":"IOEthernetWakeOnLANFilterGroup"},"attr":{"id":"11081","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOVendor"},"attr":{"id":"11083","ColType":"String","ColValue":"Apple"}},
+{"data":{"title":"IOSelectedMedium"},"attr":{"id":"11085","ColType":"String","ColValue":"00100020"}},
+{"data":{"title":"IOLinkStatus"},"attr":{"id":"11087","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"IOActiveMedium"},"attr":{"id":"11089","ColType":"String","ColValue":"00100020"}},
+{"data":{"title":"IOFeatures"},"attr":{"id":"11091","ColType":"Number","ColValue":"56"}},
+{"data":{"title":"IOMACAddress"},"attr":{"id":"11093","ColType":"Data","ColValue":"&lt;7**********0&gt;"}},
+{"data":{"title":"IOLocation"},"attr":{"id":"11095","ColType":"String","ColValue":"2"}},
+{"data":{"title":"IOMediumDictionary"},"attr":{"id":"11097","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"00100020"},"attr":{"id":"11099","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Flags"},"attr":{"id":"11101","ColType":"Number","ColValue":"0"}},{"data":{"title":"Index"},"attr":{"id":"11103","ColType":"Number","ColValue":"0"}},{"data":{"title":"Speed"},"attr":{"id":"11105","ColType":"Number","ColValue":"10000000000"}},{"data":{"title":"Type"},"attr":{"id":"11107","ColType":"Number","ColValue":"1048608"}}]}]},
+{"data":{"title":"IOLinkSpeed"},"attr":{"id":"11109","ColType":"Number","ColValue":"10000000000"}},
+{"data":{"title":"IOModel"},"attr":{"id":"11111","ColType":"String","ColValue":"ThunderboltIP"}}
+]

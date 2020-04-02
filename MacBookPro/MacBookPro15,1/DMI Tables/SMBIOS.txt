@@ -1,0 +1,555 @@
+# dmidecode 2.12b
+Handle 0x0000, DMI type 16, 23 bytes
+0000: 10 17 00 00 03 03 03 00 00 00 02 fe ff 02 00 00 
+0010: 00 00 00 00 00 00 00 
+
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 32 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 2
+
+Handle 0x0001, DMI type 17, 84 bytes
+0000: 11 54 01 00 00 00 fe ff 40 00 40 00 00 20 0d 00 
+0010: 01 02 1a 80 00 60 09 03 04 05 06 01 00 00 00 00 
+0020: 60 09 00 00 00 00 b0 04 00 00 00 00 00 00 00 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050: 00 00 00 00 
+
+Memory Device
+	Array Handle: 0x0000
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 8192 MB
+	Form Factor: SODIMM
+	Set: None
+	Locator: ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Type: <OUT OF SPEC>
+	Type Detail: Synchronous
+	Speed: 2400 MHz (0.4 ns)
+	Manufacturer: SK Hynix
+	Serial Number: 00000000
+	Asset Tag: 9876543210
+	Part Number: HMA81GS6AFR8N-UH    
+	Rank: 1
+	Configured Clock Speed: 2400 MHz (0.4 ns)
+	Minimum voltage:  Unknown
+	Maximum voltage:  Unknown
+	Configured voltage:  1.200 V
+
+Handle 0x0002, DMI type 17, 84 bytes
+0000: 11 54 02 00 00 00 fe ff 40 00 40 00 00 20 0d 00 
+0010: 01 02 1a 80 00 60 09 03 04 05 06 01 00 00 00 00 
+0020: 60 09 00 00 00 00 b0 04 00 00 00 00 00 00 00 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050: 00 00 00 00 
+
+Memory Device
+	Array Handle: 0x0000
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 8192 MB
+	Form Factor: SODIMM
+	Set: None
+	Locator: ChannelB-DIMM0
+	Bank Locator: BANK 2
+	Type: <OUT OF SPEC>
+	Type Detail: Synchronous
+	Speed: 2400 MHz (0.4 ns)
+	Manufacturer: SK Hynix
+	Serial Number: 00000000
+	Asset Tag: 9876543210
+	Part Number: HMA81GS6AFR8N-UH    
+	Rank: 1
+	Configured Clock Speed: 2400 MHz (0.4 ns)
+	Minimum voltage:  Unknown
+	Maximum voltage:  Unknown
+	Configured voltage:  1.200 V
+
+Handle 0x0003, DMI type 19, 31 bytes
+0000: 13 1f 03 00 00 00 00 00 ff ff ff 00 00 00 02 00 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+Memory Array Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
+	Physical Array Handle: 0x0000
+	Partition Width: 2
+
+Handle 0x0004, DMI type 0, 26 bytes
+0000: 00 1a 04 00 01 02 00 00 03 7f 80 98 01 00 00 00 
+0010: 00 00 81 0e 00 01 ff ff 00 00 
+
+BIOS Information
+	Vendor: Apple Inc.
+	Version: 1037.80.53.0.0 (iBridge: 17.16.13050.0.0,0)
+	Release Date: 01/17/2020
+	ROM Size: 8192 kB
+	Characteristics:
+		PCI is supported
+		BIOS is upgradeable
+		BIOS shadowing is allowed
+		Boot from CD is supported
+		Selectable boot is supported
+		ACPI is supported
+		Smart battery is supported
+		Function key-initiated network boot is supported
+		Targeted content distribution is supported
+		UEFI is supported
+	BIOS Revision: 0.1
+
+Handle 0x0005, DMI type 1, 27 bytes
+0000: 01 1b 05 00 01 02 03 04 43 17 62 33 7c 2e 5a 5f 
+0010: bf e0 00 c3 1f 9a a7 75 06 05 06 
+
+System Information
+	Manufacturer: Apple Inc.
+	Product Name: MacBookPro15,1
+	Version: 1.0
+	Serial Number: C**********J
+	UUID: 43********************************75
+	Wake-up Type: Power Switch
+	SKU Number:  
+	Family: MacBook Pro
+
+Handle 0x0006, DMI type 2, 17 bytes
+0000: 02 11 06 00 01 02 03 04 05 01 06 07 00 0a 00 00 
+0010: 00 
+
+Base Board Information
+	Manufacturer: Apple Inc.
+	Product Name: Mac-937A206F2EE63C01
+	Version: MacBookPro15,1
+	Serial Number: C***************X
+	Asset Tag:  
+	Features:
+		Board is a hosting board
+	Location In Chassis:  
+	Chassis Handle: 0x0007
+	Type: Motherboard
+	Contained Object Handles: 0
+
+Handle 0x0007, DMI type 3, 24 bytes
+0000: 03 18 07 00 01 09 02 03 04 03 03 03 03 00 00 00 
+0010: 00 00 00 00 00 00 00 00 
+
+Chassis Information
+	Manufacturer: Apple Inc.
+	Type: Laptop
+	Lock: Not Present
+	Version: Mac-937A206F2EE63C01
+	Serial Number: C**********J
+	Asset Tag:  
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Safe
+	Security Status: None
+	OEM Information: 0x00000000
+	Height: Unspecified
+	Number Of Power Cords: Unspecified
+	Contained Elements: 0
+	SKU Number: Not Specified
+
+Handle 0x0008, DMI type 8, 9 bytes
+0000: 08 09 08 00 00 00 01 12 10 
+
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: USB0
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x0009, DMI type 8, 9 bytes
+0000: 08 09 09 00 00 00 01 12 10 
+
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: USB1
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x000A, DMI type 8, 9 bytes
+0000: 08 09 0a 00 00 00 01 1f 1d 
+
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: Audio Line In
+	External Connector Type: Mini Jack (headphones)
+	Port Type: Audio Port
+
+Handle 0x000B, DMI type 8, 9 bytes
+0000: 08 09 0b 00 00 00 01 00 ff 
+
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: Thunderbolt
+	External Connector Type: None
+	Port Type: Other
+
+Handle 0x000C, DMI type 8, 9 bytes
+0000: 08 09 0c 00 01 ff 00 00 00 
+
+Port Connector Information
+	Internal Reference Designator: Microphone
+	Internal Connector Type: Other
+	External Reference Designator: Not Specified
+	External Connector Type: None
+	Port Type: None
+
+Handle 0x000D, DMI type 8, 9 bytes
+0000: 08 09 0d 00 01 ff 00 00 00 
+
+Port Connector Information
+	Internal Reference Designator: Speaker
+	Internal Connector Type: Other
+	External Reference Designator: Not Specified
+	External Connector Type: None
+	Port Type: None
+
+Handle 0x000E, DMI type 11, 5 bytes
+0000: 0b 05 0e 00 01 
+
+OEM Strings
+	String 1: Apple ROM Version.  BIOS ID:      MBP151.88Z.F000.B00.2001172315.  Model:        MBP151.  EFI Version:  1037.80.53.0.0.  Built by:     _securitya@cake.  Date:         Fri Jan 17 23:15:05 2020.  Revision:     1037.80.53 (B&I).  ROM Version:  F000_B00.  Build Type:   Official Build, RELEASE.  Compiler:     clang-1100.2.32.4.
+
+Handle 0x000F, DMI type 41, 11 bytes
+0000: 29 0b 0f 00 01 83 01 00 00 00 00 
+
+Onboard Device
+	Reference Designation: Integrated Video Controller
+	Type: Video
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:00.0
+
+Handle 0x0010, DMI type 41, 11 bytes
+0000: 29 0b 10 00 01 87 01 00 00 00 00 
+
+Onboard Device
+	Reference Designation: Azalia Audio Codec
+	Type: Sound
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:00.0
+
+Handle 0x0011, DMI type 41, 11 bytes
+0000: 29 0b 11 00 01 89 01 00 00 00 00 
+
+Onboard Device
+	Reference Designation: SATA
+	Type: SATA Controller
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:00.0
+
+Handle 0x0012, DMI type 13, 22 bytes
+0000: 0d 16 12 00 01 01 00 00 00 00 00 00 00 00 00 00 
+0010: 00 00 00 00 00 01 
+
+BIOS Language Information
+	Installable Languages: 1
+		en
+	Currently Installed Language: en
+
+Handle 0x0013, DMI type 22, 26 bytes
+0000: 16 1a 13 00 00 00 00 00 00 02 00 00 00 00 00 00 
+0010: 00 00 00 00 00 00 00 00 00 00 
+
+Portable Battery
+	Location: Not Specified
+	Manufacturer: Not Specified
+	Name: Not Specified
+	Design Capacity: Unknown
+	Design Voltage: Unknown
+	SBDS Version: Not Specified
+	Maximum Error: 0%
+	SBDS Serial Number: 0000
+	SBDS Manufacture Date: 1980-00-00
+	SBDS Chemistry: Not Specified
+	OEM-specific Information: 0x00000000
+
+Handle 0x0014, DMI type 32, 11 bytes
+0000: 20 0b 14 00 00 00 00 00 00 00 00 
+
+System Boot Information
+	Status: No errors detected
+
+Handle 0x0015, DMI type 131, 6 bytes
+0000: 83 06 15 00 09 07 
+
+Apple specific Processor Type
+	 cpu=0709
+
+Handle 0x0016, DMI type 133, 12 bytes
+0000: 85 0c 16 00 32 00 00 00 00 00 00 00 
+
+OEM-specific Type
+	Header and Data:
+		85 0C 16 00 32 00 00 00 00 00 00 00
+
+Handle 0x0017, DMI type 128, 96 bytes
+0000: 80 60 17 00 02 00 00 00 66 f0 af fd 7f ff ff ff 
+0010: 02 00 00 00 00 00 00 00 00 b0 98 ff ff cf b9 ff 
+0020: 00 d0 b9 ff ff 3f e4 ff 00 00 00 00 00 00 00 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060: 
+
+Apple specific FirmwareVolume
+	FirmwareFeatures: fdaff066
+	FirmwareFeaturesMask: ffffff7f
+	Region Type:02 Start:ff98b000 End:ffb9cfff
+	Region Type:00 Start:ffb9d000 End:ffe43fff
+
+Handle 0x0018, DMI type 221, 26 bytes
+0000: dd 1a 18 00 03 01 00 07 00 50 40 00 02 00 00 00 
+0010: 00 ca 00 03 00 ff ff ff ff ff 
+
+OEM-specific Type
+	Header and Data:
+		DD 1A 18 00 03 01 00 07 00 50 40 00 02 00 00 00
+		00 CA 00 03 00 FF FF FF FF FF
+	Strings:
+		Reference Code - CPU
+		uCode Version
+		TXT ACM version
+
+Handle 0x0019, DMI type 221, 26 bytes
+0000: dd 1a 19 00 03 01 00 07 00 50 40 00 02 00 00 00 
+0010: 00 00 00 03 04 0c 00 2d e5 05 
+
+OEM-specific Type
+	Header and Data:
+		DD 1A 19 00 03 01 00 07 00 50 40 00 02 00 00 00
+		00 00 00 03 04 0C 00 2D E5 05
+	Strings:
+		Reference Code - ME
+		MEBx version
+		ME Firmware Version
+		Consumer SKU
+
+Handle 0x001A, DMI type 221, 82 bytes
+0000: dd 52 1a 00 0b 01 00 07 00 50 40 00 02 03 ff ff 
+0010: ff ff ff 04 00 ff ff ff 00 00 05 00 ff ff ff 00 
+0020: 00 06 00 ff ff ff ff ff 07 00 02 00 00 00 00 08 
+0030: 00 09 00 00 00 00 09 00 0a 00 00 00 00 0a 00 07 
+0040: 00 00 00 00 0b 00 06 00 00 00 00 0c 00 07 00 00 
+0050: 00 00 
+
+OEM-specific Type
+	Header and Data:
+		DD 52 1A 00 0B 01 00 07 00 50 40 00 02 03 FF FF
+		FF FF FF 04 00 FF FF FF 00 00 05 00 FF FF FF 00
+		00 06 00 FF FF FF FF FF 07 00 02 00 00 00 00 08
+		00 09 00 00 00 00 09 00 0A 00 00 00 00 0A 00 07
+		00 00 00 00 0B 00 06 00 00 00 00 0C 00 07 00 00
+		00 00
+	Strings:
+		Reference Code - CNL PCH
+		PCH-CRID Status
+		Disabled
+		PCH-CRID Original Value
+		PCH-CRID New Value
+		OPROM - RST - RAID
+		CNL PCH H A0 Hsio Version
+		CNL PCH H Ax Hsio Version
+		CNL PCH H Bx Hsio Version
+		CNL PCH LP B0 Hsio Version
+		CNL PCH LP Bx Hsio Version
+		CNL PCH LP Dx Hsio Version
+
+Handle 0x001B, DMI type 221, 54 bytes
+0000: dd 36 1b 00 07 01 00 07 00 50 40 00 02 00 00 07 
+0010: 01 5f 00 03 00 07 00 50 40 00 04 05 ff ff ff ff 
+0020: ff 06 00 00 00 00 07 00 07 00 00 00 00 07 00 08 
+0030: 00 ff ff ff ff ff 
+
+OEM-specific Type
+	Header and Data:
+		DD 36 1B 00 07 01 00 07 00 50 40 00 02 00 00 07
+		01 5F 00 03 00 07 00 50 40 00 04 05 FF FF FF FF
+		FF 06 00 00 00 00 07 00 07 00 00 00 00 07 00 08
+		00 FF FF FF FF FF
+	Strings:
+		Reference Code - SA - System Agent
+		Reference Code - MRC
+		SA - PCIe Version
+		SA-CRID Status
+		Disabled
+		SA-CRID Original Value
+		SA-CRID New Value
+		OPROM - VBIOS
+
+Handle 0x001C, DMI type 7, 27 bytes
+0000: 07 1b 1c 00 01 80 01 80 01 80 01 20 00 20 00 00 
+0010: 04 05 07 00 00 00 00 00 00 00 00 
+
+Cache Information
+	Socket Designation: L1 Cache
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 384 kB
+	Maximum Size: 384 kB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Parity
+	System Type: Unified
+	Associativity: 8-way Set-associative
+
+Handle 0x001D, DMI type 7, 27 bytes
+0000: 07 1b 1d 00 01 81 01 00 06 00 06 20 00 20 00 00 
+0010: 05 05 05 00 00 00 00 00 00 00 00 
+
+Cache Information
+	Socket Designation: L2 Cache
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 1536 kB
+	Maximum Size: 1536 kB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unified
+	Associativity: 4-way Set-associative
+
+Handle 0x001E, DMI type 7, 27 bytes
+0000: 07 1b 1e 00 01 82 01 00 24 00 24 20 00 20 00 00 
+0010: 06 05 09 00 00 00 00 00 00 00 00 
+
+Cache Information
+	Socket Designation: L3 Cache
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 9216 kB
+	Maximum Size: 9216 kB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Multi-bit ECC
+	System Type: Unified
+	Associativity: 12-way Set-associative
+
+Handle 0x001F, DMI type 4, 48 bytes
+0000: 04 30 1f 00 01 03 c6 02 ea 06 09 00 ff fb eb bf 
+0010: 03 88 64 00 28 0a ab 09 41 01 1c 00 1d 00 1e 00 
+0020: 04 05 06 06 06 0c fc 00 c6 00 06 00 06 00 0c 00 
+0030: 
+
+Processor Information
+	Socket Designation: U3E1
+	Type: Central Processor
+	Family: Core i7
+	Manufacturer: Intel(R) Corporation
+	ID: EA 06 09 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 158, Stepping 10
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz
+	Voltage: 0.8 V
+	External Clock: 100 MHz
+	Max Speed: 2600 MHz
+	Current Speed: 2475 MHz
+	Status: Populated, Enabled
+	Upgrade: Other
+	L1 Cache Handle: 0x001C
+	L2 Cache Handle: 0x001D
+	L3 Cache Handle: 0x001E
+	Serial Number: To Be Filled By O.E.M.
+	Asset Tag: To Be Filled By O.E.M.
+	Part Number: To Be Filled By O.E.M.
+	Core Count: 6
+	Core Enabled: 6
+	Thread Count: 12
+	Characteristics:
+		64-bit capable
+		Multi-Core
+		Hardware Thread
+		Execute Protection
+		Enhanced Virtualization
+		Power/Performance Control
+
+Handle 0x0020, DMI type 14, 8 bytes
+0000: 0e 08 20 00 01 db 00 00 
+
+Group Associations
+	Name: $MEI
+	Items: 1
+		0x0000 (<OUT OF SPEC>)
+
+Handle 0x0021, DMI type 219, 106 bytes
+0000: db 6a 21 00 01 04 01 45 02 00 a0 06 01 85 30 10 
+0010: 00 00 00 00 40 00 00 00 00 00 00 00 00 00 40 02 
+0020: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0030: ff ff ff ff ff ff ff ff 03 00 00 00 80 00 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050: 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 00 00 00 00 
+
+OEM-specific Type
+	Header and Data:
+		DB 6A 21 00 01 04 01 45 02 00 A0 06 01 85 30 10
+		00 00 00 00 40 00 00 00 00 00 00 00 00 00 40 02
+		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00
+		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+		00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+		00 00 00 00 00 00 00 00 00 00
+	Strings:
+		MEI1
+		MEI2
+		MEI3
+		MEI4
+
+Handle 0xFEFF, DMI type 127, 4 bytes
+0000: 7f 04 ff fe 
+
+End Of Table
+

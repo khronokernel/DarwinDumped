@@ -1,0 +1,9 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"7304","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"7306","ColType":"Number","ColValue":"2"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"7308","ColType":"Number","ColValue":"0"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"7310","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"_ADR"},"attr":{"id":"7312","ColType":"Number","ColValue":"1769472"}},
+{"data":{"title":"acpi-pci-routing-table"},"attr":{"id":"7314","ColType":"Data","ColValue":"&lt;1800000000000000ffff00000000000010000000000000001800000001000000ffff00000000000011000000000000001800000002000000ffff00000000000012000000000000001800000003000000ffff0000000000001300000000000000000000000000000000000000000000000000000000000000&gt;"}},
+{"data":{"title":"device-properties"},"attr":{"id":"7316","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"reg-ltrovr"},"attr":{"id":"7318","ColType":"Data","ColValue":"&lt;0004000000000000&gt;"}},{"data":{"title":"apple-coprocessor-version"},"attr":{"id":"7320","ColType":"Data","ColValue":"&lt;0000020000000000&gt;"}},{"data":{"title":"acpi-path"},"attr":{"id":"7322","ColType":"String","ColValue":"IOACPIPlane:/_SB/PCI0@0/RP17@1b0000"}},{"data":{"title":"acpi-device"},"attr":{"id":"7324","ColType":"String","ColValue":"IOACPIPlatformDevice is not serializable"}}]},
+{"data":{"title":"acpi-pci-pm"},"attr":{"id":"7326","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"_STA"},"attr":{"id":"7328","ColType":"Number","ColValue":"18446744073709551615"}},
+{"data":{"title":"acpi-wake-gpe"},"attr":{"id":"7330","ColType":"Number","ColValue":"105"}}
+]

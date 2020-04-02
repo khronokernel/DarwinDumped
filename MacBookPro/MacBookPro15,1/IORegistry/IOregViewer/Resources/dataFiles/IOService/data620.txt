@@ -1,0 +1,14 @@
+[
+{"data":{"title":"VendorID"},"attr":{"id":"142330","ColType":"Number","ColValue":"1452"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"142332","ColType":"String","ColValue":"com.apple.driver.AppleTopCaseActuatorHIDDriver"}},
+{"data":{"title":"DefaultActuatorProperties"},"attr":{"id":"142334","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"ActuatorRevision"},"attr":{"id":"142336","ColType":"Number","ColValue":"6"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"142338","ColType":"String","ColValue":"com.apple.driver.AppleActuatorDriver"}},
+{"data":{"title":"IOClass"},"attr":{"id":"142340","ColType":"String","ColValue":"AppleActuatorHIDEventDriver"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"142342","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"142343","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsage"},"attr":{"id":"142345","ColType":"Number","ColValue":"13"}},{"data":{"title":"DeviceUsagePage"},"attr":{"id":"142347","ColType":"Number","ColValue":"65280"}}]}]},
+{"data":{"title":"ProductIDArray"},"attr":{"id":"142349","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"142350","ColType":"Number","ColValue":"632"}},{"data":{"title":"1"},"attr":{"id":"142351","ColType":"Number","ColValue":"636"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"142353","ColType":"Number","ColValue":"7175"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"142355","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"LocationID"},"attr":{"id":"142357","ColType":"Number","ColValue":"18446744071567310848"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"142359","ColType":"String","ColValue":"IOHIDInterface"}},
+{"data":{"title":"Transport"},"attr":{"id":"142361","ColType":"String","ColValue":"USB"}}
+]

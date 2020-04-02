@@ -1,0 +1,69 @@
+APFS Container (1 found)
+|
++-- Container disk1 C59B609F-2DEB-4529-A869-1ADA21AF264C
+    ====================================================
+    APFS Container Reference:     disk1
+    Size (Capacity Ceiling):      371000844288 B (371.0 GB)
+    Capacity In Use By Volumes:   308674662400 B (308.7 GB) (83.2% used)
+    Capacity Not Allocated:       62326181888 B (62.3 GB) (16.8% free)
+    |
+    +-< Physical Store disk0s2 CBF1D46E-EF8A-4BAD-88A6-113ECF4C8B99
+    |   -----------------------------------------------------------
+    |   APFS Physical Store Disk:   disk0s2
+    |   Size:                       371000844288 B (371.0 GB)
+    |
+    +-> Volume disk1s1 5B5F8814-0C7D-4FAC-9A78-492F5BA49355
+    |   ---------------------------------------------------
+    |   APFS Volume Disk (Role):   disk1s1 (No specific role)
+    |   Name:                      Mojave HD (Case-insensitive)
+    |   Mount Point:               /
+    |   Capacity Consumed:         208469733376 B (208.5 GB)
+    |   FileVault:                 No (Encrypted at rest)
+    |
+    +-> Volume disk1s2 CA98FD0E-AD96-43D7-A14F-7262BF9F0629
+    |   ---------------------------------------------------
+    |   APFS Volume Disk (Role):   disk1s2 (Preboot)
+    |   Name:                      Preboot (Case-insensitive)
+    |   Mount Point:               Not Mounted
+    |   Capacity Consumed:         127975424 B (128.0 MB)
+    |   FileVault:                 No
+    |
+    +-> Volume disk1s3 030926FA-73FA-40D7-BA9B-A32C1C714088
+    |   ---------------------------------------------------
+    |   APFS Volume Disk (Role):   disk1s3 (Recovery)
+    |   Name:                      Recovery (Case-insensitive)
+    |   Mount Point:               Not Mounted
+    |   Capacity Consumed:         1036926976 B (1.0 GB)
+    |   FileVault:                 No
+    |
+    +-> Volume disk1s4 FCB90F81-5851-4286-BB97-487AF7826485
+    |   ---------------------------------------------------
+    |   APFS Volume Disk (Role):   disk1s4 (VM)
+    |   Name:                      VM (Case-insensitive)
+    |   Mount Point:               /private/var/vm
+    |   Capacity Consumed:         1073762304 B (1.1 GB)
+    |   FileVault:                 No (Encrypted at rest)
+    |
+    +-> Volume disk1s5 0FC17318-6340-456D-894A-B130579D0DF8
+    |   ---------------------------------------------------
+    |   APFS Volume Disk (Role):   disk1s5 (No specific role)
+    |   Name:                      Catalina HD - Data (Case-insensitive)
+    |   Mount Point:               /Volumes/Catalina HD - Data
+    |   Capacity Consumed:         84999520256 B (85.0 GB)
+    |   FileVault:                 No (Encrypted at rest)
+    |
+    +-> Volume disk1s6 6376D136-8D8C-46C0-9858-42A6A76AC61F
+    |   ---------------------------------------------------
+    |   APFS Volume Disk (Role):   disk1s6 (System)
+    |   Name:                      Catalina HD (Case-insensitive)
+    |   Mount Point:               /Volumes/Catalina HD
+    |   Capacity Consumed:         11070537728 B (11.1 GB)
+    |   FileVault:                 No (Encrypted at rest)
+    |
+    +-> Volume disk1s7 8A6A2D12-C97F-41EF-A706-DEE45D8FFD7E
+        ---------------------------------------------------
+        APFS Volume Disk (Role):   disk1s7 (No specific role)
+        Name:                      Misc Data (Case-insensitive)
+        Mount Point:               /Volumes/Misc Data
+        Capacity Consumed:         1746612224 B (1.7 GB)
+        FileVault:                 No (Encrypted at rest)

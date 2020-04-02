@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOInterruptControllers"},"attr":{"id":"5968","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"5969","ColType":"String","ColValue":"IOPlatformInterruptController"}},{"data":{"title":"1"},"attr":{"id":"5970","ColType":"String","ColValue":"IOPlatformInterruptController"}}]},
+{"data":{"title":"IOCPUID"},"attr":{"id":"5972","ColType":"Number","ColValue":"4294967617"}},
+{"data":{"title":"IOCPUNumber"},"attr":{"id":"5974","ColType":"Number","ColValue":"11"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"5976","ColType":"String","ColValue":"com.apple.driver.AppleACPIPlatform"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"5978","ColType":"String","ColValue":"processor"}},
+{"data":{"title":"IOClass"},"attr":{"id":"5980","ColType":"String","ColValue":"AppleACPICPU"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"5982","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"IOInterruptSpecifiers"},"attr":{"id":"5984","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"5985","ColType":"Data","ColValue":"&lt;000b0000&gt;"}},{"data":{"title":"1"},"attr":{"id":"5986","ColType":"Data","ColValue":"&lt;010b0000&gt;"}}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"5988","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"5990","ColType":"String","ColValue":"processor"}},
+{"data":{"title":"IOCPUState"},"attr":{"id":"5992","ColType":"String","ColValue":"Running"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"5994","ColType":"String","ColValue":"IOACPIPlatformDevice"}}
+]
