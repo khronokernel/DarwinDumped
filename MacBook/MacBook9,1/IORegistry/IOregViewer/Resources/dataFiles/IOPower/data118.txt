@@ -1,0 +1,11 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"88274","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"88276","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"88278","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"88280","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"88282","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"88284","ColType":"String","ColValue":"AppleIntelPCHPMC"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"88286","ColType":"String","ColValue":"pci8086,9d21"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"88288","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"88289","ColType":"String","ColValue":"pci8086,a121"}},{"data":{"title":"1"},"attr":{"id":"88290","ColType":"String","ColValue":"pci8086,9d21"}},{"data":{"title":"2"},"attr":{"id":"88291","ColType":"String","ColValue":"pci8086,a2a1"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"88293","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"88295","ColType":"String","ColValue":"com.apple.driver.AppleIntelPCHPMC"}},
+{"data":{"title":"IOClass"},"attr":{"id":"88297","ColType":"String","ColValue":"AppleIntelPCHPMC"}},
+{"data":{"title":"IntelPCH"},"attr":{"id":"88299","ColType":"Boolean","ColValue":"Yes"}}
+]

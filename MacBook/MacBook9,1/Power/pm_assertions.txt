@@ -1,0 +1,35 @@
+2018-08-07 11:13:21 +0100 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   PreventUserIdleSystemSleep     1
+   NetworkClientActive            0
+Listed by owning process:
+   pid 282(nsurlsessiond): [0x00001551000187b0] 00:00:03 PreventUserIdleSystemSleep named: "NSURLSessionTask 5C5C9191-6A58-4314-BBCE-8CF15CC1E1EF" 
+	Timeout will fire in 10797 secs Action=TimeoutActionTurnOff
+   pid 282(nsurlsessiond): [0x00001551000187b2] 00:00:02 PreventUserIdleSystemSleep named: "NSURLSessionTask FDE2C875-28EF-4FBC-AF8A-29CF247CF9C2" 
+	Timeout will fire in 10797 secs Action=TimeoutActionTurnOff
+   pid 282(nsurlsessiond): [0x00001552000187b4] 00:00:01 PreventUserIdleSystemSleep named: "NSURLSessionTask 8F0CF0EC-ABB9-4ED6-A3E4-14451ECA3C05" 
+	Timeout will fire in 10798 secs Action=TimeoutActionTurnOff
+   pid 282(nsurlsessiond): [0x00001553000187b5] 00:00:01 PreventUserIdleSystemSleep named: "NSURLSessionTask D9D6432C-A0D0-4E28-A015-989B97C556BC" 
+	Timeout will fire in 10799 secs Action=TimeoutActionTurnOff
+   pid 282(nsurlsessiond): [0x00001553000187b7] 00:00:01 PreventUserIdleSystemSleep named: "NSURLSessionTask 1C8FDD7A-3FC1-40E3-93BA-6FD34202B5A8" 
+	Timeout will fire in 10799 secs Action=TimeoutActionTurnOff
+   pid 282(nsurlsessiond): [0x00001553000187b8] 00:00:01 PreventUserIdleSystemSleep named: "NSURLSessionTask 5222E6E9-2E43-4CA7-8EF7-8268EA83D282" 
+	Timeout will fire in 10799 secs Action=TimeoutActionTurnOff
+   pid 282(nsurlsessiond): [0x00001554000187b9] 00:00:00 PreventUserIdleSystemSleep named: "NSURLSessionTask BD2A247D-6968-4AED-A4F7-053AC6ED937B" 
+	Timeout will fire in 10800 secs Action=TimeoutActionTurnOff
+   pid 282(nsurlsessiond): [0x00001554000187bb] 00:00:00 PreventUserIdleSystemSleep named: "NSURLSessionTask EAA3BEE2-B75B-47B1-B92B-5E659550EF34" 
+	Timeout will fire in 10800 secs Action=TimeoutActionTurnOff
+   pid 99(hidd): [0x00000e9900098549] 00:00:00 UserIsActive named: "com.apple.iohideventsystem.queue.tickle.4294968234.17" 
+	Timeout will fire in 120 secs Action=TimeoutActionRelease
+   pid 405(cloudphotosd): [0x00000e97000b8530] 00:28:45 BackgroundTask named: "com.apple.cloudphotosd.darkwake.sync" 
+	Details: cloudphotosd darkwake power assertion for initial and large iCPL downloads/uploads
+	Timeout will fire in 74 secs Action=TimeoutActionTurnOff
+Kernel Assertions: 0x8=BT-HID
+   id=501  level=255 0x8=BT-HID mod=01/01/70, 01:00 description=com.apple.driver.IOBluetoothHIDDriver owner=AppleHSBluetoothDevice
+Idle sleep preventers: IODisplayWrangler

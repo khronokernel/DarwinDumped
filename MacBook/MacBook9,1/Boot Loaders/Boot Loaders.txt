@@ -1,0 +1,22 @@
+                                                                                                                 
+                                                                                                                 
+disk0  APPLE SSD AP0256J (512 byte physical block size)
+================================================================================================================================================
+ACT  DEVICE   TYPE                   NAME               SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme                     251 GB   
+     disk0s1  EFI                    EFI                314 MB                 
+                                                                                                                /EFI/Boot/BootX64.efi(Windows)
+                                                                                                                /EFI/Microsoft/Boot/bootmgfw.efi
+     disk0s2  Apple_APFS                                250 GB                 
+                                                                                                                 
+                                                                                                                 
+disk1  APPLE SSD AP0256J (512 byte physical block size)
+================================================================================================================================================
+ACT  DEVICE   TYPE                   NAME               SIZE    MBR (Stage0)  PBR (Stage1)  BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              APFS Container Scheme                     250 GB   
+     disk1s1  APFS Volume            macOS High Sierra  250 GB                 
+     disk1s2  APFS Volume            Preboot            250 GB                 
+     disk1s3  APFS Volume            Recovery           250 GB                 
+     disk1s4  APFS Volume            VM                 250 GB                 

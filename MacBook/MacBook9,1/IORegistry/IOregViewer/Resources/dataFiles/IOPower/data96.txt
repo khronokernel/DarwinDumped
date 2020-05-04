@@ -1,0 +1,12 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"14000","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"14002","ColType":"Number","ColValue":"1"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"14004","ColType":"Number","ColValue":"1"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"14006","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"14008","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"14010","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"14012","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"HasPCIPowermanagement"},"attr":{"id":"14014","ColType":"String","ColValue":"false"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"14016","ColType":"Number","ColValue":"100"}},
+{"data":{"title":"registerServiceTime"},"attr":{"id":"14018","ColType":"Number","ColValue":"1078556481"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"14020","ColType":"String","ColValue":"com.apple.driver.AppleIntelLpssGspi"}},
+{"data":{"title":"IOKitDebug"},"attr":{"id":"14022","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOPCIMatch"},"attr":{"id":"14024","ColType":"String","ColValue":"0x80208086&0xc230ffff"}},
+{"data":{"title":"IOClass"},"attr":{"id":"14026","ColType":"String","ColValue":"AppleIntelLpssGspi"}}
+]

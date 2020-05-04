@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"8724","ColType":"String","ColValue":"IOMedia"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"8726","ColType":"String","ColValue":"IOStorage"}},
+{"data":{"title":"Content Mask"},"attr":{"id":"8728","ColType":"String","ColValue":"GUID_partition_scheme"}},
+{"data":{"title":"UUID"},"attr":{"id":"8730","ColType":"String","ColValue":"77BAD677-4A84-4309-8165-4F7B1B58FC9D"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"8732","ColType":"Number","ColValue":"4000"}},
+{"data":{"title":"IOPropertyMatch"},"attr":{"id":"8734","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Whole"},"attr":{"id":"8736","ColType":"Boolean","ColValue":"Yes"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"8738","ColType":"String","ColValue":"com.apple.iokit.IOStorageFamily"}},
+{"data":{"title":"IOClass"},"attr":{"id":"8740","ColType":"String","ColValue":"IOGUIDPartitionScheme"}}
+]

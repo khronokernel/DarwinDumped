@@ -1,0 +1,15 @@
+[
+{"data":{"title":"IOTTYSuffix"},"attr":{"id":"5264","ColType":"String","ColValue":""}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"5266","ColType":"String","ColValue":"com.apple.driver.AppleIntelLpssUARTv1"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"5268","ColType":"String","ColValue":"URT2"}},
+{"data":{"title":"IOTTYBaseName"},"attr":{"id":"5270","ColType":"String","ColValue":"SSDC"}},
+{"data":{"title":"LpssUartUseSclkRange"},"attr":{"id":"5272","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOClass"},"attr":{"id":"5274","ColType":"String","ColValue":"AppleIntelLpssUARTv1"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"5276","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"Master Clock"},"attr":{"id":"5278","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"5280","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"5282","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"5283","ColType":"String","ColValue":"URT0"}},{"data":{"title":"1"},"attr":{"id":"5284","ColType":"String","ColValue":"URT1"}},{"data":{"title":"2"},"attr":{"id":"5285","ColType":"String","ColValue":"URT2"}}]},
+{"data":{"title":"compatible"},"attr":{"id":"5287","ColType":"Data","ColValue":"&lt;\"apple-uart-ssdc\"&gt;"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"5289","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"5291","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"5293","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"5295","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"5297","ColType":"String","ColValue":"IOPCIDevice"}}
+]

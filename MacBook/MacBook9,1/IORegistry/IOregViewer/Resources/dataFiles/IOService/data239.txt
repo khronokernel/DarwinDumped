@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOTTYSuffix"},"attr":{"id":"8208","ColType":"String","ColValue":""}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"8210","ColType":"String","ColValue":"com.apple.iokit.IOSerialFamily"}},
+{"data":{"title":"IOClass"},"attr":{"id":"8212","ColType":"String","ColValue":"IOSerialBSDClient"}},
+{"data":{"title":"IOTTYBaseName"},"attr":{"id":"8214","ColType":"String","ColValue":"SSDC"}},
+{"data":{"title":"IOSerialBSDClientType"},"attr":{"id":"8216","ColType":"String","ColValue":"IORS232SerialStream"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"8218","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"8220","ColType":"String","ColValue":"IOBSD"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"8222","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOTTYDevice"},"attr":{"id":"8224","ColType":"String","ColValue":"SSDC"}},
+{"data":{"title":"IOCalloutDevice"},"attr":{"id":"8226","ColType":"String","ColValue":"/dev/cu.SSDC"}},
+{"data":{"title":"IODialinDevice"},"attr":{"id":"8228","ColType":"String","ColValue":"/dev/tty.SSDC"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"8230","ColType":"String","ColValue":"IOSerialStreamSync"}}
+]
