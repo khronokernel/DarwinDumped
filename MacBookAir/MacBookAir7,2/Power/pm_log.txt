@@ -1,0 +1,156 @@
+PM ASL data store: /var/log/powermanagement
+2021-02-03 13:53:04 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2021-02-03 13:53:04 +0100 Start               	powerd process is started                                                  	          
+2021-02-03 13:53:04 +0100 Assertions          	PID 73(CSCSupportd) Created UserIsActive "com.apple.CSCSupport.disablesleep" 00:00:00  id:0x0x900008000 [System: DeclUser kDisp]          
+2021-02-03 13:53:04 +0100 Assertions          	Summary- [System: DeclUser kDisp] Using Batt          
+2021-02-03 13:53:32 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2021-02-03 13:54:31 +0100 Assertions          	PID 94(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:1000002f9 name:NULL product:Apple Internal Keyb eventType:11" 00:00:00  id:0x0x9000080ca [System: PrevIdle DeclUser kDisp]          
+2021-02-03 13:54:51 +0100 Assertions          	PID 188(apsd) Released ApplePushServiceTask "com.apple.apsd-login" 00:01:05  id:0x0xb0000802c [System: DeclUser kDisp]          
+2021-02-03 13:55:45 +0100 Assertions          	PID 261(mds_stores) Released BackgroundTask "com.apple.metadata.mds_stores.power" 00:01:55  id:0x0xb0000802d [System: DeclUser kDisp]          
+2021-02-03 13:58:39 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context81.preventuseridledisplaysleep" 00:04:16  id:0x0x5000080ba [System: DeclUser kDisp]          
+2021-02-03 13:58:39 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context81.preventuseridlesleep" 00:04:16  id:0x0x1000080b9 [System: DeclUser kDisp]          
+2021-02-03 13:58:39 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.AppleHDAEngineOutput:1B,0,1,1:0.context.preventuseridledisplaysleep" 00:04:16  id:0x0x5000080be [System: DeclUser kDisp]          
+2021-02-03 13:58:39 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.AppleHDAEngineOutput:1B,0,1,1:0.context.preventuseridlesleep" 00:04:16  id:0x0x1000080bd [System: DeclUser kDisp]          
+2021-02-03 13:58:39 +0100 Assertions          	PID 374(UserEventAgent) ClientDied BackgroundTask "com.apple.avatar.activity.PostInstallMigration" 00:04:16  id:0x0xb000080c2 [System: PrevIdle DeclUser kDisp]          
+2021-02-03 13:58:39 +0100 Assertions          	PID 374(UserEventAgent) ClientDied BackgroundTask "com.apple.SafariBookmarksSyncAgent.XPC.ZoneSubscriptionRegistration" 00:03:23  id:0x0xb00008106 [System: PrevIdle DeclUser kDisp]          
+2021-02-03 13:58:39 +0100 Assertions          	PID 374(UserEventAgent) ClientDied BackgroundTask "com.apple.SafariBookmarksSyncAgent.XPC.CloudTabsZoneSubscriptionRegistration" 00:03:12  id:0x0xb0000810c [System: PrevIdle DeclUser kDisp]          
+2021-02-03 13:58:39 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context78.preventuseridledisplaysleep" 00:04:29  id:0x0x500008074 [System: PrevIdle DeclUser kDisp]          
+2021-02-03 13:58:39 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context78.preventuseridlesleep" 00:04:29  id:0x0x100008073 [System: PrevIdle DeclUser kDisp]          
+2021-02-03 13:58:39 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context79.preventuseridledisplaysleep" 00:04:29  id:0x0x50000807b [System: PrevIdle DeclUser kDisp]          
+2021-02-03 13:58:39 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context79.preventuseridlesleep" 00:04:29  id:0x0x10000807a [System: PrevIdle DeclUser kDisp]          
+2021-02-03 13:58:39 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context71.preventuseridledisplaysleep" 00:04:42  id:0x0x50000803c [System: PrevIdle DeclUser kDisp]          
+2021-02-03 13:58:39 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context71.preventuseridlesleep" 00:04:42  id:0x0x10000803b [System: PrevIdle DeclUser kDisp]          
+2021-02-03 13:58:39 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context72.preventuseridledisplaysleep" 00:04:42  id:0x0x500008040 [System: PrevIdle DeclUser kDisp]          
+2021-02-03 13:58:39 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context72.preventuseridlesleep" 00:04:42  id:0x0x10000803f [System: PrevIdle DeclUser kDisp]          
+2021-02-03 14:00:46 +0100 Assertions          	PID 94(WindowServer) TimedOut UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:1000002f9 name:NULL product:Apple Internal Keyb eventType:17" 00:02:00  id:0x0x9000080ca [System: PrevIdle DeclUser kDisp]          
+2021-02-03 14:01:02 +0100 Assertions          	PID 115(runningboardd) Released PreventUserIdleSystemSleep "xpcservice<com.apple.stocks.widget([daemon<com.apple.notificationcenterui.agent(501)>:883])(501)>115-1045-348:com.apple.CFNetwork.StorageDB" 00:01:49  id:0x0x100008232 [System: DeclUser kDisp]          
+2021-02-03 14:01:15 +0100 Assertions          	PID 52(mds) Released BackgroundTask "com.apple.metadata.mds.power" 00:07:39  id:0x0xb00008029 [System: DeclUser kDisp]          
+2021-02-03 14:02:18 +0100 Assertions          	PID 94(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:1000002f9 name:NULL product:Apple Internal Keyb eventType:11" 00:00:00  id:0x0x900008279 [System: DeclUser kDisp]          
+2021-02-03 14:02:24 +0100 Assertions          	PID 1109(studentd) Created NetworkClientActive "studentd:1109:CRKNetworkPowerAssertion:0x7fe4a25a5890" 00:00:00  id:0x0x110000827a [System: DeclUser NetAcc kDisp]          
+2021-02-03 14:02:29 +0100 Assertions          	PID 1109(studentd) Released NetworkClientActive "studentd:1109:CRKNetworkPowerAssertion:0x7fe4a25a5890" 00:00:05  id:0x0x110000827a [System: DeclUser kDisp]          
+2021-02-03 14:03:05 +0100 Assertions          	PID 73(CSCSupportd) TimedOut UserIsActive "com.apple.CSCSupport.disablesleep" 00:10:00  id:0x0x900008000 [System: DeclUser kDisp]          
+2021-02-03 14:03:18 +0100 Assertions          	PID 813(UserEventAgent) Released BackgroundTask "com.apple.SafariBookmarksSyncAgent.XPC.ZoneSubscriptionRegistration" 00:04:32  id:0x0xb000081cf [System: DeclUser kDisp]          
+2021-02-03 14:05:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context96.preventuseridledisplaysleep" 00:01:32  id:0x0x500008289 [System: DeclUser kDisp]          
+2021-02-03 14:05:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context96.preventuseridlesleep" 00:01:32  id:0x0x100008288 [System: DeclUser kDisp]          
+2021-02-03 14:05:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context97.preventuseridledisplaysleep" 00:01:32  id:0x0x50000828d [System: DeclUser kDisp]          
+2021-02-03 14:05:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context97.preventuseridlesleep" 00:01:32  id:0x0x10000828c [System: DeclUser kDisp]          
+2021-02-03 14:10:38 +0100 Assertions          	PID 1109(studentd) Created NetworkClientActive "studentd:1109:CRKNetworkPowerAssertion:0x7fe4a25a5890" 00:00:00  id:0x0x11000082ea [System: DeclUser NetAcc kDisp]          
+2021-02-03 14:10:43 +0100 Assertions          	PID 1109(studentd) Released NetworkClientActive "studentd:1109:CRKNetworkPowerAssertion:0x7fe4a25a5890" 00:00:05  id:0x0x11000082ea [System: DeclUser kDisp]          
+2021-02-03 14:15:15 +0100 Assertions          	PID 91(AirPlayXPCHelper) Released PreventUserIdleSystemSleep "com.apple.airplay.APAudioEngineBuffered.timed" 00:07:22  id:0x0x1000082dd [System: DeclUser kDisp]          
+2021-02-03 14:15:15 +0100 Assertions          	PID 91(AirPlayXPCHelper) Released PreventUserIdleSystemSleep "com.apple.airplay.APAudioEngineBuffered.counted" 00:07:22  id:0x0x1000082dc [System: DeclUser kDisp]          
+2021-02-03 14:15:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context115.preventuseridledisplaysleep" 00:07:20  id:0x0x5000082e1 [System: DeclUser kDisp]          
+2021-02-03 14:15:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context115.preventuseridlesleep" 00:07:20  id:0x0x1000082e0 [System: DeclUser kDisp]          
+2021-02-03 14:15:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context113.preventuseridledisplaysleep" 00:07:24  id:0x0x5000082db [System: DeclUser kDisp]          
+2021-02-03 14:15:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context113.preventuseridlesleep" 00:07:24  id:0x0x1000082da [System: DeclUser kDisp]          
+2021-02-03 14:15:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context87.preventuseridledisplaysleep" 00:16:44  id:0x0x5000081ad [System: DeclUser kDisp]          
+2021-02-03 14:15:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context87.preventuseridlesleep" 00:16:44  id:0x0x1000081ac [System: DeclUser kDisp]          
+2021-02-03 14:15:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context88.preventuseridledisplaysleep" 00:16:44  id:0x0x5000081b1 [System: DeclUser kDisp]          
+2021-02-03 14:15:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context88.preventuseridlesleep" 00:16:44  id:0x0x1000081b0 [System: DeclUser kDisp]          
+2021-02-03 14:15:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context84.preventuseridledisplaysleep" 00:17:08  id:0x0x50000814e [System: DeclUser kDisp]          
+2021-02-03 14:15:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context84.preventuseridlesleep" 00:17:08  id:0x0x10000814d [System: DeclUser kDisp]          
+2021-02-03 14:15:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context85.preventuseridledisplaysleep" 00:17:08  id:0x0x500008152 [System: DeclUser kDisp]          
+2021-02-03 14:15:15 +0100 Assertions          	PID 123(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context85.preventuseridlesleep" 00:17:08  id:0x0x100008151 [System: DeclUser kDisp]          
+2021-02-03 14:16:57 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2021-02-03 13:53:04 +0100 :0   Dark Wake Count in this sleep cycle:0
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2021-02-03 14:16:57 +0100 Start               	powerd process is started                                                  	          
+2021-02-03 14:16:57 +0100 Assertions          	Summary- [System: No Assertions] Using Batt          
+2021-02-03 14:17:05 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2021-02-03 14:17:26 +0100 Assertions          	PID 131(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:1000002ef name:AppleHIDKeyboardEve product:Apple Internal Keyb eventType:3" 00:00:00  id:0x0x900008048 [System: DeclUser kDisp]          
+2021-02-03 14:18:14 +0100 Assertions          	PID 481(studentd) Created NetworkClientActive "studentd:481:CRKNetworkPowerAssertion:0x7faf1e52cb90" 00:00:00  id:0x0x11000080f4 [System: PrevIdle DeclUser NetAcc kDisp]          
+2021-02-03 14:18:19 +0100 Assertions          	PID 481(studentd) Released NetworkClientActive "studentd:481:CRKNetworkPowerAssertion:0x7faf1e52cb90" 00:00:05  id:0x0x11000080f4 [System: DeclUser kDisp]          
+2021-02-03 14:18:32 +0100 Assertions          	PID 65(UserEventAgent) Released BackgroundTask "com.apple.mds.Health check (2).2" 00:01:19  id:0x0xb0000802b [System: DeclUser kDisp]          
+2021-02-03 14:18:33 +0100 Assertions          	PID 256(mds_stores) Released BackgroundTask "com.apple.metadata.mds_stores.power" 00:01:26  id:0x0xb0000800e [System: DeclUser kDisp]          
+2021-02-03 14:18:50 +0100 Assertions          	PID 92(mds) Released BackgroundTask "com.apple.metadata.mds.power" 00:01:43  id:0x0xb0000800d [System: DeclUser kDisp]          
+2021-02-03 14:20:14 +0100 Assertions          	PID 481(studentd) Created NetworkClientActive "studentd:481:CRKNetworkPowerAssertion:0x7faf1e52cb90" 00:00:00  id:0x0x110000815b [System: DeclUser NetAcc kDisp]          
+2021-02-03 14:20:19 +0100 Assertions          	PID 481(studentd) Released NetworkClientActive "studentd:481:CRKNetworkPowerAssertion:0x7faf1e52cb90" 00:00:05  id:0x0x110000815b [System: DeclUser kDisp]          
+2021-02-03 14:21:18 +0100 Assertions          	PID 332(UserEventAgent) Released BackgroundTask "com.apple.SafariBookmarksSyncAgent.XPC.ZoneSubscriptionRegistration" 00:02:17  id:0x0xb0000811b [System: DeclUser kDisp]          
+2021-02-03 14:24:43 +0100 Assertions          	PID 187(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context105.preventuseridledisplaysleep" 00:04:13  id:0x0x50000815f [System: DeclUser kDisp]          
+2021-02-03 14:24:43 +0100 Assertions          	PID 187(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context105.preventuseridlesleep" 00:04:13  id:0x0x10000815e [System: DeclUser kDisp]          
+2021-02-03 14:24:43 +0100 Assertions          	PID 187(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.AppleHDAEngineOutput:1B,0,1,1:0.context.preventuseridledisplaysleep" 00:04:13  id:0x0x500008163 [System: DeclUser kDisp]          
+2021-02-03 14:24:43 +0100 Assertions          	PID 187(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.AppleHDAEngineOutput:1B,0,1,1:0.context.preventuseridlesleep" 00:04:13  id:0x0x100008162 [System: DeclUser kDisp]          
+2021-02-03 14:24:43 +0100 Assertions          	PID 187(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context81.preventuseridledisplaysleep" 00:06:53  id:0x0x500008058 [System: DeclUser kDisp]          
+2021-02-03 14:24:43 +0100 Assertions          	PID 187(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context81.preventuseridlesleep" 00:06:53  id:0x0x100008057 [System: DeclUser kDisp]          
+2021-02-03 14:24:43 +0100 Assertions          	PID 187(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context82.preventuseridledisplaysleep" 00:06:53  id:0x0x50000805c [System: DeclUser kDisp]          
+2021-02-03 14:24:43 +0100 Assertions          	PID 187(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context82.preventuseridlesleep" 00:06:53  id:0x0x10000805b [System: DeclUser kDisp]          
+2021-02-03 14:24:43 +0100 Assertions          	PID 187(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context78.preventuseridledisplaysleep" 00:06:53  id:0x0x500008050 [System: DeclUser kDisp]          
+2021-02-03 14:24:43 +0100 Assertions          	PID 187(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context78.preventuseridlesleep" 00:06:53  id:0x0x10000804f [System: DeclUser kDisp]          
+2021-02-03 14:24:43 +0100 Assertions          	PID 187(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context79.preventuseridledisplaysleep" 00:06:53  id:0x0x500008054 [System: DeclUser kDisp]          
+2021-02-03 14:24:43 +0100 Assertions          	PID 187(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context79.preventuseridlesleep" 00:06:53  id:0x0x100008053 [System: DeclUser kDisp]          
+2021-02-03 14:24:57 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2021-02-03 14:16:57 +0100 :0   Dark Wake Count in this sleep cycle:0
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2021-02-03 14:24:57 +0100 Start               	powerd process is started                                                  	          
+2021-02-03 14:24:57 +0100 Assertions          	Summary- [System: No Assertions] Using Batt          
+2021-02-03 14:25:02 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2021-02-03 14:25:43 +0100 Assertions          	PID 134(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:1000002fa name:NULL product:Apple Internal Keyb eventType:11" 00:00:00  id:0x0x90000804a [System: DeclUser kDisp]          
+2021-02-03 14:26:12 +0100 Assertions          	PID 373(studentd) Created NetworkClientActive "studentd:373:CRKNetworkPowerAssertion:0x7f8280d27490" 00:00:00  id:0x0x11000080a6 [System: DeclUser NetAcc kDisp]          
+2021-02-03 14:26:17 +0100 Assertions          	PID 373(studentd) Released NetworkClientActive "studentd:373:CRKNetworkPowerAssertion:0x7f8280d27490" 00:00:04  id:0x0x11000080a6 [System: PrevIdle DeclUser kDisp]          
+2021-02-03 14:26:24 +0100 Assertions          	PID 108(apsd) Released ApplePushServiceTask "com.apple.apsd-login" 00:01:09  id:0x0xb00008030 [System: DeclUser kDisp]          
+2021-02-03 14:26:35 +0100 Assertions          	PID 260(mds_stores) Released BackgroundTask "com.apple.metadata.mds_stores.power" 00:01:30  id:0x0xb0000800e [System: DeclUser kDisp]          
+2021-02-03 14:27:04 +0100 Assertions          	PID 96(mds) Released BackgroundTask "com.apple.metadata.mds.power" 00:01:59  id:0x0xb0000800d [System: DeclUser kDisp]          
+2021-02-03 14:28:03 +0100 Assertions          	PID 134(WindowServer) TimedOut UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:10000030c name:IOHIDSystem product:NULL eventType:1" 00:02:00  id:0x0x90000804a [System: DeclUser kDisp]          
+2021-02-03 14:28:04 +0100 Notification        	Display is turned off                                                      	          
+2021-02-03 14:28:04 +0100 Assertions          	PID 328(UserEventAgent) Summary BackgroundTask "com.apple.SafariBookmarksSyncAgent.XPC.ZoneSubscriptionRegistration" 00:01:00  id:0x0xb00008110 [System: No Assertions]          
+2021-02-03 14:28:18 +0100 Assertions          	Kernel Idle sleep preventers: -None-          
+2021-02-03 14:28:18 +0100 Assertions          	[System: No Assertions]          
+2021-02-03 14:28:18 +0100 Assertions          	PID 81(powerd) Created InternalPreventSleep "com.apple.powermanagement.darkwakelinger" 00:00:00  id:0x0xd00008122 [System: SRPrevSleep kCPU]          
+2021-02-03 14:28:18 +0100 AppWakeReason       	AppWoke:com.apple.bluetoothd-blueavengers Reason:BlueAvengers: Toggle beacon state	          
+2021-02-03 14:28:33 +0100 Assertions          	PID 81(powerd) TimedOut InternalPreventSleep "com.apple.powermanagement.darkwakelinger" 00:00:15  id:0x0xd00008122 [System: SRPrevSleep kCPU]          
+Sleep/Wakes since boot at 2021-02-03 14:24:57 +0100 :0   Dark Wake Count in this sleep cycle:0
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: 2566E329-74B4-4CF1-B5EC-25B8EA6A571C
+2021-02-03 14:28:33 +0100 Sleep               	Entering Sleep state due to 'Idle Sleep': Using Batt (Charge:60%) 14 secs   
+2021-02-03 14:28:47 +0100 Assertions          	PID 134(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:1000002fa name:NULL product:Apple Internal Keyb eventType:17" 00:00:00  id:0x0x900008134 [System: DeclUser kDisp]          
+2021-02-03 14:28:47 +0100 Assertions          	PID 81(powerd) Created InternalPreventSleep "PM configd - Wait for Device enumeration" 00:00:00  id:0x0xd00008135 [System: DeclUser kDisp]          
+2021-02-03 14:28:47 +0100 DarkWake            	DarkWake from Invalid [CDN] : due to /HID Activity Using BATT (Charge:60%) 0 secs    
+2021-02-03 14:28:47 +0100 HibernateStats      	hibmode=3 standbydelaylow=10800 standbydelayhigh=86400                     	          1         	
+2021-02-03 14:28:47 +0100 Kernel Client Acks  	Delays to Sleep notifications: [AppleIntelFramebuffer driver is slow(msg: SetState to 1)(542 ms)]           
+2021-02-03 14:28:47 +0100 Notification        	Display is turned on                                                       	          
+2021-02-03 14:28:47 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2021-02-03 14:28:47 +0100 Assertions          	PID 150(mDNSResponder) Created MaintenanceWake "mDNSResponder:maintenance" 00:00:00  id:0x0xd0000813b [System: PrevIdle DeclUser SRPrevSleep kCPU kDisp]          
+2021-02-03 14:28:47 +0100 Assertions          	PID 373(studentd) Created NetworkClientActive "studentd:373:CRKNetworkPowerAssertion:0x7f8280d27490" 00:00:00  id:0x0x110000813e [System: DeclUser SRPrevSleep NetAcc kCPU kDisp]          
+2021-02-03 14:28:47 +0100 Wake                	DarkWake to FullWake from Invalid [CDNVA] : due to HID Activity Using BATT (Charge:60%)           
+2021-02-03 14:28:47 +0100 HibernateStats      	hibmode=3 standbydelaylow=10800 standbydelayhigh=86400                     	          1         	
+2021-02-03 14:28:47 +0100 WakeTime            	WakeTime: 0.289 sec                                                        	          
+2021-02-03 14:28:47 +0100 Kernel Client Acks  	Delays to Sleep notifications: [AppleIntelFramebuffer driver is slow(msg: SetState to 1)(542 ms)]           
+2021-02-03 14:28:47 +0100 Assertions          	PID 150(mDNSResponder) Released MaintenanceWake "mDNSResponder:maintenance" 00:00:00  id:0x0xd0000813b [System: PrevIdle DeclUser SRPrevSleep NetAcc kCPU kDisp]          
+2021-02-03 14:28:49 +0100 Wake Requests       	[*process=powerd request=AdaptiveWake deltaSecs=36000 wakeAt=2021-02-04 00:28:49]           
+2021-02-03 14:28:49 +0100 PM Client Acks      	
+2021-02-03 14:28:49 +0100 Kernel Client Acks  	Delays to Wake notifications: [com.apple.apsd is slow(16499 ms)]           
+2021-02-03 14:28:51 +0100 Assertions          	PID 373(studentd) Released NetworkClientActive "studentd:373:CRKNetworkPowerAssertion:0x7f8280d27490" 00:00:04  id:0x0x110000813e [System: DeclUser SRPrevSleep kCPU kDisp]          
+2021-02-03 14:28:56 +0100 Assertions          	PID 81(powerd) Released InternalPreventSleep "PM configd - Wait for Device enumeration" 00:00:09  id:0x0xd00008135 [System: DeclUser kDisp]          
+2021-02-03 14:29:18 +0100 Assertions          	PID 373(studentd) Created NetworkClientActive "studentd:373:CRKNetworkPowerAssertion:0x7f8280d27490" 00:00:00  id:0x0x110000814b [System: DeclUser NetAcc kDisp]          
+2021-02-03 14:29:23 +0100 Assertions          	PID 373(studentd) Released NetworkClientActive "studentd:373:CRKNetworkPowerAssertion:0x7f8280d27490" 00:00:05  id:0x0x110000814b [System: DeclUser kDisp]          
+2021-02-03 14:31:34 +0100 Assertions          	PID 328(UserEventAgent) Released BackgroundTask "com.apple.SafariBookmarksSyncAgent.XPC.ZoneSubscriptionRegistration" 00:04:31  id:0x0xb00008110 [System: DeclUser kDisp]          
+
+Total Sleep/Wakes since boot at 2021-02-03 14:24:57 +0100 :1
+
+2021-02-03 14:31:57 +0100 : Showing all currently held IOKit power assertions
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   PreventUserIdleSystemSleep     0
+   NetworkClientActive            0
+Listed by owning process:
+   pid 108(apsd): [0x000001a9000b8184] 00:00:00 ApplePushServiceTask named: "com.apple.apsd-lastpowerassertionlinger"  
+   pid 134(WindowServer): [0x000000ea00098134] 00:00:43 UserIsActive named: "com.apple.iohideventsystem.queue.tickle serviceID:1000002f0 name:AppleHIDKeyboardEve product:Apple Internal Keyb eventType:3"  
+	Timeout will fire in 76 secs Action=TimeoutActionRelease
+No kernel assertions.
+Idle sleep preventers: IODisplayWrangler

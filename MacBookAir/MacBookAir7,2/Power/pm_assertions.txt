@@ -1,0 +1,16 @@
+2021-02-03 14:31:57 +0100 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   PreventUserIdleSystemSleep     0
+   NetworkClientActive            0
+Listed by owning process:
+   pid 108(apsd): [0x000001a9000b8184] 00:00:00 ApplePushServiceTask named: "com.apple.apsd-lastpowerassertionlinger"  
+   pid 134(WindowServer): [0x000000ea00098134] 00:00:43 UserIsActive named: "com.apple.iohideventsystem.queue.tickle serviceID:1000002f0 name:AppleHIDKeyboardEve product:Apple Internal Keyb eventType:3"  
+	Timeout will fire in 76 secs Action=TimeoutActionRelease
+No kernel assertions.
+Idle sleep preventers: IODisplayWrangler

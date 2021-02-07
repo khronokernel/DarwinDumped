@@ -1,0 +1,17 @@
+2021-02-03 15:14:01 +0100 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   PreventUserIdleSystemSleep     0
+   NetworkClientActive            0
+Listed by owning process:
+   pid 122(WindowServer): [0x00000027000980bb] 00:00:00 UserIsActive named: "com.apple.iohideventsystem.queue.tickle serviceID:1000004d5 name:NULL product:Magic Mouse 2 eventType:17"  
+	Timeout will fire in 899 secs Action=TimeoutActionRelease
+Kernel Assertions: 0x28=BT-HID,THNDR
+   id=500  level=255 0x20=THNDRdescription=TDM0 owner=AppleThunderboltHALType4
+   id=503  level=255 0x8=BT-HID creat=03/02/2021 15:12 description=com.apple.driver.IOBluetoothHIDDriver owner=AppleHSBluetoothDevice
+Idle sleep preventers: IODisplayWrangler
