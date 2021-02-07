@@ -1,0 +1,8 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"10118","ColType":"String","ColValue":"AudioDMAChannel"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"10120","ColType":"String","ColValue":"AudioDMAController"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"10122","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DevicePowerState"},"attr":{"id":"10124","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"10126","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"10128","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"10130","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"Direction"},"attr":{"id":"10132","ColType":"String","ColValue":"TX"}},
+{"data":{"title":"State"},"attr":{"id":"10134","ColType":"String","ColValue":"Uninitialized"}},
+{"data":{"title":"reg"},"attr":{"id":"10136","ColType":"Data","ColValue":"&lt;00d4164130feffff1440174130feffff1441174130feffff40c1174130feffff&gt;"}}
+]

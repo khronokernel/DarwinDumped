@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"71083","ColType":"String","ColValue":"AppleConvergedPCI"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"71085","ColType":"String","ColValue":"com.apple.driver.AppleConvergedPCI"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"71087","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"71089","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DevicePowerState"},"attr":{"id":"71091","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"71093","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"71095","ColType":"Number","ColValue":"32770"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"71097","ColType":"Number","ColValue":"1"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"71099","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"71101","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"IOPCIMatch"},"attr":{"id":"71103","ColType":"String","ColValue":"0x5fa014e4 0x5f6914e4 0x5f3114e4 0x5f7114e4"}},
+{"data":{"title":"port_auto_on"},"attr":{"id":"71105","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"ios"},"attr":{"id":"71107","ColType":"Boolean","ColValue":"No"}},{"data":{"title":"macos"},"attr":{"id":"71109","ColType":"Boolean","ColValue":"Yes"}}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"71111","ColType":"String","ColValue":"AppleConvergedPCI"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"71113","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"71115","ColType":"String","ColValue":"com.apple.driver.AppleConvergedPCI"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"71117","ColType":"String","ColValue":"com.apple.driver.AppleConvergedPCI"}},
+{"data":{"title":"IOPMResetPowerStateOnWake"},"attr":{"id":"71119","ColType":"Boolean","ColValue":"Yes"}}
+]

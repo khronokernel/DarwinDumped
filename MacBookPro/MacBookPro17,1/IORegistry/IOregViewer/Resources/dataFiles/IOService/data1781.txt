@@ -1,0 +1,19 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"411805","ColType":"String","ColValue":"AppleT8015TempSensor"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"411807","ColType":"String","ColValue":"com.apple.driver.AppleEmbeddedTempSensor"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"411809","ColType":"String","ColValue":"AppleARMIODevice"}},
+{"data":{"title":"IOFunctionParent00000104"},"attr":{"id":"411811","ColType":"Data","ColValue":"&lt;&gt;"}},
+{"data":{"title":"IOPlatformActiveAction"},"attr":{"id":"411813","ColType":"Number","ColValue":"950"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"411815","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CapabilityFlags"},"attr":{"id":"411817","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"411819","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"411821","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"IOPlatformQuiesceAction"},"attr":{"id":"411823","ColType":"Number","ColValue":"250"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"411825","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"411827","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"411828","ColType":"String","ColValue":"tempsensor,t8015"}},{"data":{"title":"1"},"attr":{"id":"411829","ColType":"String","ColValue":"tempsensor,t8020"}},{"data":{"title":"2"},"attr":{"id":"411830","ColType":"String","ColValue":"tempsensor,t8027"}},{"data":{"title":"3"},"attr":{"id":"411831","ColType":"String","ColValue":"tempsensor,t8030"}}]},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"411833","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"411835","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"411837","ColType":"String","ColValue":"tempsensor,t8020"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"411839","ColType":"String","ColValue":"com.apple.driver.AppleEmbeddedTempSensor"}},
+{"data":{"title":"location-name"},"attr":{"id":"411841","ColType":"Data","ColValue":"&lt;\"SOC MTR Temp Sensor0\"&gt;"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"411843","ColType":"String","ColValue":"com.apple.driver.AppleEmbeddedTempSensor"}},
+{"data":{"title":"DeviceOpenedByEventSystem"},"attr":{"id":"411845","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"QueueSize"},"attr":{"id":"411847","ColType":"Number","ColValue":"0"}}
+]

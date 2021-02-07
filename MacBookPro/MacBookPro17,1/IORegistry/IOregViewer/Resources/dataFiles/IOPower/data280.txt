@@ -1,0 +1,15 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"24423","ColType":"String","ColValue":"DCPAVAudioInterfaceProxy"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"24425","ColType":"String","ColValue":"com.apple.driver.DCPAVFamilyProxy"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"24427","ColType":"String","ColValue":"AFKEndpointInterface"}},
+{"data":{"title":"IOPropertyMatch"},"attr":{"id":"24429","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"EPICName"},"attr":{"id":"24431","ColType":"String","ColValue":"dcpav-audio-interface-epic"}}]},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"24433","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DevicePowerState"},"attr":{"id":"24435","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"24437","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"24439","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"24441","ColType":"Number","ColValue":"1"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"24443","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"24445","ColType":"String","ColValue":"DCPAVAudioInterfaceProxyUserClient"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"24447","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Unit"},"attr":{"id":"24449","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Location"},"attr":{"id":"24451","ColType":"String","ColValue":"External"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"24453","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"24455","ColType":"String","ColValue":"com.apple.driver.DCPAVFamilyProxy"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"24457","ColType":"String","ColValue":"com.apple.driver.DCPAVFamilyProxy"}},
+{"data":{"title":"IOAVAudioInterfaceUserInterfaceSupported"},"attr":{"id":"24459","ColType":"Boolean","ColValue":"Yes"}}
+]

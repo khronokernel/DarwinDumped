@@ -1,0 +1,18 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"71545","ColType":"String","ColValue":"AppleMultiFunctionManager"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"71547","ColType":"String","ColValue":"com.apple.driver.AppleMultiFunctionManager"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"71549","ColType":"String","ColValue":"IOPlatformDevice"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"71551","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DevicePowerState"},"attr":{"id":"71553","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"71555","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"71557","ColType":"Number","ColValue":"32770"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"71559","ColType":"Number","ColValue":"1"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"71561","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"forceProbeOnLinkdown"},"attr":{"id":"71563","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"manual_s2r_port_ctrl"},"attr":{"id":"71565","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"71567","ColType":"String","ColValue":"amfm"}},
+{"data":{"title":"valid_clients"},"attr":{"id":"71569","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"71570","ColType":"String","ColValue":"AppleBCMWLANPortInterfacePCIe"}},{"data":{"title":"1"},"attr":{"id":"71571","ColType":"String","ColValue":"AppleOLYHALPortInterfacePCIe"}},{"data":{"title":"2"},"attr":{"id":"71572","ColType":"String","ColValue":"IOService"}}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"71574","ColType":"String","ColValue":"AppleMultiFunctionManager"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"71576","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"71578","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"LoggingBundleName"},"attr":{"id":"71580","ColType":"String","ColValue":"com.apple.driver.AppleMultiFunctionManager"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"71582","ColType":"String","ColValue":"amfm"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"71584","ColType":"String","ColValue":"com.apple.driver.AppleMultiFunctionManager"}},
+{"data":{"title":"constants"},"attr":{"id":"71586","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"wlan_reg_on_on_delay"},"attr":{"id":"71588","ColType":"Number","ColValue":"120"}},{"data":{"title":"wlan_reg_on_off_delay"},"attr":{"id":"71590","ColType":"Number","ColValue":"120"}}]},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"71592","ColType":"String","ColValue":"com.apple.driver.AppleMultiFunctionManager"}}
+]

@@ -1,0 +1,49 @@
+2021-02-06 19:23:53 -0700 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  1
+   PreventUserIdleSystemSleep     1
+   NetworkClientActive            0
+Listed by owning process:
+   pid 11613(sharingd): [0x00033902000190d1] 00:00:09 PreventUserIdleSystemSleep named: "Handoff"  
+   pid 11549(UserEventAgent): [0x00033798000b8fc7] 00:06:11 BackgroundTask named: "com.apple.mail.ApplicationRefresh"  
+	Created for PID: 14177. 
+   pid 357(runningboardd): [0x000338c6000190a8] 00:01:09 PreventUserIdleSystemSleep named: "application<com.google.ios.youtubemusic(501)>357-11574-100224:AudioHAL(MediaPlayback)"  
+	Created for PID: 11574. 
+   pid 11472(WindowServer): [0x0002fcd600098159] 00:00:00 UserIsActive named: "com.apple.iohideventsystem.queue.tickle serviceID:1000008f8 name:AppleHIDKeyboardEve product:Apple Internal Keyb eventType:3"  
+	Timeout will fire in 600 secs Action=TimeoutActionRelease
+   pid 323(apsd): [0x00033909000b90e0] 00:00:02 ApplePushServiceTask named: "com.apple.apsd-datareceived-push.apple.com"  
+   pid 445(coreaudiod): [0x000338c600019b15] 00:01:09 PreventUserIdleSystemSleep named: "com.apple.audio.CADefaultDeviceAggregate-11574-35.context.preventuseridlesleep"  
+	Created for PID: 11574. 
+   pid 294(powerd): [0x0002e90a0001a4ab] 20:48:44 PreventUserIdleSystemSleep named: "Powerd - Prevent sleep while display is on"  
+   pid 294(powerd): [0x0002cf8c00089b2b] 07:32:47 ExternalMedia named: "com.apple.powermanagement.externalmediamounted"  
+   pid 11561(nsurlsessiond): [0x00033909000190dc] 00:00:03 PreventUserIdleSystemSleep named: "NSURLSessionTask 68143E47-626F-4918-AADE-57AECB9D45AB"  
+	Timeout will fire in 10797 secs Action=TimeoutActionTurnOff
+   pid 11561(nsurlsessiond): [0x00033909000190dd] 00:00:02 PreventUserIdleSystemSleep named: "NSURLSessionTask 4C73643C-C2A7-445E-A7F6-44DD0BB7B709"  
+	Timeout will fire in 10797 secs Action=TimeoutActionTurnOff
+   pid 11561(nsurlsessiond): [0x00033909000190e1] 00:00:02 PreventUserIdleSystemSleep named: "NSURLSessionTask 51C5AEF5-3E50-4FED-93E0-D3AB87171E55"  
+	Timeout will fire in 10798 secs Action=TimeoutActionTurnOff
+   pid 11561(nsurlsessiond): [0x0003390a000190e2] 00:00:01 PreventUserIdleSystemSleep named: "NSURLSessionTask BFA4E140-6796-4162-8BF2-BC5D03B9E3E4"  
+	Timeout will fire in 10798 secs Action=TimeoutActionTurnOff
+   pid 11561(nsurlsessiond): [0x0003390a000190e3] 00:00:01 PreventUserIdleSystemSleep named: "NSURLSessionTask EB005579-30EB-4F2D-898D-E4D075A07C6C"  
+	Timeout will fire in 10799 secs Action=TimeoutActionTurnOff
+   pid 11561(nsurlsessiond): [0x0003390b000190e4] 00:00:01 PreventUserIdleSystemSleep named: "NSURLSessionTask 824E041E-41F1-4EF9-9E29-E48FE0334022"  
+	Timeout will fire in 10799 secs Action=TimeoutActionTurnOff
+Kernel Assertions: 0x104=USB,MAGICWAKE
+   id=504  level=255 0x100=MAGICWAKE creat=2021-02-03, 3:38 PM  mod=2021-02-06, 7:15 PM description=llw0 owner=IOSkywalkNetworkBSDClient
+   id=507  level=255 0x100=MAGICWAKE creat=2021-02-03, 3:37 PM  mod=2021-02-06, 11:53 AM description=en0 owner=en0
+   id=656  level=255 0x4=USB creat=2021-02-06, 12:00 PM description=com.apple.usb.externaldevice.00100000 owner=USB2.0 Hub
+   id=658  level=255 0x4=USB creat=2021-02-06, 11:52 AM description=com.apple.usb.externaldevice.00110000 owner=USB3.0 5K Graphic Docking
+   id=659  level=255 0x4=USB creat=2021-02-06, 11:53 AM description=com.apple.usb.externaldevice.00140000 owner=JMS579
+   id=660  level=255 0x4=USB creat=2021-02-06, 11:54 AM description=com.apple.usb.externaldevice.00130000 owner=IOUSBHostDevice
+   id=662  level=255 0x4=USB creat=2021-02-06, 11:55 AM description=com.apple.usb.externaldevice.00120000 owner=USB2.1 Hub
+   id=664  level=255 0x4=USB creat=2021-02-06, 11:56 AM description=com.apple.usb.externaldevice.00150000 owner=Generic Billboard Device
+   id=665  level=255 0x4=USB creat=2021-02-06, 11:59 AM description=com.apple.usb.externaldevice.00131000 owner=USB Audio DAC   
+   id=666  level=255 0x4=USB creat=2021-02-06, 11:59 AM description=com.apple.usb.externaldevice.00134000 owner=USB Receiver
+   id=667  level=255 0x4=USB creat=2021-02-06, 12:00 PM description=com.apple.usb.externaldevice.00132000 owner=USB Receiver
+   id=668  level=255 0x4=USB creat=2021-02-06, 12:01 PM description=com.apple.usb.externaldevice.00124000 owner=USB PnP Audio Device
+   id=669  level=255 0x4=USB creat=2021-02-06, 12:02 PM description=com.apple.usb.externaldevice.00133000 owner=FT232R USB UART

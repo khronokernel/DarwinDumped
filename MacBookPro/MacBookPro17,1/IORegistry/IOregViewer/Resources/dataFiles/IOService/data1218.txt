@@ -1,0 +1,23 @@
+[
+{"data":{"title":"Transport"},"attr":{"id":"220701","ColType":"String","ColValue":"USB"}},
+{"data":{"title":"BootProtocol"},"attr":{"id":"220703","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"220705","ColType":"String","ColValue":""}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"220707","ColType":"String","ColValue":"Burr-Brown from TI              "}},
+{"data":{"title":"Product"},"attr":{"id":"220709","ColType":"String","ColValue":"USB Audio DAC   "}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"220711","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"220713","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"220714","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"220716","ColType":"Number","ColValue":"12"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"220718","ColType":"Number","ColValue":"1"}}]}]},
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"220720","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"220722","ColType":"Data","ColValue":"&lt;050c0901a10115002501050c09e209e909ea09b509b609b709cd0a9301950875018142c0&gt;"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"220724","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"VendorID"},"attr":{"id":"220726","ColType":"Number","ColValue":"2235"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"220728","ColType":"Number","ColValue":"256"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"220730","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"220731","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.hid"}}]},
+{"data":{"title":"IODEXTMatchCount"},"attr":{"id":"220733","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"220735","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"LocationID"},"attr":{"id":"220737","ColType":"Number","ColValue":"1249280"}},
+{"data":{"title":"ProductID"},"attr":{"id":"220739","ColType":"Number","ColValue":"9988"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"220741","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"220743","ColType":"Number","ColValue":"12"}},
+{"data":{"title":"DeviceOpenedByEventSystem"},"attr":{"id":"220745","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"220747","ColType":"Number","ColValue":"0"}}
+]

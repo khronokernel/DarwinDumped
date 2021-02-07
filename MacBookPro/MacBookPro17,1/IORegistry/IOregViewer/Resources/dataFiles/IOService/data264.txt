@@ -1,0 +1,20 @@
+[
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"10768","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"DeviceOpenedByEventSystem"},"attr":{"id":"10770","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"VendorID"},"attr":{"id":"10772","ColType":"Number","ColValue":"1452"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"10774","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"10776","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"10777","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.hid"}}]},
+{"data":{"title":"Product"},"attr":{"id":"10779","ColType":"String","ColValue":"Apple Internal Keyboard / Trackpad"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"10781","ColType":"Number","ColValue":"373"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"10783","ColType":"Number","ColValue":"11"}},
+{"data":{"title":"LocationID"},"attr":{"id":"10785","ColType":"Number","ColValue":"36"}},
+{"data":{"title":"ProductID"},"attr":{"id":"10787","ColType":"Number","ColValue":"833"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"10789","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"10790","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"10792","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"10794","ColType":"Number","ColValue":"11"}}]}]},
+{"data":{"title":"Transport"},"attr":{"id":"10796","ColType":"String","ColValue":"SPI"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"10798","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"10800","ColType":"Data","ColValue":"&lt;0600ff090ba1010600ff090b150026ff00750896040085e081220600ff090b150026ff0075089501850c81220600ff090b150026ff00752096080085bbb20100c0&gt;"}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"10802","ColType":"String","ColValue":"Apple Inc."}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"10804","ColType":"Number","ColValue":"65280"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"10806","ColType":"Number","ColValue":"33"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"10808","ColType":"Number","ColValue":"5"}}
+]

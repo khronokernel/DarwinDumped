@@ -1,0 +1,12 @@
+[
+{"data":{"title":"IOPropertyMatch"},"attr":{"id":"179066","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"device-type"},"attr":{"id":"179068","ColType":"String","ColValue":"Generic"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"179070","ColType":"String","ColValue":"com.apple.iokit.IOStorageFamily"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"179072","ColType":"String","ColValue":"IOBlockStorageDevice"}},
+{"data":{"title":"IOClass"},"attr":{"id":"179074","ColType":"String","ColValue":"IOBlockStorageDriver"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"179076","ColType":"String","ColValue":"com.apple.iokit.IOStorageFamily"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"179078","ColType":"String","ColValue":"com.apple.iokit.IOStorageFamily"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"179080","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Statistics"},"attr":{"id":"179082","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Operations (Write)"},"attr":{"id":"179084","ColType":"Number","ColValue":"4507100"}},{"data":{"title":"Latency Time (Write)"},"attr":{"id":"179086","ColType":"Number","ColValue":"0"}},{"data":{"title":"Bytes (Read)"},"attr":{"id":"179088","ColType":"Number","ColValue":"561589084160"}},{"data":{"title":"Errors (Write)"},"attr":{"id":"179090","ColType":"Number","ColValue":"0"}},{"data":{"title":"Total Time (Read)"},"attr":{"id":"179092","ColType":"Number","ColValue":"5397711679686"}},{"data":{"title":"Latency Time (Read)"},"attr":{"id":"179094","ColType":"Number","ColValue":"0"}},{"data":{"title":"Retries (Read)"},"attr":{"id":"179096","ColType":"Number","ColValue":"0"}},{"data":{"title":"Errors (Read)"},"attr":{"id":"179098","ColType":"Number","ColValue":"0"}},{"data":{"title":"Total Time (Write)"},"attr":{"id":"179100","ColType":"Number","ColValue":"455799937903"}},{"data":{"title":"Bytes (Write)"},"attr":{"id":"179102","ColType":"Number","ColValue":"181309272064"}},{"data":{"title":"Operations (Read)"},"attr":{"id":"179104","ColType":"Number","ColValue":"16199896"}},{"data":{"title":"Retries (Write)"},"attr":{"id":"179106","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"179108","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"179110","ColType":"String","ColValue":"IOCommand is not serializable"}}
+]

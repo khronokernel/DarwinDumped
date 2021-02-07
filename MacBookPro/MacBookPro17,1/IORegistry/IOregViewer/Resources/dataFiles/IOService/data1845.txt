@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"417215","ColType":"String","ColValue":"AppleSMCSensorDispatcher"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"417217","ColType":"String","ColValue":"com.apple.driver.AppleSMC"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"417219","ColType":"String","ColValue":"AppleARMIODevice"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"417221","ColType":"String","ColValue":"AppleSMCSensorDispatcherUserClient"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"417223","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"417225","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"417226","ColType":"String","ColValue":"smc-tempsensor"}}]},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"417228","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"417230","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"417232","ColType":"String","ColValue":"smc-tempsensor"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"417234","ColType":"String","ColValue":"com.apple.driver.AppleSMC"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"417236","ColType":"String","ColValue":"com.apple.driver.AppleSMC"}},
+{"data":{"title":"QueueSize"},"attr":{"id":"417238","ColType":"Number","ColValue":"0"}}
+]

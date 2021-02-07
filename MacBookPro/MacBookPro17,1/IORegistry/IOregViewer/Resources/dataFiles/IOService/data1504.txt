@@ -1,0 +1,15 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"398281","ColType":"String","ColValue":"DCPAVAudioInterfaceProxy"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"398283","ColType":"String","ColValue":"com.apple.driver.DCPAVFamilyProxy"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"398285","ColType":"String","ColValue":"AFKEndpointInterface"}},
+{"data":{"title":"IOPropertyMatch"},"attr":{"id":"398287","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"EPICName"},"attr":{"id":"398289","ColType":"String","ColValue":"dcpav-audio-interface-epic"}}]},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"398291","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DevicePowerState"},"attr":{"id":"398293","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"398295","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"398297","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"398299","ColType":"Number","ColValue":"1"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"398301","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"398303","ColType":"String","ColValue":"DCPAVAudioInterfaceProxyUserClient"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"398305","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Unit"},"attr":{"id":"398307","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Location"},"attr":{"id":"398309","ColType":"String","ColValue":"External"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"398311","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"398313","ColType":"String","ColValue":"com.apple.driver.DCPAVFamilyProxy"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"398315","ColType":"String","ColValue":"com.apple.driver.DCPAVFamilyProxy"}},
+{"data":{"title":"IOAVAudioInterfaceUserInterfaceSupported"},"attr":{"id":"398317","ColType":"Boolean","ColValue":"Yes"}}
+]

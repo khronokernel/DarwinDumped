@@ -1,0 +1,9 @@
+[
+{"data":{"title":"User Client Version"},"attr":{"id":"73385","ColType":"Number","ColValue":"5"}},
+{"data":{"title":"Generation"},"attr":{"id":"73387","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"73389","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"3A0F596B-5D02-41D3-99D4-E27D4F218A54"},"attr":{"id":"73391","ColType":"String","ColValue":"IOThunderboltFamily.kext/Contents/PlugIns/IOThunderboltLib.plugin"}}]},
+{"data":{"title":"JTAG Device Count"},"attr":{"id":"73393","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"73395","ColType":"String","ColValue":"IOThunderboltFamilyUserClient"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"73397","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"ChildrenPowerState"},"attr":{"id":"73399","ColType":"Number","ColValue":"2"}},{"data":{"title":"DesiredPowerState"},"attr":{"id":"73401","ColType":"Number","ColValue":"2"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"73403","ColType":"Number","ColValue":"0"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"73405","ColType":"Number","ColValue":"0"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"73407","ColType":"Number","ColValue":"2"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"73409","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"Using Bus Power"},"attr":{"id":"73411","ColType":"Boolean","ColValue":"No"}}
+]

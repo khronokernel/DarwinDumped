@@ -1,0 +1,10 @@
+[
+{"data":{"title":"enable-sw-drain"},"attr":{"id":"209035","ColType":"Data","ColValue":"&lt;01000000&gt;"}},
+{"data":{"title":"dock-wstat-mask"},"attr":{"id":"209037","ColType":"Data","ColValue":"&lt;ff0f0000&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"209039","ColType":"Data","ColValue":"&lt;\"dockchannel-uart\"&gt;"}},
+{"data":{"title":"IODeviceMemory"},"attr":{"id":"209041","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"209042","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"209043","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"address"},"attr":{"id":"209045","ColType":"Number","ColValue":"9614557184"}},{"data":{"title":"length"},"attr":{"id":"209047","ColType":"Number","ColValue":"65536"}}]}]},{"data":{"title":"1"},"attr":{"id":"209048","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"209049","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"address"},"attr":{"id":"209051","ColType":"Number","ColValue":"9614442496"}},{"data":{"title":"length"},"attr":{"id":"209053","ColType":"Number","ColValue":"24"}}]}]}]},
+{"data":{"title":"max-aop-clk"},"attr":{"id":"209055","ColType":"Data","ColValue":"&lt;00882a11&gt;"}},
+{"data":{"title":"reg"},"attr":{"id":"209057","ColType":"Data","ColValue":"&lt;0080123d00000000000001000000000000c0103d000000001800000000000000&gt;"}},
+{"data":{"title":"AAPL,phandle"},"attr":{"id":"209059","ColType":"Data","ColValue":"&lt;a3000000&gt;"}},
+{"data":{"title":"device_type"},"attr":{"id":"209061","ColType":"Data","ColValue":"&lt;\"dockchannel\"&gt;"}}
+]

@@ -1,0 +1,12 @@
+[
+{"data":{"title":"IOProbeScore"},"attr":{"id":"13546","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"13548","ColType":"String","ColValue":"com.apple.driver.SEPHibernation"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"13550","ColType":"String","ColValue":"AppleSEPDeviceService"}},
+{"data":{"title":"IOClass"},"attr":{"id":"13552","ColType":"String","ColValue":"HibernationService"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"13554","ColType":"String","ColValue":"com.apple.driver.SEPHibernation"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"13556","ColType":"String","ColValue":"com.apple.driver.SEPHibernation"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"13558","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"13560","ColType":"String","ColValue":"sep-endpoint,hibe"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"13562","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CapabilityFlags"},"attr":{"id":"13564","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"13566","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"13568","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"IONameMatched"},"attr":{"id":"13570","ColType":"String","ColValue":"sep-endpoint,hibe"}}
+]

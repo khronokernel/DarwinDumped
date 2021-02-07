@@ -1,0 +1,14 @@
+[
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"364582","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"364584","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"364585","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.hid"}}]},
+{"data":{"title":"Product"},"attr":{"id":"364587","ColType":"String","ColValue":"BTM"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"364589","ColType":"Number","ColValue":"72"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"364591","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"364592","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"364594","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"364596","ColType":"Number","ColValue":"72"}}]}]},
+{"data":{"title":"Transport"},"attr":{"id":"364598","ColType":"String","ColValue":"SPMI"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"364600","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"364602","ColType":"Data","ColValue":"&lt;0600ff0a4800a1010629ff8501257f950175080901b1020902b1020925a10385022476983e090381220904763802b102c0c0&gt;"}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"364604","ColType":"String","ColValue":"APPL"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"364606","ColType":"Number","ColValue":"65280"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"364608","ColType":"Number","ColValue":"72"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"364610","ColType":"Number","ColValue":"2004"}}
+]

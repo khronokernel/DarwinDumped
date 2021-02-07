@@ -1,0 +1,15 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"168948","ColType":"String","ColValue":"AppleAOPAudioPDM2Device"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"168950","ColType":"String","ColValue":"com.apple.driver.AppleAOPAudio"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"168952","ColType":"String","ColValue":"AppleAOPAudioDeviceNode"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"168954","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CapabilityFlags"},"attr":{"id":"168956","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"168958","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"168960","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"168962","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"168964","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"168965","ColType":"String","ColValue":"audio-aop-pdm2"}},{"data":{"title":"1"},"attr":{"id":"168966","ColType":"String","ColValue":"audio-pdm2"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"168968","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"168970","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"168972","ColType":"String","ColValue":"audio-pdm2"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"168974","ColType":"String","ColValue":"com.apple.driver.AppleAOPAudio"}},
+{"data":{"title":"IOFunctionParent0000007B"},"attr":{"id":"168976","ColType":"Data","ColValue":"&lt;&gt;"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"168978","ColType":"String","ColValue":"com.apple.driver.AppleAOPAudio"}},
+{"data":{"title":"id0"},"attr":{"id":"168980","ColType":"String","ColValue":"pdm0"}}
+]

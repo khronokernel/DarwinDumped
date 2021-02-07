@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"9207","ColType":"String","ColValue":"AppleSamsungSerial"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"9209","ColType":"String","ColValue":"com.apple.driver.AppleSamsungSerial"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"9211","ColType":"String","ColValue":"AppleARMIODevice"}},
+{"data":{"title":"IOTTYBaseName"},"attr":{"id":"9213","ColType":"String","ColValue":"debug-console"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"9215","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CapabilityFlags"},"attr":{"id":"9217","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"9219","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"9221","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"9223","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"9225","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"9226","ColType":"String","ColValue":"uart-1,samsung"}}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"9228","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"9230","ColType":"String","ColValue":"uart-1,samsung"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"9232","ColType":"String","ColValue":"com.apple.driver.AppleSamsungSerial"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"9234","ColType":"String","ColValue":"com.apple.driver.AppleSamsungSerial"}},
+{"data":{"title":"IOTTYSuffix"},"attr":{"id":"9236","ColType":"String","ColValue":""}}
+]

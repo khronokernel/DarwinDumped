@@ -1,0 +1,13 @@
+[
+{"data":{"title":"interrupt-parent"},"attr":{"id":"7812","ColType":"Data","ColValue":"&lt;6d000000&gt;"}},
+{"data":{"title":"compatible"},"attr":{"id":"7814","ColType":"Data","ColValue":"&lt;\"fpwm,t8101\",\"fpwm,s5l8920x\"&gt;"}},
+{"data":{"title":"reg"},"attr":{"id":"7816","ColType":"Data","ColValue":"&lt;00400435000000000040000000000000&gt;"}},
+{"data":{"title":"interrupts"},"attr":{"id":"7818","ColType":"Data","ColValue":"&lt;79020000&gt;"}},
+{"data":{"title":"IODeviceMemory"},"attr":{"id":"7820","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"7821","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"7822","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"address"},"attr":{"id":"7824","ColType":"Number","ColValue":"9479405568"}},{"data":{"title":"length"},"attr":{"id":"7826","ColType":"Number","ColValue":"16384"}}]}]}]},
+{"data":{"title":"clock-gates"},"attr":{"id":"7828","ColType":"Data","ColValue":"&lt;25000000&gt;"}},
+{"data":{"title":"IOInterruptControllers"},"attr":{"id":"7830","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"7831","ColType":"String","ColValue":"IOInterruptController0000006D"}}]},
+{"data":{"title":"IOInterruptSpecifiers"},"attr":{"id":"7833","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"7834","ColType":"Data","ColValue":"&lt;79020000&gt;"}}]},
+{"data":{"title":"device_type"},"attr":{"id":"7836","ColType":"Data","ColValue":"&lt;\"fpwm\"&gt;"}},
+{"data":{"title":"AAPL,phandle"},"attr":{"id":"7838","ColType":"Data","ColValue":"&lt;3b000000&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"7840","ColType":"Data","ColValue":"&lt;\"fpwm\"&gt;"}}
+]

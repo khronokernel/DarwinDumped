@@ -1,0 +1,21 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"73487","ColType":"String","ColValue":"AppleT8103USBXHCI"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"73489","ColType":"String","ColValue":"com.apple.driver.usb.AppleUSBHostT8103"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"73491","ColType":"String","ColValue":"AppleARMIODevice"}},
+{"data":{"title":"kUSBSleepSupported"},"attr":{"id":"73493","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"kUSBSleepPortCurrentLimit"},"attr":{"id":"73495","ColType":"Number","ColValue":"3000"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"73497","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"ChildrenPowerState"},"attr":{"id":"73499","ColType":"Number","ColValue":"3"}},{"data":{"title":"DevicePowerState"},"attr":{"id":"73501","ColType":"Number","ColValue":"0"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"73503","ColType":"Number","ColValue":"3"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"73505","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"73507","ColType":"Number","ColValue":"3"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"73509","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"kUSBWakePortCurrentLimit"},"attr":{"id":"73511","ColType":"Number","ColValue":"3000"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"73513","ColType":"Number","ColValue":"10000"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"73515","ColType":"String","ColValue":"usb-drd,t8103"}},
+{"data":{"title":"locationID"},"attr":{"id":"73517","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"73519","ColType":"String","ColValue":"usb-host"}},
+{"data":{"title":"UsbHostControllerTierLimit"},"attr":{"id":"73521","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"Revision"},"attr":{"id":"73523","ColType":"Data","ColValue":"&lt;0103&gt;"}},
+{"data":{"title":"controller-statistics"},"attr":{"id":"73525","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"kControllerStatIOCount"},"attr":{"id":"73527","ColType":"Number","ColValue":"85382913"}},{"data":{"title":"kControllerStatPowerStateTime"},"attr":{"id":"73529","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"kPowerStateOff"},"attr":{"id":"73531","ColType":"String","ColValue":"37253751ms (17%)"}},{"data":{"title":"kPowerStateSleep"},"attr":{"id":"73533","ColType":"String","ColValue":"10051ms (0%)"}},{"data":{"title":"kPowerStateOn"},"attr":{"id":"73535","ColType":"String","ColValue":"173935658ms (82%)"}},{"data":{"title":"kPowerStateSuspended"},"attr":{"id":"73537","ColType":"String","ColValue":"9648ms (0%)"}}]},{"data":{"title":"kControllerStatSpuriousInterruptCount"},"attr":{"id":"73539","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IONameMatched"},"attr":{"id":"73541","ColType":"String","ColValue":"usb-drd,t8103"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"73543","ColType":"String","ColValue":"com.apple.driver.usb.AppleUSBHostT8103"}},
+{"data":{"title":"UsbHostControllerDeferRegisterService"},"attr":{"id":"73545","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"73547","ColType":"String","ColValue":"com.apple.driver.usb.AppleUSBHostT8103"}},
+{"data":{"title":"UsbHostControllerStreamPolicy"},"attr":{"id":"73549","ColType":"Number","ColValue":"2"}}
+]

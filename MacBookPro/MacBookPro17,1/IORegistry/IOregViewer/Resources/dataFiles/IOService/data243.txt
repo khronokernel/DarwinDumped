@@ -1,0 +1,12 @@
+[
+{"data":{"title":"DefaultMultitouchProperties"},"attr":{"id":"8000","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MT Built-In"},"attr":{"id":"8002","ColType":"Boolean","ColValue":"Yes"}},{"data":{"title":"parser-options"},"attr":{"id":"8004","ColType":"Number","ColValue":"16"}},{"data":{"title":"parser-type"},"attr":{"id":"8006","ColType":"Number","ColValue":"1"}},{"data":{"title":"HIDServiceSupport"},"attr":{"id":"8008","ColType":"Boolean","ColValue":"Yes"}},{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"8010","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"0516B563-B15B-11DA-96EB-0014519758EF"},"attr":{"id":"8012","ColType":"String","ColValue":"AppleMultitouchDriver.kext/Contents/PlugIns/MultitouchHID.plugin"}}]}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"8014","ColType":"String","ColValue":"com.apple.driver.AppleMultitouchDriver"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"8016","ColType":"String","ColValue":"IOHIDInterface"}},
+{"data":{"title":"IOClass"},"attr":{"id":"8018","ColType":"String","ColValue":"AppleMultitouchHIDService"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"8020","ColType":"String","ColValue":"com.apple.driver.AppleMultitouchDriver"}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"8022","ColType":"String","ColValue":"Apple"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"8024","ColType":"String","ColValue":"com.apple.driver.AppleMultitouchDriver"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"8026","ColType":"Number","ColValue":"1200"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"8028","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"8029","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"8031","ColType":"Number","ColValue":"13"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"8033","ColType":"Number","ColValue":"4"}}]}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"8035","ColType":"String","ColValue":"IODefaultMatchCategory"}}
+]

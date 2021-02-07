@@ -1,0 +1,14 @@
+System-wide power settings:
+Currently in use:
+ standby              1
+ Sleep On Power Button 1
+ hibernatefile        /var/vm/sleepimage
+ powernap             1
+ networkoversleep     0
+ disksleep            10
+ sleep                1 (sleep prevented by sharingd, runningboardd, coreaudiod, powerd, nsurlsessiond, nsurlsessiond, nsurlsessiond, nsurlsessiond, nsurlsessiond)
+ hibernatemode        3
+ ttyskeepawake        1
+ displaysleep         10
+ tcpkeepalive         1
+ womp                 1

@@ -1,0 +1,13 @@
+[
+{"data":{"title":"IOProbeScore"},"attr":{"id":"72166","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"72168","ColType":"String","ColValue":"com.apple.driver.IOBluetoothHostControllerPCIeTransport"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"72170","ColType":"String","ColValue":"IOBluetoothHostControllerPCIeTransport"}},
+{"data":{"title":"IOClass"},"attr":{"id":"72172","ColType":"String","ColValue":"IOBluetoothHostControllerPCIeTransport"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"72174","ColType":"String","ColValue":"com.apple.driver.IOBluetoothHostControllerPCIeTransport"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"72176","ColType":"String","ColValue":"AppleConvergedIPCOLYBTControl"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"72178","ColType":"String","ColValue":"com.apple.driver.IOBluetoothHostControllerPCIeTransport"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"72180","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DevicePowerState"},"attr":{"id":"72182","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"72184","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"72186","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"72188","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"LMPLoggingAvailable"},"attr":{"id":"72190","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"SupportNewIdlePolicy"},"attr":{"id":"72192","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"LMPLoggingEnabled"},"attr":{"id":"72194","ColType":"Boolean","ColValue":"Yes"}}
+]

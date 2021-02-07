@@ -1,0 +1,15 @@
+[
+{"data":{"title":"sensor-accuracy"},"attr":{"id":"416597","ColType":"Data","ColValue":"&lt;02000000&gt;"}},
+{"data":{"title":"compatible"},"attr":{"id":"416599","ColType":"Data","ColValue":"&lt;\"mtrtempsensor,t8020\"&gt;"}},
+{"data":{"title":"reg-64-bit"},"attr":{"id":"416601","ColType":"Data","ColValue":"&lt;00000000&gt;"}},
+{"data":{"title":"AAPL,phandle"},"attr":{"id":"416603","ColType":"Data","ColValue":"&lt;12010000&gt;"}},
+{"data":{"title":"sensor-offset-readBK1"},"attr":{"id":"416605","ColType":"Data","ColValue":"&lt;0402000000000000&gt;"}},
+{"data":{"title":"reg"},"attr":{"id":"416607","ColType":"Data","ColValue":"&lt;00002e3b000000000080000000000000&gt;"}},
+{"data":{"title":"sensor-offset-readBK"},"attr":{"id":"416609","ColType":"Data","ColValue":"&lt;0002000000000000&gt;"}},
+{"data":{"title":"IODeviceMemory"},"attr":{"id":"416611","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"416612","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"416613","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"address"},"attr":{"id":"416615","ColType":"Number","ColValue":"9582804992"}},{"data":{"title":"length"},"attr":{"id":"416617","ColType":"Number","ColValue":"32768"}}]}]}]},
+{"data":{"title":"device_type"},"attr":{"id":"416619","ColType":"Data","ColValue":"&lt;\"tempsensor\"&gt;"}},
+{"data":{"title":"location-name"},"attr":{"id":"416621","ColType":"Data","ColValue":"&lt;\"GPU MTR Temp Sensor1\"&gt;"}},
+{"data":{"title":"sensor-AvgMax"},"attr":{"id":"416623","ColType":"Data","ColValue":"&lt;00000000&gt;"}},
+{"data":{"title":"location-id"},"attr":{"id":"416625","ColType":"Data","ColValue":"&lt;\"i1gT\"&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"416627","ColType":"Data","ColValue":"&lt;\"mtrtempsensor17\"&gt;"}}
+]

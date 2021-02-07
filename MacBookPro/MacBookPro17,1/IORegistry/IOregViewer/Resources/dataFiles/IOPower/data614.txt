@@ -1,0 +1,19 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"215584","ColType":"String","ColValue":"IOUSBMassStorageDriver"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"215586","ColType":"String","ColValue":"com.apple.iokit.IOUSBMassStorageDriver"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"215588","ColType":"String","ColValue":"IOUSBMassStorageDriverNub"}},
+{"data":{"title":"Write Time Out Duration"},"attr":{"id":"215590","ColType":"Number","ColValue":"30000"}},
+{"data":{"title":"USB Mass Storage Trace ID"},"attr":{"id":"215592","ColType":"Number","ColValue":"1525881861703991296"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"215594","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"ChildrenPowerState"},"attr":{"id":"215596","ColType":"Number","ColValue":"1"}},{"data":{"title":"DevicePowerState"},"attr":{"id":"215598","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"215600","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"215602","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"215604","ColType":"Number","ColValue":"1"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"215606","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"Read Time Out Duration"},"attr":{"id":"215608","ColType":"Number","ColValue":"30000"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"215610","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOUnit"},"attr":{"id":"215612","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"215614","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"Retry Count"},"attr":{"id":"215616","ColType":"Number","ColValue":"20"}},
+{"data":{"title":"Protocol Characteristics"},"attr":{"id":"215618","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Physical Interconnect"},"attr":{"id":"215620","ColType":"String","ColValue":"USB"}},{"data":{"title":"Read Time Out Duration"},"attr":{"id":"215622","ColType":"Number","ColValue":"30000"}},{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"215624","ColType":"String","ColValue":"External"}},{"data":{"title":"Write Time Out Duration"},"attr":{"id":"215626","ColType":"Number","ColValue":"30000"}},{"data":{"title":"Retry Count"},"attr":{"id":"215628","ColType":"Number","ColValue":"20"}}]},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"215630","ColType":"String","ColValue":"com.apple.iokit.IOUSBMassStorageDriver"}},
+{"data":{"title":"bInterfaceProtocol"},"attr":{"id":"215632","ColType":"Number","ColValue":"80"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"215634","ColType":"String","ColValue":"com.apple.iokit.IOUSBMassStorageDriver"}},
+{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"215636","ColType":"String","ColValue":"External"}},
+{"data":{"title":"No INQUIRY VPD Pages"},"attr":{"id":"215638","ColType":"Boolean","ColValue":"Yes"}}
+]

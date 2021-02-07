@@ -1,0 +1,13 @@
+[
+{"data":{"title":"IOProbeScore"},"attr":{"id":"49157","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"49159","ColType":"String","ColValue":"com.apple.driver.AppleFirmwareKit"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"49161","ColType":"String","ColValue":"AFKEndpointInterface"}},
+{"data":{"title":"IOClass"},"attr":{"id":"49163","ColType":"String","ColValue":"AFKRemoteMemoryDescriptorAllocator"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"49165","ColType":"String","ColValue":"com.apple.driver.AppleFirmwareKit"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"49167","ColType":"String","ColValue":"com.apple.driver.AppleFirmwareKit"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"49169","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"49171","ColType":"String","ColValue":"afk-remote-allocator"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"49173","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"49175","ColType":"Number","ColValue":"0"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"49177","ColType":"Number","ColValue":"0"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"49179","ColType":"Number","ColValue":"1"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"49181","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IONameMatched"},"attr":{"id":"49183","ColType":"String","ColValue":"afk-remote-allocator"}},
+{"data":{"title":"DebugState"},"attr":{"id":"49185","ColType":"Array","ColValue":"0_values"},"children":[]}
+]

@@ -1,0 +1,21 @@
+[
+{"data":{"title":"IOAudioStreamSampleFormatByteOrder"},"attr":{"id":"216588","ColType":"String","ColValue":"Little Endian"}},
+{"data":{"title":"USBADC"},"attr":{"id":"216590","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOAudioEngineInputSampleOffset"},"attr":{"id":"216592","ColType":"Number","ColValue":"162"}},
+{"data":{"title":"idProduct"},"attr":{"id":"216594","ColType":"Number","ColValue":"5663"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"216596","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"IOAudioEngineState"},"attr":{"id":"216598","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"locationID"},"attr":{"id":"216600","ColType":"Number","ColValue":"1196032"}},
+{"data":{"title":"IOAudioEngineInputSampleLatency"},"attr":{"id":"216602","ColType":"Number","ColValue":"48"}},
+{"data":{"title":"IOAudioEngineUseHiResSampleInterval"},"attr":{"id":"216604","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOAudioEngineDescription"},"attr":{"id":"216606","ColType":"String","ColValue":"USB PnP Audio Device"}},
+{"data":{"title":"IOAudioEngineNumSampleFramesPerBuffer"},"attr":{"id":"216608","ColType":"Number","ColValue":"32768"}},
+{"data":{"title":"IOAudioEngineGlobalUniqueID"},"attr":{"id":"216610","ColType":"String","ColValue":"AppleUSBAudioEngine:Unknown Manufacturer:USB PnP Audio Device:124000:2"}},
+{"data":{"title":"idVendor"},"attr":{"id":"216612","ColType":"Number","ColValue":"3190"}},
+{"data":{"title":"IOAudioEngineClockDomain"},"attr":{"id":"216614","ColType":"Number","ColValue":"12394496"}},
+{"data":{"title":"IOAudioSampleRate"},"attr":{"id":"216616","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOAudioSampleRateWholeNumber"},"attr":{"id":"216618","ColType":"Number","ColValue":"48000"}},{"data":{"title":"IOAudioSampleRateFraction"},"attr":{"id":"216620","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOAudioEngineSampleOffset"},"attr":{"id":"216622","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOAudioEngineFlavor"},"attr":{"id":"216624","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"IOAudioEngineChannelNames"},"attr":{"id":"216626","ColType":"Dictionary","ColValue":"0_values"},"children":[]},
+{"data":{"title":"IOAudioEngineClockIsStable"},"attr":{"id":"216628","ColType":"Boolean","ColValue":"Yes"}}
+]

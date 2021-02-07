@@ -1,0 +1,17 @@
+[
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"122660","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"DeviceOpenedByEventSystem"},"attr":{"id":"122662","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"122664","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"122665","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.hid"}}]},
+{"data":{"title":"Product"},"attr":{"id":"122667","ColType":"String","ColValue":"Headset"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"122669","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"IODEXTMatchCount"},"attr":{"id":"122671","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"122673","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"122674","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"122676","ColType":"Number","ColValue":"12"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"122678","ColType":"Number","ColValue":"1"}}]}]},
+{"data":{"title":"Transport"},"attr":{"id":"122680","ColType":"String","ColValue":"Audio"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"122682","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"122684","ColType":"Data","ColValue":"&lt;050c0901a101050c09cd09ea09e91500250195037501810295058105c0&gt;"}},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"122686","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"122688","ColType":"String","ColValue":"Apple"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"122690","ColType":"Number","ColValue":"12"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"122692","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"122694","ColType":"Number","ColValue":"1"}}
+]

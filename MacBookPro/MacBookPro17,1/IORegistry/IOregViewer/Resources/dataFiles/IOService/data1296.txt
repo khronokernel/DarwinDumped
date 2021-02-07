@@ -1,0 +1,11 @@
+[
+{"data":{"title":"IOPropertyMatch"},"attr":{"id":"361587","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"ConfigurationType"},"attr":{"id":"361589","ColType":"String","ColValue":"ncmAuxBringup"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"361591","ColType":"String","ColValue":"com.apple.iokit.IOUSBDeviceFamily"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"361593","ColType":"String","ColValue":"IOUSBDeviceController"}},
+{"data":{"title":"IOClass"},"attr":{"id":"361595","ColType":"String","ColValue":"IOUSBDeviceConfigurator"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"361597","ColType":"String","ColValue":"com.apple.iokit.IOUSBDeviceFamily"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"361599","ColType":"String","ColValue":"com.apple.iokit.IOUSBDeviceFamily"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"361601","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"DeviceDescription"},"attr":{"id":"361603","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"ConfigurationDescriptors"},"attr":{"id":"361605","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"361606","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Attributes"},"attr":{"id":"361608","ColType":"Number","ColValue":"224"}},{"data":{"title":"Interfaces"},"attr":{"id":"361610","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"361611","ColType":"String","ColValue":"AppleUSBNCMControl"}},{"data":{"title":"1"},"attr":{"id":"361612","ColType":"String","ColValue":"AppleUSBNCMData"}},{"data":{"title":"2"},"attr":{"id":"361613","ColType":"String","ColValue":"AppleUSBNCMControlAux"}},{"data":{"title":"3"},"attr":{"id":"361614","ColType":"String","ColValue":"AppleUSBNCMDataAux"}}]},{"data":{"title":"MaxPower"},"attr":{"id":"361616","ColType":"Number","ColValue":"0"}}]}]}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"361618","ColType":"String","ColValue":"IODefaultMatchCategory"}}
+]

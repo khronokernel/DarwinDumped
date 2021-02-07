@@ -1,0 +1,13 @@
+[
+{"data":{"title":"IOProbeScore"},"attr":{"id":"70920","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"70922","ColType":"String","ColValue":"com.apple.iokit.IOSkywalkFamily"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"70924","ColType":"String","ColValue":"IOSkywalkNetworkInterface"}},
+{"data":{"title":"IOClass"},"attr":{"id":"70926","ColType":"String","ColValue":"IOSkywalkNetworkBSDClient"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"70928","ColType":"String","ColValue":"com.apple.iokit.IOSkywalkFamily"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"70930","ColType":"String","ColValue":"com.apple.iokit.IOSkywalkFamily"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"70932","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOPMResetPowerStateOnWake"},"attr":{"id":"70934","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"70936","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DevicePowerState"},"attr":{"id":"70938","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"70940","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"70942","ColType":"Number","ColValue":"33026"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"70944","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"70946","ColType":"String","ColValue":"IOBSD"}},
+{"data":{"title":"IOSkywalkNexusUUID"},"attr":{"id":"70948","ColType":"String","ColValue":"00947087-90AD-44DB-A9D9-DAB29ADCB52B"}}
+]

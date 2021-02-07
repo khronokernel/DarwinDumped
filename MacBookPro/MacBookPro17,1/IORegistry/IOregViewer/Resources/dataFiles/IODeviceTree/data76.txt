@@ -1,0 +1,12 @@
+[
+{"data":{"title":"device_type"},"attr":{"id":"8869","ColType":"Data","ColValue":"&lt;\"pcie-device\"&gt;"}},
+{"data":{"title":"compatible"},"attr":{"id":"8871","ColType":"Data","ColValue":"&lt;\"wlan-pcie,bcm4378\",\"wlan-pcie,bcm\"&gt;"}},
+{"data":{"title":"pci-aspm-default"},"attr":{"id":"8873","ColType":"Data","ColValue":"&lt;02000000&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"8875","ColType":"Data","ColValue":"&lt;\"bluetooth-pcie\"&gt;"}},
+{"data":{"title":"built-in"},"attr":{"id":"8877","ColType":"Data","ColValue":"&lt;00000000&gt;"}},
+{"data":{"title":"iommu-parent"},"attr":{"id":"8879","ColType":"Data","ColValue":"&lt;4e000000&gt;"}},
+{"data":{"title":"#address-cells"},"attr":{"id":"8881","ColType":"Data","ColValue":"&lt;01000000&gt;"}},
+{"data":{"title":"pci-max-latency"},"attr":{"id":"8883","ColType":"Data","ColValue":"&lt;08100810&gt;"}},
+{"data":{"title":"AAPL,phandle"},"attr":{"id":"8885","ColType":"Data","ColValue":"&lt;4b000000&gt;"}},
+{"data":{"title":"#size-cells"},"attr":{"id":"8887","ColType":"Data","ColValue":"&lt;00000000&gt;"}}
+]

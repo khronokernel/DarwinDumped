@@ -1,0 +1,17 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"416629","ColType":"String","ColValue":"AppleT8020MTRTempSensor"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"416631","ColType":"String","ColValue":"com.apple.driver.AppleEmbeddedTempSensor"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"416633","ColType":"String","ColValue":"AppleARMIODevice"}},
+{"data":{"title":"IOPlatformActiveAction"},"attr":{"id":"416635","ColType":"Number","ColValue":"950"}},
+{"data":{"title":"IOPlatformQuiesceAction"},"attr":{"id":"416637","ColType":"Number","ColValue":"250"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"416639","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"416641","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"416642","ColType":"String","ColValue":"mtrtempsensor,t8020"}}]},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"416644","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"416646","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"416648","ColType":"String","ColValue":"mtrtempsensor,t8020"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"416650","ColType":"String","ColValue":"com.apple.driver.AppleEmbeddedTempSensor"}},
+{"data":{"title":"location-name"},"attr":{"id":"416652","ColType":"Data","ColValue":"&lt;\"GPU MTR Temp Sensor1\"&gt;"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"416654","ColType":"String","ColValue":"com.apple.driver.AppleEmbeddedTempSensor"}},
+{"data":{"title":"DeviceOpenedByEventSystem"},"attr":{"id":"416656","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"QueueSize"},"attr":{"id":"416658","ColType":"Number","ColValue":"0"}}
+]

@@ -1,0 +1,22 @@
+[
+{"data":{"title":"Transport"},"attr":{"id":"218099","ColType":"String","ColValue":"USB"}},
+{"data":{"title":"BootProtocol"},"attr":{"id":"218101","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"218103","ColType":"String","ColValue":""}},
+{"data":{"title":"Product"},"attr":{"id":"218105","ColType":"String","ColValue":"USB PnP Audio Device"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"218107","ColType":"Number","ColValue":"4"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"218109","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"218110","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"218112","ColType":"Number","ColValue":"12"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"218114","ColType":"Number","ColValue":"1"}}]}]},
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"218116","ColType":"Number","ColValue":"4"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"218118","ColType":"Data","ColValue":"&lt;050c0901a1011500250109e909ea09b509b675019504810209e209b709cd95038106050b092095018106050c26ff000900750895038102090095049102c0&gt;"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"218120","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"VendorID"},"attr":{"id":"218122","ColType":"Number","ColValue":"3190"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"218124","ColType":"Number","ColValue":"256"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"218126","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"218127","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.hid"}}]},
+{"data":{"title":"IODEXTMatchCount"},"attr":{"id":"218129","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"218131","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"LocationID"},"attr":{"id":"218133","ColType":"Number","ColValue":"1196032"}},
+{"data":{"title":"ProductID"},"attr":{"id":"218135","ColType":"Number","ColValue":"5663"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"218137","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"218139","ColType":"Number","ColValue":"12"}},
+{"data":{"title":"DeviceOpenedByEventSystem"},"attr":{"id":"218141","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"218143","ColType":"Number","ColValue":"0"}}
+]

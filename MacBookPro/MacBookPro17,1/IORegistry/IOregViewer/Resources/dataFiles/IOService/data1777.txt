@@ -1,0 +1,19 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"411458","ColType":"String","ColValue":"AppleT8015TempSensor"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"411460","ColType":"String","ColValue":"com.apple.driver.AppleEmbeddedTempSensor"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"411462","ColType":"String","ColValue":"AppleARMIODevice"}},
+{"data":{"title":"IOPlatformActiveAction"},"attr":{"id":"411464","ColType":"Number","ColValue":"950"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"411466","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CapabilityFlags"},"attr":{"id":"411468","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"411470","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"411472","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"IOPlatformQuiesceAction"},"attr":{"id":"411474","ColType":"Number","ColValue":"250"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"411476","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"411478","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"411479","ColType":"String","ColValue":"tempsensor,t8015"}},{"data":{"title":"1"},"attr":{"id":"411480","ColType":"String","ColValue":"tempsensor,t8020"}},{"data":{"title":"2"},"attr":{"id":"411481","ColType":"String","ColValue":"tempsensor,t8027"}},{"data":{"title":"3"},"attr":{"id":"411482","ColType":"String","ColValue":"tempsensor,t8030"}}]},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"411484","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"411486","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"411488","ColType":"String","ColValue":"tempsensor,t8020"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"411490","ColType":"String","ColValue":"com.apple.driver.AppleEmbeddedTempSensor"}},
+{"data":{"title":"location-name"},"attr":{"id":"411492","ColType":"Data","ColValue":"&lt;\"PMGR SOC Die Temp Sensor2\"&gt;"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"411494","ColType":"String","ColValue":"com.apple.driver.AppleEmbeddedTempSensor"}},
+{"data":{"title":"IOFunctionParent00000103"},"attr":{"id":"411496","ColType":"Data","ColValue":"&lt;&gt;"}},
+{"data":{"title":"DeviceOpenedByEventSystem"},"attr":{"id":"411498","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"QueueSize"},"attr":{"id":"411500","ColType":"Number","ColValue":"0"}}
+]

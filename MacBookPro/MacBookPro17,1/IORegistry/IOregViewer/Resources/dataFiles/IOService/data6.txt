@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"5068","ColType":"String","ColValue":"AppleARMPE"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"5070","ColType":"String","ColValue":"com.apple.driver.AppleARMPlatform"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"5072","ColType":"String","ColValue":"IOPlatformExpertDevice"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"5074","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"5076","ColType":"String","ColValue":"AppleARM"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"5078","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOPlatformMaxBusDelay"},"attr":{"id":"5080","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"5081","ColType":"Number","ColValue":"18446744073709551615"}},{"data":{"title":"1"},"attr":{"id":"5082","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IONameMatched"},"attr":{"id":"5084","ColType":"String","ColValue":"AppleARM"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"5086","ColType":"String","ColValue":"com.apple.driver.AppleARMPlatform"}},
+{"data":{"title":"Platform Memory Ranges"},"attr":{"id":"5088","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"5089","ColType":"Number","ColValue":"0"}},{"data":{"title":"1"},"attr":{"id":"5090","ColType":"Number","ColValue":"4294967295"}}]},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"5092","ColType":"String","ColValue":"com.apple.driver.AppleARMPlatform"}},
+{"data":{"title":"IOFunctionParent00000001"},"attr":{"id":"5094","ColType":"Data","ColValue":"&lt;&gt;"}}
+]

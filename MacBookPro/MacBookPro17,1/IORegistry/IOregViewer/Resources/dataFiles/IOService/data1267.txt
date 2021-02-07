@@ -1,0 +1,21 @@
+[
+{"data":{"title":"USBPortType"},"attr":{"id":"360130","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"360132","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"2d9786c6-9ef3-11d4-ad51-000a27052861"},"attr":{"id":"360134","ColType":"String","ColValue":"IOUSBHostFamily.kext/Contents/PlugIns/IOUSBLib.bundle"}}]},
+{"data":{"title":"USB Vendor Name"},"attr":{"id":"360136","ColType":"String","ColValue":"JMicron"}},
+{"data":{"title":"USB Serial Number"},"attr":{"id":"360138","ColType":"String","ColValue":"160834442014"}},
+{"data":{"title":"bcdDevice"},"attr":{"id":"360140","ColType":"Number","ColValue":"12802"}},
+{"data":{"title":"USBSpeed"},"attr":{"id":"360142","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"idProduct"},"attr":{"id":"360144","ColType":"Number","ColValue":"1400"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"360146","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"360147","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"360148","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.usb"}}]}]},
+{"data":{"title":"bInterfaceSubClass"},"attr":{"id":"360150","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"bConfigurationValue"},"attr":{"id":"360152","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"locationID"},"attr":{"id":"360154","ColType":"Number","ColValue":"1310720"}},
+{"data":{"title":"USB Product Name"},"attr":{"id":"360156","ColType":"String","ColValue":"JMS579"}},
+{"data":{"title":"bInterfaceProtocol"},"attr":{"id":"360158","ColType":"Number","ColValue":"80"}},
+{"data":{"title":"iInterface"},"attr":{"id":"360160","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bAlternateSetting"},"attr":{"id":"360162","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"idVendor"},"attr":{"id":"360164","ColType":"Number","ColValue":"5421"}},
+{"data":{"title":"bInterfaceNumber"},"attr":{"id":"360166","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bInterfaceClass"},"attr":{"id":"360168","ColType":"Number","ColValue":"8"}},
+{"data":{"title":"bNumEndpoints"},"attr":{"id":"360170","ColType":"Number","ColValue":"2"}}
+]

@@ -1,0 +1,21 @@
+[
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"290968","ColType":"Number","ColValue":"32"}},
+{"data":{"title":"VendorID"},"attr":{"id":"290970","ColType":"Number","ColValue":"1133"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"290972","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"290974","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"290975","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.hid"}}]},
+{"data":{"title":"Product"},"attr":{"id":"290977","ColType":"String","ColValue":"USB Receiver"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"290979","ColType":"Number","ColValue":"4625"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"290981","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"LocationID"},"attr":{"id":"290983","ColType":"Number","ColValue":"1253376"}},
+{"data":{"title":"BootProtocol"},"attr":{"id":"290985","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"ProductID"},"attr":{"id":"290987","ColType":"Number","ColValue":"50475"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"290989","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"290990","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"290992","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"290994","ColType":"Number","ColValue":"1"}}]},{"data":{"title":"1"},"attr":{"id":"290995","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"290997","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"290999","ColType":"Number","ColValue":"2"}}]},{"data":{"title":"2"},"attr":{"id":"291000","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"291002","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"291004","ColType":"Number","ColValue":"4"}}]}]},
+{"data":{"title":"Transport"},"attr":{"id":"291006","ColType":"String","ColValue":"USB"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"291008","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"291010","ColType":"Data","ColValue":"&lt;0600ff0901a101851095067508150026ff000901810009019100c00600ff0902a101851195137508150026ff000902810009029100c00600ff0904a1018520950e7508150026ff0009418100094191008521951f0942810009429100c0&gt;"}},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"291012","ColType":"String","ColValue":""}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"291014","ColType":"String","ColValue":"Logitech"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"291016","ColType":"Number","ColValue":"65280"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"291018","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"291020","ColType":"Number","ColValue":"32"}}
+]

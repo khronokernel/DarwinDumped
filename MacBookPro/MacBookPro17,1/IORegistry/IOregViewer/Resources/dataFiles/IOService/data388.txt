@@ -1,0 +1,45 @@
+[
+{"data":{"title":"IONetworkData"},"attr":{"id":"145254","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IONetworkStatsKey"},"attr":{"id":"145256","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Size"},"attr":{"id":"145258","ColType":"Number","ColValue":"20"}},{"data":{"title":"Data"},"attr":{"id":"145260","ColType":"Data","ColValue":"&lt;000000000000000000300f00cb05000000000000&gt;"}},{"data":{"title":"Access Types"},"attr":{"id":"145262","ColType":"Number","ColValue":"9"}}]},{"data":{"title":"IOEthernetStatsKey"},"attr":{"id":"145264","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Size"},"attr":{"id":"145266","ColType":"Number","ColValue":"216"}},{"data":{"title":"Data"},"attr":{"id":"145268","ColType":"Data","ColValue":"&lt;000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&gt;"}},{"data":{"title":"Access Types"},"attr":{"id":"145270","ColType":"Number","ColValue":"9"}}]}]},
+{"data":{"title":"IOInterfaceState"},"attr":{"id":"145272","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"IOPrimaryInterface"},"attr":{"id":"145274","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOControllerEnabled"},"attr":{"id":"145276","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOMaxTransferUnit"},"attr":{"id":"145278","ColType":"Number","ColValue":"1500"}},
+{"data":{"title":"IO80211BSSID"},"attr":{"id":"145280","ColType":"Data","ColValue":"&lt;244bfe76c25c&gt;"}},
+{"data":{"title":"IO80211Channel"},"attr":{"id":"145282","ColType":"Number","ColValue":"157"}},
+{"data":{"title":"IO80211SSID"},"attr":{"id":"145284","ColType":"String","ColValue":"Grym-Wifi 5G"}},
+{"data":{"title":"IO80211Band"},"attr":{"id":"145286","ColType":"String","ColValue":"5 GHz"}},
+{"data":{"title":"IO80211ChannelBandwidth"},"attr":{"id":"145288","ColType":"Number","ColValue":"80"}},
+{"data":{"title":"IOActivePacketFilters"},"attr":{"id":"145290","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IONetworkFilterGroup"},"attr":{"id":"145292","ColType":"Number","ColValue":"19"}},{"data":{"title":"IOEthernetWakeOnLANFilterGroup"},"attr":{"id":"145294","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IO80211DriverVersion"},"attr":{"id":"145296","ColType":"String","ColValue":"wl0: Jan  8 2021 19:23:31 version 18.50.22.0.7.8.107 FWID 01-52faef3b"}},
+{"data":{"title":"IORequiredPacketFilters"},"attr":{"id":"145298","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IONetworkFilterGroup"},"attr":{"id":"145300","ColType":"Number","ColValue":"19"}},{"data":{"title":"IOEthernetWakeOnLANFilterGroup"},"attr":{"id":"145302","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOInterfaceUnit"},"attr":{"id":"145304","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IO80211Locale"},"attr":{"id":"145306","ColType":"String","ColValue":"FCC"}},
+{"data":{"title":"IOMediaAddressLength"},"attr":{"id":"145308","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"IOBuiltin"},"attr":{"id":"145310","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOInterfaceType"},"attr":{"id":"145312","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"IOMACAddress"},"attr":{"id":"145314","ColType":"Data","ColValue":"&lt;748f3cc2bf93&gt;"}},
+{"data":{"title":"BSD Name"},"attr":{"id":"145316","ColType":"String","ColValue":"en0"}},
+{"data":{"title":"IOInterfaceFlags"},"attr":{"id":"145318","ColType":"Number","ColValue":"34915"}},
+{"data":{"title":"IOInterfaceExtraFlags"},"attr":{"id":"145320","ColType":"Number","ColValue":"1092618432"}},
+{"data":{"title":"IOMulticastAddressList"},"attr":{"id":"145322","ColType":"Data","ColValue":"&lt;3333000000fb01005e0000fb01005e0000013333ffe6501b3333000000013333ffbd457c010393df0b92&gt;"}},
+{"data":{"title":"IOMediaHeaderLength"},"attr":{"id":"145324","ColType":"Number","ColValue":"14"}},
+{"data":{"title":"netboot-properties"},"attr":{"id":"145326","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Xlate-upper-auth-wpa2-psk"},"attr":{"id":"145328","ColType":"Number","ColValue":"8"}},{"data":{"title":"scan-before-association"},"attr":{"id":"145330","ColType":"Boolean","ColValue":"Yes"}},{"data":{"title":"Xlate-upper-auth-wpa-psk"},"attr":{"id":"145332","ColType":"Number","ColValue":"2"}},{"data":{"title":"scan-is-async"},"attr":{"id":"145334","ColType":"Boolean","ColValue":"Yes"}},{"data":{"title":"scan-after-delay-ms"},"attr":{"id":"145336","ColType":"Number","ColValue":"5000"}}]},
+{"data":{"title":"IO80211HardwareVersion"},"attr":{"id":"145338","ColType":"String","ColValue":"vendorid: 0x14e4
+deviceid: 0x4425
+radiorev: 0x450db
+chipnum: 0x4378
+chiprev: 0x3
+corerev: 0x54
+boardid: 0x889
+boardvendor: 0x14e4
+boardrev: 0x1600
+driverrev: 0x0
+ucoderev: 0x5a754c4
+bus: 0x0
+"}},
+{"data":{"title":"IO80211RSNDone"},"attr":{"id":"145340","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"IO80211ChannelFrequency"},"attr":{"id":"145342","ColType":"Number","ColValue":"5785"}},
+{"data":{"title":"IO80211CountryCode"},"attr":{"id":"145344","ColType":"String","ColValue":"CA"}},
+{"data":{"title":"IOLocation"},"attr":{"id":"145346","ColType":"String","ColValue":""}},
+{"data":{"title":"IOInterfaceNamePrefix"},"attr":{"id":"145348","ColType":"String","ColValue":"en"}}
+]

@@ -1,0 +1,21 @@
+Device     Name                          Volume UUID                                      Unique partition GUID 
+                                         (Example Usage: Kernel flag rd=uuid boot-uuid=)  (Example Usage: Clover Hide Volume) 
+disk0s1    /Volumes/                                                                      4FD003CD-B537-4C42-B30B-7C73961946B3 
+disk0s2    /Volumes/Container disk3                                                       343B78AF-E7ED-42C7-9939-4479027874F3 
+disk0s3    /Volumes/                                                                      2C0F3219-8AA7-4968-8C8B-22B5E3DDF909 
+disk1s1    /Volumes/iSCPreboot           EB500134-7F0C-4394-A1C3-45A16AF243DD             EB500134-7F0C-4394-A1C3-45A16AF243DD 
+disk1s2    /Volumes/xART                 FC687FF1-7B09-4EED-BC5E-90003533100C             FC687FF1-7B09-4EED-BC5E-90003533100C 
+disk1s3    /Volumes/Hardware             DB68ED57-6F09-45E6-9D93-3C241CC57A81             DB68ED57-6F09-45E6-9D93-3C241CC57A81 
+disk1s4    /Volumes/Recovery             2A767F7F-8D2C-42F6-AD0E-6C44CB4D9F9C             2A767F7F-8D2C-42F6-AD0E-6C44CB4D9F9C 
+disk2s1    /Volumes/Recovery             396E7C95-1518-464C-B834-C1F9EAC81D42             396E7C95-1518-464C-B834-C1F9EAC81D42 
+disk2s2    /Volumes/Update               A9E5AC7F-D1D0-4FC8-9B81-496FC7E5DAA0             A9E5AC7F-D1D0-4FC8-9B81-496FC7E5DAA0 
+disk3s1    /Volumes//dev/disk3s1s1 on /  F97838D5-6085-44F4-B808-4709C483C264             F97838D5-6085-44F4-B808-4709C483C264 
+disk3s1s1  /Volumes/Macintosh HD         52183AA4-ECB3-4C2D-AED5-F911C2CE42D1             D20C9EBF-A017-4518-9D84-5F3DA3A52776 
+disk3s2    /Volumes/Preboot              EAC7C1A5-8F16-4AD9-B4D4-1E4F9362C698             EAC7C1A5-8F16-4AD9-B4D4-1E4F9362C698 
+disk3s3    /Volumes/Recovery             BA3F4DE3-79F6-44C1-B457-F72B9EDAB1EA             BA3F4DE3-79F6-44C1-B457-F72B9EDAB1EA 
+disk3s4    /Volumes/Update               06DEDCE6-42E2-4345-9332-2C7242DD61C3             06DEDCE6-42E2-4345-9332-2C7242DD61C3 
+disk3s5    /Volumes/Data                 D20C9EBF-A017-4518-9D84-5F3DA3A52776             D20C9EBF-A017-4518-9D84-5F3DA3A52776 
+disk3s6    /Volumes/VM                   6C73A546-450B-45D9-BAC1-4C7669333EFA             6C73A546-450B-45D9-BAC1-4C7669333EFA 
+disk4s1    /Volumes/EFI                  0E239BC6-F960-3107-89CF-1C97F78BB46B             05B360BF-F273-482C-9E84-1EA350106EEC 
+disk4s2    /Volumes/Container disk5                                                       5E04681C-354A-43BA-A31D-BCD002EAF67D 
+disk5s1    /Volumes/Storage HD           58FB6434-184E-4D42-94BC-2DE7F618C85C             58FB6434-184E-4D42-94BC-2DE7F618C85C 

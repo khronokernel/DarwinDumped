@@ -1,0 +1,15 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"176160","ColType":"String","ColValue":"AppleMesaSEPDriver"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"176162","ColType":"String","ColValue":"com.apple.driver.AppleMesaSEPDriver"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"176164","ColType":"String","ColValue":"AppleSEPDeviceService"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"176166","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CapabilityFlags"},"attr":{"id":"176168","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"176170","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"176172","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"ScanningState"},"attr":{"id":"176174","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"176176","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"176178","ColType":"String","ColValue":"sep-endpoint,sbio"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"176180","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"176182","ColType":"String","ColValue":"com_apple_driver_AppleMesaSEPDriver"}},
+{"data":{"title":"MesaCalBlobSource"},"attr":{"id":"176184","ColType":"String","ColValue":"FDR"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"176186","ColType":"String","ColValue":"sep-endpoint,sbio"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"176188","ColType":"String","ColValue":"com.apple.driver.AppleMesaSEPDriver"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"176190","ColType":"String","ColValue":"com.apple.driver.AppleMesaSEPDriver"}}
+]

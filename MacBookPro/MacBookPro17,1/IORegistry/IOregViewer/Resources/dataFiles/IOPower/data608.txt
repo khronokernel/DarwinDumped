@@ -1,0 +1,12 @@
+[
+{"data":{"title":"IOProbeScore"},"attr":{"id":"215276","ColType":"Number","ColValue":"5000"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"215278","ColType":"String","ColValue":"com.apple.driver.AppleT8103PCIeC"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"215280","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"IOClass"},"attr":{"id":"215282","ColType":"String","ColValue":"ApplePCIECHostBridge"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"215284","ColType":"String","ColValue":"com.apple.driver.AppleT8103PCIeC"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"215286","ColType":"String","ColValue":"com.apple.driver.AppleT8103PCIeC"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"215288","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"215290","ColType":"String","ColValue":"pciec-bridge"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"215292","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"215294","ColType":"Number","ColValue":"0"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"215296","ColType":"Number","ColValue":"0"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"215298","ColType":"Number","ColValue":"3"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"215300","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IONameMatched"},"attr":{"id":"215302","ColType":"String","ColValue":"pciec-bridge"}}
+]

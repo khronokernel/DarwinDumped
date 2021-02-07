@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"154972","ColType":"String","ColValue":"AppleSamsungSerial"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"154974","ColType":"String","ColValue":"com.apple.driver.AppleSamsungSerial"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"154976","ColType":"String","ColValue":"AppleARMIODevice"}},
+{"data":{"title":"IOTTYBaseName"},"attr":{"id":"154978","ColType":"String","ColValue":"wlan-debug"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"154980","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CapabilityFlags"},"attr":{"id":"154982","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"154984","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"154986","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"154988","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"154990","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"154991","ColType":"String","ColValue":"uart-1,samsung"}}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"154993","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"154995","ColType":"String","ColValue":"uart-1,samsung"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"154997","ColType":"String","ColValue":"com.apple.driver.AppleSamsungSerial"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"154999","ColType":"String","ColValue":"com.apple.driver.AppleSamsungSerial"}},
+{"data":{"title":"IOTTYSuffix"},"attr":{"id":"155001","ColType":"String","ColValue":""}}
+]

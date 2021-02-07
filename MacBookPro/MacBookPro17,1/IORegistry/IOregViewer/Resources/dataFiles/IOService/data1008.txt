@@ -1,0 +1,16 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"209007","ColType":"String","ColValue":"IOSerialBSDClient"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"209009","ColType":"String","ColValue":"com.apple.iokit.IOSerialFamily"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"209011","ColType":"String","ColValue":"IOSerialStreamSync"}},
+{"data":{"title":"IOTTYBaseName"},"attr":{"id":"209013","ColType":"String","ColValue":"debug-console"}},
+{"data":{"title":"IOSerialBSDClientType"},"attr":{"id":"209015","ColType":"String","ColValue":"IORS232SerialStream"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"209017","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"209019","ColType":"String","ColValue":"IOBSD"}},
+{"data":{"title":"IOCalloutDevice"},"attr":{"id":"209021","ColType":"String","ColValue":"/dev/cu.debug-console"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"209023","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOTTYDevice"},"attr":{"id":"209025","ColType":"String","ColValue":"debug-console"}},
+{"data":{"title":"IODialinDevice"},"attr":{"id":"209027","ColType":"String","ColValue":"/dev/tty.debug-console"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"209029","ColType":"String","ColValue":"com.apple.iokit.IOSerialFamily"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"209031","ColType":"String","ColValue":"com.apple.iokit.IOSerialFamily"}},
+{"data":{"title":"IOTTYSuffix"},"attr":{"id":"209033","ColType":"String","ColValue":""}}
+]

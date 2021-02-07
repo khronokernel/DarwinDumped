@@ -1,0 +1,20 @@
+[
+{"data":{"title":"USBPortType"},"attr":{"id":"361366","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"361368","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"2d9786c6-9ef3-11d4-ad51-000a27052861"},"attr":{"id":"361370","ColType":"String","ColValue":"IOUSBHostFamily.kext/Contents/PlugIns/IOUSBLib.bundle"}}]},
+{"data":{"title":"USB Vendor Name"},"attr":{"id":"361372","ColType":"String","ColValue":"Fresco Logic, Inc."}},
+{"data":{"title":"bcdDevice"},"attr":{"id":"361374","ColType":"Number","ColValue":"256"}},
+{"data":{"title":"USBSpeed"},"attr":{"id":"361376","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"idProduct"},"attr":{"id":"361378","ColType":"Number","ColValue":"20498"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"361380","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"361381","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"361382","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.usb"}}]}]},
+{"data":{"title":"bInterfaceSubClass"},"attr":{"id":"361384","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bConfigurationValue"},"attr":{"id":"361386","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"locationID"},"attr":{"id":"361388","ColType":"Number","ColValue":"1048576"}},
+{"data":{"title":"USB Product Name"},"attr":{"id":"361390","ColType":"String","ColValue":"USB2.0 Hub"}},
+{"data":{"title":"bInterfaceProtocol"},"attr":{"id":"361392","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"iInterface"},"attr":{"id":"361394","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bAlternateSetting"},"attr":{"id":"361396","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"idVendor"},"attr":{"id":"361398","ColType":"Number","ColValue":"7516"}},
+{"data":{"title":"bInterfaceNumber"},"attr":{"id":"361400","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bInterfaceClass"},"attr":{"id":"361402","ColType":"Number","ColValue":"9"}},
+{"data":{"title":"bNumEndpoints"},"attr":{"id":"361404","ColType":"Number","ColValue":"1"}}
+]

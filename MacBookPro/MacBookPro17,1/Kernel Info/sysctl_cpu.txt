@@ -1,0 +1,17 @@
+kern.cpu_checkin_interval: 4000
+hw.ncpu: 8
+hw.activecpu: 8
+hw.cpu64bit_capable: 1
+hw.cpufamily: 458787763
+hw.cpusubfamily: 2
+hw.cpusubtype: 2
+hw.cputype: 16777228
+hw.logicalcpu: 8
+hw.logicalcpu_max: 8
+hw.physicalcpu: 8
+hw.physicalcpu_max: 8
+machdep.cpu.brand_string: Apple M1
+machdep.cpu.core_count: 8
+machdep.cpu.cores_per_package: 8
+machdep.cpu.logical_per_package: 8
+machdep.cpu.thread_count: 8

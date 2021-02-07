@@ -1,0 +1,20 @@
+[
+{"data":{"title":"USBPortType"},"attr":{"id":"217348","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"217350","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"2d9786c6-9ef3-11d4-ad51-000a27052861"},"attr":{"id":"217352","ColType":"String","ColValue":"IOUSBHostFamily.kext/Contents/PlugIns/IOUSBLib.bundle"}}]},
+{"data":{"title":"bcdDevice"},"attr":{"id":"217354","ColType":"Number","ColValue":"256"}},
+{"data":{"title":"USBSpeed"},"attr":{"id":"217356","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"idProduct"},"attr":{"id":"217358","ColType":"Number","ColValue":"5663"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"217360","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"217361","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"217362","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.usb"}}]}]},
+{"data":{"title":"bInterfaceSubClass"},"attr":{"id":"217364","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bConfigurationValue"},"attr":{"id":"217366","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"locationID"},"attr":{"id":"217368","ColType":"Number","ColValue":"1196032"}},
+{"data":{"title":"USB Product Name"},"attr":{"id":"217370","ColType":"String","ColValue":"USB PnP Audio Device"}},
+{"data":{"title":"IODEXTMatchCount"},"attr":{"id":"217372","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"bInterfaceProtocol"},"attr":{"id":"217374","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"iInterface"},"attr":{"id":"217376","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bAlternateSetting"},"attr":{"id":"217378","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"idVendor"},"attr":{"id":"217380","ColType":"Number","ColValue":"3190"}},
+{"data":{"title":"bInterfaceNumber"},"attr":{"id":"217382","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"bInterfaceClass"},"attr":{"id":"217384","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"bNumEndpoints"},"attr":{"id":"217386","ColType":"Number","ColValue":"1"}}
+]

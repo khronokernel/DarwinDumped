@@ -1,0 +1,23 @@
+[
+{"data":{"title":"Transport"},"attr":{"id":"351340","ColType":"String","ColValue":"USB"}},
+{"data":{"title":"BootProtocol"},"attr":{"id":"351342","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"351344","ColType":"String","ColValue":""}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"351346","ColType":"String","ColValue":"Logitech"}},
+{"data":{"title":"Product"},"attr":{"id":"351348","ColType":"String","ColValue":"USB Receiver"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"351350","ColType":"Number","ColValue":"8"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"351352","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"351353","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"351355","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"351357","ColType":"Number","ColValue":"2"}}]},{"data":{"title":"1"},"attr":{"id":"351358","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"351360","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"351362","ColType":"Number","ColValue":"1"}}]},{"data":{"title":"2"},"attr":{"id":"351363","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"351365","ColType":"Number","ColValue":"12"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"351367","ColType":"Number","ColValue":"1"}}]},{"data":{"title":"3"},"attr":{"id":"351368","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"351370","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"351372","ColType":"Number","ColValue":"128"}}]},{"data":{"title":"4"},"attr":{"id":"351373","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"351375","ColType":"Number","ColValue":"65468"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"351377","ColType":"Number","ColValue":"136"}}]}]},
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"351379","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"351381","ColType":"Data","ColValue":"&lt;05010902a10185020901a1000509190129101500250195107501810205011601f826ff07750c95020930093181061581257f7508950109388106050c0a380295018106c0c0050c0901a101850375109502150126ff0219012aff028100c005010980a10185047502950115012503098209810983816075068103c006bcff0988a1018508190129ff150126ff00750895018100c0&gt;"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"351383","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"VendorID"},"attr":{"id":"351385","ColType":"Number","ColValue":"1133"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"351387","ColType":"Number","ColValue":"9232"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"351389","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"351390","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.hid"}}]},
+{"data":{"title":"IODEXTMatchCount"},"attr":{"id":"351392","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"351394","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"LocationID"},"attr":{"id":"351396","ColType":"Number","ColValue":"1261568"}},
+{"data":{"title":"ProductID"},"attr":{"id":"351398","ColType":"Number","ColValue":"50475"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"351400","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"351402","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"DeviceOpenedByEventSystem"},"attr":{"id":"351404","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"351406","ColType":"Number","ColValue":"1"}}
+]

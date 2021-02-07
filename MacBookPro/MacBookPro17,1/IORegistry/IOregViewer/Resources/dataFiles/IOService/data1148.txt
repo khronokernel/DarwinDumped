@@ -1,0 +1,23 @@
+[
+{"data":{"title":"USBSpeed"},"attr":{"id":"215394","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"iInterface"},"attr":{"id":"215396","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"bInterfaceProtocol"},"attr":{"id":"215398","ColType":"Number","ColValue":"32"}},
+{"data":{"title":"bAlternateSetting"},"attr":{"id":"215400","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"idProduct"},"attr":{"id":"215402","ColType":"Number","ColValue":"24576"}},
+{"data":{"title":"bcdDevice"},"attr":{"id":"215404","ColType":"Number","ColValue":"12695"}},
+{"data":{"title":"AppleUSBAudioStreamPropertiesReady"},"attr":{"id":"215406","ColType":"String","ColValue":"Yes"}},
+{"data":{"title":"USB Product Name"},"attr":{"id":"215408","ColType":"String","ColValue":"USB3.0 5K Graphic Docking"}},
+{"data":{"title":"locationID"},"attr":{"id":"215410","ColType":"Number","ColValue":"1114112"}},
+{"data":{"title":"bInterfaceClass"},"attr":{"id":"215412","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"bInterfaceSubClass"},"attr":{"id":"215414","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"215416","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"2d9786c6-9ef3-11d4-ad51-000a27052861"},"attr":{"id":"215418","ColType":"String","ColValue":"IOUSBHostFamily.kext/Contents/PlugIns/IOUSBLib.bundle"}}]},
+{"data":{"title":"USBPortType"},"attr":{"id":"215420","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"kUSBString"},"attr":{"id":"215422","ColType":"String","ColValue":"USB Audio"}},
+{"data":{"title":"bInterfaceNumber"},"attr":{"id":"215424","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"bConfigurationValue"},"attr":{"id":"215426","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"USB Vendor Name"},"attr":{"id":"215428","ColType":"String","ColValue":"DisplayLink"}},
+{"data":{"title":"idVendor"},"attr":{"id":"215430","ColType":"Number","ColValue":"6121"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"215432","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"215433","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"215434","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.usb"}}]}]},
+{"data":{"title":"bNumEndpoints"},"attr":{"id":"215436","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"USB Serial Number"},"attr":{"id":"215438","ColType":"String","ColValue":"4310338374731"}}
+]

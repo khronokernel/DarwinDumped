@@ -1,0 +1,18 @@
+[
+{"data":{"title":"Max Credits"},"attr":{"id":"160760","ColType":"Number","ColValue":"174"}},
+{"data":{"title":"Description"},"attr":{"id":"160762","ColType":"String","ColValue":"PCIe Adapter"}},
+{"data":{"title":"Port Affinity"},"attr":{"id":"160764","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"160765","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"Port Number"},"attr":{"id":"160767","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"Max In Hop ID"},"attr":{"id":"160769","ColType":"Number","ColValue":"8"}},
+{"data":{"title":"Hop Table"},"attr":{"id":"160771","ColType":"Array","ColValue":"0_values"},"children":[]},
+{"data":{"title":"Thunderbolt Version"},"attr":{"id":"160773","ColType":"Number","ColValue":"32"}},
+{"data":{"title":"Maximum Bandwidth Allocated"},"attr":{"id":"160775","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Required Bandwidth Allocated"},"attr":{"id":"160777","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Device ID"},"attr":{"id":"160779","ColType":"Number","ColValue":"8192"}},
+{"data":{"title":"Revision ID"},"attr":{"id":"160781","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Max Out Hop ID"},"attr":{"id":"160783","ColType":"Number","ColValue":"8"}},
+{"data":{"title":"PCI Path"},"attr":{"id":"160785","ColType":"String","ColValue":"IOService:/AppleARMPE/arm-io@10F00000/AppleT810xIO/apciec1@30000000/AppleT8103PCIeC/pcic1-bridge@0"}},
+{"data":{"title":"PCI Entry ID"},"attr":{"id":"160787","ColType":"Number","ColValue":"4294968979"}},
+{"data":{"title":"Vendor ID"},"attr":{"id":"160789","ColType":"Number","ColValue":"1452"}},
+{"data":{"title":"Adapter Type"},"attr":{"id":"160791","ColType":"Number","ColValue":"1048833"}}
+]

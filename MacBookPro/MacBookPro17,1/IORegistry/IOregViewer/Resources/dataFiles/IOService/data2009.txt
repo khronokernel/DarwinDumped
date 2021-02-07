@@ -1,0 +1,12 @@
+[
+{"data":{"title":"IOProbeScore"},"attr":{"id":"420706","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"420708","ColType":"String","ColValue":"com.apple.AppleSystemPolicy"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"420710","ColType":"String","ColValue":"AppleSystemPolicy"}},
+{"data":{"title":"IOClass"},"attr":{"id":"420712","ColType":"String","ColValue":"AppleSystemPolicy"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"420714","ColType":"String","ColValue":"com.apple.AppleSystemPolicy"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"420716","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"420718","ColType":"String","ColValue":"com.apple.AppleSystemPolicy"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"420720","ColType":"String","ColValue":"AppleSystemPolicyUserClient"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"420722","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CapabilityFlags"},"attr":{"id":"420724","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"420726","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"420728","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"420730","ColType":"String","ColValue":"IOBSD"}}
+]

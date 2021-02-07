@@ -1,0 +1,17 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"183083","ColType":"String","ColValue":"RTBuddyV2"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"183085","ColType":"String","ColValue":"com.apple.driver.RTBuddy"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"183087","ColType":"String","ColValue":"AppleA7IOPNub"}},
+{"data":{"title":"IOPlatformPanicAction"},"attr":{"id":"183089","ColType":"Number","ColValue":"89000"}},
+{"data":{"title":"IOPlatformActiveAction"},"attr":{"id":"183091","ColType":"Number","ColValue":"20000"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"183093","ColType":"String","ColValue":"RTBuddyUserClient"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"183095","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"183097","ColType":"String","ColValue":"iop-nub,rtbuddy-v2"}},
+{"data":{"title":"IOReportLegend"},"attr":{"id":"183099","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"183100","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOReportGroupName"},"attr":{"id":"183102","ColType":"String","ColValue":"SMC"}},{"data":{"title":"IOReportChannels"},"attr":{"id":"183104","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"183105","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"183106","ColType":"Number","ColValue":"5932458368805568512"}},{"data":{"title":"1"},"attr":{"id":"183107","ColType":"Number","ColValue":"38654836738"}},{"data":{"title":"2"},"attr":{"id":"183108","ColType":"String","ColValue":"status"}}]}]},{"data":{"title":"IOReportChannelInfo"},"attr":{"id":"183110","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOReportChannelUnit"},"attr":{"id":"183112","ColType":"Number","ColValue":"72058115876454424"}}]},{"data":{"title":"IOReportSubGroupName"},"attr":{"id":"183114","ColType":"String","ColValue":"IOP State"}}]}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"183116","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOReportLegendPublic"},"attr":{"id":"183118","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"183120","ColType":"String","ColValue":"iop-nub,rtbuddy-v2"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"183122","ColType":"String","ColValue":"com.apple.driver.RTBuddy"}},
+{"data":{"title":"role"},"attr":{"id":"183124","ColType":"String","ColValue":"SMC"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"183126","ColType":"String","ColValue":"com.apple.driver.RTBuddy"}}
+]

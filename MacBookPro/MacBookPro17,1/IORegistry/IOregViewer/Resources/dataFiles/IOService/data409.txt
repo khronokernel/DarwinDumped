@@ -1,0 +1,17 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"155152","ColType":"String","ColValue":"AppleBluetoothModule"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"155154","ColType":"String","ColValue":"com.apple.driver.AppleBluetoothModule"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"155156","ColType":"String","ColValue":"AppleARMIODevice"}},
+{"data":{"title":"Time Sync"},"attr":{"id":"155158","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"155160","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"ChildrenPowerState"},"attr":{"id":"155162","ColType":"Number","ColValue":"1"}},{"data":{"title":"DevicePowerState"},"attr":{"id":"155164","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"155166","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"155168","ColType":"Number","ColValue":"32770"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"155170","ColType":"Number","ColValue":"1"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"155172","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"155174","ColType":"String","ColValue":"AppleBluetoothModuleUserClient"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"155176","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"155178","ColType":"String","ColValue":"bluetooth"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"155180","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"155182","ColType":"String","ColValue":"AppleBluetoothModule"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"155184","ColType":"String","ColValue":"bluetooth"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"155186","ColType":"String","ColValue":"com.apple.driver.AppleBluetoothModule"}},
+{"data":{"title":"autoOn"},"attr":{"id":"155188","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"155190","ColType":"String","ColValue":"com.apple.driver.AppleBluetoothModule"}},
+{"data":{"title":"InReset"},"attr":{"id":"155192","ColType":"Boolean","ColValue":"No"}}
+]

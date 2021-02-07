@@ -1,0 +1,30 @@
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         1.0 TB     disk0
+   1:             Apple_APFS_ISC ⁨⁩                        524.3 MB   disk0s1
+   2:                 Apple_APFS ⁨Container disk3⁩         994.7 GB   disk0s2
+   3:        Apple_APFS_Recovery ⁨⁩                        5.4 GB     disk0s3
+
+/dev/disk3 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +994.7 GB   disk3
+                                 Physical Store disk0s2
+   1:                APFS Volume ⁨Macintosh HD⁩            15.4 GB    disk3s1
+   2:              APFS Snapshot ⁨com.apple.os.update-...⁩ 15.4 GB    disk3s1s1
+   3:                APFS Volume ⁨Preboot⁩                 498.6 MB   disk3s2
+   4:                APFS Volume ⁨Recovery⁩                1.1 GB     disk3s3
+   5:                APFS Volume ⁨Data⁩                    324.2 GB   disk3s5
+   6:                APFS Volume ⁨VM⁩                      7.5 GB     disk3s6
+
+/dev/disk4 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *256.1 GB   disk4
+   1:                        EFI ⁨EFI⁩                     209.7 MB   disk4s1
+   2:                 Apple_APFS ⁨Container disk5⁩         255.9 GB   disk4s2
+
+/dev/disk5 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +255.9 GB   disk5
+                                 Physical Store disk4s2
+   1:                APFS Volume ⁨Storage HD⁩              215.2 GB   disk5s1
+

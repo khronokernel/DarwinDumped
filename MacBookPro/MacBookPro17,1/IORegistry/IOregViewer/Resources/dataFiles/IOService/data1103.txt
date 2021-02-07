@@ -1,0 +1,12 @@
+[
+{"data":{"title":"IOProbeScore"},"attr":{"id":"213746","ColType":"Number","ColValue":"10000"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"213748","ColType":"String","ColValue":"com.apple.driver.AppleT8103TypeCPhy"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"213750","ColType":"String","ColValue":"AppleARMIODevice"}},
+{"data":{"title":"IOClass"},"attr":{"id":"213752","ColType":"String","ColValue":"AppleT8103TypeCPhy"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"213754","ColType":"String","ColValue":"com.apple.driver.AppleT8103TypeCPhy"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"213756","ColType":"String","ColValue":"com.apple.driver.AppleT8103TypeCPhy"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"213758","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"213760","ColType":"String","ColValue":"atc-phy,t8103"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"213762","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DevicePowerState"},"attr":{"id":"213764","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"213766","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"213768","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"213770","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"IONameMatched"},"attr":{"id":"213772","ColType":"String","ColValue":"atc-phy,t8103"}}
+]

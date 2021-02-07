@@ -1,0 +1,17 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"46245","ColType":"String","ColValue":"AppleTAS5770LAmp"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"46247","ColType":"String","ColValue":"com.apple.driver.AppleTAS5770LAmp"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"46249","ColType":"String","ColValue":"AppleARMIICDevice"}},
+{"data":{"title":"CodecRegisterDisplayBase"},"attr":{"id":"46251","ColType":"Number","ColValue":"16"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"46253","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DevicePowerState"},"attr":{"id":"46255","ColType":"Number","ColValue":"0"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"46257","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"46259","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"46261","ColType":"Number","ColValue":"1"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"46263","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"46265","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"46267","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"46268","ColType":"String","ColValue":"audio-control,tas5770"}}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"46270","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"CodecRegisterStartIndex"},"attr":{"id":"46272","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CodecRegisterPatchList"},"attr":{"id":"46274","ColType":"Array","ColValue":"0_values"},"children":[]},
+{"data":{"title":"IOFunctionParent00000031"},"attr":{"id":"46276","ColType":"Data","ColValue":"&lt;&gt;"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"46278","ColType":"String","ColValue":"audio-control,tas5770"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"46280","ColType":"String","ColValue":"com.apple.driver.AppleTAS5770LAmp"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"46282","ColType":"String","ColValue":"com.apple.driver.AppleTAS5770LAmp"}},
+{"data":{"title":"IOFunctionParent000000FB"},"attr":{"id":"46284","ColType":"Data","ColValue":"&lt;&gt;"}}
+]

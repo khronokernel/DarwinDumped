@@ -1,0 +1,16 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"177008","ColType":"String","ColValue":"AppleSmartIO"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"177010","ColType":"String","ColValue":"com.apple.driver.AppleSmartIO2"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"177012","ColType":"String","ColValue":"RTBuddyEndpointService"}},
+{"data":{"title":"IOPlatformActiveAction"},"attr":{"id":"177014","ColType":"Number","ColValue":"80000"}},
+{"data":{"title":"IOPlatformWakeAction"},"attr":{"id":"177016","ColType":"Number","ColValue":"590"}},
+{"data":{"title":"IOPlatformQuiesceAction"},"attr":{"id":"177018","ColType":"Number","ColValue":"80000"}},
+{"data":{"title":"IOPlatformSleepAction"},"attr":{"id":"177020","ColType":"Number","ColValue":"590"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"177022","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"177023","ColType":"String","ColValue":"SIOEndpoint1"}},{"data":{"title":"1"},"attr":{"id":"177024","ColType":"String","ColValue":"SIO1Endpoint1"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"177026","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"177028","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"177030","ColType":"String","ColValue":"AppleSmartIOUserClient"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"177032","ColType":"String","ColValue":"SIOEndpoint1"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"177034","ColType":"String","ColValue":"com.apple.driver.AppleSmartIO2"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"177036","ColType":"String","ColValue":"com.apple.driver.AppleSmartIO2"}}
+]

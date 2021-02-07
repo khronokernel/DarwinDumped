@@ -1,0 +1,13 @@
+[
+{"data":{"title":"IOProbeScore"},"attr":{"id":"210140","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"210142","ColType":"String","ColValue":"com.apple.driver.AppleHPM"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"210144","ColType":"String","ColValue":"AppleHPMBusDevice"}},
+{"data":{"title":"IOClass"},"attr":{"id":"210146","ColType":"String","ColValue":"AppleHPMARM"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"210148","ColType":"String","ColValue":"com.apple.driver.AppleHPM"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"210150","ColType":"String","ColValue":"com.apple.driver.AppleHPM"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"210152","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"210154","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"12A1DCCF-CF7A-4775-BEE5-9C4319F4CD2B"},"attr":{"id":"210156","ColType":"String","ColValue":"AppleHPM.kext/Contents/PlugIns/AppleHPMLib.plugin"}}]},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"210158","ColType":"String","ColValue":"AppleHPMUserClient"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"210160","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"ChildrenPowerState"},"attr":{"id":"210162","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"210164","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"210166","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"210168","ColType":"Number","ColValue":"1"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"210170","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"RID"},"attr":{"id":"210172","ColType":"Number","ColValue":"1"}}
+]

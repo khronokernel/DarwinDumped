@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"364755","ColType":"String","ColValue":"AppleT8101SPMIController"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"364757","ColType":"String","ColValue":"com.apple.driver.AppleSPMI"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"364759","ColType":"String","ColValue":"AppleARMIODevice"}},
+{"data":{"title":"IOPlatformWakeAction"},"attr":{"id":"364761","ColType":"Number","ColValue":"500"}},
+{"data":{"title":"IOPlatformSleepAction"},"attr":{"id":"364763","ColType":"Number","ColValue":"500"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"364765","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"364767","ColType":"String","ColValue":"spmi,t8101"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"364769","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"364771","ColType":"String","ColValue":"spmi,t8101"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"364773","ColType":"String","ColValue":"com.apple.driver.AppleSPMI"}},
+{"data":{"title":"InterruptControllerName"},"attr":{"id":"364775","ColType":"String","ColValue":"IOInterruptController000000BE"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"364777","ColType":"String","ColValue":"com.apple.driver.AppleSPMI"}}
+]

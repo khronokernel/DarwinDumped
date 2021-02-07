@@ -1,0 +1,16 @@
+[
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"166614","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"DeviceOpenedByEventSystem"},"attr":{"id":"166616","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"166618","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"166619","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"166620","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.hid"}},{"data":{"title":"1"},"attr":{"id":"166621","ColType":"String","ColValue":"com.apple.developer.driverkit.builtin"}}]}]},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"166623","ColType":"Number","ColValue":"255"}},
+{"data":{"title":"LocationID"},"attr":{"id":"166625","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"166627","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"166628","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"166630","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"166632","ColType":"Number","ColValue":"255"}}]}]},
+{"data":{"title":"Transport"},"attr":{"id":"166634","ColType":"String","ColValue":"SPU"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"166636","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"166638","ColType":"Data","ColValue":"&lt;0600ff0aff00a101150026ff00750895018102c0&gt;"}},
+{"data":{"title":"Built-In"},"attr":{"id":"166640","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"166642","ColType":"String","ColValue":"Apple"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"166644","ColType":"Number","ColValue":"65280"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"166646","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"166648","ColType":"Number","ColValue":"1"}}
+]

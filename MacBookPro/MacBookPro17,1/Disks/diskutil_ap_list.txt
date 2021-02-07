@@ -1,0 +1,85 @@
+APFS Containers (4 found)
+|
++-- Container disk3 0BC7EB7B-4F12-493B-85FD-DEF98B83D0E0
+|   ====================================================
+|   APFS Container Reference:     disk3
+|   Size (Capacity Ceiling):      994662584320 B (994.7 GB)
+|   Capacity In Use By Volumes:   348859559936 B (348.9 GB) (35.1% used)
+|   Capacity Not Allocated:       645803024384 B (645.8 GB) (64.9% free)
+|   |
+|   +-< Physical Store disk0s2 343B78AF-E7ED-42C7-9939-4479027874F3
+|   |   -----------------------------------------------------------
+|   |   APFS Physical Store Disk:   disk0s2
+|   |   Size:                       994662584320 B (994.7 GB)
+|   |
+|   +-> Volume disk3s1 F97838D5-6085-44F4-B808-4709C483C264
+|   |   ---------------------------------------------------
+|   |   APFS Volume Disk (Role):   disk3s1 (System)
+|   |   Name:                      Macintosh HD (Case-insensitive)
+|   |   Mount Point:               Not Mounted
+|   |   Capacity Consumed:         15355256832 B (15.4 GB)
+|   |   Sealed:                    Broken
+|   |   FileVault:                 Yes (Unlocked)
+|   |   Encrypted:                 No
+|   |   |
+|   |   Snapshot:                  52183AA4-ECB3-4C2D-AED5-F911C2CE42D1
+|   |   Snapshot Disk:             disk3s1s1
+|   |   Snapshot Mount Point:      /
+|   |   Snapshot Sealed:           Yes
+|   |
+|   +-> Volume disk3s2 EAC7C1A5-8F16-4AD9-B4D4-1E4F9362C698
+|   |   ---------------------------------------------------
+|   |   APFS Volume Disk (Role):   disk3s2 (Preboot)
+|   |   Name:                      Preboot (Case-insensitive)
+|   |   Mount Point:               /System/Volumes/Preboot
+|   |   Capacity Consumed:         498597888 B (498.6 MB)
+|   |   Sealed:                    No
+|   |   FileVault:                 No
+|   |
+|   +-> Volume disk3s3 BA3F4DE3-79F6-44C1-B457-F72B9EDAB1EA
+|   |   ---------------------------------------------------
+|   |   APFS Volume Disk (Role):   disk3s3 (Recovery)
+|   |   Name:                      Recovery (Case-insensitive)
+|   |   Mount Point:               Not Mounted
+|   |   Capacity Consumed:         1092517888 B (1.1 GB)
+|   |   Sealed:                    No
+|   |   FileVault:                 No
+|   |
+|   +-> Volume disk3s5 D20C9EBF-A017-4518-9D84-5F3DA3A52776
+|   |   ---------------------------------------------------
+|   |   APFS Volume Disk (Role):   disk3s5 (Data)
+|   |   Name:                      Data (Case-insensitive)
+|   |   Mount Point:               /System/Volumes/Data
+|   |   Capacity Consumed:         324184322048 B (324.2 GB)
+|   |   Sealed:                    No
+|   |   FileVault:                 Yes (Unlocked)
+|   |
+|   +-> Volume disk3s6 6C73A546-450B-45D9-BAC1-4C7669333EFA
+|       ---------------------------------------------------
+|       APFS Volume Disk (Role):   disk3s6 (VM)
+|       Name:                      VM (Case-insensitive)
+|       Mount Point:               /System/Volumes/VM
+|       Capacity Consumed:         7516221440 B (7.5 GB)
+|       Sealed:                    No
+|       FileVault:                 No
+|
++-- Container disk5 5E5DC29B-0207-4A66-AF96-B0ED8D6C9828
+    ====================================================
+    APFS Container Reference:     disk5
+    Size (Capacity Ceiling):      255850758144 B (255.9 GB)
+    Capacity In Use By Volumes:   215331651584 B (215.3 GB) (84.2% used)
+    Capacity Not Allocated:       40519106560 B (40.5 GB) (15.8% free)
+    |
+    +-< Physical Store disk4s2 5E04681C-354A-43BA-A31D-BCD002EAF67D
+    |   -----------------------------------------------------------
+    |   APFS Physical Store Disk:   disk4s2
+    |   Size:                       255850758144 B (255.9 GB)
+    |
+    +-> Volume disk5s1 58FB6434-184E-4D42-94BC-2DE7F618C85C
+        ---------------------------------------------------
+        APFS Volume Disk (Role):   disk5s1 (No specific role)
+        Name:                      Storage HD (Case-insensitive)
+        Mount Point:               /Volumes/Storage HD
+        Capacity Consumed:         215193399296 B (215.2 GB)
+        Sealed:                    No
+        FileVault:                 No

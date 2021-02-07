@@ -1,0 +1,17 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"13508","ColType":"String","ColValue":"AppleSEPManager"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"13510","ColType":"String","ColValue":"com.apple.driver.AppleSEPManager"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"13512","ColType":"String","ColValue":"AppleA7IOPNub"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"13514","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"ChildrenPowerState"},"attr":{"id":"13516","ColType":"Number","ColValue":"2"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"13518","ColType":"Number","ColValue":"2"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"13520","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"13522","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"13524","ColType":"String","ColValue":"AppleSEPUserClient"}},
+{"data":{"title":"IOPlatformQuiesceAction"},"attr":{"id":"13526","ColType":"Number","ColValue":"89999"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"13528","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"13530","ColType":"String","ColValue":"iop-nub,sep"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"13532","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"SEPCameraDisable"},"attr":{"id":"13534","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"13536","ColType":"String","ColValue":"iop-nub,sep"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"13538","ColType":"String","ColValue":"com.apple.driver.AppleSEPManager"}},
+{"data":{"title":"sep-booted"},"attr":{"id":"13540","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"13542","ColType":"String","ColValue":"com.apple.driver.AppleSEPManager"}},
+{"data":{"title":"HasXART"},"attr":{"id":"13544","ColType":"Boolean","ColValue":"Yes"}}
+]

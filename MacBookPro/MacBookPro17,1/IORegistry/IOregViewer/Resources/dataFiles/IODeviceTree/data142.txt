@@ -1,0 +1,10 @@
+[
+{"data":{"title":"reg"},"attr":{"id":"13603","ColType":"Data","ColValue":"&lt;0040043b000000000040010000000000&gt;"}},
+{"data":{"title":"compatible"},"attr":{"id":"13605","ColType":"Data","ColValue":"&lt;\"nco,t8101\",\"nco,s5l8960x\"&gt;"}},
+{"data":{"title":"pmgr-nco-page-size"},"attr":{"id":"13607","ColType":"Data","ColValue":"&lt;00400000&gt;"}},
+{"data":{"title":"IODeviceMemory"},"attr":{"id":"13609","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"13610","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"13611","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"address"},"attr":{"id":"13613","ColType":"Number","ColValue":"9580068864"}},{"data":{"title":"length"},"attr":{"id":"13615","ColType":"Number","ColValue":"81920"}}]}]}]},
+{"data":{"title":"clock-ids"},"attr":{"id":"13617","ColType":"Data","ColValue":"&lt;48010000490100004a0100004b010000&gt;"}},
+{"data":{"title":"device_type"},"attr":{"id":"13619","ColType":"Data","ColValue":"&lt;\"nco\"&gt;"}},
+{"data":{"title":"AAPL,phandle"},"attr":{"id":"13621","ColType":"Data","ColValue":"&lt;88000000&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"13623","ColType":"Data","ColValue":"&lt;\"nco\"&gt;"}}
+]

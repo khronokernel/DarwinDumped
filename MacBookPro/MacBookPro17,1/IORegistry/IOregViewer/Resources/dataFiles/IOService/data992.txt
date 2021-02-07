@@ -1,0 +1,15 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"208411","ColType":"String","ColValue":"AppleSMCPMU"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"208413","ColType":"String","ColValue":"com.apple.driver.AppleSMC"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"208415","ColType":"String","ColValue":"AppleSMCInterface"}},
+{"data":{"title":"IOPlatformWakeAction"},"attr":{"id":"208417","ColType":"Number","ColValue":"200"}},
+{"data":{"title":"IOPlatformSleepAction"},"attr":{"id":"208419","ColType":"Number","ColValue":"200"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"208421","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"208423","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"208424","ColType":"String","ColValue":"smc-pmu"}}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"208426","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOFunctionParent000000A0"},"attr":{"id":"208428","ColType":"Data","ColValue":"&lt;&gt;"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"208430","ColType":"String","ColValue":"smc-pmu"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"208432","ColType":"String","ColValue":"com.apple.driver.AppleSMC"}},
+{"data":{"title":"InterruptControllerName"},"attr":{"id":"208434","ColType":"String","ColValue":"IOInterruptController000000A0"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"208436","ColType":"String","ColValue":"com.apple.driver.AppleSMC"}}
+]

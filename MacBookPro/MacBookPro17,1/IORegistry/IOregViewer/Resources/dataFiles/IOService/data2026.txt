@@ -1,0 +1,5 @@
+[
+{"data":{"title":"IOHIDUserDeviceDebugState"},"attr":{"id":"468972","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxClientTimeoutUS"},"attr":{"id":"468974","ColType":"Number","ColValue":"1000000"}},{"data":{"title":"ReportQueue"},"attr":{"id":"468976","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"EnqueueTimestamp"},"attr":{"id":"468978","ColType":"Number","ColValue":"6562179435152"}},{"data":{"title":"tail"},"attr":{"id":"468980","ColType":"Number","ColValue":"15800"}},{"data":{"title":"QueueSize"},"attr":{"id":"468982","ColType":"Number","ColValue":"16384"}},{"data":{"title":"head"},"attr":{"id":"468984","ColType":"Number","ColValue":"15800"}}]},{"data":{"title":"SetReportCount"},"attr":{"id":"468986","ColType":"Number","ColValue":"14311"}},{"data":{"title":"SetReportCompletedCount"},"attr":{"id":"468988","ColType":"Number","ColValue":"14311"}}]},
+{"data":{"title":"IOUserClientCreator"},"attr":{"id":"468990","ColType":"String","ColValue":"pid 11472, WindowServer"}},
+{"data":{"title":"IOUserClientDefaultLocking"},"attr":{"id":"468992","ColType":"Boolean","ColValue":"Yes"}}
+]

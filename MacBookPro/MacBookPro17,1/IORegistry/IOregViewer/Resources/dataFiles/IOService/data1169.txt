@@ -1,0 +1,19 @@
+[
+{"data":{"title":"USBPortType"},"attr":{"id":"216520","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"216522","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"2d9786c6-9ef3-11d4-ad51-000a27052861"},"attr":{"id":"216524","ColType":"String","ColValue":"IOUSBHostFamily.kext/Contents/PlugIns/IOUSBLib.bundle"}}]},
+{"data":{"title":"bcdDevice"},"attr":{"id":"216526","ColType":"Number","ColValue":"256"}},
+{"data":{"title":"USBSpeed"},"attr":{"id":"216528","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"idProduct"},"attr":{"id":"216530","ColType":"Number","ColValue":"5663"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"216532","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"216533","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"216534","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.usb"}}]}]},
+{"data":{"title":"bInterfaceSubClass"},"attr":{"id":"216536","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"bConfigurationValue"},"attr":{"id":"216538","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"locationID"},"attr":{"id":"216540","ColType":"Number","ColValue":"1196032"}},
+{"data":{"title":"USB Product Name"},"attr":{"id":"216542","ColType":"String","ColValue":"USB PnP Audio Device"}},
+{"data":{"title":"bInterfaceProtocol"},"attr":{"id":"216544","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"iInterface"},"attr":{"id":"216546","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bAlternateSetting"},"attr":{"id":"216548","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"idVendor"},"attr":{"id":"216550","ColType":"Number","ColValue":"3190"}},
+{"data":{"title":"bInterfaceNumber"},"attr":{"id":"216552","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bInterfaceClass"},"attr":{"id":"216554","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"bNumEndpoints"},"attr":{"id":"216556","ColType":"Number","ColValue":"0"}}
+]

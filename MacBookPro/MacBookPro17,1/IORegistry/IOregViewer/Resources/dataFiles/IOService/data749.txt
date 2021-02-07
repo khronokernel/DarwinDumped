@@ -1,0 +1,13 @@
+[
+{"data":{"title":"IOProbeScore"},"attr":{"id":"182204","ColType":"Number","ColValue":"2000"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"182206","ColType":"String","ColValue":"com.apple.filesystems.apfs"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"182208","ColType":"String","ColValue":"IOStorage"}},
+{"data":{"title":"IOClass"},"attr":{"id":"182210","ColType":"String","ColValue":"AppleAPFSContainerScheme"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"182212","ColType":"String","ColValue":"com.apple.filesystems.apfs"}},
+{"data":{"title":"IOPropertyMatch"},"attr":{"id":"182214","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"182215","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Content Hint"},"attr":{"id":"182217","ColType":"String","ColValue":"52637672-7900-11AA-AA11-00306543ECAC"}}]}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"182219","ColType":"String","ColValue":"IOMedia"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"182221","ColType":"String","ColValue":"com.apple.filesystems.apfs"}},
+{"data":{"title":"Statistics"},"attr":{"id":"182223","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Operations (Read)"},"attr":{"id":"182225","ColType":"Number","ColValue":"1836"}},{"data":{"title":"Bytes (Write)"},"attr":{"id":"182227","ColType":"Number","ColValue":"0"}},{"data":{"title":"Operations (Write)"},"attr":{"id":"182229","ColType":"Number","ColValue":"0"}},{"data":{"title":"Bytes (Read)"},"attr":{"id":"182231","ColType":"Number","ColValue":"8871936"}}]},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"182233","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"APFSComposited"},"attr":{"id":"182235","ColType":"Boolean","ColValue":"No"}}
+]

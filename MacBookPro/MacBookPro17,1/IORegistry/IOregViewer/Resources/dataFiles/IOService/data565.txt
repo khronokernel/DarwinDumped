@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"163648","ColType":"String","ColValue":"AppleSPUTimesyncV2"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"163650","ColType":"String","ColValue":"com.apple.driver.AppleSPU"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"163652","ColType":"String","ColValue":"AppleA7IOPNub"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"163654","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CapabilityFlags"},"attr":{"id":"163656","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"163658","ColType":"Number","ColValue":"2"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"163660","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"163662","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"163664","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"163665","ColType":"String","ColValue":"iop-aop-nub"}}]},
+{"data":{"title":"timesync"},"attr":{"id":"163667","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"spu"},"attr":{"id":"163669","ColType":"Number","ColValue":"273425141102000"}},{"data":{"title":"ap"},"attr":{"id":"163671","ColType":"Number","ColValue":"211213539064708"}},{"data":{"title":"ap-cont"},"attr":{"id":"163673","ColType":"Number","ColValue":"273425141102666"}},{"data":{"title":"calendar"},"attr":{"id":"163675","ColType":"Number","ColValue":"1612664634466253309"}}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"163677","ColType":"String","ColValue":"AppleSPUTimesync"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"163679","ColType":"String","ColValue":"iop-aop-nub"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"163681","ColType":"String","ColValue":"com.apple.driver.AppleSPU"}},
+{"data":{"title":"IOKitDebug"},"attr":{"id":"163683","ColType":"Number","ColValue":"65535"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"163685","ColType":"String","ColValue":"com.apple.driver.AppleSPU"}}
+]

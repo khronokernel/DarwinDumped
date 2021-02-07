@@ -1,0 +1,13 @@
+[
+{"data":{"title":"IOProbeScore"},"attr":{"id":"13572","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"13574","ColType":"String","ColValue":"com.apple.driver.CoreKDL"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"13576","ColType":"String","ColValue":"CoreKDLDriver"}},
+{"data":{"title":"IOClass"},"attr":{"id":"13578","ColType":"String","ColValue":"CoreKDLDriver"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"13580","ColType":"String","ColValue":"com.apple.driver.CoreKDL"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"13582","ColType":"String","ColValue":"AppleSEPDeviceService"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"13584","ColType":"String","ColValue":"com.apple.driver.CoreKDL"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"13586","ColType":"String","ColValue":"sep-endpoint,skdl"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"13588","ColType":"String","ColValue":"CoreKDLUserClient"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"13590","ColType":"String","ColValue":"sep-endpoint,skdl"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"13592","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CapabilityFlags"},"attr":{"id":"13594","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"13596","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"13598","ColType":"Number","ColValue":"1"}}]}
+]

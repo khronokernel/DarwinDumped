@@ -1,0 +1,16 @@
+[
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"165864","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"DeviceOpenedByEventSystem"},"attr":{"id":"165866","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"165868","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"165869","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"165870","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.hid"}},{"data":{"title":"1"},"attr":{"id":"165871","ColType":"String","ColValue":"com.apple.developer.driverkit.builtin"}}]}]},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"165873","ColType":"Number","ColValue":"4"}},
+{"data":{"title":"LocationID"},"attr":{"id":"165875","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"165877","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"165878","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"165880","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"165882","ColType":"Number","ColValue":"4"}}]}]},
+{"data":{"title":"Transport"},"attr":{"id":"165884","ColType":"String","ColValue":"SPU"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"165886","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"165888","ColType":"Data","ColValue":"&lt;0600ff0a0400a101150026ff00750895378100c0&gt;"}},
+{"data":{"title":"Built-In"},"attr":{"id":"165890","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"165892","ColType":"String","ColValue":"Apple"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"165894","ColType":"Number","ColValue":"65280"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"165896","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"165898","ColType":"Number","ColValue":"55"}}
+]

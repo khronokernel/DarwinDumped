@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"7181","ColType":"String","ColValue":"AppleT810xIO"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"7183","ColType":"String","ColValue":"com.apple.driver.AppleT8101"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"7185","ColType":"String","ColValue":"IOPlatformDevice"}},
+{"data":{"title":"IOPlatformActiveAction"},"attr":{"id":"7187","ColType":"Number","ColValue":"80000"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"7189","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CapabilityFlags"},"attr":{"id":"7191","ColType":"Number","ColValue":"0"}},{"data":{"title":"ChildProxyPowerState"},"attr":{"id":"7193","ColType":"Number","ColValue":"18446744073709551615"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"7195","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOFunctionParent0000001E"},"attr":{"id":"7197","ColType":"Data","ColValue":"&lt;&gt;"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"7199","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"7201","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"7202","ColType":"String","ColValue":"arm-io,t8101"}},{"data":{"title":"1"},"attr":{"id":"7203","ColType":"String","ColValue":"arm-io,t8103"}}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"7205","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"7207","ColType":"String","ColValue":"arm-io,t8103"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"7209","ColType":"String","ColValue":"com.apple.driver.AppleT8101"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"7211","ColType":"String","ColValue":"com.apple.driver.AppleT8101"}}
+]

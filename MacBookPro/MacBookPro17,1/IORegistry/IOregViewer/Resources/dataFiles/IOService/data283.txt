@@ -1,0 +1,15 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"120959","ColType":"String","ColValue":"AppleActuatorHIDEventDriver"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"120961","ColType":"String","ColValue":"com.apple.driver.AppleActuatorDriver"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"120963","ColType":"String","ColValue":"IOHIDInterface"}},
+{"data":{"title":"DefaultActuatorProperties"},"attr":{"id":"120965","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"ActuatorRevision"},"attr":{"id":"120967","ColType":"Number","ColValue":"5"}}]},
+{"data":{"title":"VendorID"},"attr":{"id":"120969","ColType":"Number","ColValue":"1452"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"120971","ColType":"Number","ColValue":"7175"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"120973","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"LocationID"},"attr":{"id":"120975","ColType":"Number","ColValue":"36"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"120977","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"120978","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"120980","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"120982","ColType":"Number","ColValue":"13"}}]}]},
+{"data":{"title":"Transport"},"attr":{"id":"120984","ColType":"String","ColValue":"SPI"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"120986","ColType":"String","ColValue":"com.apple.driver.AppleTopCaseDriverV2"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"120988","ColType":"String","ColValue":"com.apple.driver.AppleActuatorDriver"}},
+{"data":{"title":"ProductIDArray"},"attr":{"id":"120990","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"120991","ColType":"Number","ColValue":"833"}}]}
+]

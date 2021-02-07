@@ -1,0 +1,19 @@
+[
+{"data":{"title":"IOAudioStreamSampleFormatByteOrder"},"attr":{"id":"215258","ColType":"String","ColValue":"Little Endian"}},
+{"data":{"title":"USBADC"},"attr":{"id":"215260","ColType":"Number","ColValue":"32"}},
+{"data":{"title":"idProduct"},"attr":{"id":"215262","ColType":"Number","ColValue":"24576"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"215264","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"IOAudioEngineState"},"attr":{"id":"215266","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"locationID"},"attr":{"id":"215268","ColType":"Number","ColValue":"1114112"}},
+{"data":{"title":"IOAudioEngineDescription"},"attr":{"id":"215270","ColType":"String","ColValue":"USB Audio"}},
+{"data":{"title":"IOAudioEngineUseHiResSampleInterval"},"attr":{"id":"215272","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOAudioEngineNumSampleFramesPerBuffer"},"attr":{"id":"215274","ColType":"Number","ColValue":"32768"}},
+{"data":{"title":"IOAudioEngineGlobalUniqueID"},"attr":{"id":"215276","ColType":"String","ColValue":"AppleUSBAudioEngine:DisplayLink:USB3.0 5K Graphic Docking:4310338374731:4"}},
+{"data":{"title":"idVendor"},"attr":{"id":"215278","ColType":"Number","ColValue":"6121"}},
+{"data":{"title":"IOAudioEngineClockDomain"},"attr":{"id":"215280","ColType":"Number","ColValue":"12242944"}},
+{"data":{"title":"IOAudioSampleRate"},"attr":{"id":"215282","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOAudioSampleRateWholeNumber"},"attr":{"id":"215284","ColType":"Number","ColValue":"48000"}},{"data":{"title":"IOAudioSampleRateFraction"},"attr":{"id":"215286","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOAudioEngineSampleOffset"},"attr":{"id":"215288","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOAudioEngineFlavor"},"attr":{"id":"215290","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"IOAudioEngineChannelNames"},"attr":{"id":"215292","ColType":"Dictionary","ColValue":"0_values"},"children":[]},
+{"data":{"title":"IOAudioEngineClockIsStable"},"attr":{"id":"215294","ColType":"Boolean","ColValue":"Yes"}}
+]

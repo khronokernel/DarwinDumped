@@ -1,0 +1,21 @@
+[
+{"data":{"title":"USBPortType"},"attr":{"id":"234407","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"234409","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"2d9786c6-9ef3-11d4-ad51-000a27052861"},"attr":{"id":"234411","ColType":"String","ColValue":"IOUSBHostFamily.kext/Contents/PlugIns/IOUSBLib.bundle"}}]},
+{"data":{"title":"USB Vendor Name"},"attr":{"id":"234413","ColType":"String","ColValue":"Logitech"}},
+{"data":{"title":"bcdDevice"},"attr":{"id":"234415","ColType":"Number","ColValue":"4625"}},
+{"data":{"title":"USBSpeed"},"attr":{"id":"234417","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"idProduct"},"attr":{"id":"234419","ColType":"Number","ColValue":"50475"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"234421","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"234422","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"234423","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.usb"}}]}]},
+{"data":{"title":"bInterfaceSubClass"},"attr":{"id":"234425","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"bConfigurationValue"},"attr":{"id":"234427","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"locationID"},"attr":{"id":"234429","ColType":"Number","ColValue":"1253376"}},
+{"data":{"title":"USB Product Name"},"attr":{"id":"234431","ColType":"String","ColValue":"USB Receiver"}},
+{"data":{"title":"IODEXTMatchCount"},"attr":{"id":"234433","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"bInterfaceProtocol"},"attr":{"id":"234435","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"iInterface"},"attr":{"id":"234437","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bAlternateSetting"},"attr":{"id":"234439","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"idVendor"},"attr":{"id":"234441","ColType":"Number","ColValue":"1133"}},
+{"data":{"title":"bInterfaceNumber"},"attr":{"id":"234443","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"bInterfaceClass"},"attr":{"id":"234445","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"bNumEndpoints"},"attr":{"id":"234447","ColType":"Number","ColValue":"1"}}
+]

@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"399786","ColType":"String","ColValue":"AppleDCPDPTXRemoteHDCPInterfaceProxy"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"399788","ColType":"String","ColValue":"com.apple.driver.AppleDCPDPTXProxy"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"399790","ColType":"String","ColValue":"AFKEndpointInterface"}},
+{"data":{"title":"IOPropertyMatch"},"attr":{"id":"399792","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"EPICName"},"attr":{"id":"399794","ColType":"String","ColValue":"dcpdptx-hdcp-interface"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"399796","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Unit"},"attr":{"id":"399798","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"Location"},"attr":{"id":"399800","ColType":"String","ColValue":"External"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"399802","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"399804","ColType":"String","ColValue":"com.apple.driver.AppleDCPDPTXProxy"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"399806","ColType":"String","ColValue":"com.apple.driver.AppleDCPDPTXProxy"}},
+{"data":{"title":"hdcp-parent"},"attr":{"id":"399808","ColType":"Data","ColValue":"&lt;8d000000&gt;"}},
+{"data":{"title":"hdcp-channel"},"attr":{"id":"399810","ColType":"Data","ColValue":"&lt;06000000&gt;"}}
+]

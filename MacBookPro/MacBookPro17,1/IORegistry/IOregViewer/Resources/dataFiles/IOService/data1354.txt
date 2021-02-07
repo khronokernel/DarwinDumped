@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"365257","ColType":"String","ColValue":"AppleStockholmControl"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"365259","ColType":"String","ColValue":"com.apple.driver.AppleStockholmControl"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"365261","ColType":"String","ColValue":"IOService"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"365263","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DesiredPowerState"},"attr":{"id":"365265","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"365267","ColType":"Number","ColValue":"0"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"365269","ColType":"Number","ColValue":"0"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"365271","ColType":"Number","ColValue":"1"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"365273","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"365275","ColType":"String","ColValue":"AppleStockholmControlUserClient"}},
+{"data":{"title":"nfc.log"},"attr":{"id":"365277","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"365279","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"365281","ColType":"String","ColValue":"stockholm"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"365283","ColType":"String","ColValue":"AppleStockholmControl"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"365285","ColType":"String","ColValue":"stockholm"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"365287","ColType":"String","ColValue":"com.apple.driver.AppleStockholmControl"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"365289","ColType":"String","ColValue":"com.apple.driver.AppleStockholmControl"}}
+]

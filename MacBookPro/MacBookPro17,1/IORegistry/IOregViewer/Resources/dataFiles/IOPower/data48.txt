@@ -1,0 +1,19 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"6525","ColType":"String","ColValue":"AppleT8015TempSensor"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"6527","ColType":"String","ColValue":"com.apple.driver.AppleEmbeddedTempSensor"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"6529","ColType":"String","ColValue":"AppleARMIODevice"}},
+{"data":{"title":"IOPlatformActiveAction"},"attr":{"id":"6531","ColType":"Number","ColValue":"950"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"6533","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CapabilityFlags"},"attr":{"id":"6535","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"6537","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"6539","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"IOPlatformQuiesceAction"},"attr":{"id":"6541","ColType":"Number","ColValue":"250"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"6543","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"6545","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"6546","ColType":"String","ColValue":"tempsensor,t8015"}},{"data":{"title":"1"},"attr":{"id":"6547","ColType":"String","ColValue":"tempsensor,t8020"}},{"data":{"title":"2"},"attr":{"id":"6548","ColType":"String","ColValue":"tempsensor,t8027"}},{"data":{"title":"3"},"attr":{"id":"6549","ColType":"String","ColValue":"tempsensor,t8030"}}]},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"6551","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"6553","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOFunctionParent0000010C"},"attr":{"id":"6555","ColType":"Data","ColValue":"&lt;&gt;"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"6557","ColType":"String","ColValue":"tempsensor,t8020"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"6559","ColType":"String","ColValue":"com.apple.driver.AppleEmbeddedTempSensor"}},
+{"data":{"title":"location-name"},"attr":{"id":"6561","ColType":"Data","ColValue":"&lt;\"pACC MTR Temp Sensor3\"&gt;"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"6563","ColType":"String","ColValue":"com.apple.driver.AppleEmbeddedTempSensor"}},
+{"data":{"title":"DeviceOpenedByEventSystem"},"attr":{"id":"6565","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"QueueSize"},"attr":{"id":"6567","ColType":"Number","ColValue":"0"}}
+]

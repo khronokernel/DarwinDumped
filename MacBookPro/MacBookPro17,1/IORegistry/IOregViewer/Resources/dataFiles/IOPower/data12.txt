@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"5366","ColType":"String","ColValue":"AppleLEAPController_T8103"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"5368","ColType":"String","ColValue":"com.apple.driver.AppleMCA2-T8103"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"5370","ColType":"String","ColValue":"AppleARMIODevice"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"5372","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"ChildrenPowerState"},"attr":{"id":"5374","ColType":"Number","ColValue":"1"}},{"data":{"title":"DevicePowerState"},"attr":{"id":"5376","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"5378","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"5380","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"5382","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"5384","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"5386","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"5387","ColType":"String","ColValue":"alc,t8103"}}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"5389","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"mca-uses-iopm-overrides"},"attr":{"id":"5391","ColType":"String","ColValue":"true"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"5393","ColType":"String","ColValue":"alc,t8103"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"5395","ColType":"String","ColValue":"com.apple.driver.AppleMCA2-T8103"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"5397","ColType":"String","ColValue":"com.apple.driver.AppleMCA2-T8103"}},
+{"data":{"title":"ControllerActive"},"attr":{"id":"5399","ColType":"Boolean","ColValue":"No"}}
+]

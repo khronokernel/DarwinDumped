@@ -1,0 +1,17 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"163248","ColType":"String","ColValue":"AppleT8101GPIOIC"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"163250","ColType":"String","ColValue":"com.apple.driver.AppleGPIOICController"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"163252","ColType":"String","ColValue":"AppleARMIODevice"}},
+{"data":{"title":"IOPlatformActiveAction"},"attr":{"id":"163254","ColType":"Number","ColValue":"5000"}},
+{"data":{"title":"IOPlatformWakeAction"},"attr":{"id":"163256","ColType":"Number","ColValue":"500"}},
+{"data":{"title":"IOPlatformQuiesceAction"},"attr":{"id":"163258","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"163260","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"163262","ColType":"String","ColValue":"gpio,t8101"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"163264","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"163266","ColType":"String","ColValue":"gpio,t8101"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"163268","ColType":"String","ColValue":"com.apple.driver.AppleGPIOICController"}},
+{"data":{"title":"InterruptControllerName"},"attr":{"id":"163270","ColType":"String","ColValue":"IOInterruptController00000075"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"163272","ColType":"String","ColValue":"com.apple.driver.AppleGPIOICController"}},
+{"data":{"title":"role"},"attr":{"id":"163274","ColType":"String","ColValue":"AOP"}},
+{"data":{"title":"IOFunctionParent00000075"},"attr":{"id":"163276","ColType":"Data","ColValue":"&lt;&gt;"}}
+]

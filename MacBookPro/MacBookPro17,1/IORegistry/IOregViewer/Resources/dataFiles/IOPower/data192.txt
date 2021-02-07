@@ -1,0 +1,15 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"18546","ColType":"String","ColValue":"AppleAOPAudioClientManager"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"18548","ColType":"String","ColValue":"com.apple.driver.AppleAOPAudio"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"18550","ColType":"String","ColValue":"AppleAOPAudioDeviceNode"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"18552","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CapabilityFlags"},"attr":{"id":"18554","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"18556","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"18558","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"18560","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"18562","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"18563","ColType":"String","ColValue":"audio-aop-hapticmgr"}},{"data":{"title":"1"},"attr":{"id":"18564","ColType":"String","ColValue":"audio-hapticmgr"}},{"data":{"title":"2"},"attr":{"id":"18565","ColType":"String","ColValue":"audio-hp"}},{"data":{"title":"3"},"attr":{"id":"18566","ColType":"String","ColValue":"audio-aop-ldcm"}},{"data":{"title":"4"},"attr":{"id":"18567","ColType":"String","ColValue":"audio-aop-hawking"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"18569","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"18571","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOFunctionParent0000007E"},"attr":{"id":"18573","ColType":"Data","ColValue":"&lt;&gt;"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"18575","ColType":"String","ColValue":"audio-hp"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"18577","ColType":"String","ColValue":"com.apple.driver.AppleAOPAudio"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"18579","ColType":"String","ColValue":"com.apple.driver.AppleAOPAudio"}},
+{"data":{"title":"id0"},"attr":{"id":"18581","ColType":"String","ColValue":"hpai"}}
+]

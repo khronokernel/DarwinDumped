@@ -1,0 +1,13 @@
+[
+{"data":{"title":"IOPropertyMatch"},"attr":{"id":"363322","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"USBDeviceFunction"},"attr":{"id":"363324","ColType":"String","ColValue":"AppleUSBNCMControlAux"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"363326","ColType":"String","ColValue":"com.apple.driver.AppleUSBDeviceNCM"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"363328","ColType":"String","ColValue":"IOUSBDeviceInterface"}},
+{"data":{"title":"IOClass"},"attr":{"id":"363330","ColType":"String","ColValue":"AppleUSBDeviceNCMControl"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"363332","ColType":"String","ColValue":"com.apple.driver.AppleUSBDeviceNCM"}},
+{"data":{"title":"NetworkInterfaceFlags"},"attr":{"id":"363334","ColType":"Number","ColValue":"536870912"}},
+{"data":{"title":"ncm-control-ecid-mac-offset"},"attr":{"id":"363336","ColType":"Data","ColValue":"&lt;20000000&gt;"}},
+{"data":{"title":"ncm-interrupt-ep-disabled"},"attr":{"id":"363338","ColType":"Data","ColValue":"&lt;01000000&gt;"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"363340","ColType":"String","ColValue":"com.apple.driver.AppleUSBDeviceNCM"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"363342","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"363344","ColType":"String","ColValue":"IODefaultMatchCategory"}}
+]

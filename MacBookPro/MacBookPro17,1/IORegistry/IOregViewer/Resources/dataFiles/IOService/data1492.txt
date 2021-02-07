@@ -1,0 +1,15 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"397282","ColType":"String","ColValue":"DCPDPDeviceProxy"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"397284","ColType":"String","ColValue":"com.apple.driver.DCPDPFamilyProxy"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"397286","ColType":"String","ColValue":"AFKEndpointInterface"}},
+{"data":{"title":"IOPropertyMatch"},"attr":{"id":"397288","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"EPICName"},"attr":{"id":"397290","ColType":"String","ColValue":"dcpdp-device-epic"}}]},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"397292","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"397294","ColType":"Number","ColValue":"0"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"397296","ColType":"Number","ColValue":"256"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"397298","ColType":"Number","ColValue":"1"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"397300","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"397302","ColType":"String","ColValue":"DCPDPDeviceProxyUserClient"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"397304","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Unit"},"attr":{"id":"397306","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Location"},"attr":{"id":"397308","ColType":"String","ColValue":"External"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"397310","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IODPDeviceUserInterfaceSupported"},"attr":{"id":"397312","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"397314","ColType":"String","ColValue":"com.apple.driver.DCPDPFamilyProxy"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"397316","ColType":"String","ColValue":"com.apple.driver.DCPDPFamilyProxy"}}
+]

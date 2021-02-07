@@ -1,0 +1,13 @@
+[
+{"data":{"title":"IOProbeScore"},"attr":{"id":"408511","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"408513","ColType":"String","ColValue":"com.apple.driver.AppleMCA2-T8103"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"408515","ColType":"String","ColValue":"AppleARMIODevice"}},
+{"data":{"title":"IOClass"},"attr":{"id":"408517","ColType":"String","ColValue":"AppleMCA2Cluster_T8103"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"408519","ColType":"String","ColValue":"com.apple.driver.AppleMCA2-T8103"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"408521","ColType":"String","ColValue":"com.apple.driver.AppleMCA2-T8103"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"408523","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"408525","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"408526","ColType":"String","ColValue":"mcaCluster,t8103"}}]},
+{"data":{"title":"mca-uses-iopm-overrides"},"attr":{"id":"408528","ColType":"String","ColValue":"true"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"408530","ColType":"String","ColValue":"mcaCluster,t8103"}},
+{"data":{"title":"filterInterrupt"},"attr":{"id":"408532","ColType":"Boolean","ColValue":"No"}}
+]

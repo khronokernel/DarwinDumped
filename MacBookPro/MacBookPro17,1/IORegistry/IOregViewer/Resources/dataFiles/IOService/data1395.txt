@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"368935","ColType":"String","ColValue":"DCPDPControllerProxy"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"368937","ColType":"String","ColValue":"com.apple.driver.DCPDPFamilyProxy"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"368939","ColType":"String","ColValue":"AFKEndpointInterface"}},
+{"data":{"title":"IOPropertyMatch"},"attr":{"id":"368941","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"EPICName"},"attr":{"id":"368943","ColType":"String","ColValue":"dcpdp-controller-epic"}}]},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"368945","ColType":"String","ColValue":"DCPDPControllerProxyUserClient"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"368947","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Unit"},"attr":{"id":"368949","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Location"},"attr":{"id":"368951","ColType":"String","ColValue":"Embedded"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"368953","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"368955","ColType":"String","ColValue":"com.apple.driver.DCPDPFamilyProxy"}},
+{"data":{"title":"IODPControllerUserInterfaceSupported"},"attr":{"id":"368957","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"368959","ColType":"String","ColValue":"com.apple.driver.DCPDPFamilyProxy"}}
+]

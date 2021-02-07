@@ -1,0 +1,17 @@
+[
+{"data":{"title":"IOLocation"},"attr":{"id":"158454","ColType":"String","ColValue":"1"}},
+{"data":{"title":"IOModel"},"attr":{"id":"158456","ColType":"String","ColValue":"ThunderboltIP"}},
+{"data":{"title":"IOPacketFilters"},"attr":{"id":"158458","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IONetworkFilterGroup"},"attr":{"id":"158460","ColType":"Number","ColValue":"35"}},{"data":{"title":"IOEthernetWakeOnLANFilterGroup"},"attr":{"id":"158462","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOMACAddress"},"attr":{"id":"158464","ColType":"Data","ColValue":"&lt;3620a124bc00&gt;"}},
+{"data":{"title":"IOLinkSpeed"},"attr":{"id":"158466","ColType":"Number","ColValue":"10000000000"}},
+{"data":{"title":"AVBControllerState"},"attr":{"id":"158468","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"IOVendor"},"attr":{"id":"158470","ColType":"String","ColValue":"Apple"}},
+{"data":{"title":"IOSelectedMedium"},"attr":{"id":"158472","ColType":"String","ColValue":"00100020"}},
+{"data":{"title":"IOMinPacketSize"},"attr":{"id":"158474","ColType":"Number","ColValue":"64"}},
+{"data":{"title":"IOFeatures"},"attr":{"id":"158476","ColType":"Number","ColValue":"56"}},
+{"data":{"title":"IORevision"},"attr":{"id":"158478","ColType":"String","ColValue":"4.0.3"}},
+{"data":{"title":"IOLinkStatus"},"attr":{"id":"158480","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"IOMaxPacketSize"},"attr":{"id":"158482","ColType":"Number","ColValue":"9018"}},
+{"data":{"title":"IOActiveMedium"},"attr":{"id":"158484","ColType":"String","ColValue":"00100020"}},
+{"data":{"title":"IOMediumDictionary"},"attr":{"id":"158486","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"00100020"},"attr":{"id":"158488","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Index"},"attr":{"id":"158490","ColType":"Number","ColValue":"0"}},{"data":{"title":"Type"},"attr":{"id":"158492","ColType":"Number","ColValue":"1048608"}},{"data":{"title":"Flags"},"attr":{"id":"158494","ColType":"Number","ColValue":"0"}},{"data":{"title":"Speed"},"attr":{"id":"158496","ColType":"Number","ColValue":"10000000000"}}]}]}
+]

@@ -1,0 +1,13 @@
+[
+{"data":{"title":"IOProbeScore"},"attr":{"id":"164603","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"164605","ColType":"String","ColValue":"com.apple.driver.AppleSPU"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"164607","ColType":"String","ColValue":"AppleSPUAppInterface"}},
+{"data":{"title":"IOClass"},"attr":{"id":"164609","ColType":"String","ColValue":"AppleSPUAppDriver"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"164611","ColType":"String","ColValue":"com.apple.driver.AppleSPU"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"164613","ColType":"String","ColValue":"com.apple.driver.AppleSPU"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"164615","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"164617","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"164618","ColType":"String","ColValue":"SPUApp"}}]},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"164620","ColType":"String","ColValue":"AppleSPUAppDriverUserClient"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"164622","ColType":"String","ColValue":"SPUApp"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"164624","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CapabilityFlags"},"attr":{"id":"164626","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"164628","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"164630","ColType":"Number","ColValue":"1"}}]}
+]

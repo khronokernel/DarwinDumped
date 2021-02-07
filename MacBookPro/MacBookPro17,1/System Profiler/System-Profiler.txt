@@ -1,0 +1,628 @@
+Apple Pay:
+
+      Apple Pay Information:  
+        Platform ID: N5B2M002C3A50000
+        Serial Number: 044C24EB5F5E800201840346253060353FF79A8845167DE6
+        Device: 0xd2
+        Production Signed: Yes
+        Restricted Mode: No
+        Hardware: 0x00000007
+        Firmware: 0x0700
+        JCOP OS: 14.03
+
+      Controller Information:  
+        Hardware: b2.2 ()
+        Firmware: 1.3d rev 98783
+        Middleware: 4.1.1.34
+
+Audio:
+
+    Devices:
+
+        U28D590:
+
+          Manufacturer: SAM
+          Output Channels: 2
+          Current SampleRate: 48000
+          Transport: DisplayPort
+          Output Source: Default
+
+        USB Audio DAC   :
+
+          Default Output Device: Yes
+          Default System Output Device: Yes
+          Manufacturer: Burr-Brown from TI              
+          Output Channels: 2
+          Current SampleRate: 44100
+          Transport: USB
+          Output Source: Default
+
+        USB Audio:
+
+          Manufacturer: DisplayLink
+          Output Channels: 2
+          Current SampleRate: 48000
+          Transport: USB
+          Output Source: Default
+
+        USB Audio:
+
+          Manufacturer: DisplayLink
+          Current SampleRate: 48000
+          Transport: USB
+
+        USB PnP Audio Device:
+
+          Manufacturer: Unknown Manufacturer
+          Output Channels: 2
+          Current SampleRate: 48000
+          Transport: USB
+          Output Source: Default
+
+        USB PnP Audio Device:
+
+          Default Input Device: Yes
+          Input Channels: 1
+          Manufacturer: Unknown Manufacturer
+          Current SampleRate: 48000
+          Transport: USB
+          Input Source: Default
+
+        MacBook Pro Microphone:
+
+          Input Channels: 1
+          Manufacturer: Apple Inc.
+          Current SampleRate: 48000
+          Transport: Built-in
+          Input Source: MacBook Pro Microphone
+
+        MacBook Pro Speakers:
+
+          Manufacturer: Apple Inc.
+          Output Channels: 2
+          Current SampleRate: 44100
+          Transport: Built-in
+          Output Source: MacBook Pro Speakers
+
+Bluetooth:
+
+      Apple Bluetooth Software Version: 8.0.4d5
+      Hardware, Features, and Settings:
+          Bluetooth Low Energy Supported: Yes
+          Handoff Supported: Yes
+          Instant Hot Spot Supported: Yes
+          Manufacturer: Broadcom
+          Transport: PCIe
+          Chipset: 4378
+          Firmware Version: v87 c17802
+          Connectable: Yes
+          Auto Seek Pointing: On
+          Remote wake: On
+          Vendor ID: 0x05AC
+          Product ID: 0x0098
+          Auto Seek Keyboard: On
+      Devices (Paired, Configured, etc.):
+          Device 0:
+              Major Type: Miscellaneous
+              Minor Type: Unknown
+              Services: 
+              Manufacturer: Nordic Semiconductor (0x6, 0x2E)
+              Bluetooth Core Spec: 4.0
+              Vendor ID: 0x045E
+              Product ID: 0x07F3
+          Device 1:
+              Major Type: Peripheral
+              Minor Type: Keyboard
+              Services: Magic Keyboard
+              Manufacturer: Broadcom (0x5, 0x240C)
+              Bluetooth Core Spec: 3.0
+              Firmware Version: 0x0107
+              Vendor ID: 0x004C
+              Product ID: 0x0267
+              Host Connectable: Yes
+              EDR Supported: Yes
+              eSCO Supported: No
+              SSP Supported: Yes
+          Device 2:
+              Major Type: Peripheral
+              Minor Type: Trackpad
+              Services: Magic Trackpad 2
+              Manufacturer: Broadcom (0x5, 0x240C)
+              Bluetooth Core Spec: 3.0
+              Firmware Version: 0x0107
+              Vendor ID: 0x004C
+              Product ID: 0x0265
+              Host Connectable: Yes
+              EDR Supported: Yes
+              eSCO Supported: No
+              SSP Supported: Yes
+          Device 3:
+              Major Type: Audio
+              Minor Type: Headphones
+              Services: Audio Sink, AVRCP Controller, AAP Server, Handsfree, AVRCP Target
+              Manufacturer: Apple (0x9, 0x7604)
+              Bluetooth Core Spec: 5.0
+              Firmware Version: 3​A​283
+              Vendor ID: 0x004C
+              Product ID: 0x200E
+              EDR Supported: Yes
+              eSCO Supported: Yes
+              SSP Supported: Yes
+          Device 4:
+              Major Type: Peripheral
+              Minor Type: Peripheral
+              Services: Xbox Bluetooth Gamepad
+              Manufacturer: Unknown (0x8, 0x00)
+              Bluetooth Core Spec: 4.2
+              Firmware Version: 0x0903
+              Vendor ID: 0x045E
+              Product ID: 0x02FD
+              Host Connectable: Yes
+              EDR Supported: Yes
+              eSCO Supported: Yes
+              SSP Supported: Yes
+
+Camera:
+
+    FaceTime HD Camera:
+
+      Model ID: Apple Camera VendorID_0x106B ProductID_0x000B
+      Unique ID: EAB7A68FEC2B4487AADFD8A91C1CB782
+
+Controller:
+
+      Model Identifier: MacBookPro17,1
+      Firmware Version: iBoot-6723.100.321
+      Boot UUID: 7950302D-F972-456F-BFCD-8AA937AA90AA
+      Boot Policy:  
+        Secure Boot: Full Security
+        System Integrity Protection: Enabled
+        Signed System Volume: Enabled
+        Kernel CTRR: Enabled
+        Boot Arguments Filtering: Enabled
+        Allow All Kernel Extensions: No
+        User Approved Privileged MDM Operations: No
+        DEP Approved Privileged MDM Operations: No
+
+Ethernet Cards:
+
+    USB:
+
+      Type: USB
+      BSD name: en6
+      Kext name: AppleUSBNCM.kext
+      Location: /System/Library/Extensions/AppleUSBNCM.kext
+      Version: 5.0.0
+      MAC Address: 80:3f:5d:01:7c:1e
+      Product ID: 24576
+      Vendor ID: 6121
+
+Graphics/Displays:
+
+    Apple M1:
+
+      Chipset Model: Apple M1
+      Type: GPU
+      Bus: Built-In
+      sppci_cores: 8
+      Vendor: Apple (0x106b)
+      Metal Family: Supported, Metal GPUFamily Apple 7
+      Displays:
+        Color LCD:
+          Resolution: 2880 x 1800
+          UI Looks like: 1440 x 900 @ 60.00Hz
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Automatically Adjust Brightness: No
+          Connection Type: Internal
+        Display:
+          Resolution: 3840 x 2160 (2160p/4K UHD 1 - Ultra High Definition)
+          UI Looks like: 1920 x 1080 @ 60.00Hz
+          Mirror: Off
+          Online: Yes
+          Rotation: Supported
+          Automatically Adjust Brightness: Yes
+        Display:
+          Resolution: 3840 x 2160 (2160p/4K UHD 1 - Ultra High Definition)
+          UI Looks like: 1920 x 1080 @ 60.00Hz
+          Mirror: Off
+          Online: Yes
+          Rotation: Supported
+          Automatically Adjust Brightness: Yes
+
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro17,1
+      Chip: Apple M1
+      Total Number of Cores: 8 (4 performance and 4 efficiency)
+      Memory: 16 GB
+      System Firmware Version: 6723.100.321
+      OS Loader Version: 6723.100.321
+
+Memory:
+
+      Memory: 16 GB
+      Type: LPDDR4
+
+NVMExpress:
+
+    Apple SSD Controller:
+
+        APPLE SSD AP1024Q:
+
+          Capacity: 1 TB (1,000,555,581,440 bytes)
+          TRIM Support: Yes
+          Model: APPLE SSD AP1024Q
+          Revision: 2.100.34
+          Detachable Drive: No
+          BSD Name: disk0
+          Partition Map Type: GPT (GUID Partition Table)
+          Removable Media: No
+          S.M.A.R.T. status: Verified
+
+Network:
+
+    Ethernet Adaptor (en3):
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en3
+      Service Order: 0
+
+    Ethernet Adaptor (en4):
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en4
+      Service Order: 1
+
+    USB3.0 5K Graphic Docking:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en6
+      Service Order: 2
+
+    Wi-Fi:
+
+      Type: AirPort
+      Hardware: AirPort
+      BSD Device Name: en0
+      Service Order: 3
+
+    iPhone:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en10
+      Service Order: 4
+
+    Bluetooth PAN:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en5
+      Service Order: 5
+
+    Thunderbolt Bridge:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: bridge0
+      Service Order: 6
+
+Printer Software:
+
+    PPDs:
+
+      PPDs: 
+
+    Printers:
+
+      Printers: 
+
+    Image Capture Devices:
+
+      Image Capture Devices: 
+
+    Image Capture Support:
+
+      Image Capture Support:
+          Path: /Library/Image Capture/Support/LegacyDeviceDiscoveryHelpers/AirScanLegacyDiscovery.app/Contents/Info.plist
+          Version: 16.1
+
+    System Library Extensions:
+
+      System Library Extensions:
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/AppleXserveRAID.kext
+          Version: 511.100.8
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/FireWireStorageDeviceSpecifics.kext
+          Version: 511.100.8
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/USBStorageDeviceSpecifics.kext
+          Version: 511.100.8
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/AppleATAPIStorage.kext
+          Version: 511.100.8
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/SCSIDeviceSpecifics.kext
+          Version: 511.100.8
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/SonyXDCAMDriver.kext
+          Version: 511.100.8
+          Path: /System/Library/Extensions/AFKACIPCKext.kext
+          Version: 1.0
+          Path: /System/Library/Extensions/AppleHIDKeyboardEmbedded.kext
+          Version: 1.2.0
+          Path: /System/Library/Extensions/IOStreamFamily.kext/Contents/PlugIns/IOStreamUserClient.kext
+          Version: 1.1.0
+          Path: /System/Library/Extensions/AppleBSDKextStarter.kext/Contents/PlugIns/AppleBSDKextStarterVPN.kext
+          Version: 1.0
+          Path: /System/Library/Extensions/AppleBSDKextStarter.kext/Contents/PlugIns/AppleBSDKextStarterTMPFS.kext
+          Version: 1.0
+          Path: /System/Library/Extensions/AppleTopCase.kext
+          Version: 4040.8
+          Path: /System/Library/Extensions/AppleTopCase.kext/Contents/PlugIns/AppleTopCaseDriverV2.kext
+          Version: 4040.8
+          Path: /System/Library/Extensions/AppleTopCase.kext/Contents/PlugIns/AppleTopCaseActuatorHIDDriver.kext
+          Version: 4040.8
+          Path: /System/Library/Extensions/IOVideoFamily.kext/Contents/PlugIns/IOVideoDeviceUserClient.kext
+          Version: 1.2.0
+          Path: /System/Library/Extensions/AppleGameControllerPersonality.kext
+          Version: 1.0
+          Path: /System/Library/Extensions/AppleUSBTopCase.kext
+          Version: 256
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDEventDriver.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDUserClient.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDEventDriverSafeBoot.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/IOUSBHIDDriverSafeBoot.kext
+          Version: 900.4.2
+          Path: /System/Library/Extensions/CellPhoneHelper.kext
+          Version: 1.4.0
+          Path: /System/Library/Extensions/IOUSBHostFamily.kext/Contents/PlugIns/IOUSBHostHIDDeviceSafeBoot.kext
+          Version: 1.2
+
+    Library Extensions:
+
+      Library Extensions: 
+
+Printers:
+
+      Status: The printers list is empty. To add printers, choose Apple menu > System Preferences…, click Printers & Scanners, and then click Add (+).
+      CUPS Version: 2.3.4 (cups-494.1)
+
+SPI:
+
+    Apple Internal Keyboard / Trackpad:
+
+      Product ID: 0x0341
+      Vendor ID: 0x05ac (Apple Inc.)
+      ST Version: 1.75
+      MT Version: 5.29
+      Serial Number: FM704830F7ZN4L2AT+TTT
+      Manufacturer: Apple Inc.
+      Location ID: 0x00000024
+
+    Touch Bar Display:
+
+      MT Version: 4.68
+      Location ID: 0x00000020
+
+Software:
+
+    System Software Overview:
+
+      System Version: macOS 11.3 (20E5172i)
+      Kernel Version: Darwin 20.4.0
+      Time since boot: 3 days 3:56
+
+Thunderbolt/USB4:
+
+    Thunderbolt/USB4 Bus 1:
+
+      Vendor Name: Apple Inc.
+      Device Name: MacBook Pro
+      UID: 0x05ACF34A94892F01
+      Route String: 0
+      Domain UUID: BD40FD7C-ABBE-4F49-A780-5E17C9C612CC
+      Port:
+          Status: No device connected
+          Link Status: 0x100
+          Speed: Up to 40 Gb/s x1
+          Current Link Width: 0x1
+          Receptacle: 1
+
+    Thunderbolt/USB4 Bus 0:
+
+      Vendor Name: Apple Inc.
+      Device Name: MacBook Pro
+      UID: 0x05ACF34A94892F00
+      Route String: 0
+      Domain UUID: B385AF91-E097-4C3B-B26C-4906C0CF9763
+      Port:
+          Status: No device connected
+          Link Status: 0x100
+          Speed: Up to 40 Gb/s x1
+          Current Link Width: 0x1
+          Receptacle: 1
+
+USB:
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleT8103USBXHCI
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleT8103USBXHCI
+
+        USB2.0 Hub:
+
+          Product ID: 0x5012
+          Vendor ID: 0x1d5c  (Fresco Logic Inc.)
+          Version: 1.00
+          Speed: Up to 480 Mb/s
+          Manufacturer: Fresco Logic, Inc.
+          Location ID: 0x00100000 / 1
+          Current Available (mA): 500
+          Current Required (mA): 0
+          Extra Operating Current (mA): 0
+
+            Generic Billboard Device:
+
+              Product ID: 0x5100
+              Vendor ID: 0x1d5c  (Fresco Logic Inc.)
+              Version: 1.00
+              Speed: Up to 480 Mb/s
+              Manufacturer: Fresco Logic, Inc
+              Location ID: 0x00150000 / 6
+              Current Available (mA): 500
+              Current Required (mA): 0
+              Extra Operating Current (mA): 0
+
+            JMS579:
+
+              Product ID: 0x0578
+              Vendor ID: 0x152d  (JMicron Technology Corp.)
+              Version: 32.02
+              Serial Number: 160834442014
+              Speed: Up to 480 Mb/s
+              Manufacturer: JMicron
+              Location ID: 0x00140000 / 3
+              Current Available (mA): 500
+              Current Required (mA): 500
+              Extra Operating Current (mA): 0
+              Media:
+                SD8SN8U256G1122:
+                  Capacity: 256.06 GB (256,060,514,304 bytes)
+                  Removable Media: No
+                  BSD Name: disk4
+                  Logical Unit: 0
+                  Partition Map Type: GPT (GUID Partition Table)
+                  S.M.A.R.T. status: Verified
+                  USB Interface: 0
+
+            Hub:
+
+              Product ID: 0x0233
+              Vendor ID: 0x050d  (Belkin Corporation)
+              Version: 0.00
+              Speed: Up to 480 Mb/s
+              Location ID: 0x00130000 / 4
+              Current Available (mA): 500
+              Current Required (mA): 2
+              Extra Operating Current (mA): 0
+
+                USB Receiver:
+
+                  Product ID: 0xc52b
+                  Vendor ID: 0x046d  (Logitech Inc.)
+                  Version: 24.10
+                  Speed: Up to 12 Mb/s
+                  Manufacturer: Logitech
+                  Location ID: 0x00134000 / 8
+                  Current Available (mA): 500
+                  Current Required (mA): 98
+                  Extra Operating Current (mA): 0
+
+                FT232R USB UART:
+
+                  Product ID: 0x6001
+                  Vendor ID: 0x0403  (Future Technology Devices International Limited)
+                  Version: 6.00
+                  Serial Number: AG0JH66B
+                  Speed: Up to 12 Mb/s
+                  Manufacturer: FTDI
+                  Location ID: 0x00133000 / 11
+                  Current Available (mA): 500
+                  Current Required (mA): 90
+                  Extra Operating Current (mA): 0
+
+                USB Receiver:
+
+                  Product ID: 0xc52b
+                  Vendor ID: 0x046d  (Logitech Inc.)
+                  Version: 12.11
+                  Speed: Up to 12 Mb/s
+                  Manufacturer: Logitech
+                  Location ID: 0x00132000 / 9
+                  Current Available (mA): 500
+                  Current Required (mA): 98
+                  Extra Operating Current (mA): 0
+
+                USB Audio DAC   :
+
+                  Product ID: 0x2704
+                  Vendor ID: 0x08bb  (Texas Instruments Japan)
+                  Version: 1.00
+                  Speed: Up to 12 Mb/s
+                  Manufacturer: Burr-Brown from TI              
+                  Location ID: 0x00131000 / 7
+                  Current Available (mA): 500
+                  Current Required (mA): 500
+                  Extra Operating Current (mA): 0
+
+            USB2.1 Hub:
+
+              Product ID: 0x0610
+              Vendor ID: 0x05e3  (Genesys Logic, Inc.)
+              Version: 93.06
+              Speed: Up to 480 Mb/s
+              Manufacturer: GenesysLogic
+              Location ID: 0x00120000 / 5
+              Current Available (mA): 500
+              Current Required (mA): 100
+              Extra Operating Current (mA): 0
+
+                USB PnP Audio Device:
+
+                  Product ID: 0x161f
+                  Vendor ID: 0x0c76  (Solid State System Co., Ltd.)
+                  Version: 1.00
+                  Speed: Up to 12 Mb/s
+                  Location ID: 0x00124000 / 10
+                  Current Available (mA): 500
+                  Current Required (mA): 100
+                  Extra Operating Current (mA): 0
+
+            USB3.0 5K Graphic Docking:
+
+              Product ID: 0x6000
+              Vendor ID: 0x17e9  (DisplayLink (UK) Ltd.)
+              Version: 31.97
+              Serial Number: 4310338374731
+              Speed: Up to 480 Mb/s
+              Manufacturer: DisplayLink
+              Location ID: 0x00110000 / 2
+              Current Available (mA): 500
+              Current Required (mA): 2
+              Extra Operating Current (mA): 0
+
+Wi-Fi:
+
+      Software Versions:
+          CoreWLAN: 16.0 (1657)
+          CoreWLANKit: 16.0 (1657)
+          Menu Extra: 17.0 (1728)
+          System Information: 15.0 (1502)
+          IO80211 Family: 12.0 (1200.12.2b1)
+          Diagnostics: 11.0 (1163)
+          AirPort Utility: 6.3.9 (639.15)
+      Interfaces:
+        en0:
+          Card Type: AirPort Extreme
+          Firmware Version: wl0: Jan  8 2021 19:23:31 version 18.50.22.0.7.8.107 FWID 01-52faef3b
+          MAC Address: 74:8f:3c:c2:bf:93
+          Locale: FCC
+          Country Code: CA
+          Supported PHY Modes: 802.11 a/b/g/n/ac/ax
+          Supported Channels: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 144, 149, 153, 157, 161, 165
+          Wake On Wireless: Supported
+          AirDrop: Supported
+          AirDrop Channel: 149
+          Auto Unlock: Supported
+          Status: Connected
+

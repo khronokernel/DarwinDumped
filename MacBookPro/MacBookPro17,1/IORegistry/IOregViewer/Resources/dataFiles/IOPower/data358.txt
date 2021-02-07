@@ -1,0 +1,11 @@
+[
+{"data":{"title":"IOPropertyMatch"},"attr":{"id":"46216","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"46217","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOAccessoryPrimaryDevicePort"},"attr":{"id":"46219","ColType":"Number","ColValue":"1"}}]}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"46221","ColType":"String","ColValue":"com.apple.iokit.IOAccessoryManager"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"46223","ColType":"String","ColValue":"IOAccessoryUSBConnectShim"}},
+{"data":{"title":"IOClass"},"attr":{"id":"46225","ColType":"String","ColValue":"IOAccessoryUSBConnectShim"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"46227","ColType":"String","ColValue":"com.apple.iokit.IOAccessoryManager"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"46229","ColType":"String","ColValue":"IOAccessoryManager"}},
+{"data":{"title":"CFBundleIdentifierKernel"},"attr":{"id":"46231","ColType":"String","ColValue":"com.apple.iokit.IOAccessoryManager"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"46233","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"46235","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DevicePowerState"},"attr":{"id":"46237","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"46239","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"46241","ColType":"Number","ColValue":"32768"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"46243","ColType":"Number","ColValue":"2"}}]}
+]

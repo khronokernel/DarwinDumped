@@ -1,0 +1,23 @@
+[
+{"data":{"title":"Transport"},"attr":{"id":"302848","ColType":"String","ColValue":"USB"}},
+{"data":{"title":"BootProtocol"},"attr":{"id":"302850","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"302852","ColType":"String","ColValue":""}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"302854","ColType":"String","ColValue":"Logitech"}},
+{"data":{"title":"Product"},"attr":{"id":"302856","ColType":"String","ColValue":"USB Receiver"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"302858","ColType":"Number","ColValue":"8"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"302860","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"302861","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"302863","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"302865","ColType":"Number","ColValue":"6"}}]}]},
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"302867","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"302869","ColType":"Data","ColValue":"&lt;05010906a101050719e029e71500250175019508810281039505050819012905910295017503910195067508150026a400050719002aa4008100c0&gt;"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"302871","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"VendorID"},"attr":{"id":"302873","ColType":"Number","ColValue":"1133"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"302875","ColType":"Number","ColValue":"9232"}},
+{"data":{"title":"IOServiceDEXTEntitlements"},"attr":{"id":"302877","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"302878","ColType":"String","ColValue":"com.apple.developer.driverkit.transport.hid"}}]},
+{"data":{"title":"IODEXTMatchCount"},"attr":{"id":"302880","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"302882","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"LocationID"},"attr":{"id":"302884","ColType":"Number","ColValue":"1261568"}},
+{"data":{"title":"ProductID"},"attr":{"id":"302886","ColType":"Number","ColValue":"50475"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"302888","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"302890","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"DeviceOpenedByEventSystem"},"attr":{"id":"302892","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"302894","ColType":"Number","ColValue":"0"}}
+]
